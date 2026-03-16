@@ -22,11 +22,11 @@ Become a sponsor: <https://liberapay.com/KOReader>
 Translate: <https://hosted.weblate.org/engage/koreader>  
 Report the bug: <https://github.com/koreader/koreader/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-aarch64-v2025.10.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

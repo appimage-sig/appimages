@@ -25,11 +25,11 @@ Become a sponsor: <https://ld246.com/sponsor>
 Translate: <https://github.com/siyuan-note/siyuan/tree/master/app/appearance/langs>  
 Report the bug: <https://github.com/siyuan-note/siyuan/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

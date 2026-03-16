@@ -23,11 +23,11 @@ Source code: <https://github.com/beekeeper-studio/beekeeper-studio>
 Become a sponsor: <https://github.com/sponsors/beekeeper-studio>  
 Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.5.5/Beekeeper-Studio-5.5.5.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.5.5/Beekeeper-Studio-5.5.5-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

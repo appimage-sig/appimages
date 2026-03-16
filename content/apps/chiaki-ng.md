@@ -23,11 +23,11 @@ Source code: <https://github.com/streetpea/chiaki-ng>
 Become a sponsor: <https://buymeacoffee.com/streetpea>  
 Report the bug: <https://github.com/streetpea/chiaki-ng/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_x86_64>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

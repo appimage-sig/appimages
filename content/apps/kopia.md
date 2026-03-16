@@ -20,14 +20,14 @@ Source code: <https://github.com/kopia/kopia>
 
 Report the bug: <https://github.com/kopia/kopia/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-arm64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download armv7l" >}}
+    </div>
+    <div id="Download armv7l" class="tab-pane">
     <https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-armv7l.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

@@ -24,11 +24,11 @@ Become a sponsor: <https://opencollective.com/open-chemistry>
 Translate: <https://hosted.weblate.org/engage/avogadro>  
 Report the bug: <https://github.com/openchemistry/avogadrolibs/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/OpenChemistry/avogadrolibs/releases/download/continuous/Avogadro2-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/OpenChemistry/avogadrolibs/releases/download/continuous/Avogadro2-x86_64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

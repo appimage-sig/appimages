@@ -24,11 +24,11 @@ Become a sponsor: <https://github.com/sponsors/LibreCAD>
 Translate: <https://translate.librecad.org>  
 Report the bug: <https://github.com/LibreCAD/LibreCAD/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.3/LibreCAD-v2.2.1.3-2-g1598766fb-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.3/LibreCAD-v2.2.1.3-2-g1598766fb-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

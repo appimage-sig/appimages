@@ -23,11 +23,11 @@ Source code: <https://github.com/koodo-reader/koodo-reader>
 Translate: <https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#translation>  
 Report the bug: <https://github.com/koodo-reader/koodo-reader/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/koodo-reader/koodo-reader/releases/download/v2.2.5/Koodo-Reader-2.2.5-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/koodo-reader/koodo-reader/releases/download/v2.2.5/Koodo-Reader-2.2.5-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

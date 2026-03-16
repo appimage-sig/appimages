@@ -19,11 +19,11 @@ Source code: <https://github.com/Equicord/Equibop>
 
 Report the bug: <https://github.com/Equicord/Equibop/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

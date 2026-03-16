@@ -20,11 +20,11 @@ Source code: <https://github.com/neovim/neovim>
 Become a sponsor: <https://github.com/sponsors/neovim>  
 Report the bug: <https://github.com/neovim/neovim/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-arm64.appimage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

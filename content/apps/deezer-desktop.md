@@ -21,11 +21,11 @@ Source code: <https://github.com/aunetx/deezer-linux>
 Become a sponsor: <https://github.com/sponsors/aunetx>  
 Report the bug: <https://github.com/aunetx/deezer-linux/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

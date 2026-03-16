@@ -24,17 +24,17 @@ Source code: <https://gitlab.com/CalcProgrammer1/OpenRGB>
 Become a sponsor: <https://patreon.com/CalcProgrammer1>  
 Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_x86_64_0fca93e.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download x86" >}}
+    </div>
+    <div id="Download x86" class="tab-pane">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_arm64_0fca93e.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download armv7l" >}}
+    </div>
+    <div id="Download armv7l" class="tab-pane">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_armhf_0fca93e.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

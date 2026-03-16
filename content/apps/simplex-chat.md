@@ -25,11 +25,11 @@ Become a sponsor: <https://github.com/sponsors/simplex-chat>
 Translate: <https://hosted.weblate.org/engage/simplex-chat>  
 Report the bug: <https://github.com/simplex-chat/simplex-chat/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.8/simplex-desktop-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.8/simplex-desktop-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

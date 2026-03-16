@@ -22,11 +22,11 @@ Become a sponsor: <https://lmms.io/get-involved/#donate>
 Translate: <https://explore.transifex.com/lmms/lmms>  
 Report the bug: <https://github.com/LMMS/lmms/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://lmms.io/download/artifact/4948147759>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://lmms.io/download/artifact/4948180663>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

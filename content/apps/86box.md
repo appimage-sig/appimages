@@ -23,12 +23,11 @@ Source code: <https://github.com/86Box/86Box>
 Become a sponsor: <https://www.paypal.com/paypalme/86Box>  
 Report the bug: <https://github.com/86Box/86Box/issues/new>  
 
-{{< tabs >}}
-
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
  <https://github.com/86Box/86Box/releases/download/v5.3/86Box-Linux-x86_64-b8200.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

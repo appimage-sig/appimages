@@ -21,11 +21,11 @@ Source code: <https://github.com/ossia/score>
 Become a sponsor: <https://opencollective.com/ossia>  
 Report the bug: <https://github.com/ossia/score/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

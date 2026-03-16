@@ -24,11 +24,11 @@ Become a sponsor: <https://ko-fi.com/jorio>
 Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
 Report the bug: <https://github.com/jorio/gitfourchette/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

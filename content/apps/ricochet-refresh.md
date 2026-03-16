@@ -20,11 +20,11 @@ Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 
 Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.appimage>  
-    {{< /tab >}}
-    {{< tab label="Download x86" >}}
+    </div>
+    <div id="Download x86" class="tab-pane">
     <https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.appimage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

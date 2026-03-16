@@ -22,11 +22,11 @@ Become a sponsor: <https://ko-fi.com/cybertimon>
 Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
 Report the bug: <https://github.com/CyberTimon/RapidRAW/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04_amd64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04-arm_aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

@@ -21,11 +21,11 @@ Source code: <https://github.com/usebruno/bruno>
 
 Report the bug: <https://github.com/usebruno/bruno/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/usebruno/bruno/releases/download/v3.0.2/bruno_3.0.2_x86_64_linux.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/usebruno/bruno/releases/download/v3.0.2/bruno_3.0.2_arm64_linux.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

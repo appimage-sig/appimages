@@ -22,11 +22,11 @@ Source code: <https://github.com/gitbutlerapp/gitbutler>
 
 Report the bug: <https://github.com/gitbutlerapp/gitbutler/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/x86_64/GitButler_0.18.8_amd64.AppImage.tar.gz>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/aarch64/GitButler_0.18.8_aarch64.AppImage.tar.gz>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

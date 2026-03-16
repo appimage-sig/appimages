@@ -19,11 +19,11 @@ Source code: <https://github.com/myst6re/makoureactor>
 
 Report the bug: <https://github.com/myst6re/makoureactor/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

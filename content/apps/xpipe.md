@@ -23,11 +23,11 @@ Source code: <https://github.com/xpipe-io/xpipe>
 Translate: <https://github.com/xpipe-io/xpipe/tree/master/lang>  
 Report the bug: <https://github.com/xpipe-io/xpipe/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

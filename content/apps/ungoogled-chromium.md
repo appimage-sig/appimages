@@ -19,11 +19,11 @@ Source code: <https://github.com/ungoogled-software/ungoogled-chromium>
 
 Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/144.0.7559.96-1/ungoogled-chromium-144.0.7559.96-1-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/144.0.7559.96-1/ungoogled-chromium-144.0.7559.96-1-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

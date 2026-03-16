@@ -22,11 +22,11 @@ Become a sponsor: <https://github.com/sponsors/GlitterWare>
 Translate: <https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md>  
 Report the bug: <https://github.com/GlitterWare/Passy/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-x86-64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

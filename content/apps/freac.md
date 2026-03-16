@@ -24,23 +24,23 @@ Become a sponsor: <https://www.freac.org/donate-to-bonkenc-othermenu-34>
 Translate: <https://www.freac.org/translation-status-othermenu-26>  
 Report the bug: <https://github.com/enzo1982/freac/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-aarch64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download x86" >}}
+    </div>
+    <div id="Download x86" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-i686.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download armv7l" >}}
+    </div>
+    <div id="Download armv7l" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-armhf.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download riscv64" >}}
+    </div>
+    <div id="Download riscv64" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download ppc64" >}}
+    </div>
+    <div id="Download ppc64" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-ppc64el.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

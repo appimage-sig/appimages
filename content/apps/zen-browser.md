@@ -23,11 +23,11 @@ Become a sponsor: <https://patreon.com/zen_browser>
 Translate: <https://crowdin.com/project/zen-browser>  
 Report the bug: <https://github.com/zen-browser/desktop/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/zen-browser/desktop/releases/download/1.18.1b/zen-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/zen-browser/desktop/releases/download/1.18.1b/zen-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

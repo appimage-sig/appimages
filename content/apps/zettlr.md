@@ -24,11 +24,11 @@ Become a sponsor: <https://github.com/sponsors/nathanlesage>
 Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
 Report the bug: <https://github.com/Zettlr/Zettlr/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/Zettlr/Zettlr/releases/download/v4.1.1/Zettlr-4.1.1-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/Zettlr/Zettlr/releases/download/v4.1.1/Zettlr-4.1.1-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

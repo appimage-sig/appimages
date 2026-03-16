@@ -23,14 +23,14 @@ Become a sponsor: <https://github.com/Milkshiift/GoofCord?tab=readme-ov-file#don
 Translate: <https://hosted.weblate.org/engage/goofcord/>  
 Report the bug: <https://github.com/Milkshiift/GoofCord/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-arm64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download armv7l" >}}
+    </div>
+    <div id="Download armv7l" class="tab-pane">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-armv7l.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

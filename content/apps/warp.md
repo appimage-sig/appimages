@@ -18,11 +18,11 @@ Web page: <https://www.warp.dev>
 
 Report the bug: <https://github.com/warpdotdev/Warp/issues>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://releases.warp.dev/stable/v0.2025.12.17.17.17.stable_02/Warp-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://releases.warp.dev/stable/v0.2025.12.17.17.17.stable_02/Warp-aarch64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

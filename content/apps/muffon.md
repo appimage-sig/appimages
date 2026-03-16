@@ -23,11 +23,11 @@ Source code: <https://github.com/staniel359/muffon>
 Become a sponsor: <https://ko-fi.com/staniel359>  
 Report the bug: <https://github.com/staniel359/muffon/issues>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/staniel359/muffon/releases/download/v2.3.0/muffon-2.3.0-linux-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/staniel359/muffon/releases/download/v2.3.0/muffon-2.3.0-linux-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

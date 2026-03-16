@@ -21,11 +21,11 @@ Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
 Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
 Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-x86_64.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}

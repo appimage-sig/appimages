@@ -23,11 +23,11 @@ Become a sponsor: <https://ko-fi.com/danielerollibeavernotes>
 Translate: <https://danieles-organization.gitbook.io/beaver-notes/dev-guides/translate-beaver>  
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues/new>  
 
-{{< tabs >}}
-    {{< tab label="Download x86_64" >}}
+{% tabs() %}
+    <div id="Download x86_64" class="tab-pane active">
     <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage>  
-    {{< /tab >}}
-    {{< tab label="Download arm64" >}}
+    </div>
+    <div id="Download arm64" class="tab-pane">
     <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0-arm64.AppImage>  
-    {{< /tab >}}
-{{< /tabs >}}
+    </div>
+{% end %}
