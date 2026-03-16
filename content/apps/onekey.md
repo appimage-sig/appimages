@@ -20,7 +20,7 @@ Source code: <https://github.com/OneKeyHQ/app-monorepo>
 
 Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.19.2/OneKey-Wallet-5.19.2-linux-x86_64.AppImage>  
     </div>

@@ -21,7 +21,7 @@ Source code: <https://github.com/LinwoodDev/Flow>
 Translate: <https://translate.linwood.dev/butterfly>  
 Report the bug: <https://github.com/LinwoodDev/Flow/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/LinwoodDev/Flow/releases/download/v0.5.2/linwood-flow-linux-x86_64.AppImage>  
     </div>

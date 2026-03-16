@@ -22,7 +22,7 @@ Source code: <https://github.com/jgraph/drawio-desktop>
 
 Report the bug: <https://github.com/jgraph/drawio-desktop/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/jgraph/drawio-desktop/releases/download/v29.3.0/drawio-x86_64-29.3.0.AppImage>  
     </div>

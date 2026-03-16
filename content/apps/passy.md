@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/GlitterWare>
 Translate: <https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md>  
 Report the bug: <https://github.com/GlitterWare/Passy/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-x86-64.AppImage>  
     </div>

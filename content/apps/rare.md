@@ -21,7 +21,7 @@ Source code: <https://github.com/RareDevs/Rare>
 Translate: <https://explore.transifex.com/rare-1/rare>  
 Report the bug: <https://github.com/RareDevs/Rare/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-x86_64.AppImage>  
     </div>

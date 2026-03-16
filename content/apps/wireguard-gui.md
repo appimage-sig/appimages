@@ -22,7 +22,7 @@ Source code: <https://github.com/leon3s/wireguard-gui>
 Become a sponsor: <https://github.com/sponsors/leon3s>  
 Report the bug: <https://github.com/leon3s/wireguard-gui/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage>  
     </div>

@@ -21,7 +21,7 @@ Source code: <https://github.com/dr460nf1r3/firedragon-browser>
 
 Report the bug: <https://gitlab.com/garuda-linux/firedragon/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://gitlab.com/garuda-linux/firedragon/firedragon12/-/releases/v12.7.0/downloads/firedragon-appimage-x64.AppImage>  
     </div>

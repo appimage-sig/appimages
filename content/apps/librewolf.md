@@ -20,7 +20,7 @@ Source code: <https://codeberg.org/librewolf/source>
 Translate: <https://translate.codeberg.org/engage/librewolf>  
 Report the bug: <https://codeberg.org/librewolf/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0-1/LibreWolf.x86_64.AppImage>  
     </div>

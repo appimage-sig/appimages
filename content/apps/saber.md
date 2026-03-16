@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/adil192>
 Translate: <https://github.com/saber-notes/saber?tab=readme-ov-file#translating>  
 Report the bug: <https://github.com/saber-notes/saber/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/saber-notes/saber/releases/download/v1.30.0/Saber-1.30.0-x86_64.AppImage>  
     </div>

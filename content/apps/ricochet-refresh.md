@@ -20,7 +20,7 @@ Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 
 Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.appimage>  
     </div>

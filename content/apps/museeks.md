@@ -21,7 +21,7 @@ Source code: <https://github.com/martpie/museeks>
 
 Report the bug: <https://github.com/martpie/museeks/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/martpie/museeks/releases/download/0.23.1/Museeks_0.23.1_amd64.AppImage>  
     </div>

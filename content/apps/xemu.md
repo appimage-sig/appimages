@@ -21,7 +21,7 @@ Source code: <https://github.com/xemu-project/xemu>
 Become a sponsor: <https://www.patreon.com/mborgerson>  
 Report the bug: <https://github.com/xemu-project/xemu/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-x86_64.AppImage>  
     </div>

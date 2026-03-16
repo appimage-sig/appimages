@@ -22,7 +22,7 @@ Source code: <https://github.com/Vencord/Vesktop>
 Become a sponsor: <https://github.com/sponsors/Vendicated>  
 Report the bug: <https://github.com/Vencord/Vesktop/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Vencord/Vesktop/releases/download/v1.6.4/Vesktop-1.6.4.AppImage>  
     </div>
