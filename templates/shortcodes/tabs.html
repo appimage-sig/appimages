@@ -1,32 +1,23 @@
-<div class="tabs-container my-6" id="tabs-{{ nth }}">
-  <div class="flex border-b border-gray-200 dark:border-gray-700">
-    {% for name in names %}
-    <button 
-      class="tab-link px-4 py-2 text-sm font-medium transition-all focus:outline-none"
-      onclick="switchTab(event, 'content-{{ nth }}-{{ loop.index0 }}')"
-      data-index="{{ loop.index0 }}"
-    >
-      {{ name }}
-    </button>
-    {% endfor %}
-  </div>
-
-  <div class="tabs-content mt-4">
-    {{ body | markdown | safe }}
-  </div>
+html
+<div class="tabs-container" id="tabs-{{ nth }}">
+    <div class="tabs-header flex border-b">
+        {% for name in names %}
+        <button 
+            class="tab-link px-4 py-2 {% if loop.first %}active-tab{% endif %}" 
+            onclick="openTab(event, 'tab-{{ nth }}-{{ loop.index0 }}')">
+            {{ name }}
+        </button>
+        {% endfor %}
+    </div>
+    <div class="tabs-content">
+        {{ body | markdown | safe }}
+    </div>
 </div>
 
 <script>
-if (typeof switchTab !== 'function') {
-  function switchTab(evt, tabId) {
-    const container = evt.currentTarget.closest('.tabs-container');
-    container.querySelectorAll('.tab-pane').forEach(p => p.classList.add('hidden'));
-    container.querySelectorAll('.tab-link').forEach(l => {
-      l.classList.remove('border-b-2', 'border-blue-500', 'text-blue-600');
-    });
-    
-    document.getElementById(tabId).classList.remove('hidden');
-    evt.currentTarget.classList.add('border-b-2', 'border-blue-500', 'text-blue-600');
-  }
+function openTab(evt, tabId) {
+    let container = evt.currentTarget.closest('.tabs-container');
+    container.querySelectorAll('.tab-pane').forEach(tab => tab.style.display = 'none');
+    document.getElementById(tabId).style.display = 'block';
 }
 </script>

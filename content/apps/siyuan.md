@@ -26,10 +26,10 @@ Translate: <https://github.com/siyuan-note/siyuan/tree/master/app/appearance/lan
 Report the bug: <https://github.com/siyuan-note/siyuan/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux-arm64.AppImage>  
     </div>
 {% end %}

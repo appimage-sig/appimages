@@ -1,16 +1,9 @@
-.tab-link {
-    cursor: pointer;
-    transition: all 0.3s;
-}
-.tab-link:hover {
-    background-color: rgba(0,0,0,0.05);
-}
 .tab-pane {
-    display: none;
-    color: none;
+    display: none; 
     border-bottom: rgb(20, 149, 167) solid 2px;
+    padding: 1rem 0;
 }
-.tab-pane.hidden {
-    color: none;
-    display: block;
+
+.tab-pane.active {
+    display: block; 
 }

@@ -22,10 +22,10 @@ Translate: <https://crowdin.com/project/pulsar-edit>
 Report the bug: <https://github.com/pulsar-edit/pulsar/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/pulsar-edit/pulsar/releases/download/v1.130.1/Linux.Pulsar-1.130.1.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/pulsar-edit/pulsar/releases/download/v1.130.1/ARM.Linux.Pulsar-1.130.1-arm64.AppImage>  
     </div>
 {% end %}

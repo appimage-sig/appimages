@@ -24,10 +24,10 @@ Translate: <https://crowdin.com/project/xournalpp>
 Report the bug: <https://github.com/xournalpp/xournalpp/releases/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-aarch64.AppImage>  
     </div>
 {% end %}

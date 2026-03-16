@@ -22,10 +22,10 @@ Become a sponsor: <https://github.com/sponsors/aunetx>
 Report the bug: <https://github.com/aunetx/deezer-linux/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-arm64.AppImage>  
     </div>
 {% end %}

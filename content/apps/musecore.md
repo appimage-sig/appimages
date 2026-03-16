@@ -22,10 +22,10 @@ Translate: <https://musescore.org/administrative-guidelines/translation-instruct
 Report the bug: <https://github.com/musescore/MuseScore/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/musescore/MuseScore/releases/download/v4.6.5/MuseScore-Studio-4.6.5.253511702-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/musescore/MuseScore/releases/download/v4.6.5/MuseScore-Studio-4.6.5.253511702-aarch64.AppImage>  
     </div>
 {% end %}

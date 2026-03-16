@@ -25,10 +25,10 @@ Translate: <https://crowdin.com/project/freecad>
 Report the bug: <https://github.com/FreeCAD/FreeCAD/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage>  
     </div>
 {% end %}

@@ -20,10 +20,10 @@ Source code: <https://github.com/myst6re/makoureactor>
 Report the bug: <https://github.com/myst6re/makoureactor/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage>  
     </div>
 {% end %}

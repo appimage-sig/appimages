@@ -23,10 +23,10 @@ Translate: <https://github.com/ransome1/sleek/tree/main/src/locales>
 Report the bug: <https://github.com/ransome1/sleek/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/ransome1/sleek/releases/download/v2.0.22/sleek-2.0.22-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/ransome1/sleek/releases/download/v2.0.22/sleek-2.0.22-linux-arm64.AppImage>  
     </div>
 {% end %}

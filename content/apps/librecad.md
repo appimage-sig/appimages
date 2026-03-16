@@ -25,10 +25,10 @@ Translate: <https://translate.librecad.org>
 Report the bug: <https://github.com/LibreCAD/LibreCAD/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.3/LibreCAD-v2.2.1.3-2-g1598766fb-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.3/LibreCAD-v2.2.1.3-2-g1598766fb-aarch64.AppImage>  
     </div>
 {% end %}

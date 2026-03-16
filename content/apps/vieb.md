@@ -24,10 +24,10 @@ Become a sponsor: <https://github.com/sponsors/Jelmerro>
 Report the bug: <https://github.com/Jelmerro/Vieb/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/Jelmerro/Vieb/releases/download/12.6.0/Vieb-12.6.0.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/Jelmerro/Vieb/releases/download/12.6.0/Vieb-12.6.0-arm64.AppImage>  
     </div>
 {% end %}

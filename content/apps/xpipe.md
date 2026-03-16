@@ -24,10 +24,10 @@ Translate: <https://github.com/xpipe-io/xpipe/tree/master/lang>
 Report the bug: <https://github.com/xpipe-io/xpipe/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-arm64.AppImage>  
     </div>
 {% end %}

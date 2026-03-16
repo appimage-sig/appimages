@@ -19,10 +19,10 @@ Web page: <https://www.warp.dev>
 Report the bug: <https://github.com/warpdotdev/Warp/issues>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://releases.warp.dev/stable/v0.2025.12.17.17.17.stable_02/Warp-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://releases.warp.dev/stable/v0.2025.12.17.17.17.stable_02/Warp-aarch64.AppImage>  
     </div>
 {% end %}

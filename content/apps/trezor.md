@@ -22,10 +22,10 @@ Become a sponsor: <https://trezor.io/support/a/trezor-beer-fund>
 Report the bug: <https://github.com/trezor/trezor-suite/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/trezor/trezor-suite/releases/download/v25.12.2/Trezor-Suite-25.12.2-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/trezor/trezor-suite/releases/download/v25.12.2/Trezor-Suite-25.12.2-linux-arm64.AppImage>  
     </div>
 {% end %}

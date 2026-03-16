@@ -25,10 +25,10 @@ Translate: <https://translate.cryptomator.org>
 Report the bug: <https://github.com/cryptomator/cryptomator/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/cryptomator/cryptomator/releases/download/1.19.0-alpha2/cryptomator-1.19.0-alpha2-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/cryptomator/cryptomator/releases/download/1.19.0-alpha2/cryptomator-1.19.0-alpha2-aarch64.AppImage>  
     </div>
 {% end %}

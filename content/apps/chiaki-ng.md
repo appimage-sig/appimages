@@ -24,10 +24,10 @@ Become a sponsor: <https://buymeacoffee.com/streetpea>
 Report the bug: <https://github.com/streetpea/chiaki-ng/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_x86_64>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64>  
     </div>
 {% end %}

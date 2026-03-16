@@ -25,10 +25,10 @@ Translate: <https://hosted.weblate.org/engage/avogadro>
 Report the bug: <https://github.com/openchemistry/avogadrolibs/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/OpenChemistry/avogadrolibs/releases/download/continuous/Avogadro2-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/OpenChemistry/avogadrolibs/releases/download/continuous/Avogadro2-aarch64.AppImage>  
     </div>
 {% end %}

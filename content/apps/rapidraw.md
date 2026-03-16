@@ -23,10 +23,10 @@ Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages
 Report the bug: <https://github.com/CyberTimon/RapidRAW/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04_amd64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04-arm_aarch64.AppImage>  
     </div>
 {% end %}

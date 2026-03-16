@@ -24,13 +24,13 @@ Translate: <https://hosted.weblate.org/engage/goofcord/>
 Report the bug: <https://github.com/Milkshiift/GoofCord/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "", ""]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-arm64.AppImage>  
     </div>
-<div id="content-{{ nth }}-3" class="tab-pane hidden">
+<div id="tab-1-3" class="tab-pane hidden">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-armv7l.AppImage>  
     </div>
 {% end %}

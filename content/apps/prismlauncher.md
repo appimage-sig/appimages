@@ -23,10 +23,10 @@ Translate: <https://hosted.weblate.org/projects/prismlauncher/launcher/>
 Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-aarch64.AppImage>  
     </div>
 {% end %}

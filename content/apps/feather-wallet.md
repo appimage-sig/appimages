@@ -23,16 +23,16 @@ Source code: <https://github.com/feather-wallet/feather>
 Report the bug: <https://github.com/feather-wallet/feather/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "Download riscv64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://featherwallet.org/files/releases/linux-arm64-appimage/feather-2.8.1-arm64.AppImage>  
     </div>
-<div id="content-{{ nth }}-3" class="tab-pane hidden">
+<div id="tab-1-3" class="tab-pane hidden">
     <https://featherwallet.org/files/releases/linux-arm-appimage/feather-2.8.1-arm.AppImage>  
     </div>
-    <div id="content-{{ nth }}-4" class="tab-pane hidden">
+    <div id="tab-1-4" class="tab-pane hidden">
     <https://featherwallet.org/files/releases/linux-riscv64-appimage/feather-2.8.1-riscv64.AppImage>  
     </div>
 {% end %}

@@ -20,10 +20,10 @@ Source code: <https://github.com/Equicord/Equibop>
 Report the bug: <https://github.com/Equicord/Equibop/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7-arm64.AppImage>  
     </div>
 {% end %}

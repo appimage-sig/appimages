@@ -25,10 +25,10 @@ Become a sponsor: <https://delta.chat/en/donate>
 Report the bug: <https://github.com/deltachat/deltachat-desktop/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/deltachat-tauri_2.35.0_amd64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/DeltaChat-2.35.0-arm64.AppImage>  
     </div>
 {% end %}

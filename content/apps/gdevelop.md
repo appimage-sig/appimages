@@ -23,10 +23,10 @@ Translate: <https://crowdin.com/project/gdevelop>
 Report the bug: <https://github.com/4ian/GDevelop/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252-arm64.AppImage>  
     </div>
 {% end %}

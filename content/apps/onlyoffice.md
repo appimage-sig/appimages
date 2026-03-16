@@ -22,10 +22,10 @@ Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>
 Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-arm64.AppImage>  
     </div>
 {% end %}

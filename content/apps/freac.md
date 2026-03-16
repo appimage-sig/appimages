@@ -25,22 +25,22 @@ Translate: <https://www.freac.org/translation-status-othermenu-26>
 Report the bug: <https://github.com/enzo1982/freac/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "Download riscv64", "Download ppc64el"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-aarch64.AppImage>  
     </div>
- <div id="content-{{ nth }}-2" class="tab-pane hidden">
+ <div id="tab-1-2" class="tab-pane hidden">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-i686.AppImage>  
     </div>
-<div id="content-{{ nth }}-3" class="tab-pane hidden">
+<div id="tab-1-3" class="tab-pane hidden">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-armhf.AppImage>  
     </div>
-    <div id="content-{{ nth }}-4" class="tab-pane hidden">
+    <div id="tab-1-4" class="tab-pane hidden">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-5" class="tab-pane hidden">
+    <div id="tab-1-5" class="tab-pane hidden">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-ppc64el.AppImage>  
     </div>
 {% end %}

@@ -23,10 +23,10 @@ Translate: <https://hosted.weblate.org/engage/koreader>
 Report the bug: <https://github.com/koreader/koreader/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-aarch64-v2025.10.AppImage>  
     </div>
 {% end %}

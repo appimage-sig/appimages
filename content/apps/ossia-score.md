@@ -22,10 +22,10 @@ Become a sponsor: <https://opencollective.com/ossia>
 Report the bug: <https://github.com/ossia/score/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage>  
     </div>
 {% end %}

@@ -23,10 +23,10 @@ Translate: <https://explore.transifex.com/lmms/lmms>
 Report the bug: <https://github.com/LMMS/lmms/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://lmms.io/download/artifact/4948147759>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://lmms.io/download/artifact/4948180663>  
     </div>
 {% end %}

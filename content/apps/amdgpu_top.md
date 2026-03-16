@@ -24,10 +24,10 @@ Translate: <https://github.com/Umio-Yasuno/amdgpu_top?tab=readme-ov-file#transla
 Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-aarch64.AppImage>  
     </div>
 {% end %}

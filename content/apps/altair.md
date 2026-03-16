@@ -24,10 +24,10 @@ Translate: <https://crwd.in/altair-gql>
 Report the bug: <https://github.com/altair-graphql/altair/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
  <https://github.com/altair-graphql/altair/releases/download/v8.5.0/altair_8.5.0_x86_64_linux.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/altair-graphql/altair/releases/download/v8.5.0/altair_8.5.0_arm64_linux.AppImage>  
     </div>
 {% end %}

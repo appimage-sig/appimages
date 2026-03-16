@@ -24,10 +24,10 @@ Translate: <https://danieles-organization.gitbook.io/beaver-notes/dev-guides/tra
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0-arm64.AppImage>  
     </div>
 {% end %}

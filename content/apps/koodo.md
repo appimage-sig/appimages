@@ -24,10 +24,10 @@ Translate: <https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#tran
 Report the bug: <https://github.com/koodo-reader/koodo-reader/issues/new>  
 
 {% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+<div id="tab-1-0" class="tab-pane">
     <https://github.com/koodo-reader/koodo-reader/releases/download/v2.2.5/Koodo-Reader-2.2.5-x86_64.AppImage>  
     </div>
-    <div id="content-{{ nth }}-1" class="tab-pane hidden">
+    <div id="tab-1-1" class="tab-pane hidden">
     <https://github.com/koodo-reader/koodo-reader/releases/download/v2.2.5/Koodo-Reader-2.2.5-arm64.AppImage>  
     </div>
 {% end %}
