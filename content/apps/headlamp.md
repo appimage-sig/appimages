@@ -23,14 +23,14 @@ Source code: <https://github.com/headlamp-k8s/headlamp>
 Translate: <https://github.com/headlamp-k8s/headlamp/blob/main/docs/development/i18n/contributing.md>  
 Report the bug: <https://github.com/headlamp-k8s/headlamp/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-x64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-arm64.AppImage>  
     </div>
-    <div id="Download armv7l" class="tab-pane">
+<div id="content-{{ nth }}-3" class="tab-pane hidden">
     <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-armv7l.AppImage>  
     </div>
 {% end %}

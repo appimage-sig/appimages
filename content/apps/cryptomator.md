@@ -24,11 +24,11 @@ Become a sponsor: <https://github.com/sponsors/cryptomator>
 Translate: <https://translate.cryptomator.org>  
 Report the bug: <https://github.com/cryptomator/cryptomator/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/cryptomator/cryptomator/releases/download/1.19.0-alpha2/cryptomator-1.19.0-alpha2-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/cryptomator/cryptomator/releases/download/1.19.0-alpha2/cryptomator-1.19.0-alpha2-aarch64.AppImage>  
     </div>
 {% end %}

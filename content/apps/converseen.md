@@ -23,11 +23,11 @@ Source code: <https://github.com/Faster3ck/Converseen>
 Become a sponsor: <https://ko-fi.com/faster3ck>  
 Report the bug: <https://github.com/Faster3ck/Converseen/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-aarch64.AppImage>  
     </div>
 {% end %}

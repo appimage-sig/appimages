@@ -22,11 +22,11 @@ Source code: <https://github.com/chrismaltby/gb-studio>
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
 Report the bug: <https://github.com/chrismaltby/gb-studio/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux-arm64.AppImage>  
     </div>
 {% end %}

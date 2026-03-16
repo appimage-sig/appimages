@@ -21,11 +21,11 @@ Source code: <https://github.com/xemu-project/xemu>
 Become a sponsor: <https://www.patreon.com/mborgerson>  
 Report the bug: <https://github.com/xemu-project/xemu/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-aarch64.AppImage>  
     </div>
     {{< tab label="Download x86_64-debug" >}}

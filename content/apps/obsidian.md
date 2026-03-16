@@ -19,11 +19,11 @@ Web page: <https://obsidian.md>
 
 Translate: <https://github.com/obsidianmd/obsidian-translations>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5-arm64.AppImage>  
     </div>
 {% end %}

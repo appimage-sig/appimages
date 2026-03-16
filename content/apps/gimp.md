@@ -24,11 +24,11 @@ Become a sponsor: <https://www.gimp.org/donating/>
 Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
 Report the bug: <https://gitlab.gnome.org/GNOME/gimp/-/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.0-RC2-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.0-RC2-aarch64.AppImage>  
     </div>
 {% end %}

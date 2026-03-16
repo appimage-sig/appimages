@@ -20,11 +20,11 @@ Source code: <https://github.com/OneKeyHQ/app-monorepo>
 
 Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.19.2/OneKey-Wallet-5.19.2-linux-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.19.2/OneKey-Wallet-5.19.2-linux-arm64.AppImage>  
     </div>
 {% end %}

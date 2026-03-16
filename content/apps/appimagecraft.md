@@ -17,11 +17,11 @@ Source code: <https://github.com/TheAssassin/appimagecraft>
 
 Report the bug: <https://github.com/TheAssassin/appimagecraft/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
  <https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-aarch64.AppImage>  
     </div>
 {% end %}

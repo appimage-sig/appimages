@@ -23,11 +23,11 @@ Source code: <https://github.com/Jelmerro/Vieb>
 Become a sponsor: <https://github.com/sponsors/Jelmerro>  
 Report the bug: <https://github.com/Jelmerro/Vieb/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Jelmerro/Vieb/releases/download/12.6.0/Vieb-12.6.0.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/Jelmerro/Vieb/releases/download/12.6.0/Vieb-12.6.0-arm64.AppImage>  
     </div>
 {% end %}

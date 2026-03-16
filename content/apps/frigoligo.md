@@ -21,11 +21,11 @@ Source code: <https://github.com/casimir/frigoligo>
 Translate: <https://hosted.weblate.org/engage/frigoligo>  
 Report the bug: <https://github.com/casimir/frigoligo/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage>  
     </div>
 {% end %}

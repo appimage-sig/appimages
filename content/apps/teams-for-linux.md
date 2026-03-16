@@ -19,14 +19,14 @@ Source code: <https://github.com/IsmaelMartinez/teams-for-linux/>
 
 Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-arm64.AppImage>  
     </div>
-    <div id="Download armv7l" class="tab-pane">
+<div id="content-{{ nth }}-3" class="tab-pane hidden">
     <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-armv7l.AppImage>  
     </div>
 {% end %}

@@ -23,11 +23,11 @@ Source code: <https://github.com/ente-io/ente>
 Translate: <https://crowdin.com/project/ente-photos-web>  
 Report the bug: <https://github.com/ente-io/ente/issues/new>  
 
-{% tabs() %}
-    <div id="Download x86_64" class="tab-pane active">
+{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+<div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/ente-io/photos-desktop/releases/download/v1.7.17/ente-1.7.17-x86_64.AppImage>  
     </div>
-    <div id="Download arm64" class="tab-pane">
+    <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://github.com/ente-io/photos-desktop/releases/download/v1.7.17/ente-1.7.17-arm64.AppImage>  
     </div>
 {% end %}
