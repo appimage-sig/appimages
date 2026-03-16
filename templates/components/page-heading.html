@@ -1,0 +1,11 @@
+{% macro page_heading(title, description=false, taxonomies=false) %}
+{% set c = 'c-page-heading' %}
+<div class="container">
+
+    <h1 class="{{c}}__title">{{ title }}</h1>
+    {% if description %}
+      <p class="{{c}}__description">{{ description }}</p>
+    {% endif %}
+  </div>
+</div>
+{% endmacro page_heading %}

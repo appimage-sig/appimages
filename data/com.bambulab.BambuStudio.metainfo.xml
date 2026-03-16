@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.bambulab.BambuStudio</id>
+    <launchable type="desktop-id">com.bambulab.BambuStudio.desktop</launchable>
+    <provides>
+        <id>com.bambulab.BambuStudio.desktop</id>
+    </provides>
+    <name>Bambu Studio</name>
+    <summary>Get perfect 3D prints!</summary>
+    <developer_name>Bambu Lab</developer_name>
+    <url type="homepage">https://bambulab.com/en/download/studio</url>
+    <url type="help">https://wiki.bambulab.com/en/software</url>
+    <url type="bugtracker">https://github.com/bambulab/BambuStudio/issues/</url>
+    <url type="donation">https://ko-fi.com/hadessuk</url>
+    <metadata_license>0BSD</metadata_license>
+    <project_license>AGPL-3.0-only</project_license>
+    <content_rating type="oars-1.1" />
+    <requires>
+        <display_length compare="gt">768</display_length>
+    </requires>
+    <recommends>
+        <control>keyboard</control>
+        <control>pointing</control>
+    </recommends>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://github.com/flathub/flathub/assets/769861/66ce77d0-a376-4f57-8840-c5c210e95411</image>
+            <caption>Preparing a print</caption>
+        </screenshot>
+    </screenshots>
+    <description>
+      <p>
+            Bambu Studio is a cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically
+            optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth
+            printing experience.
+      </p>
+    </description>
+    <releases>
+        <release version="2.4.0 Public Release" date="2025-11-18">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.04.00.70</url>
+        </release>
+        <release version="2.3.1 Public Release" date="2025-10-30">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.03.01.51</url>
+        </release>
+        <release version="2.3.0 Public Release" date="2025-10-15">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.03.00.70</url>
+        </release>
+        <release version="2.2.2 Public Release" date="2025-09-15">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.02.02.56</url>
+        </release>
+        <release version="2.2.1.60 Public Release (Hotfix)" date="2025-08-28">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.02.01.60</url>
+        </release>
+        <release version="2.2.1 Public Release" date="2025-08-26">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.02.01.58</url>
+        </release>
+        <release version="2.2.0 Public Release" date="2025-08-12">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.02.00.85</url>
+        </release>
+        <release version="2.1.1 Public Release" date="2025-06-16">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.01.01.52</url>
+        </release>
+        <release version="2.1.0 Public Release" date="2025-06-03">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.01.00.59</url>
+        </release>
+        <release version="2.0.3 Public Release" date="2025-04-24">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/V02.00.03.54</url>
+        </release>
+        <release version="2.0.2 Public Release" date="2025-04-15">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.00.02.57</url>
+        </release>
+        <release version="2.0.1 Public Release" date="2025-03-28">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.00.01.50</url>
+        </release>
+        <release version="2.0.0 Public Release" date="2025-03-25">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v02.00.00.95</url>
+        </release>
+        <release version="1.10.2 Public Release" date="2025-02-25">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.02.76</url>
+        </release>
+        <release version="1.10.2 Public Beta 2" date="2025-02-18">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.02.72</url>
+        </release>
+        <release version="1.10.2 Public Beta" date="2025-01-09">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.02.64</url>
+        </release>
+        <release version="1.10.1 Public Release" date="2024-11-15">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.01.50</url>
+        </release>
+        <release version="1.10.0 Public Release" date="2024-11-12">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.00.89</url>
+        </release>
+        <release version="1.10.0 Public Beta 2" date="2024-10-28">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.00.81</url>
+        </release>
+        <release version="1.10.0 Public Beta" date="2024-10-15">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.10.00.74</url>
+        </release>
+        <release version="1.9.7.52 Public Official" date="2024-09-20">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.07.52</url>
+        </release>
+        <release version="1.9.7 Public Official" date="2024-09-19">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.07.50</url>
+        </release>
+        <release version="1.9.5 Public Official" date="2024-08-28">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.05.51</url>
+        </release>
+        <release version="1.9.4 Public Official" date="2024-08-26">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.04.60</url>
+        </release>
+        <release version="1.9.3 Public Official" date="2024-06-21">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.03.50</url>
+        </release>
+        <release version="1.9.2 Public Official" date="2024-06-11">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.02.57</url>
+        </release>
+        <release version="1.9.1 Public Official" date="2024-05-13">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.01.66</url>
+        </release>
+        <release version="1.9.1 Public Beta 4" date="2024-04-25">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.01.58</url>
+        </release>
+        <release version="1.9.0 Public Beta 4" date="2024-04-23">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.01.56</url>
+        </release>
+        <release version="1.9.0 Public Beta 3" date="2024-04-13">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.00.70</url>
+        </release>
+        <release version="1.9.0 Public Beta 2" date="2024-04-08">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.00.69</url>
+        </release>
+        <release version="1.9.0 Public Beta" date="2024-03-25">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.09.00.60</url>
+        </release>
+        <release version="1.8.4" date="2024-01-17">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.08.04.51</url>
+        </release>
+        <release version="1.8.3" date="2024-01-10">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.08.03.89</url>
+        </release>
+        <release version="1.8.2" date="2023-12-14">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.08.02.56</url>
+        </release>
+        <release version="1.8.0 Public Beta 3" date="2023-12-05">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.08.01.57</url>
+        </release>
+        <release version="1.8.0 Public Beta 2" date="2023-11-23">
+            <url>https://github.com/bambulab/BambuStudio/releases/tag/v01.08.00.62</url>
+        </release>
+    </releases>
+</component>

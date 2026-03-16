@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>org.photoqt.PhotoQt</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-2.0+</project_license>
+    <name>PhotoQt</name>
+    <summary>View and manage images and videos</summary>
+    <description>
+        <p>PhotoQt is a fast and simple, good looking, yet powerful and highly configurable image viewer.</p>
+        <p>It provides an uncluttered interface and can be extensively tweaked to fit ones needs perfectly. It is possible to set key or mouse shortcuts for many of its features and capabilities, as well as for any external script/command.</p>
+        <p>It supports loading 100+ image formats, video files, and documents. Additionally, it fully supports Google Motion Photos, Apple Live Photos, and photo spheres (including 360 degree panoramas).</p>
+        <p>The many features provided include: thumbnails, slideshow, color profiles, chromecast, zooming, rotating, flipping, displaying metadata (selection of Exif and IPTC), set-as-wallpaper, simple file management, scaling, face tags (XMP metadata), touchscreen support, and a lot more. Using extensions it is possible to extend the capabilities of PhotoQt in many different ways.</p>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://photoqt.org/img/metainfo/metainfo1.png</image>
+            <caption>The main window showing PhotoQt in action</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo2.png</image>
+            <caption>Opening a new file</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo3.png</image>
+            <caption>Exploring images with location data on an interactive map</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo4.png</image>
+            <caption>The 'About' information</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo5.png</image>
+            <caption>Zooming in reveals a minimap for easy navigation</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo6.png</image>
+            <caption>The settings manager</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://photoqt.org/img/metainfo/metainfo7.png</image>
+            <caption>The settings manager in compact format</caption>
+        </screenshot>
+    </screenshots>
+    <launchable type="desktop-id">org.photoqt.PhotoQt.desktop</launchable>
+    <developer id="lukas.photoqt">
+        <name>Lukas Spies</name>
+    </developer>
+    <url type="homepage">https://photoqt.org</url>
+    <url type="translate">https://translate.photoqt.org</url>
+    <url type="bugtracker">https://gitlab.com/lspies/photoqt/issues</url>
+    <url type="donation">https://photoqt.org/about</url>
+    <url type="help">https://gitlab.com/lspies/photoqt/issues</url>
+    <keywords>
+        <keyword>image</keyword>
+        <keyword>photo</keyword>
+        <keyword>video</keyword>
+        <keyword>viewing</keyword>
+        <keyword>motion photos</keyword>
+        <keyword>micro videos</keyword>
+        <keyword>apple live photos</keyword>
+        <keyword>photo spheres</keyword>
+        <keyword>panorama</keyword>
+        <keyword>slideshow</keyword>
+        <keyword>thumbnails</keyword>
+        <keyword>lightbox</keyword>
+        <keyword>color profiles</keyword>
+        <keyword>lcms2</keyword>
+        <keyword>littlecms</keyword>
+        <keyword>exiv2</keyword>
+        <keyword>libraw</keyword>
+        <keyword>raw</keyword>
+        <keyword>graphicsmagick</keyword>
+        <keyword>imagemagick</keyword>
+        <keyword>devil</keyword>
+        <keyword>mpv</keyword>
+        <keyword>archive</keyword>
+        <keyword>face tags</keyword>
+        <keyword>touchscreen</keyword>
+        <keyword>chromecast</keyword>
+        <keyword>map</keyword>
+        <keyword>bar codes</keyword>
+        <keyword>QR codes</keyword>
+        <keyword>archives</keyword>
+        <keyword>zip</keyword>
+        <keyword>rar</keyword>
+        <keyword>tar</keyword>
+        <keyword>comic books</keyword>
+        <keyword>cbz</keyword>
+        <keyword>cbr</keyword>
+        <keyword>cbt</keyword>
+        <keyword>sai</keyword>
+    </keywords>
+    <content_rating type="oars-1.0">
+        <content_attribute id="violence-cartoon">none</content_attribute>
+        <content_attribute id="violence-fantasy">none</content_attribute>
+        <content_attribute id="violence-realistic">none</content_attribute>
+        <content_attribute id="violence-bloodshed">none</content_attribute>
+        <content_attribute id="violence-sexual">none</content_attribute>
+        <content_attribute id="drugs-alcohol">none</content_attribute>
+        <content_attribute id="drugs-narcotics">none</content_attribute>
+        <content_attribute id="drugs-tobacco">none</content_attribute>
+        <content_attribute id="sex-nudity">none</content_attribute>
+        <content_attribute id="sex-themes">none</content_attribute>
+        <content_attribute id="language-profanity">none</content_attribute>
+        <content_attribute id="language-humor">none</content_attribute>
+        <content_attribute id="language-discrimination">none</content_attribute>
+        <content_attribute id="social-chat">none</content_attribute>
+        <content_attribute id="social-info">none</content_attribute>
+        <content_attribute id="social-audio">none</content_attribute>
+        <content_attribute id="social-location">none</content_attribute>
+        <content_attribute id="social-contacts">none</content_attribute>
+        <content_attribute id="money-purchasing">none</content_attribute>
+        <content_attribute id="money-gambling">none</content_attribute>
+    </content_rating>
+    <releases>
+        <release version="5.1" date="2026-01-16">
+            <description>
+                <p>Another month, another release. PhotoQt v5.1 is ready with a wide range of bug fixes, improvements, and a couple of additions. Thank you to everybody who tested the previous release and some of the changes since then.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-5.1
+            </url>
+        </release>
+        <release version="5.0" date="2025-12-23">
+            <description>
+                <p>PhotoQt v5.0 is finally here! After months of hard work and two beta test versions the all-new release is now ready. It brings a plethora of changes, most notably support for extensions and a new user interface variant.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-5.0
+            </url>
+        </release>
+        <release version="5.0~beta2" date="2025-12-17">
+            <description>
+                <p>The second (and final) beta release of the upcoming v5.0 is ready for testing. Thank you to all those that tested the first beta and provided feedback. If you are able to help with testing, please do and report any issues you encounter.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-5.0-beta2
+            </url>
+        </release>
+        <release version="5.0~beta1" date="2025-11-28">
+            <description>
+                <p>After many months of hard work, the first beta release of v5.0 is ready for testing. There are likely still some bugs and some things might need a bit more polishing. I'm looking for help with testing it, the more people do that and report back their feedback the better.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-5.0-beta1
+            </url>
+        </release>
+        <release version="4.9.2" date="2025-06-26">
+            <description>
+                <p>On the way to 5.0, the existing code has undergone some significant restructuring and profiling. Instead of keeping all of these performance improvements and bug fixes for v5.0, another minor release, v4.9.2, provides access to these changes much earlier.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.9.2
+            </url>
+        </release>
+        <release version="4.9.1" date="2025-05-06">
+            <description>
+                <p>PhotoQt 4.9 had a lot of exciting changes and additions. Unfortunately there were also some bugs that slipped through. This release, v4.9.1, fixes a whole range of them making PhotoQt better than ever before.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.9.1
+            </url>
+        </release>
+        <release version="4.9" date="2025-04-23">
+            <description>
+                <p>A new release for PhotoQt is ready with a bunch of additions and improvements and several bug fixes. This is a very exciting release, as there are some very exciting changes packed in it. Looking ahead, some big changes are in the works for v5.0.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.9
+            </url>
+        </release>
+        <release version="4.8.1" date="2025-02-13">
+            <description>
+                <p>This new release of PhotoQt comes not long after the last one. It does not have any major additions, but comes with a bunch of small bug fixes, some smaller improvements, and a few small additions.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.8.1
+            </url>
+        </release>
+        <release version="4.8" date="2025-01-25">
+            <description>
+                <p>Another release is ready, v4.9, once again packed with new features, improvements, and bug fixes. Some of the new features will make the experience of using PhotoQt noticeably better.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.8
+            </url>
+        </release>
+        <release version="4.7" date="2024-11-29">
+            <description>
+                <p>After a short break due to a big move across continents, PhotoQt is back with a new release full of exciting additions, many quality of life improvements, and also some bug fixes.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.7
+            </url>
+        </release>
+        <release version="4.6" date="2024-08-01">
+            <description>
+                <p>PhotoQt 4.6 is ready with another round of additions, improvements, and bug fixes. Thank you to all who gave feedback and suggestions!</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.6
+            </url>
+        </release>
+        <release version="4.5" date="2024-05-13">
+            <description>
+                <p>PhotoQt v4.5 brings a few new additions, but mostly focuses on bug fixes, improvements, and generally a more polished user experience.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.5
+            </url>
+        </release>
+        <release version="4.4" date="2024-04-04">
+            <description>
+                <p>PhotoQt v4.4 brings a whole range of exciting new features, from support for color profiles, to accent colors, lossless zoom for vector graphics, and so much more - there is something for everybody.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.4
+            </url>
+        </release>
+        <release version="4.3" date="2024-02-29">
+            <description>
+                <p>PhotoQt v4.3 focusses to a large degree on quality improvement and bug fixes, but it also brings a few new features nonetheless.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.3
+            </url>
+        </release>
+        <release version="4.2" date="2024-01-18">
+            <description>
+                <p>PhotoQt v4.2 brings, amongst many other improvements and bug fixes, support for some new types of images. If an image has an associated video file - either embedded as with Google Motion Photos or next to it as with Apple Live Photos - PhotoQt can look for them and, if found, they will automatically be played once whenever an image is loaded. Another new type of image that can be properly viewed now are photo spheres using equirectangular projection. PhotoQt now supports both partial photo spheres and full 360 degree panoramas.</p>
+            </description>
+            <url>
+                https://photoqt.org/news/photoqt-4.2
+            </url>
+        </release>
+        <release version="4.1" date="2023-12-20" />
+        <release version="4.0.1" date="2023-12-15" />
+        <release version="4.0" date="2023-12-14" />
+        <release version="3.4" date="2023-10-06" />
+        <release version="3.3" date="2023-06-15" />
+        <release version="3.2" date="2023-05-11" />
+        <release version="3.1" date="2023-03-07" />
+        <release version="3.0" date="2023-01-30" />
+        <release version="2.9.1" date="2022-09-05" />
+        <release version="2.9" date="2022-09-01" />
+        <release version="2.8" date="2022-07-31" />
+        <release version="2.7" date="2022-06-10" />
+        <release version="2.6" date="2022-04-07" />
+        <release version="2.5" date="2022-01-05" />
+        <release version="2.4" date="2021-10-22" />
+        <release version="2.3" date="2021-06-14" />
+        <release version="2.2" date="2021-06-07" />
+        <release version="2.1.1" date="2021-02-06" />
+        <release version="2.1" date="2021-01-30" />
+        <release version="2.0" date="2020-12-16" />
+        <release version="1.7.1" date="2018-06-03" />
+        <release version="1.7" date="2018-05-15" />
+        <release version="1.6" date="2018-02-20" />
+    </releases>
+</component>

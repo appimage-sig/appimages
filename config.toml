@@ -1,0 +1,82 @@
+# The URL the site will be built for
+base_url = "https://appimage-sig.github.io/vonge-zola-theme"
+
+title = "Vonge"
+description = "Vonge is a portfolio site template for Zola"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+generate_feeds = true
+feed_filenames = [ "rss.xml",]
+minify_html = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+taxonomies = [
+    { name = "tags", feed = true},
+    { name = "categories", paginate_by = 5 }, # 5 items per page for a term
+    { name = "authors" },                     # Basic definition: no feed or pagination
+    { name = "frameworks" },
+    { name = "architectures" },
+    { name = "license" },
+]
+
+[extra]
+logo_image = "images/logo.svg"
+social_media_share_image = "/images/01.jpg"
+disqus_identifier = ""
+twitter_handle = ""
+
+author_image = '/images/avatar.jpg'
+
+navigation = [
+    { url = "$BASE_URL", title = "Home" },
+    { url = "$BASE_URL/apps", title = "Apps" },
+    { url = "", title = "Categories", submenu = [
+        { url = "$BASE_URL/categories/audiovideo", title = "Audio & Video" },
+        { url = "$BASE_URL/categories/development", title = "Development" },
+        { url = "$BASE_URL/categories/finance", title = "Finance" },
+        { url = "$BASE_URL/categories/games", title = "Games" },
+        { url = "$BASE_URL/categories/graphics", title = "Graphics" },
+        { url = "$BASE_URL/categories/network", title = "Network" },
+        { url = "$BASE_URL/categories/productivity", title = "Productivity" },
+        { url = "$BASE_URL/categories/science", title = "Science" },
+        { url = "$BASE_URL/categories/system", title = "System" },
+        { url = "$BASE_URL/categories/utility", title = "Utility" },
+    ] }
+]
+social_icons = [
+    { url = "https://github.com/appimage-sig", icon = "GitHub" },
+    { url = "$BASE_URL/atom.xml", icon = "RSS" },
+]
+date_format = "%d %b %Y"
+language_direction = "auto"
+keywords = ["keyword1", "keyword2", "keyword3"]
+
+[extra.footer]
+menu = [
+    { url = "$BASE_URL", title = "Home" },
+        { url = "$BASE_URL/categories/audiovideo", title = "Audio & Video" },
+        { url = "$BASE_URL/categories/development", title = "Development" },
+        { url = "$BASE_URL/categories/finance", title = "Finance" },
+        { url = "$BASE_URL/categories/games", title = "Games" },
+        { url = "$BASE_URL/categories/graphics", title = "Graphics" },
+        { url = "$BASE_URL/categories/network", title = "Network" },
+        { url = "$BASE_URL/categories/productivity", title = "Productivity" },
+        { url = "$BASE_URL/categories/science", title = "Science" },
+        { url = "$BASE_URL/categories/system", title = "System" },
+        { url = "$BASE_URL/categories/utility", title = "Utility" },
+]
+#copyright = ""
+
+[[extra.content_blocks]]
+block = "blog-section"
+title = "Recent Posts"
+description_html = """
+    <p>Vonge blog features productivity, tips, inspiration and strategies for
+    massive profits. Find out how to set up a successful blog or how to make
+    yours even better!</p>"""
+link_url = "/apps"
+show_posts = true

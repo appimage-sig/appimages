@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>QMPlay2.desktop</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <name>QMPlay2</name>
+    <summary>Video and audio player</summary>
+    <description>
+        <p>
+            QMPlay2 is a video and audio player. It can play all formats supported by FFmpeg, libmodplug (including J2B and SFX).
+            It also supports Audio CD, raw files, Rayman 2 music and chiptunes. It contains YouTube and MyFreeMP3 browser.
+        </p>
+    </description>
+    <url type="homepage">https://github.com/zaps166/QMPlay2</url>
+    <url type="bugtracker">https://github.com/zaps166/QMPlay2/issues</url>
+    <url type="vcs-browser">https://github.com/zaps166/QMPlay2</url>
+    <url type="translate">https://github.com/zaps166/QMPlay2/tree/master/lang</url>
+    <content_rating type="oars-1.1"/>
+    <releases>
+        <release version="@QMPLAY2_VERSION@" date="@QMPLAY2_DATE@"/>
+    </releases>
+    <project_license>LGPL-3.0</project_license>
+    <developer_name>Błażej Szczygieł</developer_name>
+    <launchable type="desktop-id">io.github.zaps166.QMPlay2.desktop</launchable>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/zaps166/GitHubCommonContents/master/Screenshots/QMPlay2.png</image>
+        </screenshot>
+    </screenshots>
+</component>

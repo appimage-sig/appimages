@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop-application">
+  <!--Created with jdAppStreamEdit 9.0-->
+  <id>io.github.antimicrox.antimicrox</id>
+  <name>AntiMicroX</name>
+  <summary>Graphical program used to map gamepad buttons to keyboard, mouse, scripts and macros</summary>
+  <developer id="pktiuk">
+    <name>pktiuk</name>
+  </developer>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>AntiMicroX is a graphical program used to map gamepad buttons/joysticks to keyboard, mouse, scripts and macros. It can be also used for generating SDL2 configuration (useful for mapping atypical gamepads to generic ones like xbox360).</p>
+    <p>Features:</p>
+    <ul>
+      <li>Mapping of gamepads/joystick buttons to: ⌨️keyboard buttons, 🖱️mouse buttons and moves, scripts, executables and macros consisting of elements mentioned here.</li>
+      <li>Assigning multiple switchable sets of mappings to gamepad.</li>
+      <li>Auto profiles - assign profile to active application window.</li>
+    </ul>
+    <p>AntiMicroX was inspired by QJoyPad.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main Window (Light Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/app_light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Main Window (Dark Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/app_dark.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Controller Calibration (Dark Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/calibration.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Controller Mapping (Dark Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/controllermapping.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Advanced Settings (Dark Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/advanced.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>About Window (Dark Theme)</caption>
+      <image type="source">https://raw.githubusercontent.com/AntiMicroX/antimicrox/master/other/appdata/screenshots/about.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="3.5.1" date="2025-01-27" type="stable"/>
+    <release version="3.5.0" date="2024-10-31" type="stable"/>
+    <release version="3.4.1" date="2024-08-10" type="stable"/>
+    <release version="3.4.0" date="2024-03-10" type="stable"/>
+    <release version="3.3.4" date="2023-06-03" type="stable"/>
+    <release version="3.3.3" date="2023-01-30" type="stable"/>
+    <release version="3.3.2" date="2022-11-21" type="stable"/>
+    <release version="3.3.1" date="2022-10-24" type="stable"/>
+    <release version="3.3.0" date="2022-10-24" type="stable"/>
+    <release version="3.2.5" date="2022-07-18" type="stable"/>
+    <release version="3.2.4" date="2022-06-11" type="stable"/>
+    <release version="3.2.3" date="2022-03-24" type="stable"/>
+    <release version="3.2.2" date="2022-02-24" type="stable"/>
+    <release version="3.2.1" date="2022-01-03" type="stable"/>
+    <release version="3.2.0" date="2021-10-29" type="stable"/>
+    <release version="3.1.7" date="2021-09-10" type="stable"/>
+    <release version="3.1.6" date="2021-08-14" type="stable"/>
+    <release version="3.1.5" date="2021-03-14" type="stable"/>
+    <release version="3.1.4" date="2021-01-11" type="stable"/>
+    <release version="3.1.3" date="2020-11-14" type="stable"/>
+    <release version="3.1.2" date="2020-09-30" type="stable"/>
+    <release version="3.1.1" date="2020-09-15" type="stable"/>
+    <release version="3.1.0" date="2020-09-09" type="stable"/>
+    <release version="3.0.1" date="2020-08-23" type="stable"/>
+    <release version="3.0" date="2020-06-11" type="stable"/>
+    <release version="2.25" date="2020-01-07" type="stable"/>
+    <release version="2.24" date="2018-06-16" type="stable"/>
+    <release version="2.23" date="2016-11-06" type="stable"/>
+    <release version="2.22" date="2016-07-30" type="stable"/>
+    <release version="2.21" date="2016-01-10" type="stable"/>
+    <release version="2.20" date="2015-10-10" type="stable"/>
+  </releases>
+  <url type="homepage">https://github.com/AntiMicroX/antimicrox/</url>
+  <url type="bugtracker">https://github.com/AntiMicroX/antimicrox/issues</url>
+  <categories>
+    <category>Utility</category>
+    <category>Qt</category>
+  </categories>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <recommends>
+    <control>gamepad</control>
+  </recommends>
+  <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.antimicrox.antimicrox.desktop</launchable>
+  <provides>
+    <binary>antimicrox</binary>
+    <mediatype>application/x-amgp</mediatype>
+  </provides>
+  <keywords>
+    <keyword>game</keyword>
+    <keyword>gamepad</keyword>
+    <keyword>controller</keyword>
+    <keyword>joystick</keyword>
+    <keyword>keyboard</keyword>
+    <keyword>mouse</keyword>
+    <keyword>mapping</keyword>
+  </keywords>
+</component>

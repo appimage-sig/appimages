@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="desktop">
+  <id>org.gitfourchette.gitfourchette</id>
+  <name>GitFourchette</name>
+  <developer_name>Iliyas Jorio</developer_name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+
+  <provides><id>org.gitfourchette.gitfourchette.desktop</id></provides>
+  <launchable type="desktop-id">org.gitfourchette.gitfourchette.desktop</launchable>
+
+  <summary>The comfortable Git UI</summary>
+  <summary xml:lang="fr">L’interface Git tout confort</summary>
+
+  <description>
+    <p>Explore your repos easily. Craft commits intuitively. GitFourchette will become your new home to get work done in your Git repositories.</p>
+    <p xml:lang="fr">Explorez vos dépôts facilement. Créez vos commits intuitivement. Vous vous sentirez comme chez vous dans GitFourchette pour accomplir toutes vos tâches dans vos dépôts Git.</p>
+
+    <ul>
+      <li>A comfortable way to explore and understand your Git repositories</li>
+      <li xml:lang="fr">Une manière conviviale d’explorer et de comprendre vos dépôts Git</li>
+
+      <li>Powerful tools to stage code, create commits, and manage branches</li>
+      <li xml:lang="fr">Des outils puissants pour indexer du code, créer des commits, et gérer vos branches</li>
+
+      <li>Snappy and intuitive Qt UI designed to fit in snugly with KDE Plasma</li>
+      <li xml:lang="fr">Une interface Qt réactive et intuitive, pensée pour bien s’intégrer dans KDE Plasma</li>
+    </ul>
+  </description>
+
+  <url type="homepage">https://gitfourchette.org</url>
+  <url type="bugtracker">https://github.com/jorio/gitfourchette/issues</url>
+  <url type="help">https://gitfourchette.org/guide</url>
+  <url type="donation">https://ko-fi.com/jorio</url>
+  <url type="vcs-browser">https://github.com/jorio/gitfourchette</url>
+  <url type="translate">https://github.com/jorio/gitfourchette-private/blob/master/gitfourchette/assets/lang/README.md</url>
+
+  <content_rating type="oars-1.1" />
+
+  <branding>
+    <color type="primary" scheme_preference="light">#bad6f0</color>
+    <color type="primary" scheme_preference="dark">#1d4264</color>
+  </branding>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitfourchette.org/_static/appstream/packshot-shadow-light.png</image>
+      <caption>Exploring a repository in GitFourchette (light mode).</caption>
+      <caption xml:lang="fr">Exploration d’un dépôt dans GitFourchette (mode clair).</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://gitfourchette.org/_static/appstream/packshot-shadow-dark.png</image>
+      <caption>Exploring a repository in GitFourchette (dark mode).</caption>
+      <caption xml:lang="fr">Exploration d’un dépôt dans GitFourchette (mode sombre).</caption>
+    </screenshot>
+  </screenshots>
+
+  <categories>
+    <category>Development</category>
+    <category>RevisionControl</category>
+  </categories>
+
+  <keywords>
+    <keyword>git</keyword>
+    <keyword>qt</keyword>
+  </keywords>
+
+  <releases>
+    <release version="1.6.0" date="2026-02-01" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.6.0</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li><em>Mount commits as folders.</em> This lets you browse the workdir at a specific point in time using your system's file manager. Available by right-clicking a commit in the Commit History. (FUSE 3 required + new optional dependency 'mfusepy')</li>
+        <li><em>Auto-fetch remotes periodically (experimental).</em> Enable this <em>Settings → Advanced → Auto-fetch remotes every N minutes.</em></li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>FileList: Improve path readability by muting color of directory string (#77)</li>
+        <li>GraphView context menu: Show branch name instead of "Reset HEAD to Here" (#71)</li>
+        <li>GraphView context menu: Offer merging for any commit, not just branch tips (#74)</li>
+        <li>Image diffs: Ability to toggle between old/new images</li>
+        <li>Blame: Emphasize "new" lines with a different background color in the gutter</li>
+        <li>Allow pressing the Escape key to quickly close detached diff/blame windows</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix impossible to open worktrees located in a subdirectory of a bare repo (#82)</li>
+        <li>When a merge is blocked by untracked files that would be overwritten, show an error message (instead of denying the merge silently)</li>
+        </ul>
+        <p>Maintenance:</p>
+        <ul>
+        <li>Continued from the work started in v1.5.0, more operations now use "standard" Git instead of libgit2. This should be transparent to most users; others may benefit from better interoperability with their Git setup. (Reworked operations include: Workdir Status, Commit Diffs, Export Patch, Blame/Revlist, Register/Remove Submodule, New Repository, Add/Remove/Edit Remote, Restore files after stashing)</li>
+        <li>Some work on Windows compatibility (experimental)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.5.0" date="2025-09-08" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.5.0</url>
+      <description>
+        <p><em>Major change: Better integration with standard Git tooling.</em> GitFourchette now uses git instead of libgit2 to edit repositories and communicate with remotes. This enables seamless integration into workflows that depend on OpenSSH, hooks, etc.</p>
+        <p>The Flatpak version comes bundled with a Git distribution so you can use it without any additional setup. For more control, you can switch to your system's Git install via <em>Settings → Git Integration</em>.</p>
+        <p>New features:</p>
+        <ul>
+        <li><em>GPG-sign your commits.</em> Look for a little key icon in the Commit Dialog. (#63)</li>
+        <li><em>Verify commit signatures in the commit history.</em> <em>Settings → Commit History → Verify signed commits on the fly</em>. (#59)</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>Force push with lease (#61)</li>
+        <li>Sidebar: Bold current commit and upstream (#60)</li>
+        <li>Sidebar: Allow collapsing/expanding all folders from Local Branches context menu</li>
+        <li>Keep syntax highlighting active while a search term is being highlighted</li>
+        <li>In non-KDE environments (e.g. GNOME), the Return key can now be used to confirm most dialogs regardless of the focused widget (note: KDE already allowed this) (#68)</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix rendering of Unicode surrogate pairs in character-level diffs (#58)</li>
+        <li>Fix parent commit links in Get Commit Info (regression in 1.4.0)</li>
+        </ul>
+        <p>Breaking changes due to integration with Git tooling:</p>
+        <ul>
+        <li>Passphrase saving has been delegated to ssh-agent. Some Linux distros like Ubuntu and Fedora provide an ssh-agent out of the box. As a fallback, you can have GitFourchette spin up an ssh-agent for you via <em>Settings → Git Integration → ssh-agent</em>.</li>
+        <li>Per-remote custom SSH keys aren't supported anymore. You can set per-host keys in <em>~/.ssh/config</em> to achieve the same effect; or, you can set per-repo custom SSH keys in <em>Repo → Repo Settings → Log in to SSH remotes with custom key file</em>.</li>
+        </ul>
+        <p>Note: Although many commands now call git, libgit2 (via pygit2) is still used internally to build a model of the repo.</p>
+      </description>
+    </release>
+    <release version="1.4.0" date="2025-07-14" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.4.0</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li>Blame/File History. Within GitFourchette, right-click any file and select "Blame File"; or, drag any file in your repo from your file manager and drop it onto the main window to view its history.</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>An informative "drop zone" now appears when you drag an item from an external program over the main window. This tells you what will happen upon dropping the item (open repo folder, open repo containing a file, blame file in current repo, apply patch file, clone URL).</li>
+        <li>CheckoutCommitDialog: Also offer Merge, Reset HEAD</li>
+        <li>New branch/tag name validation: Friendly warning if attempting to create a folder with the same name as an existing ref</li>
+        <li>CodeView: Toggling Word Wrap now preserves your scroll position in the document</li>
+        <li>FileList: Reevaluate search term when jumping to another commit</li>
+        <li>DiffGutter: Enable high-DPI custom cursor on Wayland</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix "Detect Renames" may unexpectedly switch to the workdir in rare cases</li>
+        <li>Flatpak distribution: Updated to Pygments 2.19.2 to fix problems with Lua syntax highlighting</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.3.0" date="2025-05-03" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.3.0</url>
+      <description>
+        <p><em>Upgrade note:</em> The terminal command template now requires the <code>$COMMAND</code> argument placeholder. Please review your terminal command in <em>Settings → External Tools → Terminal</em>.</p>
+        <p>New features:</p>
+        <ul>
+        <li>Custom terminal commands (Settings → Custom Commands) (#37).</li>
+        <li>Sidebar: Hide All But This (#49). You can now show a single branch and hide all others.</li>
+        <li>Add file to .gitignore or .git/info/exclude from untracked file context menu (#42)</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>GraphView: Conjoined refboxes when a local branch is in sync with its upstream (#12)</li>
+        <li>Add target branch shorthand to default merge commit message (#39)</li>
+        <li>NewBranchDialog: Pre-tick upstream checkbox if branching off remote branch</li>
+        <li>Report mandatory placeholder token errors when launching external tool commands</li>
+        <li>Speed up remote listing and upstream lookup</li>
+        <li>Fix Sidebar/DiffArea would sometimes jump around by a few pixels while temporary banners were shown</li>
+        <li>Override Yaru icon theme's "scary" red warning icon (#27)</li>
+        <li>More helpful message if Python bindings for QtSvg are missing</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Sidebar: Strip initial slash in nested RefFolder display names (#45)</li>
+        <li>Fix Ctrl+G keyboard shortcut on GNOME</li>
+        <li>Work around window snapping issue on GNOME (#50)</li>
+        </ul>
+        <p>Two other bug fixes originally introduced in v1.2.0 had been dormant until now due to depending on a pygit2 version bump – they are now in full effect:</p>
+        <ul>
+        <li>Fix push progress wasn't reported properly during transfer (requires pygit2 1.18.0) (#22)</li>
+        <li>Fix push couldn't be canceled once the transfer starts (requires pygit2 1.18.0) (#22)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.2.1" date="2025-03-05" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.2.1</url>
+      <description>
+        <p>User-suggested quality of life improvements:</p>
+        <ul>
+        <li>GraphView: Copy commit message from context menu (#33)</li>
+        <li>Rephrase some messages (diff too large, delete untracked file) (#27, #28)</li>
+        <li>Add Ptyxis terminal preset (#18)</li>
+        </ul>
+        <p>Other quality of life improvements:</p>
+        <ul>
+        <li>Friendlier messages related to 'autocrlf' and 'safecrlf' options (#30)</li>
+        <li>Flatpak distribution: Detach terminal process from application</li>
+        <li>Improve contrast between enabled/disabled SVG icons throughout the UI</li>
+        <li>Pasting a multiline commit message into CommitDialog's summary input box will correctly split the message across the summary and description boxes</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix error when an external program converts line endings in the workdir with 'autocrlf' (#30)</li>
+        <li>Flatpak distribution: Fix terminal spawned in incorrect working directory (#18)</li>
+        <li>Flatpak distribution: Fix Flatpak tool existence check</li>
+        <li>Gracefully handle destruction of parent widget of external tool processes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.2.0" date="2025-02-19" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.2.0</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li>Open terminal in workdir (#18)</li>
+        </ul>
+        <p>User-suggested quality of life improvements:</p>
+        <ul>
+        <li>Reword "Uncommitted changes" to "Working directory" to clear up any confusion when there are no changes (#13)</li>
+        <li>Always display the number of uncommitted changes in the sidebar and in the graph; update this whenever the app returns to the foreground (#13)</li>
+        <li>Reword "Discard Changes" context menu entry for untracked files to "Delete File" (#17)</li>
+        <li>Global ref sorting setting (#20)</li>
+        <li>Allow creating a merge commit without fast-forwarding (#21)</li>
+        <li>Dark mode readability tweaks (#24)</li>
+        <li>Command line: Open arbitrary nested paths in a repo (#25)</li>
+        </ul>
+        <p>Other quality of life improvements:</p>
+        <ul>
+        <li>Improve consistency of ellipses in menus to signify that an action can be canceled</li>
+        <li>Warn user if an external Flatpak isn't installed when attempting to run it (merge tool, terminals, etc.)</li>
+        <li>Remind user about any unstaged files when about to create an empty commit</li>
+        <li>Allow middle-clicking to quickly stage/unstage selected lines in DiffView (enable in Settings → Advanced → Middle-click)</li>
+        <li>Allow clearing draft commit messages by right-clicking the top row in GraphView</li>
+        <li>After pushing a branch that doesn't track an upstream, PushDialog will suggest the remote branch you used previously (instead of defaulting to the first one in the repo)</li>
+        <li>Pulling will automatically fast-forward if possible without an extra confirmation step, unless your git config contains "pull.ff=false" (behavior aligned to vanilla git). If fast-forwarding isn't possible, you will still be prompted to merge.</li>
+        <li>Push/fetch status text uses the 'tnum' OpenType feature to avoid transfer rate numbers jumping around if your system font has digits with uneven widths</li>
+        <li>AppImage distribution now compatible with fuse3</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix crash when closing several repos in quick succession, e.g. by holding down Ctrl+W</li>
+        <li>Fix clicking the help button used to close the fast-forward dialog</li>
+        <li>Fix DiffView out of sync with rest of RepoWidget after hiding a the currently-selected branch tip</li>
+        <li>Fix italics in sidebar didn't update after changing the current branch's upstream (a remote-tracking branch in italics means it's the upstream for the current branch)</li>
+        <li>Fix visual artifacts around character-level diffs in DiffView</li>
+        <li>Fix push progress wasn't reported properly during transfer (requires pygit2 1.18.0) (#22)</li>
+        <li>Fix push couldn't be canceled once the transfer starts (requires pygit2 1.18.0) (#22)</li>
+        </ul>
+        <p>Breaking changes:</p>
+        <ul>
+        <li>The keyboard shortcut for "Go to Working Directory" is now Ctrl+G (formerly Ctrl+U, for "Uncommitted Changes"). On most keyboard layouts, Ctrl+G pairs nicely with Ctrl+H for "Go to HEAD".</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.1" date="2025-01-19" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.1.1</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li>Option to remember passphrases in encrypted keyfiles (#15)</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>Omit remote name from refboxes when there's just 1 remote (#11)</li>
+        <li>Display blob hashes in FileList tooltips</li>
+        <li>GraphView tries to use the 'tnum' OpenType feature to align ISO-8601 dates if your system font has digits with uneven widths</li>
+        <li>In commit/filename SearchBars, don't re-trigger a search if appending to a word that is known to have no occurrences</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix custom key file feature in CloneDialog and AddRemote</li>
+        <li>Fix remote branch context menu in a repo with an unborn head</li>
+        <li>GraphSplicer: Fix discrete branch may vanish from graph if moved past another branch by topological sorting</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.0" date="2025-01-05" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.1.0</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li>Syntax highlighting with Pygments (optional dependency)</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>Customizable ref indicator width (Settings → Commit History) (#10)</li>
+        <li>Condensed fonts can be disabled (Settings → Advanced) (#10)</li>
+        <li>Improved settings dialog UI</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.2" date="2024-12-16" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.0.2</url>
+      <description>
+        <p>Usability improvements:</p>
+        <ul>
+        <li>Support launching a Flatpak as an external diff/merge tool (#4)</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix web URLs in remote-tracking branch context menus (e.g. visit a branch on github.com)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.1" date="2024-12-03" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.0.1</url>
+      <description>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>Friendlier ConflictView UI</li>
+        <li>Improve 3-way merging with external merge tools when there's no ancestor in the conflict</li>
+        <li>Distinguish submodules and subtrees in SpecialDiff verbiage</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix discarding untracked non-submodule subtrees (#1)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.0.0" date="2024-11-16" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.0.0</url>
+      <description>
+        <ul>
+        <li>First public release</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

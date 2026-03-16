@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>net.davidotek.pupgui2</id>
+  
+  <name>ProtonUp-Qt</name>
+  <summary>Install Wine- and Proton-based compatibility tools</summary>
+  <summary xml:lang="de_DE">Wine und Proton Kompatibilitätstools installieren</summary>
+  <summary xml:lang="it_IT">Installa tool di compatibilità basati su Wine e Proton</summary>
+  <summary xml:lang="nl_NL">Installeer op Wine en Proton gebaseerde compatibiliteitshulpmiddelen</summary>
+  <summary xml:lang="pl_PL">Zainstaluj narzędzia kompatybilności oparte na Wine i Protonie</summary>
+  <summary xml:lang="zh_TW">安裝基於 Win 和 Proton 的相容工具</summary>
+
+  <keywords>
+    <keyword>Proton-GE</keyword>
+    <keyword>GE-Proton</keyword>
+    <keyword>Steam Tinker Launch</keyword>
+  </keywords>
+
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  
+  <description>
+    <p>
+      Install and manage Wine- and Proton-based compatibility tools for Steam and Lutris with this graphical user interface.
+    </p>
+    <p>Supported launchers:</p>
+    <ul>
+      <li>Steam</li>
+      <li>Lutris</li>
+      <li>Heroic Games Launcher</li>
+      <li>Bottles</li>
+      <li>WineZGUI</li>
+      <li>Both normal, Snap and Flatpak installations are supported</li>
+    </ul>
+    <p>Supported compatibility tools:</p>
+    <ul>
+      <li>GE-Proton</li>
+      <li>SteamTinkerLaunch</li>
+      <li>Proton-Tkg</li>
+      <li>Luxtorpeda</li>
+      <li>Boxtron</li>
+      <li>Roberta</li>
+      <li>NorthstarProton</li>
+      <li>Scrumplex's Steam-Play-None</li>
+      <li>Wine-GE</li>
+      <li>Lutris-Wine</li>
+      <li>Kron4ek's Vanilla Wine-Builds</li>
+      <li>DXVK and DXVK async (includes D8VK)</li>
+      <li>VKD3D</li>
+    </ul>
+    <p>Double click compatibility tools to show more information and games using the tool.</p>
+    <p>Advanced settings and the color theme can be managed in the About dialog.</p>
+  </description>
+  
+  <launchable type="desktop-id">net.davidotek.pupgui2.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/main/.github/images/pupgui2-dark.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/main/.github/images/pupgui2-light.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/main/.github/images/pupgui2-screenshot1.png</image>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.0" />
+
+  <releases>
+    <release version="2.14.0" date="2025-09-20">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added the Proton-EM compatibility tool</li>
+          <li>Removed the NorthStar Proton compatibility tool</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.13.0" date="2025-07-16">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added the Protok-Tkg NTSYNC compatibility tool</li>
+          <li>Added the Proton-Sarek compatibility tool</li>
+          <li>Fixed GE-Proton for Lutris</li>
+          <li>Use correct Lutris icon/app id</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.12.0" date="2025-03-29">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added the Proton-CachyOS compatibility tool</li>
+          <li>Added a new theme for the Steam Deck</li>
+          <li>Added a new dialog for configuring GitHub and GitLab API access tokens</li>
+          <li>Removed Wine-GE in favour of GE-Proton and UMU for Lutris</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.11.1" date="2025-01-05">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added the proton-ge-rtsp compatibility tool</li>
+          <li>Added the option WineZGUI to the custom install dialog (PR#432)</li>
+          <li>Fixed the UnicodeDecodeError bug (PR#455)</li>
+          <li>Fixed the IndexError crash if no launcher was found (PR#458)</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.10.0" date="2024-07-27">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added support for the WineZGUI launcher</li>
+          <li>Allow installing older compatibility tools ("load more" button)</li>
+          <li>Removed D8VK in favor of DXVK</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.9.2" date="2024-04-09">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Steam: Display which games are using a certain Anti-Cheat Runtime</li>
+          <li>Improvements were made to the Shortcut Editor</li>
+          <li>Updated the AppImage build to a more recent version. This may cause a problem if your OS version is from before the year 2022. Report that on GitHub and update your OS to a more recent version or use ProtonUp-Qt v2.9.1 in that case.</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fixed a crash that occurs when a Steam installations is missing files (PR#356)</li>
+          <li>Fixed a crash when a game with the AWACY Denied status is detected (PR#354)</li>
+          <li>Fixed the dialog for custom launcher installations if no official launcher is installed (PR#371)</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.9.0" date="2023-12-30">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Added a Shortcut Editor for Steam</li>
+          <li>Dxvk-Async: Use Ph42oN's releases instead of Sporif's</li>
+          <li>NorthstarProton: Use the R2NorthstarTools repo instead of the cyrv6737 repo</li>
+          <li>Wine-GE: Match extract folder name (see PR#296 for details)</li>
+          <li>Allow configuring GitHub/GitLab access tokens in the ProtonUp-Qt configuration file</li>
+          <li>Various i18n, UI and UX enhancements</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Also thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.8.2" date="2023-08-06">
+      <description>
+        <p>Changes/Improvements:</p>
+        <ul>
+          <li>Heroic: Added support for DXVK and vkd3d</li>
+          <li>Heroic: Display Amazon Games and Browser Games correctly</li>
+          <li>Fix regression where Proton-Tkg could not be extracted</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Also thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.8.1" date="2023-07-04">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added Heroic support for Wine-Tkg, Proton-Tkg and D8VK</li>
+          <li>Added Italian translations</li>
+        </ul>
+        <p>Improvements:</p>
+        <ul>
+          <li>Increase Gamepad deadzone to five percent</li>
+          <li>Improve logic for detecting the Steam root folder</li>
+          <li>Account for D8VK's rename of the master branch</li>
+          <li>Load more Proton-Tkg releases if none found on the first batch</li>
+          <li>Fix wrongly displayed Lutris Wine Fshack versions</li>
+          <li>Translations can now be done on Weblate!</li>
+          <li>Overhaul of the UI and internal functions</li>
+        </ul>
+        <p>Various improvements and bug fixes. See GitHub for more details. Also thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.8.0" date="2023-04-06">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added Protok-Tkg (Wine Master) for Steam</li>
+          <li>Added Vanilla Wine for Lutris</li>
+          <li>Added sorting and searching functionality to game list</li>
+          <li>Added a game list for Lutris and Heroic Games Launcher</li>
+          <li>Added a compatibility tool info dialog for Heroic Games Launcher</li>
+          <li>ProtonUp-Qt now displays non-Steam games in the game list</li>
+          <li>Added various keyboard shortcuts</li>
+          <li>Added notification to display when GitHub API limit is reached</li>
+        </ul>
+        <p>Various performance and quality improvements. Also thanks to sonic2kk and the other contributers!</p>
+      </description>
+    </release>
+    <release version="2.7.7" date="2022-12-24">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Add NorthstarProton compatibility tool</li>
+          <li>Add Steam-Play-None compatibility tool</li>
+          <li>Add D8VK for Lutris</li>
+          <li>Add VKD3D for Lutris</li>
+          <li>Add ProtonDB ratings to the game list</li>
+          <li>Add indicator if ProtonUp-Qt can't connect to the internet</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+          <li>Fix game list for Steam Flatpak</li>
+          <li>Fix that new Steam config file versions are not detected</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.7.6" date="2022-11-21">
+      <description>
+        <ul>
+          <li>Fixed downloading DXVK 2.0 for Lutris</li>
+          <li>Improvements when installing STL using the ProtonUp-Qt Flatpak</li>
+          <li>Reworked the Info dialog</li>
+          <li>Improved the Lutris game detection</li>
+        </ul>
+        <p>Thanks also go to sonic2kk!</p>
+      </description>
+    </release>
+    <release version="2.7.5" date="2022-11-14">
+      <description>
+        <ul>
+          <li>Many SteamTinkerLaunch improvements, see PR#125</li>
+          <li>ProtonUp-Qt Flatpak improvements</li>
+          <li>Added Traditional Chinese translation</li>
+          <li>Various small changes to enhance the experience of ProtonUp-Qt</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.7.4" date="2022-09-23">
+      <description>
+        <p>Added support for installing SteamTinkerLaunch</p>
+      </description>
+    </release>
+    <release version="2.7.3" date="2022-09-16">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for installing SteamTinkerLaunch</li>
+          <li>Added support for Steam installed as Snap</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.7.2" date="2022-08-24">
+      <description>
+        <p>Fix a bug where ProtonUp-Qt won't start due to a second instance being falsely detected.</p>
+      </description>
+    </release>
+    <release version="2.7.1" date="2022-08-24">
+      <description>
+        <ul>
+          <li>Show Proton anti cheat runtimes as compatibility tools</li>
+          <li>Fix a bug where ProtonUp-Qt won't start due to a second instance being falsely detected</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.7.0" date="2022-08-18">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added DXVK Nightly builds</li>
+          <li>Added button to install Proton-GE for Steam Flatpak directly from Flathub</li>
+        </ul>
+        <p>Bugs fixed:</p>
+        <ul>
+          <li>Added Proton-Tkg CI builds</li>
+          <li>Fix bug where download would crash with error message 'no space left'</li>
+        </ul>
+        <p>Various bug fixes and performance improvements</p>
+      </description>
+    </release>
+    <release version="2.6.5" date="2022-06-19">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Show anticheat status in game list</li>
+          <li>Lutris compatibility info now shows games using the tool</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.6.4" date="2022-05-25">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Add support for Bottles</li>
+          <li>Add Proton-Tkg Steam compatibility tool</li>
+          <li>Bug fixes and minor improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.6.2" date="2022-04-28">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Show official Proton versions in game list</li>
+          <li>Show Steam Deck compatibility in game list</li>
+          <li>Added Polish translations</li>
+          <li>Improved performance</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.6.1" date="2022-04-14">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Add Heroic Games Launcher Flatpak support</li>
+          <li>Add tool description to install dialog</li>
+          <li>Various bug fixes and improvements</li>
+        </ul>
+        <p>Few bugfixes</p>
+      </description>
+    </release>
+    <release version="2.6.0" date="2022-03-07">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added german, finnish and spanish translations</li>
+          <li>Added a game list dialog</li>
+        </ul>
+        <p>Few bugfixes</p>
+      </description>
+    </release>
+    <release version="2.5.0" date="2022-01-12">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Double click game to show Steam page</li>
+          <li>Support Lutris Flatpak</li>
+          <li>GUI for custom install directory</li>
+          <li>Added 'batch update' feature for Proton versions</li>
+        </ul>
+        <p>Bugs fixed:</p>
+        <ul>
+          <li>ProtonUp-Qt will no longer hang when opening webbrowser</li>
+          <li>Support Steam on more distros</li>
+          <li>Gamepad will no longer crash ProtonUp-Qt</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.4.1" date="2021-12-12">
+      <description>
+        <p>Bug fixes (app crashes when no gamepad is connected).</p>
+      </description>
+    </release>
+    <release version="2.4.0" date="2021-12-11">
+      <description>
+        <p>Added Gamepad input method. Bug fixes.</p>
+      </description>
+    </release>
+    <release version="2.3.2" date="2021-12-2">
+      <description>
+        <p>Add Flatpak as official install method</p>
+      </description>
+    </release>
+    <release version="2.3.1" date="2021-12-01">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Support different Steam install directory: ~/.local/share/Steam</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.3.0" date="2021-11-17">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Added Boxtron and Roberta support</li>
+          <li>Show compatibility tool info and games when double-clicking tool in list</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+    <control>gamepad</control>
+  </supports>
+
+  <developer id="net.davidotek">
+    <name translate="no">DavidoTek</name>
+  </developer>
+  <url type="homepage">https://davidotek.github.io/protonup-qt</url>
+  <url type="bugtracker">https://github.com/DavidoTek/ProtonUp-Qt/issues</url>
+  <url type="donation">https://ko-fi.com/davidotek</url>
+  <url type="translate">https://hosted.weblate.org/projects/protonup-qt</url>
+  <url type="vcs-browser">https://github.com/DavidoTek/ProtonUp-Qt</url>
+</component>
