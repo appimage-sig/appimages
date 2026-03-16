@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/smartfrigde>
 Translate: <https://hosted.weblate.org/projects/armcord/armcord>  
 Report the bug: <https://github.com/Legcord/Legcord/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-x86_64.AppImage>  
     </div>

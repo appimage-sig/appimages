@@ -7,7 +7,7 @@ categories = ["Network"]
 authors = ["Ismael Martinez"]
 tags = ["Conference calling", "Cross-platform software"]
 frameworks = ["Electron"]
-architectures = ["x86_64", "arm64"]
+architectures = ["x86_64", "arm64", "armv7l"]
 license = ["GPL-3.0"]
 +++
 
@@ -19,7 +19,7 @@ Source code: <https://github.com/IsmaelMartinez/teams-for-linux/>
 
 Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19.AppImage>  
     </div>

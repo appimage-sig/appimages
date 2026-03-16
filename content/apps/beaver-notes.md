@@ -23,7 +23,7 @@ Become a sponsor: <https://ko-fi.com/danielerollibeavernotes>
 Translate: <https://danieles-organization.gitbook.io/beaver-notes/dev-guides/translate-beaver>  
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage>  
     </div>

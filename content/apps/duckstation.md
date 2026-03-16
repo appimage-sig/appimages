@@ -22,7 +22,7 @@ Source code: <https://github.com/stenzek/duckstation>
 
 Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-languages#linux>
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage>  
     </div>

@@ -23,7 +23,7 @@ Source code: <https://github.com/beekeeper-studio/beekeeper-studio>
 Become a sponsor: <https://github.com/sponsors/beekeeper-studio>  
 Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.5.5/Beekeeper-Studio-5.5.5.AppImage>  
     </div>

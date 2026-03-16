@@ -24,17 +24,17 @@ Source code: <https://gitlab.com/CalcProgrammer1/OpenRGB>
 Become a sponsor: <https://patreon.com/CalcProgrammer1>  
 Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
-<div id="content-{{ nth }}-0" class="tab-pane">
+{% tabs(names=["Download x86_64", "Download arm64", "Download x86", "Download armv7l", ""]) %}
+    <div id="content-{{ nth }}-0" class="tab-pane">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_x86_64_0fca93e.AppImage>  
-    </div>
- <div id="content-{{ nth }}-2" class="tab-pane hidden">
-    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage>  
     </div>
     <div id="content-{{ nth }}-1" class="tab-pane hidden">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_arm64_0fca93e.AppImage>  
     </div>
-<div id="content-{{ nth }}-3" class="tab-pane hidden">
+     <div id="content-{{ nth }}-2" class="tab-pane hidden">
+    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage>  
+    </div>
+    <div id="content-{{ nth }}-3" class="tab-pane hidden">
     <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_armhf_0fca93e.AppImage>  
     </div>
 {% end %}

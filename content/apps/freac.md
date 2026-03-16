@@ -24,7 +24,7 @@ Become a sponsor: <https://www.freac.org/donate-to-bonkenc-othermenu-34>
 Translate: <https://www.freac.org/translation-status-othermenu-26>  
 Report the bug: <https://github.com/enzo1982/freac/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "Download riscv64", "Download ppc64el"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-x86_64.AppImage>  
     </div>

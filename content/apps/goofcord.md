@@ -7,7 +7,7 @@ categories = ["Network"]
 authors = ["Milkshift"]
 tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
-architectures = ["x86_64"]
+architectures = ["x86_64", "arm64", "armv7l" ]
 license = ["OSL-3.0"]
 +++
 
@@ -23,7 +23,7 @@ Become a sponsor: <https://github.com/Milkshiift/GoofCord?tab=readme-ov-file#don
 Translate: <https://hosted.weblate.org/engage/goofcord/>  
 Report the bug: <https://github.com/Milkshiift/GoofCord/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "", ""]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://github.com/Milkshiift/GoofCord/releases/download/v2.0.1/GoofCord-2.0.1-linux-x86_64.AppImage>  
     </div>

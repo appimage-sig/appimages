@@ -22,7 +22,7 @@ Source code: <https://github.com/feather-wallet/feather>
 
 Report the bug: <https://github.com/feather-wallet/feather/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "", "", ""]) %}
+{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "Download riscv64"]) %}
 <div id="content-{{ nth }}-0" class="tab-pane">
     <https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage>  
     </div>
