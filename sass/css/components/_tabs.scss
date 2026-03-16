@@ -1,0 +1,13 @@
+.tab-link {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.tab-link:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}

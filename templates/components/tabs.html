@@ -1,0 +1,29 @@
+<div class="tabs-container">
+  <div class="tabs-header flex border-b border-gray-200 dark:border-gray-700">
+    {% for tab in tabs %}
+    <button 
+      class="tab-link px-4 py-2 text-sm font-medium focus:outline-none"
+      onclick="openTab(event, 'tab-{{ tab.name | slugify }}')"
+    >
+      {{ tab.name }}
+    </button>
+    {% endfor %}
+  </div>
+
+  <div class="tabs-content p-4">
+    {{ body | safe }}
+  </div>
+</div>
+
+<script>
+function openTab(evt, tabId) {
+  let content = evt.currentTarget.closest('.tabs-container').querySelectorAll('.tab-pane');
+  content.forEach(p => p.style.display = "none");
+  
+  let links = evt.currentTarget.closest('.tabs-header').querySelectorAll('.tab-link');
+  links.forEach(l => l.classList.remove("border-b-2", "border-primary-500"));
+
+  document.getElementById(tabId).style.display = "block";
+  evt.currentTarget.classList.add("border-b-2", "border-primary-500");
+}
+</script>
