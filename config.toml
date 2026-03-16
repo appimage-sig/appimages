@@ -1,8 +1,8 @@
 # The URL the site will be built for
-base_url = "https://appimage-sig.github.io/vonge-zola-theme"
+base_url = "https://appimage-sig.github.io/appimages"
 
-title = "Vonge"
-description = "Vonge is a portfolio site template for Zola"
+title = "Appimage Catalog for Linux users"
+description = "AppImage catalog for Linux users"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -53,7 +53,7 @@ social_icons = [
 ]
 date_format = "%d %b %Y"
 language_direction = "auto"
-keywords = ["keyword1", "keyword2", "keyword3"]
+keywords = ["AppImage", "Linux", "Software Center", "Software Catalog"]
 
 [extra.footer]
 menu = [
@@ -69,14 +69,12 @@ menu = [
         { url = "$BASE_URL/categories/system", title = "System" },
         { url = "$BASE_URL/categories/utility", title = "Utility" },
 ]
-#copyright = ""
+copyright = "DrSheppard01 2026"
 
 [[extra.content_blocks]]
 block = "blog-section"
 title = "Recent Posts"
 description_html = """
-    <p>Vonge blog features productivity, tips, inspiration and strategies for
-    massive profits. Find out how to set up a successful blog or how to make
-    yours even better!</p>"""
+    <p>AppImage catalog for Linux users</p>"""
 link_url = "/apps"
 show_posts = true
