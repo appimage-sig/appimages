@@ -24,7 +24,7 @@ Report the bug: <https://github.com/GlitterWare/Passy/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-x86-64.AppImage">Download </a>
+      <a href="https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-x86-64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-aarch64.AppImage">Download arm64</a>

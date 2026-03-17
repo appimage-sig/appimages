@@ -30,3 +30,4 @@ Report the bug: <https://github.com/Jelmerro/Vieb/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Jelmerro/Vieb/releases/download/12.6.0/Vieb-12.6.0-arm64.AppImage">Download arm64</a>
   </button>
+</div>

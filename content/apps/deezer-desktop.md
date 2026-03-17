@@ -28,3 +28,4 @@ Report the bug: <https://github.com/aunetx/deezer-linux/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-arm64.AppImage">Download arm64</a>
   </button>
+</div>

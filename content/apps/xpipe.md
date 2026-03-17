@@ -30,3 +30,4 @@ Report the bug: <https://github.com/xpipe-io/xpipe/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-arm64.AppImage">Download arm64</a>
   </button>
+</div>

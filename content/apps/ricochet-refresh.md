@@ -7,7 +7,7 @@ categories = ["Network"]
 authors = ["Blueprint for Free Speech"]
 tags = ["Messenger", "Censorship-resistance software"]
 frameworks = ["Qt5"]
-architectures = ["x86_64", "arm64"]
+architectures = ["x86_64", "x86"]
 license = ["BSD-3-Clause"]
 +++
 
@@ -25,5 +25,6 @@ Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues
       <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.AppImage">Download x86_64</a>
   </button>
  <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.AppImage">Download </a>
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.AppImage">Download x86</a>
   </button>
+</div>

@@ -28,3 +28,4 @@ Report the bug: <https://github.com/standardnotes/forum/issues/new/>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.201.8/standard-notes-3.201.8-linux-arm64.AppImage">Download arm64</a>
   </button>
+</div>

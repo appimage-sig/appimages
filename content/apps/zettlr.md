@@ -31,3 +31,4 @@ Report the bug: <https://github.com/Zettlr/Zettlr/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.1.1/Zettlr-4.1.1-arm64.AppImage">Download arm64</a>
   </button>
+</div>

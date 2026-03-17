@@ -25,7 +25,7 @@ Report the bug: <https://github.com/headlamp-k8s/headlamp/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-x64.AppImage">Download </a>
+      <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-x64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-arm64.AppImage">Download arm64</a>
@@ -33,3 +33,4 @@ Report the bug: <https://github.com/headlamp-k8s/headlamp/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-armv7l.AppImage">Download armv7l</a>
   </button>
+</div>

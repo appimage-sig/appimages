@@ -28,4 +28,4 @@ Report the bug: <https://github.com/trezor/trezor-suite/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/trezor/trezor-suite/releases/download/v25.12.2/Trezor-Suite-25.12.2-linux-arm64.AppImage">Download arm64</a>
   </button>
-<div>
+</div>

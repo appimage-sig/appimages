@@ -31,10 +31,10 @@ Report the bug: <https://github.com/xemu-project/xemu/issues/new>
 </div>
     <button class="c-button c-button--primary c-button--large" 
       <a href=" x86_64-debug" " 
-      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-x86_64.AppImage">Download x86_64</a>
+      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-x86_64.AppImage">Download debug x86_64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
       <a href=" arm64-debug" " 
-      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-aarch64.AppImage">Download arm64</a>
+      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-aarch64.AppImage">Download debug arm64</a>
   </button>
 </div>

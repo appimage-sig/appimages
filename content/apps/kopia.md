@@ -22,7 +22,7 @@ Report the bug: <https://github.com/kopia/kopia/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage">Download </a>
+      <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-arm64.AppImage">Download arm64</a>
@@ -30,3 +30,4 @@ Report the bug: <https://github.com/kopia/kopia/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-armv7l.AppImage">Download armv7l</a>
   </button>
+</div>

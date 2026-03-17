@@ -23,8 +23,9 @@ Report the bug: <https://github.com/emqx/MQTTX/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1.AppImage">Download </a>
+      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1-arm64.AppImage">Download arm64</a>
   </button>
+</div>

@@ -31,3 +31,4 @@ Report the bug: <https://github.com/deltachat/deltachat-desktop/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/DeltaChat-2.35.0-arm64.AppImage">Download arm64</a>
   </button>
+</div>

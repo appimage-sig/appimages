@@ -7,7 +7,7 @@ categories = ["Graphics"]
 authors = ["The FreeCAD Team"]
 tags = ["CAD"]
 frameworks = ["Qt5"]
-architectures = ["x86_64"]
+architectures = ["x86_64", "arm64"]
 license = ["LGPL-2.1"]
 +++
 
@@ -26,8 +26,9 @@ Report the bug: <https://github.com/FreeCAD/FreeCAD/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage">Download </a>
+      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-Linux-x86_64-py311.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage">Download </a>
+      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc3/FreeCAD_1.1rc3-Linux-aarch64-py311.AppImage">Download arm64</a>
   </button>
+</div>

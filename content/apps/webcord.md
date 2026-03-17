@@ -23,7 +23,7 @@ Report the bug: <https://github.com/SpacingBat3/WebCord/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-x64.AppImage">Download </a>
+      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-x64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-arm64.AppImage">Download arm64</a>
@@ -31,3 +31,4 @@ Report the bug: <https://github.com/SpacingBat3/WebCord/issues/new>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-armv7l.AppImage">Download armv7l</a>
   </button>
+</div>

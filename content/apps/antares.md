@@ -34,3 +34,4 @@ Report the bug: <https://github.com/antares-sql/antares/issues>
       <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_armv7l.AppImage">Download armv7l</a>
   </button>
+</div>

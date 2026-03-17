@@ -24,8 +24,9 @@ Report the bug: <https://github.com/Vencord/Vesktop/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.4/Vesktop-1.6.4.AppImage">Download </a>
+      <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.4/Vesktop-1.6.4.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.4/Vesktop-1.6.4-arm64.AppImage">Download arm64</a>
   </button>
+</div>
