@@ -21,17 +21,20 @@ Source code: <https://github.com/xemu-project/xemu>
 Become a sponsor: <https://www.patreon.com/mborgerson>  
 Report the bug: <https://github.com/xemu-project/xemu/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-aarch64.AppImage>  
-    </div>
-    {{< tab label="Download x86_64-debug" >}}
-    <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-x86_64.AppImage>  
-    </div>
-    {{< tab label="Download arm64-debug" >}}
-    <https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href=" x86_64-debug" " 
+      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-x86_64.AppImage">Download x86_64</a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href=" arm64-debug" " 
+      <a href="github.com/xemu-project/xemu/releases/download/v0.8.132/xemu-0.8.132-dbg-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

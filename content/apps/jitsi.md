@@ -23,11 +23,10 @@ Source code: <https://github.com/jitsi/jitsi-meet-electron>
 Translate: <https://github.com/jitsi/jitsi-meet-electron/blob/master/app/i18n/lang>  
 Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-arm64.AppImage">Download arm64</a>
+  </button>

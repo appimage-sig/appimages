@@ -22,11 +22,10 @@ Source code: <https://github.com/4ian/GDevelop>
 Translate: <https://crowdin.com/project/gdevelop>  
 Report the bug: <https://github.com/4ian/GDevelop/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.252/GDevelop-5-5.6.252-arm64.AppImage">Download arm64</a>
+  </button>

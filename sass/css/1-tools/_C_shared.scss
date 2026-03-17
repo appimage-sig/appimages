@@ -19,9 +19,8 @@ table,
 fieldset,
 figure,
 pre {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-
 
 /**
  * Consistent indentation for lists.
@@ -30,12 +29,12 @@ pre {
 ul,
 ol,
 dd {
-  margin-left: $base-spacing-unit;
+    margin-left: $base-spacing-unit;
 }
 
 ul,
 ol {
-  li {
-    margin-bottom: 10px;
-  }
+    li {
+        margin-bottom: 10px;
+    }
 }

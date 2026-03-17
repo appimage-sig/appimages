@@ -22,11 +22,10 @@ Source code: <https://github.com/dbgate/dbgate>
 Become a sponsor: <https://github.com/sponsors/dbgate>  
 Report the bug: <https://github.com/dbgate/dbgate/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/dbgate/dbgate/releases/download/v6.8.1/dbgate-6.8.1-linux_x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/dbgate/dbgate/releases/download/v6.8.1/dbgate-6.8.1-linux_arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/dbgate/dbgate/releases/download/v6.8.1/dbgate-6.8.1-linux_x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/dbgate/dbgate/releases/download/v6.8.1/dbgate-6.8.1-linux_arm64.AppImage">Download </a>
+  </button>

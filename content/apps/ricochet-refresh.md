@@ -20,11 +20,10 @@ Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 
 Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.appimage>  
-    </div>
- <div id="tab-1-2" class="tab-pane hidden">
-    <https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.appimage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.AppImage">Download x86_64</a>
+  </button>
+ <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.AppImage">Download </a>
+  </button>

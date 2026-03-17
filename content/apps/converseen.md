@@ -23,11 +23,11 @@ Source code: <https://github.com/Faster3ck/Converseen>
 Become a sponsor: <https://ko-fi.com/faster3ck>  
 Report the bug: <https://github.com/Faster3ck/Converseen/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

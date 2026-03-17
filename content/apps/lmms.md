@@ -22,11 +22,11 @@ Become a sponsor: <https://lmms.io/get-involved/#donate>
 Translate: <https://explore.transifex.com/lmms/lmms>  
 Report the bug: <https://github.com/LMMS/lmms/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://lmms.io/download/artifact/4948147759>  
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://lmms.io/download/artifact/4948147759">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://lmms.io/download/artifact/4948180663">Download arm64</a>
+  </button>  
     </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://lmms.io/download/artifact/4948180663>  
-    </div>
-{% end %}

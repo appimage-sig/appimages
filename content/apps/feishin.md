@@ -23,11 +23,10 @@ Become a sponsor: <https://ko-fi.com/jeffvli>
 Translate: <https://hosted.weblate.org/projects/feishin>  
 Report the bug: <https://github.com/jeffvli/feishin/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-arm64.AppImage">Download arm64</a>
+  </button>

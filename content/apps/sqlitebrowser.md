@@ -24,17 +24,17 @@ Become a sponsor: <https://patreon.com/db4s>
 Translate: <https://github.com/sqlitebrowser/sqlitebrowser/wiki/Translations>  
 Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-    {{< tab label="Download SQLCipher x86_64" >}}
-    <https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-x86.64.AppImage>  
-    </div>
-    {{< tab label="Download SQLCipher arm64" >}}
-    <https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-aarch64.AppImage>  
-    </div>
-    {{< tab label="Download SQLite x86_64" >}}
-    <https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-x86.64.AppImage>  
-    </div>
-    {{< tab label="Download SQLite arm64" >}}
-    <https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-x86.64.AppImage">Download SQLCipher x86_64</a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-aarch64.AppImage">Download SQLCipher arm64</a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-x86.64.AppImage">Download SQLite x86_64 </a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-aarch64.AppImage">Download SQLite arm64</a>
+  </button>
+</div>

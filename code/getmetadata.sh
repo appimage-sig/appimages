@@ -32,4 +32,4 @@ wget https://raw.githubusercontent.com/86Box/86Box/refs/heads/master/src/unix/as
     https://raw.githubusercontent.com/pulsar-edit/pulsar/refs/heads/master/resources/linux/dev.pulsar_edit.Pulsar.metainfo.xml -O /data/dev.pulsar_edit.Pulsar.metainfo.xml \
     https://raw.githubusercontent.com/mltframework/shotcut/refs/heads/master/packaging/linux/org.shotcut.Shotcut.metainfo.xml.in -O /data/org.shotcut.Shotcut.metainfo.xml \
     https://raw.githubusercontent.com/smplayer-dev/smplayer/refs/heads/master/smplayer.appdata.xml -O /data/info.smplayer.SMPlayer.metainfo.xml \
-    https://raw.githubusercontent.com/xournalpp/xournalpp/refs/heads/master/resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in -O /data/org.xournalpp.xournalpp.metainfo.xml \
+    https://raw.githubusercontent.com/xournalpp/xournalpp/refs/heads/master/resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in -O /data/org.xournalpp.xournalpp.metainfo.xml

@@ -23,11 +23,11 @@ Source code: <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X>
 Translate: <https://hosted.weblate.org/engage/cpu-x/?utm_source=widget>  
 Report the bug: <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

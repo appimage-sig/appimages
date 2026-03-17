@@ -24,17 +24,17 @@ Source code: <https://gitlab.com/CalcProgrammer1/OpenRGB>
 Become a sponsor: <https://patreon.com/CalcProgrammer1>  
 Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "Download x86", "Download armv7l", ""]) %}
-    <div id="tab-1-0" class="tab-pane">
-    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_x86_64_0fca93e.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_arm64_0fca93e.AppImage>  
-    </div>
-     <div id="tab-1-2" class="tab-pane hidden">
-    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage>  
-    </div>
-    <div id="tab-1-3" class="tab-pane hidden">
-    <https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_armhf_0fca93e.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_arm64_0fca93e.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_arm64_0fca93e.AppImage">Download arm64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage">Download x86</a>
+  </button>
+      <button class="c-button c-button--primary c-button--large" 
+      <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_armhf_0fca93e.AppImage">Download armv7l</a>
+  </button>
+</div>

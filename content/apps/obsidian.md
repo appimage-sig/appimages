@@ -19,11 +19,10 @@ Web page: <https://obsidian.md>
 
 Translate: <https://github.com/obsidianmd/obsidian-translations>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.11.5/Obsidian-1.11.5-arm64.AppImage">Download arm64</a>
+  </button>

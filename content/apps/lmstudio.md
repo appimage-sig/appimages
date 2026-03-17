@@ -19,11 +19,10 @@ Web page: <https://lmstudio.ai/>
 Report the bug: <https://github.com/lmstudio-ai/lmstudio-bug-tracker/issues>  
 Translate: <https://github.com/lmstudio-ai/localization> 
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://installers.lmstudio.ai/linux/x64/0.3.39-2/LM-Studio-0.3.39-2-x64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://installers.lmstudio.ai/linux/arm64/0.3.39-2/LM-Studio-0.3.39-2-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://installers.lmstudio.ai/linux/x64/0.3.39-2/LM-Studio-0.3.39-2-x64.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://installers.lmstudio.ai/linux/arm64/0.3.39-2/LM-Studio-0.3.39-2-arm64.AppImage">Download arm64</a>
+  </button>

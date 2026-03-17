@@ -23,11 +23,11 @@ Source code: <https://github.com/xournalpp/xournalpp>
 Translate: <https://crowdin.com/project/xournalpp>  
 Report the bug: <https://github.com/xournalpp/xournalpp/releases/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

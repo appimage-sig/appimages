@@ -23,11 +23,10 @@ Source code: <https://github.com/LinwoodDev/Butterfly>
 Translate: <https://translate.linwood.dev/butterfly>  
 Report the bug: <https://github.com/LinwoodDev/Butterfly/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/LinwoodDev/Butterfly/releases/download/v2.4.2/linwood-butterfly-linux-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/LinwoodDev/Butterfly/releases/download/v2.4.2/linwood-butterfly-linux-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.4.2/linwood-butterfly-linux-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.4.2/linwood-butterfly-linux-arm64.AppImage">Download arm64</a>
+  </button>

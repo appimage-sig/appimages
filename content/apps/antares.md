@@ -24,14 +24,13 @@ Become a sponsor: <https://www.paypal.com/paypalme/fabiodistasio>
 Translate: <https://github.com/antares-sql/antares/wiki/Translate-Antares>  
 Report the bug: <https://github.com/antares-sql/antares/issues>
 
-{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
-<div id="tab-1-0" class="tab-pane">
- <https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage>  
-    </div>
-    <div id="tab-1-3" class="tab-pane hidden">
-    <https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_armv7l.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download </a>
+  </button>
+      <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_armv7l.AppImage">Download </a>
+  </button>

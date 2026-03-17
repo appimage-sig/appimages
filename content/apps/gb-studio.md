@@ -22,11 +22,10 @@ Source code: <https://github.com/chrismaltby/gb-studio>
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
 Report the bug: <https://github.com/chrismaltby/gb-studio/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/chrismaltby/gb-studio/releases/download/v4.2.0-beta2/gb-studio-linux-arm64.AppImage">Download arm64</a>
+  </button>

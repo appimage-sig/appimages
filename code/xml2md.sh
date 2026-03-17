@@ -39,4 +39,3 @@ Translate: <$translate>
 Report the bug: <$bugtracker>
 
 Download:  <https://>" >> ~/apps-for-linux.github.io/content/apps/$title.md
-

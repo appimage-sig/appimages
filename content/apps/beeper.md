@@ -17,11 +17,10 @@ License: EULA
 
 Web: <https://www.beeper.com/>
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop>  
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop>  
     </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop>  
-    </div>
-{% end %}

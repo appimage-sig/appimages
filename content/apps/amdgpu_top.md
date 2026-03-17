@@ -23,11 +23,11 @@ Source code: <https://github.com/Umio-Yasuno/amdgpu_top>
 Translate: <https://github.com/Umio-Yasuno/amdgpu_top?tab=readme-ov-file#translations>  
 Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

@@ -21,11 +21,10 @@ Source code: <https://github.com/LinwoodDev/Flow>
 Translate: <https://translate.linwood.dev/butterfly>  
 Report the bug: <https://github.com/LinwoodDev/Flow/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/LinwoodDev/Flow/releases/download/v0.5.2/linwood-flow-linux-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/LinwoodDev/Flow/releases/download/v0.5.2/linwood-flow-linux-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/LinwoodDev/Flow/releases/download/v0.5.2/linwood-flow-linux-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/LinwoodDev/Flow/releases/download/v0.5.2/linwood-flow-linux-arm64.AppImage">Download arm64</a>
+  </button>

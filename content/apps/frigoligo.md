@@ -21,11 +21,11 @@ Source code: <https://github.com/casimir/frigoligo>
 Translate: <https://hosted.weblate.org/engage/frigoligo>  
 Report the bug: <https://github.com/casimir/frigoligo/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

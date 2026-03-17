@@ -21,11 +21,10 @@ Source code: <https://github.com/RareDevs/Rare>
 Translate: <https://explore.transifex.com/rare-1/rare>  
 Report the bug: <https://github.com/RareDevs/Rare/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-arm64.AppImage">Download arm64</a>
+  </button>

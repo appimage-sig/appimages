@@ -24,11 +24,10 @@ Translate: <https://explore.transifex.com/delta-chat/delta-chat-app/>
 Become a sponsor: <https://delta.chat/en/donate>  
 Report the bug: <https://github.com/deltachat/deltachat-desktop/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/deltachat-tauri_2.35.0_amd64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/DeltaChat-2.35.0-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/deltachat-tauri_2.35.0_amd64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/DeltaChat-2.35.0-arm64.AppImage">Download arm64</a>
+  </button>

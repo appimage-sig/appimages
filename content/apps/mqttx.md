@@ -21,11 +21,10 @@ Source code: <https://github.com/emqx/MQTTX>
 
 Report the bug: <https://github.com/emqx/MQTTX/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1-arm64.AppImage">Download arm64</a>
+  </button>

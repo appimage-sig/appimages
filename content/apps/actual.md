@@ -23,11 +23,10 @@ Become a sponsor: <https://github.com/sponsors/actualbudget>
 Translate: <https://hosted.weblate.org/projects/actualbudget>  
 Report the bug: <https://github.com/actualbudget/actual/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
- <https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-x86_64.AppImage">Download x86_64</a>
+  </button>
+    <div class="tab-content">
+    <https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-arm64.AppImage">Download arm64</a>
+  </button>

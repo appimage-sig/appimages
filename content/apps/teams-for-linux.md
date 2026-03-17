@@ -19,14 +19,14 @@ Source code: <https://github.com/IsmaelMartinez/teams-for-linux/>
 
 Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-arm64.AppImage>  
-    </div>
-<div id="tab-1-3" class="tab-pane hidden">
-    <https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-armv7l.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-arm64.AppImage">Download arm64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.6.19/teams-for-linux-2.6.19-armv7l.AppImage">Download armv7l</a>
+  </button>
+</div>

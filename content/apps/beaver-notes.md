@@ -23,11 +23,10 @@ Become a sponsor: <https://ko-fi.com/danielerollibeavernotes>
 Translate: <https://danieles-organization.gitbook.io/beaver-notes/dev-guides/translate-beaver>  
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage>  
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0-arm64.AppImage>  
     </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0-arm64.AppImage>  
-    </div>
-{% end %}

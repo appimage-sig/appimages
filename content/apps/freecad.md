@@ -24,11 +24,10 @@ Become a sponsor: <https://www.freecad.org/sponsor.php>
 Translate: <https://crowdin.com/project/freecad>  
 Report the bug: <https://github.com/FreeCAD/FreeCAD/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1rc2/FreeCAD_1.1rc2-Linux-x86_64-py311.AppImage">Download </a>
+  </button>

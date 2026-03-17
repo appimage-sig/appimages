@@ -12,7 +12,7 @@ Use a better box model (opinionated).
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /**
@@ -23,22 +23,16 @@ Use a better box model (opinionated).
 */
 
 html {
-  font-family:
-    system-ui,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    'Apple Color Emoji',
-    'Segoe UI Emoji';
-  /* 1 */
-  line-height: 1.15;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 3 */
-  tab-size: 4;
-  /* 4 */
+    font-family:
+        system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji";
+    /* 1 */
+    line-height: 1.15;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 3 */
+    tab-size: 4;
+    /* 4 */
 }
 
 /*
@@ -51,7 +45,7 @@ Remove the margin in all browsers.
 */
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /*
@@ -65,7 +59,7 @@ Add the correct font weight in Chrome and Safari.
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
 
 /**
@@ -77,16 +71,12 @@ code,
 kbd,
 samp,
 pre {
-  font-family:
-    ui-monospace,
-    SFMono-Regular,
-    Consolas,
-    'Liberation Mono',
-    Menlo,
-    monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family:
+        ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+        monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
 
 /**
@@ -94,7 +84,7 @@ Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
 
 /**
@@ -103,18 +93,18 @@ Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 /*
@@ -127,7 +117,7 @@ Correct table border color inheritance in Chrome and Safari. (https://issues.chr
 */
 
 table {
-  border-color: currentcolor;
+    border-color: currentcolor;
 }
 
 /*
@@ -145,14 +135,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
 }
 
 /**
@@ -160,10 +150,10 @@ Correct the inability to style clickable types in iOS and Safari.
 */
 
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
-  -webkit-appearance: button;
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
 }
 
 /**
@@ -171,7 +161,7 @@ Remove the padding so developers are not caught out when they zero out 'fieldset
 */
 
 legend {
-  padding: 0;
+    padding: 0;
 }
 
 /**
@@ -179,7 +169,7 @@ Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
 
 /**
@@ -188,7 +178,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 /**
@@ -196,11 +186,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-[type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
 
 /**
@@ -208,7 +198,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 /**
@@ -217,10 +207,10 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
 
 /*
@@ -233,5 +223,5 @@ Add the correct display in Chrome and Safari.
 */
 
 summary {
-  display: list-item;
+    display: list-item;
 }

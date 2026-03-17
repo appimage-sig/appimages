@@ -23,11 +23,11 @@ Source code: <https://github.com/danirod/cartero>
 Translate: <https://hosted.weblate.org/projects/cartero/cartero/>  
 Report the bug: <https://github.com/danirod/cartero/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

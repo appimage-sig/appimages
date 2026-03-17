@@ -21,11 +21,10 @@ Source code: <https://github.com/streetwriters/notesnook>
 Become a sponsor: <https://opencollective.com/notesnook>  
 Report the bug: <https://github.com/streetwriters/notesnook/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_arm64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_x86_64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_arm64.AppImage">Download </a>
+  </button>

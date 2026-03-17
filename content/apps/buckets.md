@@ -23,11 +23,10 @@ Translate: <https://github.com/buckets/translations>
 Become a sponsor: <https://www.patreon.com/iffy>  
 Report the bug: <https://github.com/buckets/application/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage">Download </a>
+  </button>

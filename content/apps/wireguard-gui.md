@@ -22,11 +22,10 @@ Source code: <https://github.com/leon3s/wireguard-gui>
 Become a sponsor: <https://github.com/sponsors/leon3s>  
 Report the bug: <https://github.com/leon3s/wireguard-gui/issues>  
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage">Download x86_64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_aarch64.AppImage">Download arm64</a>
+  </button>

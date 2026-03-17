@@ -23,14 +23,13 @@ Source code: <https://github.com/headlamp-k8s/headlamp>
 Translate: <https://github.com/headlamp-k8s/headlamp/blob/main/docs/development/i18n/contributing.md>  
 Report the bug: <https://github.com/headlamp-k8s/headlamp/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-x64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-arm64.AppImage>  
-    </div>
-<div id="tab-1-3" class="tab-pane hidden">
-    <https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-armv7l.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-x64.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-arm64.AppImage">Download arm64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.39.0/Headlamp-0.39.0-linux-armv7l.AppImage">Download armv7l</a>
+  </button>

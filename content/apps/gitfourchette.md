@@ -22,13 +22,12 @@ Source code: <https://github.com/jorio/gitfourchette>
 
 Become a sponsor: <https://ko-fi.com/jorio>  
 Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
-Report the bug: <https://github.com/jorio/gitfourchette/issues/new>  
+Report the bug: <https://github.com/jorio/gitfourchette/issues/new>
 
-{% tabs(names=["Download x86_64", "Download arm64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-x86_64.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-aarch64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+    <button class="c-button c-button--primary c-button--large" 
+    <a href="https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-x86_64.AppImage">Download x86_64</a>  
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-aarch64.AppImage">Download arm64</a>
+  </button>
+</div>

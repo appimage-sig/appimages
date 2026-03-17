@@ -22,17 +22,16 @@ Source code: <https://github.com/feather-wallet/feather>
 
 Report the bug: <https://github.com/feather-wallet/feather/issues/new>  
 
-{% tabs(names=["Download x86_64", "Download arm64", "Download armv7l", "Download riscv64"]) %}
-<div id="tab-1-0" class="tab-pane">
-    <https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage>  
-    </div>
-    <div id="tab-1-1" class="tab-pane hidden">
-    <https://featherwallet.org/files/releases/linux-arm64-appimage/feather-2.8.1-arm64.AppImage>  
-    </div>
-<div id="tab-1-3" class="tab-pane hidden">
-    <https://featherwallet.org/files/releases/linux-arm-appimage/feather-2.8.1-arm.AppImage>  
-    </div>
-    <div id="tab-1-4" class="tab-pane hidden">
-    <https://featherwallet.org/files/releases/linux-riscv64-appimage/feather-2.8.1-riscv64.AppImage>  
-    </div>
-{% end %}
+<div class="buttons">
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage">Download </a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://featherwallet.org/files/releases/linux-arm64-appimage/feather-2.8.1-arm64.AppImage">Download arm64</a>
+  </button>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://featherwallet.org/files/releases/linux-arm-appimage/feather-2.8.1-arm.AppImage">Download </a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="https://featherwallet.org/files/releases/linux-riscv64-appimage/feather-2.8.1-riscv64.AppImage">Download </a>
+  </button>
