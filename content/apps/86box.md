@@ -22,12 +22,11 @@ Source code: <https://github.com/86Box/86Box>
 Become a sponsor: <https://www.paypal.com/paypalme/86Box>  
 Report the bug: <https://github.com/86Box/86Box/issues/new>
 
-
-
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-Linux-x86_64-b8200.AppImage">Download </a>
+      <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-Linux-x86_64-b8200.AppImage">Download x86_64</a>
   </button>
-    <div class="tab-content">
-    <https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage">Download </a>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage">Download arm64</a>
   </button>
+</div>
