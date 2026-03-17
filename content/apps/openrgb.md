@@ -7,7 +7,7 @@ categories = ["Utilities"]
 authors = ["Adam Honse"]
 tags = ["Hardware controller", "RGB lighting control"]
 frameworks = ["Qt5"]
-architectures = ["x86_64", "x86", "arm64", "armv7l"]
+architectures = ["x86_64", "arm64", "x86", "armv7l"]
 license = ["GPL-2.0"]
 +++
 

@@ -7,7 +7,7 @@ categories = ["AudioVideo"]
 authors = ["Robert Kausch"]
 tags = ["Audio Converter"]
 frameworks = ["GTK+3"]
-architectures = ["x86_64", "x86", "arm64", "armv7l", "riscv64", "ppc64el"]
+architectures = ["x86_64", "arm64", "x86", "armv7l", "riscv64", "ppc64el"]
 license = ["GPL-2.0"]
 +++
 
