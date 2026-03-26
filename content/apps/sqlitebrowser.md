@@ -1,7 +1,7 @@
 +++
 title = "DB Browser for SQLite"
 description = "High quality, visual, open source tool to create, design, and edit database files compatible with SQLite"
-date = "2026-01-28T21:49:00"
+date = "2026-03-22T21:56:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["DB Browser for SQLite Team"]
@@ -26,15 +26,15 @@ Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues/new>
 
 <div class="buttons">
     <button class="c-button c-button--primary c-button--large" 
-      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-x86.64.AppImage">Download SQLCipher x86_64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-57a3e6e-x86.64.AppImage">Download SQLCipher x86_64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-95f9218-aarch64.AppImage">Download SQLCipher arm64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-57a3e6e-aarch64.AppImage">Download SQLCipher arm64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-x86.64.AppImage">Download SQLite x86_64 </a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-57a3e6e-x86.64.AppImage">Download SQLite x86_64 </a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-95f9218-aarch64.AppImage">Download SQLite arm64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-57a3e6e-aarch64.AppImage">Download SQLite arm64</a>
   </button>
 </div>

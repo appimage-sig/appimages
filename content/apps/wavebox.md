@@ -1,7 +1,7 @@
 +++
 title = "Wavebox"
 description = "Connect all the apps and websites you need to run your business and stay signed-in to every account"
-date = "2026-01-21T13:11:00"
+date = "2026-03-16 14:12:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Wavebox"]
@@ -19,6 +19,6 @@ License: EULA
 Web page: <https://wavebox.io>  
 Source code: <https://github.com/wavebox/waveboxapp>
 
-Report the bug: <https://github.com/wavebox/issues/new>  
+Report the bug: <hhttps://github.com/wavebox/waveboxapp/issues>  
 
-Download: <https://download.wavebox.app/stable/linux/appimage/Wavebox_10.144.66-2_x86_64.AppImage>
+Download: <https://download.wavebox.app/stable/linux/appimage/Wavebox_10.146.26-2_x86_64.AppImage>

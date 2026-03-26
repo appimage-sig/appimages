@@ -15,15 +15,19 @@ contribute=$(awk -F '[<>]' '/contribute/{print $3}' $1)
 # screenshot=$(cat $1 | grep "<image>" | head -n1 | tr -d '<>,' | cut -c5- )
 
 echo "+++
-title = $title
-description = $summary
-date = 
-categories =
-authors = $author
-license = $license
+title = \"$title\"
+description = \"$summary\"
+date =
+[taxonomies] 
+categories = 
+authors = [\"$author\"
+tags =
+framework = \"AppImage\"
+architectures = [\"x86_64\"]
+license = [\"$license\"]
 +++
 
-$screenshot
+<img src="$screenshot" alt="Main screenshot">
 
 $summary
 

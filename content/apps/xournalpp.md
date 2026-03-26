@@ -1,7 +1,7 @@
 +++
 title = "Xournal++"
 description = "Handwriting notetaking software with PDF annotation support"
-date = "2025-12-22T01:12:00"
+date = "2026-02-28 12:39:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Xournal Team"]
@@ -21,13 +21,13 @@ Web page: <https://xournalpp.github.io>
 Source code: <https://github.com/xournalpp/xournalpp>  
 
 Translate: <https://crowdin.com/project/xournalpp>  
-Report the bug: <https://github.com/xournalpp/xournalpp/releases/issues/new>  
+Report the bug: <https://github.com/xournalpp/xournalpp/issues/new>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.3/xournalpp-1.3.3-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.1/xournalpp-1.3.1-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.3/xournalpp-1.3.3-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

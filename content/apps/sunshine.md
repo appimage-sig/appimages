@@ -1,7 +1,7 @@
 +++
 title = "Sunshine"
 description = "Self-hosted game stream host for Moonlight."
-date = "2026-01-18T01:53:00"
+date = "2026-03-24T05:35:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["LizardByte"]
@@ -21,4 +21,4 @@ Become a sponsor: <https://github.com/sponsors/LizardByte>
 Translate: <https://translate.lizardbyte.dev>  
 Report the bug: <https://github.com/LizardByte/Sunshine/issues/new>  
 
-Download: <https://github.com/LizardByte/Sunshine/releases/download/v2026.118.193732/sunshine.AppImage>
+Download: <https://github.com/LizardByte/Sunshine/releases/download/v2026.323.224448/sunshine.AppImage>

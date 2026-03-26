@@ -1,7 +1,7 @@
 +++
 title = "XPipe"
 description = "XPipe is a new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine"
-date = "2025-12-06T13:01:00"
+date = "2026-03-08 20:33:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["XPipe UG"]
@@ -25,9 +25,10 @@ Report the bug: <https://github.com/xpipe-io/xpipe/issues/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/xpipe-io/xpipe/releases/download/21.6/xpipe-portable-linux-x86_64.AppImage">Download x86_64</a>
   </button>
+
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-portable-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/xpipe-io/xpipe/releases/download/21.6/xpipe-portable-linux-arm64.AppImage">Download arm64</a>
   </button>
 </div>
