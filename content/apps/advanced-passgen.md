@@ -11,7 +11,7 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 +++
 
-<img src="https://camo.githubusercontent.com/6ae4fdbbee8b13c3db3b2fd5caf0854b01e88117903636b5685952b54c20d029/68747470733a2f2f692e696d6775722e636f6d2f5763614a4c32742e706e67" alt="Main Screen">
+<img src="https://camo.githubusercontent.com/46973b8d1ebfd3aff2ebef7c0a1207695a434133365c77cc80d1de4b8b7db456/68747470733a2f2f692e696d6775722e636f6d2f5763614a4c32742e706e67" alt="Main Screen">
 
 Free and open-source application that can help you generate passwords and export them
 
