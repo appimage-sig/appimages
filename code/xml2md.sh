@@ -14,16 +14,15 @@ contribute=$(awk -F '[<>]' '/contribute/{print $3}' $1)
 # gh_download=$(curl -s https://api.github.com/repos/"$source"/releases/latest | grep "browser_download_url.*AppImage" | cut -d : -f 2,3 | tr -d \"))
 # screenshot=$(cat $1 | grep "<image>" | head -n1 | tr -d '<>,' | cut -c5- )
 
-echo "---
-title: $title
-description: |
-$summary
-pubDate:
-categories:
-authors: $author
-license: $license
-draft: false
----
+echo "+++
+title = $title
+description = $summary
+date = 
+categories =
+authors = $author
+license = $license
++++
+
 $screenshot
 
 $summary
