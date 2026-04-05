@@ -18,7 +18,7 @@ License: Apache-2.0
 Web page: <https://kopia.io>  
 Source code: <https://github.com/kopia/kopia>
 
-Report the bug: <https://github.com/kopia/kopia/issues/new>  
+Report the bug: <https://github.com/kopia/kopia/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

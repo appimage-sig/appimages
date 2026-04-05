@@ -21,6 +21,6 @@ Web page: <https://cinny.in>
 Source code: <https://github.com/cinnyapp/cinny-desktop>
 
 Become a sponsor: <https://github.com/sponsors/ajbura>  
-Report the bug: <https://github.com/cinnyapp/cinny-desktop/issues/new>  
+Report the bug: <https://github.com/cinnyapp/cinny-desktop/issues>  
 
 Download: <https://github.com/cinnyapp/cinny-desktop/releases/latest/download/Cinny_desktop-x86_64.AppImage>

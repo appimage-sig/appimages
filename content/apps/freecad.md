@@ -22,7 +22,7 @@ Source code: <https://github.com/FreeCAD/FreeCAD>
 
 Become a sponsor: <https://www.freecad.org/sponsor.php>  
 Translate: <https://crowdin.com/project/freecad>  
-Report the bug: <https://github.com/FreeCAD/FreeCAD/issues/new>  
+Report the bug: <https://github.com/FreeCAD/FreeCAD/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

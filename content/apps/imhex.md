@@ -22,7 +22,7 @@ Source code: <https://github.com/WerWolv/ImHex>
 
 Become a sponsor: <https://github.com/sponsors/WerWolv>  
 Translate: <https://weblate.werwolv.net/projects/imhex>  
-Report the bug: <https://github.com/WerWolv/ImHex/issues/new>  
+Report the bug: <https://github.com/WerWolv/ImHex/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

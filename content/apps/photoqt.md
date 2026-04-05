@@ -21,6 +21,6 @@ Web page: <https://photoqt.org>
 Source code: <https://gitlab.com/lspies/photoqt>
 
 Translate: <https://translate.photoqt.org>  
-Report the bug: <https://gitlab.com/lspies/photoqt/-/issues/new>  
+Report the bug: <https://gitlab.com/lspies/photoqt/-/work_items/new>  
 
 Download: <https://photoqt.org/downloads/appimages/PhotoQt-5.1.AppImage>

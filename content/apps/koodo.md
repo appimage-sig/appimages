@@ -21,7 +21,7 @@ Web page: <https://koodoreader.com>
 Source code: <https://github.com/koodo-reader/koodo-reader>
 
 Translate: <https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#translation>  
-Report the bug: <https://github.com/koodo-reader/koodo-reader/issues/new>  
+Report the bug: <https://github.com/koodo-reader/koodo-reader/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

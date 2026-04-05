@@ -19,8 +19,8 @@ Web page: <https://legcord.app>
 Source code: <https://github.com/Legcord/Legcord>
 
 Become a sponsor: <https://github.com/sponsors/smartfrigde>  
-Translate: <https://hosted.weblate.org/projects/armcord/armcord>  
-Report the bug: <https://github.com/Legcord/Legcord/issues/new>  
+Translate: <https://hosted.weblate.org/projects/armcord/>  
+Report the bug: <https://github.com/Legcord/Legcord/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

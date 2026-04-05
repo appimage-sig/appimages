@@ -19,7 +19,7 @@ Web page: <https://standardnotes.com/>
 Source code: <https://github.com/standardnotes/app>
 
 Become a sponsor: <https://github.com/sponsors/standardnotes>  
-Report the bug: <https://github.com/standardnotes/forum/issues/new/>  
+Report the bug: <https://github.com/standardnotes/forum/issues/>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -21,7 +21,7 @@ Web page: <https://headlamp.dev>
 Source code: <https://github.com/headlamp-k8s/headlamp>
 
 Translate: <https://github.com/headlamp-k8s/headlamp/blob/main/docs/development/i18n/contributing.md>  
-Report the bug: <https://github.com/headlamp-k8s/headlamp/issues/new>  
+Report the bug: <https://github.com/headlamp-k8s/headlamp/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

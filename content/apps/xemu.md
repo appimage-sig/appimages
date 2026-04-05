@@ -19,7 +19,7 @@ Web page: <https://xemu.app>
 Source code: <https://github.com/xemu-project/xemu>
 
 Become a sponsor: <https://www.patreon.com/mborgerson>  
-Report the bug: <https://github.com/xemu-project/xemu/issues/new>  
+Report the bug: <https://github.com/xemu-project/xemu/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
@@ -30,11 +30,9 @@ Report the bug: <https://github.com/xemu-project/xemu/issues/new>
   </button>
 </div>
     <button class="c-button c-button--primary c-button--large" 
-      <a href=" x86_64-debug" " 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-dbg-x86_64.AppImage">Download debug x86_64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href=" arm64-debug" " 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-dbg-aarch64.AppImage">Download debug arm64</a>
   </button>
 </div>

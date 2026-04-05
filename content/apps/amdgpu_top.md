@@ -21,7 +21,7 @@ License: MIT
 Source code: <https://github.com/Umio-Yasuno/amdgpu_top>
 
 Translate: <https://github.com/Umio-Yasuno/amdgpu_top?tab=readme-ov-file#translations>  
-Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues/new>  
+Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

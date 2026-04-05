@@ -20,6 +20,6 @@ Source code: <https://github.com/OpenShot/openshot-qt>
 
 Become a sponsor: <https://www.openshot.org/donate>  
 Translate: <https://translations.launchpad.net/openshot/2.0/+translations>  
-Report the bug: <https://github.com/OpenShot/openshot-qt/issues/new>  
+Report the bug: <https://github.com/OpenShot/openshot-qt/issues>  
 
 Download: <https://github.com/OpenShot/openshot-qt/releases/download/v3.4.0/OpenShot-v3.4.0-x86_64.AppImage>

@@ -20,6 +20,6 @@ License: BUSL-1.1
 Web page: <https://gdlauncher.com>  
 Source code: <https://github.com/gorilla-devs/GDLauncher-Carbon>
 
-Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon/issues/new>
+Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon/issues>
 
 Download: <https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.28__linux__x64.AppImage>

@@ -20,6 +20,6 @@ Source code: <https://github.com/muse-sequencer/muse>
 
 Become a sponsor: <https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJCUXMC9MBG7Y>  
 Translate: <https://muse-sequencer.github.io/docs/i18n.html>  
-Report the bug: <https://github.com/muse-sequencer/muse/issues/new>  
+Report the bug: <https://github.com/muse-sequencer/muse/issues>  
 
 Download: <https://github.com/muse-sequencer/muse/releases/download/latest/MusE-master-x86_64.AppImage>

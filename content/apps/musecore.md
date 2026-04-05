@@ -19,7 +19,7 @@ Web page: <https://musescore.org/en>
 Source code: <https://github.com/musescore/MuseScore>
 
 Translate: <https://musescore.org/administrative-guidelines/translation-instructions>  
-Report the bug: <https://github.com/musescore/MuseScore/issues/new>  
+Report the bug: <https://github.com/musescore/MuseScore/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

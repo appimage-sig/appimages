@@ -20,7 +20,7 @@ Web page: <https://www.gbstudio.dev>
 Source code: <https://github.com/chrismaltby/gb-studio>
 
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
-Report the bug: <https://github.com/chrismaltby/gb-studio/issues/new>  
+Report the bug: <https://github.com/chrismaltby/gb-studio/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

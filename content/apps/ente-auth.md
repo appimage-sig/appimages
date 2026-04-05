@@ -21,6 +21,6 @@ Web page: <https://ente.io/auth/>
 Source code: <https://github.com/ente-io/ente>
 
 Translate: <https://crowdin.com/project/ente-photos-web>  
-Report the bug: <https://github.com/ente-io/ente/issues/new>  
+Report the bug: <https://github.com/ente-io/ente/issues>  
 
 Download: <https://github.com/ente-io/ente/releases/download/auth-v4.4.15/ente-auth-v4.4.15-x86_64.AppImage>

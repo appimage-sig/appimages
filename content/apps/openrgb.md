@@ -22,7 +22,7 @@ Web page: <https://openrgb.org>
 Source code: <https://gitlab.com/CalcProgrammer1/OpenRGB>
 
 Become a sponsor: <https://patreon.com/CalcProgrammer1>  
-Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/new>  
+Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/new>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

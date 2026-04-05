@@ -22,6 +22,6 @@ Source code: <https://github.com/mifi/lossless-cut>
 
 Become a sponsor: <https://github.com/sponsors/mifi>  
 Translate: <https://hosted.weblate.org/projects/losslesscut/losslesscut>  
-Report the bug: <https://github.com/mifi/lossless-cut/issues/new>  
+Report the bug: <https://github.com/mifi/lossless-cut/issues>  
 
 Download: <https://github.com/mifi/lossless-cut/releases/download/v3.67.2/LosslessCut-linux-x86_64.AppImage>

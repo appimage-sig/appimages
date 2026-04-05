@@ -19,7 +19,7 @@ License: Apache-2.0
 Web page: <https://mqttx.app>  
 Source code: <https://github.com/emqx/MQTTX>
 
-Report the bug: <https://github.com/emqx/MQTTX/issues/new>  
+Report the bug: <https://github.com/emqx/MQTTX/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

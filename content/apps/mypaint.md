@@ -20,6 +20,6 @@ Source code: <https://github.com/mypaint/mypaint>
 
 Become a sponsor: <https://opencollective.com/mypaint>  
 Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
-Report the bug: <https://github.com/mypaint/mypaint/issues/new>  
+Report the bug: <https://github.com/mypaint/mypaint/issues>  
 
 Download: <https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage>

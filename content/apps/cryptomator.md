@@ -22,7 +22,7 @@ Source code: <https://github.com/cryptomator/cryptomator>
 
 Become a sponsor: <https://github.com/sponsors/cryptomator>  
 Translate: <https://translate.cryptomator.org>  
-Report the bug: <https://github.com/cryptomator/cryptomator/issues/new>  
+Report the bug: <https://github.com/cryptomator/cryptomator/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

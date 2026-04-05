@@ -19,6 +19,6 @@ License: GPL-3.0
 
 Source code: <https://github.com/kraxarn/spotify-qt>  
 
-Report the bug: <https://github.com/kraxarn/spotify-qt/issues/new>  
+Report the bug: <https://github.com/kraxarn/spotify-qt/issues>  
 
 Download: <https://github.com/kraxarn/spotify-qt/releases/download/v4.0.1/spotify-qt-v4.0.1.AppImage>

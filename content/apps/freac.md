@@ -22,7 +22,7 @@ Source code: <https://github.com/enzo1982/freac>
 
 Become a sponsor: <https://www.freac.org/donate-to-bonkenc-othermenu-34>  
 Translate: <https://www.freac.org/translation-status-othermenu-26>  
-Report the bug: <https://github.com/enzo1982/freac/issues/new>  
+Report the bug: <https://github.com/enzo1982/freac/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

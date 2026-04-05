@@ -19,6 +19,6 @@ License: GPL-2.0
 
 Source code: <https://github.com/KDAB/hotspot>
 
-Report the bug: <https://github.com/KDAB/hotspot/issues/new>  
+Report the bug: <https://github.com/KDAB/hotspot/issues>  
 
 Download: <https://github.com/KDAB/hotspot/releases/download/continuous/hotspot-continuous.AppImage>

@@ -21,6 +21,6 @@ Web page: <https://tockler.trimatech.dev/>
 Source code: <https://github.com/MayGo/tockler>
 
 Become a sponsor: <https://github.com/sponsors/MayGo>  
-Report the bug: <https://github.com/MayGo/tockler/issues/new>  
+Report the bug: <https://github.com/MayGo/tockler/issues>  
 
 Download: <https://github.com/MayGo/tockler/releases/download/v4.0.22/Tockler-4.0.22.AppImage>

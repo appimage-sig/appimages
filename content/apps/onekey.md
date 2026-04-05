@@ -18,7 +18,7 @@ License: Apache-2.0
 Web page: <https://www.onekey.so>  
 Source code: <https://github.com/OneKeyHQ/app-monorepo>
 
-Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues/new>  
+Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

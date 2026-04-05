@@ -20,6 +20,6 @@ License: Apache-2.0
 Web page: <https://ferdium.org>  
 Source code: <https://github.com/ferdium/ferdium-app>
 
-Report the bug: <https://github.com/ferdium/ferdium-app/issues/new>  
+Report the bug: <https://github.com/ferdium/ferdium-app/issues>  
 
 Download: <https://github.com/ferdium/ferdium-app/releases/download/v7.1.1/Ferdium-linux-Portable-7.1.1-x86_64.AppImage>

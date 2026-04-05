@@ -21,6 +21,6 @@ Web page: <https://bitwarden.com>
 Source code: <https://github.com/bitwarden/clients>
 
 Translate: <https://crowdin.com/project/bitwarden-desktop>  
-Report the bug: <https://github.com/bitwarden/clients/issues/new>  
+Report the bug: <https://github.com/bitwarden/clients/issues>  
 
 Download: <https://github.com/bitwarden/clients/releases/download/desktop-v2025.12.1/Bitwarden-2025.12.1-x86_64.AppImage>

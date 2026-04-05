@@ -20,6 +20,6 @@ License: EPL-2.0
 Web page: <http://theia-ide.org/>  
 Source code: <https://github.com/eclipse-theia/theia>
 
-Report the bug: <https://github.com/eclipse-theia/theia/issues/new>  
+Report the bug: <https://github.com/eclipse-theia/theia/issues>  
 
 Download: <https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage>

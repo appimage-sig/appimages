@@ -22,6 +22,6 @@ Source code: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher>
 
 Become a sponsor: <https://patreon.com/heroicgameslauncher>  
 Translate: <https://hosted.weblate.org/projects/heroic-games-launcher>  
-Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues/new>  
+Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues>  
 
 Download: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.19.0/Heroic-2.19.0-linux-x86_64.AppImage>

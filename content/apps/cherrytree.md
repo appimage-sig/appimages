@@ -21,6 +21,6 @@ Web page: <https://www.giuspen.net/cherrytree>
 Source code: <https://github.com/giuspen/cherrytree>
 
 Become a sponsor: <https://www.giuspen.net/cherrytree>  
-Report the bug: <https://github.com/giuspen/cherrytree/issues/new>  
+Report the bug: <https://github.com/giuspen/cherrytree/issues>  
 
 Download: <https://github.com/giuspen/cherrytree/releases/download/v1.6.3/CherryTree-1.6.3-x86_64.AppImage>

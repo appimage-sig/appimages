@@ -22,6 +22,6 @@ Source code: <https://github.com/cardo-podcast/cardo>
 
 Become a sponsor: <https://www.buymeacoffee.com/n0vella>  
 Translate: <https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translations>  
-Report the bug: <https://github.com/cardo-podcast/cardo/issues/new>  
+Report the bug: <https://github.com/cardo-podcast/cardo/issues>  
 
 Download: <https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage>

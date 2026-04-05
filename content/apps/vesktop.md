@@ -20,7 +20,7 @@ License: GPL-3.0
 Source code: <https://github.com/Vencord/Vesktop>
 
 Become a sponsor: <https://github.com/sponsors/Vendicated>  
-Report the bug: <https://github.com/Vencord/Vesktop/issues/new>  
+Report the bug: <https://github.com/Vencord/Vesktop/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

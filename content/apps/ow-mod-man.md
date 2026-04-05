@@ -18,6 +18,6 @@ Web page: <https://outerwildsmods.com/mod-manager>
 Source code: <https://github.com/ow-mods/ow-mod-man>
 
 Translate: <https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md>  
-Report the bug: <https://github.com/ow-mods/ow-mod-man/issues/new>  
+Report the bug: <https://github.com/ow-mods/ow-mod-man/issues>  
 
 Download: <https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.3/Outer.Wilds.Mod.Manager_0.15.3_amd64.AppImage>

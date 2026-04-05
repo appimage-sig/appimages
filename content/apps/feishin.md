@@ -21,7 +21,7 @@ Source code: <https://github.com/jeffvli/feishin>
 
 Become a sponsor: <https://ko-fi.com/jeffvli>  
 Translate: <https://hosted.weblate.org/projects/feishin>  
-Report the bug: <https://github.com/jeffvli/feishin/issues/new>  
+Report the bug: <https://github.com/jeffvli/feishin/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -20,7 +20,7 @@ Web page: <https://86box.net>
 Source code: <https://github.com/86Box/86Box>
 
 Become a sponsor: <https://www.paypal.com/paypalme/86Box>  
-Report the bug: <https://github.com/86Box/86Box/issues/new>
+Report the bug: <https://github.com/86Box/86Box/issues>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

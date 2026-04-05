@@ -23,6 +23,6 @@ Source code: <https://github.com/tutao/tutanota>
 
 Become a sponsor: <https://tuta.com/community/#donate>  
 Translate: <https://tuta.com/blog/tutanota-translation-project>  
-Report the bug: <https://github.com/tutao/tutanota/issues/new>  
+Report the bug: <https://github.com/tutao/tutanota/issues>  
 
 Download: <https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-338.260318.0/tutanota-desktop-linux.AppImage>

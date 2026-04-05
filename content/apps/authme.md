@@ -22,6 +22,6 @@ Source code: <https://github.com/Levminer/authme>
 
 Become a sponsor: <https://paypal.me/levminer>  
 Translate: <https://github.com/Levminer/authme/issues/258#issuecomment-1909792332>  
-Report the bug: <https://github.com/Levminer/authme/issues/new>    
+Report the bug: <https://github.com/Levminer/authme/issues>    
 
 Download: <https://github.com/Levminer/authme/releases/download/7.0.0/authme-7.0.0-linux-x64.appimage>

@@ -20,7 +20,7 @@ License: BSD-3-Clause
 Web page: <https://featherwallet.org>  
 Source code: <https://github.com/feather-wallet/feather>
 
-Report the bug: <https://github.com/feather-wallet/feather/issues/new>  
+Report the bug: <https://github.com/feather-wallet/feather/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

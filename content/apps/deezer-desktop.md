@@ -19,7 +19,7 @@ License: "MIT"
 Source code: <https://github.com/aunetx/deezer-linux>
 
 Become a sponsor: <https://github.com/sponsors/aunetx>  
-Report the bug: <https://github.com/aunetx/deezer-linux/issues/new>  
+Report the bug: <https://github.com/aunetx/deezer-linux/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

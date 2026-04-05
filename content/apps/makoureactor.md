@@ -17,7 +17,7 @@ License: GPL-3.0
 
 Source code: <https://github.com/myst6re/makoureactor>
 
-Report the bug: <https://github.com/myst6re/makoureactor/issues/new>  
+Report the bug: <https://github.com/myst6re/makoureactor/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

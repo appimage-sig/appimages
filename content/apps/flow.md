@@ -19,7 +19,7 @@ Web page: <https://flow.linwood.dev/>
 Source code: <https://github.com/LinwoodDev/Flow>
 
 Translate: <https://translate.linwood.dev/butterfly>  
-Report the bug: <https://github.com/LinwoodDev/Flow/issues/new>  
+Report the bug: <https://github.com/LinwoodDev/Flow/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

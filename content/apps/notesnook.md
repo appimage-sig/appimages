@@ -19,7 +19,7 @@ Web page: <https://notesnook.com>
 Source code: <https://github.com/streetwriters/notesnook>
 
 Become a sponsor: <https://opencollective.com/notesnook>  
-Report the bug: <https://github.com/streetwriters/notesnook/issues/new>  
+Report the bug: <https://github.com/streetwriters/notesnook/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

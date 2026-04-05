@@ -20,7 +20,7 @@ Source code: <https://github.com/CyberTimon/RapidRAW>
 
 Become a sponsor: <https://ko-fi.com/cybertimon>  
 Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
-Report the bug: <https://github.com/CyberTimon/RapidRAW/issues/new>  
+Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

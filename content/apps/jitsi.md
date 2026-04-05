@@ -21,7 +21,7 @@ Web page: <https://desktop.jitsi.org>
 Source code: <https://github.com/jitsi/jitsi-meet-electron>
 
 Translate: <https://github.com/jitsi/jitsi-meet-electron/blob/master/app/i18n/lang>  
-Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues/new>  
+Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

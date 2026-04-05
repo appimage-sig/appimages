@@ -22,7 +22,7 @@ Source code: <https://github.com/Zettlr/Zettlr>
 
 Become a sponsor: <https://github.com/sponsors/nathanlesage>  
 Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
-Report the bug: <https://github.com/Zettlr/Zettlr/issues/new>  
+Report the bug: <https://github.com/Zettlr/Zettlr/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

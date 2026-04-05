@@ -21,6 +21,6 @@ Web page: <https://www.arduino.cc/en/software>
 Source code: <https://github.com/arduino/arduino-ide>
 
 Translate: <https://explore.transifex.com/arduino-1/ide2>  
-Report the bug: <https://github.com/arduino/arduino-ide/issues/new>  
+Report the bug: <https://github.com/arduino/arduino-ide/issues>  
 
 Download: <https://github.com/arduino/arduino-ide/releases/download/2.3.7/arduino-ide_2.3.7_Linux_64bit.AppImage>

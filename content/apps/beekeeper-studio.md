@@ -21,7 +21,7 @@ Web page: <https://www.beekeeperstudio.io>
 Source code: <https://github.com/beekeeper-studio/beekeeper-studio>
 
 Become a sponsor: <https://github.com/sponsors/beekeeper-studio>  
-Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues/new>  
+Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

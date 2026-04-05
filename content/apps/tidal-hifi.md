@@ -19,5 +19,5 @@ License: "MIT"
 Source code: <https://github.com/Mastermindzh/tidal-hifi>
 
 Become a sponsor: <https://github.com/sponsors/Mastermindzh>  
-Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues/new>  
+Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>  
 Download: <https://github.com/Mastermindzh/tidal-hifi/releases/download/6.0.1/tidal-hifi-6.0.1.AppImage>

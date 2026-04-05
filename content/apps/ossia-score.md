@@ -19,7 +19,7 @@ Web page: <https://ossia.io/score/about.html>
 Source code: <https://github.com/ossia/score>
 
 Become a sponsor: <https://opencollective.com/ossia>  
-Report the bug: <https://github.com/ossia/score/issues/new>  
+Report the bug: <https://github.com/ossia/score/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -21,6 +21,6 @@ Source code: <https://github.com/keepassxreboot/keepassxc>
 
 Become a sponsor: <https://keepassxc.org/donate>  
 Translate: <https://explore.transifex.com/keepassxc/keepassxc>  
-Report the bug: <https://github.com/keepassxreboot/keepassxc/issues/new>  
+Report the bug: <https://github.com/keepassxreboot/keepassxc/issues>  
 
 Download: <https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-1-x86_64.AppImage>

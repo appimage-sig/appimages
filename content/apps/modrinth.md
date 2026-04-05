@@ -21,6 +21,6 @@ Web page: <https://modrinth.com>
 Source code: <https://github.com/modrinth/code>
 
 Translate: <https://crowdin.com/project/modrinth>  
-Report the bug: <https://github.com/modrinth/code/issues/new>  
+Report the bug: <https://github.com/modrinth/code/issues>  
 
 Download: <https://launcher-files.modrinth.com/versions/0.10.26/linux/Modrinth%20App_0.10.26_amd64.AppImage>

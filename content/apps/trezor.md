@@ -19,7 +19,7 @@ Web page: <https://trezor.io/>
 Source code: <https://github.com/trezor/trezor-suite>
 
 Become a sponsor: <https://trezor.io/support/a/trezor-beer-fund>  
-Report the bug: <https://github.com/trezor/trezor-suite/issues/new>  
+Report the bug: <https://github.com/trezor/trezor-suite/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

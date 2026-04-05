@@ -21,7 +21,7 @@ Web page: <https://converseen.fasterland.net>
 Source code: <https://github.com/Faster3ck/Converseen>
 
 Become a sponsor: <https://ko-fi.com/faster3ck>  
-Report the bug: <https://github.com/Faster3ck/Converseen/issues/new>  
+Report the bug: <https://github.com/Faster3ck/Converseen/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

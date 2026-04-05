@@ -20,7 +20,7 @@ Source code: <https://github.com/koreader/koreader>
 
 Become a sponsor: <https://liberapay.com/KOReader>  
 Translate: <https://hosted.weblate.org/engage/koreader>  
-Report the bug: <https://github.com/koreader/koreader/issues/new>  
+Report the bug: <https://github.com/koreader/koreader/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

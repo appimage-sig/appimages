@@ -22,6 +22,6 @@ Source code: <https://github.com/rizinorg/cutter>
 
 Become a sponsor: <https://github.com/sponsors/rizinorg>  
 Translate: <https://crowdin.com/project/cutter>  
-Report the bug: <https://github.com/rizinorg/cutter/issues/new>  
+Report the bug: <https://github.com/rizinorg/cutter/issues>  
 
 Download: <https://github.com/rizinorg/cutter/releases/download/v2.4.1/Cutter-v2.4.1-Linux-x86_64.AppImage>

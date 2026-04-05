@@ -20,7 +20,7 @@ Web page: <https://dbgate.org>
 Source code: <https://github.com/dbgate/dbgate>
 
 Become a sponsor: <https://github.com/sponsors/dbgate>  
-Report the bug: <https://github.com/dbgate/dbgate/issues/new>  
+Report the bug: <https://github.com/dbgate/dbgate/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

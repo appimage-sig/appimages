@@ -21,7 +21,7 @@ Web page: <https://vieb.dev>
 Source code: <https://github.com/Jelmerro/Vieb>
 
 Become a sponsor: <https://github.com/sponsors/Jelmerro>  
-Report the bug: <https://github.com/Jelmerro/Vieb/issues/new>  
+Report the bug: <https://github.com/Jelmerro/Vieb/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

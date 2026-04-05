@@ -22,7 +22,7 @@ Source code: <https://github.com/deltachat/deltachat-desktop>
 
 Translate: <https://explore.transifex.com/delta-chat/delta-chat-app/>  
 Become a sponsor: <https://delta.chat/en/donate>  
-Report the bug: <https://github.com/deltachat/deltachat-desktop/issues/new>  
+Report the bug: <https://github.com/deltachat/deltachat-desktop/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

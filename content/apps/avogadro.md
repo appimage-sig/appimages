@@ -22,7 +22,7 @@ Source code: <https://github.com/openchemistry/avogadrolibs>
 
 Become a sponsor: <https://opencollective.com/open-chemistry>  
 Translate: <https://hosted.weblate.org/engage/avogadro>  
-Report the bug: <https://github.com/openchemistry/avogadrolibs/issues/new>
+Report the bug: <https://github.com/openchemistry/avogadrolibs/issues>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

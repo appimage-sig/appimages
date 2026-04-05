@@ -19,7 +19,7 @@ Web page: <https://raredevs.github.io/Rare>
 Source code: <https://github.com/RareDevs/Rare>
 
 Translate: <https://explore.transifex.com/rare-1/rare>  
-Report the bug: <https://github.com/RareDevs/Rare/issues/new>  
+Report the bug: <https://github.com/RareDevs/Rare/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

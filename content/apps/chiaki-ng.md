@@ -21,7 +21,7 @@ Web page: <https://streetpea.github.io/chiaki-ng>
 Source code: <https://github.com/streetpea/chiaki-ng>
 
 Become a sponsor: <https://buymeacoffee.com/streetpea>  
-Report the bug: <https://github.com/streetpea/chiaki-ng/issues/new>  
+Report the bug: <https://github.com/streetpea/chiaki-ng/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

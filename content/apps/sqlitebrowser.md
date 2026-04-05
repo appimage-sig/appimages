@@ -22,19 +22,19 @@ Source code: <https://github.com/sqlitebrowser/sqlitebrowser>
 
 Become a sponsor: <https://patreon.com/db4s>  
 Translate: <https://github.com/sqlitebrowser/sqlitebrowser/wiki/Translations>  
-Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues/new>  
+Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues>  
 
 <div class="buttons">
     <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-57a3e6e-x86.64.AppImage">Download SQLCipher x86_64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-52fccec-x86.64.AppImage">Download SQLCipher x86_64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-57a3e6e-aarch64.AppImage">Download SQLCipher arm64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-52fccec-aarch64.AppImage">Download SQLCipher arm64</a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-57a3e6e-x86.64.AppImage">Download SQLite x86_64 </a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-52fccec-x86.64.AppImage">Download SQLite x86_64 </a>
   </button>
     <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-57a3e6e-aarch64.AppImage">Download SQLite arm64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-52fccec-aarch64.AppImage">Download SQLite arm64</a>
   </button>
 </div>

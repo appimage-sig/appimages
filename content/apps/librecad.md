@@ -22,7 +22,7 @@ Source code: <https://github.com/LibreCAD/LibreCAD>
 
 Become a sponsor: <https://github.com/sponsors/LibreCAD>  
 Translate: <https://translate.librecad.org>  
-Report the bug: <https://github.com/LibreCAD/LibreCAD/issues/new>  
+Report the bug: <https://github.com/LibreCAD/LibreCAD/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -21,7 +21,7 @@ Web page: <https://cartero.danirod.es/>
 Source code: <https://github.com/danirod/cartero>
 
 Translate: <https://hosted.weblate.org/projects/cartero/cartero/>  
-Report the bug: <https://github.com/danirod/cartero/issues/new>  
+Report the bug: <https://github.com/danirod/cartero/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

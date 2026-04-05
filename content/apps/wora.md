@@ -20,6 +20,6 @@ License: "MIT"
 Source code: <https://github.com/playwora/wora>  
 
 Become a sponsor: <https://github.com/hiaaryan>  
-Report the bug: <https://github.com/playwora/wora/issues/new>  
+Report the bug: <https://github.com/playwora/wora/issues>  
 
 Download: <https://github.com/playwora/wora/releases/download/v0.4.0-beta2/Wora.v0.4.0-beta2.AppImage>

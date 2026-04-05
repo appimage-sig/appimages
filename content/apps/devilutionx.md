@@ -20,6 +20,6 @@ License: Sustainable Use License v1.0
 Source code: <https://github.com/diasurgical/devilutionX>
 
 Translate: <https://github.com/diasurgical/devilutionX/wiki/Translation-Guide>  
-Report the bug: <https://github.com/diasurgical/devilutionX/issues/new>  
+Report the bug: <https://github.com/diasurgical/devilutionX/issues>  
 
 Download: <https://github.com/diasurgical/DevilutionX/releases/download/1.5.5/devilutionx-linux-x86_64.appimage>

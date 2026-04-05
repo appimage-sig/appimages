@@ -19,6 +19,6 @@ Source code: <https://github.com/johannesjo/super-productivity>
 
 Become a sponsor: <https://github.com/sponsors/johannesjo>  
 Translate: <https://fink.inlang.com/github.com/johannesjo/super-productivity>  
-Report the bug: <https://github.com/johannesjo/super-productivity/issues/new>  
+Report the bug: <https://github.com/johannesjo/super-productivity/issues>  
 
 Download: <https://github.com/super-productivity/super-productivity/releases/download/v17.0.0-RC.12/superProductivity-x86_64.AppImage>

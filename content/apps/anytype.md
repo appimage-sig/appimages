@@ -19,6 +19,6 @@ Web page: <https://anytype.io>
 Source code: <https://github.com/anyproto/anytype-ts>
 
 Translate: <https://crowdin.com/project/anytype-desktop>  
-Report the bug: <https://github.com/anyproto/anytype-ts//issues/new>  
+Report the bug: <https://github.com/anyproto/anytype-ts//issues>  
 
 Download: <https://github.com/anyproto/anytype-ts/releases/download/v0.53.44-beta/Anytype-0.53.44-beta.AppImage>

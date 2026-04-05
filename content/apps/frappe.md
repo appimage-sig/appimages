@@ -21,6 +21,6 @@ Web page: <https://frappe.io/books>
 Source code: <https://github.com/frappe/books>
 
 Translate: <https://github.com/frappe/books/wiki/Contributing-Translations>  
-Report the bug: <https://github.com/frappe/books/issues/new>  
+Report the bug: <https://github.com/frappe/books/issues>  
 
 Download: <https://github.com/frappe/books/releases/download/v0.36.0/Frappe-Books-v0.36.0-linux-x86_64.AppImage>

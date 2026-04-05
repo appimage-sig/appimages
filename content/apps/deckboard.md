@@ -20,6 +20,6 @@ License: EULA
 Web page: <https://deckboard.app>  
 
 Become a sponsor: <https://ko-fi.com/rivafarabi>  
-Report the bug: <https://github.com/rivafarabi/deckboard/issues/new>  
+Report the bug: <https://github.com/rivafarabi/deckboard/issues>  
 
 Download: <https://github.com/rivafarabi/deckboard/releases/download/v3.1.4/Deckboard-3.1.4.AppImage>

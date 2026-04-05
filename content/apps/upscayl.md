@@ -21,6 +21,6 @@ Web page: <https://upscayl.org>
 Source code: <https://github.com/upscayl/upscayl>
 
 Become a sponsor: <https://www.buymeacoffee.com/fossisthefuture>  
-Report the bug: <https://github.com/upscayl/upscayl/issues/new>  
+Report the bug: <https://github.com/upscayl/upscayl/issues>  
 
 Download: <https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage>

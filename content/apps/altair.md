@@ -21,7 +21,7 @@ Source code: <https://github.com/altair-graphql/altair>
 
 Become a sponsor: <https://opencollective.com/altair>  
 Translate: <https://crwd.in/altair-gql>  
-Report the bug: <https://github.com/altair-graphql/altair/issues/new>  
+Report the bug: <https://github.com/altair-graphql/altair/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

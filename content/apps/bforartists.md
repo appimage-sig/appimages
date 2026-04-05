@@ -20,6 +20,6 @@ License: GPL-2.0
 Web page: <http://www.bforartists.de>  
 Source code: <https://github.com/Bforartists/Bforartists>
 
-Report the bug: <https://github.com/Bforartists/Bforartists/issues/new>  
+Report the bug: <https://github.com/Bforartists/Bforartists/issues>  
 
 Download: <https://github.com/Bforartists/Bforartists/releases/download/v5.0.1/Bforartists-5.0.1-x86_64.AppImage>

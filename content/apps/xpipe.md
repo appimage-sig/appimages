@@ -21,7 +21,7 @@ Web page: <https://xpipe.io/>
 Source code: <https://github.com/xpipe-io/xpipe>
 
 Translate: <https://github.com/xpipe-io/xpipe/tree/master/lang>  
-Report the bug: <https://github.com/xpipe-io/xpipe/issues/new>  
+Report the bug: <https://github.com/xpipe-io/xpipe/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

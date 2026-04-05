@@ -22,7 +22,7 @@ Source code: <https://github.com/jorio/gitfourchette>
 
 Become a sponsor: <https://ko-fi.com/jorio>  
 Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
-Report the bug: <https://github.com/jorio/gitfourchette/issues/new>
+Report the bug: <https://github.com/jorio/gitfourchette/issues>
 
 <div class="buttons">
     <button class="c-button c-button--primary c-button--large" 

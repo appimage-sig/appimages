@@ -19,7 +19,7 @@ Web page: <https://www.onlyoffice.com>
 Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
 
 Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
-Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues/new>  
+Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

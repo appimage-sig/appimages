@@ -20,7 +20,7 @@ Source code: <https://github.com/rustdesk/rustdesk>
 
 Become a sponsor: <https://github.com/sponsors/rustdesk>  
 Translate: <https://github.com/rustdesk/rustdesk/tree/master/src/lang>  
-Report the bug: <https://github.com/rustdesk/rustdesk/issues/new>  
+Report the bug: <https://github.com/rustdesk/rustdesk/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

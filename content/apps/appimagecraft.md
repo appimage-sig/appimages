@@ -15,7 +15,7 @@ appimagecraft completely automates the AppImage build process
 License: "MIT"
 Source code: <https://github.com/TheAssassin/appimagecraft>
 
-Report the bug: <https://github.com/TheAssassin/appimagecraft/issues/new>  
+Report the bug: <https://github.com/TheAssassin/appimagecraft/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

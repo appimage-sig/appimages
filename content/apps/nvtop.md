@@ -17,6 +17,6 @@ License: GPL-3.0
 
 Source code: <https://github.com/Syllo/nvtop>
 
-Report the bug: <https://github.com/Syllo/nvtop/issues/new>  
+Report the bug: <https://github.com/Syllo/nvtop/issues>  
 
 Download: <https://github.com/Syllo/nvtop/releases/download/3.3.1/nvtop-3.3.1-x86_64.AppImage>

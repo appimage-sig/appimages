@@ -20,6 +20,6 @@ License: GPL-3.0
 Web page: <https://friction.graphics>  
 Source code: <https://github.com/friction2d/friction>
 
-Report the bug: <https://github.com/friction2d/friction/issues/new>  
+Report the bug: <https://github.com/friction2d/friction/issues>  
 
 Download: <https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/Friction-1.0.0-rc.3-x86_64.AppImage>

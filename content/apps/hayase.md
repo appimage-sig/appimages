@@ -21,6 +21,6 @@ Web page: <https://hayase.watch/>
 Source code: <https://github.com/hayase-app/electron>
 
 Become a sponsor: <https://github.com/sponsors/ThaUnknown>  
-Report the bug: <https://github.com/hayase-app/electron/issues/new>  
+Report the bug: <https://github.com/hayase-app/electron/issues>  
 
 Download: <https://api.hayase.watch/files/linux-hayase-6.4.50-linux.AppImage>

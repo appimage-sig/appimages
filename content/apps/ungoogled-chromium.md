@@ -17,7 +17,7 @@ License: BSD-3-Clause
 Web page: <https://ungoogled-software.github.io>  
 Source code: <https://github.com/ungoogled-software/ungoogled-chromium>
 
-Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues/new>  
+Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -22,5 +22,5 @@ Web page: <https://www.mapeditor.org/>
 Source code: <https://github.com/mapeditor/tiled/>
 
 Become a sponsor: <https://github.com/bjorn>  
-Report the bug: <https://github.com/mapeditor/tiled//issues/new>  
+Report the bug: <https://github.com/mapeditor/tiled//issues>  
 Download: <https://github.com/mapeditor/tiled/releases/download/v1.11.2/Tiled-1.11.2_Linux_Qt-6_x86_64.AppImage>

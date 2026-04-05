@@ -16,6 +16,6 @@ License: EULA
 
 Web page: <https://s3drive.app>
 
-Report the bug: <https://github.com/s3drive/app/issues/new>
+Report the bug: <https://github.com/s3drive/app/issues>
 
 Download: <https://github.com/s3drive/appimage-app/releases/download/1.16.2/S3Drive-x86_64.AppImage>

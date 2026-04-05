@@ -21,7 +21,7 @@ Source code: <https://github.com/Milkshiift/GoofCord>
 
 Become a sponsor: <https://github.com/Milkshiift/GoofCord?tab=readme-ov-file#donations>  
 Translate: <https://hosted.weblate.org/engage/goofcord/>  
-Report the bug: <https://github.com/Milkshiift/GoofCord/issues/new>  
+Report the bug: <https://github.com/Milkshiift/GoofCord/issues>  
 
 <div class="buttons">
     <button class="c-button c-button--primary c-button--large" 

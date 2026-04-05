@@ -20,7 +20,7 @@ Source code: <https://github.com/PrismLauncher/PrismLauncher>
 
 Become a sponsor: <https://opencollective.com/prismlauncher>  
 Translate: <https://hosted.weblate.org/projects/prismlauncher/launcher/>  
-Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues/new>  
+Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -18,6 +18,6 @@ Web page: <https://www.playyourdamnturn.com>
 Source code: <https://github.com/pydt/client>
 
 Become a sponsor: <https://www.patreon.com/pydt>  
-Report the bug: <https://github.com/pydt/client/issues/new>  
+Report the bug: <https://github.com/pydt/client/issues>  
 
 Download: <https://github.com/pydt/client/releases/download/v2.1.9/playyourdamnturn-linux-2.1.9-x86_64.AppImage>

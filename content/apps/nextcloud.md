@@ -19,6 +19,6 @@ Web page: <https://nextcloud.com>
 Source code: <https://github.com/nextcloud/desktop>
 
 Translate: <https://explore.transifex.com/nextcloud/nextcloud>  
-Report the bug: <https://github.com/nextcloud/desktop/issues/new>  
+Report the bug: <https://github.com/nextcloud/desktop/issues>  
 
 Download: <https://github.com/nextcloud-releases/desktop/releases/download/v4.0.4/Nextcloud-4.0.4-x86_64.AppImage>

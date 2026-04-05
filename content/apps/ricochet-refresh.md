@@ -18,7 +18,7 @@ License: BSD-3-Clause
 Web page: <https://www.ricochetrefresh.net>  
 Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 
-Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues/new>  
+Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

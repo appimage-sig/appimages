@@ -22,6 +22,6 @@ Source code: <https://github.com/session-foundation/session-desktop>
 
 Become a sponsor: <https://donorbox.org/optf-donation>  
 Translate: <https://crowdin.com/project/session-crossplatform-strings>  
-Report the bug: <https://github.com/session-foundation/session-desktop/issues/new>  
+Report the bug: <https://github.com/session-foundation/session-desktop/issues>  
 
 Download: <https://github.com/session-foundation/session-desktop/releases/download/v1.17.6/session-desktop-linux-x86_64-1.17.6.AppImage>

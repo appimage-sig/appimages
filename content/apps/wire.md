@@ -19,6 +19,6 @@ Web page: <https://wire.com/en>
 Source code: <https://github.com/wireapp/wire-desktop>
 
 Translate: <https://crowdin.com/projects/wire>  
-Report the bug: <https://github.com/wireapp/wire-desktop/issues/new>  
+Report the bug: <https://github.com/wireapp/wire-desktop/issues>  
 
 Download: <https://github.com/wireapp/wire-desktop/releases/download/linux%2F3.40.3882/Wire-3.40.3882_x86_64.AppImage>

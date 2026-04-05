@@ -20,6 +20,6 @@ Source code: <https://github.com/RawTherapee/RawTherapee>
 
 Become a sponsor: <https://pixls.us/support>  
 Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
-Report the bug: <https://github.com/RawTherapee/RawTherapee/issues/new>  
+Report the bug: <https://github.com/RawTherapee/RawTherapee/issues>  
 
 Download: <https://github.com/RawTherapee/RawTherapee/releases/download/5.12/RawTherapee_5.12_release.AppImage>

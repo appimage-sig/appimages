@@ -21,7 +21,7 @@ Web page: <https://docs.butterfly.linwood.dev>
 Source code: <https://github.com/LinwoodDev/Butterfly>
 
 Translate: <https://translate.linwood.dev/butterfly>  
-Report the bug: <https://github.com/LinwoodDev/Butterfly/issues/new>  
+Report the bug: <https://github.com/LinwoodDev/Butterfly/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

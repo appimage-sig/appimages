@@ -19,7 +19,7 @@ License: MIT
 Web page: <https://www.usebruno.com>  
 Source code: <https://github.com/usebruno/bruno>
 
-Report the bug: <https://github.com/usebruno/bruno/issues/new>  
+Report the bug: <https://github.com/usebruno/bruno/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

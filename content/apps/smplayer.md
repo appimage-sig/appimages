@@ -22,6 +22,6 @@ Source code: <https://github.com/smplayer-dev/smplayer>
 
 Become a sponsor: <https://www.smplayer.info/en/contribute>  
 Translate: <https://explore.transifex.com/rvm/smplayer>  
-Report the bug: <https://github.com/smplayer-dev/smplayer/issues/new>  
+Report the bug: <https://github.com/smplayer-dev/smplayer/issues>  
 
 Download: <https://github.com/smplayer-dev/smplayer/releases/download/v10399/SMPlayer-25.6.0.10399-x86_64.AppImage>

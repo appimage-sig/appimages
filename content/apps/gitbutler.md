@@ -20,7 +20,7 @@ License: FSL-1.0-MIT
 Web page: <https://gitbutler.com>  
 Source code: <https://github.com/gitbutlerapp/gitbutler>
 
-Report the bug: <https://github.com/gitbutlerapp/gitbutler/issues/new>
+Report the bug: <https://github.com/gitbutlerapp/gitbutler/issues>
 
 <div class="buttons">
     <button class="c-button c-button--primary c-button--large" 

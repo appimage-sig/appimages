@@ -22,6 +22,6 @@ Source code: <https://github.com/gdm-settings/gdm-settings>
 
 Become a sponsor: <https://github.com/sponsors/gdm-settings>  
 Translate: <https://hosted.weblate.org/engage/gdm-settings>  
-Report the bug: <https://github.com/gdm-settings/gdm-settings/issues/new>  
+Report the bug: <https://github.com/gdm-settings/gdm-settings/issues>  
 
 Download: <https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage>

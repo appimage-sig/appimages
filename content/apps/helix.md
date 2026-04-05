@@ -21,6 +21,6 @@ Web page: <https://helix-editor.com>
 Source code: <https://github.com/helix-editor/helix>
 
 Become a sponsor: <https://opencollective.com/helix-editor>  
-Report the bug: <https://github.com/helix-editor/helix/issues/new>  
+Report the bug: <https://github.com/helix-editor/helix/issues>  
 
 Download: <https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64.AppImage>

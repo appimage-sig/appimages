@@ -19,7 +19,7 @@ Source code: <https://github.com/SpacingBat3/WebCord>
 
 Translate: <https://hosted.weblate.org/projects/webcord>  
 Become a sponsor: <https://github.com/sponsors/SpacingBat3>  
-Report the bug: <https://github.com/SpacingBat3/WebCord/issues/new>  
+Report the bug: <https://github.com/SpacingBat3/WebCord/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

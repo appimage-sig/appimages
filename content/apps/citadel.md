@@ -18,6 +18,6 @@ License: "MIT"
 Source code: <https://github.com/every-day-things/citadel>
 
 Become a sponsor: <https://github.com/sponsors/phildenhoff>  
-Report the bug: <https://github.com/every-day-things/citadel/issues/new>  
+Report the bug: <https://github.com/every-day-things/citadel/issues>  
 
 Download: <https://github.com/every-day-things/citadel/releases/download/app-v0.3.0/citadel_0.3.0_amd64.AppImage>

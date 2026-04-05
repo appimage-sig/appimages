@@ -23,7 +23,7 @@ Source code: <https://github.com/siyuan-note/siyuan>
 
 Become a sponsor: <https://ld246.com/sponsor>  
 Translate: <https://github.com/siyuan-note/siyuan/tree/master/app/appearance/langs>  
-Report the bug: <https://github.com/siyuan-note/siyuan/issues/new>  
+Report the bug: <https://github.com/siyuan-note/siyuan/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

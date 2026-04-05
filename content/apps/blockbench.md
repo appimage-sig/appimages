@@ -21,6 +21,6 @@ Web page: <https://www.blockbench.net>
 Source code: <https://github.com/JannisX11/blockbench>
 
 Translate: <https://www.blockbench.net/wiki/blockbench/localization>  
-Report the bug: <https://github.com/JannisX11/blockbench/issues/new>  
+Report the bug: <https://github.com/JannisX11/blockbench/issues>  
 
 Download: <https://github.com/JannisX11/blockbench/releases/download/v5.0.7/Blockbench_5.0.7.AppImage>

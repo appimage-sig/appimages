@@ -17,7 +17,7 @@ License: GPL-3.0
 
 Source code: <https://github.com/Equicord/Equibop>
 
-Report the bug: <https://github.com/Equicord/Equibop/issues/new>  
+Report the bug: <https://github.com/Equicord/Equibop/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

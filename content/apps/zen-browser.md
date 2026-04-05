@@ -21,7 +21,7 @@ Source code: <https://github.com/zen-browser/desktop>
 
 Become a sponsor: <https://patreon.com/zen_browser>  
 Translate: <https://crowdin.com/project/zen-browser>  
-Report the bug: <https://github.com/zen-browser/desktop/issues/new>  
+Report the bug: <https://github.com/zen-browser/desktop/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

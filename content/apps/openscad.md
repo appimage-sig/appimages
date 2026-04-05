@@ -20,6 +20,6 @@ Source code: <https://github.com/openscad/openscad>
 
 Become a sponsor: <https://github.com/sponsors/openscad>  
 Translate: <https://wiki.documentfoundation.org/Language>  
-Report the bug: <https://github.com/openscad/openscad/issues/new>  
+Report the bug: <https://github.com/openscad/openscad/issues>  
 
 Download: <https://files.openscad.org/snapshots/OpenSCAD-2025.12.23.ai30148-x86_64.AppImage>

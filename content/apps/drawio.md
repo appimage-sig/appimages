@@ -20,7 +20,7 @@ License: Apache-2.0
 Web page: <https://www.drawio.com>  
 Source code: <https://github.com/jgraph/drawio-desktop>
 
-Report the bug: <https://github.com/jgraph/drawio-desktop/issues/new>  
+Report the bug: <https://github.com/jgraph/drawio-desktop/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

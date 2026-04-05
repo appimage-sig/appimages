@@ -20,6 +20,6 @@ Source code: <https://github.com/Stellarium/stellarium>
 
 Become a sponsor: <https://opencollective.com/stellarium>  
 Translate: <https://explore.transifex.com/stellarium/stellarium>  
-Report the bug: <https://github.com/Stellarium/stellarium/issues/new>  
+Report the bug: <https://github.com/Stellarium/stellarium/issues>  
 
 Download: <https://github.com/Stellarium/stellarium/releases/download/v25.4/Stellarium-25.4-qt6-x86_64.AppImage>

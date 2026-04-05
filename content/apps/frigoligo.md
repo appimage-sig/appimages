@@ -19,7 +19,7 @@ License: "MIT"
 Source code: <https://github.com/casimir/frigoligo>
 
 Translate: <https://hosted.weblate.org/engage/frigoligo>  
-Report the bug: <https://github.com/casimir/frigoligo/issues/new>  
+Report the bug: <https://github.com/casimir/frigoligo/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

@@ -21,7 +21,7 @@ Web page: <https://xournalpp.github.io>
 Source code: <https://github.com/xournalpp/xournalpp>  
 
 Translate: <https://crowdin.com/project/xournalpp>  
-Report the bug: <https://github.com/xournalpp/xournalpp/issues/new>  
+Report the bug: <https://github.com/xournalpp/xournalpp/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

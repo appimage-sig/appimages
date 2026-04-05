@@ -20,7 +20,7 @@ Source code: <https://github.com/GlitterWare/Passy>
 
 Become a sponsor: <https://github.com/sponsors/GlitterWare>  
 Translate: <https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md>  
-Report the bug: <https://github.com/GlitterWare/Passy/issues/new>  
+Report the bug: <https://github.com/GlitterWare/Passy/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

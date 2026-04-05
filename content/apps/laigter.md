@@ -22,6 +22,6 @@ Source code: <https://github.com/azagaya/laigter>
 
 Become a sponsor: <https://www.patreon.com/jazagaya>  
 Translate: <https://github.com/azagaya/laigter/blob/master/CONTRIBUTING.md#contributing-with-translation>  
-Report the bug: <https://github.com/azagaya/laigter/issues/new>  
+Report the bug: <https://github.com/azagaya/laigter/issues>  
 
 Download: <https://github.com/azagaya/laigter/releases/download/1.13.1/Laigter-x86_64.AppImage>

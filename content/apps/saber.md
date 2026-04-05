@@ -22,7 +22,7 @@ Source code: <https://github.com/saber-notes/saber>
 
 Become a sponsor: <https://github.com/sponsors/adil192>  
 Translate: <https://github.com/saber-notes/saber?tab=readme-ov-file#translating>  
-Report the bug: <https://github.com/saber-notes/saber/issues/new>  
+Report the bug: <https://github.com/saber-notes/saber/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

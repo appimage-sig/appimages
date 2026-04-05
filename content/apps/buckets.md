@@ -21,7 +21,7 @@ Web page: <https://www.budgetwithbuckets.com>
 
 Translate: <https://github.com/buckets/translations>  
 Become a sponsor: <https://www.patreon.com/iffy>  
-Report the bug: <https://github.com/buckets/application/issues/new>  
+Report the bug: <https://github.com/buckets/application/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

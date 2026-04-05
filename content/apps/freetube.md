@@ -22,7 +22,7 @@ Source code: <https://github.com/FreeTubeApp/FreeTube>
 
 Become a sponsor: <https://liberapay.com/FreeTube>  
 Translate: <https://hosted.weblate.org/engage/free-tube>  
-Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues/new>
+Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 

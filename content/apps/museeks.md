@@ -19,7 +19,7 @@ License: MIT
 Web page: <https://museeks.io>  
 Source code: <https://github.com/martpie/museeks>
 
-Report the bug: <https://github.com/martpie/museeks/issues/new>  
+Report the bug: <https://github.com/martpie/museeks/issues>  
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
