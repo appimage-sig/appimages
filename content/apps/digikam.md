@@ -1,7 +1,7 @@
 +++
 title = "digiKam"
 description = "Professional Photo Management with Power of Open Source"
-date = "2025-10-17T15:56:00"
+date = "2026-04-04 20:51:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["digiKam Team"]
@@ -22,4 +22,4 @@ Become a sponsor: <https://www.digikam.org/donate>
 Translate: <https://l10n.kde.org>  
 Report the bug: <https://bugs.kde.org/buglist.cgi?product=digikam&resolution=>  
 
-Download: <https://download.kde.org/stable/digikam/8.8.0/digiKam-8.8.0-Qt6-x86-64.appimage>
+Download: <https://download.kde.org/stable/digikam/9.0.0/digiKam-9.0.0-Qt6-x86-64.appimage>

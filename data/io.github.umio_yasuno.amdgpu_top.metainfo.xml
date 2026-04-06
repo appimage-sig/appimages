@@ -39,6 +39,67 @@
   </screenshots>
 
   <releases>
+    <release version="0.11.3" date="2026-03-30">
+      <description>
+        <p>Changelog</p>
+        <ul>
+          <li>Add -p and --json options combination support (#153)</li>
+          <li>Fix: dose -> does in strings and comments (#156)</li>
+        </ul>
+        <ul>
+          <li>lib: NpuMetrics</li>
+        </ul>
+        <ul>
+          <li>tui: specify 24-bit color (#151)</li>
+        </ul>
+        <ul>
+          <li>gui: double the CPU plot height when APU has 8 or more cores (#155)</li>
+        </ul>
+        <ul>
+          <li>xdna: update bindings</li>
+          <li>xdna: add get_xdna_resource_info</li>
+        </ul>
+        <ul>
+          <li>json: update GpuMetrics for gpu_metrics_v3_0 and XDNA NPU</li>
+          <li>json: NpuMetrics</li>
+        </ul>
+      </description>
+      <url>https://github.com/Umio-Yasuno/amdgpu_top/releases/tag/v0.11.3</url>
+    </release>
+    <release version="0.11.2" date="2026-02-05">
+      <description>
+        <p>Changelog</p>
+        <ul>
+          <li>fix deps</li>
+        </ul>
+      </description>
+      <url>https://github.com/Umio-Yasuno/amdgpu_top/releases/tag/v0.11.2</url>
+    </release>
+    <release version="0.11.1" date="2026-02-05">
+      <description>
+        <p>Changelog</p>
+        <ul>
+          <li>lib: fix gfx and media activity for Strix Point, Krackan Point and Strix Halo (#139)</li>
+          <li>lib: improve to_d3hot check logic (#142)</li>
+          <li>lib: improve cpu usage calculation</li>
+          <li>lib: update kfd process detection logic</li>
+          <li>lib: rename "Ring List Controller" to "RunList Controller"</li>
+          <li>lib: apply input power workaround for SMU v13.0.5 to Granite Ridge only</li>
+        </ul>
+        <ul>
+          <li>tui: fix xdna fdinfo header</li>
+          <li>tui: print throttle_residency_* for gpu_metrics_v3_0</li>
+        </ul>
+        <ul>
+          <li>gui: print throttle_residency_* for gpu_metrics_v3_0</li>
+          <li>gui: use `max_od_gpu_clk` and `max_od_mem_clk` for Sensors plot</li>
+          <li>gui: persist GUI mode</li>
+          <li>gui: use GpuMetrics::get_throttle_status_info</li>
+          <li>gui: persist main tab and info tab</li>
+        </ul>
+      </description>
+      <url>https://github.com/Umio-Yasuno/amdgpu_top/releases/tag/v0.11.1</url>
+    </release>
     <release version="0.11.0" date="2025-09-02">
       <description>
         <p>Changelog</p>
@@ -135,7 +196,7 @@
           <li>add support for k10temp Tctl</li>
           <li>dynamically update power_cap</li>
           <li>implement workaround for Raphael/Granite Ridge APU reported input power</li>
-          <li>implement workaround for RDNA 4 dGPU (SMU v14.0.2/3) dose not have fan1_input</li>
+          <li>implement workaround for RDNA 4 dGPU (SMU v14.0.2/3) does not have fan1_input</li>
           <li>skip show fdinfo stat if ids_count is zero</li>
         </ul>
         <ul>

@@ -1,7 +1,7 @@
 +++
 title = "GIMP"
 description = "The Free & Open Source Image Editor"
-date = "2025-12-14T22:32:00"
+date = "2026-03-28 21:12:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["GIMP’s Team"]
@@ -26,9 +26,9 @@ Report the bug: <https://gitlab.gnome.org/GNOME/gimp/-/work_items/new>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.0-RC2-x86_64.AppImage">Download x86_64</a>
+      <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.0-RC2-aarch64.AppImage">Download arm64</a>
+      <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-aarch64.AppImage">Download arm64</a>
   </button>
 </div>
