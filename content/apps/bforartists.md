@@ -1,7 +1,7 @@
 +++
 title = "Bforartists"
 description = "Bforartists is a fork of the popular 3D software Blender, with the goal to improve the UI"
-date = "2025-12-30T21:40:00"
+date = "2026-03-25T01:27:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Reiner Prokein"]
@@ -22,4 +22,4 @@ Source code: <https://github.com/Bforartists/Bforartists>
 
 Report the bug: <https://github.com/Bforartists/Bforartists/issues>  
 
-Download: <https://github.com/Bforartists/Bforartists/releases/download/v5.0.1/Bforartists-5.0.1-x86_64.AppImage>
+Download: <https://github.com/Bforartists/Bforartists/releases/download/v5.1.0/Bforartists-5.1.0-x86_64.AppImage>

@@ -1,7 +1,7 @@
 +++
 title = "Freac"
 description = "Free and open source audio converter"
-date = "2026-01-22 18:12:00"
+date = "2026-04-07 00:29:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Robert Kausch"]

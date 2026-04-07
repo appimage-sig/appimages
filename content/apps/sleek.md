@@ -1,7 +1,7 @@
 +++
 title = "Sleek"
 description = "Open-source (FOSS) todo manager based on the todo.txt syntax"
-date = "2025-11-30T10:37:00"
+date = "2026-04-02 11:07:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Robin Ahle"]
@@ -16,6 +16,7 @@ license = ["MIT"]
 Open-source (FOSS) todo manager based on the todo.txt syntax
 
 License: MIT
+
 Source code: <https://github.com/ransome1/sleek>
 
 Become a sponsor: <https://github.com/sponsors/ransome1>  
@@ -24,8 +25,8 @@ Report the bug: <https://github.com/ransome1/sleek/issues>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ransome1/sleek/releases/download/v2.0.22/sleek-2.0.22-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/ransome1/sleek/releases/download/v2.0.24/sleek-2.0.24-linux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ransome1/sleek/releases/download/v2.0.22/sleek-2.0.22-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/ransome1/sleek/releases/download/v2.0.24/sleek-2.0.24-linux-arm64.AppImage">Download arm64</a>
   </button>

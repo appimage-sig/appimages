@@ -1,7 +1,7 @@
 +++
 title = "Kdenlive"
 description = "Free and Open Source Video Editor"
-date = "2025-12-18T16:44:00" 	
+date = "2026-03-08 16:34:00" 	
 categories = ["AudioVideo"]
 authors = ["Kdenlive Team"]
 tags = ["Video Editor"]
@@ -23,4 +23,4 @@ Become a sponsor: <https://kdenlive.org/fund/>
 Translate: <https://l10n.kde.org>  
 Report the bug: <https://invent.kde.org/multimedia/kdenlive/-/work_items/new>  
 
-Download: <https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.0-B-x86_64.AppImage>
+Download: <https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.3-x86_64.AppImage>

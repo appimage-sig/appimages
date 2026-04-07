@@ -76,5 +76,5 @@ block = "blog-section"
 title = "Recent Posts"
 description_html = """
     <p>AppImage catalog for Linux users</p>"""
-link_url = "/apps"
+link_url = "content/apps"
 show_posts = true

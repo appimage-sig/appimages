@@ -1,7 +1,7 @@
 +++
 title = "ente Auth"
 description = "Open source 2FA authenticator, with end-to-end encrypted backups"
-date = "2025-12-17T15:16:00"
+date = "2026-02-05 15:20:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Ente"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/ente-io/ente>
 Translate: <https://crowdin.com/project/ente-photos-web>  
 Report the bug: <https://github.com/ente-io/ente/issues>  
 
-Download: <https://github.com/ente-io/ente/releases/download/auth-v4.4.15/ente-auth-v4.4.15-x86_64.AppImage>
+Download: <https://github.com/ente-io/ente/releases/download/auth-v4.4.17/ente-auth-v4.4.17-x86_64.AppImage>

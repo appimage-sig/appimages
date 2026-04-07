@@ -19,6 +19,6 @@ License: EULA
 Web page: <https://wavebox.io>  
 Source code: <https://github.com/wavebox/waveboxapp>
 
-Report the bug: <hhttps://github.com/wavebox/waveboxapp/issues>  
+Report the bug: <https://github.com/wavebox/waveboxapp/issues>  
 
 Download: <https://download.wavebox.app/stable/linux/appimage/Wavebox_10.146.26-2_x86_64.AppImage>

@@ -1,7 +1,7 @@
 +++
 title = "Beaver Notes"
 description = "Privacy-focused note-taking application"
-date = "2025-12-05 12:07:00"
+date = "2026-02-11 21:20:00"
 categories = ["Productivity"]
 authors = ["Daniele Rolli"]
 tags = ["Notes", "Cross-platform software"]
@@ -25,10 +25,10 @@ Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues>
 
 <div class="buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0.AppImage">Download x86_64</a>
+      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.3.0/Beaver-Notes-4.3.0.AppImage">Download x86_64</a>
   </button>
 
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.2.0/Beaver-Notes-4.2.0-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.3.0/Beaver-Notes-4.3.0-arm64.AppImage">Download arm64</a>
   </button>  
 </div>

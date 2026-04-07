@@ -1,7 +1,7 @@
 +++
 title = "Shotcut"
 description = "Free, open source, cross-platform video editor"
-date = "2025-12-31 03:10:00"
+date = "2026-02-27 21:13:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Meltytech"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/mltframework/shotcut>
 Translate: <https://explore.transifex.com/ddennedy/shotcut>  
 Report the bug: <https://github.com/mltframework/shotcut/issues>  
 
-Download: <https://github.com/mltframework/shotcut/releases/download/v26.1.30/shotcut-linux-x86_64-26.1.30.AppImage>
+Download: <https://github.com/mltframework/shotcut/releases/download/v26.2.26/shotcut-linux-x86_64-26.2.26.AppImage>
