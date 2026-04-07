@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Francesco Mondello <faster3ck@gmail.com> -->
+<component type="desktop">
+    <id>net.fasterland.converseen</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+    <name>Converseen</name>
+    <summary>Convert and resize images in batch</summary>
+    <launchable type="desktop-id">net.fasterland.converseen.desktop</launchable>
+    <branding>
+        <color type="primary" scheme_preference="light">#f1ffad</color>
+        <color type="primary" scheme_preference="dark">#a052ff</color>
+    </branding>
+    <description>
+    <p>
+        Converseen is a free cross-platform batch image processor that allows you to convert,
+        resize, rotate and flip an infinite number of images with a mouse click.
+        Moreover, Converseen is able to transform an entire PDF file into a bunch of images
+        with the characteristics you prefer: you can choose one of the 100+ formats,
+        you can set the size, resolution and the filename.
+    </p>
+    <p>What can I do with Converseen.</p>
+    <ul>
+      <li>Carry out a single or a multiple conversion</li>
+      <li>Resize one or multiple images</li>
+      <li>Compress images for your web pages</li>
+      <li>Rotate and flip images</li>
+      <li>Rename a bunch of images using a progressive number or a prefix/suffix</li>
+      <li>Selecting a resampling filter to resize images</li>
+      <li>Convert an entire PDF to a bunch of images</li>
+      <li>Extract an image from a Windows icon file (*ico)</li>
+    </ul>
+    </description>
+    <screenshots>
+        <screenshot height="900" width="1570" type="default">
+            <image>https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_1.png</image>
+            <caption>Main window showing the application in action</caption>
+        </screenshot>
+        <screenshot height="900" width="1570">
+            <image>https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_2.png</image>
+            <caption>Main window with resize and resolution settings</caption>
+        </screenshot>
+        <screenshot height="900" width="1570">
+            <image>https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_3.png</image>
+            <caption>The program during the image processing</caption>
+        </screenshot>
+        <screenshot height="900" width="1570">
+            <image>https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_4.png</image>
+            <caption>The PDF import dialog</caption>
+        </screenshot>
+        <screenshot height="900" width="1570">
+            <image>https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_5.png</image>
+            <caption>Image settings dialog</caption>
+        </screenshot>
+    </screenshots>
+    <categories>
+        <category>Graphics</category>
+        <category>ImageProcessing</category>
+        <category>Photography</category>
+        <category>Qt</category>
+    </categories>
+    <keywords>
+        <keyword>graphic</keyword>
+        <keyword>image</keyword>
+        <keyword>batch</keyword>
+        <keyword>processor</keyword>
+        <keyword>converter</keyword>
+        <keyword>resizer</keyword>
+        <keyword>compressor</keyword>
+        <keyword>picture</keyword>
+        <keyword>qt</keyword>
+    </keywords>
+    <content_rating type="oars-1.1" />
+    <url type="homepage">https://converseen.fasterland.net/</url>
+    <update_contact>faster3ck@gmail.com</update_contact>
+    <developer_name>Francesco Mondello</developer_name>
+    <url type="bugtracker">https://github.com/Faster3ck/Converseen/issues</url>
+    <url type="donation">https://converseen.fasterland.net/donate/</url>
+    <url type="help">https://converseen.fasterland.net/help/</url>
+    <url type="contact">https://converseen.fasterland.net/contact-me/</url>
+    <url type="vcs-browser">https://github.com/Faster3ck/Converseen</url>
+    <releases>
+        <release version="0.15.2.2" date="2026-03-22">
+            <url type="details">https://converseen.fasterland.net/changelog/</url>
+            <description>
+                <p>Changelog for 0.15.2.2</p>
+                <ul>
+                    <li>Fixed a potential bug with the settings directory</li>
+                    <li>Updated Chinese translation</li>
+                    <li>Various Bugfixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.15.2.1" date="2026-03-01" />
+        <release version="0.15.2.0" date="2026-02-24" />
+        <release version="0.15.1.3" date="2025-12-01" />
+        <release version="0.15.1.2" date="2025-11-21" />
+        <release version="0.15.1.1" date="2025-11-16" />
+        <release version="0.15.1.0" date="2025-10-17" />
+        <release version="0.15.0.3" date="2025-09-11" />
+        <release version="0.15.0.2" date="2025-07-15" />
+        <release version="0.15.0.1" date="2025-07-05" />
+        <release version="0.15.0.0" date="2025-07-01" />
+        <release version="0.14.0.0" date="2025-04-25" />
+        <release version="0.13.0.1" date="2025-03-24" />
+        <release version="0.13.0.0" date="2025-03-20" />
+        <release version="0.12.2.5" date="2025-01-22" />
+        <release version="0.12.2.4" date="2024-10-29" />
+        <release version="0.12.2.2" date="2024-04-15" />
+        <release version="0.12.2.1" date="2024-03-18" />
+        <release version="0.12.2.0" date="2024-03-10" />
+        <release version="0.12.1.0" date="2024-02-06" />
+        <release version="0.12.0.2" date="2024-01-08" />
+        <release version="0.12.0.1" date="2023-12-16" />
+        <release version="0.12.0.0" date="2023-11-26" />
+        <release version="0.11.0.1" date="2023-10-17" />
+        <release version="0.11.0.0" date="2023-09-12" />
+        <release version="0.10.0.1" date="2023-08-15" />
+        <release version="0.10.0.0" date="2023-08-10" />
+        <release version="0.9.11.1" date="2023-03-13" />
+        <release version="0.9.11.0" date="2023-02-14" />
+        <release version="0.9.10.1" date="2023-01-16" />
+        <release version="0.9.10.0" date="2023-01-08" />
+        <release version="0.9.9.8" date="2022-09-14" />
+        <release version="0.9.9.7" date="2022-08-22" />
+        <release version="0.9.9.6" date="2022-07-04" />
+        <release version="0.9.9.5" date="2022-03-01" />
+        <release version="0.9.9.4" date="2022-01-18" />
+        <release version="0.9.9.3" date="2021-12-12" />
+        <release version="0.9.9.2" date="2021-10-06" />
+        <release version="0.9.9.1" date="2021-06-04" /> 
+        <release version="0.9.9.0" date="2021-02-14" />
+  </releases>
+</component>

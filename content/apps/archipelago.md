@@ -1,7 +1,7 @@
 +++
 title = "Archipelago"
 description = "Archipelago provides a generic framework for developing multiworld capability for game randomizers"
-date = "2026-01-19T23:05:00"
+date = "2026-04-01 22:25:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Archipelago"]
@@ -20,4 +20,4 @@ Source code: <https://github.com/ArchipelagoMW/Archipelago>
 
 Report the bug: <https://github.com/ArchipelagoMW/Archipelago/issues>  
 
-Download: <https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.6/Archipelago_0.6.6_linux-x86_64.AppImage>
+Download: <https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.7/Archipelago_0.6.7_linux-x86_64.AppImage>
