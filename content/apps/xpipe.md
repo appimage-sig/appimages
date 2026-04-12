@@ -27,7 +27,6 @@ Report the bug: <https://github.com/xpipe-io/xpipe/issues>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xpipe-io/xpipe/releases/download/21.6/xpipe-portable-linux-x86_64.AppImage">Download x86_64</a>
   </button>
-
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xpipe-io/xpipe/releases/download/21.6/xpipe-portable-linux-arm64.AppImage">Download arm64</a>
   </button>
