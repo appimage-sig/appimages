@@ -11,15 +11,16 @@ donation=$(awk -F '[<>]' '/donation/{print $3}' $1)
 bugtracker=$(awk -F '[<>]' '/bugtracker/{print $3}' $1)
 translate=$(awk -F '[<>]' '/translate/{print $3}' $1)
 contribute=$(awk -F '[<>]' '/contribute/{print $3}' $1)
+date=$(grep date= | head -n1 | sed -n 's/.*date="\([^"]*\)".*/\1/p' )
 # gh_download=$(curl -s https://api.github.com/repos/"$source"/releases/latest | grep "browser_download_url.*AppImage" | cut -d : -f 2,3 | tr -d \"))
 # screenshot=$(cat $1 | grep "<image>" | head -n1 | tr -d '<>,' | cut -c5- )
 
 echo "+++
 title = \"$title\"
 description = \"$summary\"
-date =
-[taxonomies] 
-categories = 
+date = "$date"
+[taxonomies]
+categories =
 authors = [\"$author\"
 tags =
 framework = \"AppImage\"
