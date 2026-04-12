@@ -10,7 +10,7 @@ architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]
 +++
 
-<img src="https://zen-browser.app/_astro/ComImage.DV0rTSHO_BBUc2.webp">
+<img src="https://zen-browser.app/_astro/ComImage.DV0rTSHO_Z1aH5BP.webp">
 
 Performance-optimized and privacy-focused browser built atop Firefox
 
