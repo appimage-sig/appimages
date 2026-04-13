@@ -21,7 +21,7 @@ Translate: <https://hosted.weblate.org/projects/webcord>
 Become a sponsor: <https://github.com/sponsors/SpacingBat3>  
 Report the bug: <https://github.com/SpacingBat3/WebCord/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-x64.AppImage">Download x86_64</a>
   </button>

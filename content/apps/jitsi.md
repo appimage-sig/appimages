@@ -23,7 +23,7 @@ Source code: <https://github.com/jitsi/jitsi-meet-electron>
 Translate: <https://github.com/jitsi/jitsi-meet-electron/blob/master/app/i18n/lang>  
 Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.1.0/jitsi-meet-x86_64.AppImage">Download x86_64</a>
   </button>

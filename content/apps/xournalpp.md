@@ -23,7 +23,7 @@ Source code: <https://github.com/xournalpp/xournalpp>
 Translate: <https://crowdin.com/project/xournalpp>  
 Report the bug: <https://github.com/xournalpp/xournalpp/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.3/xournalpp-1.3.3-x86_64.AppImage">Download x86_64</a>
   </button>

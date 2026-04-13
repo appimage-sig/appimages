@@ -19,7 +19,7 @@ Source code: <https://github.com/Equicord/Equibop>
 
 Report the bug: <https://github.com/Equicord/Equibop/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.7/Equibop-3.1.7.AppImage">Download x86_64</a>
   </button>

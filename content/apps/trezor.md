@@ -21,7 +21,7 @@ Source code: <https://github.com/trezor/trezor-suite>
 Become a sponsor: <https://trezor.io/support/a/trezor-beer-fund>  
 Report the bug: <https://github.com/trezor/trezor-suite/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/trezor/trezor-suite/releases/download/v25.12.2/Trezor-Suite-25.12.2-linux-x86_64.AppImage">Download x86_64</a>
   </button>

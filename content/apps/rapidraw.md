@@ -22,7 +22,7 @@ Become a sponsor: <https://ko-fi.com/cybertimon>
 Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
 Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04_amd64.AppImage">Download x86_64</a>
   </button>

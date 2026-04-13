@@ -20,7 +20,7 @@ Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 
 Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.AppImage">Download x86_64</a>
   </button>

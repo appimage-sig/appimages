@@ -24,7 +24,7 @@ Become a sponsor: <https://patreon.com/db4s>
 Translate: <https://github.com/sqlitebrowser/sqlitebrowser/wiki/Translations>  
 Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
     <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-52fccec-x86.64.AppImage">Download SQLCipher x86_64</a>
   </button>

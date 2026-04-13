@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/GlitterWare>
 Translate: <https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md>  
 Report the bug: <https://github.com/GlitterWare/Passy/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/GlitterWare/Passy/releases/download/v1.9.5-pre/Passy-v1.9.5-x86-64.AppImage">Download x86_64</a>
   </button>

@@ -19,7 +19,7 @@ License: MPL-2.0
 Web page: <https://firedragon.garudalinux.org>  
 Source code: <https://github.com/dr460nf1r3/firedragon-browser>
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.4/downloads/firedragon.appimage-x64.AppImage">Download x86_64</a>
   </button>

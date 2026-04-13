@@ -22,7 +22,7 @@ Become a sponsor: <https://opencollective.com/prismlauncher>
 Translate: <https://hosted.weblate.org/projects/prismlauncher/launcher/>  
 Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-x86_64.AppImage">Download x86_64</a>
   </button>

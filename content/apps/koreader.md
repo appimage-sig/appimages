@@ -22,7 +22,7 @@ Become a sponsor: <https://liberapay.com/KOReader>
 Translate: <https://hosted.weblate.org/engage/koreader>  
 Report the bug: <https://github.com/koreader/koreader/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage">Download x86_64</a>
   </button>

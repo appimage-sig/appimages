@@ -22,11 +22,11 @@ Source code: <https://github.com/stenzek/duckstation>
 
 Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-languages#linux>
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage">Download x86_64</a>
   </button>
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" Download x86_64 SSE2" " 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage">Download x86_64 SSE2</a>
   </button>

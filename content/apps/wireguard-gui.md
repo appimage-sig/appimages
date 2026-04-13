@@ -22,7 +22,7 @@ Source code: <https://github.com/leon3s/wireguard-gui>
 Become a sponsor: <https://github.com/sponsors/leon3s>  
 Report the bug: <https://github.com/leon3s/wireguard-gui/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage">Download x86_64</a>
   </button>

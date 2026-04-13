@@ -22,7 +22,7 @@ Source code: <https://github.com/feather-wallet/feather>
 
 Report the bug: <https://github.com/feather-wallet/feather/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage">Download x86_64</a>
   </button>

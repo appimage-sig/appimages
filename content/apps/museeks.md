@@ -21,7 +21,7 @@ Source code: <https://github.com/martpie/museeks>
 
 Report the bug: <https://github.com/martpie/museeks/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/martpie/museeks/releases/download/0.23.1/Museeks_0.23.1_amd64.AppImage">Download x86_64</a>
   </button>

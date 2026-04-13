@@ -21,7 +21,7 @@ Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
 Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
 Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-x86_64.AppImage">Download x86_64</a>
   </button>

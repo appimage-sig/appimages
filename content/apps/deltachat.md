@@ -24,7 +24,7 @@ Translate: <https://explore.transifex.com/delta-chat/delta-chat-app/>
 Become a sponsor: <https://delta.chat/en/donate>  
 Report the bug: <https://github.com/deltachat/deltachat-desktop/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.35.0/deltachat-tauri_2.35.0_amd64.AppImage">Download x86_64</a>
   </button>

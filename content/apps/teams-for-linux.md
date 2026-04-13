@@ -19,7 +19,7 @@ Source code: <https://github.com/IsmaelMartinez/teams-for-linux/>
 
 Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.12/teams-for-linux-2.7.12.AppImage">Download x86_64</a>
   </button>

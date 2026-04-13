@@ -23,7 +23,7 @@ Source code: <https://github.com/LinwoodDev/Butterfly>
 Translate: <https://translate.linwood.dev/butterfly>  
 Report the bug: <https://github.com/LinwoodDev/Butterfly/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.4.2/linwood-butterfly-linux-x86_64.AppImage">Download x86_64</a>
   </button>

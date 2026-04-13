@@ -22,7 +22,7 @@ Source code: <https://github.com/dbgate/dbgate>
 Become a sponsor: <https://github.com/sponsors/dbgate>  
 Report the bug: <https://github.com/dbgate/dbgate/issues>  
 
-<div class="buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/dbgate/dbgate/releases/download/v6.8.1/dbgate-6.8.1-linux_x86_64.AppImage">Download x86_64</a>
   </button>
