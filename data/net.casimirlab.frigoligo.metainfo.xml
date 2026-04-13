@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Martin Chaine -->
+<component type="desktop-application">
+  <id>net.casimirlab.frigoligo</id>
+  
+  <name translate="no">Frigoligo</name>
+
+  <summary>Your articles with you</summary>
+  <summary xml:lang="de">Ihre Artikel bei Ihnen</summary>
+  <summary xml:lang="es">Lleva tus artículos contigo</summary>
+  <summary xml:lang="et">Huvipakkuvad veebimeedia artiklid sinuga kaasas</summary>
+  <summary xml:lang="fr">Vos articles avec vous</summary>
+  <summary xml:lang="gl">Os teus artigos contigo</summary>
+  <summary xml:lang="pt">Seus artigos com você</summary>
+  <summary xml:lang="pt-BR">Seus artigos com você</summary>
+  <summary xml:lang="ru">Ваши статьи с вами</summary>
+  <summary xml:lang="ta">உங்களுடன் உங்கள் கட்டுரைகள்</summary>
+  <summary xml:lang="zh-Hans">你的文章，随时随地</summary>
+  <summary xml:lang="zh-Hant">你的文章與你同在</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <developer id="net.casimirlab">
+    <name translate="no">Martin Chaine</name>
+  </developer>
+
+	<url type="homepage">https://github.com/casimir/frigoligo</url>
+	<url type="bugtracker">https://github.com/casimir/frigoligo/issues</url>
+	<url type="translate">https://hosted.weblate.org/engage/frigoligo/</url>
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+    <control>tablet</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  
+  <description>
+    <p>
+      Take your links anywhere and keep them fresh! Frigoligo is a wallabag client striving to be simple but also fast and easy to use.
+      Just like wallabag, Frigoligo is free to use, ad-free and open source.
+    </p>
+    <p>
+      You need a wallabag instance to use this application.
+    </p>
+    <p xml:lang="de">
+      Nimm deine Links überallhin mit und halte sie frisch! Frigoligo ist ein Wallabag-Client, der einfach, schnell und benutzerfreundlich sein möchte.
+      Genau wie Wallabag ist Frigoligo kostenlos, werbefrei und quelloffen.
+    </p>
+    <p xml:lang="de">
+      Du benötigst eine Wallabag-Instanz, um diese Anwendung nutzen zu können.
+    </p>
+    <p xml:lang="es">
+      ¡Lleva tus enlaces a cualquier parte y mantenlos actualizados! Frigoligo es un cliente de Wallabag que se esfuerza por ser simple, pero también rápido y fácil de usar.
+      Al igual que Wallabag, Frigoligo es de uso gratuito, sin publicidad y de código abierto.
+    </p>
+    <p xml:lang="es">
+      Necesitas una instancia de wallabag para usar esta aplicación.
+    </p>
+    <p xml:lang="et">
+      Salvesta huvipakkuvad veebilingid ja hoia neid alati uuendatutena. Frigoligo on lihtne ja kiire wallabagi klient.
+      Nii nagu wallabag, on ka Frigoligo tasuta kasutatav, reklaamivaba ning põhineb avatud lähtekoodil.
+    </p>
+    <p xml:lang="et">
+      Selle rakenduse kasutamiseks on sulle vajalik ligipääs mõnele wallabagi serverile.
+    </p>
+    <p xml:lang="fr">
+      Emportez vos liens partout et gardez-les bien frais ! Frigoligo est un client wallabag s'efforçant d'être simple mais aussi rapide et facile à utiliser.
+      Tout comme wallabag, Frigoligo est gratuit, sans publicité et open source.
+    </p>
+    <p xml:lang="fr">
+      Vous avez besoin d'une instance wallabag pour utiliser cette application.
+    </p>
+    <p xml:lang="gl">
+      Vai xuntando ligazóns do teu interese e gárdaas fresquiñas! Frigoligo é un cliente para Wallabag que intenta ser simple, rápido e fácil de usar.
+      Ao igual que Wallabag, Frigoligo é libre para usar, ser publicidade e de código aberto.
+    </p>
+    <p xml:lang="gl">
+      Precisas unha instancia de Wallabag para poder usar esta aplicación.
+    </p>
+    <p xml:lang="pt">
+      Leve as suas ligações para qualquer lugar e mantenha-os atualizados! O Frigoligo é um cliente do wallabag que se esforça a ser simples, mas também rápido e fácil de usar.
+      Assim como o wallabag, o Frigoligo é de uso gratuito, sem anúncios e de código aberto.
+    </p>
+    <p xml:lang="pt">
+      Precisa de uma instância do wallabag para usar esta aplicação.
+    </p>
+    <p xml:lang="pt-BR">
+      Leve seus links para qualquer lugar e mantenha-os atualizados! O Frigoligo é um cliente do wallabag que se esforça para ser simples, mas também rápido e fácil de usar.
+      Assim como o wallabag, o Frigoligo é de uso gratuito, sem anúncios e de código aberto.
+    </p>
+    <p xml:lang="pt-BR">
+      Você precisa de uma instância do wallabag para usar este aplicativo.
+    </p>
+    <p xml:lang="ru">
+      Всегда держите свои ссылки при себе и сохраняйте их актуальными! Frigoligo — это клиент wallabag, простой, быстрый и удобный в использовании.
+      Как и wallabag, Frigoligo бесплатен, не содержит рекламы и имеет открытый исходный код.
+    </p>
+    <p xml:lang="ru">
+      Для использования этого приложения вам нужен экземпляр wallabag.
+    </p>
+    <p xml:lang="ta">
+      உங்கள் இணைப்புகளை எங்கும் எடுத்து அவற்றை புதியதாக வைத்திருங்கள்! ஃப்ரிகோலிகோ ஒரு வாலபாக் கிளையன்ட், எளிமையானதாக இருக்க முயற்சிக்கிறது, ஆனால் வேகமாகவும் பயன்படுத்த எளிதாகவும் உள்ளது.
+       வாலபாக் போலவே, ஃப்ரிகோலிகோவும் பயன்படுத்த இலவசம், விளம்பரமில்லாத மற்றும் திறந்த மூலமாகும்.
+    </p>
+    <p xml:lang="ta">
+       இந்த பயன்பாட்டைப் பயன்படுத்த உங்களுக்கு ஒரு வாலபாக் நிகழ்வு தேவை.
+    </p>
+    <p xml:lang="zh-Hans">
+      随时随地使用您的链接，并保持它们的新鲜！Frigoligo是一个 wallabag 客户端，旨在简单易用、快速方便。
+      与 wallabag 一样，Frigoligo 也是自由使用、无广告和开源的。
+    </p>
+    <p xml:lang="zh-Hans">
+      您需要一个 wallabag 实例以使用此应用。
+    </p>
+    <p xml:lang="zh-Hant">
+      將你的連結帶到任何地方並且保持它們新鮮！Frigoligo 是一個 wallabag 用戶端，力求簡單、快速，而且易於使用。
+      就像 wallabag 一樣，Frigoligo 可以免費使用、無廣告，而且開源。
+    </p>
+    <p xml:lang="zh-Hant">
+      你需要一個 wallabag 實例才能使用此應用程式。
+    </p>
+  </description>
+  
+  <content_rating type="oars-1.1" />
+  
+  <branding>
+    <color type="primary" scheme_preference="light">#6eb3dc</color>
+    <color type="primary" scheme_preference="dark">#5082c8</color>
+  </branding>
+  
+  <releases>
+    <release version="v2.4.0" date="2025-03-14">
+      <url type="details">https://github.com/casimir/frigoligo/releases/tag/v2.4.0</url>
+      <description>
+        <ul>
+          <li>New languages: Italian and Dutch.</li>
+          <li xml:lang="de">Neue Sprachen: Italienisch und Niederländisch.</li>
+          <li xml:lang="es">Idiomas nuevos: italiano y neerlandés.</li>
+          <li xml:lang="et">Uued keeled: itaalia keel ja kreeka keel.</li>
+          <li xml:lang="fr">Nouvelles langues : italien et néerlandais.</li>
+          <li xml:lang="gl">Novos idiomas: italiano e neerlandés.</li>
+          <li xml:lang="pt-BR">Novos idiomas: italiano e holandês.</li>
+          <li xml:lang="ru">Новые языки: итальянский и голландский.</li>
+          <li xml:lang="zh-Hans">新增支持语言：意大利语和荷兰语。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v2.3.1" date="2025-02-17">
+      <url type="details">https://github.com/casimir/frigoligo/releases/tag/v2.3.1</url>
+      <description>
+        <ul>
+          <li>Fixed a bug causing the data to be lost when restarting the app.</li>
+          <li xml:lang="de">Ein Fehler wurde behoben, der dazu führte, dass die Daten beim Neustart der App verloren gingen.</li>
+          <li xml:lang="es">Se corrigió un error que causaba que se perdieran los datos al reiniciar la aplicación.</li>
+          <li xml:lang="et">Parandasime vea, kus rakenduse käivitamisel tekkis andmekadu.</li>
+          <li xml:lang="fr">Correction d'un bug provoquant la perte des données lors du redémarrage de l'application.</li>
+          <li xml:lang="gl">Arranxo do problema que causaba a perda de datos ao reiniciar a app.</li>
+          <li xml:lang="pt-BR">Corrigido um bug que causava a perda de dados ao reiniciar o aplicativo.</li>
+          <li xml:lang="ru">Исправлена ошибка, приводившая к потере данных при перезапуске приложения.</li>
+          <li xml:lang="zh-Hans">修复了应用重启时导致数据丢失的缺陷。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v2.3.0" date="2025-02-09">
+      <url type="details">https://github.com/casimir/frigoligo/releases/tag/v2.3.0</url>
+      <description>
+        <ul>
+          <li>Saving an article is now possible offline.</li>
+          <li>Add a button to ask the server to re-fetch an article.</li>
+          <li>New languages: Brazilian Portuguese.</li>
+          <li xml:lang="de">– Das Speichern von Artikeln ist jetzt offline möglich.</li>
+          <li xml:lang="de">– Eine Schaltfläche wurde hinzugefügt, um den Server zum erneuten Abrufen eines Artikels aufzufordern.</li>
+          <li xml:lang="de">– Neue Sprachen: Brasilianisches Portugiesisch.</li>
+          <li xml:lang="es">Ahora es posible guardar un artículo sin conexión.</li>
+          <li xml:lang="es">Añade un botón para pedirle al servidor que vuelva a buscar un artículo.</li>
+          <li xml:lang="es">Nuevos idiomas: portugués brasileño.</li>
+          <li xml:lang="et">Artikli salvestamine on nüüd võimalik võrguühenduseta.</li>
+          <li xml:lang="et">Lisasime nupu, mis võimaldab artikli serverist uuesti laadida.</li>
+          <li xml:lang="et">Uued keeled: Brasiilia portugali keel.</li>
+          <li xml:lang="fr">La sauvegarde d'un article est désormais possible hors ligne.</li>
+          <li xml:lang="fr">Ajout d'un bouton pour demander au serveur de récupérer à nouveau le contenu d'un article.</li>
+          <li xml:lang="fr">Nouvelles langues : portugais brésilien.</li>
+          <li xml:lang="gl">Agora podes gardar un artigo aínda non tendo conexión.</li>
+          <li xml:lang="gl">Engadido un botón para pedirlle ao servidor que volva a obter un artigo.</li>
+          <li xml:lang="gl">Novos idiomas: Portugués do Brasil.</li>
+          <li xml:lang="pt-BR">Agora é possível salvar um artigo offline.</li>
+          <li xml:lang="pt-BR">Adicione um botão para solicitar ao servidor que recupere um artigo.</li>
+          <li xml:lang="pt-BR">Novos idiomas: Português do Brasil.</li>
+          <li xml:lang="ru">Сохранение статьи теперь возможно в офлайн-режиме.</li>
+          <li xml:lang="ru">Добавлена кнопка для повторной загрузки статьи.</li>
+          <li xml:lang="ru">Новый язык: бразильский португальский.</li>
+          <li xml:lang="zh-Hans">现已支持离线保存文章。</li>
+          <li xml:lang="zh-Hans">新增重新获取文章的服务端请求按钮。</li>
+          <li xml:lang="zh-Hans">新增支持语言：巴西葡萄牙语。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v2.2.0" date="2025-01-12">
+      <url type="details">https://github.com/casimir/frigoligo/releases/tag/v2.2.0</url>
+      <description>
+        <ul>
+          <li>Add a way to create tags when editing an article.</li>
+          <li>Better experience when offline.</li>
+          <li>Several bugfixes related to reading progress.</li>
+          <li>Allow to connect with a server without SSL.</li>
+          <li>New languages: Russian (Русский язык) and Tamil (தமிழ்).</li>
+          <li xml:lang="de">Möglichkeit zum Erstellen von Tags beim Bearbeiten eines Artikels hinzugefügt.</li>
+          <li xml:lang="de">Bessere Erfahrung im Offline-Modus.</li>
+          <li xml:lang="de">Mehrere Fehlerbehebungen im Zusammenhang mit dem Lesefortschritt.</li>
+          <li xml:lang="de">Verbindung mit einem Server ohne SSL möglich.</li>
+          <li xml:lang="de">Neue Sprachen: Russisch (Русский язык) und Tamil (தமிழ்).</li>
+          <li xml:lang="es">Añade una forma de crear etiquetas al editar un artículo.</li>
+          <li xml:lang="es">Mejor experiencia sin conexión.</li>
+          <li xml:lang="es">Varias correcciones de errores relacionados con el progreso de lectura.</li>
+          <li xml:lang="es">Permite conectar con un servidor sin SSL.</li>
+          <li xml:lang="es">Nuevos idiomas: ruso (Русский язык) y támil (தமிழ்).</li>
+          <li xml:lang="et">Lisasime võimaluse luua silte artikli muutmise ajal.</li>
+          <li xml:lang="et">Paremad kasutusvõimalused võrguühenduseta.</li>
+          <li xml:lang="et">Mitmed lugemise edenemisega seotud veaparandused.</li>
+          <li xml:lang="et">Võimalus kasutada serverit ilma krüptitud ühenduseta.</li>
+          <li xml:lang="et">Uued keeled: vene (Русский язык) ja tamili (தமிழ்).</li>
+          <li xml:lang="fr">Possibilité de créer des labels lors de la modification d'un article.</li>
+          <li xml:lang="fr">Meilleure expérience hors ligne.</li>
+          <li xml:lang="fr">Plusieurs corrections de bugs liés à la progression de la lecture.</li>
+          <li xml:lang="fr">Autoriser la connexion à un serveur sans SSL.</li>
+          <li xml:lang="fr">Nouvelles langues : le russe (руСскис) et le tamoul (தமிழ்).</li>
+          <li xml:lang="gl">posibilidade de engadir etiquetas ao editar o artigo</li>
+          <li xml:lang="gl">melloras no comportamento cando non hai conexión a internet</li>
+          <li xml:lang="gl">varios arranxos relacionados co progreso da lectura</li>
+          <li xml:lang="gl">permitir a conexión a un servidor sen SSL.</li>
+          <li xml:lang="gl">novos idiomas: ruso (Русский язык) and tamil (தமிழ்).</li>
+          <li xml:lang="pt-BR">Adicione uma maneira de criar tags ao editar um artigo.</li>
+          <li xml:lang="pt-BR">Melhor experiência quando offline.</li>
+          <li xml:lang="pt-BR">Várias correções de bugs relacionadas ao progresso da leitura.</li>
+          <li xml:lang="pt-BR">Permita conectar-se a um servidor sem SSL.</li>
+          <li xml:lang="pt-BR">Novos idiomas: Russo (Русский язык) e Tâmil (தமிழ்).</li>
+          <li xml:lang="ru">Добавлена возможность создавать теги при редактировании статьи.</li>
+          <li xml:lang="ru">Работа в офлайн-режиме стала более приятной.</li>
+          <li xml:lang="ru">Исправлено несколько ошибок, связанных с прогрессом чтения.</li>
+          <li xml:lang="ru">Разрешено подключение к серверу без SSL.</li>
+          <li xml:lang="ru">Новые языки: русский и тамильский (தமிழ்).</li>
+          <li xml:lang="ta">ஒரு கட்டுரையைத் திருத்தும்போது குறிச்சொற்களை உருவாக்க ஒரு வழியைச் சேர்க்கவும்.</li>
+          <li xml:lang="ta">ஆஃப்லைனில் இருக்கும்போது சிறந்த அனுபவம்.</li>
+          <li xml:lang="ta">வாசிப்பு முன்னேற்றம் தொடர்பான பல பிழைகள்.</li>
+          <li xml:lang="ta">SSL இல்லாமல் சேவையகத்துடன் இணைக்க அனுமதிக்கவும்.</li>
+          <li xml:lang="zh-Hans">添加了在编辑文章时创建标签的方法。</li>
+          <li xml:lang="zh-Hans">离线时的体验更好。</li>
+          <li xml:lang="zh-Hans">修复了与阅读进度相关的多个错误。</li>
+          <li xml:lang="zh-Hans">允许在没有 SSL 的情况下连接服务器。</li>
+          <li xml:lang="zh-Hans">新增语言：俄语（Русский язык）和泰米尔语（தமிழ்）。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v2.1.3" date="2024-12-15">
+      <url type="details">https://github.com/casimir/frigoligo/releases/tag/v2.1.3</url>
+      <description>
+        <ul>
+          <li>Lots of tweaks and improvements to the UI.</li>
+          <li>Fixed the share button not working in some cases.</li>
+          <li>New languages: Spanish, Estonian.</li>
+          <li>Update translations for several languages.</li>
+          <li xml:lang="de">Viele Optimierungen und Verbesserungen an der Benutzeroberfläche.</li>
+          <li xml:lang="de">Problem behoben, bei dem die Schaltfläche „Teilen“ in manchen Fällen nicht funktionierte.</li>
+          <li xml:lang="de">Neue Sprachen: Spanisch, Estnisch.</li>
+          <li xml:lang="de">Übersetzungen für mehrere Sprachen aktualisiert.</li>
+          <li xml:lang="es">Muchos ajustes y mejoras en la interfaz de usuario.</li>
+          <li xml:lang="es">Se solucionó el problema del botón de compartir que no funcionaba en algunos casos.</li>
+          <li xml:lang="es">Nuevos idiomas: español, estonio.</li>
+          <li xml:lang="es">Actualizar traducciones para varios idiomas.</li>
+          <li xml:lang="et">Palju kasutajaliidese muudatusi ja täiustusi.</li>
+          <li xml:lang="et">Parandasime olukorra, kus jagamisnupp mõnel juhul ei toiminud.</li>
+          <li xml:lang="et">Uued keeled: hispaania keel, eesti keel.</li>
+          <li xml:lang="et">Uuendasime mitme keele tõlkeid.</li>
+          <li xml:lang="fr">Divers ajustements et améliorations de l'interface utilisateur.</li>
+          <li xml:lang="fr">Correction du bouton de partage qui ne fonctionnait pas dans certains cas.</li>
+          <li xml:lang="fr">Nouvelles langues : Espagnol, Estonien.</li>
+          <li xml:lang="fr">Mise à jour des traductions pour plusieurs langues.</li>
+          <li xml:lang="gl">Moitas melloras e cambios na Interface.</li>
+          <li xml:lang="gl">Arranxo do botón compartir nalgúns escenarios.</li>
+          <li xml:lang="gl">Novos idiomas: Español, Estonio.</li>
+          <li xml:lang="gl">Actualización das traducións.</li>
+          <li xml:lang="pt-BR">Muitos ajustes e melhorias na IU.</li>
+          <li xml:lang="pt-BR">Corrigido o botão de compartilhamento que não funcionava em alguns casos.</li>
+          <li xml:lang="pt-BR">Novos idiomas: espanhol, estoniano.</li>
+          <li xml:lang="pt-BR">Atualizar traduções para vários idiomas.</li>
+          <li xml:lang="ru">Множество настроек и улучшений пользовательского интерфейса.</li>
+          <li xml:lang="ru">Исправлена ошибка, из-за которой кнопка «Поделиться» в некоторых случаях не работала.</li>
+          <li xml:lang="ru">Новые языки: испанский, эстонский.</li>
+          <li xml:lang="ru">Обновлены переводы для нескольких языков.</li>
+          <li xml:lang="ta">இடைமுகம் க்கு நிறைய மாற்றங்கள் மற்றும் மேம்பாடுகள்.</li>
+          <li xml:lang="ta">சில சந்தர்ப்பங்களில் வேலை செய்யாத பங்கு பொத்தானை சரி செய்தது.</li>
+          <li xml:lang="ta">புதிய மொழிகள்: ச்பானிச், எச்டோனியன்.</li>
+          <li xml:lang="ta">பல மொழிகளுக்கான மொழிபெயர்ப்புகளைப் புதுப்பிக்கவும்.</li>
+          <li xml:lang="zh-Hans">对用户界面进行了大量调整和改进。</li>
+          <li xml:lang="zh-Hans">修复了在某些情况下共享按钮不起作用的问题。</li>
+          <li xml:lang="zh-Hans">新增语言：西班牙语、爱沙尼亚语。</li>
+          <li xml:lang="zh-Hans">更新了多种语言的翻译。</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  
+  <launchable type="desktop-id">net.casimirlab.frigoligo.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main screen showing a listing of the saved articles.</caption>
+      <image>https://raw.githubusercontent.com/casimir/frigoligo/v2.4.0/assets/screenshots/desktop.png</image>
+    </screenshot>
+  </screenshots>
+</component>
