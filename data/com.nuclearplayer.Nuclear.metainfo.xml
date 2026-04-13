@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.nuclearplayer.Nuclear</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  <name>Nuclear</name>
+  <summary>Music streaming app</summary>
+
+  <developer id="com.nuclearplayer">
+    <name>nukeop</name>
+  </developer>
+
+  <!-- Migration from old Flatpak ID -->
+  <provides>
+    <id>org.js.nuclear.Nuclear</id>
+  </provides>
+  <replaces>
+    <id>org.js.nuclear.Nuclear</id>
+  </replaces>
+
+  <description>
+    <p>
+      Nuclear is a free, open-source music player without ads or tracking. Search for any song or artist, build playlists, and start listening.
+    </p>
+    <ul>
+      <li>Search for music across multiple sources</li>
+      <li>Explore new releases, top tracks, and editorial playlists</li>
+      <li>Extend the player with plugins - add new music sources, metadata providers, and more</li>
+      <li>Customize the look and feel with themes</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/nukeop/nuclear/ed334efe1261d52cf3b145a79bc0fa21b1de557b/packages/docs/.gitbook/assets/dashboard-main.png</image>
+      <caption>Browse top tracks, new releases, and editorial playlists</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/nukeop/nuclear/ed334efe1261d52cf3b145a79bc0fa21b1de557b/packages/docs/.gitbook/assets/search-artists.png</image>
+      <caption>Search for artists across multiple sources</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/nukeop/nuclear/ed334efe1261d52cf3b145a79bc0fa21b1de557b/packages/docs/.gitbook/assets/playlists.png</image>
+      <caption>Create and manage playlists</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/nukeop/nuclear/ed334efe1261d52cf3b145a79bc0fa21b1de557b/packages/docs/.gitbook/assets/plugin-store.png</image>
+      <caption>Install plugins to add new music sources and features</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/nukeop/nuclear/ed334efe1261d52cf3b145a79bc0fa21b1de557b/packages/docs/.gitbook/assets/preferences.png</image>
+      <caption>Customize playback, appearance, and behavior</caption>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">com.nuclearplayer.Nuclear.desktop</launchable>
+
+  <url type="homepage">https://nuclearplayer.com</url>
+  <url type="bugtracker">https://github.com/nukeop/nuclear/issues</url>
+  <url type="vcs-browser">https://github.com/nukeop/nuclear</url>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#B7C3E6</color>
+    <color type="primary" scheme_preference="dark">#1F212D</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <keywords>
+    <keyword>music</keyword>
+    <keyword>player</keyword>
+    <keyword>audio</keyword>
+    <keyword>streaming</keyword>
+    <keyword>radio</keyword>
+  </keywords>
+
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+  </supports>
+
+  <requires>
+    <display_length compare="ge">768</display_length>
+  </requires>
+
+  <releases>
+    <release version="1.32.1" date="2026-04-03">
+      <description>
+        <p>Flatpak metadata updates.</p>
+      </description>
+    </release>
+    <release version="1.32.0" date="2026-04-02">
+      <description>
+        <ul>
+          <li>Frameless window toggle in settings</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.31.0" date="2026-04-01">
+      <description>
+        <p>Release 1.31.0.</p>
+      </description>
+    </release>
+    <release version="1.30.0" date="2026-04-01">
+      <description>
+        <ul>
+          <li>Back and forward navigation buttons in the top bar</li>
+          <li>Theme store for browsing and installing community themes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.29.0" date="2026-03-27">
+      <description>
+        <ul>
+          <li>Discord rich presence integration</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

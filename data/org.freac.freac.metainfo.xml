@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 Robert Kausch -->
+<component type="desktop-application">
+    <id>org.freac.freac</id>
+    <launchable type="desktop-id">org.freac.freac.desktop</launchable>
+    <name>fre:ac</name>
+    <developer id="org.freac">
+      <name>the fre:ac project</name>
+    </developer>
+    <summary>Audio converter and CD ripper</summary>
+    <metadata_license>FSFAP</metadata_license>
+    <project_license>GPL-2.0</project_license>
+    <update_contact>support@freac.org</update_contact>
+    <content_rating type="oars-1.0">
+        <content_attribute id="money-purchasing">mild</content_attribute>
+    </content_rating>
+    <description>
+        <p>
+            fre:ac is a free and open source audio converter that comes with
+            an integrated tag editor and supports various audio file formats.
+        </p>
+        <p>
+            Features include:
+        </p>
+        <ul>
+            <li>Support for MP3, MP4/AAC, Opus, FLAC and other formats</li>
+            <li>Integrated CD ripper with AccurateRip support</li>
+            <li>Integrated player and tag editor</li>
+            <li>Support for playlists, cue sheets and chapters</li>
+            <li>Fast, multi-threaded conversion engine</li>
+            <li>Ability to convert to multiple formats at once</li>
+            <li>Can verify lossless input and output files</li>
+            <li>Support for freedb/CDDB queries and submits</li>
+            <li>Support for using command line codecs</li>
+            <li>User interface available in 40+ languages</li>
+            <li>Optional command line interface</li>
+        </ul>
+    </description>
+    <url type="homepage">https://www.freac.org</url>
+    <url type="bugtracker">https://github.com/enzo1982/freac/issues</url>
+    <url type="donation">https://www.freac.org/donating.php</url>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/flathub/org.freac.freac/master/screenshots/freac-linux.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/flathub/org.freac.freac/master/screenshots/freac-linux-tageditor.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/flathub/org.freac.freac/master/screenshots/freac-linux-settings.png</image>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="1.1.7" date="2023-03-05">
+            <description>
+                <p>New features:</p>
+                <ul>
+                    <li>Added a tool for splitting output by various parameters (e.g. duration or number of files)</li>
+                    <li>Added support for dithering when reducing sample resolution</li>
+                    <li>Added a matrix surround decoder DSP component</li>
+                    <li>Added a volume adjustment DSP component</li>
+                </ul>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Added support for WavPack Hybrid Lossless compression with correction files</li>
+                    <li>Added support for decoding MPEG-4 DASH files</li>
+                    <li>Added support for opening WebM audio files with the .weba extension</li>
+                    <li>Added support for downmixing 6.1 channel audio</li>
+                    <li>Added support for MusicBrainz metadata in ID3v2, MP4, Vorbis Comment and APEv2 tags</li>
+                    <li>Added support for sort order fields in ID3v2, MP4, Vorbis Comment and APEv2 tags</li>
+                    <li>Added support for rating field in Vorbis Comment, APEv2, MP4 and LIST INFO tags</li>
+                    <li>Added rating field to the tag editor</li>
+                    <li>Added optional release year column to the joblist</li>
+                    <li>Changed &lt;disc&gt; filename placeholder to resolve to 1 if disc number is not set</li>
+                    <li>Improved compatibility with applications writing non-compliant LIST INFO tags (e.g. Traktor)</li>
+                    <li>Added an option to use source file names as output file names if no metadata is present</li>
+                    <li>Added an option to control extraction of missing metadata from file names</li>
+                    <li>Added an option to restrict file names for reading cover art</li>
+                    <li>Added an option to disable intensity stereo phase inversion to Opus settings</li>
+                    <li>Added AccurateRip notification options for successful verification and missing database entries</li>
+                    <li>Sample rate conversion no longer converts to 32 bit float when the source rate matches the target</li>
+                    <li>Added negative exit codes to indicate errors when running freaccmd</li>
+                    <li>Added support for KDE color schemes (including dark mode)</li>
+                    <li>Improved HiDPI scale factor detection in KDE desktop environments</li>
+                    <li>Respect text scaling factor in addition to font size setting on X11 based systems</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed failure (hang and abort after several seconds) to decode chapters from ALAC files</li>
+                   <li>Fixed interoperability issues of HE- and HEv2-AAC files created with FDK-AAC with foobar2000</li>
+                   <li>Fixed incorrect gapless information when creating HE- and HEv2-AAC files with FDK-AAC</li>
+                   <li>Fixed incorrect index times in cuesheets for very long multi-track files</li>
+                   <li>Fixed incorrect inclusion of data tracks in the audio track count of CD offset strings</li>
+                   <li>Fixed excessive bitrate when encoding Vorbis on non-x86 LP64 systems</li>
+                   <li>Fixed decoding of MP4 files with a single chunk taking excessively long</li>
+                   <li>Fixed HDCD detection for tracks starting with more than about one second of silence</li>
+                   <li>Fixed floating point samples being converted to integer when creating WavPack files</li>
+                   <li>Fixed inability to close cover art popup window on Linux</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated ALAC decoder for security fixes and improved performance</li>
+                    <li>Updated FFmpeg to version 6.0</li>
+                    <li>Updated Monkey's Audio to version 9.20</li>
+                    <li>Updated WavPack to version 5.6.0</li>
+                    <li>Updated FLAC to version 1.4.2</li>
+                    <li>Updated Speex to version 1.2.1</li>
+                    <li>Updated MP4v2 to version 2.1.2</li>
+                    <li>Updated mpg123 to version 1.31.2</li>
+                    <li>Updated libsndfile to version 1.2.0</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Greek translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.6" date="2022-01-21">
+            <description>
+                <p>New features:</p>
+                <ul>
+                    <li>Added support for editing lyrics in the tag editor</li>
+                    <li>Added support for creating cue sheets and playlists with freaccmd</li>
+                </ul>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Improved performance of adding video and proprietary audio files (DTS, DSD etc.) to the joblist</li>
+                    <li>Playlists can now be added to the joblist by drag &amp; drop</li>
+                    <li>Added &lt;tempo&gt; and &lt;initialkey&gt; placeholders for use in filename patterns</li>
+                    <li>Added optional composer, conductor, tempo, musical key and ISRC columns to the joblist</li>
+                    <li>Added initial key field to tag editor</li>
+                    <li>Added support for lyrics in ID3v2, MP4, Vorbis Comment, APEv2 and WMA tags</li>
+                    <li>Added support for parsing OverDrive MediaMarkers in ID3v2 tags</li>
+                    <li>Added support for the pre-emphasis flag in cue sheets</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed possible crash upon querying the CDDB database</li>
+                   <li>Fixed possible crash in FAAD2 decoder when trying to open unsupported files</li>
+                   <li>Fixed faulty decoding of certain AAC files caused by a bug in the FDK-AAC decoder</li>
+                   <li>Fixed possible faulty output when decoding from non-zero positions using external decoders</li>
+                   <li>Fixed issue ripping CD tracks when output filename pattern is &lt;filename&gt;</li>
+                   <li>Fixed AccurateRip reporting verification errors for hidden track one audio</li>
+                   <li>Fixed setting to replace spaces not being respected when writing cover art and log files</li>
+                   <li>Fixed setting to suppress Unicode characters not being respected when writing cover art and log files</li>
+                   <li>Fixed tag editor fields for media type, catalog number and barcode being limited to 12 characters</li>
+                </ul>
+                <p>New and updated codecs:</p>
+                <ul>
+                    <li>Added native Apple Lossless decoder</li>
+                    <li>Updated FFmpeg to version 5.0</li>
+                    <li>Updated Monkey's Audio to version 7.23</li>
+                    <li>Updated mpg123 to version 1.29.3</li>
+                    <li>Updated libsamplerate to version 0.2.2</li>
+                </ul>
+                <p>New translations:</p>
+                <ul>
+                    <li>Added Swedish and Portuguese (Brazilian) manuals</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.5" date="2021-06-27">
+            <description>
+                <p>New features:</p>
+                <ul>
+                    <li>Added support for AccurateRip verification</li>
+                </ul>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Added frequency bandwidth setting to FDK-AAC encoder configuration dialog</li>
+                    <li>Added an option to toggle logging of complete paths in log files</li>
+                    <li>Added options for specifying cover art files to freaccmd</li>
+                    <li>Added support for reading Shift_JIS encoded CD-Text</li>
+                    <li>Added support for writing album and track comments to cue sheets</li>
+                    <li>Added support for ID3v2 tags in RF64 files</li>
+                    <li>Added support for updating Vorbis Comment tags</li>
+                    <li>Added support for updating ID3v2 tags in RIFF and AIFF files</li>
+                    <li>Added support for updating LIST INFO tags in RIFF, RF64 and Wave64 files</li>
+                    <li>Added support for ensemble field in Vorbis Comment and APEv2 tags</li>
+                    <li>Added support for movement field in ID3v2, Vorbis Comment, APEv2 and MP4 tags</li>
+                    <li>Added support for additional URL fields in APEv2 tags</li>
+                    <li>Added a tag editor option to keep album artist even if identical to track artist</li>
+                    <li>Added media type field to tag editor</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed hotspot for genre edit field utility menu not covering the whole width of the field</li>
+                   <li>Fixed occasional crashes when selecting codec subformat using the "Start encoding with" menu</li>
+                   <li>Fixed chapter marks being offset by a few seconds when using DSP processing</li>
+                   <li>Fixed playback not working when using certain combinations of DSP processors</li>
+                   <li>Fixed incompatibility of FDK-AAC encoded HE and HEv2 AAC files with iTunes</li>
+                   <li>Fixed issue decoding FLAC files with unknown length</li>
+                   <li>Fixed glitches decoding transients in some Vorbis files</li>
+                   <li>Fixed possible crashes when decoding Opus files</li>
+                   <li>Fixed rare crashes in LAME encoder component</li>
+                   <li>Fixed strings read from ID3v2 tags being limited to 1024 characters</li>
+                   <li>Fixed crash when reading malformed CD-Text genre IDs</li>
+                   <li>Fixed failure ripping with negative read offset</li>
+                   <li>Fixed UI glitches and crashes on exit when running in a Wayland session</li>
+                   <li>Fixed popup menu and dropdown list closing behavior on non-Windows platforms</li>
+                   <li>Fixed issues with custom DPI settings on Xfce desktops</li>
+                   <li>Fixed drag &amp; drop working unreliably on X11 based systems</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated FFmpeg to version 4.4</li>
+                    <li>Updated Monkey's Audio to version 6.29</li>
+                    <li>Updated mpg123 to version 1.28.0</li>
+                    <li>Updated libfdk-aac to version 2.0.2</li>
+                    <li>Updated libogg to version 1.3.5</li>
+                    <li>Updated libsndfile to version 1.0.31</li>
+                    <li>Updated libsamplerate to version 0.2.1</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Norwegian translation</li>
+                    <li>Updated Russian manual</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.4" date="2021-02-14">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Improved support for reading CD-Text</li>
+                    <li>Added an HDCD decoder DSP filter</li>
+                    <li>Added catalog number and barcode fields to tag editor</li>
+                    <li>Added quality (VBR) setting to FDK-AAC configuration dialog</li>
+                    <li>Improved MP3, AAC and Opus encoding performance by up to 30%</li>
+                    <li>Improved multi-monitor support on X11 based systems</li>
+                    <li>Discs of multi-disc albums are now shown separately in tag editor album mode</li>
+                    <li>Update only changed fields when making edits in tag editor album mode</li>
+                    <li>Added support for Replay Gain values in MP4 and WMA metadata</li>
+                    <li>Do not override settings with default values when using freaccmd's --config option</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed invalid length written to very long Opus and Speex files (longer than 12 ½ hours at 48 kHz)</li>
+                   <li>Fixed decoding of some very short Opus, Vorbis and Speex files</li>
+                   <li>Fixed written MP4 chapters being invisible to some applications when using Nero AAC</li>
+                   <li>Fixed hang/crash when opening WavPack, Musepack, TAK and OptimFROG files with chapters</li>
+                   <li>Fixed issues submitting CDDB information for new CDs (without existing entries)</li>
+                   <li>Fixed output sample rate being limited to 192 kHz</li>
+                   <li>Fixed freaccmd randomly failing to process files in rare cases</li>
+                   <li>Fixed bad user interface colors on some Linux distributions</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Switched from FAAC to FDK-AAC for AAC encoding</li>
+                    <li>Updated Monkey's Audio to version 6.11</li>
+                    <li>Updated WavPack to version 5.4.0</li>
+                    <li>Updated mpg123 to version 1.26.4</li>
+                    <li>Updated FAAD2 to version 2.10.0</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Romanian translation</li>
+                    <li>Updated Portuguese (Brazilian) translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.3" date="2020-10-11">
+            <description>
+                <p>General changes:</p>
+                <ul>
+                    <li>Switched to using GNUdb as the default CDDB database service</li>
+                </ul>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Command line codec configuration now allows specifying additional arguments</li>
+                    <li>Improved detection of cue sheet encoding to support system codepage and UTF-8 without BOM</li>
+                    <li>freaccmd now splits cue sheets to individual tracks unless an output file is specified using the -o option</li>
+                    <li>freaccmd now supports a --split-chapters option to split files with chapter tags into individual chapters</li>
+                    <li>Added &lt;profile&gt; placeholder for use in output folder configuration setting, resolving to user profile folder</li>
+                    <li>Added file type associations, so fre:ac is offered for opening audio files</li>
+                    <li>Added audio CD association, so fre:ac can be started when inserting a CD</li>
+                    <li>Added an option to suppress "No entry found" messages for automatic CDDB queries</li>
+                    <li>Improved detection of sampler CDs when querying CDDB information</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed possible conversion thread hangs when using external encoders</li>
+                   <li>Fixed crash when writing fields containing only whitespace to Vorbis Comment, APEv2, WMA or RIFF tags</li>
+                   <li>Fixed possible glitches in WAV/AIFF output when processing float samples outside the -1.0/+1.0 range</li>
+                   <li>Fixed possible hangs when opening WAV/AIFF files larger than 2 GB or with a broken chunk structure</li>
+                   <li>Fixed writing wrong offsets to single file cue sheets when the resampling DSP filter is enabled</li>
+                   <li>Fixed writing invalid chapter offsets to Opus files with source material sample rates other than 48 kHz</li>
+                   <li>Fixed writing invalid MP3 bitstreams in rare cases in SuperFast mode</li>
+                   <li>Fixed wrong length detection for MP3 files with invalid chapter data</li>
+                   <li>Fixed parsing of cue sheets with minute/second indications missing leading zeros and/or duration longer than 99 minutes</li>
+                   <li>Fixed parsing of embedded cue sheets without FILE designations</li>
+                   <li>Fixed ripping progress for other drives stalling while one drive is ejecting</li>
+                   <li>Fixed inability to pause or stop single output file verification</li>
+                   <li>Fixed log files being archived despite disabling the corresponding option</li>
+                   <li>Fixed Shift+Pos1/End shortcuts being interpreted by the joblist and edit fields at the same time</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated Vorbis to version 1.3.7 (plus aoTuV b6.03 and Lancer optimizations)</li>
+                    <li>Updated Monkey's Audio to version 5.55</li>
+                    <li>Updated mpg123 to version 1.26.3</li>
+                </ul>
+                <p>New translations:</p>
+                <ul>
+                    <li>Added Hindi translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.2" date="2020-06-20">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Scale UI to adjust to system font size by default</li>
+                    <li>Added support for theme colors and dark mode</li>
+                    <li>Improved handling of maximized window state</li>
+                    <li>Stop ripping before trying to eject a disc</li>
+                    <li>Write audio data CRC to log files when ripping</li>
+                    <li>Write MD5 checksums to log files when verifying files</li>
+                    <li>Write log entries when replacing existing files</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed length of last chapter of some audio books being detected as 0:00</li>
+                   <li>Prevent interpreting numerical IDs or dates at the beginning of file names as track numbers</li>
+                   <li>Fixed a possible source of random crashes when adding files to the joblist</li>
+                   <li>Fixed possible crash when importing MP4/M4A files</li>
+                   <li>Fixed possible crash when encoding in SuperFast mode</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated Monkey's Audio to version 5.44</li>
+                    <li>Updated mpg123 to version 1.26.1</li>
+                    <li>Updated FAAD2 to version 2.9.2</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.1" date="2020-04-19">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Improved file size and bitrate calculation for chapters and cue sheet tracks</li>
+                    <li>Added &lt;discid&gt; placeholder for use in filename patterns</li>
+                    <li>Added an optional disc ID column to the joblist</li>
+                    <li>Added an option to eject the disc after ripping to freaccmd</li>
+                    <li>Allow specifying device path instead of drive number in freaccmd</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed crash of freaccmd when querying CDDB while DISPLAY variable is not set</li>
+                   <li>Fixed several issues creating CBR MP3 files in SuperFast mode</li>
+                   <li>Fixed calculation of track conversion speed factor in log files</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated Monkey's Audio to version 5.33</li>
+                    <li>Updated WavPack to version 5.3.0</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Portuguese (Brazilian) translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1" date="2020-03-29">
+            <description>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed freaccmd ejecting the CD after ripping 1 track with eject option is enabled in fre:ac</li>
+                   <li>Fixed crash of freaccmd when DISPLAY variable is not set</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1~rc2" date="2020-03-22">
+            <description>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed inability to read raw AAC files with the FAAD2 decoder</li>
+                   <li>Fixed cursor positioning and text selection in right-to-left mode</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated Monkey's Audio to version 5.24</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Serbian translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1~rc1" date="2020-03-08">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Now passing float samples to LAME encoder directly if sample format is float</li>
+                    <li>Made automatic ripping work when using the single output file option</li>
+                    <li>Added options to control chapter information and cover art to freaccmd</li>
+                    <li>Handle Ctrl+C in freaccmd to clean up temporary files when aborted</li>
+                    <li>Improved HiDPI detection</li>
+                    <li>Log CDDB information when ripping</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed file modification time stamp getting lost when output verification is active</li>
+                   <li>Fixed file creation time stamp not being preserved despite option being enabled</li>
+                   <li>Fixed freaccmd not correctly handling relative output folders</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1~beta3" date="2020-02-09">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Prepare for freedb.org shutdown on 31st March 2020</li>
+                    <li>Display current signal processing settings in status area</li>
+                    <li>Added a toolbar button to configure signal processing</li>
+                    <li>Added new tips to Tip of the Day dialog</li>
+                    <li>Added separate Windows Wave File Output entry to encoder list</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed issues opening Opus files with a .ogg extension</li>
+                   <li>Fixed Monkey's Audio encoder not showing up in 64 bit builds</li>
+                   <li>Fixed some issues with freaccmd command line interface</li>
+                </ul>
+                <p>Updated codecs:</p>
+                <ul>
+                    <li>Updated Monkey's Audio to version 5.18</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Chinese (simplified) translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1~beta2" date="2020-01-12">
+            <description>
+                <p>Improvements:</p>
+                <ul>
+                    <li>Log names of active DSP components</li>
+                    <li>Log total duration and speed of conversions</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                   <li>Fixed an IO subsystem issue causing corrupted output files in some cases</li>
+                   <li>Fixed SuperFast LAME repacker causing glitches in output files in some cases</li>
+                   <li>Fixed gapless decoding of MP3 files created with FFmpeg</li>
+                   <li>Fixed inability to update ID3v2 and APEv2 tags in tag editor</li>
+                   <li>Fixed inability to exit application after ejecting a disc while ripping</li>
+                   <li>Fixed hangup when ejecting a disc while adding its tracks to joblist</li>
+                   <li>Fixed minimum and maximum bitrate values being mixed up in Vorbis configuration dialog</li>
+                </ul>
+                <p>Updated translations:</p>
+                <ul>
+                    <li>Updated Dutch translation</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1~beta1" date="2019-12-15">
+            <description>
+                <p>New features:</p>
+                <ul>
+                    <li>Added support for saving log files</li>
+                </ul>
+                <p>Enhancements:</p>
+                <ul>
+                   <li>Greatly improved performance when output is on a HDD drive</li>
+                   <li>Adding files to the joblist can now use multiple threads</li>
+                   <li>Greatly improved tagging support (new fields and compatibility fixes)</li>
+                </ul>
+                <p>Bug fixes:</p>
+                <ul>
+                    <li>Fixed invalid file time for CD rips when using "Keep time stamps" option</li>
+                    <li>Fixed MP4 AAC files not always being gapless</li>
+                    <li>Fixed some keyboard input issues on Linux</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+</component>
+

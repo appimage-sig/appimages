@@ -80,6 +80,155 @@
   </provides>
 
   <releases>
+    <release version="3.2.4" date="TODO">
+      <url type="details">https://www.gimp.org/release/3.2.4/</url>
+      <description>
+        <p>
+        The second bugfix release of the GIMP 3.2 series brings it to quite a stable state again as bugs reports are slowing down.
+        </p>
+        <ul>
+          <li>Bug fixed where GIMP would fail to open some XCF</li>
+          <li>When moving a floating layer or selection with a selection tool, marching ants are now disabled</li>
+          <li>Improved Text tool, especially regarding prioritizing global actions</li>
+          <li>Better temporary folder handling</li>
+          <li>Fill actions now behave accordingly to the target item type</li>
+          <li>Various file formats support improved</li>
+          <li>A new function and a deprecation in the libgimp API for plug-ins</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.2" date="2026-03-28">
+      <url type="details">https://www.gimp.org/release/3.2.2/</url>
+      <description>
+        <p>
+        Here we go! The first bugfix release for the GIMP 3.2 series is here.
+        </p>
+        <ul>
+          <li>A bug when group layers became invisible in some conditions when children had effects got fixed</li>
+          <li>More fixes, especially for the new vector and link layer types, as well as non-destructive effects</li>
+          <li>Various file formats support improved</li>
+          <li>Themes fixes and improvements</li>
+          <li>Support for x86 (32-bit) architecture on Windows was dropped</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.0" date="2026-03-14">
+      <url type="details">https://www.gimp.org/release/3.2.0/</url>
+      <description>
+        <p>
+        GIMP 3.2.0 brings fancy new layer types, hence carrying on its non-destructive
+        abilities, all the while strengthening the groundwork from the 3.0 series.
+        Some of the highlights of this release:
+        </p>
+        <ul>
+          <li demo="toolbox:path,
+                    tool-options:create-new-vector-layer-button">
+          New type of layers: vector layers.
+          </li>
+          <li>
+          New type of layers: link layers.
+          </li>
+          <li>Text, link or vector layer must now be explicitly rasterized for direct pixel edits</li>
+
+          <li demo="toolbox:pencil,
+                    tool-options:paint-mode">
+          New paint mode "Overwrite"
+          </li>
+          <li demo="toolbox:flip">
+          The Flip tool can now be controlled with arrow keys
+          </li>
+          <li demo="toolbox:shear">
+          The Shear tool can now be adjusted with arrow keys
+          </li>
+          <li demo="toolbox:mypaint-brush,
+                    tool-options:gain">
+          MyPaint brushes version 2 are now supported, with new "Gain" setting
+          </li>
+          <li demo="toolbox:mypaint-brush">
+          The MyPaint Brushes tool now supports stylus barrel rotation on relevant brushes
+          </li>
+          <li demo="toolbox:text,
+                    tool-options:outline=1,
+                    tool-options:outline-direction">
+          Text tool: new "Outline Direction" option
+          </li>
+          <li demo="toolbox:text">
+          New "Paste unformatted text" action in text tool
+          </li>
+
+          <li>Dragging a file to the image tab bar opens the file as a new image</li>
+          <li>New "System" color scheme</li>
+
+          <li>New "Edit mask immediately" checkbox in "Add Layer Mask" dialog</li>
+          <li demo="layer-list,
+                    layer-list:layers-delete">
+          The Delete button in Layers dialog will delete the layer mask if selected
+          </li>
+
+          <li>The DDS plug-in now supports exporting in BC7 format</li>
+          <li>PDF format export will export vector layer as paths</li>
+          <li>The OpenEXR plug-in can now import Luminance/Chroma OpenEXR images</li>
+          <li>TIFF support improved to handle various unofficial features set by third-party software</li>
+          <li>PSD's legacy Drop Shadow, Inner Shadow and Outer Glow layer styles now imported</li>
+          <li>Image format import newly supported: APNG, AVCI, JIF, PlayStation TIM, OTA bitmap, PAA textures, Seattle Filmworks photos and HRZ Slow Scan Television Images, hgt.zip</li>
+          <li>Image format export newly supported: JPEG 2000, HEJ2, PlayStation TIM, PSB, SVG</li>
+          <li>ART is now supported as a RAW loader</li>
+
+          <li demo="toolbox:curves">
+          Photoshop's curves files (.acv) and levels files (.alv) can be loaded from the Curves and Levels tools respectively
+          </li>
+          <li>Photoshop's RGB and grayscale pattern files now supported</li>
+          <li>Palettes can now be exported as Krita's palettes (.kpl)</li>
+          <li>Palette swatches from the Procreate art program can now be imported</li>
+
+          <li>Support for many more image file formats improved</li>
+
+          <li>The Welcome dialog will now recognize your standard shortcuts to create or open files</li>
+          <li demo="histogram-editor,histogram-editor:toggle-compute-unique-colors">
+          New checkbox "Compute unique colors" on Histogram dockable
+          </li>
+          <li demo="color-editor,color-editor:CMYK=1,color-editor:total-ink-coverage">
+          Total Ink Coverage now displayed in the CMYK color selector
+          </li>
+
+          <li>A new GEGL Filter Browser was added</li>
+
+          <li>Many new API for text, vector and link layers for plug-in developers</li>
+          <li>Various fixes and usability updates</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.0~rc3" date="2026-03-02" type="development">
+      <url type="details">https://www.gimp.org/release/3.2.0-RC3/</url>
+      <description>
+        <p>
+        Here is a third release candidate for upcoming GIMP 3.2. We are still hoping it may be the last as we approach reasonable stability.
+        Improvements include:
+        </p>
+        <ul>
+          <li>Font loading on start massively sped up</li>
+          <li>XCF files won't start loading anymore before all fonts are loaded</li>
+          <li>Dropping a color or pattern on a vector layer updates its fill property</li>
+          <li>Curves and Levels now default to working in linear working space</li>
+          <li demo="toolbox:flip">
+          The Flip tool can now be controlled with arrow keys
+          </li>
+          <li demo="toolbox:shear">
+          The Shear tool can now be adjusted with arrow keys
+          </li>
+          <li demo="layer-list,
+                    layer-list:layers-delete">
+          The Delete button in Layers dialog will delete the layer mask if selected
+          </li>
+          <li>The DDS plug-in now supports exporting in BC7 format</li>
+          <li>The OpenEXR plug-in can now import Luminance/Chroma OpenEXR images</li>
+          <li>Palette swatches from the Procreate art program can now be imported</li>
+          <li>Swatchbooker palette support was improved with better color management</li>
+          <li>Several libgimp functions deprecated in favor of using the filter API directly</li>
+          <li>Various fixes and usability updates</li>
+        </ul>
+      </description>
+    </release>
     <release version="3.2.0~rc2" date="2025-12-14" type="development">
       <url type="details">https://www.gimp.org/release/3.2.0-RC2/</url>
       <description>
@@ -117,7 +266,7 @@
           New "Paste unformatted text" action in text tool
           </li>
           <li>Dragging a file to the image tab bar opens the file as a new image</li>
-          <li>New "Edit mask immediately" checkbox in "Edit Layer Mask" dialog</li>
+          <li>New "Edit mask immediately" checkbox in "Add Layer Mask" dialog</li>
           <li>Filters on a pass-through group layer are no longer limited to its children's bounding box</li>
           <li>Import of hgt.zip format added</li>
           <li>Export of SVG format added</li>
@@ -204,7 +353,7 @@
       </description>
     </release>
 
-    <release version="3.0.8" date="TODO">
+    <release version="3.0.8" date="2026-01-24">
       <url type="details">https://www.gimp.org/release/3.0.8/</url>
       <description>
         <p>
