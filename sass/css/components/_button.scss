@@ -78,6 +78,9 @@
 }
 
 .d_buttons {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 10px; }
+
+.d_buttons button:nth-child(n+2) {
+  margin-left: 20px;
+}
