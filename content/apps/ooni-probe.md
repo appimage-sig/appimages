@@ -1,7 +1,7 @@
 +++
 title = "OONI Probe"
 description = "OONI Probe is a free and open source software designed to measure internet censorship and other forms of network interference."
-date = "2025-06-23 20:56:00"
+date = "2026-04-02 14:15:00"
 [taxonomies]
 categories = ["Science"]
 authors = ["Open Observatory of Network Interference (OONI)"]
@@ -20,4 +20,4 @@ Source code: <https://github.com/ooni/probe-desktop>
 
 Report the bug: <https://github.com/ooni/probe-desktop>  
 
-Download: <https://github.com/ooni/probe-desktop/releases/download/v3.10.0/OONI-Probe-3.10.0.AppImage>
+Download: <https://github.com/ooni/probe-desktop/releases/download/v3.10.1-rc.2/OONI-Probe-3.10.1-rc.2.AppImage>

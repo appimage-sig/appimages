@@ -1,7 +1,7 @@
 +++
 title = "Flycast"
 description = "Multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast"
-date = "2026-01-10T19:28:00"
+date = "2026-01-10 19:28:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Flyinghead"]

@@ -1,7 +1,7 @@
 +++
 title = "RetroArch"
 description = "RetroArch is the reference frontend for the libretro API"
-date = "2025-12-11T02:19:00"
+date = "2026-04-06 01:23:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Florian Märkl"]

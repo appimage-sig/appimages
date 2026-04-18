@@ -1,7 +1,7 @@
 +++
 title = "FreeTube"
 description = "FreeTube is an open source desktop YouTube player built with privacy in mind"
-date = "2026-01-18T01:28:00"
+date = "2026-04-01 06:12:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["FreeTube Authors"]
@@ -26,11 +26,11 @@ Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-beta/freetube-0.23.13-beta-amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-amd64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-beta/freetube-0.23.13-beta-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-arm64.AppImage">Download arm64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-beta/freetube-0.23.13-beta-armv7l.AppImage">Download armv7l</a>
+      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-armv7l.AppImage">Download armv7l</a>
   </button>

@@ -1,7 +1,7 @@
 +++
 title = "CPU-X"
 description = "Free software that gathers information on CPU, motherboard and more."
-date = "2025-08-22 18:05:00"
+date = "2026-04-17 17:12:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["The Tumultuous Unicorn Of Darkness"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/v5.4.0/CPU-X-5.4.0-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

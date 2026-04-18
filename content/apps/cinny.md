@@ -1,7 +1,7 @@
 +++
 title = "Cinny"
 description = "Matrix client focusing primarly on simple, elegant and secure interface"
-date = "2025-11-05 10:24:00"
+date = "2026-03-11 17:11:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ajay Bura"]

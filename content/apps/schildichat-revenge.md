@@ -1,7 +1,7 @@
 +++
 title = "SchildiChat Revenge"
 description = "Matrix client for desktop written in Kotlin and using the Matrix Rust SDK."
-date = "2026-04-04T11:04:00"
+date = "2026-04-04 11:04:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["SchildiChat"]

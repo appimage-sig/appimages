@@ -1,7 +1,7 @@
 +++
 title = "Bitwarden"
 description = "Open source password management solutions for individuals, teams, and business organizations."
-date = "2025-01-13T22:40:00"
+date = "2026-04-02 19:03:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["BitWarden"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/bitwarden/clients>
 Translate: <https://crowdin.com/project/bitwarden-desktop>  
 Report the bug: <https://github.com/bitwarden/clients/issues>  
 
-Download: <https://github.com/bitwarden/clients/releases/download/desktop-v2025.12.1/Bitwarden-2025.12.1-x86_64.AppImage>
+Download: <https://github.com/bitwarden/clients/releases/download/desktop-v2026.3.1/Bitwarden-2026.3.1-x86_64.AppImage>

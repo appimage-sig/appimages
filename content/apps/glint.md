@@ -1,7 +1,7 @@
 +++
 title = "Glint"
 description = "A Graphical interface for Git"
-date = "2025-10-31T19:51:00"
+date = "2025-10-31 19:51:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Logic Over Snacks"]

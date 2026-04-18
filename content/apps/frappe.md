@@ -1,7 +1,7 @@
 +++
 title = "Frappe"
 description = "Simple, well-designed, free desktop accounting software for freelancers and small businesses"
-date = "2025-11-06T07:23:00"
+date = "2025-11-06 07:23:00"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Frappe Technologies"]

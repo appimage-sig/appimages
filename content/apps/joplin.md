@@ -1,7 +1,7 @@
 +++
 title = "Joplin"
 description = "The secure note taking and to-do app with synchronisation capabilities"
-date = "2026-01-18T23:10:00"
+date = "2026-01-18 23:10:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Laurent Cozic"]

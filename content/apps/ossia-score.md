@@ -1,7 +1,7 @@
 +++
 title = "Ossia Score"
 description = "ossia score is a sequencer for audio-visual artists, designed to create interactive shows."
-date = "2026-02-06T10:36:00"
+date = "2026-04-12 12:23:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["ossia.io Contributors"]

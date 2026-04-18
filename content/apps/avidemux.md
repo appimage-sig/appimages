@@ -1,7 +1,7 @@
 +++
 title = "Avidemux"
 description = "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks"
-date = "2026-04-03T07:14:00"
+date = "2026-04-03 07:14:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Avidemux Authors"]

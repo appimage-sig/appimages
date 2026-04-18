@@ -1,7 +1,7 @@
 +++
 title = "xonsh"
 description = "Python-powered, cross-platform, Unix-gazing shell language and command prompt."
-date = "2026-01-14T08:06:00"
+date = "2026-03-17 14:57:00"
 [taxonomies]
 categories = ["System"]
 authors = ["the xonsh developers"]
@@ -20,4 +20,4 @@ Source code: <https://github.com/xonsh/xonsh>
 Become a sponsor: <https://github.com/sponsors/xonsh>  
 Report the bug: <https://github.com/xonsh/xonsh/issues>  
 
-Download: <https://github.com/xonsh/xonsh/releases/download/0.22.1/xonsh-x86_64.AppImage>
+Download: <https://github.com/xonsh/xonsh/releases/download/0.22.8/xonsh-pre-0.23.0-x86_64.AppImage>

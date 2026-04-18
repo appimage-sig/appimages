@@ -1,7 +1,7 @@
 +++
 title = "Makoureactor"
 description = "Final Fantasy VII field archive editor"
-date = "2026-01-12T01:03:00"
+date = "2026-01-12 01:03:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Jérôme Arzel"]

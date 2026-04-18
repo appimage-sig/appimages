@@ -1,7 +1,7 @@
 +++
 title = "Antares"
 description = "A modern, fast and productivity driven SQL client with a focus in UX"
-date = "2025-01-20 10:32:00"
+date = "2025-06-20 10:32:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Fabio Di Stasio"]
@@ -12,8 +12,6 @@ license = ["MIT"]
 +++
 
 <img src="https://raw.githubusercontent.com/antares-sql/antares/master/docs/gh-logo.png" alt="Main Screen">
-
-
 A modern, fast and productivity driven SQL client with a focus in UX
 
 License: MIT

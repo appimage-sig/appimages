@@ -1,7 +1,7 @@
 +++
 title = "Saber"
 description = "Cross-platform libre handwritten notes app"
-date = "2026-02-01 23:16:00"
+date = "2026-04-16 19:44:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Adil Hanney"]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/saber-notes/saber/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/saber-notes/saber/releases/download/v1.30.0/Saber-1.30.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/saber-notes/saber/releases/download/v1.30.0/Saber-1.30.0-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-arm64.AppImage">Download arm64</a>
   </button>
 </div>

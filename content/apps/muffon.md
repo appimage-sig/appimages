@@ -1,7 +1,7 @@
 +++
 title = "muffon"
 description = "Advanced multi-source music streaming"
-date = "2025-08-19 11:36:00"
+date = "2026-01-29 11:53:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Aleksey Shpakovsky"]
@@ -25,8 +25,8 @@ Report the bug: <https://github.com/staniel359/muffon/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/staniel359/muffon/releases/download/v2.3.0/muffon-2.3.0-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/staniel359/muffon/releases/download/v2.3.0/muffon-2.3.0-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-arm64.AppImage">Download arm64</a>
   </button>

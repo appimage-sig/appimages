@@ -1,7 +1,7 @@
 +++
 title = "KDiskMark"
 description = "A simple open-source disk benchmark tool for Linux distros"
-date = "2025-06-21T15:13:00"
+date = "2025-06-21 15:13:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Dmitry Sidorov"]

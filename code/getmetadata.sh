@@ -40,6 +40,7 @@ wget -q https://raw.githubusercontent.com/enzo1982/freac/refs/heads/master/metad
 wget -q https://raw.githubusercontent.com/FreeCAD/FreeCAD/refs/heads/main/src/XDGData/org.freecad.FreeCAD.metainfo.xml.in -O ./data/org.freecad.FreeCAD.metainfo.xml &
 wget -q https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/flathub/net.casimirlab.frigoligo.metainfo.xml -O ./data/net.casimirlab.frigoligo.metainfo.xml &
 wget -q https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in -O ./data/org.gimp.GIMP.metainfo.xml &
+wget -q https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads -O org.kde.glaxnimate.metainfo.xml &
 wget -q https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml  -O ./data/org.gitfourchette.gitfourchette.metainfo.xml &
 wget -q https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in?ref_type=heads -O ./data/org.inkscape.Inkscape.metainfo.xml &
 wget -q https://invent.kde.org/multimedia/kdenlive/-/raw/master/data/org.kde.kdenlive.appdata.xml -O ./data/org.kde.kdenlive.metainfo.xml &
@@ -51,6 +52,7 @@ wget -q https://raw.githubusercontent.com/azagaya/laigter/refs/heads/master/dist
 wget -q https://raw.githubusercontent.com/Legcord/Legcord/refs/heads/dev/meta/app.legcord.Legcord.metainfo.xml -O ./data/app.legcord.Legcord.metainfo.xml &
 wget -q https://raw.githubusercontent.com/leozide/leocad/refs/heads/master/tools/setup/leocad.appdata.xml -O ./data/org.leocad.LeoCAD.metainfo.xml &
 wget -q https://raw.githubusercontent.com/LibreCAD/LibreCAD/refs/heads/master/desktop/org.librecad.librecad.appdata.xml -O ./data/org.librecad.librecad.metainfo.xml &
+wget -q https://gitlab.com/librewolf-community/browser/appimage/-/raw/master/io.gitlab.librewolf-community.appdata.xml.in?ref_type=heads -O ./data/io.gitlab.librewolf-community.metainfo.xml
 wget -q https://raw.githubusercontent.com/lite-xl/lite-xl/refs/heads/master/resources/linux/com.lite_xl.LiteXL.metainfo.xml.in -O ./data/com.lite_xl.LiteXL.metainfo.xml &
 wget -q https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/no.mifi.losslesscut.appdata.xml -O ./data/no.mifi.losslesscut.metainfo.xml &
 wget -q https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master/deploy/linux/io.github.myst6re.makoureactor.metainfo.xml -O ./data/io.github.myst6re.makoureactor.metainfo.xml &
@@ -80,7 +82,7 @@ wget -q https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/da
 wget -q https://raw.githubusercontent.com/RawTherapee/RawTherapee/refs/heads/dev/com.rawtherapee.RawTherapee.appdata.xml -O ./data/com.rawtherapee.RawTherapee.metainfo.xml &
 wget -q https://raw.githubusercontent.com/ColinKinloch/RetroArch/refs/heads/master/com.libretro.RetroArch.metainfo.xml -O ./data/com.libretro.RetroArch.metainfo.xml &
 wget -q https://raw.githubusercontent.com/RPCS3/rpcs3/refs/heads/master/rpcs3/rpcs3.metainfo.xml -O ./data/rpcs3.metainfo.xml &
-wget -q https://raw.githubusercontent.com/martinrotter/rssguard/refs/heads/master/resources/desktop/rssguard.metainfo.xml -O ./data/rssguard.metainfo.xml &
+wget -q https://raw.githubusercontent.com/martinrotter/rssguard/refs/heads/master/resources/desktop/rssguard.metainfo.xml.in -O ./data/io.github.martinrotter.rssguard.metainfo.xml &
 wget -q https://raw.githubusercontent.com/rustdesk/rustdesk/refs/heads/master/flatpak/com.rustdesk.RustDesk.metainfo.xml -O ./data/com.rustdesk.RustDesk.metainfo.xml &
 wget -q https://raw.githubusercontent.com/scribusproject/scribus/refs/heads/master/scribus.appdata.xml.in -O ./data/org.scribus.Scribus.metainfo.xml &
 wget -q https://raw.githubusercontent.com/mltframework/shotcut/refs/heads/master/packaging/linux/org.shotcut.Shotcut.metainfo.xml.in -O ./data/org.shotcut.Shotcut.metainfo.xml &
@@ -95,6 +97,7 @@ wget -q https://raw.githubusercontent.com/IsmaelMartinez/teams-for-linux/refs/he
 wget -q https://codeberg.org/tenacityteam/tenacity/raw/branch/main/help/org.tenacityaudio.Tenacity.metainfo.xml -O ./data/org.tenacityaudio.Tenacity.metainfo.xml &
 wget -q https://raw.githubusercontent.com/mapeditor/tiled/refs/heads/master/org.mapeditor.Tiled.appdata.xml -O ./data/org.mapeditor.Tiled.metainfo.xml &
 wget -q https://raw.githubusercontent.com/upscayl/upscayl/refs/heads/main/flatpak/org.upscayl.Upscayl.metainfo.xml -O ./data/org.upscayl.Upscayl.metainfo.xml &
+wget -q https://github.com/Vencord/Vesktop/releases/latest/download/dev.vencord.Vesktop.metainfo.xml -O dev.vencord.Vesktop.metainfo.xml &
 wget -q https://raw.githubusercontent.com/vifm/vifm/refs/heads/master/data/vifm.appdata.xml -O ./data/info.vifm.vifm.metainfo.xml &
 wget -q https://raw.githubusercontent.com/wezterm/wezterm/refs/heads/main/assets/wezterm.appdata.xml -O ./data/org.wezfurlong.wezterm.metainfo.xml &
 wget -q https://raw.githubusercontent.com/xonsh/xonsh/refs/heads/main/appimage/xonsh.appdata.xml -O ./data/xonsh.metainfo.xml &

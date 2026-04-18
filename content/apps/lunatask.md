@@ -1,7 +1,7 @@
 +++
 title = "Lunatask"
 description = "All-in-one encrypted to-do list, habit and mood tracker, journaling and notes app"
-date = "2025-12-22T20:02:00"
+date = "2026-04-01 16:20:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Michal Krejci"]
@@ -18,4 +18,4 @@ License: EULA
 
 Web page: <https://lunatask.app>  
 
-Download: <https://github.com/lunatask/lunatask/releases/download/v2.1.20/Lunatask-2.1.20.AppImage>
+Download: <https://github.com/lunatask/lunatask/releases/download/v2.1.27/Lunatask-2.1.27.AppImage>

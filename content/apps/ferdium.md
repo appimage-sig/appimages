@@ -1,7 +1,7 @@
 +++
 title = "Ferdium"
 description = "All your services in one place, built by the community."
-date = "2025-10-08T01:05:00"
+date = "2026-04-16 15:53:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ferdium Team"]
@@ -22,4 +22,4 @@ Source code: <https://github.com/ferdium/ferdium-app>
 
 Report the bug: <https://github.com/ferdium/ferdium-app/issues>  
 
-Download: <https://github.com/ferdium/ferdium-app/releases/download/v7.1.1/Ferdium-linux-Portable-7.1.1-x86_64.AppImage>
+Download: <https://github.com/ferdium/ferdium-app/releases/download/v7.1.2-nightly.9/Ferdium-linux-Portable-7.1.2-nightly.9-x86_64.AppImage>

@@ -1,7 +1,7 @@
 +++
 title = "Lunar"
 description = "A modpack for all modern versions of Minecraft"
-date = "2025-12-18T00:00:00"
+date = "2026-04-12  00:00:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Moonsworth"]
@@ -16,4 +16,4 @@ License: GPL-3.0
 
 Web: <https://www.lunarclient.com/>  
 
-Download: <https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.5.15-ow.AppImage>
+Download: <https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.6-ow.AppImage>

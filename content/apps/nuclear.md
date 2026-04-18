@@ -1,7 +1,7 @@
 +++
 title = "Nuclear"
 description = "Streaming music player that finds free music for you"
-date = "2025-06-11T01:31:00"
+date = "2026-04-17 18:42:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["nukeop"]
@@ -24,4 +24,4 @@ Become a sponsor: <https://github.com/sponsors/nukeop>
 Translate: <https://crowdin.com/project/nuclear>  
 Report the bug: <https://github.com/nukeop/nuclear/issues>  
 
-Download: <https://github.com/nukeop/nuclear/releases/download/player%401.32.1/Nuclear_1.32.1_amd64.AppImage>
+Download: <https://github.com/nukeop/nuclear/releases/download/player%401.34.0/Nuclear_1.34.0_amd64.AppImage>

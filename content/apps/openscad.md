@@ -1,7 +1,7 @@
 +++
 title = "OpenSCAD"
 description = "The Programmers Solid 3D CAD Modeller"
-date = "2025-12-23 17:27:00"
+date = "16-04-2026 18:00:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Marius Kintel"]
@@ -22,4 +22,4 @@ Become a sponsor: <https://github.com/sponsors/openscad>
 Translate: <https://wiki.documentfoundation.org/Language>  
 Report the bug: <https://github.com/openscad/openscad/issues>  
 
-Download: <https://files.openscad.org/snapshots/OpenSCAD-2025.12.23.ai30148-x86_64.AppImage>
+Download: <https://files.openscad.org/snapshots/OpenSCAD-2026.04.16-x86_64.AppImage>

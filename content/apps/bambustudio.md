@@ -1,7 +1,7 @@
 +++
 title = "Bambu Studio"
 description = "Bambu Studio is an open-source, cutting-edge, feature-rich slicing software"
-date = "2025-11-19 06:00:00"
+date = "2026-04-17 16:02:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Bambu Lab"]
@@ -22,4 +22,4 @@ Source code: <https://github.com/bambulab/BambuStudio>
 
 Report the bug: <https://github.com/bambulab/BambuStudio/issues>  
 
-Download: <https://github.com/bambulab/BambuStudio/releases/download/v02.04.00.70/Bambu_Studio_linux_fedora-v02.04.00.70.AppImage>
+Download: <https://github.com/bambulab/BambuStudio/releases/download/v02.06.00.51/BambuStudio_ubuntu-24.04-v02.06.00.51-20260417160415.AppImage>

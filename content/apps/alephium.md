@@ -1,7 +1,7 @@
 +++
 title = "Alephium"
 description = "The official Alephium desktop wallet."
-date = "2025-10-07T19:45:00"
+date = "2026-03-12 15:31:00"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Alephium Team"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/alephium/alephium-frontend>
 Translate: <https://crowdin.com/project/alephium>  
 Report the bug: <https://github.com/alephium/alephium-frontend/issues>  
 
-Download: <https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.0/Alephium-3.2.0.AppImage>
+Download: <https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.1/Alephium-3.2.1.AppImage>

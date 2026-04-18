@@ -1,7 +1,7 @@
 +++
 title = "Mendeley"
 description = "The free all-in-one reference manager"
-date = "2026-01-20T00:00:00"
+date = "2026-03-23  00:00:00"
 [taxonomies]
 categories = ["Science"]
 authors = ["Elsevier"]
@@ -16,4 +16,4 @@ License: EULA
 
 Web page: <https://www.mendeley.com>  
 
-Download: <https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.142.0-x86_64.AppImage>
+Download: <https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.144.0-x86_64.AppImage>

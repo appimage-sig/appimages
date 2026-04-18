@@ -1,7 +1,7 @@
 +++
 title = "OneKeePass"
 description = "OneKeePass is a cross-platform, open source and secure password manager"
-date = "2025-11-10T20:55:00"
+date = "2026-04-07 18:35:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["jeyasankar"]
@@ -22,4 +22,4 @@ Source code: <https://github.com/OneKeePass/desktop>
 
 Report the bug: <https://github.com/OneKeePass/desktop/issues>  
 
-Download: <https://github.com/OneKeePass/desktop/releases/download/v0.17.0/OneKeePass_0.17.0_linux_x86_64.AppImage>
+Download: <https://github.com/OneKeePass/desktop/releases/download/v0.19.0/OneKeePass_0.19.0_Linux_x86_64.AppImage>

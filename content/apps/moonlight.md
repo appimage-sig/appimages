@@ -1,7 +1,7 @@
 +++
 title = "Moonlight"
 description = "Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine."
-date = "2024-09-17T04:35:00"
+date = "2024-09-17 04:35:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Moonlight Game Streaming Project"]
@@ -20,4 +20,4 @@ Source code: <https://github.com/moonlight-stream/moonlight-qt>
 
 Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues>  
 
-Download: <https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.1.0/Moonlight-6.1.0-x86_64.AppImage>
+Download: <https://nightly.link/moonlight-stream/moonlight-qt/workflows/build/master/Moonlight-LinuxAppImage-0e50a9.zip>

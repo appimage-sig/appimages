@@ -1,7 +1,7 @@
 +++
 title = "Teams for Linux"
 description = "Unofficial Microsoft Teams for Linux client."
-date = "2026-03-15T12:40:00"
+date = "2026-04-06 11:21:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ismael Martinez"]
@@ -21,12 +21,12 @@ Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.12/teams-for-linux-2.7.12.AppImage">Download x86_64</a>
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.8.0/teams-for-linux-2.8.0.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.12/teams-for-linux-2.7.12-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.8.0/teams-for-linux-2.8.0-arm64.AppImage">Download arm64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.7.12/teams-for-linux-2.7.12-armv7l.AppImage">Download armv7l</a>
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.8.0/teams-for-linux-2.8.0-armv7l.AppImage">Download armv7l</a>
   </button>
 </div>

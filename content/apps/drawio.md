@@ -1,7 +1,7 @@
 +++
 title = "draw.io"
 description = "Security-first diagramming for teams."
-date = "2025-12-09T12:59:00"
+date = "2026-03-27 02:56:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["JGraph"]

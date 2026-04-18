@@ -1,7 +1,7 @@
 +++
 title = "Conky"
 description = "Light-weight system monitor for X, Wayland, and other things, too"
-date = "2025-07-06 15:23:00"
+date = "2026-03-05 15:44:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Brenden Matthews"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/brndnmtthws/conky>
 Become a sponsor: <https://github.com/sponsors/brndnmtthws>  
 Report the bug: <https://github.com/brndnmtthws/conky/issues>  
 
-Download: <https://github.com/brndnmtthws/conky/releases/download/v1.22.2/conky-ubuntu-24.04-x86_64-v1.22.2.AppImage>
+Download: <https://github.com/brndnmtthws/conky/releases/download/v1.22.3/conky-ubuntu-24.04-x86_64-v1.22.3-release.AppImage>

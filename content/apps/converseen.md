@@ -1,7 +1,7 @@
 +++
 title = "Converseen"
 description = "Converseen is a batch image converter and resizer"
-date = "2025-12-01T17:04:00"
+date = "2026-04-13 15:18:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Francesco Mondello"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/Faster3ck/Converseen/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.3/Converseen-0.15.2.3-1-anylinux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.1.3/Converseen-0.15.1.3-1-anylinux-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.3/Converseen-0.15.2.3-1-anylinux-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "RSS Guard"
 description = "Simple RSS/ATOM feed reader"
-date = "2026-01-17 11:56:00"
+date = "2026-03-13 11:46:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Martin Rotter"]
@@ -21,4 +21,4 @@ Source code: <https://github.com/martinrotter/rssguard>
 Become a sponsor: <https://github.com/sponsors/martinrotter>  
 Translate: <https://crowdin.com/project/rssguard>  
 Report the bug: <https://github.com/martinrotter/rssguard/issues>  
-Download: <https://github.com/martinrotter/rssguard/releases/download/devbuild5/rssguard-devbuild5-26795fcb5-qt6-linux64.AppImage>
+Download: <https://github.com/martinrotter/rssguard/releases/download/5.0.4/rssguard-5.0.4-qt6-linux64.AppImage>

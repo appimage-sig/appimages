@@ -1,7 +1,7 @@
 +++
 title = "SimpleX Chat"
 description = "First messaging platform that has no user identifiers of any kind"
-date = "2025-12-10T23:12:00"
+date = "2025-12-10 23:12:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["SimpleX Chat"]
@@ -12,8 +12,6 @@ license = ["AGPL-3.0"]
 +++
 
 <img src="https://simplex.chat/blog/images/simplex-desktop-light.png">
-
-
 First messaging platform that has no user identifiers of any kind
 
 License: AGPL-3.0

@@ -1,7 +1,7 @@
 +++
 title = "Glaxnimate"
 description = "Simple vector animation program."
-date = "2025-02-05T17:25:00"
+date = "2025-02-05 17:25:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Mattia Basaglia"]
@@ -21,7 +21,7 @@ Web page: <https://glaxnimate.org/>
 Source code: <https://invent.kde.org/graphics/glaxnimate>
 
 Donate: <https://ko-fi.com/glaxdragon>  
-Translate: <https://glaxnimate.mattbas.org/contributing/translations/>  
+Translate: <https://l10n.kde.org/>  
 Report the bug: <https://bugs.kde.org/enter_bug.cgi?product=glaxnimate>  
 
 Download: <https://download.kde.org/unstable/glaxnimate/0.5.80/linux/glaxnimate-0.5.80-x86_64.AppImage>

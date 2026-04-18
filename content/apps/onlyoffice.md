@@ -1,7 +1,7 @@
 +++
 title = "OnlyOffice"
 description = "Free office suite that combines text, spreadsheet and presentation editors"
-date = "2025-12-01T16:25:00"
+date = "2026-03-03 16:28:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Ascensio System"]
@@ -23,8 +23,8 @@ Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.3.1/DesktopEditors-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.2.1/DesktopEditors-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.3.1/DesktopEditors-arm64.AppImage">Download arm64</a>
   </button>

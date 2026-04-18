@@ -1,7 +1,7 @@
 +++
 title = "xemu"
 description = "Free and open-source original Xbox game console emulation"
-date = "2026-03-26T06:29:00"
+date = "2026-03-26 06:29:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["xemu Project"]

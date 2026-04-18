@@ -1,7 +1,7 @@
 +++
 title = "Wireguard GUI"
 description = "A wireguard client GUI for Linux made with nextauri"
-date = "2025-10-27T20:18:00"
+date = "2025-10-27 20:18:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Wireguard GUI Contributors"]
@@ -17,10 +17,10 @@ A wireguard client GUI for Linux made with nextauri
 
 License: Apache 2.0
 
-Source code: <https://github.com/leon3s/wireguard-gui>
+Source code: <https://github.com/0xle0ne/wireguard-gui>
 
-Become a sponsor: <https://github.com/sponsors/leon3s>  
-Report the bug: <https://github.com/leon3s/wireguard-gui/issues>  
+Become a sponsor: <https://github.com/sponsors/0xle0ne>  
+Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>  
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 

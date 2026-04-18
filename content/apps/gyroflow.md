@@ -1,7 +1,7 @@
 +++
 title = "Gyroflow"
 description = "Video stabilization using gyroscope data"
-date = "2025-09-04T17:41:00"
+date = "2025-09-04 17:41:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Gyroflow Team"]

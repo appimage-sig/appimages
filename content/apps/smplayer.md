@@ -1,7 +1,7 @@
 +++
 title = "SMPlayer"
 description = "Free Media Player with built-in codecs"
-date = "2026-01-12 12:34:00"
+date = "2026-03-05 12:44:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Ricardo Villalba"]
@@ -24,4 +24,4 @@ Become a sponsor: <https://www.smplayer.info/en/contribute>
 Translate: <https://explore.transifex.com/rvm/smplayer>  
 Report the bug: <https://github.com/smplayer-dev/smplayer/issues>  
 
-Download: <https://github.com/smplayer-dev/smplayer/releases/download/v10399/SMPlayer-25.6.0.10399-x86_64.AppImage>
+Download: <https://github.com/smplayer-dev/smplayer/releases/download/v10403/SMPlayer-25.6.0.10403-x86_64.AppImage>

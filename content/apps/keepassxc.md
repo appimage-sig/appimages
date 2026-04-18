@@ -1,7 +1,7 @@
 +++
 title = "KeePassXC"
 description = "KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information"
-date = "2025-11-25T03:44:00"
+date = "2025-11-25 03:44:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["KeePassXC Team"]
@@ -23,4 +23,4 @@ Become a sponsor: <https://keepassxc.org/donate>
 Translate: <https://explore.transifex.com/keepassxc/keepassxc>  
 Report the bug: <https://github.com/keepassxreboot/keepassxc/issues>  
 
-Download: <https://github.com/keepassxreboot/keepassxc/releases/download/2.7.11/KeePassXC-2.7.11-1-x86_64.AppImage>
+Download: <https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.AppImage>

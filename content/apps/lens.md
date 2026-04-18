@@ -1,7 +1,7 @@
 +++
 title = "Lens"
 description = "Lens is the most powerful IDE for Kubernetes developers and operators"
-date = "2025-12-12T10:14:00"
+date = "2026-04-15T00:00:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Mirantis"]
@@ -21,4 +21,4 @@ Web page: <https://k8slens.dev>
 
 Report the bug: <https://github.com/lensapp/lens/issues>  
 
-Download: <https://api.k8slens.dev/binaries/Lens-2026.1.161237-latest.x86_64.AppImage>
+Download: <https://api.k8slens.dev/binaries/Lens-2026.4.151333-latest.x86_64.AppImage>

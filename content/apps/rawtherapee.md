@@ -1,7 +1,7 @@
 +++
 title = "RawTherapee"
 description = "RawTherapee is a free, cross-platform raw image processing program"
-date = "2025-05-28T09:47:00"
+date = "2025-05-28 09:47:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["The RawTherapee Team"]

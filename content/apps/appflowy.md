@@ -12,8 +12,6 @@ license = ["AGPL-3.0"]
 +++
 
 <img src="https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/imgs/welcome.png" alt="Main Window (Light Theme)">
-
-
 Open-source alternative to Notion. You are in charge of your data and customizations
 
 License: AGPL-3.0

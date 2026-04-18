@@ -1,7 +1,7 @@
 +++
 title = "GDLauncher"
 description = "GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience"
-date = "2025-01-12 12:28:00"
+date = "2025-01-18 20:23:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Gorilla Devs"]
@@ -22,4 +22,4 @@ Source code: <https://github.com/gorilla-devs/GDLauncher-Carbon>
 
 Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon/issues>
 
-Download: <https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.28__linux__x64.AppImage>
+Download: <https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage>

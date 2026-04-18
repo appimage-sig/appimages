@@ -1,7 +1,7 @@
 +++
 title = "museeks"
 description = "A simple, clean and cross-platform music player"
-date = "2025-09-22T17:11:00"
+date = "2026-02-19 14:38:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Pierre de la Martinière"]
@@ -23,8 +23,8 @@ Report the bug: <https://github.com/martpie/museeks/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/martpie/museeks/releases/download/0.23.1/Museeks_0.23.1_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_amd64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/martpie/museeks/releases/download/0.23.1/Museeks_0.23.1_aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_aarch64.AppImage">Download arm64</a>
   </button>

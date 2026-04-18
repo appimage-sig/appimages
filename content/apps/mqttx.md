@@ -1,7 +1,7 @@
 +++
 title = "MQTTX"
 description = "MQTTX makes developing and testing MQTT applications faster and easier.."
-date = "2025-09-30T12:09:00"
+date = "2026-01-23 12:09:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["EMQX Team"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/emqx/MQTTX/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1.AppImage">Download x86_64</a>
+      <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/emqx/MQTTX/releases/download/v1.12.1/MQTTX-1.12.1-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0-arm64.AppImage">Download arm64</a>
   </button>
 </div>

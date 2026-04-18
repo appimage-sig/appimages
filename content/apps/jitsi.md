@@ -1,7 +1,7 @@
 +++
 title = "Jitsi Meet"
 description = "Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application."
-date = "2026-02-04T19:42:00"
+date = "2026-02-04 19:42:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Jitsi team"]

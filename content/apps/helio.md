@@ -1,7 +1,7 @@
 +++
 title = "Helio"
 description = "Free and open-source music sequencer for desktop and mobile platforms"
-date = "2025-12-07T19:29:00"
+date = "2025-12-07 19:29:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Peter Rudenko and contributors"]

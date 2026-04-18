@@ -1,7 +1,7 @@
 +++
 title = "GitFourchette"
 description = "The comfortable Git UI for Linux."
-date = "2026-02-02T01:54:00"
+date = "2026-04-12 00:06:00"
 categories = ["Development"]
 authors = ["Iliyas Jorio"]
 tags = ["Git client"]
@@ -26,8 +26,8 @@ Report the bug: <https://github.com/jorio/gitfourchette/issues>
 
 <div class="d_buttons">
     <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-x86_64.AppImage">Download x86_64</a>  
+    <a href="https://github.com/jorio/gitfourchette/releases/download/v1.7.1/GitFourchette-1.7.1-x86_64.AppImage">Download x86_64</a>  
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jorio/gitfourchette/releases/download/v1.6.0/GitFourchette-1.6.0-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/jorio/gitfourchette/releases/download/v1.7.1/GitFourchette-1.7.1-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

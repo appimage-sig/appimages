@@ -1,7 +1,7 @@
 +++
 title = "Feishin"
 description = "A modern self-hosted music player"
-date = "2026-01-19 06:41:00"
+date = "2026-04-07 03:26:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Jeff"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/jeffvli/feishin/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/jeffvli/feishin/releases/latest/download//Feishin-linux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jeffvli/feishin/releases/download/v1.3.0/Feishin-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/jeffvli/feishin/releases/latest/download/Feishin-linux-arm64.AppImage">Download arm64</a>
   </button>
 </div>

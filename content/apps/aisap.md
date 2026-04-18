@@ -1,7 +1,7 @@
 +++
 title = "aisap"
 description = "Tool to make sandboxing AppImages easy"
-date = "2024-12-03T02:26:00"
+date = "2024-12-03 02:26:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["mgord9518"]

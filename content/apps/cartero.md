@@ -1,7 +1,7 @@
 +++
 title = "Cartero"
 description = "Native, lightweight, multiplatform and free HTTP client that you can use to test your APIs"
-date = "2025-11-15T00:20:00"
+date = "2026-01-25 21:12:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["the Cartero authors"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/danirod/cartero/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/danirod/cartero/releases/download/v25.0/Cartero-25.0-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

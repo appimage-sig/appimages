@@ -1,7 +1,7 @@
 +++
 title = "Prism Launcher"
 description = "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)"
-date = "2026-01-11T22:00:00"
+date = "2026-04-12 21:23:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Prism Launcher Contributors"]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/10.0.2/PrismLauncher-Linux-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

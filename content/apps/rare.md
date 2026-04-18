@@ -1,7 +1,7 @@
 +++
 title = "Rare"
 description = "Frontend for legendary, the open source Epic Games Launcher alternative"
-date = "2025-12-27T13:42:00"
+date = "2026-03-19 20:37:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Rare Devs"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/RareDevs/Rare/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.116/Rare-1.12.0.116-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.55/Rare-1.12.0.55-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.116/Rare-1.12.0.116-arm64.AppImage">Download arm64</a>
   </button>
 </div>

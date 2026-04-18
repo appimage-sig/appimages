@@ -1,7 +1,7 @@
 +++
 title = "Ricochet Refresh"
 description = "Anonymous peer-to-peer instant messaging"
-date = "2026-01-28T16:18:00"
+date = "2026-02-05 17:20:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Blueprint for Free Speech"]
@@ -22,9 +22,9 @@ Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-x86_64.appimage">Download x86_64</a>
   </button>
  <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.39-release/ricochet-refresh-3.0.39-i386.AppImage">Download x86</a>
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-i386.appimage">Download x86</a>
   </button>
 </div>

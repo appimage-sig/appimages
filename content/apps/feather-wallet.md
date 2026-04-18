@@ -1,7 +1,7 @@
 +++
 title = "Feather"
 description = "A free and open-source Monero desktop wallet"
-date = "2025-04-14T07:48:00"
+date = "2025-04-14 07:48:00"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Feather Wallet"]

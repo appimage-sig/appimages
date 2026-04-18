@@ -1,7 +1,7 @@
 +++
 title = "LibreOffice"
 description = "Free open source office suite"
-date = "2025-12-18T14:18:00"
+date = "2025-12-18 14:18:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["The Document Foundation"]

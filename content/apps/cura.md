@@ -1,7 +1,7 @@
 +++
 title = "Cura"
 description = "3D printer / slicing GUI built on top of the Uranium framework"
-date = "2025-10-23 16:04:00"
+date = "2026-04-13 10:33:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Ultimaker"]
@@ -24,4 +24,4 @@ Become a sponsor: <https://github.com/sponsors/Ultimaker>
 Translate: <https://github.com/Ultimaker/Cura/wiki/Translating-Cura>  
 Report the bug: <https://github.com/Ultimaker/Cura/issues>  
 
-Download: <https://github.com/Ultimaker/Cura/releases/download/5.11.0/UltiMaker-Cura-5.11.0-linux-X64.AppImage>
+Download: <https://github.com/Ultimaker/Cura/releases/download/5.12.1/UltiMaker-Cura-5.12.1-linux-X64.AppImage>

@@ -1,7 +1,7 @@
 +++
 title = "ImHex"
 description = "ImHex is a feature-rich Hex Editor."
-date = "2025-12-21T21:57:00"
+date = "2025-12-21 21:57:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["WerWolv"]

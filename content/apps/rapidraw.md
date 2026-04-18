@@ -1,7 +1,7 @@
 +++
 title = "RapidRAW"
 description = "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind."
-date = "2026-01-27T00:06:00"
+date = "2026-04-01 23:30:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Timon Käch"]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.3/03_RapidRAW_v1.5.3_ubuntu-24.04-arm_aarch64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.4.10/03_RapidRAW_v1.4.10_ubuntu-24.04-arm_aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.3/03_RapidRAW_v1.5.3_ubuntu-24.04-arm_aarch64.AppImage">Download arm64</a>
   </button>
 </div>

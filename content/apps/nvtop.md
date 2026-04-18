@@ -1,7 +1,7 @@
 +++
 title = "nvtop"
 description = "GPUs process monitoring for AMD, Intel and NVIDIA"
-date = "2026-01-18T16:18:00"
+date = "2026-02-08 20:57:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Maxime Schmitt"]
@@ -19,4 +19,4 @@ Source code: <https://github.com/Syllo/nvtop>
 
 Report the bug: <https://github.com/Syllo/nvtop/issues>  
 
-Download: <https://github.com/Syllo/nvtop/releases/download/3.3.1/nvtop-3.3.1-x86_64.AppImage>
+Download: <https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage>

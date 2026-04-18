@@ -1,7 +1,7 @@
 +++
 title = "Arduino IDE"
 description = "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board"
-date = "2025-12-17 19:17:00"
+date = "2026-02-25 18:51:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Arduino"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/arduino/arduino-ide>
 Translate: <https://explore.transifex.com/arduino-1/ide2>  
 Report the bug: <https://github.com/arduino/arduino-ide/issues>  
 
-Download: <https://github.com/arduino/arduino-ide/releases/download/2.3.7/arduino-ide_2.3.7_Linux_64bit.AppImage>
+Download: <https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_Linux_64bit.AppImage>

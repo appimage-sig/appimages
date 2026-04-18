@@ -1,7 +1,7 @@
 +++
 title = "LM Studio"
 description = "Discover, download, and run local LLMs"
-date = "2026-01-15T00:00:00"
+date = "2026-04-16  00:00:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Element Labs"]
@@ -21,9 +21,9 @@ Translate: <https://github.com/lmstudio-ai/localization>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://installers.lmstudio.ai/linux/x64/0.3.39-2/LM-Studio-0.3.39-2-x64.AppImage">Download x86_64</a>
+      <a href="https://installers.lmstudio.ai/linux/x64/0.4.12-1/LM-Studio-0.4.12-1-x64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://installers.lmstudio.ai/linux/arm64/0.3.39-2/LM-Studio-0.3.39-2-arm64.AppImage">Download arm64</a>
+      <a href="https://installers.lmstudio.ai/linux/arm64/0.4.12-1/LM-Studio-0.4.12-1-arm64.AppImage">Download arm64</a>
   </button>
 </div>

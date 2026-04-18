@@ -1,7 +1,7 @@
 +++
 title = "Modrinth"
 description = "Open-source mod platform, built by the community, for the community."
-date = "2025-12-12T23:55:00"
+date = "2026-04-16 00:00:00"
 [taxonomies]
 categories = ["Games"]
 authors = ["Rinth"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/modrinth/code>
 Translate: <https://crowdin.com/project/modrinth>  
 Report the bug: <https://github.com/modrinth/code/issues>  
 
-Download: <https://launcher-files.modrinth.com/versions/0.10.26/linux/Modrinth%20App_0.10.26_amd64.AppImage>
+Download: <https://github.com/modrinth/code/releases/download/v0.13.1/Modrinth.App_0.13.1_amd64.AppImage>

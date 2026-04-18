@@ -1,7 +1,7 @@
 +++
 title = "FreeCAD"
 description = "FreeCAD is a general purpose Open Source 3D CAD/MCAD/CAx/CAE/PLM modeler"
-date = "2026-01-08T22:40:00"
+date = "2026-01-08 22:40:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["The FreeCAD Team"]

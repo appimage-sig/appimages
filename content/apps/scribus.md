@@ -1,7 +1,7 @@
 +++
 title = "Scribus"
 description = "Powerful desktop publishing software"
-date = "2026-01-10T03:32:00"
+date = "2026-04-14 02:45:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["The Scribus Team"]

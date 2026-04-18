@@ -1,7 +1,7 @@
 +++
 title = "LibreWolf"
 description = "A custom version of Firefox, focused on privacy, security and freedom."
-date = "2026-01-14T01:35:00"
+date = "2026-04-09 13:53:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["LibreWolf"]
@@ -22,8 +22,8 @@ Report the bug: <https://codeberg.org/librewolf/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0-1/LibreWolf.x86_64.AppImage">Download x86_64</a>
+      <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/149.0.2-2/LibreWolf.x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/147.0-1/LibreWolf.aarch64.AppImage">Download arm64</a>
+      <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/149.0.2-2/LibreWolf.aarch64.AppImage">Download arm64</a>
   </button>

@@ -1,7 +1,7 @@
 +++
 title = "Lossless-cut"
 description = "Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files."
-date = "2025-12-04T19:30:00"
+date = "2026-01-29 19:54:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Mikael Finstad"]
@@ -24,4 +24,4 @@ Become a sponsor: <https://github.com/sponsors/mifi>
 Translate: <https://hosted.weblate.org/projects/losslesscut/losslesscut>  
 Report the bug: <https://github.com/mifi/lossless-cut/issues>  
 
-Download: <https://github.com/mifi/lossless-cut/releases/download/v3.67.2/LosslessCut-linux-x86_64.AppImage>
+Download: <https://github.com/mifi/lossless-cut/releases/download/v3.68.0/LosslessCut-linux-x86_64.AppImage>

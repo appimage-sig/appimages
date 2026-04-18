@@ -1,7 +1,7 @@
 +++
 title = "Legcord"
 description = "Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight"
-date = "2025-10-05T15:25:00"
+date = "2026-04-15 21:54:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Legcord"]
@@ -24,11 +24,11 @@ Report the bug: <https://github.com/Legcord/Legcord/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-armv7l.AppImage">Download arm64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Legcord/Legcord/releases/download/v1.1.6/Legcord-1.1.6-linux-armv7l.AppImage">Download armv7l</a>
+      <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-armv7l.AppImage">Download armv7l</a>
   </button>

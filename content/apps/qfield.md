@@ -1,7 +1,7 @@
 +++
 title = "QField"
 description = "Geodata collection app."
-date = "2026-01-11T18:28:00"
+date = "2026-04-16 07:45:00"
 [taxonomies]
 categories = ["Science"]
 authors = ["OPENGIS.ch"]
@@ -22,4 +22,4 @@ Become a sponsor: <https://github.com/sponsors/opengisch>
 Translate: <https://explore.transifex.com/opengisch/qfield-for-qgis>  
 Report the bug: <https://github.com/opengisch/QField/issues>  
 
-Download: <https://github.com/opengisch/QField/releases/download/v4.1.5/qfield-v4.1.5-linux-x64.AppImage>
+Download: <https://github.com/opengisch/QField/releases/download/v4.1.7/qfield-v4.1.7-linux-x64.AppImage>

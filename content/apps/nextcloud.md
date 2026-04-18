@@ -1,7 +1,7 @@
 +++
 title = "Nextcloud"
 description = "Nextcloud is the industry-leading, fully open-source, on-premises content collaboration platform."
-date = "2025-12-15T21:39:00"
+date = "2026-03-31 18:51:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Nextcloud"]
@@ -21,4 +21,4 @@ Source code: <https://github.com/nextcloud/desktop>
 Translate: <https://explore.transifex.com/nextcloud/nextcloud>  
 Report the bug: <https://github.com/nextcloud/desktop/issues>  
 
-Download: <https://github.com/nextcloud-releases/desktop/releases/download/v4.0.4/Nextcloud-4.0.4-x86_64.AppImage>
+Download: <https://github.com/nextcloud-releases/desktop/releases/download/v33.0.2/Nextcloud-33.0.2-x86_64.AppImage>

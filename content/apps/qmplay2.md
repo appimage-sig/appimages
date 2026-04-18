@@ -1,7 +1,7 @@
 +++
 title = "QMPlay2"
 description = "QMPlay2 is a video and audio player which can play most formats and codecs."
-date = "2025-09-11T22:27:00"
+date = "2025-09-11 22:27:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Błażej Szczygieł"]

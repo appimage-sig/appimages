@@ -1,7 +1,7 @@
 +++
 title = "Notesnook"
 description = "End-to-end encrypted note taking alternative to Evernote."
-date = "2026-01-16T13:05:00"
+date = "2026-04-15 06:38:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Streetwriters"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/streetwriters/notesnook/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.8-beta.1/notesnook_linux_arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_arm64.AppImage">Download arm64</a>
   </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "WebCord"
 description = "A Discord and SpaceBar :electron:-based client implemented without Discord API."
-date = "2025-11-18T03:55:00"
+date = "2026-04-07 00:17:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["SpacingBat3"]
@@ -23,12 +23,12 @@ Report the bug: <https://github.com/SpacingBat3/WebCord/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-x64.AppImage">Download x86_64</a>
+      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-x64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-arm64.AppImage">Download arm64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.12.1/WebCord-4.12.1-armv7l.AppImage">Download armv7l</a>
+      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-armv7l.AppImage">Download armv7l</a>
   </button>
 </div>

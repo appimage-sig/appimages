@@ -1,7 +1,7 @@
 +++
 title = "Story Architect"
 description = "All in one screenwriting app"
-date = "2025-12-09T19:00:00"
+date = "2026-03-03 12:21:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Story Apps"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/story-apps/starc>
 Translate: <https://explore.transifex.com/story-apps/starc>  
 Report the bug: <https://github.com/story-apps/starc/issues/>  
 
-Download: <https://github.com/story-apps/starc/releases/download/v0.8.0/starc-setup.AppImage>
+Download: <https://github.com/story-apps/starc/releases/download/v0.8.1/starc-setup.AppImage>

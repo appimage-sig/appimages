@@ -1,7 +1,7 @@
 +++
 title = "tenacity"
 description = "Tenacity is an easy-to-use, privacy-friendly, FLOSS, cross-platform multi-track audio editor."
-date = "2025-10-12T18:38:00"
+date = "2025-10-12 18:38:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Tenacity community"]

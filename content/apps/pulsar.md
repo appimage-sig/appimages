@@ -1,7 +1,7 @@
 +++
 title = "Pulsar"
 description = "A Community-led Hyper-Hackable Text Editor"
-date = "2025-10-10T03:15:00"
+date = "2026-03-20 05:17:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Pulsar-Edit Original work"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/pulsar-edit/pulsar/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.130.1/Linux.Pulsar-1.130.1.AppImage">Download x86_64</a>
+      <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/Linux.Pulsar-1.131.3.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.130.1/ARM.Linux.Pulsar-1.130.1-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/ARM.Linux.Pulsar-1.131.3-arm64.AppImage">Download arm64</a>
   </button>
 </div>

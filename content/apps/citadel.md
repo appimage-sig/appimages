@@ -1,7 +1,7 @@
 +++
 title = "Citadel"
 description = "Manage your ebook library without frustrations. Calibre compatible."
-date = "2024-10-29T10:25:00"
+date = "2024-10-29 10:25:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Phil Denhoff"]

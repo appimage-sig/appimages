@@ -1,7 +1,7 @@
 +++
 title = "deezer-desktop"
 description = "An universal linux port of deezer, supporting Flatpak, Appimage, Snap, RPM, DEB."
-date = "2026-01-21 02:16:00"
+date = "2026-04-10 22:04:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Aurélien Hamy"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/aunetx/deezer-linux/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.150/deezer-desktop-7.1.150-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.40/deezer-desktop-7.1.40-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.150/deezer-desktop-7.1.150-arm64.AppImage">Download arm64</a>
   </button>
 </div>

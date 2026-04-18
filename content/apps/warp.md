@@ -1,7 +1,7 @@
 +++
 title = "Warp"
 description = "Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster"
-date = "2026-03-18T00:00:00"
+date = "2026-03-18  00:00:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Warp"]
@@ -20,9 +20,9 @@ Report the bug: <https://github.com/warpdotdev/Warp/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://releases.warp.dev/stable/v0.2026.03.18.08.24.stable_03/Warp-x86_64.AppImage">Download x86_64</a>
+      <a href="https://app.warp.dev/download?package=appimage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://releases.warp.dev/stable/v0.2026.03.18.08.24.stable_03/Warp-aarch64.AppImage">Download arm64</a>
+      <a href="https://app.warp.dev/get_warp?package=appimage_arm64">Download arm64</a>
   </button>
 </div>

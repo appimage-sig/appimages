@@ -1,7 +1,7 @@
 +++
 title = "OpenRGB"
 description = "Open source RGB lighting control that doesn't depend on manufacturer software"
-date = "2025-09-14T22:32:00"
+date = "2025-09-14 22:32:00"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Adam Honse"]
@@ -12,8 +12,6 @@ license = ["GPL-2.0"]
 +++
 
 <img src="https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/Documentation/Images/OpenRGB_Screenshot.png" alt="Main Window">
-
-
 Open source RGB lighting control that doesn't depend on manufacturer software
 
 License: GPL-2.0

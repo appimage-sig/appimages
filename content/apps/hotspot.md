@@ -1,7 +1,7 @@
 +++
 title = "Hotspot"
 description = "Linux perf GUI for performance analysis."
-date = "2026-01-29T00:59:00"
+date = "2026-04-16 01:17:00"
 [taxonomies]
 categories = ["System"]
 authors = ["Klarälvdalens Datakonsult"]

@@ -1,7 +1,7 @@
 +++
 title = "Wire"
 description = "Wire is the most secure platform for messaging, audio, and video calls, based on edge computing and zero knowledge architecture."
-date = "2025-12-10T16:16:00"
+date = "2025-12-10 16:16:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Wire Swiss"]

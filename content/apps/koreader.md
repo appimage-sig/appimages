@@ -1,7 +1,7 @@
 +++
 title = "KOReader"
 description = "An ebook reader application"
-date = "2025-11-01T14:16:00"
+date = "2026-03-17 23:52:00"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["KOReader Community"]
@@ -24,8 +24,11 @@ Report the bug: <https://github.com/koreader/koreader/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-x86_64-v2025.10.AppImage">Download x86_64</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/koreader/koreader/releases/download/v2025.10/koreader-appimage-aarch64-v2025.10.AppImage">Download arm64</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-appimage-aarch64-v2026.03.AppImage">Download arm64</a>
+  </button>
+    <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-armhf.AppImage">Download armv7l</a>
   </button>

@@ -1,7 +1,7 @@
 +++
 title = "Zen Browser"
 description = "Performance-optimized and privacy-focused browser built atop Firefox"
-date = "2026-01-25T01:49:00"
+date = "2026-01-25 01:49:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Zen Browser Team"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/zen-browser/desktop/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/zen-browser/desktop/releases/download/1.18.1b/zen-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/zen-browser/desktop/releases/download/1.19.8b/zen-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/zen-browser/desktop/releases/download/1.18.1b/zen-aarch64.AppImage">Download arm64</a>
+      <a href="https://github.com/zen-browser/desktop/releases/download/1.19.8b/zen-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

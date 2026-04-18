@@ -27,9 +27,9 @@ Report the bug: <https://github.com/siyuan-note/siyuan/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux.AppImage">Download x86_64</a>
+      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.4/siyuan-3.6.4-linux.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.5.1/siyuan-3.5.1-linux-arm64.AppImage">Download arm64</a>
+      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.4/siyuan-3.6.4-linux-arm64.AppImage">Download arm64</a>
   </button>
 </div>

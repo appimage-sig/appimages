@@ -1,7 +1,7 @@
 +++
 title = "LMMS"
 description = "LMMS is an open-source cross-platform digital audio workstation designed for music production."
-date = "2026-04-05T02:50:00"
+date = "2026-04-05 02:50:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["LMMS"]

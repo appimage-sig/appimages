@@ -1,7 +1,7 @@
 +++
 title = "Neovim"
 description = "Vim-fork focused on extensibility and usability"
-date = "2026-04-04T08:39:00"
+date = "2026-04-04 08:39:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Neovim contributors"]
