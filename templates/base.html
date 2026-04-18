@@ -1,11 +1,13 @@
 {% import "components/index.html" as components %}
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ config.extra.language_direction }}">
+
 <head>
     {% block head %}
     {% include "partials/head.html" %}
     {% endblock %}
 </head>
+
 <body>
     {% block header %}
     {% include "partials/header.html" %}
@@ -26,4 +28,5 @@
 
     <script src="{{ get_url(path='js/common.js') }}"></script>
 </body>
+
 </html>

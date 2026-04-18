@@ -23,11 +23,9 @@
 
     &--primary {
         color: $white;
-        background: linear-gradient(
-            90deg,
-            $primary-color 0%,
-            $secondary-color 167%
-        );
+        background: linear-gradient(90deg,
+                $primary-color 0%,
+                $secondary-color 167%);
 
         &:hover {
             color: $white !important;
@@ -49,11 +47,9 @@
             opacity: 0;
             will-change: transform;
             transition: opacity 0.35s;
-            background: linear-gradient(
-                90deg,
-                $primary-color 0%,
-                $secondary-color 107%
-            );
+            background: linear-gradient(90deg,
+                    $primary-color 0%,
+                    $secondary-color 107%);
         }
     }
 
@@ -78,9 +74,10 @@
 }
 
 .d_buttons {
-  display: grid;
-  gap: 10px; }
+    display: grid;
+    gap: 10px;
+}
 
 .d_buttons button:nth-child(n+2) {
-  margin-left: 20px;
+    margin-left: 20px;
 }

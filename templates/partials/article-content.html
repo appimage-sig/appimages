@@ -25,7 +25,8 @@
       </h2>
 
       <p class="article__excerpt">
-        {% if page.description %}{{ page.description }}{% else %}{{ page.summary | truncate(length=120) | safe }}{% endif %}
+        {% if page.description %}{{ page.description }}{% else %}{{ page.summary | truncate(length=120) | safe }}{%
+        endif %}
       </p>
 
       {% set author_image = page.extra.author_image | default(value=config.extra.author_image) %}
@@ -42,7 +43,8 @@
           <div class="article__author-name">{{ author_name }}</div>
           {% set formatted_date_long = page.date | date(format="%Y-%m-%d %H:%M:%S %z") %}
           {% set formatted_date_short = page.date | date(format=config.extra.date_format) %}
-          <span class="article__date"><time datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time></span>
+          <span class="article__date"><time
+              datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time></span>
         </div>
       </div>
 

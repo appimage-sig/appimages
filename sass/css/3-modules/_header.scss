@@ -148,11 +148,9 @@
         font-size: 18px;
         border-radius: 50%;
         cursor: pointer;
-        background: linear-gradient(
-            90deg,
-            $primary-color 0%,
-            $secondary-color 167%
-        );
+        background: linear-gradient(90deg,
+                $primary-color 0%,
+                $secondary-color 167%);
 
         &:hover {
             .ion-md-close {

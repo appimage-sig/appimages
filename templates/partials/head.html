@@ -23,7 +23,7 @@
 {% endif %}
 
 {% if page.authors and page.authors | length > 0 %}
-<meta name="author" content="{{ page.authors | join(sep=", ") }}">
+<meta name="author" content="{{ page.authors | join(sep=" , ") }}">
 {% elif config.author %}
 <meta name="author" content="{{ config.author }}">
 {% else %}
@@ -73,15 +73,7 @@
 
 {% if config.generate_feeds %}
 {% for feed_filename in config.feed_filenames %}
-<link rel="alternate" type={% if feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=feed_filename) | safe }}">
+<link rel="alternate" type={% if feed_filename=="atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{%
+    endif %} title="RSS" href="{{ get_url(path=feed_filename) | safe }}">
 {% endfor %}
 {% endif %}
-
-{% block ext_head %}
-    {#- /* Misc */}}
-    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-    {{- template "partials/templates/opengraph.html" . }}
-    {{- template "partials/templates/twitter_cards.html" . }}
-    {{- template "partials/templates/schema_json.html" . }}
-    {{- end -#}
-{% endblock %}

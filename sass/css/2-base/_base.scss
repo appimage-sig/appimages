@@ -132,7 +132,7 @@ img,
         }
     }
 
-    & + em {
+    &+em {
         display: block;
         margin-top: 20px;
         font-size: 14px;
@@ -158,7 +158,7 @@ img,
             border-radius: 8px;
         }
 
-        & + em {
+        &+em {
             margin-top: 12px;
         }
     }

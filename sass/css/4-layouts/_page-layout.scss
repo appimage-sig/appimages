@@ -78,11 +78,9 @@
         border-radius: 8px;
         overflow: hidden;
         color: $white;
-        background: linear-gradient(
-            90deg,
-            $primary-color 0%,
-            $secondary-color 167%
-        );
+        background: linear-gradient(90deg,
+                $primary-color 0%,
+                $secondary-color 167%);
 
         &:hover {
             &:before {
@@ -103,11 +101,9 @@
             border-radius: 8px;
             will-change: transform;
             transition: opacity 0.35s;
-            background: linear-gradient(
-                90deg,
-                $primary-color 0%,
-                $secondary-color 107%
-            );
+            background: linear-gradient(90deg,
+                    $primary-color 0%,
+                    $secondary-color 107%);
         }
 
         &:last-child {
@@ -312,11 +308,9 @@
         padding: 28px;
         margin-bottom: 20px;
         border-radius: 16px;
-        background: linear-gradient(
-            90deg,
-            $primary-color 0%,
-            $secondary-color 167%
-        );
+        background: linear-gradient(90deg,
+                $primary-color 0%,
+                $secondary-color 167%);
         transition: transform 0.2s;
 
         &:hover {

@@ -9,22 +9,22 @@
 <div class="container">
   {% set_global sections = [] %}
   {% for page in term.pages %}
-    {% set_global sections = sections | concat(with=page.components | first) | unique %}
+  {% set_global sections = sections | concat(with=page.components | first) | unique %}
   {% endfor %}
   {% for section in sections | sort %}
   <h1>{{ section | title }}</h1>
-    <div class="row">
-      <div class="col col-12">
-        <div class="contaniner__inner animate">
-          <div class="row">
-            {% for page in term.pages %}
-              {% if page.components | first == section %}
-                  {{ blog_card::blog_card(data=page) }}
-              {% endif %}
-            {% endfor %}
-          </div>
+  <div class="row">
+    <div class="col col-12">
+      <div class="contaniner__inner animate">
+        <div class="row">
+          {% for page in term.pages %}
+          {% if page.components | first == section %}
+          {{ blog_card::blog_card(data=page) }}
+          {% endif %}
+          {% endfor %}
         </div>
       </div>
+    </div>
   </div>
   {% endfor %}
 </div>

@@ -4,11 +4,9 @@
     margin-top: 44px;
     padding: 96px 0 60px;
     overflow: hidden;
-    background: linear-gradient(
-        90deg,
-        $primary-color 0%,
-        $secondary-color 167%
-    );
+    background: linear-gradient(90deg,
+            $primary-color 0%,
+            $secondary-color 167%);
 
     .social {
         margin-bottom: 40px;

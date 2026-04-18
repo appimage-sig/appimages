@@ -20,18 +20,14 @@
           <div class="row">
             {% set section = get_section(path="apps/_index.md") %}
             {% for i in range(end=3) %}
-            {% if i < section.pages | length %}
-            {% set post = section.pages | nth(n=i) %}
-              {{ blog_card::blog_card(data = post) }}
-            {% endif %}
-            {% endfor %}
-          </div>
-          {% endif %}
+            {% if i < section.pages | length %} {% set post=section.pages | nth(n=i) %} {{
+              blog_card::blog_card(data=post) }} {% endif %} {% endfor %} </div>
+              {% endif %}
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <!-- end blog -->
 {% endmacro blog_section %}

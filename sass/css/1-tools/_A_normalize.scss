@@ -1,4 +1,3 @@
-
 *,
 ::before,
 ::after {
@@ -56,18 +55,18 @@ p:where(:not([class]):not(:last-child)) {
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
 
 img,
@@ -86,7 +85,8 @@ button {
 }
 
 optgroup {
-  font-weight: bold; /* Restore the font weight unset by the previous rule */
+    font-weight: bold;
+    /* Restore the font weight unset by the previous rule */
 }
 
 html {
@@ -134,7 +134,7 @@ svg * {
 }
 
 iframe {
-  border-style: none;
+    border-style: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -151,15 +151,15 @@ iframe {
 
 /* Specify the progress cursor of updating elements */
 [aria-busy='true'] {
-  cursor: progress;
+    cursor: progress;
 }
 
 /* Specify the pointer cursor of trigger elements */
 [aria-controls] {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /* Specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements */
 [aria-disabled='true'] {
-  cursor: default;
+    cursor: default;
 }
