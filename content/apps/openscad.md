@@ -1,7 +1,7 @@
 +++
 title = "OpenSCAD"
 description = "The Programmers Solid 3D CAD Modeller"
-date = "16-04-2026 18:00:00"
+date = "2026-04-16 18:00:00"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Marius Kintel"]
