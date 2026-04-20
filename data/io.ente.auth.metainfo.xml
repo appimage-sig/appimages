@@ -12,9 +12,19 @@
     </description>
     <launchable type="desktop-id">enteauth.desktop</launchable>
     <url type="homepage">https://ente.com/auth</url>
+    <url type="vcs-browser">https://github.com/ente-io/ente</url>
+    <requires>
+        <display_length compare="ge">360</display_length>
+    </requires>
+    <supports>
+        <control>touch</control>
+        <control>pointing</control>
+        <control>keyboard</control>
+    </supports>
     <screenshots>
         <screenshot type="default">
             <image>https://raw.githubusercontent.com/ente-io/ente/main/.github/assets/auth.png</image>
+            <caption>Import codes and access your saved 2FA tokens across devices</caption>
         </screenshot>
     </screenshots>
     <releases>
