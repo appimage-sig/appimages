@@ -2,15 +2,15 @@
 
 set -e
 
-wget -q https://raw.githubusercontent.com/86Box/86Box/refs/heads/master/src/unix/assets/net.86box.86Box.metainfo.xml -O ./content/apps//86Box/net.86box.86Box.metainfo.xml &
-wget -q https://raw.githubusercontent.com/actualbudget/actual/refs/heads/master/packages/desktop-electron/extra-resources/linux/com.actualbudget.actual.metainfo.xml -O ./content/apps//actual/com.actualbudget.actual.metainfo.xml &
-wget -q https://raw.githubusercontent.com/toeverything/AFFiNE/refs/heads/canary/packages/frontend/apps/electron/resources/affine.metainfo.xml -O ./content/apps//affine/org.toeverything.AFFiNE.metainfo.xml &
-wget -q https://raw.githubusercontent.com/Umio-Yasuno/amdgpu_top/refs/heads/main/assets/io.github.umio_yasuno.amdgpu_top.metainfo.xml -O ./content/apps//amdgpu_top/io.github.umio_yasuno.amdgpu_top.metainfo.xml &
-wget -q https://raw.githubusercontent.com/antares-sql/antares/refs/heads/master/assets/flatpak/it.fabiodistasio.AntaresSQL.metainfo.xml -O ./content/apps//antares/it.fabiodistasio.AntaresSQL.metainfo.xml &
-wget -q https://raw.githubusercontent.com/AntiMicroX/antimicrox/refs/heads/master/other/appdata/io.github.antimicrox.antimicrox.appdata.xml.in -O ./content/apps//antimicrox/io.github.antimicrox.antimicrox.metainfo.xml &
-wget -q https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml -O ./content/apps//appflowy/io.appflowy.AppFlowy.metainfo.xml &
-wget -q https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in -O ./content/apps//audacity/org.audacityteam.Audacity.metainfo.xml &
-wget -q https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml -O ./content/apps//beavernotes/com.beavernotes.beavernotes.metainfo.xml &
+wget -q https://raw.githubusercontent.com/86Box/86Box/refs/heads/master/src/unix/assets/net.86box.86Box.metainfo.xml -O ./content/apps/86box/net.86box.86Box.metainfo.xml &
+wget -q https://raw.githubusercontent.com/actualbudget/actual/refs/heads/master/packages/desktop-electron/extra-resources/linux/com.actualbudget.actual.metainfo.xml -O ./content/apps/actual/com.actualbudget.actual.metainfo.xml &
+wget -q https://raw.githubusercontent.com/toeverything/AFFiNE/refs/heads/canary/packages/frontend/apps/electron/resources/affine.metainfo.xml -O ./content/apps/affine/org.toeverything.AFFiNE.metainfo.xml &
+wget -q https://raw.githubusercontent.com/Umio-Yasuno/amdgpu_top/refs/heads/main/assets/io.github.umio_yasuno.amdgpu_top.metainfo.xml -O ./content/apps/amdgpu_top/io.github.umio_yasuno.amdgpu_top.metainfo.xml &
+wget -q https://raw.githubusercontent.com/antares-sql/antares/refs/heads/master/assets/flatpak/it.fabiodistasio.AntaresSQL.metainfo.xml -O ./content/apps/antares/it.fabiodistasio.AntaresSQL.metainfo.xml &
+wget -q https://raw.githubusercontent.com/AntiMicroX/antimicrox/refs/heads/master/other/appdata/io.github.antimicrox.antimicrox.appdata.xml.in -O ./content/apps/antimicrox/io.github.antimicrox.antimicrox.metainfo.xml &
+wget -q https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml -O ./content/apps/appflowy/io.appflowy.AppFlowy.metainfo.xml &
+wget -q https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in -O ./content/apps/audacity/org.audacityteam.Audacity.metainfo.xml &
+wget -q https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml -O ./content/apps/beavernotes/com.beavernotes.beavernotes.metainfo.xml &
 wget -q https://raw.githubusercontent.com/LinwoodDev/Butterfly/refs/heads/develop/app/linux/debian/usr/share/metainfo/dev.linwood.butterfly.appdata.xml -O ./content/apps/butterfly/dev.linwood.butterfly.metainfo.xml &
 wget -q https://raw.githubusercontent.com/danirod/cartero/refs/heads/trunk/data/es.danirod.Cartero.metainfo.xml.in.in -O ./content/apps/cartero/es.danirod.Cartero.metainfo.xml &
 wget -q https://raw.githubusercontent.com/streetpea/chiaki-ng/refs/heads/main/gui/io.github.streetpea.Chiaki4deck.appdata.xml -O ./content/apps/chiaki-ng/io.github.streetpea.Chiaki4deck.metainfo.xml &
@@ -28,7 +28,7 @@ wget -q https://invent.kde.org/graphics/digikam/-/raw/master/core/app/main/org.k
 wget -q https://raw.githubusercontent.com/stenzek/duckstation/refs/heads/master/scripts/appimage/org.duckstation.DuckStation.metainfo.xml.in -O ./content/apps/duckstation/org.duckstation.DuckStation.metainfo.xml &
 wget -q https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/mobile/apps/auth/linux/packaging/enteauth.appdata.xml -O ./content/apps/ente-auth/io.ente.auth.metainfo.xml &
 wget -q https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/desktop/build/io.ente.photos.appdata.xml -O ./content/apps/ente-photos/io.ente.photos.metainfo.xml &
-wget -q https://raw.githubusercontent.com/feather-wallet/feather/refs/heads/master/src/assets/org.featherwallet.feather.metainfo.xml -O ./content/apps/featherwallet/org.featherwallet.feather.metainfo.xml &
+wget -q https://raw.githubusercontent.com/feather-wallet/feather/refs/heads/master/src/assets/org.featherwallet.feather.metainfo.xml -O ./content/apps/feather/org.featherwallet.feather.metainfo.xml &
 wget -q https://raw.githubusercontent.com/jeffvli/feishin/refs/heads/development/org.jeffvli.feishin.metainfo.xml -O ./content/apps/feishin/org.jeffvli.feishin.metainfo.xml &
 wget -q https://raw.githubusercontent.com/garuda-linux/firedragon/refs/heads/main/assets/org.garudalinux.firedragon.metainfo.xml -O ./content/apps/firedragon/org.garudalinux.firedragon.metainfo.xml &
 wget -q https://raw.githubusercontent.com/flacon/flacon/refs/heads/master/misc/com.github.Flacon.metainfo.xml.in -O ./content/apps/flacon/io.github.flacon.Flacon.metainfo.xml &
@@ -39,7 +39,7 @@ wget -q https://raw.githubusercontent.com/fontforge/fontforge/refs/heads/master/
 wget -q https://raw.githubusercontent.com/enzo1982/freac/refs/heads/master/metadata/org.freac.freac.appdata.xml -O ./content/apps/freac/org.freac.freac.metainfo.xml &
 wget -q https://raw.githubusercontent.com/FreeCAD/FreeCAD/refs/heads/main/src/XDGData/org.freecad.FreeCAD.metainfo.xml.in -O ./content/apps/freecad/org.freecad.FreeCAD.metainfo.xml &
 wget -q https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/flathub/net.casimirlab.frigoligo.metainfo.xml -O ./content/apps/frigoligo/net.casimirlab.frigoligo.metainfo.xml &
-wget -q https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in -O ./content/apps//org.gimp.GIMP.metainfo.xml &
+wget -q https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in -O ./content/apps/gimp/org.gimp.GIMP.metainfo.xml &
 wget -q https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads -O ./content/apps/glaxnimate/org.kde.glaxnimate.metainfo.xml &
 wget -q https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml  -O ./content/apps/gitfourchette/org.gitfourchette.gitfourchette.metainfo.xml &
 wget -q https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in?ref_type=heads -O ./content/apps/inkscape/org.inkscape.Inkscape.metainfo.xml &
@@ -59,8 +59,8 @@ wget -q https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master
 wget -q https://raw.githubusercontent.com/musescore/MuseScore/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.musescore.MuseScore.appdata.xml.in -O ./content/apps/musescore/org.musescore.MuseScore.metainfo.xml &
 wget -q https://raw.githubusercontent.com/Sandakan/Nora/refs/heads/master/flatpak/app.netlify.noramusic.Nora.metainfo.xml -O ./content/apps/nora/app.netlify.noramusic.Nora.metainfo.xml &
 wget -q https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml  -O ./content/apps/notepadnext/com.github.dail8859.NotepadNext.metainfo.xml &
-wget -q https://raw.githubusercontent.com/nuttyartist/notes/refs/heads/master/packaging/linux/common/notes.appdata.xml.in -O ./content/apps//io.github.nuttyartist.notes.metainfo.xml &
-wget -q https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml -O ./content/apps//com.nuclearplayer.Nuclear.metainfo.xml &
+wget -q https://raw.githubusercontent.com/nuttyartist/notes/refs/heads/master/packaging/linux/common/notes.appdata.xml.in -O ./content/apps/notes/io.github.nuttyartist.notes.metainfo.xml &
+wget -q https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml -O ./content/apps/nuclear/com.nuclearplayer.Nuclear.metainfo.xml &
 wget -q https://raw.githubusercontent.com/neovim/neovim/refs/heads/master/runtime/nvim.appdata.xml -O ./content/apps/neovim/io.neovim.nvim.metainfo.xml &
 wget -q https://raw.githubusercontent.com/Syllo/nvtop/refs/heads/master/desktop/nvtop.metainfo.xml -O ./content/apps/nvtop/io.github.syllo.nvtop.metainfo.xml &
 wget -q https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/qt/org.openrgb.OpenRGB.metainfo.xml -O ./content/apps/openrgb/org.openrgb.OpenRGB.metainfo.xml &
@@ -74,11 +74,11 @@ wget -q https://raw.githubusercontent.com/jpd002/Play-/refs/heads/master/install
 wget -q https://raw.githubusercontent.com/PrismLauncher/PrismLauncher/refs/heads/develop/program_info/org.prismlauncher.PrismLauncher.metainfo.xml -O ./content/apps/prismlauncher/org.prismlauncher.PrismLauncher.metainfo.xml &
 wget -q https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/refs/heads/main/share/metainfo/net.davidotek.pupgui2.appdata.xml -O ./content/apps/protonup-qt/net.davidotek.pupgui2.metainfo.xml &
 wget -q https://raw.githubusercontent.com/pulsar-edit/pulsar/refs/heads/master/resources/linux/dev.pulsar_edit.Pulsar.metainfo.xml -O ./content/apps/pulsar/dev.pulsar_edit.Pulsar.metainfo.xml &
-wget -q https://raw.githubusercontent.com/c0re100/qBittorrent-Enhanced-Edition/refs/heads/v5_1_x/dist/unix/org.qbittorrent.qBittorrent.metainfo.xml -O ./content/apps/qBittorrent/org.qbittorrent.qBittorrent.metainfo.xml &
+wget -q https://raw.githubusercontent.com/c0re100/qBittorrent-Enhanced-Edition/refs/heads/v5_1_x/dist/unix/org.qbittorrent.qBittorrent.metainfo.xml -O ./content/apps/qbittorrent/org.qbittorrent.qBittorrent.metainfo.xml &
 wget -q https://raw.githubusercontent.com/opengisch/QField/refs/heads/master/platform/linux/qfield.metainfo.xml -O ./content/apps/qfield/org.qfield.QField.metainfo.xml &
-wget -q https://raw.githubusercontent.com/zaps166/QMPlay2/refs/heads/master/src/gui/Unix/QMPlay2.appdata.xml.in -O ./content/apps/QMPlay2/io.github.zaps166.QMPlay2.metainfo.xml &
+wget -q https://raw.githubusercontent.com/zaps166/QMPlay2/refs/heads/master/src/gui/Unix/QMPlay2.appdata.xml.in -O ./content/apps/qmplay2/io.github.zaps166.QMPlay2.metainfo.xml &
 wget -q https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml -O ./content/apps/qownnotes/io.github.pbek.QOwnNotes.metainfo.xml &
-wget -q https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/data/io.github.CyberTimon.RapidRAW.metainfo.xml -O ./content/apps/rapidrAW/io.github.CyberTimon.RapidRAW.metainfo.xml &
+wget -q https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/data/io.github.CyberTimon.RapidRAW.metainfo.xml -O ./content/apps/rapidraw/io.github.CyberTimon.RapidRAW.metainfo.xml &
 wget -q https://raw.githubusercontent.com/RawTherapee/RawTherapee/refs/heads/dev/com.rawtherapee.RawTherapee.appdata.xml -O ./content/apps/rawtherapee/com.rawtherapee.RawTherapee.metainfo.xml &
 wget -q https://raw.githubusercontent.com/ColinKinloch/RetroArch/refs/heads/master/com.libretro.RetroArch.metainfo.xml -O ./content/apps/retroarch/com.libretro.RetroArch.metainfo.xml &
 wget -q https://raw.githubusercontent.com/RPCS3/rpcs3/refs/heads/master/rpcs3/rpcs3.metainfo.xml -O ./content/apps/rpcs3/rpcs3.metainfo.xml &
@@ -96,8 +96,8 @@ wget -q https://raw.githubusercontent.com/LizardByte/Sunshine/refs/heads/master/
 wget -q https://raw.githubusercontent.com/IsmaelMartinez/teams-for-linux/refs/heads/main/com.github.IsmaelMartinez.teams_for_linux.appdata.xml -O ./content/apps/teams_for_linux/com.github.IsmaelMartinez.teams_for_linux.metainfo.xml &
 wget -q https://codeberg.org/tenacityteam/tenacity/raw/branch/main/help/org.tenacityaudio.Tenacity.metainfo.xml -O ./content/apps/tenacity/org.tenacityaudio.Tenacity.metainfo.xml &
 wget -q https://raw.githubusercontent.com/mapeditor/tiled/refs/heads/master/org.mapeditor.Tiled.appdata.xml -O ./content/apps/tiled/org.mapeditor.Tiled.metainfo.xml &
-wget -q https://raw.githubusercontent.com/upscayl/upscayl/refs/heads/main/flatpak/org.upscayl.Upscayl.metainfo.xml -O ./content/apps//org.upscayl.Upscayl.metainfo.xml &
-wget -q https://github.com/Vencord/Vesktop/releases/latest/download/dev.vencord.Vesktop.metainfo.xml -O /content/apps/vesktop/dev.vencord.Vesktop.metainfo.xml &
+wget -q https://raw.githubusercontent.com/upscayl/upscayl/refs/heads/main/flatpak/org.upscayl.Upscayl.metainfo.xml -O ./content/apps/upscayl/org.upscayl.Upscayl.metainfo.xml &
+wget -q https://github.com/Vencord/Vesktop/releases/latest/download/dev.vencord.Vesktop.metainfo.xml -O ./content/apps/vesktop/dev.vencord.Vesktop.metainfo.xml &
 wget -q https://raw.githubusercontent.com/vifm/vifm/refs/heads/master/data/vifm.appdata.xml -O ./content/apps/vifm/info.vifm.vifm.metainfo.xml &
 wget -q https://raw.githubusercontent.com/wezterm/wezterm/refs/heads/main/assets/wezterm.appdata.xml -O ./content/apps/wezterm/org.wezfurlong.wezterm.metainfo.xml &
 wget -q https://raw.githubusercontent.com/xonsh/xonsh/refs/heads/main/appimage/xonsh.appdata.xml -O ./content/apps/xonsh/xonsh.metainfo.xml &

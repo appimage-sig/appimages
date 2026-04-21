@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+ <id>org.mapeditor.Tiled.desktop</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-2.0+ and BSD-2-Clause</project_license>
+ <name>Tiled</name>
+ <summary>General purpose map editor</summary>
+ <summary xml:lang="de">Leveleditor für allgemeine Zwecke</summary>
+ <developer id="org.mapeditor">
+  <name>Thorbjørn Lindeijer</name>
+ </developer>
+ <keywords>
+  <keyword>2D</keyword>
+  <keyword>mapeditor</keyword>
+  <keyword>tool</keyword>
+  <keyword>development</keyword>
+  <keyword>tile</keyword>
+  <keyword>editor</keyword>
+ </keywords>
+ <content_rating type="oars-1.0" />
+ <releases>
+  <release version="1.12.1" type="stable" date="2026-03-25">
+   <url>https://www.mapeditor.org/2026/03/25/tiled-1-12-1-released.html</url>
+   <description>
+    <ul>
+     <li>Fixed Properties view flicker when switching between objects or files (#4460)</li>
+     <li>Fixed selection mode indicator to not toggle on Alt when it would move objects (by kunal649, #4434)</li>
+     <li>Fixed status bar pixel coords being rounded instead of floored (by kunal649, #4426)</li>
+     <li>macOS: Fix ability to choose type when adding properties (#4459)</li>
+    </ul>
+   </description>
+  </release>
+  <release version="1.12.0" type="stable" date="2026-03-12">
+   <url>https://www.mapeditor.org/2026/03/12/tiled-1-12-released.html</url>
+   <description>
+    <ul>
+     <li>Rewritten Properties view to enable direct widget interaction (#4045)</li>
+     <li>Added support for lists in custom properties (#1493)</li>
+     <li>Added capsule object shape (by Jocelyn, #2153)</li>
+     <li>Added Oblique map orientation, skewing X and/or Y axis (#2917)</li>
+     <li>Added support for per-object opacity (by jcbk101, #4031)</li>
+     <li>Allow filtering tilesets by name in the tileset dock (with dogboydog, #4239)</li>
+     <li>Allow changing the values of number inputs using expressions (with dogboydog, #4234)</li>
+     <li>Added support for SVG 1.2 / CSS blending modes to layers (#3932)</li>
+     <li>Added support for natural sorting of project files (by Edgar Jr. San Martin, #4284)</li>
+     <li>Added button to toggle Terrain Brush to full tile mode (by Finlay Pearson, #3407)</li>
+     <li>Added square selection and expand-from-center to Rectangular Select tool (#4201)</li>
+     <li>Added status info for various Stamp Brush, Terrain Brush and Eraser modes (#3092, #4201)</li>
+     <li>Added Escape to clear tile selection when any tile related tool is selected (#4243)</li>
+     <li>Added Escape to cancel tile selection and shape drawing operations</li>
+     <li>Added Backspace to remove the previously added point while creating or extending polygons and polylines (#4372)</li>
+     <li>Added a "Go to Tile" action to jump to specific coordinates (by PoonamMehan, #4348)</li>
+     <li>Made the shortcut for current tool switch to previous tool (#4280)</li>
+     <li>Allow canceling Select Same Tile, Magic Wand and Bucket Fill operations with right-click and Escape</li>
+     <li>Allow dragging over multiple tiles with Select Same Tile, Magic Wand and Bucket Fill tools (#4276)</li>
+     <li>Allow zooming in on areas outside the map bounds (by kunal649, #3860)</li>
+     <li>Don't switch to Edit Polygons tool on double-click with Alt pressed</li>
+     <li>Adjust world map position when resizing a map with offset (#4270)</li>
+     <li>Added export plugin for Remixed Dungeon (by Mikhael Danilov, #4158)</li>
+     <li>Added "World > World Properties" menu action (with dogboydog, #4190)</li>
+     <li>Added Delete shortcut to Remove Tiles action by default and avoid ambiguity (#4201)</li>
+     <li>Fixed selection to be preserved when toggling dynamic wrapping (by Mollah Hamza, #4385)</li>
+     <li>Fixed tileset tabs to fall back to filename in case of unnamed tilesets (by Sid, #4360)</li>
+     <li>Fixed alpha component of tint color not applying correctly to opaque images (by Roland Helmerichs, #4310)</li>
+     <li>Fixed panning with space bar not always working on first click (with Oval, #4338)</li>
+     <li>Fixed undo behavior after resizing objects certain ways (by Kanishka, #4339)</li>
+     <li>Fixed suggesting filename with trailing dot when export filter is unset (by Sid, #4368)</li>
+     <li>Fixed snapping mode sync across instances (by Sid, #4364)</li>
+     <li>Fixed missing error message when 'Export as Image' fails (by kunal649, #4397)</li>
+     <li>Scripting: Added API for custom property types (with dogboydog, #3971)</li>
+     <li>Scripting: Added TileMap.chunkSize and TileMap.compressionLevel properties</li>
+     <li>Scripting: Added optional defaultValue and toolTip params to Dialog add widget methods (by Oval, #4358)</li>
+     <li>Scripting: Added tiled.session to read and write session properties (by Kanishka, #4345)</li>
+     <li>Scripting: Added MapEditor.selectedTool and MapEditor.tool (#4330)</li>
+     <li>Scripting: Fixed the `fileName` property of map/tileset passed to `FileFormat.write` (by Shuvam Pal, #4359)</li>
+     <li>AutoMapping: Don't match rules based on empty input indexes</li>
+     <li>AutoMapping: Optimized reloading of rule maps and load rule maps on-demand</li>
+     <li>tBIN plugin: Added support for the tIDE XML format (by Casey Warrington, #4308)</li>
+     <li>Windows: Fixed issue with opening Tile Animation Editor (#4223)</li>
+     <li>macOS: Add Cmd+Shift+[ and Cmd+Shift+] shortcuts to switch tabs (by Oval, #4344)</li>
+     <li>macOS: Fixed crash when JS code is JIT-compiled (#4218)</li>
+     <li>Workaround tileset view layout regression in Qt 6.9</li>
+     <li>Raised minimum supported Qt version from 5.12 to 5.15.2</li>
+     <li>AppImage: Updated to Sentry 0.12.8</li>
+     <li>Updated Bulgarian translation</li>
+    </ul>
+   </description>
+  </release>
+  <release version="1.11.2" type="stable" date="2025-01-28">
+   <url>https://www.mapeditor.org/2025/01/28/tiled-1-11-2-released.html</url>
+   <description>
+    <ul>
+      <li>YY plugin: Fixed compatibility with GameMaker 2024 (#4132)</li>
+      <li>Fixed crash while handling file reloads without any files opened</li>
+      <li>Fixed crash when closing the last file with multiple custom properties selected</li>
+      <li>snap: Fixed crash on startup on Wayland</li>
+      <li>AppImage: Updated to Sentry 0.7.19</li>
+    </ul>
+   </description>
+  </release>
+  <release version="1.11.1" type="stable" date="2025-01-11">
+   <url>https://www.mapeditor.org/2025/01/11/tiled-1-11-1-released.html</url>
+   <description>
+    <ul>
+      <li>Releases now ship with support for loading Aseprite images (#4109)</li>
+      <li>Scripting: Added FileFormat.nameFilter</li>
+      <li>Scripting: Added MapEditor.currentBrushChanged signal</li>
+      <li>Scripting: Added tiled.cursor to create mouse cursor values</li>
+      <li>Scripting: Added Tileset.transformationFlags (#3753)</li>
+      <li>Scripting: Added Dialog.addRadioButtonGroup for selecting one of a list of mutually exclusive options (#4107)</li>
+      <li>Scripting: Made currentWangSet and currentWangColorIndex properties writeable (#4105)</li>
+      <li>AutoMapping: Ignore rules with empty input or output regions (#3834)</li>
+      <li>Fixed saving/loading of custom properties set on worlds (#4025)</li>
+      <li>Fixed issue with placing tile objects after switching maps (#3497)</li>
+      <li>Fixed crash when accessing a world through a symlink (#4042)</li>
+      <li>Fixed performance issue when tinting tiles from large tilesets</li>
+      <li>Fixed error reporting when exporting on the command-line (by Shuhei Nagasawa, #4015)</li>
+      <li>Fixed updating of object label when text changes without changing size</li>
+      <li>Fixed minimum value of spinbox in Tile Animation Editor</li>
+      <li>Fixed loading of custom property types in tilesets referenced by tile stamps (#4044)</li>
+      <li>Fixed compile against Qt 6.8</li>
+      <li>snap: Updated to core24</li>
+      <li>AppImage: Updated to Sentry 0.7.13</li>
+    </ul>
+   </description>
+  </release>
+  <release version="1.11.0" type="stable" date="2024-06-27">
+   <url>https://www.mapeditor.org/2024/06/27/tiled-1-11-released.html</url>
+  </release>
+  <release version="1.10.2" type="stable" date="2023-08-04">
+   <url>https://www.mapeditor.org/2023/08/04/tiled-1-10-2-released.html</url>
+  </release>
+  <release version="1.10.1" type="stable" date="2023-04-04">
+   <url>https://www.mapeditor.org/2023/04/04/tiled-1-10-1-released.html</url>
+  </release>
+  <release version="1.10.0" type="stable" date="2023-03-10">
+   <url>https://www.mapeditor.org/2023/03/10/tiled-1-10-released.html</url>
+  </release>
+  <release version="1.9.2" type="stable" date="2022-09-16">
+   <url>https://www.mapeditor.org/2022/09/16/tiled-1-9-2-released.html</url>
+  </release>
+  <release version="1.9.1" type="stable" date="2022-08-11">
+   <url>https://www.mapeditor.org/2022/08/11/tiled-1-9-1-released.html</url>
+  </release>
+  <release version="1.9.0" type="stable" date="2022-06-24">
+   <url>https://www.mapeditor.org/2022/06/25/tiled-1-9-released.html</url>
+  </release>
+  <release version="1.8.6" type="stable" date="2022-06-14">
+   <url>https://www.mapeditor.org/2022/06/14/tiled-1-8-6-released.html</url>
+  </release>
+  <release version="1.8.5" type="stable" date="2022-05-16">
+   <url>https://www.mapeditor.org/2022/05/17/tiled-1-8-5-released.html</url>
+  </release>
+  <release version="1.8.4" type="stable" date="2022-03-31">
+   <url>https://www.mapeditor.org/2022/03/31/tiled-1-8-3-released.html</url>
+  </release>
+  <release version="1.8.3" type="stable" date="2022-03-31">
+   <url>https://www.mapeditor.org/2022/03/31/tiled-1-8-3-released.html</url>
+  </release>
+  <release version="1.8.2" type="stable" date="2022-02-17">
+   <url>https://www.mapeditor.org/2022/02/17/tiled-1-8-2-released.html</url>
+  </release>
+  <release version="1.8.1" type="stable" date="2022-02-11">
+   <url>https://www.mapeditor.org/2022/02/17/tiled-1-8-1-released.html</url>
+  </release>
+  <release version="1.8.0" type="stable" date="2022-02-07">
+   <url>https://www.mapeditor.org/2022/02/07/tiled-1-8-0-released.html</url>
+  </release>
+  <release version="1.7.2" type="stable" date="2021-08-10">
+   <url>https://www.mapeditor.org/2021/08/10/tiled-1-7-2-released.html</url>
+  </release>
+ </releases>
+ <description>
+  <p>
+   Tiled is a general purpose 2D level editor with powerful tile map editing
+   features. It’s built to be easy to use and is suitable for many type of
+   games.
+  </p>
+  <p xml:lang="de">
+   Tiled ist ein allgemeiner 2D Leveleditor mit mächtigen Funktionen zum bearbeiten von Tiled Maps.
+   Er hat eine einfache Bedienung und ist entwickelt worden, um möglichst viele unterschiedliche Spiele
+   zu unterstützen.
+  </p>
+  <p>
+   The Tiled map format is supported by a large amount of game engines and
+   libraries. In addition, Tiled supports plugins to read and write map formats
+   other than its own map format.
+  </p>
+  <p xml:lang="de">
+   Das Tiled Dateiformat wird von vielen Spielengines und Bibliotheken unterstützt.
+   Zudem bietet Tiled eine Pluginunterstützung, durch die auch andere Formate geöffnet
+   und gespeichert werden können.
+  </p>
+ </description>
+ <screenshots>
+  <!-- GPL 2 by TMW -->
+  <screenshot type="default" width="800" height="600">
+    <image>https://www.mapeditor.org/img/appdata/screenshot_objects.png</image>
+    <caption>Annotate your map with objects</caption>
+  </screenshot>
+  <!-- CC BY SA 3.0 By Clint Bellanger -->
+  <screenshot width="800" height="600">
+    <image>https://www.mapeditor.org/img/appdata/screenshot_terrain.png</image>
+    <caption>Automate placement of terrain transitions</caption>
+  </screenshot>
+ </screenshots>
+ <kudos>
+   <kudo>ModernToolkit</kudo>
+   <kudo>UserDocs</kudo>
+ </kudos>
+ <url type="homepage">https://www.mapeditor.org/</url>
+ <url type="bugtracker">https://github.com/mapeditor/tiled/issues</url>
+ <url type="help">https://doc.mapeditor.org/</url>
+ <url type="donation">https://www.mapeditor.org/donate</url>
+ <url type="translate">https://hosted.weblate.org/projects/tiled/translations/</url>
+ <url type="vcs-browser">https://github.com/mapeditor/tiled</url>
+ <launchable type="desktop-id">org.mapeditor.Tiled.desktop</launchable>
+ <provides>
+   <binary>tiled</binary>
+   <id>tiled.desktop</id>
+ </provides>
+ <requires>
+  <control>pointing</control>
+  <control>keyboard</control>
+ </requires>
+ <supports>
+  <control>tablet</control>
+  <control>touch</control>
+ </supports>
+ <translation type="qt">tiled</translation>
+ <update_contact>tingping@fedoraproject.org</update_contact>
+</component>

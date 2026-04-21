@@ -1,5 +1,5 @@
 +++
-title = "Lossless-cut"
+title = "LosslessCut"
 description = "Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files."
 date = "2026-01-29 19:54:00"
 [taxonomies]

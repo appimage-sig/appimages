@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Joe Da Silva <digital@joescat.com> -->
+<component type="desktop">
+  <id>org.fontforge.FontForge</id>
+  <name>FontForge</name>
+  <summary>An outline font editor</summary>
+  <launchable type="desktop-id">org.fontforge.FontForge.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <translation type="gettext">FontForge</translation>
+  <description>
+    <p>
+      FontForge is a font editor for outline and bitmap fonts that lets you create,
+      edit, or convert, a range of fonts, including PostScript, TrueType, OpenType,
+      cid-keyed, multi-master, cff, SVG and BitMap (bdf, FON, NFNT) fonts.
+    </p>
+    <p>
+      FontForge is free Open Source Software written to run on various computer operating
+      systems. You can use FontForge Graphically or as a command-line tool.
+    </p>
+    <p>
+      Learning to use FontForge is easy, and there are various tutorials available beginning
+      with the basics up to more advanced features such as making and using scripts.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default" height="675" width="1200">
+      <image>https://github.com/fontforge/fontforge/raw/master/desktop/ff-screenshot.png</image>
+      <caption>Fontforge showing a glyph being edited</caption>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/fontforge/fontforge</url>
+  <update_contact>fontforge-devel@lists.sourceforge.net</update_contact>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release date="2025-10-01" version="20251009" />
+    <release date="2023-01-01" version="20230101" />
+    <release date="2022-03-08" version="20220308" />
+    <release date="2020-11-07" version="20201107" />
+    <release date="2020-03-14" version="20200314" />
+    <release date="2019-08-01" version="20190801" />
+    <release date="2019-04-13" version="20190413" />
+    <release date="2019-03-17" version="20190317" />
+    <release date="2017-07-31" version="20170731" />
+    <release date="2016-10-05" version="20161005" />
+  </releases>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer_name>FontForge developers</developer_name>
+  <url type="bugtracker">https://github.com/fontforge/fontforge/issues</url>
+  <url type="donation">https://fontforge.github.io/en-US/funding/</url>
+  <url type="help">https://fontforge.github.io/en-US/documentation/</url>
+</component>
