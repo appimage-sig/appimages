@@ -44,7 +44,7 @@ navigation = [
         { url = "$BASE_URL/categories/productivity", title = "Productivity" },
         { url = "$BASE_URL/categories/science", title = "Science" },
         { url = "$BASE_URL/categories/system", title = "System" },
-        { url = "$BASE_URL/categories/utility", title = "Utility" },
+        { url = "$BASE_URL/categories/utilities", title = "Utilities" },
     ] }
 ]
 social_icons = [
@@ -67,7 +67,7 @@ menu = [
         { url = "$BASE_URL/categories/productivity", title = "Productivity" },
         { url = "$BASE_URL/categories/science", title = "Science" },
         { url = "$BASE_URL/categories/system", title = "System" },
-        { url = "$BASE_URL/categories/utility", title = "Utility" },
+        { url = "$BASE_URL/categories/utilities", title = "Utilities" },
 ]
 copyright = "DrSheppard01 2026"
 
