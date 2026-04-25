@@ -24,11 +24,11 @@ Translate: <https://docs.beavernotes.com/beaver%20notes%20(dev)/2025/01/06/trans
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues>  
 
 <div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0.AppImage">Download x86_64</a>
   </button>
 
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0-arm64.AppImage">Download arm64</a>
   </button>  
 </div>

@@ -22,10 +22,10 @@ Source code: <https://github.com/emqx/MQTTX>
 Report the bug: <https://github.com/emqx/MQTTX/issues>  
 
 <div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0-arm64.AppImage">Download arm64</a>
   </button>
 </div>

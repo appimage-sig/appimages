@@ -1,22 +1,22 @@
 /* Page + Post + Project */
 .post-top,
 .page-top {
-    padding: 96px 0 48px;
+    padding: 6rem 0 3rem;
 
     .row {
         align-items: center;
     }
 
     @media only screen and (max-width: $desktop) {
-        padding: 80px 0 40px;
+        padding: 5rem 0 2.5rem;
     }
 
     @media only screen and (max-width: $tablet) {
-        padding: 40px 0;
+        padding: 2.5rem 0;
     }
 
     @media only screen and (max-width: $mobile) {
-        padding: 30px 0;
+        padding: 1.875rem 0;
     }
 }
 
@@ -24,8 +24,8 @@
     position: relative;
     transform: translate(0);
     padding-top: 100%;
-    min-height: 280px;
-    border-radius: 16px;
+    min-height: 17.5rem;
+    border-radius: 1rem;
     overflow: hidden;
     background: $blue-gray;
 
@@ -41,16 +41,16 @@
 
     @media only screen and (max-width: $desktop) {
         padding-top: 65%;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 
     @media only screen and (max-width: $mobile) {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 }
 
 .post__info {
-    margin-left: 40px;
+    margin-left: 2.5rem;
 
     @media only screen and (max-width: $desktop) {
         margin-left: 0;
@@ -58,7 +58,7 @@
 }
 
 .page__info {
-    max-width: 760px;
+    max-width: 47.5rem;
     margin: 0 auto;
 }
 
@@ -69,13 +69,13 @@
         position: relative;
         z-index: 1;
         display: inline-block;
-        padding: 8px 12px;
-        margin: 0 4px 4px 0;
-        font-size: 12px;
-        line-height: 10px;
+        padding: .5rem .75rem;
+        margin: 0 .25rem .25rem 0;
+        font-size: .75rem;
+        line-height: .625rem;
         font-weight: 600;
         text-transform: capitalize;
-        border-radius: 8px;
+        border-radius: .5rem;
         overflow: hidden;
         color: $white;
         background: linear-gradient(90deg,
@@ -98,7 +98,7 @@
             width: 100%;
             height: 100%;
             opacity: 0;
-            border-radius: 8px;
+            border-radius: .5rem;
             will-change: transform;
             transition: opacity 0.35s;
             background: linear-gradient(90deg,
@@ -107,27 +107,27 @@
         }
 
         &:last-child {
-            margin: 0 0 4px 0;
+            margin: 0 0 .25rem 0;
         }
     }
 }
 
 .post__title,
 .page__title {
-    margin: 20px 0;
-    font-size: 58px;
+    margin: 1.25rem 0;
+    font-size: 3.625rem;
     line-height: 1.2;
 
-    @media only screen and (max-width: 1130px) {
-        font-size: 44px;
+    @media only screen and (max-width: 70.625rem) {
+        font-size: 2.75rem;
     }
 
     @media only screen and (max-width: $tablet) {
-        font-size: 38px;
+        font-size: 2.375rem;
     }
 
     @media only screen and (max-width: $mobile) {
-        font-size: 32px;
+        font-size: 2rem;
     }
 }
 
@@ -142,9 +142,9 @@
 
     .post__author-image {
         position: relative;
-        width: 44px;
-        height: 44px;
-        margin-right: 8px;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-right: .5rem;
         border-radius: 50%;
         overflow: hidden;
         background-color: $blue-gray;
@@ -167,26 +167,26 @@
     }
 
     .post__author {
-        margin-bottom: 6px;
-        font-size: 16px;
+        margin-bottom: .375rem;
+        font-size: 1rem;
         line-height: 1;
         font-weight: 600;
     }
 
     .post__date {
-        font-size: 12px;
-        line-height: 14px;
+        font-size: .75rem;
+        line-height: .875rem;
     }
 }
 
 .post,
 .page {
-    max-width: 780px;
-    margin: 0 auto 60px;
+    max-width: 48.75rem;
+    margin: 0 auto 3.75rem;
 
     a {
         font-weight: 500;
-        border-bottom: 1px solid $border-color;
+        border-bottom: .0625rem solid $border-color;
 
         &:hover {
             color: $link-color;
@@ -196,7 +196,7 @@
 
     img,
     .js-reframe {
-        border-radius: 8px;
+        border-radius: .5rem;
         overflow: hidden;
 
         &.lightense-open {
@@ -212,12 +212,12 @@
 
 /* Share */
 .post__share {
-    margin: 32px 0 60px;
+    margin: 2rem 0 3.75rem;
 
     .share__head {
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: .75rem;
         line-height: 1.2;
         font-weight: 700;
         text-align: center;
@@ -231,20 +231,20 @@
     }
 
     .share__item {
-        margin: 0 2px;
+        margin: 0 .125rem;
         text-align: center;
     }
 
     .share__link {
         display: block;
-        width: 44px;
-        height: 44px;
-        line-height: 44px;
+        width: 2.75rem;
+        height: 2.75rem;
+        line-height: 2.75rem;
         border-radius: 50%;
-        font-size: 16px;
+        font-size: 1rem;
         border: none;
         color: $background-color-alt;
-        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
+        box-shadow: 0rem 0rem .125rem rgba(0, 0, 0, 0.07);
 
         &.share__facebook,
         &.share__twitter,
@@ -291,7 +291,7 @@
     }
 
     @media only screen and (max-width: $mobile) {
-        margin: 40px 0;
+        margin: 2.5rem 0;
     }
 }
 
@@ -305,16 +305,16 @@
         display: flex;
         align-items: center;
         width: 49%;
-        padding: 28px;
-        margin-bottom: 20px;
-        border-radius: 16px;
+        padding: 1.75rem;
+        margin-bottom: 1.25rem;
+        border-radius: 1rem;
         background: linear-gradient(90deg,
                 $primary-color 0%,
                 $secondary-color 167%);
         transition: transform 0.2s;
 
         &:hover {
-            transform: translateY(-3px);
+            transform: translateY(-0.1875rem);
         }
 
         .prev__image,
@@ -322,11 +322,11 @@
             position: relative;
             transform: translate(0);
             display: block;
-            min-width: 125px;
-            height: 110px;
-            border-radius: 8px;
+            min-width: 7.8125rem;
+            height: 6.875rem;
+            border-radius: .5rem;
             overflow: hidden;
-            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            box-shadow: 0rem 0rem 2.5rem rgba(0, 0, 0, 0.15);
             background-color: $blue-gray;
 
             img {
@@ -340,17 +340,17 @@
         }
 
         .prev__image {
-            margin-right: 20px;
+            margin-right: 1.25rem;
         }
 
         .next__image {
-            margin-left: 20px;
+            margin-left: 1.25rem;
         }
 
         .post__nav {
             display: inline-block;
-            margin-bottom: 6px;
-            font-size: 14px;
+            margin-bottom: .375rem;
+            font-size: .875rem;
             line-height: 1;
             font-weight: 500;
             color: $white;
@@ -359,7 +359,7 @@
 
         .post__nav__title {
             margin-bottom: 0;
-            font-size: 21px;
+            font-size: 1.3125rem;
             line-height: 1.4;
             font-weight: 700;
             color: $white;
@@ -391,7 +391,7 @@
         }
 
         .post__prev {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
 
         .next__box {
@@ -404,10 +404,10 @@
 
         .post__prev,
         .post__next {
-            padding: 20px;
+            padding: 1.25rem;
 
             .post__nav__title {
-                font-size: 16px;
+                font-size: 1rem;
             }
         }
     }
@@ -415,14 +415,14 @@
 
 /* Related posts */
 .related-posts {
-    margin-top: 80px;
+    margin-top: 5rem;
 
     .related-tag {
         text-transform: capitalize;
     }
 
     @media only screen and (max-width: $mobile) {
-        margin-top: 60px;
+        margin-top: 3.75rem;
 
         .row .col:last-child {
             margin-bottom: 0;

@@ -25,10 +25,10 @@ Translate: <https://github.com/saber-notes/saber?tab=readme-ov-file#translating>
 Report the bug: <https://github.com/saber-notes/saber/issues>  
 
 <div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-x86_64.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-arm64.AppImage">Download arm64</a>
   </button>
 </div>

@@ -24,10 +24,10 @@ Become a sponsor: <https://github.com/sponsors/beekeeper-studio>
 Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>  
 
 <div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-5.6.5.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-5.6.5.AppImage">Download arm64</a>
   </button>
 </div>

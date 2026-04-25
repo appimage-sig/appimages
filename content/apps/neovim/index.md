@@ -21,10 +21,10 @@ Become a sponsor: <https://github.com/sponsors/neovim>
 Report the bug: <https://github.com/neovim/neovim/issues>  
 
 <div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--large" 
+  <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-arm64.AppImage">Download arm64</a>
   </button>
 </div>

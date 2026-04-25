@@ -55,7 +55,7 @@
 .tns-gallery {
     position: relative;
     left: 0;
-    min-height: 1px;
+    min-height: .0625rem;
 }
 
 .tns-gallery>.tns-item {
@@ -142,9 +142,9 @@
 
 .tns-t-subp2 {
     margin: 0 auto;
-    width: 310px;
+    width: 19.375rem;
     position: relative;
-    height: 10px;
+    height: .625rem;
     overflow: hidden;
 }
 
@@ -168,7 +168,7 @@
     width: -webkit-calc(100% / 70);
     width: -moz-calc(100% / 70);
     width: calc(100% / 70);
-    height: 10px;
+    height: .625rem;
     float: left;
 }
 

@@ -9,24 +9,24 @@
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 48px $base-spacing-unit 40px;
-    min-height: 80px;
+    padding: 3rem $base-spacing-unit 2.5rem;
+    min-height: 5rem;
 
     @media only screen and (max-width: $desktop) {
         align-items: baseline;
     }
 
     @media only screen and (max-width: $mobile) {
-        padding: 30px $base-spacing-unit;
+        padding: 1.875rem $base-spacing-unit;
     }
 }
 
 /* Logo */
 .logo__link {
     font-family: $heading-font-family;
-    font-size: 21px;
-    line-height: 26px;
-    letter-spacing: -1px;
+    font-size: 1.3125rem;
+    line-height: 1.625rem;
+    letter-spacing: -0.0625rem;
     font-weight: 900;
     text-transform: uppercase;
 
@@ -36,7 +36,7 @@
 }
 
 .logo__image {
-    max-height: 50px;
+    max-height: 3.125rem;
 }
 
 /* Nav */
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     width: 100%;
-    margin-left: 100px;
+    margin-left: 6.25rem;
 
     @media only screen and (max-width: $desktop) {
         position: fixed;
@@ -68,8 +68,8 @@
 
         .nav__list {
             width: 100%;
-            max-width: 360px;
-            padding-left: 40px;
+            max-width: 22.5rem;
+            padding-left: 2.5rem;
 
             .nav__item {
                 display: block;
@@ -89,16 +89,16 @@
                     box-shadow: none;
 
                     .nav__link {
-                        margin-left: 8px;
-                        margin-bottom: 16px;
-                        font-size: 15px;
+                        margin-left: .5rem;
+                        margin-bottom: 1rem;
+                        font-size: .9375rem;
 
                         &::before {
                             content: "– ";
                         }
 
                         &:last-child {
-                            margin-bottom: 24px;
+                            margin-bottom: 1.5rem;
                         }
                     }
                 }
@@ -106,8 +106,8 @@
                 .nav__link {
                     display: block;
                     padding: 0;
-                    margin-bottom: 24px;
-                    font-size: 18px;
+                    margin-bottom: 1.5rem;
+                    font-size: 1.125rem;
                     font-weight: 600;
 
                     &:hover {
@@ -138,14 +138,14 @@
 
     .nav__icon-close {
         position: absolute;
-        top: 20px;
-        right: 40px;
+        top: 1.25rem;
+        right: 2.5rem;
         display: none;
         align-items: center;
         justify-content: center;
-        width: 36px;
-        height: 36px;
-        font-size: 18px;
+        width: 2.25rem;
+        height: 2.25rem;
+        font-size: 1.125rem;
         border-radius: 50%;
         cursor: pointer;
         background: linear-gradient(90deg,
@@ -171,7 +171,7 @@
 
     @media only screen and (max-width: $desktop) {
         display: block;
-        margin: 24px 0;
+        margin: 1.5rem 0;
 
         .nav__icon-close {
             display: flex;
@@ -179,19 +179,19 @@
 
         .nav__title {
             display: block;
-            padding: 0 0 24px 40px;
-            margin-bottom: 24px;
-            font-size: 32px;
+            padding: 0 0 1.5rem 2.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
             line-height: 1;
             font-weight: 900;
             color: $heading-font-color;
-            border-bottom: 1px solid $border-color;
+            border-bottom: .0625rem solid $border-color;
         }
     }
 
     @media only screen and (max-width: $mobile) {
         .nav__icon-close {
-            right: 30px;
+            right: 1.875rem;
         }
     }
 }
@@ -199,7 +199,7 @@
 .nav__list {
     .nav__item {
         display: inline-block;
-        margin: 0 24px;
+        margin: 0 1.5rem;
 
         &:last-child {
             margin-right: 0;
@@ -207,8 +207,8 @@
 
         .nav__link {
             position: relative;
-            padding-bottom: 10px;
-            font-size: 16px;
+            padding-bottom: .625rem;
+            font-size: 1rem;
             line-height: 1;
             font-weight: 600;
             cursor: pointer;
@@ -222,11 +222,11 @@
                     content: "";
                     position: absolute;
                     left: 50%;
-                    bottom: -6px;
+                    bottom: -0.375rem;
                     transform: translateX(-50%);
                     display: block;
-                    width: 6px;
-                    height: 6px;
+                    width: .375rem;
+                    height: .375rem;
                     border-radius: 50%;
                     background-color: $primary-color;
                 }
@@ -252,26 +252,26 @@
 
     .dropdown-menu {
         position: absolute;
-        top: calc(100% + 8px);
-        left: -32px;
+        top: calc(100% + .5rem);
+        left: -2rem;
         transform: translateZ(0) scale(0.9);
         backface-visibility: hidden;
         z-index: 100;
-        min-width: 150px;
+        min-width: 9.375rem;
         display: block;
-        padding: 20px;
+        padding: 1.25rem;
         opacity: 0;
         visibility: hidden;
         transition: all 0.25s ease;
-        border-radius: 8px;
-        box-shadow: 0px 20px 20px rgba($primary-color, 0.07);
+        border-radius: .5rem;
+        box-shadow: 0rem 1.25rem 1.25rem rgba($primary-color, 0.07);
         background-color: $white;
 
         .nav__link {
             display: flex;
-            padding: 8px 12px;
-            font-size: 15px;
-            border-radius: 4px;
+            padding: .5rem .75rem;
+            font-size: .9375rem;
+            border-radius: .25rem;
             will-change: transform;
 
             &:hover {
@@ -293,7 +293,7 @@
 .nav-button {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: $text-color;
     cursor: pointer;
 

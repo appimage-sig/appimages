@@ -11,14 +11,14 @@
 
     .social__item {
         display: inline-block;
-        margin: 0 2px;
+        margin: 0 .125rem;
     }
 
     .social__link {
         position: relative;
         z-index: 1;
-        padding: 0 10px;
-        font-size: 21px;
+        padding: 0 .625rem;
+        font-size: 1.3125rem;
         line-height: 1;
 
         &:hover {

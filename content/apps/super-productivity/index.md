@@ -13,7 +13,8 @@ license = ["MIT"]
 
 An advanced todo list app with timeboxing & time tracking capabilities that supports importing tasks from your calendar, Jira, GitHub and others
 
-License: MIT
+License: MIT  
+
 Web page: <https://super-productivity.com/>  
 Source code: <https://github.com/johannesjo/super-productivity>
 

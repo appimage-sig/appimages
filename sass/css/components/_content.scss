@@ -1,11 +1,11 @@
 /* Content */
 .page {
-    max-width: 780px;
-    margin: 0 auto 60px;
+    max-width: 48.75rem;
+    margin: 0 auto 3.75rem;
 
     a {
         font-weight: 500;
-        border-bottom: 1px solid $border-color;
+        border-bottom: .0625rem solid $border-color;
 
         &:hover {
             color: $link-color;
