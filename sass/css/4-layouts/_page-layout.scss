@@ -238,14 +238,14 @@
         border-radius: 50%;
         font-size: 1rem;
         border: none;
-        color: $background-color-alt;
+        color: $white;
         box-shadow: 0rem 0rem .125rem rgba(0, 0, 0, 0.07);
 
         &.share__facebook,
         &.share__twitter,
         &.share__linkedin,
         &.share__pinterest {
-            background: $background-color-alt;
+            background: $white;
 
             &:hover {
                 color: $white;
