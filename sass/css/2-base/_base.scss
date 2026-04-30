@@ -9,7 +9,7 @@
 
   // 1. Collapse border spacing in all browsers (opinionated)
   // 2. Remove text indentation from table contents in Chrome, Edge, and Safari
-  #{$parent-selector} :where(table) {
+  :where(table) {
     width: 100%;
     border-collapse: collapse; // 1
     border-spacing: 0;
@@ -20,37 +20,37 @@
   // ––––––––––––––––––––
 
   // Cells
-  #{$parent-selector} th,
-  #{$parent-selector} td {
-    padding: calc(var(#{$css-var-prefix}spacing) / 2) var(#{$css-var-prefix}spacing);
-    border-bottom: var(#{$css-var-prefix}border-width)
+  th,
+  td {
+    padding: calc(var(spacing) / 2) var(spacing);
+    border-bottom: var(border-width)
       solid
-      var(#{$css-var-prefix}table-border-color);
-    background-color: var(#{$css-var-prefix}background-color);
-    color: var(#{$css-var-prefix}color);
-    font-weight: var(#{$css-var-prefix}font-weight);
+      var(table-border-color);
+    background-color: var(background-color);
+    color: var(color);
+    font-weight: var(font-weight);
     text-align: left;
     text-align: start;
   }
 
   // Footer
-  #{$parent-selector} tfoot {
+  tfoot {
     th,
     td {
-      border-top: var(#{$css-var-prefix}border-width)
+      border-top: var(border-width)
         solid
-        var(#{$css-var-prefix}table-border-color);
+        var(table-border-color);
       border-bottom: 0;
     }
   }
 
   // Striped
   @if enable-classes {
-    #{$parent-selector} table {
+    table {
       &.striped {
         tbody tr:nth-child(odd) th,
         tbody tr:nth-child(odd) td {
-          background-color: var(#{$css-var-prefix}table-row-stripped-background-color);
+          background-color: rgba($zinc-500, 0.4);
         }
       }
     }
