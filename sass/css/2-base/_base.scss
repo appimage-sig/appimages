@@ -8,7 +8,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    color: $heading-font-color;
+    color: $h1-color;
     background-color: $background-color;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -140,7 +140,7 @@ img,
         font-style: normal;
         font-weight: normal;
         text-align: center;
-        color: $heading-font-color;
+        color: $h1-color;
 
         a {
             border-bottom: .125rem solid $border-color;
@@ -206,7 +206,7 @@ table {
     border-width: .0625rem;
     border-color: $text-color;
     border-collapse: collapse;
-    color: var(--heading-font-color);
+    color: var(--h1-color);
 }
 
 table th {
