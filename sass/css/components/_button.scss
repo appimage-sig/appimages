@@ -23,7 +23,7 @@
 
     &--primary {
         color: $white;
-        background: $primary-color;
+        background: $blue-650;
 
         &:hover {
             color: $white !important;
@@ -45,7 +45,7 @@
             opacity: 0;
             will-change: transform;
             transition: opacity 0.35s;
-            background: $primary-color;
+            background: $blue-650;
         }
     }
 

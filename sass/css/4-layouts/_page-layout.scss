@@ -78,7 +78,7 @@
         border-radius: .5rem;
         overflow: hidden;
         color: $white;
-        background: $primary-color;
+        background: $blue-650;
 
         &:hover {
             &:before {
@@ -304,7 +304,7 @@
         padding: 1.75rem;
         margin-bottom: 1.25rem;
         border-radius: 1rem;
-        background: $primary-color;
+        background: $blue-650;
         transition: transform 0.2s;
 
         &:hover {

@@ -21,14 +21,14 @@
             line-height: 2.5rem;
             font-size: 1rem;
             border-radius: 50%;
-            color: $primary-color;
+            color: $blue-650;
             background: $white;
             transition: all 0.25s;
             will-change: transform;
 
             &:hover {
                 transform: scale(0.9);
-                color: $primary-color;
+                color: $blue-650;
 
                 &::after {
                     content: none;

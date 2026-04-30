@@ -120,7 +120,7 @@
 
                     &.active-link,
                     &.cc-active {
-                        color: $primary-color;
+                        color: $blue-650;
 
                         &::after {
                             content: none;
@@ -148,7 +148,7 @@
         font-size: 1.125rem;
         border-radius: 50%;
         cursor: pointer;
-        background: $primary-color;
+        background: $blue-650;
 
         &:hover {
             .ion-md-close {
@@ -226,7 +226,7 @@
                     width: .375rem;
                     height: .375rem;
                     border-radius: 50%;
-                    background-color: $primary-color;
+                    background-color: $blue-650;
                 }
             }
         }
@@ -262,7 +262,7 @@
         visibility: hidden;
         transition: all 0.25s ease;
         border-radius: .5rem;
-        box-shadow: 0rem 1.25rem 1.25rem rgba($primary-color, 0.07);
+        box-shadow: 0rem 1.25rem 1.25rem rgba($blue-650, 0.07);
         background-color: $white;
 
         .nav__link {
@@ -273,12 +273,12 @@
             will-change: transform;
 
             &:hover {
-                background-color: rgba($primary-color, 0.1);
+                background-color: rgba($blue-650, 0.1);
             }
 
             &.active-link,
             &.cc-active {
-                color: $primary-color;
+                color: $blue-650;
 
                 &::after {
                     content: none;
