@@ -1,7 +1,7 @@
 +++
 title = "Hayase"
 description = "Stream anime torrents, real-time with no waiting for downloads"
-date = "2026-04-08 23:06:00"
+date = "2026-04-23 22:08:00"
 [taxonomies]
 categories = ["Network"]
 authors = ["Cas"]
@@ -23,4 +23,4 @@ Source code: <https://github.com/hayase-app/electron>
 Become a sponsor: <https://github.com/sponsors/ThaUnknown>  
 Report the bug: <https://github.com/hayase-app/electron/issues>  
 
-Download: <https://api.hayase.watch/files/linux-hayase-6.4.58-linux.AppImage>
+Download: <https://api.hayase.watch/files/linux-hayase-6.4.60-linux.AppImage>

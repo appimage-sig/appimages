@@ -27,7 +27,7 @@ Report the bug: <https://github.com/koreader/koreader/issues>
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--medium" 
-      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-appimage-aarch64-v2026.03.AppImage">Download arm64</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-aarch64.AppImage">Download arm64</a>
   </button>
     <button class="c-button c-button--primary c-button--medium" 
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-armhf.AppImage">Download armv7l</a>

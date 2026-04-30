@@ -1,7 +1,7 @@
 +++
 title = "Tidal-Hifi"
 description = "The web version of TIDAL running in electron with Hi-Fi (High & Max) support thanks to widevine."
-date = "2026-03-27 01:27:"
+date = "2026-03-27 01:27:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Rick van Lieshout"]
