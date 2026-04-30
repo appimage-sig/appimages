@@ -9,7 +9,6 @@ tags = ["Git client"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
-draft = false
 +++
 
 <img src="https://gitfourchette.org/_static/appstream/packshot-shadow-light.png">

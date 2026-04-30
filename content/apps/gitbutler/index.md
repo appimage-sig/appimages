@@ -9,7 +9,6 @@ tags = ["Git client"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]
 license = ["FSL-1.0-MIT"]
-draft = false
 +++
 
 <img src="https://github.com/gitbutlerapp/gitbutler/assets/16262535/0d180bfd-7a3c-4a66-a923-30534c5a8197">
