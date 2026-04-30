@@ -3,13 +3,11 @@
     margin-bottom: 1.25rem;
     will-change: transform;
     transition: transform 0.2s;
+    box-shadow: 0.015rem 0.03rem 0.17rem rgba(129, 145, 181, 0.017), 0.034rem 0.07rem 0.4rem rgba(129, 145, 181, 0.024), 0.063rem 0.13rem 0.75rem rgba(129, 145, 181, 0.03), 0.113rem 0.23rem 1.4rem rgba(129, 145, 181, 0.036), 0.21rem 0.42rem 2.5rem rgba(129, 145, 181, 0.043), 0.5rem 1rem 6rem rgba(129, 145, 181, 0.06), 0 0 0 0.063rem rgba(129, 145, 181, 0.015);
+
 
     &:hover {
         transform: translateY(-0.25rem);
-
-        .article__inner {
-            box-shadow: 0rem 1.25rem 2.5rem rgba(0, 0, 0, 0.1);
-        }
     }
 
     @media only screen and (max-width: $tablet) {
@@ -22,7 +20,8 @@
         border-radius: 1rem;
         overflow: hidden;
         transform: translate(0);
-        box-shadow: 0rem 0rem .125rem rgba(0, 0, 0, 0.07);
+        box-shadow: 0.015rem 0.03rem 0.17rem rgba(129, 145, 181, 0.017), 0.034rem 0.07rem 0.4rem rgba(129, 145, 181, 0.024), 0.063rem 0.13rem 0.75rem rgba(129, 145, 181, 0.03), 0.113rem 0.23rem 1.4rem rgba(129, 145, 181, 0.036), 0.21rem 0.42rem 2.5rem rgba(129, 145, 181, 0.043), 0.5rem 1rem 6rem rgba(129, 145, 181, 0.06), 0 0 0 0.063rem rgba(129, 145, 181, 0.015);
+;
         transition: box-shadow 0.2s;
     }
 
