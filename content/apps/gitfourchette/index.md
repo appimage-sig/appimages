@@ -1,7 +1,8 @@
 +++
 title = "GitFourchette"
 description = "The comfortable Git UI for Linux."
-date = "2026-04-12 00:06:00"
+date = "2026-04-12 00:06:"
+[taxonomies]
 categories = ["Development"]
 authors = ["Iliyas Jorio"]
 tags = ["Git client"]
