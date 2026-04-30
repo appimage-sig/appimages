@@ -147,7 +147,7 @@ img,
             transition: $global-transition;
 
             &:hover {
-                color: $link-color-hover;
+                color: $blue-500;
                 border-color: transparent;
             }
         }
@@ -166,11 +166,11 @@ img,
 
 a {
     text-decoration: none;
-    color: $link-color;
+    color: $text-color;
     transition: $global-transition;
 
     &:hover {
-        color: $link-color-hover;
+        color: $blue-500;
     }
 }
 

@@ -185,8 +185,7 @@
         border-bottom: .0625rem solid $border-color;
 
         &:hover {
-            color: $link-color;
-            border-bottom-color: $link-color-hover;
+            border-bottom-color: $blue-500;
         }
     }
 
