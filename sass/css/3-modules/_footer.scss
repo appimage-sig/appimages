@@ -4,9 +4,7 @@
     margin-top: 2.75rem;
     padding: 6rem 0 3.75rem;
     overflow: hidden;
-    background: linear-gradient(90deg,
-            $primary-color 0%,
-            $secondary-color 167%);
+    background: $blue-400;
 
     .social {
         margin-bottom: 2.5rem;
