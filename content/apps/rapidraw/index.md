@@ -23,10 +23,9 @@ Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages
 Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>  
 
 <div class="groups">
-<button>
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.3/03_RapidRAW_v1.5.3_ubuntu-24.04-arm_aarch64.AppImage">Download x86_64</a>
 </button>
-<button>
-      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.3/03_RapidRAW_v1.5.3_ubuntu-24.04-arm_aarch64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.3/03_RapidRAW_v1.5.3_ubuntu-24.04-arm_aarch64.AppImage">Download arm64</a>
 </button>
 </div>

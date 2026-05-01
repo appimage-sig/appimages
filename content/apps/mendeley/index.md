@@ -15,6 +15,7 @@ The free all-in-one reference manager
 License: EULA
 
 Web page: <https://www.mendeley.com>  
+
 <button>
       <a href="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.144.0-x86_64.AppImage">Download x86_64</a>
 </button>

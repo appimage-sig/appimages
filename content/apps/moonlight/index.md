@@ -19,5 +19,6 @@ Web page: <https://moonlight-stream.org>
 Source code: <https://github.com/moonlight-stream/moonlight-qt>
 
 Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues>  
+
 <button>
       <a href="https://nightly.link/moonlight-stream/moonlight-qt/workflows/build/master/Moonlight-LinuxAppImage-0e50a9.zip>

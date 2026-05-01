@@ -15,6 +15,7 @@ Lychee simplifies the printing process and makes 3D printing accessible to every
 License: EULA
 
 Web page: <https://mango3d.io/resin-sla-msla-3d-printers>  
+
 <button>
       <a href="https://mango-lychee.nyc3.cdn.digitaloceanspaces.com/LycheeSlicer-7.6.4.AppImage">Download x86_64</a>
 </button>

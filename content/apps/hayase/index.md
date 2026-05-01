@@ -22,6 +22,7 @@ Source code: <https://github.com/hayase-app/electron>
 
 Become a sponsor: <https://github.com/sponsors/ThaUnknown>  
 Report the bug: <https://github.com/hayase-app/electron/issues>  
+
 <button>
       <a href="https://api.hayase.watch/files/linux-hayase-6.4.60-linux.AppImage">Download x86_64</a>
 </button>

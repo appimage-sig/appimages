@@ -20,6 +20,7 @@ Source code: <https://github.com/LizardByte/Sunshine>
 Become a sponsor: <https://github.com/sponsors/LizardByte>  
 Translate: <https://translate.lizardbyte.dev>  
 Report the bug: <https://github.com/LizardByte/Sunshine/issues>  
+
 <button>
       <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.417.201619/sunshine.AppImage">Download x86_64</a>
 </button>

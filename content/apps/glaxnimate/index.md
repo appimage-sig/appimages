@@ -23,6 +23,7 @@ Source code: <https://invent.kde.org/graphics/glaxnimate>
 Donate: <https://ko-fi.com/glaxdragon>  
 Translate: <https://l10n.kde.org/>  
 Report the bug: <https://bugs.kde.org/enter_bug.cgi?product=glaxnimate>  
+
 <button>
       <a href="https://download.kde.org/unstable/glaxnimate/0.5.80/linux/glaxnimate-0.5.80-x86_64.AppImage">Download x86_64</a>
 </button>

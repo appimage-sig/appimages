@@ -19,6 +19,7 @@ Source code: <https://github.com/lite-xl/lite-xl>
 
 Become a sponsor: <https://github.com/franko>  
 Report the bug: <https://github.com/lite-xl/lite-xl/issues>  
+
 <button>
       <a href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-x86_64.AppImage">Download x86_64</a>
 </button>

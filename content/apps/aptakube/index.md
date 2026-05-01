@@ -19,6 +19,8 @@ License: EULA
 Web page: <https://aptakube.com>
 
 Report the bug: <https://github.com/aptakube/aptakube/issues>  
-<button>
+
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/aptakube/aptakube/releases/download/1.16.1/aptakube_1.16.1_amd64.AppImage">Download x86_64</a>
 </button>
+</div>

@@ -21,6 +21,7 @@ Source code: <https://github.com/mypaint/mypaint>
 Become a sponsor: <https://opencollective.com/mypaint>  
 Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
 Report the bug: <https://github.com/mypaint/mypaint/issues>  
+
 <button>
       <a href="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage">Download x86_64</a>
 </button>

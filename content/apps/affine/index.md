@@ -22,6 +22,7 @@ Source code: <https://github.com/toeverything/AFFiNE>
 Become a sponsor: <https://github.com/sponsors/toeverything>  
 Translate: <https://crowdin.com/project/affine>  
 Report the bug: <https://github.com/toeverything/AFFiNE/issues>  
+
 <button>
       <a href="https://github.com/toeverything/AFFiNE/releases/download/v0.26.0-beta.8/affine-0.26.0-beta.8-beta-linux-x64.AppImage">Download x86_64</a>
 </button>

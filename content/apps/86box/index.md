@@ -26,7 +26,6 @@ Report the bug: <https://github.com/86Box/86Box/issues>
 <div class="group"><button>
       <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-Linux-x86_64-b8200.AppImage">Download x86_64</a>
 </button>
-<button>
-      <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage">Download arm64</a>
 </button>
 </div>

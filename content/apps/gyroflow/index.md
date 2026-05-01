@@ -23,6 +23,7 @@ Source code: <https://github.com/gyroflow/gyroflow>
 Become a sponsor: <https://gyroflow.xyz/donate>  
 Translate: <https://crowdin.com/project/gyroflow>  
 Report the bug: <https://github.com/gyroflow/gyroflow/issues>  
+
 <button>
       <a href="https://github.com/gyroflow/gyroflow/releases/download/v1.6.3/Gyroflow-linux64.AppImage">Download x86_64</a>
 </button>

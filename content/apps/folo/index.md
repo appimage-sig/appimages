@@ -20,6 +20,7 @@ Source code: <https://github.com/RSSNext/Folo/>
 
 Translate: <https://github.com/RSSNext/Folo/blob/dev/wiki/contribute-i18n.md>  
 Report the bug: <https://github.com/RSSNext/Folo/issues>  
+
 <button>
       <a href="https://github.com/RSSNext/Folo/releases/download/desktop%2Fv1.6.1/Folo-1.6.1-linux-x64.AppImage">Download x86_64</a>
 </button>

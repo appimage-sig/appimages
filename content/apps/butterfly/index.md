@@ -24,9 +24,8 @@ Translate: <https://translate.linwood.dev/butterfly>
 Report the bug: <https://github.com/LinwoodDev/Butterfly/issues>  
 
 <div class="groups">
-<button>
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0/linwood-butterfly-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button>
-      <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0/linwood-butterfly-linux-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0/linwood-butterfly-linux-arm64.AppImage">Download arm64</a>
 </button>

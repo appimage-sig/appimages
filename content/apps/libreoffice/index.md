@@ -21,6 +21,7 @@ Source code: <https://github.com/LibreOffice/core>
 Become a sponsor: <https://www.libreoffice.org/donate>  
 Translate: <https://wiki.documentfoundation.org/Language>  
 Report the bug: <https://bugs.documentfoundation.org>  
+
 <button>
       <a href="https://appimages.libreitalia.org/portable/LibreOffice-25.8.4.2.standard-x86_64.AppImage">Download x86_64</a>
 </button>

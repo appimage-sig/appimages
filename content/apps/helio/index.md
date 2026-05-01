@@ -22,6 +22,7 @@ Source code: <https://github.com/helio-fm/helio-sequencer>
 Become a sponsor: <https://www.patreon.com/peterrudenko>  
 Translate: <https://docs.google.com/spreadsheets/d/1RBDyVUDZcx6Y_OZzicnfwaWSI5uAcPbHgByo6xiFhBQ/edit?gid=0#gid=0>  
 Report the bug: <https://github.com/helio-fm/helio-sequencer/issues>  
+
 <button>
       <a href="https://ci.helio.fm/helio-3.17-x64.AppImage">Download x86_64</a>
 </button>

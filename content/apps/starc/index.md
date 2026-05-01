@@ -22,6 +22,7 @@ Source code: <https://github.com/story-apps/starc>
 
 Translate: <https://explore.transifex.com/story-apps/starc>  
 Report the bug: <https://github.com/story-apps/starc/issues/>  
+
 <button>
       <a href="https://github.com/story-apps/starc/releases/download/v0.8.1/starc-setup.AppImage">Download x86_64</a>
 </button>

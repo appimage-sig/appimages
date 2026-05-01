@@ -20,6 +20,7 @@ Source code: <https://github.com/nextcloud/desktop>
 
 Translate: <https://explore.transifex.com/nextcloud/nextcloud>  
 Report the bug: <https://github.com/nextcloud/desktop/issues>  
+
 <button>
       <a href="https://github.com/nextcloud-releases/desktop/releases/download/v33.0.2/Nextcloud-33.0.2-x86_64.AppImage">Download x86_64</a>
 </button>

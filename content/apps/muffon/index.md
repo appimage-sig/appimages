@@ -24,9 +24,8 @@ Become a sponsor: <https://ko-fi.com/staniel359>
 Report the bug: <https://github.com/staniel359/muffon/issues>  
 
 <div class="groups">
-<button>
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button>
-      <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-arm64.AppImage">Download arm64</a>
 </button>

@@ -20,6 +20,7 @@ License: EULA
 Web page: <https://k8slens.dev>  
 
 Report the bug: <https://github.com/lensapp/lens/issues>  
+
 <button>
       <a href="https://api.k8slens.dev/binaries/Lens-2026.4.151333-latest.x86_64.AppImage">Download x86_64</a>
 </button>

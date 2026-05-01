@@ -20,6 +20,7 @@ Source code: <https://github.com/anyproto/anytype-ts>
 
 Translate: <https://crowdin.com/project/anytype-desktop>  
 Report the bug: <https://github.com/anyproto/anytype-ts//issues>  
+
 <button>
       <a href="https://github.com/anyproto/anytype-ts/releases/download/v0.53.44-beta/Anytype-0.53.44-beta.AppImage">Download x86_64</a>
 </button>

@@ -21,6 +21,7 @@ Source code: <https://github.com/zaps166/QMPlay2>
 
 Translate: <https://github.com/zaps166/QMPlay2/tree/master/lang>  
 Report the bug: <https://github.com/zaps166/QMPlay2/issues>  
+
 <button>
       <a href="https://github.com/zaps166/QMPlay2/releases/download/25.09.11/QMPlay2-25.09.11-1-x86_64.AppImage">Download x86_64</a>
 </button>

@@ -21,6 +21,7 @@ Source code: <https://github.com/DavidoTek/ProtonUp-Qt>
 Become a sponsor: <https://ko-fi.com/davidotek>  
 Translate: <https://hosted.weblate.org/projects/protonup-qt>  
 Report the bug: <https://github.com/DavidoTek/ProtonUp-Qt/issues>  
+
 <button>
       <a href="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.15.0/ProtonUp-Qt-2.15.0-x86_64.AppImage">Download x86_64</a>
 </button>

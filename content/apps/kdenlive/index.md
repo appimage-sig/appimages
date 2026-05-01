@@ -22,6 +22,7 @@ Source code: <https://invent.kde.org/multimedia/kdenlive>
 Become a sponsor: <https://kdenlive.org/fund/>  
 Translate: <https://l10n.kde.org>  
 Report the bug: <https://invent.kde.org/multimedia/kdenlive/-/work_items/new>  
+
 <button>
       <a href="https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.3-x86_64.AppImage">Download x86_64</a>
 </button>

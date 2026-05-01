@@ -21,6 +21,7 @@ Source code: <https://github.com/johannesjo/super-productivity>
 Become a sponsor: <https://github.com/sponsors/johannesjo>  
 Translate: <https://fink.inlang.com/github.com/johannesjo/super-productivity>  
 Report the bug: <https://github.com/johannesjo/super-productivity/issues>  
+
 <button>
       <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.2.1/superProductivity-x86_64.AppImage">Download x86_64</a>
 </button>

@@ -22,6 +22,7 @@ Source code: <https://github.com/alephium/alephium-frontend>
 
 Translate: <https://crowdin.com/project/alephium>  
 Report the bug: <https://github.com/alephium/alephium-frontend/issues>  
+
 <button>
       <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.1/Alephium-3.2.1.AppImage">Download x86_64</a>
 </button>

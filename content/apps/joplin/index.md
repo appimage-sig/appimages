@@ -21,6 +21,7 @@ Source code: <https://github.com/laurent22/joplin>
 Become a sponsor: <https://github.com/sponsors/laurent22>  
 Translate: <https://joplinapp.org/help/dev/localisation>  
 Report the bug: <https://github.com/laurent22/joplin/issues>  
+
 <button>
       <a href="https://github.com/laurent22/joplin/releases/download/v3.6.2/Joplin-3.6.2.AppImage">Download x86_64</a>
 </button>

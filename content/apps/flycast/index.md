@@ -21,6 +21,7 @@ Source code: <https://github.com/flyinghead/flycast>
 
 Become a sponsor: <https://www.paypal.com/paypalme/FlycastEmu>  
 Report the bug: <https://github.com/flyinghead/flycast/issues>  
+
 <button>
       <a href="https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImage">Download x86_64</a>
 </button>

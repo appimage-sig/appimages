@@ -21,7 +21,7 @@ Source code: <https://github.com/blueprint-freespeech/ricochet-refresh>
 Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues>  
 
 <div class="groups">
-<button>
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-x86_64.appimage">Download x86_64</a>
 </button>
  <button class="c-button c-button--primary c-button--large" 
