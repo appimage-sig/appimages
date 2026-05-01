@@ -21,8 +21,9 @@ Web page: <https://www.darktable.org>
 Source code: <https://github.com/darktable-org/darktable>
 
 Translate: <https://github.com/darktable-org/darktable/blob/master/doc/TRANSLATORS.md>  
-Report the bug: <https://github.com/darktable-org/darktable//issues>  
-
+Report the bug: <https://github.com/darktable-org/darktable//issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/darktable-org/darktable/releases/download/release-5.4.1/Darktable-5.4.1-x86_64.AppImage">Download x86_64</a>
 </button>

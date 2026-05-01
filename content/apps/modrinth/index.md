@@ -21,8 +21,9 @@ Web page: <https://modrinth.com>
 Source code: <https://github.com/modrinth/code>
 
 Translate: <https://crowdin.com/project/modrinth>  
-Report the bug: <https://github.com/modrinth/code/issues>  
-
+Report the bug: <https://github.com/modrinth/code/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/modrinth/code/releases/download/v0.13.1/Modrinth.App_0.13.1_amd64.AppImage">Download x86_64</a>
 </button>

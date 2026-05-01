@@ -16,4 +16,7 @@ License: EULA
 
 Web page: <https://www.todesktop.com/>
 
-Download: https://builder.todesktop.com/
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large"
+      <a href="https://builder.todesktop.com/">Download x86_64</a>
+</button>

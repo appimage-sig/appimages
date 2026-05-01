@@ -21,8 +21,9 @@ Web page: <https://www.budgetwithbuckets.com>
 
 Translate: <https://github.com/buckets/translations>  
 Become a sponsor: <https://www.patreon.com/iffy>  
-Report the bug: <https://github.com/buckets/application/issues>  
-
+Report the bug: <https://github.com/buckets/application/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage">Download x86_64</a>
 </button>

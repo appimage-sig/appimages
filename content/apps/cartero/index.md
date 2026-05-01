@@ -21,8 +21,9 @@ Web page: <https://cartero.danirod.es/>
 Source code: <https://github.com/danirod/cartero>
 
 Translate: <https://hosted.weblate.org/projects/cartero/cartero/>  
-Report the bug: <https://github.com/danirod/cartero/issues>  
-
+Report the bug: <https://github.com/danirod/cartero/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-x86_64.AppImage">Download x86_64</a>
 </button>

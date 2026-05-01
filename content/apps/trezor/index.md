@@ -19,8 +19,9 @@ Web page: <https://trezor.io/>
 Source code: <https://github.com/trezor/trezor-suite>
 
 Become a sponsor: <https://trezor.io/support/a/trezor-beer-fund>  
-Report the bug: <https://github.com/trezor/trezor-suite/issues>  
-
+Report the bug: <https://github.com/trezor/trezor-suite/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/trezor/trezor-suite/releases/download/v26.3.3/Trezor-Suite-26.3.3-linux-x86_64.AppImage">Download x86_64</a>
 </button>

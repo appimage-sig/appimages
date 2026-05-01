@@ -22,8 +22,9 @@ Source code: <https://github.com/FreeCAD/FreeCAD>
 
 Become a sponsor: <https://www.freecad.org/sponsor.php>  
 Translate: <https://crowdin.com/project/freecad>  
-Report the bug: <https://github.com/FreeCAD/FreeCAD/issues>  
-
+Report the bug: <https://github.com/FreeCAD/FreeCAD/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.0/FreeCAD_1.1.0-Linux-aarch64-py311.AppImage">Download x86_64</a>
 </button>

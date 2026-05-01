@@ -22,8 +22,9 @@ Source code: <https://github.com/Zettlr/Zettlr>
 
 Become a sponsor: <https://github.com/sponsors/nathanlesage>  
 Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
-Report the bug: <https://github.com/Zettlr/Zettlr/issues>  
-
+Report the bug: <https://github.com/Zettlr/Zettlr/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.3.1/Zettlr-4.3.1-x86_64.AppImage">Download x86_64</a>
 </button>

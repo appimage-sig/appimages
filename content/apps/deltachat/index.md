@@ -22,8 +22,9 @@ Source code: <https://github.com/deltachat/deltachat-desktop>
 
 Translate: <https://explore.transifex.com/delta-chat/delta-chat-app/>  
 Become a sponsor: <https://delta.chat/en/donate>  
-Report the bug: <https://github.com/deltachat/deltachat-desktop/issues>  
-
+Report the bug: <https://github.com/deltachat/deltachat-desktop/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.49.0/DeltaChat-2.49.0-x86_64.AppImage">Download x86_64</a>
 </button>

@@ -18,7 +18,8 @@ License: GPL-3.0
 Web page: <https://moonlight-stream.org>  
 Source code: <https://github.com/moonlight-stream/moonlight-qt>
 
-Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues>  
-
+Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://nightly.link/moonlight-stream/moonlight-qt/workflows/build/master/Moonlight-LinuxAppImage-0e50a9.zip>

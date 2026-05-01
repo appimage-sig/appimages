@@ -19,8 +19,9 @@ Source code: <https://github.com/SpacingBat3/WebCord>
 
 Translate: <https://hosted.weblate.org/projects/webcord>  
 Become a sponsor: <https://github.com/sponsors/SpacingBat3>  
-Report the bug: <https://github.com/SpacingBat3/WebCord/issues>  
-
+Report the bug: <https://github.com/SpacingBat3/WebCord/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-x64.AppImage">Download x86_64</a>
 </button>

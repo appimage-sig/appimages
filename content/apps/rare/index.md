@@ -19,8 +19,9 @@ Web page: <https://raredevs.github.io/Rare>
 Source code: <https://github.com/RareDevs/Rare>
 
 Translate: <https://explore.transifex.com/rare-1/rare>  
-Report the bug: <https://github.com/RareDevs/Rare/issues>  
-
+Report the bug: <https://github.com/RareDevs/Rare/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.116/Rare-1.12.0.116-x86_64.AppImage">Download x86_64</a>
 </button>

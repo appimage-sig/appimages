@@ -15,8 +15,9 @@ appimagecraft completely automates the AppImage build process
 License: "MIT"
 Source code: <https://github.com/TheAssassin/appimagecraft>
 
-Report the bug: <https://github.com/TheAssassin/appimagecraft/issues>  
-
+Report the bug: <https://github.com/TheAssassin/appimagecraft/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage">Download x86_64</a>
 </button>

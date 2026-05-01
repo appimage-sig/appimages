@@ -20,8 +20,9 @@ License: Apache 2.0
 Source code: <https://github.com/0xle0ne/wireguard-gui>
 
 Become a sponsor: <https://github.com/sponsors/0xle0ne>  
-Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>  
+Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>
 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage">Download x86_64</a>
 </button>

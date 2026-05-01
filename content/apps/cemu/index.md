@@ -18,8 +18,9 @@ License: MPL-2.0
 Web page: <https://cemu.info/>  
 Source code: <https://github.com/cemu-project/Cemu>
 
-Report the bug: <https://github.com/cemu-project/Cemu/issues>  
-
+Report the bug: <https://github.com/cemu-project/Cemu/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage">Download x86_64</a>
 </button>

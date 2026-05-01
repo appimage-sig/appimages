@@ -20,8 +20,9 @@ Web page: <https://www.gbstudio.dev>
 Source code: <https://github.com/chrismaltby/gb-studio>
 
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
-Report the bug: <https://github.com/chrismaltby/gb-studio/issues>  
-
+Report the bug: <https://github.com/chrismaltby/gb-studio/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/chrismaltby/gb-studio/releases/download/gb-studio-linux.AppImage">Download x86_64</a>
 </button>

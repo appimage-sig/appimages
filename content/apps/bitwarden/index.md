@@ -21,8 +21,9 @@ Web page: <https://bitwarden.com>
 Source code: <https://github.com/bitwarden/clients>
 
 Translate: <https://crowdin.com/project/bitwarden-desktop>  
-Report the bug: <https://github.com/bitwarden/clients/issues>  
-
+Report the bug: <https://github.com/bitwarden/clients/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/bitwarden/clients/releases/download/desktop-v2026.3.1/Bitwarden-2026.3.1-x86_64.AppImage">Download x86_64</a>
 </button>

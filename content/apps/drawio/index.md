@@ -20,8 +20,9 @@ License: Apache-2.0
 Web page: <https://www.drawio.com>  
 Source code: <https://github.com/jgraph/drawio-desktop>
 
-Report the bug: <https://github.com/jgraph/drawio-desktop/issues>  
-
+Report the bug: <https://github.com/jgraph/drawio-desktop/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/jgraph/drawio-desktop/releases/download/v29.6.6/drawio-x86_64-29.6.6.AppImage">Download x86_64</a>
 </button>

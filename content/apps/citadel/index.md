@@ -18,8 +18,9 @@ License: "MIT"
 Source code: <https://github.com/every-day-things/citadel>
 
 Become a sponsor: <https://github.com/sponsors/phildenhoff>  
-Report the bug: <https://github.com/every-day-things/citadel/issues>  
-
+Report the bug: <https://github.com/every-day-things/citadel/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/every-day-things/citadel/releases/download/app-v0.3.0/citadel_0.3.0_amd64.AppImage">Download x86_64</a>
 </button>

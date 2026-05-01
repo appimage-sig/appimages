@@ -20,6 +20,7 @@ Web page: <https://zenkit.com/>
 
 Report the bug: <https://help.zenkit.com/en/support/tickets/new>  
 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage">Download x86_64</a>
 </button>

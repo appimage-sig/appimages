@@ -21,8 +21,9 @@ Source code: <https://github.com/jeffvli/feishin>
 
 Become a sponsor: <https://ko-fi.com/jeffvli>  
 Translate: <https://hosted.weblate.org/projects/feishin>  
-Report the bug: <https://github.com/jeffvli/feishin/issues>  
-
+Report the bug: <https://github.com/jeffvli/feishin/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/jeffvli/feishin/releases/latest/download//Feishin-linux-x86_64.AppImage">Download x86_64</a>
 </button>

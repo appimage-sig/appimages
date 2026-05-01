@@ -19,8 +19,9 @@ Web page: <https://owncloud.com/desktop-app>
 Source code: <https://github.com/owncloud/client>
 
 Translate: <https://explore.transifex.com/owncloud-org/owncloud/>  
-Report the bug: <https://github.com/owncloud/client/issues>  
-
+Report the bug: <https://github.com/owncloud/client/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://download.owncloud.com/desktop/ownCloud/stable/6.0.3.18040/linux-appimage/ownCloud-6.0.3.18040-x86_64.AppImage">Download x86_64</a>
 </button>

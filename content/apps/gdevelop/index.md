@@ -20,8 +20,9 @@ Web page: <https://gdevelop.io>
 Source code: <https://github.com/4ian/GDevelop>
 
 Translate: <https://crowdin.com/project/gdevelop>  
-Report the bug: <https://github.com/4ian/GDevelop/issues>  
-
+Report the bug: <https://github.com/4ian/GDevelop/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.266/GDevelop-5-5.6.266.AppImage">Download x86_64</a>
 </button>

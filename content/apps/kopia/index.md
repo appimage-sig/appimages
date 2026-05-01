@@ -18,8 +18,9 @@ License: Apache-2.0
 Web page: <https://kopia.io>  
 Source code: <https://github.com/kopia/kopia>
 
-Report the bug: <https://github.com/kopia/kopia/issues>  
-
+Report the bug: <https://github.com/kopia/kopia/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage">Download x86_64</a>
 </button>

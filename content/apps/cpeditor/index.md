@@ -22,8 +22,9 @@ Source code: <https://github.com/cpeditor/cpeditor>
 
 Become a sponsor: <https://github.com/sponsors/cpeditor>  
 Translate: <https://github.com/cpeditor/cpeditor/blob/master/CONTRIBUTING.md#translations>  
-Report the bug: <https://github.com/cpeditor/cpeditor/issues>  
-
+Report the bug: <https://github.com/cpeditor/cpeditor/issues> 
+ 
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-linux-x86_64.AppImage">Download x86_64</a>
 </button>
