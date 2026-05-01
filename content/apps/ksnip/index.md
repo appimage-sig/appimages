@@ -21,6 +21,6 @@ Become a sponsor: <https://github.com/sponsors/DamirPorobic>
 Translate: <https://hosted.weblate.org/engage/ksnip>  
 Report the bug: <https://github.com/ksnip/ksnip/issues>  
 
-  <button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage">Download x86_64</a>
-  </button>
+</button>

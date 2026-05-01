@@ -21,6 +21,6 @@ Source code: <https://github.com/wez/wezterm>
 Become a sponsor: <https://patreon.com/WezFurlong>  
 Report the bug: <https://github.com/wez/wezterm/issues>  
 
-  <button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/wez/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage">Download x86_64</a>
-  </button>
+</button>

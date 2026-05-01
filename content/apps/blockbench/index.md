@@ -23,6 +23,6 @@ Source code: <https://github.com/JannisX11/blockbench>
 Translate: <https://www.blockbench.net/wiki/blockbench/localization>  
 Report the bug: <https://github.com/JannisX11/blockbench/issues>  
 
-  <button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/JannisX11/blockbench/releases/download/v5.1.3/Blockbench_5.1.3.AppImage">Download x86_64</a>
-  </button>
+</button>

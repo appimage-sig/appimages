@@ -22,6 +22,6 @@ Source code: <https://github.com/playwora/wora>
 Become a sponsor: <https://github.com/hiaaryan>  
 Report the bug: <https://github.com/playwora/wora/issues>  
 
-  <button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/playwora/wora/releases/download/v0.4.0-beta2/Wora.v0.4.0-beta2.AppImage">Download x86_64</a>
-  </button>
+</button>
