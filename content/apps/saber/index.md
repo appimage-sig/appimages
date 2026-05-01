@@ -24,7 +24,6 @@ Become a sponsor: <https://github.com/sponsors/adil192>
 Translate: <https://github.com/saber-notes/saber?tab=readme-ov-file#translating>  
 Report the bug: <https://github.com/saber-notes/saber/issues>  
 
-<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-x86_64.AppImage">Download x86_64</a>
 </button>

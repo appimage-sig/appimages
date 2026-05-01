@@ -21,6 +21,6 @@ Source code: <https://github.com/CodeDead/Advanced-PassGen>
 
 Report the bug: <https://github.com/CodeDead/Advanced-PassGen/issues>  
 
-<button>
+<button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.5.2/advanced-passgen_2.5.2_amd64.AppImage">Download x86_64</a>
 </button>

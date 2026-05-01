@@ -19,7 +19,6 @@ Web page: <https://obsidian.md>
 
 Translate: <https://github.com/obsidianmd/obsidian-translations>  
 
-<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.AppImage">Download x86_64</a>
 </button>

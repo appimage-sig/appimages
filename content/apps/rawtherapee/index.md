@@ -22,6 +22,6 @@ Become a sponsor: <https://pixls.us/support>
 Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
 Report the bug: <https://github.com/RawTherapee/RawTherapee/issues>  
 
-<button>
+<button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/RawTherapee/RawTherapee/releases/download/5.12/RawTherapee_5.12_release.AppImage">Download x86_64</a>
 </button>

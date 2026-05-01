@@ -22,6 +22,6 @@ Become a sponsor: <https://github.com/sponsors/opengisch>
 Translate: <https://explore.transifex.com/opengisch/qfield-for-qgis>  
 Report the bug: <https://github.com/opengisch/QField/issues>  
 
-<button>
+<button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/opengisch/QField/releases/download/v4.1.7/qfield-v4.1.7-linux-x64.AppImage">Download x86_64</a>
 </button>

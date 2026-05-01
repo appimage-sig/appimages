@@ -21,6 +21,6 @@ Source code: <https://github.com/jurplel/qView>
 Translate: <https://hosted.weblate.org/projects/qview/qview>  
 Report the bug: <https://github.com/jurplel/qView/issues>  
 
-<button>
+<button class="c-button c-button--primary c-button--large">
       <a href="https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-x86_64.AppImage">Download x86_64</a>
 </button>

@@ -19,7 +19,6 @@ Web page: <https://www.cursor.com/>
 
 Report the bug: <https://forum.cursor.com/>  
 
-<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://api2.cursor.sh/updates/download/golden/linux-x64/cursor/3.1">Download x86_64</a>
 </button>

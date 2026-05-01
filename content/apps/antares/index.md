@@ -22,7 +22,6 @@ Become a sponsor: <https://www.paypal.com/paypalme/fabiodistasio>
 Translate: <https://github.com/antares-sql/antares/wiki/Translate-Antares>  
 Report the bug: <https://github.com/antares-sql/antares/issues>
 
-<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage">Download x86_64</a>
 </button>
