@@ -29,3 +29,4 @@ Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

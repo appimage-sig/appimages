@@ -27,3 +27,4 @@ Report the bug: <https://github.com/kraxarn/spotify-qt/issues>
   <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/kraxarn/spotify-qt/releases/download/v4.0.3/spotify-qt-v4.0.3-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

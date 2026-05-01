@@ -28,3 +28,4 @@ Report the bug: <https://github.com/RareDevs/Rare/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.116/Rare-1.12.0.116-arm64.AppImage">Download arm64</a>
 </button>
+</div>

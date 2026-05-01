@@ -34,3 +34,4 @@ Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-langu
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-armhf.AppImage">Download armv7l</a>
 </button>
+</div>

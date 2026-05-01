@@ -27,3 +27,4 @@ Report the bug: <https://github.com/helix-editor/helix/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

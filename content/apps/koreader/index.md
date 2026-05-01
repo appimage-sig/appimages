@@ -32,3 +32,4 @@ Report the bug: <https://github.com/koreader/koreader/issues>
   <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-armhf.AppImage">Download armv7l</a>
 </button>
+</div>

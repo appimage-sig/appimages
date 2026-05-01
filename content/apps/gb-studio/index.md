@@ -29,3 +29,4 @@ Report the bug: <https://github.com/chrismaltby/gb-studio/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/chrismaltby/gb-studio/releases/latest/download/gb-studio-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

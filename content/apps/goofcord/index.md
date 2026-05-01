@@ -33,3 +33,4 @@ Report the bug: <https://github.com/Milkshiift/GoofCord/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.0/GoofCord-2.2.0-linux-armv7l.AppImage">Download armv7l</a>
 </button>
+</div>

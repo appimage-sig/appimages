@@ -20,3 +20,4 @@ Web page: <https://www.todesktop.com/>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://builder.todesktop.com/">Download x86_64</a>
 </button>
+</div>

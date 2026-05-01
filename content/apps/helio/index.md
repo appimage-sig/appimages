@@ -27,3 +27,4 @@ Report the bug: <https://github.com/helio-fm/helio-sequencer/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://ci.helio.fm/helio-3.17-x64.AppImage">Download x86_64</a>
 </button>
+</div>

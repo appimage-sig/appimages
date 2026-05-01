@@ -29,3 +29,4 @@ Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.8.0/teams-for-linux-2.8.0-armv7l.AppImage">Download armv7l</a>
 </button>
+</div>

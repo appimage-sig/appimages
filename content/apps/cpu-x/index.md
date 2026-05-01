@@ -30,3 +30,4 @@ Report the bug: <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

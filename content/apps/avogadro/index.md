@@ -31,3 +31,4 @@ Report the bug: <https://github.com/openchemistry/avogadrolibs/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/1.103.0/Avogadro2-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

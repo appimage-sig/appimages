@@ -24,3 +24,4 @@ Report the bug: <https://github.com/Sandakan/Nora/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Sandakan/Nora/releases/download/v4.0.0-alpha.2/Nora.v4.0.0-alpha.2-linux-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

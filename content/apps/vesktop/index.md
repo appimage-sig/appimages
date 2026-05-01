@@ -29,3 +29,4 @@ Report the bug: <https://github.com/Vencord/Vesktop/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download arm64</a>
 </button>
+</div>

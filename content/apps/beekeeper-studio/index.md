@@ -30,3 +30,4 @@ Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-5.6.5.AppImage">Download arm64</a>
 </button>
+</div>

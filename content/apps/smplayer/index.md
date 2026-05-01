@@ -28,3 +28,4 @@ Report the bug: <https://github.com/smplayer-dev/smplayer/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/smplayer-dev/smplayer/releases/download/v10403/SMPlayer-25.6.0.10403-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

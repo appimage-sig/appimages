@@ -35,3 +35,4 @@ Report the bug: <https://github.com/feather-wallet/feather/issues>
   <button class="c-button c-button--primary c-button--large"  
       <a href="https://featherwallet.org/files/releases/linux-riscv64-appimage/feather-2.8.1-riscv64.AppImage">Download riscv64</a>
 </button>
+</div>

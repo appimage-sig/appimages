@@ -30,3 +30,4 @@ Report the bug: <https://github.com/zen-browser/desktop/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/zen-browser/desktop/releases/download/1.19.8b/zen-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

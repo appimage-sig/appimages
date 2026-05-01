@@ -29,3 +29,4 @@ Report the bug: <https://github.com/4ian/GDevelop/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.266/GDevelop-5-5.6.266-arm64.AppImage">Download arm64</a>
 </button>
+</div>

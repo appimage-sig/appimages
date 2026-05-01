@@ -27,3 +27,4 @@ Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.2.0/OneKey-Wallet-6.2.0-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

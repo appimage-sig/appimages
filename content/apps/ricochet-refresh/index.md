@@ -27,3 +27,4 @@ Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues
  <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-i386.appimage">Download x86</a>
 </button>
+</div>

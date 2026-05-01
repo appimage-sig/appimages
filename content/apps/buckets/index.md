@@ -30,3 +30,4 @@ Report the bug: <https://github.com/buckets/application/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage">Download arm64</a>
 </button>
+</div>

@@ -25,3 +25,4 @@ Report the bug: <https://github.com/sedwards2009/extraterm/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/sedwards2009/extraterm/releases/download/v0.81.3/ExtratermQt-0.81.3.glibc2.34-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

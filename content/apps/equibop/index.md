@@ -26,3 +26,4 @@ Report the bug: <https://github.com/Equicord/Equibop/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9-arm64.AppImage">Download arm64</a>
 </button>
+</div>

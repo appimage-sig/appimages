@@ -27,3 +27,4 @@ Report the bug: <https://github.com/arduino/arduino-ide/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.8/arduino-ide_2.3.8_Linux_64bit.AppImage">Download x86_64</a>
 </button>
+</div>

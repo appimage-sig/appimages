@@ -30,3 +30,4 @@ Report the bug: <https://github.com/LinwoodDev/Butterfly/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.0/linwood-butterfly-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

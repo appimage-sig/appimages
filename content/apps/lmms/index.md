@@ -29,3 +29,4 @@ Report the bug: <https://github.com/LMMS/lmms/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://lmms.io/download/artifact/6273942111">Download arm64</a>
 </button>
+</div>

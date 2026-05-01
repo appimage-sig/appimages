@@ -28,3 +28,4 @@ Report the bug: <https://github.com/streetwriters/notesnook/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_arm64.AppImage">Download arm64</a>
 </button>
+</div>

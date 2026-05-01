@@ -33,3 +33,4 @@ Report the bug: <https://github.com/headlamp-k8s/headlamp/issues>
 <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.41.0/Headlamp-0.41.0-linux-armv7l.AppImage">Download armv7l</a>
 </button>
+</div>

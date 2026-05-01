@@ -25,3 +25,4 @@ Report the bug: <https://github.com/warpdotdev/Warp/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://app.warp.dev/get_warp?package=appimage_arm64">Download arm64</a>
 </button>
+</div>

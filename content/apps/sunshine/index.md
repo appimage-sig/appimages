@@ -25,3 +25,4 @@ Report the bug: <https://github.com/LizardByte/Sunshine/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.417.201619/sunshine.AppImage">Download x86_64</a>
 </button>
+</div>

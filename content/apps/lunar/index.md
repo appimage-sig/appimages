@@ -20,3 +20,4 @@ Web: <https://www.lunarclient.com/>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.6-ow.AppImage">Download x86_64</a>
 </button>
+</div>

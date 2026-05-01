@@ -25,3 +25,4 @@ Report the bug: <https://gitlab.linphone.org/BC/public/linphone-desktop/-/work_i
 <button class="c-button c-button--primary c-button--large"
       <a href="https://download.linphone.org/releases/linux/app/Linphone-6.1.2-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

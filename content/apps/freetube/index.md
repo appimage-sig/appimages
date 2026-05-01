@@ -34,3 +34,4 @@ Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-armv7l.AppImage">Download armv7l</a>
 </button>
+</div>

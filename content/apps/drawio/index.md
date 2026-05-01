@@ -29,3 +29,4 @@ Report the bug: <https://github.com/jgraph/drawio-desktop/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/jgraph/drawio-desktop/releases/download/v29.6.6/drawio-arm64-29.6.6.AppImage">Download arm64</a>
 </button>
+</div>

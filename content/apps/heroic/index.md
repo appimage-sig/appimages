@@ -28,3 +28,4 @@ Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/is
 <button class="c-button c-button--primary c-button--large" 
 <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.20.1/Heroic-2.20.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

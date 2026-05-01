@@ -28,3 +28,4 @@ Report the bug: <https://github.com/ossia/score/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

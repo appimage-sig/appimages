@@ -28,4 +28,6 @@ Report the bug: <https://github.com/streetpea/chiaki-ng/issues>
       <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_x86_64">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64>
+    <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64">Download arm64</a>
+</button>
+</div>

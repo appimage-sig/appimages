@@ -32,3 +32,4 @@ Report the bug: <https://github.com/siyuan-note/siyuan/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.4/siyuan-3.6.4-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

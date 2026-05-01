@@ -30,3 +30,4 @@ Report the bug: <https://github.com/danirod/cartero/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage">Download arm64</a>
 </button>
+</div>

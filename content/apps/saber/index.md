@@ -31,3 +31,4 @@ Report the bug: <https://github.com/saber-notes/saber/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/saber-notes/saber/releases/download/v1.33.2/Saber-1.33.2-arm64.AppImage">Download arm64</a>
 </button>
+</div>

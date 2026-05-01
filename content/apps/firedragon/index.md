@@ -25,3 +25,4 @@ Source code: <https://github.com/dr460nf1r3/firedragon-browser>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-arm64.AppImage">Download arm64</a>
 </button>
+</div>

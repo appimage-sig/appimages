@@ -28,3 +28,4 @@ Report the bug: <https://github.com/martpie/museeks/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_aarch64.AppImage">Download arm64</a>
 </button>
+</div>

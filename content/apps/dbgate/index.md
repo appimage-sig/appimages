@@ -29,3 +29,4 @@ Report the bug: <https://github.com/dbgate/dbgate/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/dbgate/dbgate/releases/download/v7.1.8/dbgate-7.1.8-linux_arm64.AppImage">Download arm64</a>
 </button>
+</div>

@@ -27,3 +27,4 @@ Report the bug: <https://github.com/darktable-org/darktable//issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/darktable-org/darktable/releases/download/release-5.4.1/Darktable-5.4.1-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

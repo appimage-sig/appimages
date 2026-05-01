@@ -26,3 +26,4 @@ Report the bug: <https://github.com/mypaint/mypaint/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage">Download x86_64</a>
 </button>
+</div>

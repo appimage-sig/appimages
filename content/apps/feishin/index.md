@@ -30,3 +30,4 @@ Report the bug: <https://github.com/jeffvli/feishin/issues>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/jeffvli/feishin/releases/latest/download/Feishin-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

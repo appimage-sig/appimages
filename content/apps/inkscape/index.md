@@ -28,3 +28,4 @@ Report the bug: <https://gitlab.com/inkscape/inkscape/-/work_items/new>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://media.inkscape.org/dl/resources/file/Inkscape-0d15f75-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>
