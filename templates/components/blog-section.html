@@ -18,7 +18,7 @@
 
           {% if data.show_posts %}
           <div class="row">
-            {% set section = get_section(path="posts/_index.md") %}
+            {% set section = get_section(path="apps/_index.md") %}
             {% for i in range(end=3) %}
             {% if i < section.pages | length %}
             {% set post = section.pages | nth(n=i) %}
