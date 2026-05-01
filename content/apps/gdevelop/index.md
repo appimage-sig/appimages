@@ -22,9 +22,11 @@ Source code: <https://github.com/4ian/GDevelop>
 Translate: <https://crowdin.com/project/gdevelop>  
 Report the bug: <https://github.com/4ian/GDevelop/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.266/GDevelop-5-5.6.266.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.266/GDevelop-5-5.6.266-arm64.AppImage">Download arm64</a>
 </button>
 </div>

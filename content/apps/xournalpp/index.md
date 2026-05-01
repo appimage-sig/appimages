@@ -23,8 +23,10 @@ Source code: <https://github.com/xournalpp/xournalpp>
 Translate: <https://crowdin.com/project/xournalpp>  
 Report the bug: <https://github.com/xournalpp/xournalpp/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.4/xournalpp-1.3.4-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.4/xournalpp-1.3.4-aarch64.AppImage">Download arm64</a>
 </button>

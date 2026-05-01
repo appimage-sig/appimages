@@ -24,8 +24,10 @@ Become a sponsor: <https://www.gimp.org/donating/>
 Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
 Report the bug: <https://gitlab.gnome.org/GNOME/gimp/-/work_items/new>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-aarch64.AppImage">Download arm64</a>
 </button>

@@ -22,9 +22,11 @@ Source code: <https://github.com/Vencord/Vesktop>
 Become a sponsor: <https://github.com/sponsors/Vendicated>  
 Report the bug: <https://github.com/Vencord/Vesktop/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download arm64</a>
 </button>
 </div>

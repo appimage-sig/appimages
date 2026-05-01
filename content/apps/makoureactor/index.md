@@ -19,8 +19,10 @@ Source code: <https://github.com/myst6re/makoureactor>
 
 Report the bug: <https://github.com/myst6re/makoureactor/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage">Download arm64</a>
 </button>

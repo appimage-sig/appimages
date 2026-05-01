@@ -24,7 +24,8 @@ Become a sponsor: <https://ko-fi.com/danielerollibeavernotes>
 Translate: <https://docs.beavernotes.com/beaver%20notes%20(dev)/2025/01/06/translate.html>  
 Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0.AppImage">Download x86_64</a>
 </button>
 <button>

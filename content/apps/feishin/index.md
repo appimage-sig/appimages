@@ -23,8 +23,10 @@ Become a sponsor: <https://ko-fi.com/jeffvli>
 Translate: <https://hosted.weblate.org/projects/feishin>  
 Report the bug: <https://github.com/jeffvli/feishin/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/jeffvli/feishin/releases/latest/download//Feishin-linux-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/jeffvli/feishin/releases/latest/download/Feishin-linux-arm64.AppImage">Download arm64</a>
 </button>

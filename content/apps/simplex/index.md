@@ -23,8 +23,10 @@ Become a sponsor: <https://github.com/sponsors/simplex-chat>
 Translate: <https://hosted.weblate.org/engage/simplex-chat>  
 Report the bug: <https://github.com/simplex-chat/simplex-chat/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.8/simplex-desktop-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.8/simplex-desktop-aarch64.AppImage">Download arm64</a>
 </button>

@@ -20,10 +20,13 @@ Source code: <https://github.com/kopia/kopia>
 
 Report the bug: <https://github.com/kopia/kopia/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-arm64.AppImage">Download arm64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/kopia/kopia/releases/download/v0.22.3/KopiaUI-0.22.3-armv7l.AppImage">Download armv7l</a>
 </button>

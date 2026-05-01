@@ -21,8 +21,10 @@ Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
 Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
 Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.3.1/DesktopEditors-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.3.1/DesktopEditors-arm64.AppImage">Download arm64</a>
 </button>

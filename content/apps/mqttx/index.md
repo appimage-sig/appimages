@@ -21,9 +21,11 @@ Source code: <https://github.com/emqx/MQTTX>
 
 Report the bug: <https://github.com/emqx/MQTTX/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-1.13.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

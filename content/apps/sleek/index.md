@@ -23,8 +23,10 @@ Become a sponsor: <https://github.com/sponsors/ransome1>
 Translate: <https://github.com/ransome1/sleek/tree/main/src/locales>  
 Report the bug: <https://github.com/ransome1/sleek/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/ransome1/sleek/releases/download/v2.0.25/sleek-2.0.25-linux-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/ransome1/sleek/releases/download/v2.0.25/sleek-2.0.25-linux-arm64.AppImage">Download arm64</a>
 </button>

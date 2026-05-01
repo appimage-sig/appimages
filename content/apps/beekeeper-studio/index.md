@@ -23,9 +23,11 @@ Source code: <https://github.com/beekeeper-studio/beekeeper-studio>
 Become a sponsor: <https://github.com/sponsors/beekeeper-studio>  
 Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-5.6.5.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-5.6.5.AppImage">Download arm64</a>
 </button>
 </div>

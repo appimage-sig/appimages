@@ -22,8 +22,10 @@ Source code: <https://github.com/chrismaltby/gb-studio>
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
 Report the bug: <https://github.com/chrismaltby/gb-studio/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/chrismaltby/gb-studio/releases/download/gb-studio-linux.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/chrismaltby/gb-studio/releases/latest/download/gb-studio-linux-arm64.AppImage">Download arm64</a>
 </button>

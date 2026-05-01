@@ -25,8 +25,10 @@ Become a sponsor: <https://ld246.com/sponsor>
 Translate: <https://github.com/siyuan-note/siyuan/tree/master/app/appearance/langs>  
 Report the bug: <https://github.com/siyuan-note/siyuan/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.4/siyuan-3.6.4-linux.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.4/siyuan-3.6.4-linux-arm64.AppImage">Download arm64</a>
 </button>

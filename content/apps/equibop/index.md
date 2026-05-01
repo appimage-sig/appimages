@@ -19,9 +19,11 @@ Source code: <https://github.com/Equicord/Equibop>
 
 Report the bug: <https://github.com/Equicord/Equibop/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9-arm64.AppImage">Download arm64</a>
 </button>
 </div>

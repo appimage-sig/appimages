@@ -21,8 +21,10 @@ Become a sponsor: <https://opencollective.com/pulsar-edit>
 Translate: <https://crowdin.com/project/pulsar-edit>  
 Report the bug: <https://github.com/pulsar-edit/pulsar/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/Linux.Pulsar-1.131.3.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/ARM.Linux.Pulsar-1.131.3-arm64.AppImage">Download arm64</a>
 </button>

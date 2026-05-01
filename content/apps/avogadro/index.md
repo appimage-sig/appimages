@@ -24,8 +24,10 @@ Become a sponsor: <https://opencollective.com/open-chemistry>
 Translate: <https://hosted.weblate.org/engage/avogadro>  
 Report the bug: <https://github.com/openchemistry/avogadrolibs/issues>
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/continuous/Avogadro2-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/1.103.0/Avogadro2-aarch64.AppImage">Download arm64</a>
 </button>

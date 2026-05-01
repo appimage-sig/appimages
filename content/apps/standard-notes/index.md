@@ -21,9 +21,11 @@ Source code: <https://github.com/standardnotes/app>
 Become a sponsor: <https://github.com/sponsors/standardnotes>  
 Report the bug: <https://github.com/standardnotes/forum/issues/>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.201.8/standard-notes-3.201.8-linux-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.201.8/standard-notes-3.201.8-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

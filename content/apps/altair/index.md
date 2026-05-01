@@ -23,8 +23,10 @@ Become a sponsor: <https://opencollective.com/altair>
 Translate: <https://crwd.in/altair-gql>  
 Report the bug: <https://github.com/altair-graphql/altair/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.0/altair_8.5.0_x86_64_linux.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.0/altair_8.5.0_arm64_linux.AppImage">Download arm64</a>
 </button>

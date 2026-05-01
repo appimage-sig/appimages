@@ -22,8 +22,10 @@ Source code: <https://github.com/0xle0ne/wireguard-gui>
 Become a sponsor: <https://github.com/sponsors/0xle0ne>  
 Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_amd64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.8-stable/wireguard-gui_0.1.8_aarch64.AppImage">Download arm64</a>
 </button>

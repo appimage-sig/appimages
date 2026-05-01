@@ -23,9 +23,11 @@ Become a sponsor: <https://github.com/sponsors/actualbudget>
 Translate: <https://hosted.weblate.org/projects/actualbudget>  
 Report the bug: <https://github.com/actualbudget/actual/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

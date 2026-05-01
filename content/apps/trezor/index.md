@@ -21,8 +21,10 @@ Source code: <https://github.com/trezor/trezor-suite>
 Become a sponsor: <https://trezor.io/support/a/trezor-beer-fund>  
 Report the bug: <https://github.com/trezor/trezor-suite/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/trezor/trezor-suite/releases/download/v26.3.3/Trezor-Suite-26.3.3-linux-x86_64.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/trezor/trezor-suite/releases/download/v26.3.3/Trezor-Suite-26.3.3-linux-arm64.AppImage">Download arm64</a>
 </button>

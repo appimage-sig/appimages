@@ -21,9 +21,11 @@ Source code: <https://github.com/usebruno/bruno>
 
 Report the bug: <https://github.com/usebruno/bruno/issues>  
 
-<div class="groups"><button>
+<div class="groups">
+<button>
       <a href="https://github.com/usebruno/bruno/releases/download/v3.0.2/bruno_3.0.2_x86_64_linux.AppImage">Download x86_64</a>
-</button><button>
+</button>
+<button>
       <a href="https://github.com/usebruno/bruno/releases/download/v3.0.2/bruno_3.0.2_arm64_linux.AppImage">Download arm64</a>
 </button>
 </div>
