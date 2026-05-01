@@ -23,7 +23,7 @@ Become a sponsor: <https://ko-fi.com/appflowy>
 Translate: <https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy>  
 Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>  
 
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.0/AppFlowy-0.11.0-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

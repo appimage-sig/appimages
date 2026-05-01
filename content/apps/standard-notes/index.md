@@ -22,10 +22,10 @@ Become a sponsor: <https://github.com/sponsors/standardnotes>
 Report the bug: <https://github.com/standardnotes/forum/issues/>  
 
 <div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.201.8/standard-notes-3.201.8-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes%2Fdesktop%403.201.8/standard-notes-3.201.8-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

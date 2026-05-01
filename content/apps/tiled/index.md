@@ -22,7 +22,7 @@ Source code: <https://github.com/mapeditor/tiled/>
 
 Become a sponsor: <https://github.com/bjorn>  
 Report the bug: <https://github.com/mapeditor/tiled//issues>  
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/mapeditor/tiled/releases/download/v1.12.1/Tiled-1.12.1_Linux_x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

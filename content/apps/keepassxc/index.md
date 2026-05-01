@@ -23,7 +23,7 @@ Become a sponsor: <https://keepassxc.org/donate>
 Translate: <https://explore.transifex.com/keepassxc/keepassxc>  
 Report the bug: <https://github.com/keepassxreboot/keepassxc/issues>  
 
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

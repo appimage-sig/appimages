@@ -22,13 +22,13 @@ Become a sponsor: <https://github.com/sponsors/SpacingBat3>
 Report the bug: <https://github.com/SpacingBat3/WebCord/issues>  
 
 <div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-x64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-arm64.AppImage">Download arm64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-4.13.0-armv7l.AppImage">Download armv7l</a>
 </button>
 </div>

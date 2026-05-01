@@ -19,7 +19,7 @@ Source code: <https://github.com/c0re100/qBittorrent-Enhanced-Edition>
 
 Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues>  
 
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.1.3.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

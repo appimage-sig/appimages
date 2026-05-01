@@ -25,10 +25,10 @@ Translate: <https://translate.librecad.org>
 Report the bug: <https://github.com/LibreCAD/LibreCAD/issues>  
 
 <div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.4/LibreCAD-v2.2.1.3-12-gd1ca469c9-aarch64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.4/LibreCAD-v2.2.1.3-12-gd1ca469c9-x86_64.AppImage">Download arm64</a>
 </button>
 </div>

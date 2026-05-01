@@ -21,7 +21,7 @@ Source code: <https://git.cinelerra-gg.org/git>
 Translate: <https://www.cinelerra-gg.org/translate-app>  
 Report the bug: <https://www.cinelerra-gg.org/bugtracker/login_page.php>  
 
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
       <a href="https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260331-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
