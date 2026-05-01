@@ -23,5 +23,6 @@ Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portab
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/147.0.7727.101-1/ungoogled-chromium-147.0.7727.101-1-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/147.0.7727.101-1/ungoogled-chromium-147.0.7727.101-1-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/147.0.7727.101-1/ungoogled-chromium-147.0.7727.101-1-arm64.AppImage">Download arm64</a>
 </button>

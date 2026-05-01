@@ -27,5 +27,6 @@ Report the bug: <https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-aarch64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/TheTumultuousUnicornOfDarkness/CPU-X/releases/download/continuous/CPU-X-aarch64.AppImage">Download arm64</a>
 </button>

@@ -27,6 +27,6 @@ Report the bug: <https://github.com/actualbudget/actual/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/actualbudget/actual/releases/download/v26.1.0/Actual-linux-arm64.AppImage">Download arm64</a>
 </button>
-</div>

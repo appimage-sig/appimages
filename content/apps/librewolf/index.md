@@ -24,5 +24,6 @@ Report the bug: <https://codeberg.org/librewolf/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/149.0.2-2/LibreWolf.x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/149.0.2-2/LibreWolf.aarch64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/149.0.2-2/LibreWolf.aarch64.AppImage">Download arm64</a>
 </button>

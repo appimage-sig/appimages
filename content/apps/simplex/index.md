@@ -30,4 +30,3 @@ Report the bug: <https://github.com/simplex-chat/simplex-chat/issues>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v6.4.8/simplex-desktop-aarch64.AppImage">Download arm64</a>
   </button>
-</div>

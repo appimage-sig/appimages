@@ -27,5 +27,6 @@ Report the bug: <https://github.com/xournalpp/xournalpp/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.4/xournalpp-1.3.4-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.4/xournalpp-1.3.4-aarch64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/xournalpp/xournalpp/releases/download/v1.3.4/xournalpp-1.3.4-aarch64.AppImage">Download arm64</a>
 </button>

@@ -43,5 +43,4 @@ Translate: <$translate>
 Report the bug: <$bugtracker>
 <button>
       <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage">Download x86_64</a>
-</button>
-</div> " >> ~/apps-for-linux.github.io/content/apps/$title.md
+</button> " >> ~/apps-for-linux.github.io/content/apps/$title.md

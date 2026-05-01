@@ -23,6 +23,6 @@ Report the bug: <https://github.com/Equicord/Equibop/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9-arm64.AppImage">Download arm64</a>
 </button>
-</div>

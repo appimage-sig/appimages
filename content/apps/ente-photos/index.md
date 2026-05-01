@@ -27,5 +27,6 @@ Report the bug: <https://github.com/ente-io/ente/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.22/ente-1.7.22-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.22/ente-1.7.22-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.22/ente-1.7.22-arm64.AppImage">Download arm64</a>
 </button>

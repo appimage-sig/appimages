@@ -25,5 +25,6 @@ Report the bug: <https://github.com/pulsar-edit/pulsar/issues>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/Linux.Pulsar-1.131.3.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/ARM.Linux.Pulsar-1.131.3-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://github.com/pulsar-edit/pulsar/releases/download/v1.131.3/ARM.Linux.Pulsar-1.131.3-arm64.AppImage">Download arm64</a>
 </button>

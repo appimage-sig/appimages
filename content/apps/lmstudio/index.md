@@ -23,6 +23,6 @@ Translate: <https://github.com/lmstudio-ai/localization>
 <button class="c-button c-button--primary c-button--large"
       <a href="https://installers.lmstudio.ai/linux/x64/0.4.12-1/LM-Studio-0.4.12-1-x64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">      <a href="https://installers.lmstudio.ai/linux/arm64/0.4.12-1/LM-Studio-0.4.12-1-arm64.AppImage">Download arm64</a>
+<button class="c-button c-button--primary c-button--large">
+    <a href="https://installers.lmstudio.ai/linux/arm64/0.4.12-1/LM-Studio-0.4.12-1-arm64.AppImage">Download arm64</a>
 </button>
-</div>
