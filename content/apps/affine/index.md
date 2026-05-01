@@ -24,6 +24,6 @@ Translate: <https://crowdin.com/project/affine>
 Report the bug: <https://github.com/toeverything/AFFiNE/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/toeverything/AFFiNE/releases/download/v0.26.0-beta.8/affine-0.26.0-beta.8-beta-linux-x64.AppImage">Download x86_64</a>
 </button>

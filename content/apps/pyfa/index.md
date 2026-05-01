@@ -20,6 +20,6 @@ Translate: <https://crowdin.com/project/pyfa>
 Report the bug: <https://github.com/pyfa-org/Pyfa/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/pyfa-org/Pyfa/releases/download/v2.66.2/pyfa-v2.66.2-linux.AppImage">Download x86_64</a>
 </button>

@@ -21,6 +21,6 @@ Become a sponsor: <https://www.libreoffice.org/donate>
 Translate: <https://hosted.weblate.org/projects/naev/naev>  
 Report the bug: <https://codeberg.org/naev/naev/issues/>  
 
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://codeberg.org/naev/naev/releases/download/v0.13.4/naev-0.13.4-linux-x86-64.AppImage">Download x86_64</a>
 </button>

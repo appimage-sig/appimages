@@ -24,9 +24,9 @@ Become a sponsor: <https://www.gimp.org/donating/>
 Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
 Report the bug: <https://gitlab.gnome.org/GNOME/gimp/-/work_items/new>  
 
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-aarch64.AppImage">Download arm64</a>
 </button>

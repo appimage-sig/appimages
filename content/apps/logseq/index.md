@@ -25,6 +25,6 @@ Translate: <https://github.com/logseq/logseq/blob/master/docs/contributing-to-tr
 Report the bug: <https://github.com/logseq/logseq/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/logseq/logseq/releases/download/0.10.15/Logseq-linux-x64-0.10.15.AppImage">Download x86_64</a>
 </button>

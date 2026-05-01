@@ -25,6 +25,6 @@ Translate: <https://github.com/azagaya/laigter/blob/master/CONTRIBUTING.md#contr
 Report the bug: <https://github.com/azagaya/laigter/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/azagaya/laigter/releases/download/1.13.1/Laigter-x86_64.AppImage">Download x86_64</a>
 </button>

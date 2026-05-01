@@ -25,6 +25,6 @@ Translate: <https://hosted.weblate.org/projects/losslesscut/losslesscut>
 Report the bug: <https://github.com/mifi/lossless-cut/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/mifi/lossless-cut/releases/download/v3.68.0/LosslessCut-linux-x86_64.AppImage">Download x86_64</a>
 </button>

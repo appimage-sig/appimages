@@ -25,6 +25,6 @@ Translate: <https://github.com/localsend/localsend?tab=readme-ov-file#translatio
 Report the bug: <https://github.com/localsend/localsend//issues>  
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage">Download x86_64</a>
 </button>

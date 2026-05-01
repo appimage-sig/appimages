@@ -23,6 +23,6 @@ Source code: <https://github.com/eclipse-theia/theia>
 Report the bug: <https://github.com/eclipse-theia/theia/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage">Download x86_64</a>
 </button>

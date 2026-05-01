@@ -23,6 +23,6 @@ Source code: <https://gitlab.com/lspies/photoqt>
 Translate: <https://translate.photoqt.org>  
 Report the bug: <https://gitlab.com/lspies/photoqt/-/work_items/new>  
 
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://photoqt.org/downloads/appimages/PhotoQt-5.1.AppImage">Download x86_64</a>
 </button>

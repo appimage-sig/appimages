@@ -25,6 +25,6 @@ Translate: <https://hosted.weblate.org/engage/gdm-settings>
 Report the bug: <https://github.com/gdm-settings/gdm-settings/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage">Download x86_64</a>
 </button>

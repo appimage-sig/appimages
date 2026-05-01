@@ -25,6 +25,6 @@ Translate: <https://hosted.weblate.org/projects/heroic-games-launcher>
 Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
 <a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.20.1/Heroic-2.20.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>

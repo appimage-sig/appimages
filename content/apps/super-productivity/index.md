@@ -23,6 +23,6 @@ Translate: <https://fink.inlang.com/github.com/johannesjo/super-productivity>
 Report the bug: <https://github.com/johannesjo/super-productivity/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.2.1/superProductivity-x86_64.AppImage">Download x86_64</a>
 </button>

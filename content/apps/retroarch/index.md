@@ -22,6 +22,6 @@ Translate: <https://crowdin.com/project/retroarch>
 Report the bug: <https://github.com/libretro/RetroArch/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch_Qt.7z">Download x86_64</a>
 </button>

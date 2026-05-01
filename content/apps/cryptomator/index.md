@@ -25,9 +25,9 @@ Translate: <https://translate.cryptomator.org>
 Report the bug: <https://github.com/cryptomator/cryptomator/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.2/cryptomator-1.19.2-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large">
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.2/cryptomator-1.19.2-aarch64.AppImage">Download arm64</a>
 </button>
