@@ -7,6 +7,7 @@
     {% for page in paginator.pages | default(value=section.pages) %}
     {{ blog_card::blog_card(data = page) }}
     {% endfor %}
-  {{ pagination::pagination() }}
+  </div>
+{{ pagination::pagination() }}
 {% endif %}
 {% endmacro posts_list %}

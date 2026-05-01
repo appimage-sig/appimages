@@ -12,15 +12,18 @@
             {{ config.title }}
             {% endif %}
           </a>
-        
+        </div>
+
         {% if config.extra.navigation %}
         <nav class="main-nav">
           <div class="main-nav__box">
 
             <div class="nav__icon-close">
               <i class="ion ion-md-close"></i>
-            
-            <div class="nav__title">Menu
+            </div>
+
+            <div class="nav__title">Menu</div>
+
             <ul class="nav__list list-reset">
               {% for item in config.extra.navigation %}
               {% set url = item.url | replace(from='$BASE_URL', to=config.base_url) %}
@@ -39,7 +42,8 @@
                   <a href="{{ url }}"
                     class="nav__link {% if is_active_link %}active-link{% endif %}">{{ subitem.title }}</a>
                   {% endfor %}
-                              </li>
+                </div>
+              </li>
 
               {% else %}
 
@@ -50,11 +54,16 @@
 
               {% endfor %}
             </ul>
-                  </nav>
+          </div>
+        </nav>
 
         <div class="nav-button">
           <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
-                {% endif %}
+        </div>
+        {% endif %}
 
-            </header>
+      </div>
+    </div>
+  </div>
+</header>
 <!-- end header -->

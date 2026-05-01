@@ -9,10 +9,18 @@
 
           <div class="{{c}}__left">
             <h1 class="{{c}}__title">{{ data.title }}</h1>
-            <div class="{{c}}__description">{{ data.description_html | safe }}                    <div class="{{c}}__right">
+            <div class="{{c}}__description">{{ data.description_html | safe }}</div>
+          </div>
+          <div class="{{c}}__right">
             <div class="{{c}}__image">
               <img loading="lazy" src="{{ get_url(path=data.image) }}" alt="{{ data.image_alt }}">
-                      
-                    </section>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- end hero -->
 {% endmacro hero %}

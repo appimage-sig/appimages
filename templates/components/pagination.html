@@ -18,7 +18,8 @@
         <div class="pagination__count">
           Page <span data-pagebreak-label="current">{{paginator.current_index}}</span>
           of <span data-pagebreak-label="total">{{paginator.number_pagers}}</span>
-        
+        </div>
+
         {% set next_text = "Next" %}
 
         {% if paginator.next %}
@@ -27,7 +28,10 @@
         {% else %}
         <span data-pagebreak-control="!next" class="pagination__next disabled">{{ next_text }}</span>
         {% endif %}
-      
-      </nav>
+      </div>
+
+    </div>
+  </div>
+</nav>
 <!-- end pagination -->
 {% endmacro pagination %}
