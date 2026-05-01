@@ -3,13 +3,13 @@
 // *****************
 
 // Spaces
-$base-spacing-unit: .625rem;
+$base-spacing-unit: 10px;
 
 // Border radius
 $global-radius: 1rem;
 
 // Transition
-$global-transition: all .35s;
+$global-transition: all 0.35s;
 
 
 // *****************
@@ -34,4 +34,4 @@ $font-size-h5:  125%;
 
 
 $heading-line-height: 1.25;
-$heading-letter-spacing: -0.0625rem;
+$heading-letter-spacing: -1px;
