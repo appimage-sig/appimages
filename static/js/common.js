@@ -52,13 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	/* =======================
-  // Responsive Videos
-  ======================= */
-	reframe(
-		".post__content iframe:not(.reframe-off), .page__content iframe:not(.reframe-off)",
-	);
-
-	/* =======================
   // Zoom Image
   ======================= */
 	const lightense = document.querySelector(".page img, .post img"),
