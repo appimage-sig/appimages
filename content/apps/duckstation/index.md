@@ -22,18 +22,18 @@ Source code: <https://github.com/stenzek/duckstation>
 
 Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-languages#linux>
 
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage">Download x86_64</a>
   </button>
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" Download x86_64 SSE2" " 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" Download x86_64 SSE2" " 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage">Download x86_64 SSE2</a>
   </button>
-   <button class="c-button c-button--primary c-button--medium" 
+   <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-arm64.AppImage">Download arm64</a>
   </button>
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-armhf.AppImage">Download armv7l</a>
   </button>
 </div>

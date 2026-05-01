@@ -22,4 +22,6 @@ Source code: <https://github.com/Bforartists/Bforartists>
 
 Report the bug: <https://github.com/Bforartists/Bforartists/issues>  
 
-Download: <https://github.com/Bforartists/Bforartists/releases/download/v5.1.0/Bforartists-5.1.0-x86_64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.1.0/Bforartists-5.1.0-x86_64.AppImage">Download x86_64</a>
+  </button>

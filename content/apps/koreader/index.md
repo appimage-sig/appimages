@@ -22,13 +22,13 @@ Become a sponsor: <https://liberapay.com/KOReader>
 Translate: <https://hosted.weblate.org/engage/koreader>  
 Report the bug: <https://github.com/koreader/koreader/issues>  
 
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-x86_64.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-aarch64.AppImage">Download arm64</a>
   </button>
-    <button class="c-button c-button--primary c-button--medium" 
+    <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-armhf.AppImage">Download armv7l</a>
   </button>

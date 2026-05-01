@@ -24,10 +24,10 @@ Become a sponsor: <https://ko-fi.com/jorio>
 Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
 Report the bug: <https://github.com/jorio/gitfourchette/issues>
 
-<div class="d_buttons">
-    <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+    <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/jorio/gitfourchette/releases/download/v1.7.1/GitFourchette-1.7.1-x86_64.AppImage">Download x86_64</a>  
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/jorio/gitfourchette/releases/download/v1.7.1/GitFourchette-1.7.1-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

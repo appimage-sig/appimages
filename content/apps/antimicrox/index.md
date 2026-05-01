@@ -23,5 +23,7 @@ Source code: <https://github.com/AntiMicroX/antimicrox>
 Become a sponsor: <https://polar.sh/AntiMicroX>  
 Translate: <https://hosted.weblate.org/engage/antimicrox>  
 Report the bug: <https://github.com/AntiMicroX/antimicrox/issues>  
-Download:   std version: <https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-x86_64.AppImage>  
-            debug version: <https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage>
+Download:   std version: <https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-x86_64.AppImage">Download x86_64</a>
+  </button>  
+            debug version: <https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64</a>
+  </button>

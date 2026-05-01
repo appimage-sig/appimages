@@ -20,4 +20,6 @@ Source code: <https://github.com/Sandakan/Nora>
 Translate: <https://crowdin.com/project/nora>  
 Report the bug: <https://github.com/Sandakan/Nora/issues>  
 
-Download: <https://github.com/Sandakan/Nora/releases/download/v4.0.0-alpha.2/Nora.v4.0.0-alpha.2-linux-x86_64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Sandakan/Nora/releases/download/v4.0.0-alpha.2/Nora.v4.0.0-alpha.2-linux-x86_64.AppImage">Download x86_64</a>
+  </button>

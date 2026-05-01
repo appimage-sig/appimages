@@ -21,4 +21,6 @@ Source code: <https://github.com/VSCodium/vscodium>
 
 Report the bug: <https://github.com/VSCodium/vscodium/issues>  
 
-Download: <https://github.com/VSCodium/vscodium/releases/download/1.112.01907/VSCodium-1.112.01907.glibc2.30-x86_64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/VSCodium/vscodium/releases/download/1.112.01907/VSCodium-1.112.01907.glibc2.30-x86_64.AppImage">Download x86_64</a>
+  </button>

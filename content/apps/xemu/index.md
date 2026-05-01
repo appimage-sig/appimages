@@ -21,18 +21,18 @@ Source code: <https://github.com/xemu-project/xemu>
 Become a sponsor: <https://www.patreon.com/mborgerson>  
 Report the bug: <https://github.com/xemu-project/xemu/issues>  
 
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-dbg-x86_64.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-aarch64.AppImage">Download arm64</a>
   </button>
 </div>
-    <button class="c-button c-button--primary c-button--medium" 
+    <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-dbg-x86_64.AppImage">Download debug x86_64</a>
   </button>
-    <button class="c-button c-button--primary c-button--medium" 
+    <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.134/xemu-0.8.134-dbg-aarch64.AppImage">Download debug arm64</a>
   </button>
 </div>

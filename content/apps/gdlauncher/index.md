@@ -22,4 +22,6 @@ Source code: <https://github.com/gorilla-devs/GDLauncher-Carbon>
 
 Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon/issues>
 
-Download: <https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage">Download x86_64</a>
+  </button>

@@ -20,4 +20,6 @@ Source code: <https://github.com/xonsh/xonsh>
 Become a sponsor: <https://github.com/sponsors/xonsh>  
 Report the bug: <https://github.com/xonsh/xonsh/issues>  
 
-Download: <https://github.com/xonsh/xonsh/releases/download/0.22.8/xonsh-pre-0.23.0-x86_64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/xonsh/xonsh/releases/download/0.22.8/xonsh-pre-0.23.0-x86_64.AppImage">Download x86_64</a>
+  </button>

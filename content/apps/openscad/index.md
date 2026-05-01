@@ -22,4 +22,6 @@ Become a sponsor: <https://github.com/sponsors/openscad>
 Translate: <https://wiki.documentfoundation.org/Language>  
 Report the bug: <https://github.com/openscad/openscad/issues>  
 
-Download: <https://files.openscad.org/snapshots/OpenSCAD-2026.04.16-x86_64.AppImage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://files.openscad.org/snapshots/OpenSCAD-2026.04.16-x86_64.AppImage">Download x86_64</a>
+  </button>

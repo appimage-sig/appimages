@@ -205,7 +205,7 @@ table {
   border-width: 1px;
   border-color: $text-color;
   border-collapse: collapse;
-  color: var(--heading-font-color);
+  color: $--heading-font-color);
 }
 
 table th {

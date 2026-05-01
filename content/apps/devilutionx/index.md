@@ -22,4 +22,6 @@ Source code: <https://github.com/diasurgical/devilutionX>
 Translate: <https://github.com/diasurgical/devilutionX/wiki/Translation-Guide>  
 Report the bug: <https://github.com/diasurgical/devilutionX/issues>  
 
-Download: <https://github.com/diasurgical/DevilutionX/releases/latest/download/devilutionx-linux-x86_64.appimage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/diasurgical/DevilutionX/releases/latest/download/devilutionx-linux-x86_64.AppImage">Download x86_64</a>
+  </button>

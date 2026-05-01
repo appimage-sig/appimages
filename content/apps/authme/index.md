@@ -24,4 +24,6 @@ Become a sponsor: <https://paypal.me/levminer>
 Translate: <https://github.com/Levminer/authme/issues/258#issuecomment-1909792332>  
 Report the bug: <https://github.com/Levminer/authme/issues>    
 
-Download: <https://github.com/Levminer/authme/releases/download/7.0.0/authme-7.0.0-linux-x64.appimage>
+  <button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/Levminer/authme/releases/download/7.0.0/authme-7.0.0-linux-x64.AppImage">Download x86_64</a>
+  </button>

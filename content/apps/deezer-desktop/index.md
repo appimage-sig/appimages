@@ -21,11 +21,11 @@ Source code: <https://github.com/aunetx/deezer-linux>
 Become a sponsor: <https://github.com/sponsors/aunetx>  
 Report the bug: <https://github.com/aunetx/deezer-linux/issues>  
 
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.150/deezer-desktop-7.1.150-x86_64.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/aunetx/deezer-linux/releases/download/v7.1.150/deezer-desktop-7.1.150-arm64.AppImage">Download arm64</a>
   </button>
 </div>

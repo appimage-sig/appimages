@@ -24,10 +24,10 @@ Become a sponsor: <https://github.com/sponsors/WerWolv>
 Translate: <https://weblate.werwolv.net/projects/imhex>  
 Report the bug: <https://github.com/WerWolv/ImHex/issues>  
 
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--medium" 
+<div class="groups">
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-x86_64.AppImage">Download x86_64</a>
   </button>
-  <button class="c-button c-button--primary c-button--medium" 
+  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-arm64.AppImage">Download arm64</a>
   </button>
