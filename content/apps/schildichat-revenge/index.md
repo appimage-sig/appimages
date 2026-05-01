@@ -23,7 +23,7 @@ Source code: <https://github.com/SchildiChat/schildi-revenge/>
 Translate: <https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/>  
 Report the bug: <https://github.com/SchildiChat/schildichat-desktop/issues>  
 
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.04.04/SchildiChatRevenge-x86_64-26.04.04.AppImage">Download x86_64</a>
 </button>
 </div>

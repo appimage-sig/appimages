@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/Ultimaker>
 Translate: <https://github.com/Ultimaker/Cura/wiki/Translating-Cura>  
 Report the bug: <https://github.com/Ultimaker/Cura/issues>  
 
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Ultimaker/Cura/releases/download/5.12.1/UltiMaker-Cura-5.12.1-linux-X64.AppImage">Download x86_64</a>
 </button>
 </div>

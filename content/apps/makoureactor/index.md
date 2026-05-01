@@ -20,10 +20,10 @@ Source code: <https://github.com/myst6re/makoureactor>
 Report the bug: <https://github.com/myst6re/makoureactor/issues>  
 
 <div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage">Download arm64</a>
 </button>
 </div>

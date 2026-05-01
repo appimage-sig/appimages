@@ -23,13 +23,13 @@ Translate: <https://hosted.weblate.org/projects/armcord/>
 Report the bug: <https://github.com/Legcord/Legcord/issues>  
 
 <div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-armv7l.AppImage">Download arm64</a>
 </button>
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-armv7l.AppImage">Download armv7l</a>
 </button>
 </div>

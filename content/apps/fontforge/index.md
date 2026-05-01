@@ -24,7 +24,7 @@ Become a sponsor: <https://fontforge.org/en-US/donate>
 Translate: <https://crowdin.com/project/fontforge>  
 Report the bug: <https://github.com/fontforge/fontforge/issues>  
 
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/fontforge/fontforge/releases/download/20251009/FontForge-2025-10-09-Linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
