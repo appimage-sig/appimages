@@ -25,3 +25,4 @@ Report the bug: <https://github.com/vifm/vifm/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/vifm/vifm/releases/download/v0.14.3/vifm-v0.14.3-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

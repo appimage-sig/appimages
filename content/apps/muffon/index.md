@@ -30,3 +30,4 @@ Report the bug: <https://github.com/staniel359/muffon/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/staniel359/muffon/releases/download/v2.4.0/muffon-2.4.0-linux-arm64.AppImage">Download arm64</a>
 </button>
+</div>

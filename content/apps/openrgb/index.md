@@ -32,6 +32,7 @@ Report the bug: <https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/new>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_i386_0fca93e.AppImage">Download x86</a>
 </button>
+</div>
     <button class="c-button c-button--primary c-button--large" 
       <a href="https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_candidate_1.0rc2/OpenRGB_1.0rc2_armhf_0fca93e.AppImage">Download armv7l</a>
 </button>

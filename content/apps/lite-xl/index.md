@@ -23,3 +23,4 @@ Report the bug: <https://github.com/lite-xl/lite-xl/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

@@ -23,3 +23,4 @@ Report the bug: <https://github.com/xonsh/xonsh/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/xonsh/xonsh/releases/download/0.22.8/xonsh-pre-0.23.0-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

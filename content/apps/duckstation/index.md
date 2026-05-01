@@ -26,10 +26,12 @@ Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-langu
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage">Download x86_64</a>
 </button>
+</div>
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" Download x86_64 SSE2" " 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage">Download x86_64 SSE2</a>
 </button>
+</div>
  <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-arm64.AppImage">Download arm64</a>
 </button>

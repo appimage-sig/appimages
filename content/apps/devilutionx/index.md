@@ -25,3 +25,4 @@ Report the bug: <https://github.com/diasurgical/devilutionX/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/diasurgical/DevilutionX/releases/latest/download/devilutionx-linux-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

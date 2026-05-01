@@ -30,3 +30,4 @@ Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.4.0/jitsi-meet-arm64.AppImage">Download arm64</a>
 </button>
+</div>

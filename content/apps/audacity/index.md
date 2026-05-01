@@ -23,3 +23,4 @@ Report the bug: <https://github.com/audacity/audacity/issues>
 
 Download x86_64: <https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-linux-3.7.7-x64-22.04.AppImage">Download x86_64</a>
 </button>
+</div>

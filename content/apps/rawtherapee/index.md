@@ -25,3 +25,4 @@ Report the bug: <https://github.com/RawTherapee/RawTherapee/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/RawTherapee/RawTherapee/releases/download/5.12/RawTherapee_5.12_release.AppImage">Download x86_64</a>
 </button>
+</div>

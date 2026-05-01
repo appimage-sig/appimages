@@ -24,3 +24,4 @@ Report the bug: <https://github.com/nextcloud/desktop/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/nextcloud-releases/desktop/releases/download/v33.0.2/Nextcloud-33.0.2-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

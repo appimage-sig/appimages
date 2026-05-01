@@ -25,3 +25,4 @@ Report the bug: <https://github.com/rivafarabi/deckboard/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/rivafarabi/deckboard/releases/download/v3.1.4/Deckboard-3.1.4.AppImage">Download x86_64</a>
 </button>
+</div>

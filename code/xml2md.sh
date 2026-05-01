@@ -44,4 +44,5 @@ Report the bug: <$bugtracker>
 
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage">Download x86_64</a>
-</button> " >> ~/apps-for-linux.github.io/content/apps/$title.md
+</button>
+</div> " >> ~/apps-for-linux.github.io/content/apps/$title.md

@@ -24,3 +24,4 @@ Report the bug: <https://github.com/RSSNext/Folo/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/RSSNext/Folo/releases/download/desktop%2Fv1.6.1/Folo-1.6.1-linux-x64.AppImage">Download x86_64</a>
 </button>
+</div>

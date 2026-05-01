@@ -23,3 +23,4 @@ Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/6.3.1-Mavy/tidal-hifi-6.3.1.AppImage">Download x86_64</a>
 </button>
+</div>

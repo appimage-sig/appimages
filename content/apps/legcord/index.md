@@ -32,3 +32,4 @@ Report the bug: <https://github.com/Legcord/Legcord/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-armv7l.AppImage">Download armv7l</a>
 </button>
+</div>

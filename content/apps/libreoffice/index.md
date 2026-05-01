@@ -25,3 +25,4 @@ Report the bug: <https://bugs.documentfoundation.org>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://appimages.libreitalia.org/portable/LibreOffice-25.8.4.2.standard-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

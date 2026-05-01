@@ -25,3 +25,4 @@ Report the bug: <https://github.com/flyinghead/flycast/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

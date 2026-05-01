@@ -26,3 +26,4 @@ Report the bug: <https://invent.kde.org/multimedia/kdenlive/-/work_items/new>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://download.kde.org/stable/kdenlive/25.12/linux/kdenlive-25.12.3-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

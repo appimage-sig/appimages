@@ -23,3 +23,4 @@ Report the bug: <https://github.com/every-day-things/citadel/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/every-day-things/citadel/releases/download/app-v0.3.0/citadel_0.3.0_amd64.AppImage">Download x86_64</a>
 </button>
+</div>

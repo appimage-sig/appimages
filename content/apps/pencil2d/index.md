@@ -24,3 +24,4 @@ Report the bug: <https://github.com/pencil2d/pencil/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/pencil2d/pencil/releases/download/v0.7.2/pencil2d-linux-amd64-v0.7.2.AppImage">Download x86_64</a>
 </button>
+</div>

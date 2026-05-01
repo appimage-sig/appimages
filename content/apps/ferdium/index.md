@@ -25,3 +25,4 @@ Report the bug: <https://github.com/ferdium/ferdium-app/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.1.2-nightly.9/Ferdium-linux-Portable-7.1.2-nightly.9-x86_64.AppImage">Download x86_64</a>
 </button>
+</div>

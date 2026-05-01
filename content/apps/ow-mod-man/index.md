@@ -23,3 +23,4 @@ Report the bug: <https://github.com/ow-mods/ow-mod-man/issues>
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.3/Outer.Wilds.Mod.Manager_0.15.3_amd64.AppImage">Download x86_64</a>
 </button>
+</div>
