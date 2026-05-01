@@ -23,8 +23,6 @@ Source code: <https://github.com/pbek/QOwnNotes>
 Become a sponsor: <https://github.com/sponsors/pbek>  
 Translate: <https://crowdin.com/project/qownnotes>  
 Report the bug: <https://github.com/pbek/QOwnNotes/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/pbek/QOwnNotes/releases/download/v26.4.15/QOwnNotes-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

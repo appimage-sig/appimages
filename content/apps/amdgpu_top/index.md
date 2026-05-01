@@ -21,11 +21,8 @@ Source code: <https://github.com/Umio-Yasuno/amdgpu_top>
 Translate: <https://github.com/Umio-Yasuno/amdgpu_top?tab=readme-ov-file#translations>  
 Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.2/amdgpu_top-aarch64.AppImage">Download arm64</a>
 </button>
-</div>

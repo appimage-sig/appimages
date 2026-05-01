@@ -23,14 +23,11 @@ Source code: <https://github.com/headlamp-k8s/headlamp>
 Translate: <https://github.com/headlamp-k8s/headlamp/blob/main/docs/development/i18n/contributing.md>  
 Report the bug: <https://github.com/headlamp-k8s/headlamp/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.41.0/Headlamp-0.41.0-linux-x64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.41.0/Headlamp-0.41.0-linux-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.41.0/Headlamp-0.41.0-linux-armv7l.AppImage">Download armv7l</a>
 </button>
 </div>

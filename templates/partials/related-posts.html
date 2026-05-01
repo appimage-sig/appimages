@@ -12,19 +12,12 @@
               {% set tag_url = get_taxonomy_url(kind="tags", name=tag, lang=page.lang) %}
               <a href="{{ tag_url }}" class="section__link related-tag">See all<span> {{ tag }}</span> <i
                   class="ion ion-md-arrow-forward"></i></a>
-            </div>
-          </div>
-          {#
+                                {#
           <div class="row">
             {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
             {{ partial "article-content.html" . }}
             {{ end }}
-          </div>
-          #}
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
+                    #}
+                    </section>
 <!-- end related posts -->
 {% endif %}

@@ -22,18 +22,13 @@ Source code: <https://github.com/feather-wallet/feather>
 
 Report the bug: <https://github.com/feather-wallet/feather/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://featherwallet.org/files/releases/linux-appimage/feather-2.8.1.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://featherwallet.org/files/releases/linux-arm64-appimage/feather-2.8.1-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://featherwallet.org/files/releases/linux-arm-appimage/feather-2.8.1-arm.AppImage">Download armv7l</a>
 </button>
-</div>
   <button class="c-button c-button--primary c-button--large" 
       <a href="https://featherwallet.org/files/releases/linux-riscv64-appimage/feather-2.8.1-riscv64.AppImage">Download riscv64</a>
 </button>
-</div>

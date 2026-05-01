@@ -6,13 +6,11 @@
     {% if page.lower.extra.image %}
     <div class="prev__image">
       <img loading="lazy" src="{{ get_url(path=page.lower.extra.image) }}" alt="{{ page.lower.title }}">
-    </div>
-    {% endif %}
+        {% endif %}
     <div class="prev__box">
       <span class="post__nav post__nav__prev">Prev post</span>
       <h2 class="post__nav__title">{{ page.lower.title }}</h2>
-    </div>
-  </a>
+      </a>
   {% endif %}
 
   {% if page.higher %}
@@ -20,14 +18,11 @@
     <div class="next__box">
       <span class="post__nav post__nav__next">Next post</span>
       <h2 class="post__nav__title">{{ page.higher.title }}</h2>
-    </div>
-    {% if page.higher.extra.image %}
+        {% if page.higher.extra.image %}
     <div class="next__image">
       <img loading="lazy" src="{{ get_url(path=page.higher.extra.image) }}" alt="{{ page.higher.title }}">
-    </div>
-    {% endif %}
+        {% endif %}
   </a>
   {% endif %}
 
-</div>
 {% endif %}

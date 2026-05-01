@@ -16,14 +16,9 @@
         </ul>
 
         {% if config.extra.footer.copyright %}
-        <div class="copyright">{{ config.extra.footer.copyright }}</div>
-        {% else %}
+        <div class="copyright">{{ config.extra.footer.copyright }}        {% else %}
         <div class="copyright">&copy; {{ now() | date(format="%Y") }} <a
-            href="{{ config.base_url }}">{{ config.author }}</a></div>
-        {% endif %}
+            href="{{ config.base_url }}">{{ config.author }}</a>        {% endif %}
 
-      </div>
-    </div>
-  </div>
-</footer>
+            </footer>
 <!-- end footer -->

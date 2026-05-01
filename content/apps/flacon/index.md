@@ -23,8 +23,6 @@ Source code: <https://github.com/flacon/flacon>
 Become a sponsor: <https://flacon.github.io/donate>  
 Translate: <https://explore.transifex.com/sokoloff/flacon/>  
 Report the bug: <https://github.com/flacon/flacon/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/flacon/flacon/releases/download/v12.0.0/flacon-12.0.0-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

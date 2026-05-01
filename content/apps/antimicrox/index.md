@@ -28,4 +28,3 @@ Download:   std version: <https://github.com/AntiMicroX/antimicrox/releases/down
 </div>  
             debug version: <https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

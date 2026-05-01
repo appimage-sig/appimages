@@ -19,8 +19,6 @@ Web page: <https://archipelago.gg>
 Source code: <https://github.com/ArchipelagoMW/Archipelago>
 
 Report the bug: <https://github.com/ArchipelagoMW/Archipelago/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.7/Archipelago_0.6.7_linux-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

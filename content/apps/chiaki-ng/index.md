@@ -23,10 +23,8 @@ Source code: <https://github.com/streetpea/chiaki-ng>
 Become a sponsor: <https://buymeacoffee.com/streetpea>  
 Report the bug: <https://github.com/streetpea/chiaki-ng/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_x86_64">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64>  
-    </div>
+    

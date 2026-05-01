@@ -26,8 +26,6 @@ Report the bug: <https://github.com/gitbutlerapp/gitbutler/issues>
   <button class="c-button c-button--primary c-button--large" 
         <a href="https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/x86_64/GitButler_0.18.8_amd64.AppImage.tar.gz">Download x86_64</a>
  </button>
-</div>  
-<button class="c-button c-button--primary c-button--large" 
+</div>  <button>
       <a href="https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/aarch64/GitButler_0.18.8_aarch64.AppImage.tar.gz">Download arm64</a>
 </button>
-</div>

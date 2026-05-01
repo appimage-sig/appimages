@@ -23,8 +23,6 @@ Source code: <https://github.com/logseq/logseq>
 Become a sponsor: <https://opencollective.com/logseq>  
 Translate: <https://github.com/logseq/logseq/blob/master/docs/contributing-to-translations.md>  
 Report the bug: <https://github.com/logseq/logseq/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/logseq/logseq/releases/download/0.10.15/Logseq-linux-x64-0.10.15.AppImage">Download x86_64</a>
 </button>
-</div>

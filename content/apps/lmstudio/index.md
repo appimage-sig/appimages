@@ -19,11 +19,9 @@ Web page: <https://lmstudio.ai/>
 Report the bug: <https://github.com/lmstudio-ai/lmstudio-bug-tracker/issues>  
 Translate: <https://github.com/lmstudio-ai/localization> 
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://installers.lmstudio.ai/linux/x64/0.4.12-1/LM-Studio-0.4.12-1-x64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://installers.lmstudio.ai/linux/arm64/0.4.12-1/LM-Studio-0.4.12-1-arm64.AppImage">Download arm64</a>
 </button>
 </div>

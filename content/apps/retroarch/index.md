@@ -20,6 +20,5 @@ Source code: <https://github.com/libretro/RetroArch>
 Become a sponsor: <https://github.com/sponsors/libretro>  
 Translate: <https://crowdin.com/project/retroarch>  
 Report the bug: <https://github.com/libretro/RetroArch/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch_Qt.7z>

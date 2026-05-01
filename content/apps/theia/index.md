@@ -21,8 +21,6 @@ Web page: <http://theia-ide.org/>
 Source code: <https://github.com/eclipse-theia/theia>
 
 Report the bug: <https://github.com/eclipse-theia/theia/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage">Download x86_64</a>
 </button>
-</div>

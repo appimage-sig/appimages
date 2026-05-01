@@ -20,8 +20,6 @@ Web page: <https://wavebox.io>
 Source code: <https://github.com/wavebox/waveboxapp>
 
 Report the bug: <https://github.com/wavebox/waveboxapp/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://download.wavebox.app/stable/linux/appimage/Wavebox_10.147.47-2_x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

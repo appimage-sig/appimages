@@ -20,8 +20,6 @@ Web page: <https://www.gams.com>
 Source code: <https://github.com/GAMS-dev/studio>
 
 Report the bug: <https://github.com/GAMS-dev/studio/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/GAMS-dev/studio/releases/download/v1.24.3/GAMS_Studio-1.24.3-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

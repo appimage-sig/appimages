@@ -21,11 +21,8 @@ Source code: <https://github.com/ossia/score>
 Become a sponsor: <https://opencollective.com/ossia>  
 Report the bug: <https://github.com/ossia/score/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class="groups"><button>
       <a href="https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" 
+</button><button>
       <a href="https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage">Download arm64</a>
 </button>
-</div>

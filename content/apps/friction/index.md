@@ -21,8 +21,6 @@ Web page: <https://friction.graphics>
 Source code: <https://github.com/friction2d/friction>
 
 Report the bug: <https://github.com/friction2d/friction/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/Friction-1.0.0-rc.3-x86_64.AppImage">Download x86_64</a>
 </button>
-</div>

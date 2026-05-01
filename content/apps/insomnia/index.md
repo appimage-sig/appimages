@@ -20,8 +20,6 @@ Web page: <https://insomnia.rest>
 Source code: <https://github.com/Kong/insomnia>
 
 Report the bug: <https://github.com/Kong/insomnia/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/Kong/insomnia/releases/download/core%4012.5.0/Insomnia.Core-12.5.0.AppImage">Download x86_64</a>
 </button>
-</div>

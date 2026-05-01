@@ -21,7 +21,4 @@ Source code: <https://github.com/KDAB/hotspot>
 
 Report the bug: <https://github.com/KDAB/hotspot/issues>  
 
-<button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/KDAB/hotspot/releases/download/continuous/hotspot-continuous.AppImage">Download x86_64</a>
-</button>
-</div>
+<button><a href="https://github.com/KDAB/hotspot/releases/download/continuous/hotspot-continuous.AppImage">Download x86_64</a></button>

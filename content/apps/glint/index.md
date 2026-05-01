@@ -18,8 +18,6 @@ Web page: <https://glint.info/en/>
 License: EULA
 
 Report the bug: <https://github.com/LogicOverSnacks/glint-release/issues>  
-
-<button class="c-button c-button--primary c-button--large" 
+<button>
       <a href="https://github.com/LogicOverSnacks/glint-release/releases/download/v1.9.5/Glint-1.9.5.AppImage">Download x86_64</a>
 </button>
-</div>
