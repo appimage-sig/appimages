@@ -23,6 +23,15 @@ taxonomies = [
     { name = "license" },
 ]
 
+[markdown.highlighting]
+style = "class"
+light_theme = "monokai-light"
+dark_theme = "monokai"
+extra_themes = [
+  "giallo/themes/monokai-light.json",
+  "giallo/themes/monokai.json",
+]
+
 [extra]
 logo_image = "images/logo.svg"
 social_media_share_image = "/images/01.jpg"
