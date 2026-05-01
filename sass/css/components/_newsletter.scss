@@ -1,6 +1,8 @@
 /* Newsletter */
 
-.c-subscribe { $c: &;
+.c-subscribe {
+  $c: &;
+
   &__inner {
     max-width: 580px;
     margin: 0 auto;
@@ -75,26 +77,30 @@
       box-shadow: 0px 4px 10px rgba($primary-color, 0.25);
     }
   }
-  }
+}
 
-  .ityped-cursor {
+.ityped-cursor {
   font-weight: 400;
   animation: blink 0.4s infinite;
   animation-direction: alternate;
-  }
+}
 
-  @keyframes blink {
-  0%, to {
+@keyframes blink {
+
+  0%,
+  to {
     color: transparent;
   }
 
   100% {
     color: $primary-color;
   }
-  }
+}
 
-  @-webkit-keyframes blink {
-  0%, to {
+@-webkit-keyframes blink {
+
+  0%,
+  to {
     color: transparent;
   }
 

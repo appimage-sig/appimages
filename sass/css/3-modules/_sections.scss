@@ -7,7 +7,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-     padding: 60px 0;
+    padding: 60px 0;
   }
 }
 
@@ -18,20 +18,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
     .section__title {
       margin: 0;
       font-size: 32px;
       line-height: 1;
     }
-  
+
     .section__link {
       font-size: 16px;
       font-weight: 500;
       line-height: 1;
       white-space: nowrap;
       will-change: transform;
-  
+
       &:hover {
         color: $text-color;
 

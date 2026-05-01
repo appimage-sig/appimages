@@ -1,5 +1,6 @@
 /* Hero */
-.c-hero { $c: &;
+.c-hero {
+  $c: &;
   padding: 96px 0;
 
   @media only screen and (max-width: $desktop) {
@@ -7,7 +8,7 @@
   }
 
   @media only screen and (max-width: $tablet) {
-      padding: 40px 0 80px;
+    padding: 40px 0 80px;
   }
 
   @media only screen and (max-width: $mobile) {
@@ -45,7 +46,7 @@
 
   &__right {
     position: relative;
-    
+
     @media only screen and (max-width: 1130px) {
       #{$c}__image {
         width: 400px;
@@ -139,7 +140,7 @@
     .works-button {
       &:hover {
         .circle-bg {
-          transition: all .2s cubic-bezier(.215,.61,.355,1);
+          transition: all .2s cubic-bezier(.215, .61, .355, 1);
           transform: scale(.94);
         }
       }
@@ -168,6 +169,7 @@
     }
 
     @media only screen and (max-width: $mobile) {
+
       .cta-button,
       .works-button {
         font-size: 15px;

@@ -3,10 +3,10 @@
 // *****************
 
 // Spaces
-$base-spacing-unit: 10px;
+$base-spacing-unit: .625rem;
 
 // Border radius
-$global-radius: 16px;
+$global-radius: 1rem;
 
 // Transition
 $global-transition: all .35s;
@@ -15,24 +15,23 @@ $global-transition: all .35s;
 // *****************
 // Typography
 // *****************
-$base-font-size: 18px;
+$base-font-size: 100%;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: 'Inter', Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Inter, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif;
 $base-line-height: 1.8;
 
 // Headings
 $heading-font-weight: 900;
-$heading-font-family: 'Inter', Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Inter, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif;
 
-$font-size-h1:  36px;
-$font-size-h2:  28px;
-$font-size-h3:  24px;
-$font-size-h4:  20px;
-$font-size-h5:  18px;
-$font-size-h6:  16px;
+$font-size-h1:  225%;
+$font-size-h2:  175%;
+$font-size-h3:  150%;
+$font-size-h4:  125%;
+$font-size-h5:  125%;
 
 
-$heading-line-height: 1.2;
-$heading-letter-spacing: -1px;
+$heading-line-height: 1.25;
+$heading-letter-spacing: -0.0625rem;
