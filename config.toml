@@ -82,7 +82,7 @@ copyright = "DrSheppard01 2026"
 
 [[extra.content_blocks]]
 block = "blog-section"
-title = "Recent Posts"
+title = "Recently updated apps"
 description_html = """
     <p>AppImage catalog for Linux users</p>"""
 link_url = "apps"
