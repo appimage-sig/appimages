@@ -61,6 +61,7 @@ social_icons = [
     { url = "$BASE_URL/atom.xml", icon = "RSS" },
 ]
 date_format = "%d %b %Y"
+timezone = "Europe/Moscow"
 language_direction = "auto"
 keywords = ["AppImage", "Linux", "Software Center", "Software Catalog"]
 
