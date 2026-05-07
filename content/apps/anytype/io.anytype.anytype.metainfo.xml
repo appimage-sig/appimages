@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.anytype.anytype</id>
+
+  <name>Anytype</name>
+  <summary>The everything app for those who celebrate trust and autonomy</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/anyproto/anytype-ts/main/LICENSE.md</project_license>
+
+  <content_rating type="oars-1.1"/>
+
+  <description>
+    <p>Anytype is a local-first, E2E encrypted software designed as a secure place to create and store digital assets.</p>
+    <p>You can use Anytype to create and connect your tasks, notes, ideas, documents, workflows, and more.</p>
+    <p>Future versions will allow you to share your work and safely collaborate with others. Our long-term vision is for Anytype to enable large-scale collaboration to create a global repository of interconnected knowledge.</p>
+    <p>Explore the documentation to learn more about using the product, troubleshooting your account, and data privacy.</p>
+  </description>
+
+  <developer id="io.anytype">
+    <name>Any Association</name>
+  </developer>
+  <update_contact>info@anytype.io</update_contact>
+
+  <launchable type="desktop-id">io.anytype.anytype.desktop</launchable>
+
+  <releases>
+    <release version="0.55.4" date="2026-05-05">
+      <description></description>
+    </release>
+    <release version="0.55.3" date="2026-04-30">
+      <description/>
+    </release>
+    <release version="0.55.1" date="2026-04-29">
+      <description/>
+    </release>
+    <release version="0.55.0" date="2026-04-29">
+      <description/>
+    </release>
+    <release version="0.54.11" date="2026-03-26">
+      <description/>
+    </release>
+    <release version="0.54.9" date="2026-03-17">
+      <description/>
+    </release>
+    <release version="0.54.5" date="2026-03-10">
+      <description/>
+    </release>
+    <release version="0.54.2" date="2026-02-18">
+      <description/>
+    </release>
+    <release version="0.54.1" date="2026-02-17">
+      <description/>
+    </release>
+    <release version="0.54.0" date="2026-02-16">
+      <description/>
+    </release>
+    <release version="0.53.1" date="2025-12-22">
+      <description/>
+    </release>
+    <release version="0.53.0" date="2025-12-22">
+      <description/>
+    </release>
+    <release version="0.52.4" date="2025-12-12">
+      <description/>
+    </release>
+    <release version="0.52.3" date="2025-12-11">
+      <description/>
+    </release>
+    <release version="0.52.2" date="2025-12-10">
+      <description/>
+    </release>
+    <release version="0.52.1" date="2025-12-10">
+      <description/>
+    </release>
+    <release version="0.52.0" date="2025-12-08">
+      <description/>
+    </release>
+    <release version="0.51.2" date="2025-11-27">
+      <description/>
+    </release>
+    <release version="0.51.1" date="2025-11-26">
+      <description/>
+    </release>
+    <release version="0.51.0" date="2025-11-24">
+      <description/>
+    </release>
+    <release version="0.50.5" date="2025-10-08">
+      <description/>
+    </release>
+    <release version="0.50.4" date="2025-10-07">
+      <description/>
+    </release>
+    <release version="0.50.3" date="2025-10-03">
+      <description/>
+    </release>
+    <release version="0.50.2" date="2025-10-03">
+      <description/>
+    </release>
+    <release version="0.50.1" date="2025-10-02">
+      <description/>
+    </release>
+    <release version="0.50.0" date="2025-10-01">
+      <description/>
+    </release>
+    <release version="0.49.2" date="2025-08-25">
+      <description/>
+    </release>
+    <release version="0.49.1" date="2025-08-22">
+      <description/>
+    </release>
+    <release version="0.49.0" date="2025-08-21">
+      <description/>
+    </release>
+    <release version="0.48.5" date="2025-08-16">
+      <description/>
+    </release>
+    <release version="0.48.4" date="2025-08-15">
+      <description/>
+    </release>
+    <release version="0.48.2" date="2025-08-13">
+      <description/>
+    </release>
+    <release version="0.48.1" date="2025-08-13">
+      <description/>
+    </release>
+    <release version="0.48.0" date="2025-08-12">
+      <description/>
+    </release>
+    <release version="0.47.6" date="2025-07-16">
+      <description/>
+    </release>
+    <release version="0.47.5" date="2025-06-30">
+      <description/>
+    </release>
+    <release version="0.47.4" date="2025-06-27">
+      <description/>
+    </release>
+    <release version="0.47.3" date="2025-06-18"/>
+    <release version="0.46.8" date="2025-05-27"/>
+    <release version="0.46.7" date="2025-05-26"/>
+    <release version="0.46.5" date="2025-05-09"/>
+    <release version="0.46.4" date="2025-04-24"/>
+    <release version="0.46.3" date="2025-04-23"/>
+    <release version="0.46.2" date="2025-04-23"/>
+    <release version="0.46.1" date="2025-04-18"/>
+    <release version="0.46.0" date="2025-04-16">
+      <description>
+        <p>Create a manual backup before updating. This release replaces the underlying database, and Anytype must perform a data migration to the new database format upon running the new release for the first time.</p>
+      </description>
+    </release>
+    <release version="0.45.3" date="2025-02-17"/>
+    <release version="0.45.2" date="2025-02-13"/>
+    <release version="0.45.1" date="2025-02-12"/>
+    <release version="0.44.0" date="2024-12-18"/>
+    <release version="0.43.8" date="2024-11-26"/>
+    <release version="0.43.7" date="2024-11-22"/>
+    <release version="0.43.6" date="2024-11-11"/>
+    <release version="0.43.4" date="2024-10-31"/>
+    <release version="0.43.1" date="2024-10-24"/>
+    <release version="0.42.8" date="2024-09-06"/>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://github.com/user-attachments/assets/6b11140f-ea1b-48d6-b14a-d89c3a6d57ca</image>
+      <caption>Example plant database</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/user-attachments/assets/716e8d37-be38-41c6-9816-7079546c20df</image>
+      <caption>Example custom plant object</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/user-attachments/assets/f6bc73f9-eedc-4c89-a8bb-2028715bf109</image>
+      <caption>Markdown editor with commands</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/user-attachments/assets/6ae891d7-b4fe-465e-b46b-83353d13e405</image>
+      <caption>Darkmode appearance</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/user-attachments/assets/97629e3b-68d4-4572-90b9-acfb7ca7c7ac</image>
+      <caption>Graph zoomed in</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/user-attachments/assets/83ba8573-b966-415a-96cc-92a8f8feef5f</image>
+      <caption>Graph zoomed out</caption>
+    </screenshot>
+  </screenshots>
+
+  <url type="bugtracker">https://github.com/anyproto/anytype-ts/issues/</url>
+  <url type="help">https://doc.anytype.io/</url>
+  <url type="homepage">https://anytype.io/</url>
+  <url type="vcs-browser">https://github.com/anyproto/anytype-ts/</url>
+  
+</component>
