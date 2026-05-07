@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>@APP_ID@</id>
+  <launchable type="desktop-id">@APP_ID@.desktop</launchable>
+  <project_license>GPL-2.0 and CC-BY-3.0</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>@PROPER_NAME@</name>
+  <developer_name>@PROPER_NAME@ Community</developer_name>
+  <summary>Record and edit audio files</summary>
+  <description>
+    <p>@PROPER_NAME@ is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems. The interface is translated into many languages.</p>
+    <p>You can use @PROPER_NAME@ to:</p>
+    <ul>
+      <li>Record live audio</li>
+      <li>Convert tapes and records into digital recordings or CDs</li>
+      <li>Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files</li>
+      <li>Cut, copy, splice or mix sounds together</li>
+      <li>Change the speed or pitch of a recording</li>
+      <li>Apply a wide range of other effects to audio recordings</li>
+    </ul>
+  </description>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+  </categories>
+  <content_rating type="oars-1.1" />
+  <url type="homepage">https://tenacityaudio.org</url>
+  <url type="bugtracker">https://codeberg.org/tenacityteam/tenacity/issues</url>
+  <url type="help">https://tenacityaudio.org/docs/index.html</url>
+  <url type="translate">https://hosted.weblate.org/projects/tenacity/tenacity</url>
+  <url type="contribute">https://codeberg.org/tenacityteam/tenacity/src/branch/main/CONTRIBUTING.md</url>
+  <url type="contact">https://matrix.to/#/#tenacity2:matrix.org</url>
+  <url type="vcs-browser">https://codeberg.org/tenacityteam/tenacity</url>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://tenacityaudio.org/images/screenshots/tenacity-screenshot-dark-3840x2160.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.4-alpha" date="2023-07-09"/>
+    <release version="1.3.4" date="2024-12-31"/>
+    <release version="1.3.3" date="2023-11-12"/>
+    <release version="1.3.2" date="2023-10-15"/>
+    <release version="1.3.1" date="2023-07-15"/>
+    <release version="1.3" date="2023-07-08"/>
+  </releases>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+</component>

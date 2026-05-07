@@ -38,6 +38,28 @@
   <url type="homepage">https://github.com/CyberTimon/RapidRAW</url>
 
   <releases>
+    <release version="v1.5.5" date="2026-05-04">
+        <url type="details">https://github.com/CyberTimon/RapidRAW/releases/tag/v1.5.5</url>
+        <description translate="no">
+            <p>New Features</p>
+            <ul>
+                <li>Parametric Curves: A new tool for precise, targeted adjustments to shadows, midtones, and highlights.</li>
+                <li>Manual Noise Reduction: Added Luminance and Color sliders for fine-tuned noise control.</li>
+                <li>Customizable Keyboard Shortcuts: Remap actions to your preferred keybinds in a new settings panel.</li>
+                <li>Direct EXIF Editing: Edit metadata like Author, Copyright, and Title directly within the app.</li>
+                <li>Focus Mode: A new mode that automatically collapses inactive adjustment sections to reduce clutter.</li>
+            </ul>
+            <p>Core Improvements</p>
+            <ul>
+                <li>Faster Library Browsing: Optimized thumbnail generation for significantly faster navigation in large folders.</li>
+                <li>Improved Shader Pipeline for Masking: Reworked how masks are processed for more consistent and accurate blending, especially with complex, overlapping masks. Existing edits with stacked masks may need minor readjustment.</li>
+                <li>Enhanced Exposure Processing: The filmic exposure algorithm has been improved for more natural results.</li>
+                <li>Local contrast adjustments like clarity and sharpness now deliver higher-quality results without artifacts.</li>
+                <li>Fixed a bug where batch editing did not respect copy/paste settings.</li>
+                <li>General stability improvements and bug fixes.</li>
+            </ul>
+        </description>
+    </release>
     <release version="v1.5.4" date="2026-04-22">
         <url type="details">https://github.com/CyberTimon/RapidRAW/releases/tag/v1.5.4</url>
         <description translate="no">
