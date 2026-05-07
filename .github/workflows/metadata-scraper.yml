@@ -1,0 +1,30 @@
+name: Get Metadata
+
+on:
+  schedule:
+    - cron: '0 16 1/14 * *'
+  workflow_dispatch:
+
+jobs:
+  run-metadata:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run getmetadata script
+        run: sh ./code/getmetadata.sh
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update metadata - $(date)" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
