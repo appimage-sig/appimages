@@ -19,7 +19,7 @@ Source code: <https://github.com/Syllo/nvtop>
 
 Report the bug: <https://github.com/Syllo/nvtop/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage">Download x86_64</a>
 </button>

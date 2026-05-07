@@ -24,7 +24,7 @@ Become a sponsor: <https://polar.sh/AntiMicroX>
 Translate: <https://hosted.weblate.org/engage/antimicrox>  
 Report the bug: <https://github.com/AntiMicroX/antimicrox/issues>  
 
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-x86_64.AppImage">Download x86_64</a>
 </button>  

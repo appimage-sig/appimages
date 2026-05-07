@@ -23,7 +23,7 @@ Source code: <https://github.com/brndnmtthws/conky>
 Become a sponsor: <https://github.com/sponsors/brndnmtthws>  
 Report the bug: <https://github.com/brndnmtthws/conky/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/brndnmtthws/conky/releases/download/v1.22.3/conky-ubuntu-24.04-x86_64-v1.22.3-release.AppImage">Download x86_64</a>
 </button>

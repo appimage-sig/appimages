@@ -22,7 +22,7 @@ Source code: <https://github.com/friction2d/friction>
 
 Report the bug: <https://github.com/friction2d/friction/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/Friction-1.0.0-rc.3-x86_64.AppImage">Download x86_64</a>
 </button>

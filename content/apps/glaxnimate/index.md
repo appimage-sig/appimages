@@ -24,7 +24,7 @@ Donate: <https://ko-fi.com/glaxdragon>
 Translate: <https://l10n.kde.org/>  
 Report the bug: <https://bugs.kde.org/enter_bug.cgi?product=glaxnimate>  
 
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://download.kde.org/unstable/glaxnimate/0.5.80/linux/glaxnimate-0.5.80-x86_64.AppImage">Download x86_64</a>
 </button>

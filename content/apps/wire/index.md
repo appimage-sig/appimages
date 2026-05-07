@@ -21,7 +21,7 @@ Source code: <https://github.com/wireapp/wire-desktop>
 Translate: <https://crowdin.com/projects/wire>  
 Report the bug: <https://github.com/wireapp/wire-desktop/issues>
 
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/wireapp/wire-desktop/releases/download/linux%2F3.40.3882/Wire-3.40.3882_x86_64.AppImage">Download x86_64</a>
 </button>

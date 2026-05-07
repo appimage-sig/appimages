@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/smartfrigde>
 Translate: <https://hosted.weblate.org/projects/armcord/>  
 Report the bug: <https://github.com/Legcord/Legcord/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-linux-x86_64.AppImage">Download x86_64</a>
 </button>

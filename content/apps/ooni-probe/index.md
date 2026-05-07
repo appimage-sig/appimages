@@ -20,7 +20,7 @@ Source code: <https://github.com/ooni/probe-desktop>
 
 Report the bug: <https://github.com/ooni/probe-desktop>  
 
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large"
       <a href="https://github.com/ooni/probe-desktop/releases/download/v3.10.1-rc.2/OONI-Probe-3.10.1-rc.2.AppImage">Download x86_64</a>
 </button>

@@ -18,7 +18,7 @@ Web page: <https://www.warp.dev>
 
 Report the bug: <https://github.com/warpdotdev/Warp/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://app.warp.dev/download?package=appimage">Download x86_64</a>
 </button>

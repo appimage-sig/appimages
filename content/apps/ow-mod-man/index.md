@@ -20,7 +20,7 @@ Source code: <https://github.com/ow-mods/ow-mod-man>
 Translate: <https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md>  
 Report the bug: <https://github.com/ow-mods/ow-mod-man/issues> 
  
-<div class="d_buttons">
+<div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.3/Outer.Wilds.Mod.Manager_0.15.3_amd64.AppImage">Download x86_64</a>
 </button>
