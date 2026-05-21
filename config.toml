@@ -32,6 +32,9 @@ extra_themes = [
   "giallo/themes/monokai.json",
 ]
 
+[search]
+
+
 [extra]
 logo_image = "images/logo.svg"
 social_media_share_image = "/images/01.jpg"
