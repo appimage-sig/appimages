@@ -30,3 +30,4 @@ Report the bug: <https://github.com/86Box/86Box/issues>
 <button class="c-button c-button--primary c-button--large" 
   <a href="https://github.com/86Box/86Box/releases/download/v5.3/86Box-NDR-Linux-arm64-b8200.AppImage">Download arm64</a>
 </button>
+</div>
