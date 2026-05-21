@@ -25,5 +25,5 @@ Report the bug: <https://github.com/dail8859/NotepadNext/issues>
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/dail8859/NotepadNext/releases/download/v0.13/NotepadNext-v0.13-x86_64.AppImage">Download x86_64</a>
-</button>w
+</button>
 </div>
