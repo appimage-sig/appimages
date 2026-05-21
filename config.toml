@@ -12,7 +12,7 @@ feed_filenames = [ "rss.xml",]
 minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 taxonomies = [
     { name = "tags", feed = true},
