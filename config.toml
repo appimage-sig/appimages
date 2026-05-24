@@ -33,7 +33,7 @@ extra_themes = [
 ]
 
 [search]
-
+index_format = "elasticlunr_json"
 
 [extra]
 logo_image = "images/logo.svg"
