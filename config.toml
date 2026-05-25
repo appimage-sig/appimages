@@ -14,9 +14,6 @@ generate_sitemap = true
 generate_robots_txt = true
 minify_html = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
 taxonomies = [
     { name = "tags", feed = true},
     { name = "categories", paginate_by = 5 }, # 5 items per page for a term
