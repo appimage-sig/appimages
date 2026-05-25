@@ -8,7 +8,10 @@ description = "AppImage catalog for Linux users"
 compile_sass = true
 
 generate_feeds = true
-feed_filenames = [ "rss.xml",]
+default_language = "en"
+build_search_index = true
+generate_sitemap = true
+generate_robots_txt = true
 minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
@@ -23,17 +26,11 @@ taxonomies = [
     { name = "license" },
 ]
 
-[markdown.highlighting]
-style = "class"
-light_theme = "monokai-light"
-dark_theme = "monokai"
-extra_themes = [
-  "giallo/themes/monokai-light.json",
-  "giallo/themes/monokai.json",
-]
-
 [search]
 index_format = "elasticlunr_json"
+include_title = true
+include_description = true
+include_content = true
 
 [extra]
 logo_image = "images/logo.svg"
