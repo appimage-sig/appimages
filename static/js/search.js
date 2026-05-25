@@ -199,7 +199,6 @@ function initSearch() {
   var $searchResultsItems = document.querySelector(".search-results__items");
   var $searchResultsCount = document.getElementById("search-results-count");
   var $searchBackdrop = document.querySelector(".search-backdrop");
-  var $slashIcon = document.getElementById("slash-icon");
   var MAX_ITEMS = 10;
 
   if (!$searchInput || !$searchModalInput) {
@@ -340,34 +339,6 @@ function initSearch() {
     return index;
   };
 
-  // Function to toggle slash icon visibility
-  function updateSlashIconVisibility() {
-    if ($slashIcon) {
-      // Hide if field is focused OR has text, show only when unfocused AND empty
-      if (
-        document.activeElement === $searchInput ||
-        $searchInput.value.trim() !== ""
-      ) {
-        $slashIcon.classList.add("hidden");
-      } else {
-        $slashIcon.classList.remove("hidden");
-      }
-    }
-  }
-
-  // Update slash icon visibility on input
-  $searchInput.addEventListener("input", updateSlashIconVisibility);
-
-  // Hide slash icon when search field is focused
-  $searchInput.addEventListener("focus", function () {
-    updateSlashIconVisibility();
-    // Open modal when navbar search is focused
-    showSearchModal();
-  });
-
-  // Show slash icon when search field loses focus (if empty)
-  $searchInput.addEventListener("blur", updateSlashIconVisibility);
-
   // When typing in navbar search, open modal and sync to modal input
   $searchInput.addEventListener("input", function () {
     if ($searchInput.value.length > 0) {
@@ -472,7 +443,6 @@ function initSearch() {
       hideSearchModal();
       $searchInput.blur();
       // Show slash icon again since input is now empty
-      updateSlashIconVisibility();
     }
   });
 
@@ -493,7 +463,6 @@ function initSearch() {
   // Close modal when clicking on backdrop
   $searchBackdrop.addEventListener("click", function () {
     hideSearchModal();
-    updateSlashIconVisibility();
   });
 }
 
