@@ -1,39 +1,38 @@
-set -euo pipefail
+#!/bin/sh
+
+set -eux
 
 # Конфигурация
 CONTENT_DIR="content"
 GITHUB_API_BASE="https://api.github.com/repos"
-GITHUB_TOKEN="${GITHUB_TOKEN:-}"  # Установите переменную окружения для увеличения лимита API
+GITHUB_TOKEN="${GITHUB_TOKEN:-}"
 
 # Цвета для вывода
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 # Функция для получения ссылки на latest релиз из GitHub
 get_latest_github_release() {
     local repo_owner="$1"
     local repo_name="$2"
-    local asset_pattern="${3:-.AppImage}"  # По умолчанию ищем .AppImage файлы
+    local asset_pattern="${3:-.AppImage}"
     
     local api_url="${GITHUB_API_BASE}/${repo_owner}/${repo_name}/releases/latest"
-    local headers="-H 'Accept: application/vnd.github.v3+json'"
     
+    local headers="-H 'Accept: application/vnd.github.v3+json'"
     if [[ -n "$GITHUB_TOKEN" ]]; then
         headers="${headers} -H 'Authorization: token ${GITHUB_TOKEN}'"
     fi
     
-    # Получаем информацию о latest релизе
-    local response=$(curl -s ${headers} "$api_url" 2>/dev/null || echo "{}")
+    local response=$(eval "curl -s $headers '$api_url'" 2>/dev/null || echo "{}")
     
-    # Проверяем на ошибку
     if echo "$response" | grep -q "\"message\".*\"Not Found\""; then
         echo ""
         return 1
     fi
     
-    # Извлекаем URL первого подходящего ассета
     local download_url=$(echo "$response" | grep -o "\"browser_download_url\": \"[^\"]*${asset_pattern}[^\"]*\"" | head -1 | cut -d'"' -f4)
     
     if [[ -n "$download_url" ]]; then
@@ -48,9 +47,11 @@ get_latest_github_release() {
 # Функция для извлечения owner/repo из ссылки GitHub
 parse_github_url() {
     local url="$1"
-    # Примеры: https://github.com/owner/repo или https://github.com/owner/repo/releases
+    # Удаляем trailing символы (>, ), пробел и т.д.)
+    url=$(echo "$url" | sed 's/[>)\s]*$//')
+    
     if [[ $url =~ github\.com/([^/]+)/([^/]+) ]]; then
-        echo "${BASH_REMATCH}/${BASH_REMATCH}"
+        echo "${BASH_REMATCH[1]}/${BASH_REMATCH[2]}"
         return 0
     fi
     return 1
@@ -67,8 +68,6 @@ update_download_link() {
         return 1
     fi
     
-    # Ищем строку с Download ссылкой (поддерживаем разные форматы)
-    # Форматы: [Download](url), Download: url, download_url: url и т.д.
     local old_url=$(grep -oP '(?<=\[Download\]\(|download[_:]?\s*)[^)]*' "$index_file" | head -1)
     
     if [[ -z "$old_url" ]]; then
@@ -76,13 +75,11 @@ update_download_link() {
         return 1
     fi
     
-    # Если ссылки одинаковые, обновление не требуется
     if [[ "$old_url" == "$new_url" ]]; then
         echo -e "${GREEN}✓ $app_name: ссылка актуальна${NC}"
         return 0
     fi
     
-    # Заменяем ссылку (поддерживаем разные форматы)
     sed -i "s|${old_url//|/\\|}|${new_url//|/\\|}|g" "$index_file"
     
     echo -e "${GREEN}✓ $app_name: обновлена ссылка${NC}"
@@ -90,6 +87,12 @@ update_download_link() {
     echo -e "  ${GREEN}Стало:${NC} $new_url"
     
     return 0
+}
+
+# Функция для поиска index.md рекурсивно
+find_index_md() {
+    local start_dir="$1"
+    find "$start_dir" -maxdepth 10 -name "index.md" -type f | head -1
 }
 
 # Основной цикл
@@ -105,23 +108,22 @@ main() {
     
     echo -e "${YELLOW}Начинаем обновление ссылок...${NC}\n"
     
-    # Проходим по каждой папке приложения
     for app_dir in "$CONTENT_DIR"/*; do
         if [[ ! -d "$app_dir" ]]; then
             continue
         fi
         
         local app_name=$(basename "$app_dir")
-        local index_file="$app_dir/index.md"
+        local index_file=$(find_index_md "$app_dir")
         
-        if [[ ! -f "$index_file" ]]; then
+        if [[ -z "$index_file" ]] || [[ ! -f "$index_file" ]]; then
             echo -e "${YELLOW}⚠ Пропущено: $app_name (нет index.md)${NC}"
             ((skipped_count++))
             continue
         fi
         
-        # Ищем ссылку на GitHub репозиторий в index.md
-        local github_repo=$(grep -oP 'https://github\.com/[^/]+/[^/\s)]+' "$index_file" | head -1)
+        # Ищем GitHub URL, удаляя trailing символы
+        local github_repo=$(grep -oP 'https://github\.com/[^/]+/[^/\s)>]+' "$index_file" | head -1)
         
         if [[ -z "$github_repo" ]]; then
             echo -e "${YELLOW}⚠ $app_name: GitHub репозиторий не найден${NC}"
@@ -129,23 +131,20 @@ main() {
             continue
         fi
         
-        # Парсим owner/repo
         local repo_info=$(parse_github_url "$github_repo")
         if [[ $? -ne 0 ]]; then
-            echo -e "${RED}✗ $app_name: не удалось распарсить URL${NC}"
+            echo -e "${RED}✗ $app_name: не удалось распарсить URL: $github_repo${NC}"
             ((error_count++))
             continue
         fi
         
-        # Получаем latest релиз
-        local new_url=$(get_latest_github_release "$repo_info" ".AppImage")
+        local new_url=$(get_latest_github_release $repo_info ".AppImage")
         if [[ $? -ne 0 ]] || [[ -z "$new_url" ]]; then
-            echo -e "${RED}✗ $app_name: не удалось получить latest релиз${NC}"
+            echo -e "${RED}✗ $app_name: не удалось получить latest релиз для $repo_info${NC}"
             ((error_count++))
             continue
         fi
         
-        # Обновляем ссылку
         if update_download_link "$index_file" "$new_url" "$app_name"; then
             ((updated_count++))
         else
@@ -153,12 +152,10 @@ main() {
         fi
     done
     
-    # Итоги
     echo -e "\n${YELLOW}=== Итоги ===${NC}"
     echo -e "${GREEN}Обновлено: $updated_count${NC}"
     echo -e "${YELLOW}Пропущено: $skipped_count${NC}"
     echo -e "${RED}Ошибок: $error_count${NC}"
 }
 
-# Запуск
 main "$@"
