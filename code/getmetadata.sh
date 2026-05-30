@@ -65,7 +65,7 @@ curl -sL https://gitlab.com/librewolf-community/browser/appimage/-/raw/master/io
 curl -sL https://raw.githubusercontent.com/lite-xl/lite-xl/refs/heads/master/resources/linux/com.lite_xl.LiteXL.metainfo.xml.in -o ./content/apps/lite-xl/com.lite_xl.LiteXL.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/no.mifi.losslesscut.appdata.xml -o ./content/apps/losslesscut/no.mifi.losslesscut.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master/deploy/linux/io.github.myst6re.makoureactor.metainfo.xml -o ./content/apps/makoureactor/io.github.myst6re.makoureactor.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/musescore/MuseScore/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.musescore.MuseScore.appdata.xml.in -o ./content/apps/musescore/org.musescore.MuseScore.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/musescore/MuseScore/refs/heads/main/buildscripts/packaging/Linux%2BBSD/org.musescore.MuseScore.appdata.xml.in -o ./content/apps/musescore/org.musescore.MuseScore.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/Sandakan/Nora/refs/heads/master/flatpak/app.netlify.noramusic.Nora.metainfo.xml -o ./content/apps/nora/app.netlify.noramusic.Nora.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml  -o ./content/apps/notepadnext/com.github.dail8859.NotepadNext.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/nuttyartist/notes/refs/heads/master/packaging/linux/common/notes.appdata.xml.in -o ./content/apps/notes/io.github.nuttyartist.notes.metainfo.xml &
