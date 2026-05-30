@@ -28,26 +28,40 @@ get_latest_github_release() {
     
     local response=$(eval "curl -s $headers '$api_url'" 2>/dev/null || echo "{}")
     
+    # Проверяем на 404 (репозиторий не найден)
     if echo "$response" | grep -q "\"message\".*\"Not Found\""; then
-        echo ""
+        echo "404"
+        return 1
+    fi
+    
+    # Проверяем на "No releases here" или пустой массив релизов
+    if echo "$response" | grep -q "\"message\".*\"release\"" || \
+       echo "$response" | grep -q "\"message\".*\"not found\""; then
+        echo "no_release"
         return 1
     fi
     
     local download_url=$(echo "$response" | grep -o "\"browser_download_url\": \"[^\"]*${asset_pattern}[^\"]*\"" | head -1 | cut -d'"' -f4)
     
-    if [[ -n "$download_url" ]]; then
-        echo "$download_url"
-        return 0
-    else
-        echo ""
-        return 1
+    # Если релиз найден но нет нужного файла
+    if [[ -z "$download_url" ]]; then
+        # Проверяем есть ли вообще релиз
+        if echo "$response" | grep -q "\"tag_name\""; then
+            echo "no_asset"
+            return 1
+        else
+            echo "no_release"
+            return 1
+        fi
     fi
+    
+    echo "$download_url"
+    return 0
 }
 
 # Функция для извлечения owner/repo из ссылки GitHub
 parse_github_url() {
     local url="$1"
-    # Удаляем trailing символы (>, ), пробел и т.д.)
     url=$(echo "$url" | sed 's/[>)\s]*$//')
     
     if [[ $url =~ github\.com/([^/]+)/([^/]+) ]]; then
@@ -122,7 +136,6 @@ main() {
             continue
         fi
         
-        # Ищем GitHub URL, удаляя trailing символы
         local github_repo=$(grep -oP 'https://github\.com/[^/]+/[^/\s)>]+' "$index_file" | head -1)
         
         if [[ -z "$github_repo" ]]; then
@@ -139,8 +152,27 @@ main() {
         fi
         
         local new_url=$(get_latest_github_release $repo_info ".AppImage")
-        if [[ $? -ne 0 ]] || [[ -z "$new_url" ]]; then
-            echo -e "${RED}✗ $app_name: не удалось получить latest релиз для $repo_info${NC}"
+        local release_status=$?
+        
+        if [[ $release_status -ne 0 ]]; then
+            if [[ "$new_url" == "no_release" ]]; then
+                echo -e "${YELLOW}⊘ $app_name: нет релизов в репозитории $repo_info${NC}"
+                ((skipped_count++))
+            elif [[ "$new_url" == "no_asset" ]]; then
+                echo -e "${YELLOW}⊘ $app_name: релиз найден, но нет .AppImage файла в $repo_info${NC}"
+                ((skipped_count++))
+            elif [[ "$new_url" == "404" ]]; then
+                echo -e "${RED}✗ $app_name: репозиторий не найден ($repo_info)${NC}"
+                ((error_count++))
+            else
+                echo -e "${RED}✗ $app_name: не удалось получить latest релиз для $repo_info${NC}"
+                ((error_count++))
+            fi
+            continue
+        fi
+        
+        if [[ -z "$new_url" ]]; then
+            echo -e "${RED}✗ $app_name: не удалось получить URL релиза${NC}"
             ((error_count++))
             continue
         fi
