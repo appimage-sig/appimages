@@ -3,8 +3,6 @@
 set -ux
 
 CONTENT_DIR="content/apps"
-# Использовать нужно строго api.github.com для JSON-запросов
-GITHUB_API_BASE="https://github.com"
 GITHUB_TOKEN="${GITHUB_TOKEN:-}"
 
 sed_in_place() {
@@ -19,7 +17,7 @@ get_all_github_assets() {
 	repo_owner="$1"
 	repo_name="$2"
 	# Исправлено формирование корректного пути к API
-	api_url="${GITHUB_API_BASE}/${repo_owner}/${repo_name}/releases/latest"
+	api_url="https://api.github.com/${repo_owner}/${repo_name}/releases/latest"
 
 	if [ -n "$GITHUB_TOKEN" ]; then
 		response=$(curl -s -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${GITHUB_TOKEN}" "$api_url" || echo "{}")
@@ -27,24 +25,12 @@ get_all_github_assets() {
 		response=$(curl -s -H "Accept: application/vnd.github.v3+json" "$api_url" || echo "{}")
 	fi
 
-	if echo "$response" | grep -q "API rate limit exceeded"; then
-		echo "rate_limit"
-		return 1
-	fi
+	# Проверяем ошибки API одной строкой
+	if echo "$response" | grep -q "API rate limit exceeded"; then echo "rate_limit"; return 1; fi
+	if echo "$response" | grep -q "\"message\".*\"Not Found\""; then echo "404"; return 1; fi
 
-	if echo "$response" | grep -q "\"message\".*\"Not Found\""; then
-		echo "404"
-		return 1
-	fi
-
-	urls=$(echo "$response" | grep -o "\"browser_download_url\": \"[^\"]*\.AppImage[^\"]*\"" | cut -d'"' -f4)
-
-	if [ -z "$urls" ]; then
-		if echo "$response" | grep -q "\"tag_name\""; then
-			echo "no_asset"
-		else
-			echo "no_release"
-		fi
+		if [ -z "$urls" ]; then
+		if echo "$response" | grep -q "\"tag_name\""; then echo "no_asset"; else echo "no_release"; fi
 		return 1
 	fi
 
