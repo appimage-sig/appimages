@@ -1,0 +1,46 @@
+name: Update AppImage Download Links
+
+on:
+  schedule:
+    # Запуск каждое воскресенье в 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+    # Позволяет запускать скрипт вручную из вкладки Actions
+
+permissions:
+  contents: write # Дает право GitHub Actions коммитить изменения обратно в репозиторий
+
+jobs:
+  update-links:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Скачивает всю историю, чтобы избежать проблем с правами на push
+          fetch-depth: 0
+
+      - name: Run AppImage updater script
+        env:
+          # Передаем системный токен GitHub, который уберет ограничение API Rate Limit
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x ./code/shittyscraper.sh
+          ./code/shittyscraper.sh
+
+      - name: Commit and Push changes
+        run: |
+          # Настраиваем системного пользователя GitHub Bot для коммита
+          git config --local user.email "github-actions[bot]@://github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Проверяем, появились ли изменения в папке content
+          if [ -n "$(git status --porcelain content/)" ]; then
+            echo "Обнаружены изменения, создаем коммит..."
+            git add content/
+            git commit -m "chore: автоматическое обновление ссылок AppImage [skip ci]"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "Все ссылки актуальны, коммитить нечего."
+          fi
