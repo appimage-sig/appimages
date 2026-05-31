@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write # Дает право GitHub Actions коммитить изменения обратно в репозиторий
+  id-token: write
 
 jobs:
   update-links:
@@ -29,18 +30,15 @@ jobs:
           chmod +x ./code/shittyscraper.sh
           ./code/shittyscraper.sh
 
-      - name: Commit and Push changes
+      - name: Commit changes
         run: |
-          # Настраиваем системного пользователя GitHub Bot для коммита
-          git config --local user.email "github-actions[bot]@://github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          # Проверяем, появились ли изменения в папке content
-          if [ -n "$(git status --porcelain content/)" ]; then
-            echo "Обнаружены изменения, создаем коммит..."
-            git add content/
-            git commit -m "chore: автоматическое обновление ссылок AppImage [skip ci]"
-            git push origin HEAD:${{ github.ref_name }}
-          else
-            echo "Все ссылки актуальны, коммитить нечего."
-          fi
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update download links - $(date)" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
