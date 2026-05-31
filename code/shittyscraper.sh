@@ -17,7 +17,7 @@ get_all_github_assets() {
 	repo_owner="$1"
 	repo_name="$2"
 	# Исправлено формирование корректного пути к API
-	api_url="https://api.github.com/${repo_owner}/${repo_name}/releases/latest"
+	api_url="https://api.github.com/repos/${repo_owner}/${repo_name}/releases/latest"
 
 	if [ -n "$GITHUB_TOKEN" ]; then
 		response=$(curl -s -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${GITHUB_TOKEN}" "$api_url" || echo "{}")
