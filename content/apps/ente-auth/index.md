@@ -25,6 +25,6 @@ Report the bug: <https://github.com/ente-io/ente/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ente-io/ente/releases/download/ensu-v0.1.16/ensu-0.1.16-1.x86_64.rpm">Download x86_64</a>
+      <a href="https://github.com/ente-io/ente/releases/download/auth-v4.4.22/ente-auth-v4.4.22-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

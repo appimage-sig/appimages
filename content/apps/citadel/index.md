@@ -1,7 +1,7 @@
 +++
 title = "Citadel"
 description = "Manage your ebook library without frustrations. Calibre compatible."
-date = "2024-10-29 10:25:00"
+date = "2026-03-07T11:08:10Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Phil Denhoff"]
@@ -22,6 +22,6 @@ Report the bug: <https://github.com/every-day-things/citadel/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/every-day-things/citadel/releases/download/v0.4.3/Citadel-0.4.2-1.x86_64.rpm">Download x86_64</a>
+      <a href="https://github.com/every-day-things/citadel/releases/download/v0.4.3/Citadel_0.4.2_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

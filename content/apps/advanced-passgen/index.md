@@ -1,7 +1,7 @@
 +++
 title = "Advanced PassGen"
 description = "Free and open-source application that can help you generate passwords and export them"
-date = "2024-11-20 11:02:00"
+date = "2026-04-26T19:27:38Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["CodeDead"]
@@ -23,6 +23,9 @@ Report the bug: <https://github.com/CodeDead/Advanced-PassGen/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen-2.6.0-1.aarch64.rpm">Download x86_64</a>
+      <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen_2.6.0_amd64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" 
+      <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen_2.6.0_aarch64.AppImage">Download arm64</a>
 </button>
 </div>

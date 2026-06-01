@@ -1,7 +1,7 @@
 +++
 title = "Frappe"
 description = "Simple, well-designed, free desktop accounting software for freelancers and small businesses"
-date = "2025-11-06 07:23:00"
+date = "2025-11-06T04:00:15Z"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Frappe Technologies"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/frappe/books/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/frappe/books/releases/download/v0.36.0/Frappe-Books-v0.36.0-linux-aarch64.rpm">Download x86_64</a>
+      <a href="https://github.com/frappe/books/releases/download/v0.36.0/Frappe-Books-v0.36.0-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

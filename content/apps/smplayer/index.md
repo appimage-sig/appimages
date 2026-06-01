@@ -26,6 +26,6 @@ Report the bug: <https://github.com/smplayer-dev/smplayer/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/smplayer-dev/smplayer/releases/download/v25.6.0/smplayer-25.6.0-1.fc34.x86_64.rpm">Download x86_64</a>
+      <a href="https://github.com/smplayer-dev/smplayer/releases/download/v25.6.0/SMPlayer-25.6.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

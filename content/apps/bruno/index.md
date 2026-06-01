@@ -23,9 +23,9 @@ Report the bug: <https://github.com/usebruno/bruno/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_aarch64_linux.rpm">Download x86_64</a>
+      <a href="https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_x86_64_linux.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_aarch64_linux.rpm">Download arm64</a>
+    <a href="https://github.com/usebruno/bruno/releases/download/v3.4.2/bruno_3.4.2_arm64_linux.AppImage">Download arm64</a>
 </button>
 </div>

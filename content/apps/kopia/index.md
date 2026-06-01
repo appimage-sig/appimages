@@ -22,12 +22,12 @@ Report the bug: <https://github.com/kopia/kopia/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/builder-debug.yml">Download x86_64</a>
+      <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/KopiaUI-0.23.0.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/kopia-0.23.0-freebsd-experimental-arm64.tar.gzhttps://github.com/kopia/kopia/releases/download/v0.23.0/builder-debug.yml">Download arm64</a>
+    <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/KopiaUI-0.23.0-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/kopia-0.23.0.armhfp.rpmhttps://github.com/kopia/kopia/releases/download/v0.23.0/builder-debug.yml">Download armv7l</a>
+    <a href="https://github.com/kopia/kopia/releases/download/v0.23.0/KopiaUI-0.23.0-armv7l.AppImage">Download armv7l</a>
 </button>
 </div>

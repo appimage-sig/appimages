@@ -26,9 +26,9 @@ Report the bug: <https://github.com/Zettlr/Zettlr/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.5.0/Zettlr-4.5.0-amd64.deb">Download x86_64</a>
+      <a href="hhttps://github.com/Zettlr/Zettlr/releases/download/v4.5.0/Zettlr-4.5.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.5.0/Zettlr-4.5.0-aarch64.rpm">Download arm64</a>
+    <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.5.0/Zettlr-4.5.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>
