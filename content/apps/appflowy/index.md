@@ -25,6 +25,6 @@ Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.11.0/AppFlowy-0.11.0-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.1/appcast-linux-x86_64.xmlhttps://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.1/appcast-linux-x86_64.xmlhttps://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.1/appcast-linux-x86_64.xml">Download x86_64</a>
 </button>
 </div>

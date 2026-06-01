@@ -25,9 +25,9 @@ Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.4.0/jitsi-meet-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-amd64.debhttps://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-amd64.debhttps://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-amd64.deb">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.4.0/jitsi-meet-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-arm64.AppImagehttps://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-amd64.debhttps://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.6.0/jitsi-meet-amd64.deb">Download arm64</a>
 </button>
 </div>

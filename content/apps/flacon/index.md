@@ -26,6 +26,6 @@ Report the bug: <https://github.com/flacon/flacon/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/flacon/flacon/releases/download/v12.0.0/flacon-12.0.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-x86_64.AppImagehttps://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-x86_64.AppImagehttps://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-aarch64.AppImage">Download x86_64</a>
 </button>
 </div>

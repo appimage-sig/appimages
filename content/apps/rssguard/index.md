@@ -24,6 +24,6 @@ Report the bug: <https://github.com/martinrotter/rssguard/issues>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/martinrotter/rssguard/releases/download/5.0.4/rssguard-5.0.4-qt6-linux64.AppImage">Download x86_64</a>
+      <a href="https://github.com/martinrotter/rssguard/releases/download/5.1.2/rssguard-5.1.2-text-qt5-linux64.AppImagehttps://github.com/martinrotter/rssguard/releases/download/5.1.2/rssguard-5.1.2-src.tar.gzhttps://github.com/martinrotter/rssguard/releases/download/5.1.2/rssguard-5.1.2-src.tar.gz">Download x86_64</a>
 </button>
 </div>

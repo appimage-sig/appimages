@@ -22,6 +22,6 @@ Report the bug: <https://github.com/ow-mods/ow-mod-man/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.3/Outer.Wilds.Mod.Manager_0.15.3_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.6/Outer.Wilds.Mod.Manager-0.15.6-1.x86_64.rpmhttps://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.6/latest.jsonhttps://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.6/latest.json">Download x86_64</a>
 </button>
 </div>

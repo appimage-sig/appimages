@@ -25,9 +25,9 @@ Report the bug: <https://github.com/Jelmerro/Vieb/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Jelmerro/Vieb/releases/download/12.8.0/Vieb-12.8.0.AppImage">Download x86_64</a>
+      <a href="https://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-mac.ziphttps://github.com/Jelmerro/Vieb/releases/download/12.9.0/vieb-12.9.0-aarch64.pacman">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Jelmerro/Vieb/releases/download/12.8.0/Vieb-12.8.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Jelmerro/Vieb/releases/download/12.9.0/vieb-12.9.0-aarch64.pacmanhttps://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-mac.ziphttps://github.com/Jelmerro/Vieb/releases/download/12.9.0/vieb-12.9.0-aarch64.pacman">Download arm64</a>
 </button>
 </div>

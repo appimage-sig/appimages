@@ -26,6 +26,6 @@ Report the bug: <https://github.com/Ultimaker/Cura/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Ultimaker/Cura/releases/download/5.12.1/UltiMaker-Cura-5.12.1-linux-X64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-linux-X64.AppImagehttps://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-linux-X64.AppImagehttps://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-linux-X64.AppImage">Download x86_64</a>
 </button>
 </div>

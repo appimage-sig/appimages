@@ -22,9 +22,9 @@ Report the bug: <https://github.com/blueprint-freespeech/ricochet-refresh/issues
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-x86_64.appimage">Download x86_64</a>
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.42-release/ricochet-refresh-3.0.42-linux-x86_64.tar.gzhttps://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.42-release/ricochet-refresh-3.0.42-i386.appimagehttps://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.42-release/ricochet-refresh-3.0.42-i386.appimage">Download x86_64</a>
 </button>
  <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.40-release/ricochet-refresh-3.0.40-i386.appimage">Download x86</a>
+      <a href="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.42-release/ricochet-refresh-3.0.42-i386.appimagehttps://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.42-release/ricochet-refresh-3.0.42-i386.appimage">Download x86</a>
 </button>
 </div>

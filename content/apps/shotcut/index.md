@@ -25,6 +25,6 @@ Report the bug: <https://github.com/mltframework/shotcut/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/mltframework/shotcut/releases/download/v26.2.26/shotcut-linux-x86_64-26.2.26.AppImage">Download x86_64</a>
+      <a href="https://github.com/mltframework/shotcut/releases/download/v26.4.30/shotcut-linux-x86_64-26.4.30.AppImagehttps://github.com/mltframework/shotcut/releases/download/v26.4.30/md5sums.txthttps://github.com/mltframework/shotcut/releases/download/v26.4.30/md5sums.txt">Download x86_64</a>
 </button>
 </div>

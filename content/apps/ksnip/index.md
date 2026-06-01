@@ -23,6 +23,6 @@ Report the bug: <https://github.com/ksnip/ksnip/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-x86_64.AppImagehttps://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-windows.ziphttps://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-windows.zip">Download x86_64</a>
 </button>
 </div>

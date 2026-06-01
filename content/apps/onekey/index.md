@@ -22,9 +22,9 @@ Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.2.0/OneKey-Wallet-6.2.0-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-linux-x86_64.AppImagehttps://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-android.apkhttps://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-android.apk">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.2.0/OneKey-Wallet-6.2.0-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-linux-arm64.AppImagehttps://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-android.apkhttps://github.com/OneKeyHQ/app-monorepo/releases/download/v6.3.0/OneKey-Wallet-6.3.0-android.apk">Download arm64</a>
 </button>
 </div>

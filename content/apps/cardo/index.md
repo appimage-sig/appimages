@@ -26,6 +26,6 @@ Report the bug: <https://github.com/cardo-podcast/cardo/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage">Download x86_64</a>
+      <a href="https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo-1.12.0-1.x86_64_linux.rpmhttps://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo-1.12.0-1.x86_64_linux.rpmhttps://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo-1.12.0-1.x86_64_linux.rpm">Download x86_64</a>
 </button>
 </div>

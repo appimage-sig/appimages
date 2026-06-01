@@ -25,6 +25,6 @@ Report the bug: <https://github.com/bitwarden/clients/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/bitwarden/clients/releases/download/desktop-v2026.3.1/Bitwarden-2026.3.1-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bw_2026.5.0_amd64.snaphttps://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bitwarden-cli-2026.5.0-npm-build.ziphttps://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bitwarden-cli-2026.5.0-npm-build.zip">Download x86_64</a>
 </button>
 </div>

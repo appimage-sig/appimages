@@ -23,9 +23,9 @@ Report the bug: <https://github.com/musescore/MuseScore/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/musescore/MuseScore/releases/download/v4.6.5/MuseScore-Studio-4.6.5.253511702-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.2/MuseScore-Studio-4.7.2.260525085-x86_64.AppImagehttps://github.com/musescore/MuseScore/releases/download/v4.7.2/checksums.sha256.txthttps://github.com/musescore/MuseScore/releases/download/v4.7.2/checksums.sha256.txt">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/musescore/MuseScore/releases/download/v4.6.5/MuseScore-Studio-4.6.5.253511702-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.2/MuseScore-Studio-4.7.2.260525085-aarch64.AppImagehttps://github.com/musescore/MuseScore/releases/download/v4.7.2/checksums.sha256.txthttps://github.com/musescore/MuseScore/releases/download/v4.7.2/checksums.sha256.txt">Download arm64</a>
 </button>
 </div>

@@ -25,9 +25,9 @@ Report the bug: <https://github.com/danirod/cartero/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-macOS-x64.dmghttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-macOS-x64.dmghttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImagehttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-macOS-x64.dmghttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImagehttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-macOS-x64.dmghttps://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

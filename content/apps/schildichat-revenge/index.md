@@ -25,6 +25,6 @@ Report the bug: <https://github.com/SchildiChat/schildichat-desktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.04.04/SchildiChatRevenge-x86_64-26.04.04.AppImage">Download x86_64</a>
+      <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.05.05/SchildiChatRevenge-x86_64-26.05.05.AppImagehttps://github.com/SchildiChat/schildi-revenge/releases/download/v26.05.05/SchildiChatRevenge-26.05.05.msihttps://github.com/SchildiChat/schildi-revenge/releases/download/v26.05.05/SchildiChatRevenge-26.05.05.msi">Download x86_64</a>
 </button>
 </div>

@@ -25,12 +25,12 @@ Report the bug: <https://github.com/Milkshiift/GoofCord/issues>
 
 <div class="groups">
   <button class="c-button c-button--primary c-button--large"  
-        <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.0/GoofCord-2.2.0-linux-x86_64.AppImage">Download x86_64</a>
+        <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-amd64.debhttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-amd64.debhttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-aarch64.rpm">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.0/GoofCord-2.2.0-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-aarch64.rpmhttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-amd64.debhttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-aarch64.rpm">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.0/GoofCord-2.2.0-linux-armv7l.AppImage">Download armv7l</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-armv7l.AppImagehttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-amd64.debhttps://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-aarch64.rpm">Download armv7l</a>
 </button>
 </div>

@@ -26,9 +26,9 @@ Report the bug: <https://github.com/WerWolv/ImHex/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-ArchLinux-x86_64.pkg.tar.zsthttps://github.com/WerWolv/ImHex/releases/download/v1.38.1/Full.Sources.tar.gzhttps://github.com/WerWolv/ImHex/releases/download/v1.38.1/Full.Sources.tar.gz">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-arm64.AppImagehttps://github.com/WerWolv/ImHex/releases/download/v1.38.1/Full.Sources.tar.gzhttps://github.com/WerWolv/ImHex/releases/download/v1.38.1/Full.Sources.tar.gz">Download arm64</a>
 </button>
 </div>

@@ -23,9 +23,9 @@ Report the bug: <https://github.com/streetwriters/notesnook/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.20/notesnook_linux_x86_64.AppImagehttps://github.com/streetwriters/notesnook/releases/download/v3.3.20/generated-sources.jsonhttps://github.com/streetwriters/notesnook/releases/download/v3.3.20/generated-sources.json">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.0-beta.0/notesnook_linux_arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/streetwriters/notesnook/releases/download/v3.3.20/latest-linux-arm64.ymlhttps://github.com/streetwriters/notesnook/releases/download/v3.3.20/generated-sources.jsonhttps://github.com/streetwriters/notesnook/releases/download/v3.3.20/generated-sources.json">Download arm64</a>
 </button>
 </div>

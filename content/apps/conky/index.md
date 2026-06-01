@@ -25,6 +25,6 @@ Report the bug: <https://github.com/brndnmtthws/conky/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/brndnmtthws/conky/releases/download/v1.22.3/conky-ubuntu-24.04-x86_64-v1.22.3-release.AppImage">Download x86_64</a>
+      <a href="https://github.com/brndnmtthws/conky/releases/download/v1.23.0/conky-ubuntu-22.04-x86_64-v1.23.0-debug.AppImagehttps://github.com/brndnmtthws/conky/releases/download/v1.23.0/conky-ubuntu-22.04-x86_64-v1.23.0-debug.AppImagehttps://github.com/brndnmtthws/conky/releases/download/v1.23.0/conky-ubuntu-22.04-x86_64-v1.23.0-debug.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -25,9 +25,9 @@ Report the bug: <https://github.com/Faster3ck/Converseen/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.3/Converseen-0.15.2.3-1-anylinux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-x86_64.AppImagehttps://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-x86_64.AppImagehttps://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.3/Converseen-0.15.2.3-1-anylinux-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-aarch64.AppImagehttps://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-x86_64.AppImagehttps://github.com/Faster3ck/Converseen/releases/download/v0.15.2.4/Converseen-0.15.2.4-1-anylinux-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

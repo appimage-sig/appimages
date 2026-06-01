@@ -21,9 +21,9 @@ Report the bug: <https://github.com/Equicord/Equibop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9.AppImage">Download x86_64</a>
+      <a href="https://github.com/Equicord/Equibop/releases/download/v3.2.1/Equibop-3.2.1-universal-mac.ziphttps://github.com/Equicord/Equibop/releases/download/v3.2.1/Equibop-3.2.1-arm64-win.zip">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Equicord/Equibop/releases/download/v3.1.9/Equibop-3.1.9-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Equicord/Equibop/releases/download/v3.2.1/Equibop-3.2.1-arm64-win.ziphttps://github.com/Equicord/Equibop/releases/download/v3.2.1/Equibop-3.2.1-universal-mac.ziphttps://github.com/Equicord/Equibop/releases/download/v3.2.1/Equibop-3.2.1-arm64-win.zip">Download arm64</a>
 </button>
 </div>

@@ -26,6 +26,6 @@ Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/is
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-<a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.20.1/Heroic-2.20.1-linux-x86_64.AppImage">Download x86_64</a>
+<a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.0/Heroic-2.22.0-linux-amd64.debhttps://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.0/Heroic-2.22.0-linux-amd64.debhttps://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.0/Heroic-2.22.0-linux-amd64.deb">Download x86_64</a>
 </button>
 </div>
