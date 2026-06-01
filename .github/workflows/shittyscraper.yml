@@ -27,9 +27,6 @@ jobs:
           # Передаем системный токен GitHub, который уберет ограничение API Rate Limit
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          apt-get update
-          apt-get install -y jq
-          chmod +x ./code/shittyscraper.sh
           ./code/shittyscraper.sh
 
       - name: Commit changes
