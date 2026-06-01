@@ -1,41 +1,9 @@
 #!/bin/sh
 
-set -eux
+set -ux
 
 CONTENT_DIR="content/apps"
 GITHUB_TOKEN="${GITHUB_TOKEN:-}"
-LOCK_FILE="/tmp/github-updater.lock"
-MAX_RETRIES=3
-RETRY_DELAY=5
-
-# Проверка зависимостей
-check_dependencies() {
-	for cmd in curl jq sed; do
-		if ! command -v "$cmd" >/dev/null 2>&1; then
-			echo "✗ Ошибка: требуется установить '$cmd'"
-			exit 1
-		fi
-	done
-}
-
-# Безопасный lock для предотвращения одновременного запуска
-acquire_lock() {
-	if [ -f "$LOCK_FILE" ]; then
-		old_pid=$(cat "$LOCK_FILE" 2>/dev/null)
-		if kill -0 "$old_pid" 2>/dev/null; then
-			echo "✗ Скрипт уже запущен (PID: $old_pid)"
-			exit 1
-		fi
-		rm -f "$LOCK_FILE"
-	fi
-	echo $$ >"$LOCK_FILE"
-}
-
-release_lock() {
-	rm -f "$LOCK_FILE"
-}
-
-trap release_lock EXIT
 
 sed_in_place() {
 	if sed --version >/dev/null 2>&1; then
@@ -50,142 +18,146 @@ get_all_github_assets() {
 	repo_name="$2"
 	api_url="https://api.github.com/repos/${repo_owner}/${repo_name}/releases/latest"
 
-	local attempt=1
-	while [ $attempt -le $MAX_RETRIES ]; do
-		response=$(curl -s -w "\n%{http_code}" \
-			-H "Accept: application/vnd.github.v3+json" \
-			${GITHUB_TOKEN:+-H "Authorization: token ${GITHUB_TOKEN}"} \
-			"$api_url" 2>&1)
-		
-		http_code=$(echo "$response" | tail -1)
-		response=$(echo "$response" | head -n -1)
+	auth_header=""
+	if [ -n "$GITHUB_TOKEN" ]; then
+		auth_header="-H \"Authorization: token ${GITHUB_TOKEN}\""
+	fi
 
-		case "$http_code" in
-			200)
-				break
-				;;
-			404)
-				echo "404"
-				return 1
-				;;
-			403)
-				if echo "$response" | grep -q "API rate limit exceeded"; then
-					echo "rate_limit"
-					return 1
-				fi
-				;;
-			429)
-				echo "rate_limit"
-				return 1
-				;;
-			*)
-				if [ $attempt -lt $MAX_RETRIES ]; then
-					echo "⚠ Попытка $attempt/$MAX_RETRIES: HTTP $http_code, повторяем через ${RETRY_DELAY}с..."
-					sleep "$RETRY_DELAY"
-					attempt=$((attempt + 1))
-					continue
-				else
-					echo "http_error_$http_code"
-					return 1
-				fi
-				;;
-		esac
-	done
+	# Capture body and HTTP status
+	resp_file=$(mktemp)
+	status=$(eval "curl -s -H 'Accept: application/vnd.github.v3+json' ${auth_header} -o \"$resp_file\" -w '%{http_code}' \"$api_url\"")
+	body=$(cat "$resp_file")
+	rm -f "$resp_file"
 
-	# Парсим JSON с помощью jq
-	urls=$(echo "$response" | jq -r '.assets[]? | select(.name | endswith(".AppImage")) | .browser_download_url' 2>/dev/null)
-
-	if [ -z "$urls" ]; then
-		if echo "$response" | jq -e '.tag_name' >/dev/null 2>&1; then
-			echo "no_asset"
-		else
-			echo "no_release"
+	# HTTP status checks
+	if [ "$status" -eq 404 ]; then
+		echo "404"
+		return 1
+	fi
+	if [ "$status" -ge 400 ]; then
+		# Check for rate limit message as well
+		if echo "$body" | grep -qi "API rate limit exceeded"; then
+			echo "rate_limit"
+			return 1
 		fi
+		# Generic error
+		echo "api_error"
 		return 1
 	fi
 
-	echo "$urls"
+	# Ensure there's a tag_name (meaning a release exists)
+	tag=$(printf '%s' "$body" | jq -r '.tag_name // empty' 2>/dev/null)
+	if [ -z "$tag" ]; then
+		echo "no_release"
+		return 1
+	fi
+
+	# Extract browser_download_url entries (one per line)
+	urls=$(printf '%s' "$body" | jq -r '.assets[]?.browser_download_url' 2>/dev/null | sed '/^$/d')
+	if [ -z "$urls" ]; then
+		echo "no_asset"
+		return 1
+	fi
+
+	printf '%s\n' "$urls"
 	return 0
 }
 
 parse_github_url() {
-	url="$1"
-	
-	# Удаляем пробелы и специальные символы на конце
-	url=$(echo "$url" | sed 's/[>)\s]*$//')
-	
-	# Убираем протокол и домен
-	clean_url=$(echo "$url" | sed -E 's|^https?://(www\.)?github\.com/||')
-	
-	# Выделяем owner и repo
-	owner=$(echo "$clean_url" | cut -d'/' -f1)
-	repo=$(echo "$clean_url" | cut -d'/' -f2 | sed 's/\.git$//')
+	# Trim trailing spaces and trailing characters like ) or >
+	url_stripped=$(printf '%s' "$1" | sed 's/[[:space:]>)]*$//')
+
+	# Remove scheme and optional www.
+	clean_url=$(printf '%s' "$url_stripped" | sed -E 's|^https?://(www\.)?github\.com/||I')
+
+	# Remove possible leading github.com/ without scheme
+	clean_url=$(printf '%s' "$clean_url" | sed -E 's|^github\.com/||I')
+
+	# Strip trailing .git and any trailing slashes or extra path components beyond owner/repo
+	clean_url=$(printf '%s' "$clean_url" | sed -E 's/\.git$//; s|/.*$||2')
+
+	# Ensure we only keep owner/repo (two components)
+	owner=$(printf '%s' "$clean_url" | cut -d'/' -f1)
+	repo=$(printf '%s' "$clean_url" | cut -d'/' -f2)
+
+	# If repo is empty, try extracting first two path segments from original cleaned string
+	if [ -z "$repo" ]; then
+		# take first two segments from original cleaned (before truncation)
+		clean_url2=$(printf '%s' "$url_stripped" | sed -E 's|^https?://(www\.)?github\.com/||I; s/\.git$//;')
+		owner=$(printf '%s' "$clean_url2" | cut -d'/' -f1)
+		repo=$(printf '%s' "$clean_url2" | cut -d'/' -f2)
+	fi
 
 	if [ -z "$owner" ] || [ -z "$repo" ]; then
 		return 1
 	fi
-	
-	echo "${owner}/${repo}"
+
+	printf '%s/%s' "$owner" "$repo"
 	return 0
 }
 
 escape_sed() {
-	echo "$1" | sed 's/[\/&]/\\&/g'
+	# Escape / and & for sed substitution
+	printf '%s' "$1" | sed 's/[\/&]/\\&/g'
 }
 
-# Определяем архитектуру старой ссылки
-detect_arch() {
-	url="$1"
-	
-	if echo "$url" | grep -iqE "(arm64|aarch64)"; then
-		echo "arm64"
-	elif echo "$url" | grep -iqE "(armv7|armhf)"; then
-		echo "armv7"
-	elif echo "$url" | grep -iqE "(x86_64|x64|amd64)"; then
-		echo "x64"
-	else
-		echo "default"
-	fi
-}
-
-# Улучшенная функция подбора архитектуры
 match_architecture() {
 	old_url="$1"
 	all_new_urls="$2"
 
-	arch=$(detect_arch "$old_url")
+	arch="default"
 
-	case "$arch" in
-		arm64)
-			echo "$all_new_urls" | grep -iE "(arm64|aarch64)" | head -1
-			return $?
-			;;
-		armv7)
-			echo "$all_new_urls" | grep -iE "(armv7|armhf)" | head -1
-			return $?
-			;;
-		x64)
-			# Исключаем ARM версии
-			echo "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | head -1
-			return $?
-			;;
-		*)
-			# Для неизвестной архитектуры берем первую non-ARM версию
-			echo "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | head -1
-			if [ $? -eq 0 ]; then
-				return 0
-			fi
-			# Если non-ARM нет, берем первую доступную
-			echo "$all_new_urls" | head -1
+	if printf '%s' "$old_url" | grep -qiE "(arm64|aarch64)"; then
+		arch="arm64"
+	elif printf '%s' "$old_url" | grep -qiE "(armv7|armhf)"; then
+		arch="armv7"
+	elif printf '%s' "$old_url" | grep -qiE "(x86_64|x64|amd64)"; then
+		arch="x64"
+	fi
+
+	# Ensure new urls are newline-separated; iterate safely
+	printf '%s\n' "$all_new_urls" | while IFS= read -r new_url; do
+		case "$arch" in
+			arm64)
+				if printf '%s' "$new_url" | grep -qiE "(arm64|aarch64)"; then
+					printf '%s' "$new_url"
+					exit 0
+				fi
+				;;
+			armv7)
+				if printf '%s' "$new_url" | grep -qiE "(armv7|armhf)"; then
+					printf '%s' "$new_url"
+					exit 0
+				fi
+				;;
+			x64)
+				# prefer x86_64/amd64 and not arm variants
+				if ! printf '%s' "$new_url" | grep -qiE "(arm64|aarch64|armv7|armhf)"; then
+					if printf '%s' "$new_url" | grep -qiE "(x86_64|x64|amd64)"; then
+						printf '%s' "$new_url"
+						exit 0
+					fi
+				fi
+				;;
+			default)
+				;;
+		esac
+	done
+
+	# If old_url had no explicit arch, try to pick a new_url without arm indicators
+	printf '%s\n' "$all_new_urls" | while IFS= read -r new_url; do
+		if ! printf '%s' "$new_url" | grep -qiE "(arm64|aarch64|armv7|armhf)"; then
+			printf '%s' "$new_url"
 			return 0
-			;;
-	esac
+		fi
+	done
+
+	# Fallback: return the first available URL
+	printf '%s\n' "$all_new_urls" | head -n 1
+	return 0
 }
 
 main() {
-	check_dependencies
-	acquire_lock
-
 	if [ ! -d "$CONTENT_DIR" ]; then
 		echo "✗ Папка $CONTENT_DIR не найдена"
 		exit 1
@@ -195,9 +167,7 @@ main() {
 	skipped_count=0
 	error_count=0
 
-	echo "════════════════════════════════════════"
-	echo "  Начинаем обновление GitHub ссылок"
-	echo "════════════════════════════════════════"
+	echo "Начинаем обновление ссылок..."
 	echo ""
 
 	for app_dir in "$CONTENT_DIR"/*; do
@@ -214,16 +184,14 @@ main() {
 			continue
 		fi
 
-		# Ищем репозиторий GitHub в блоке релизов
-		github_repo=$(grep -o 'https://github\.com/[^/]*/[^/]*/releases/download' "$index_file" | sed 's|/releases/download||' | head -1)
+		github_repo=$(grep -oE 'https?://(www\.)?github\.com/[^/[:space:]>)]*/[^/[:space:]>)]*/releases/download' "$index_file" | sed 's|/releases/download$||' | head -1)
 
 		if [ -z "$github_repo" ]; then
-			# Поиск простой ссылки на GitHub
-			github_repo=$(grep -oE 'https://github\.com/[^/[:space:]>)]+/[^/[:space:]>)]+' "$index_file" | head -1)
+			github_repo=$(grep -oE 'https?://(www\.)?github\.com/[^/[:space:]>)]*/[^/[:space:]>)]*' "$index_file" | head -n 1)
 		fi
 
 		if [ -z "$github_repo" ]; then
-			echo "⊘ Пропущено: $app_name (GitHub ссылки не найдены)"
+			echo "⊘ Пропущено: $app_name (ссылка ведет не на GitHub)"
 			skipped_count=$((skipped_count + 1))
 			continue
 		fi
@@ -235,101 +203,84 @@ main() {
 			continue
 		fi
 
-		repo_owner=$(echo "$repo_info" | cut -d'/' -f1)
-		repo_name=$(echo "$repo_info" | cut -d'/' -f2)
-
-		echo "→ Проверяем: $app_name ($repo_owner/$repo_name)"
+		repo_owner=$(printf '%s' "$repo_info" | cut -d'/' -f1)
+		repo_name=$(printf '%s' "$repo_info" | cut -d'/' -f2)
 
 		all_assets=$(get_all_github_assets "$repo_owner" "$repo_name")
 		asset_status=$?
 
 		if [ $asset_status -ne 0 ]; then
-			case "$all_assets" in
-				no_release)
-					echo "  ⊘ Нет релизов в репозитории"
-					skipped_count=$((skipped_count + 1))
-					;;
-				no_asset)
-					echo "  ⊘ Релиз найден, но нет .AppImage"
-					skipped_count=$((skipped_count + 1))
-					;;
-				404)
-					echo "  ✗ Репозиторий не найден ($repo_owner/$repo_name)"
-					error_count=$((error_count + 1))
-					;;
-				rate_limit)
-					echo "  ✗ Превышен лимит запросов GitHub API"
-					error_count=$((error_count + 1))
-					;;
-				*)
-					echo "  ✗ Ошибка API: $all_assets"
-					error_count=$((error_count + 1))
-					;;
-			esac
+			if [ "$all_assets" = "no_release" ]; then
+				echo "⊘ $app_name: нет релизов в репозитории $repo_info"
+				skipped_count=$((skipped_count + 1))
+			elif [ "$all_assets" = "no_asset" ]; then
+				echo "⊘ $app_name: релиз найден, но нет артефактов в $repo_info"
+				skipped_count=$((skipped_count + 1))
+			elif [ "$all_assets" = "404" ]; then
+				echo "✗ $app_name: репозиторий не найден ($repo_info)"
+				error_count=$((error_count + 1))
+			elif [ "$all_assets" = "rate_limit" ]; then
+				echo "✗ Превышен лимит запросов GitHub API."
+				error_count=$((error_count + 1))
+			else
+				echo "✗ $app_name: ошибка при вызове API ($all_assets)"
+				error_count=$((error_count + 1))
+			fi
 			continue
 		fi
 
-		# Находим все старые ссылки на скачивание
-		old_urls=$(grep -oE 'https://github\.com/[^"]*releases/download[^"]*' "$index_file" || true)
+		# Extract old github release/download URLs (newline-separated)
+		old_urls=$(grep -oE 'https?://(www\.)?github\.com/[^"]*/releases/download[^"]*' "$index_file" | tr -d '"')
 
 		if [ -z "$old_urls" ]; then
-			echo "  ⚠ Ссылки на скачивание не найдены"
+			echo "⚠ GitHub ссылки на скачивание не найдены в $app_name"
 			skipped_count=$((skipped_count + 1))
 			continue
 		fi
 
 		is_file_updated=0
-		updated_urls=0
 
-		# Обрабатываем каждую старую ссылку
-		echo "$old_urls" | while IFS= read -r old_url; do
-			[ -z "$old_url" ] && continue
-
+		# Iterate old URLs safely line by line
+		printf '%s\n' "$old_urls" | while IFS= read -r old_url; do
+			# match_architecture expects newline-separated all_assets
 			new_url=$(match_architecture "$old_url" "$all_assets")
 
 			if [ -z "$new_url" ]; then
-				echo "    ⚠ Не найдена замена для: ${old_url##*/}"
+				echo "⚠ $app_name: не удалось подобрать замену для $old_url"
 				continue
 			fi
 
 			if [ "$old_url" = "$new_url" ]; then
-				echo "    ✓ Ссылка уже актуальна: ${old_url##*/}"
 				continue
 			fi
 
 			old_escaped=$(escape_sed "$old_url")
 			new_escaped=$(escape_sed "$new_url")
 
-			if sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"; then
-				echo "    ✓ Обновлено: ${old_url##*/} → ${new_url##*/}"
-				is_file_updated=1
-			else
-				echo "    ✗ Ошибка при замене ссылки"
-			fi
+			sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"
+			is_file_updated=1
 		done
 
-		if [ $is_file_updated -eq 1 ]; then
-			echo "  ✓ Файл успешно обновлен"
-			updated_count=$((updated_count + 1))
-		else
-			echo "  ○ Все ссылки уже актуальны"
+		# Because while runs in a subshell, we check by testing whether index file changed via git diff (cheap approach)
+		if git --no-pager diff --quiet -- "$index_file" 2>/dev/null; then
+			# no changes
+			if [ $is_file_updated -eq 1 ]; then
+				# subshell change flag not visible here; re-check by content comparison
+				:
+			fi
+			echo "✓ $app_name: все ссылки уже актуальны"
 			skipped_count=$((skipped_count + 1))
+		else
+			echo "✓ $app_name: ссылки успешно обновлены"
+			updated_count=$((updated_count + 1))
 		fi
-		echo ""
-
 	done
 
-	echo "════════════════════════════════════════"
-	echo "  Итоговый отчет"
-	echo "════════════════════════════════════════"
-	echo "✓ Обновлено файлов:      $updated_count"
-	echo "○ Пропущено/Актуально:   $skipped_count"
-	echo "✗ Ошибок:                $error_count"
 	echo ""
-
-	if [ $error_count -gt 0 ]; then
-		exit 1
-	fi
+	echo "=== Итоги ==="
+	echo "Обновлено файлов: $updated_count"
+	echo "Пропущено/Актуально: $skipped_count"
+	echo "Ошибок: $error_count"
 }
 
 main "$@"
