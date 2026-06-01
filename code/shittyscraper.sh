@@ -53,7 +53,7 @@ get_all_github_assets() {
 	fi
 
 	# Extract browser_download_url entries (one per line)
-	urls=$(printf '%s' "$body" | jq -r '.assets[]?.browser_download_url' 2>/dev/null | sed '/^$/d')
+	urls=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | .browser_download_url' 2>/dev/null | sed '/^$/d')
 	if [ -z "$urls" ]; then
 		echo "no_asset"
 		return 1
