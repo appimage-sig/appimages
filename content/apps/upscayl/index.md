@@ -25,6 +25,6 @@ Report the bug: <https://github.com/upscayl/upscayl/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/latest-linux.ymlhttps://github.com/upscayl/upscayl/releases/download/v2.15.0/latest-linux.yml">Download x86_64</a>
+      <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/latest-linux.yml">Download x86_64</a>
 </button>
 </div>

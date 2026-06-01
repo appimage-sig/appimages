@@ -24,6 +24,6 @@ Report the bug: <https://github.com/opengisch/QField/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/opengisch/QField/releases/download/v4.1.13/qfield-v4.1.13-android-x64.apkhttps://github.com/opengisch/QField/releases/download/v4.1.13/qfield-v4.1.13-android-arm-neon.apkhttps://github.com/opengisch/QField/releases/download/v4.1.13/qfield-v4.1.13-android-arm-neon.apk">Download x86_64</a>
+      <a href="https://github.com/opengisch/QField/releases/download/v4.1.13/qfield-v4.1.13-android-x64.apk">Download x86_64</a>
 </button>
 </div>

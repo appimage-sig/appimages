@@ -23,6 +23,6 @@ Report the bug: <https://github.com/GAMS-dev/studio/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/GAMS-dev/studio/releases/download/v1.25.0/GAMS_Studio-1.25.0-x86_64.AppImagehttps://github.com/GAMS-dev/studio/releases/download/v1.25.0/GAMS_Studio-1.25.0-arm_64.dmghttps://github.com/GAMS-dev/studio/releases/download/v1.25.0/GAMS_Studio-1.25.0-arm_64.dmg">Download x86_64</a>
+      <a href="https://github.com/GAMS-dev/studio/releases/download/v1.25.0/GAMS_Studio-1.25.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

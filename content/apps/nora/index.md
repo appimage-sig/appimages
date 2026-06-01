@@ -22,6 +22,6 @@ Report the bug: <https://github.com/Sandakan/Nora/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-amd64.debhttps://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/builder-debug.ymlhttps://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/builder-debug.yml">Download x86_64</a>
+      <a href="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-amd64.deb">Download x86_64</a>
 </button>
 </div>

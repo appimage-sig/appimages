@@ -24,6 +24,6 @@ Report the bug: <https://github.com/flareteam/flare-game/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImagehttps://github.com/flareteam/flare-game/releases/download/v1.15/flare-engine-android-v1.15.apkhttps://github.com/flareteam/flare-game/releases/download/v1.15/flare-engine-android-v1.15.apk">Download x86_64</a>
+      <a href="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImage">Download x86_64</a>
 </button>
 </div>

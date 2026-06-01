@@ -23,12 +23,12 @@ Report the bug: <https://github.com/SpacingBat3/WebCord/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.x86_64.rpmhttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASEShttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASES">Download x86_64</a>
+      <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.x86_64.rpm">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.arm64.rpmhttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASEShttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASES">Download arm64</a>
+    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.arm64.rpm">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.armv7hl.rpmhttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASEShttps://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/RELEASES">Download armv7l</a>
+    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/webcord-4.13.0-1.armv7hl.rpm">Download armv7l</a>
 </button>
 </div>

@@ -23,6 +23,6 @@ Report the bug: <https://github.com/VSCodium/vscodium/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/VSCodium/vscodium/releases/download/1.121.03429/codium-1.121.03429-el8.x86_64.rpmhttps://github.com/VSCodium/vscodium/releases/download/1.121.03429/codium-1.121.03429-el8.ppc64le.rpmhttps://github.com/VSCodium/vscodium/releases/download/1.121.03429/codium-1.121.03429-el8.aarch64.rpm">Download x86_64</a>
+      <a href="https://github.com/VSCodium/vscodium/releases/download/1.121.03429/codium-1.121.03429-el8.aarch64.rpm">Download x86_64</a>
 </button>
 </div>

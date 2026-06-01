@@ -24,6 +24,6 @@ Report the bug: <https://github.com/vifm/vifm/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-v0.14.4-x86_64.AppImagehttps://github.com/vifm/vifm/releases/download/v0.14.4/vifm-0.14.4.tar.bz2https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-0.14.4.tar.bz2">Download x86_64</a>
+      <a href="https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-v0.14.4-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

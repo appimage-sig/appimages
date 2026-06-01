@@ -26,6 +26,6 @@ Report the bug: <https://github.com/cpeditor/cpeditor/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-linux-amd64.debhttps://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-full-source.tar.gzhttps://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-full-source.tar.gz">Download x86_64</a>
+      <a href="https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-linux-amd64.deb">Download x86_64</a>
 </button>
 </div>

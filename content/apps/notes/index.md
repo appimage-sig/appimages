@@ -23,6 +23,6 @@ Report the bug: <https://github.com/nuttyartist/notes/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/nuttyartist/notes/releases/download/v2.3.1/notes-2.3.1-1.x86_64-qt6-fedora-38.rpmhttps://github.com/nuttyartist/notes/releases/download/v2.3.1/notes-2.3.1-1.x86_64-qt6-fedora-38.rpmhttps://github.com/nuttyartist/notes/releases/download/v2.3.1/notes-2.3.1-1.x86_64-qt6-fedora-38.rpm">Download x86_64</a>
+      <a href="https://github.com/nuttyartist/notes/releases/download/v2.3.1/notes-2.3.1-1.x86_64-qt6-fedora-38.rpm">Download x86_64</a>
 </button>
 </div>

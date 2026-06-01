@@ -24,6 +24,6 @@ Report the bug: <https://github.com/friction2d/friction/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/friction-1.0.0-rc.3-linux-x86_64.tar.xzhttps://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/friction-1.0.0-rc.3-linux-x86_64.tar.xzhttps://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/friction-1.0.0-rc.3-linux-x86_64.tar.xz">Download x86_64</a>
+      <a href="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/friction-1.0.0-rc.3-linux-x86_64.tar.xz">Download x86_64</a>
 </button>
 </div>

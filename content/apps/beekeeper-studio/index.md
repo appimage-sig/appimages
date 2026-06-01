@@ -25,9 +25,9 @@ Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-mac.ziphttps://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-aarch64.flatpak">Download x86_64</a>
+      <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-aarch64.flatpak">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-mac.ziphttps://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-aarch64.flatpak">Download arm64</a>
+    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.7.3/Beekeeper-Studio-5.7.3-aarch64.flatpak">Download arm64</a>
 </button>
 </div>

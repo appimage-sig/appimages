@@ -26,6 +26,6 @@ Report the bug: <https://github.com/pbek/QOwnNotes/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/pbek/QOwnNotes/releases/download/v26.6.1/QOwnNotes-amd64.snaphttps://github.com/pbek/QOwnNotes/releases/download/v26.6.1/qownnotes-26.6.1.tar.xzhttps://github.com/pbek/QOwnNotes/releases/download/v26.6.1/qownnotes-26.6.1.tar.xz">Download x86_64</a>
+      <a href="https://github.com/pbek/QOwnNotes/releases/download/v26.6.1/QOwnNotes-amd64.snap">Download x86_64</a>
 </button>
 </div>

@@ -25,6 +25,6 @@ Report the bug: <https://github.com/darktable-org/darktable//issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/darktable-org/darktable/releases/download/release-5.4.1/Darktable-5.4.1-x86_64.AppImagehttps://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1-win64.exehttps://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1-arm64.dmg">Download x86_64</a>
+      <a href="https://github.com/darktable-org/darktable/releases/download/release-5.4.1/darktable-5.4.1-arm64.dmg">Download x86_64</a>
 </button>
 </div>

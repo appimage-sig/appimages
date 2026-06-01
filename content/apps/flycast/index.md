@@ -24,6 +24,6 @@ Report the bug: <https://github.com/flyinghead/flycast/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImagehttps://github.com/flyinghead/flycast/releases/download/v2.6/flycast-2.6.apkhttps://github.com/flyinghead/flycast/releases/download/v2.6/flycast-2.6.apk">Download x86_64</a>
+      <a href="https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

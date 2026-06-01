@@ -24,9 +24,9 @@ Report the bug: <https://github.com/jgraph/drawio-desktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-x64-30.0.4.dmghttps://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-30.0.4-windows-installer.exehttps://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-30.0.4-windows-installer.exe">Download x86_64</a>
+      <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-x64-30.0.4.dmg">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-arm64-30.0.4-windows-arm64-installer.exehttps://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-30.0.4-windows-installer.exehttps://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-30.0.4-windows-installer.exe">Download arm64</a>
+    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/draw.io-arm64-30.0.4-windows-arm64-installer.exe">Download arm64</a>
 </button>
 </div>

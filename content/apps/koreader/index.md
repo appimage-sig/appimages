@@ -24,12 +24,12 @@ Report the bug: <https://github.com/koreader/koreader/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-x86_64-v2026.03.tar.xzhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apkhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apk">Download x86_64</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-x86_64-v2026.03.tar.xz">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm64-v2026.03.apkhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apkhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apk">Download arm64</a>
+    <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm64-v2026.03.apk">Download arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-armhf-v2026.03.tar.xzhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apkhttps://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm-v2026.03.apk">Download armv7l</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-armhf-v2026.03.tar.xz">Download armv7l</a>
 </button>
 </div>

@@ -23,6 +23,6 @@ Report the bug: <https://github.com/nextcloud/desktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5-x64.msihttps://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5-x64.msihttps://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5-x64.msi">Download x86_64</a>
+      <a href="https://github.com/nextcloud-releases/desktop/releases/download/v33.0.5/Nextcloud-33.0.5-x64.msi">Download x86_64</a>
 </button>
 </div>

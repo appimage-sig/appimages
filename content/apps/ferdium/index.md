@@ -24,6 +24,6 @@ Report the bug: <https://github.com/ferdium/ferdium-app/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-linux-7.1.2-amd64.debhttps://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-linux-7.1.2-amd64.debhttps://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-linux-7.1.2-aarch64.rpm">Download x86_64</a>
+      <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-linux-7.1.2-aarch64.rpm">Download x86_64</a>
 </button>
 </div>

@@ -24,6 +24,6 @@ Report the bug: <https://github.com/playwora/wora/issues>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/playwora/wora/releases/download/v0.4.0-beta1/Wora.v0.4.0-beta1.AppImagehttps://github.com/playwora/wora/releases/download/v0.4.0-beta1/Wora.v0.4.0-beta1.AppImage">Download x86_64</a>
+      <a href="https://github.com/playwora/wora/releases/download/v0.4.0-beta1/Wora.v0.4.0-beta1.AppImage">Download x86_64</a>
 </button>
 </div>

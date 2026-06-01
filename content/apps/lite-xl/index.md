@@ -22,6 +22,6 @@ Report the bug: <https://github.com/lite-xl/lite-xl/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-linux-x86_64-portable.tar.gzhttps://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-linux-x86_64-portable.tar.gzhttps://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-linux-x86_64-portable.tar.gz">Download x86_64</a>
+      <a href="https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/lite-xl-v2.1.8-addons-linux-x86_64-portable.tar.gz">Download x86_64</a>
 </button>
 </div>

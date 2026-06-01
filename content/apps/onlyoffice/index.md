@@ -23,9 +23,9 @@ Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-x86_64.AppImagehttps://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-x86_64.AppImagehttps://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download x86_64</a>
+      <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImagehttps://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-x86_64.AppImagehttps://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download arm64</a>
 </button>
 </div>

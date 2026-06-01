@@ -25,9 +25,9 @@ Report the bug: <https://github.com/buckets/application/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-amd64-0.80.0.dmghttps://github.com/buckets/application/releases/download/v0.80.0/Buckets-0.80.0.exehttps://github.com/buckets/application/releases/download/v0.80.0/Buckets-0.80.0.exe">Download x86_64</a>
+      <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-amd64-0.80.0.dmg">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-arm64-0.80.0.dmghttps://github.com/buckets/application/releases/download/v0.80.0/Buckets-0.80.0.exehttps://github.com/buckets/application/releases/download/v0.80.0/Buckets-0.80.0.exe">Download arm64</a>
+    <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-arm64-0.80.0.dmg">Download arm64</a>
 </button>
 </div>

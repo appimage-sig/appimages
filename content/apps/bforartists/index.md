@@ -24,6 +24,6 @@ Report the bug: <https://github.com/Bforartists/Bforartists/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.1.1/Bforartists-5.1.1-x86_64.AppImagehttps://github.com/Bforartists/Bforartists/releases/download/v5.1.1/Bforartists-5.1.1-Linux.tar.xzhttps://github.com/Bforartists/Bforartists/releases/download/v5.1.1/Bforartists-5.1.1-Linux.tar.xz">Download x86_64</a>
+      <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.1.1/Bforartists-5.1.1-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

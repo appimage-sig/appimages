@@ -22,6 +22,6 @@ Report the bug: <https://github.com/xonsh/xonsh/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xonsh/xonsh/releases/download/0.23.8/xonsh-x86_64.AppImagehttps://github.com/xonsh/xonsh/releases/download/0.23.8/xonsh-x86_64.AppImagehttps://github.com/xonsh/xonsh/releases/download/0.23.8/xonsh-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/xonsh/xonsh/releases/download/0.23.8/xonsh-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

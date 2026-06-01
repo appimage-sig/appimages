@@ -24,9 +24,9 @@ Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exehttps://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows_x64.exehttps://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exe">Download x86_64</a>
+      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exe">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exehttps://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows_x64.exehttps://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exe">Download arm64</a>
+    <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.5/01_RapidRAW_v1.5.5_windows-11-arm_arm64.exe">Download arm64</a>
 </button>
 </div>

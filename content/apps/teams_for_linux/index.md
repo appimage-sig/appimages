@@ -21,12 +21,12 @@ Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.ymlhttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download x86_64</a>
+      <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm64.ymlhttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.ymlhttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download arm64</a>
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm64.ymlhttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/teams-for-linux-2.10.0-armv7l.AppImagehttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.ymlhttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download armv7l</a>
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/teams-for-linux-2.10.0-armv7l.AppImagehttps://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.10.0/latest-linux-arm.yml">Download armv7l</a>
 </button>
 </div>

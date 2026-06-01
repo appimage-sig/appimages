@@ -23,9 +23,9 @@ Report the bug: <https://github.com/trezor/trezor-suite/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/trezor/trezor-suite/releases/download/v26.5.2/Trezor-Suite-26.5.2-linux-x86_64.AppImagehttps://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux.ymlhttps://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux-arm64.yml">Download x86_64</a>
+      <a href="https://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux-arm64.yml">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux-arm64.ymlhttps://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux.ymlhttps://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux-arm64.yml">Download arm64</a>
+    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.5.2/latest-linux-arm64.yml">Download arm64</a>
 </button>
 </div>

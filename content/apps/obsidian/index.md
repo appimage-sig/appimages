@@ -21,9 +21,9 @@ Translate: <https://github.com/obsidianmd/obsidian-translations>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large"
-      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.apkhttps://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImagehttps://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.apkhttps://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImage">Download x86_64</a>
+      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImagehttps://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7.apkhttps://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.12.7/Obsidian-1.12.7-arm64.AppImage">Download arm64</a>
 </button>
 </div>

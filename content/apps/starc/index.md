@@ -25,6 +25,6 @@ Report the bug: <https://github.com/story-apps/starc/issues/>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large"
-      <a href="https://github.com/story-apps/starc/releases/download/v0.8.1/starc-package.msixhttps://github.com/story-apps/starc/releases/download/v0.8.1/starc-package.msix">Download x86_64</a>
+      <a href="https://github.com/story-apps/starc/releases/download/v0.8.1/starc-package.msix">Download x86_64</a>
 </button>
 </div>

@@ -20,6 +20,6 @@ Report the bug: <https://github.com/s3drive/app//issues>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/s3drive/appimage-app/releases/download/1.17.7/S3Drive-x86_64.AppImagehttps://github.com/s3drive/appimage-app/releases/download/1.17.7/S3Drive-x86_64.AppImagehttps://github.com/s3drive/appimage-app/releases/download/1.17.7/S3Drive-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/s3drive/appimage-app/releases/download/1.17.7/S3Drive-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -24,6 +24,6 @@ Report the bug: <https://github.com/johannesjo/super-productivity/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.8.0/Super-Productivity-Setup-x64.exehttps://github.com/super-productivity/super-productivity/releases/download/v18.8.0/app-play-release.apkhttps://github.com/super-productivity/super-productivity/releases/download/v18.8.0/app-play-release.apk">Download x86_64</a>
+      <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.8.0/Super-Productivity-Setup-x64.exe">Download x86_64</a>
 </button>
 </div>

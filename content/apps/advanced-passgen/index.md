@@ -23,6 +23,6 @@ Report the bug: <https://github.com/CodeDead/Advanced-PassGen/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen-2.6.0-1.x86_64.rpmhttps://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen-2.6.0-1.x86_64.rpmhttps://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen-2.6.0-1.aarch64.rpm">Download x86_64</a>
+      <a href="https://github.com/CodeDead/Advanced-PassGen/releases/download/v2.6.0/advanced-passgen-2.6.0-1.aarch64.rpm">Download x86_64</a>
 </button>
 </div>

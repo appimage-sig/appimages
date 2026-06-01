@@ -24,9 +24,9 @@ Report the bug: <https://github.com/rustdesk/rustdesk/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zsthttps://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zsthttps://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zst">Download x86_64</a>
+      <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zst">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0.aarch64-suse.rpmhttps://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zsthttps://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0-x86_64.pkg.tar.zst">Download arm64</a>
+    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.6/rustdesk-1.4.6-0.aarch64-suse.rpm">Download arm64</a>
 </button>
 </div>

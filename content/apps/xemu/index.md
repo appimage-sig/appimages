@@ -23,15 +23,15 @@ Report the bug: <https://github.com/xemu-project/xemu/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-windows-x86_64-pdb.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-macos-universal-unsigned.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download x86_64</a>
+      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImagehttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-macos-universal-unsigned.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-windows-x86_64-pdb.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-macos-universal-unsigned.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download debug x86_64</a>
+      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download debug x86_64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImagehttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-dbg-macos-universal-unsigned.ziphttps://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download debug arm64</a>
+      <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.135/xemu-0.8.135-aarch64.AppImage">Download debug arm64</a>
 </button>
 </div>

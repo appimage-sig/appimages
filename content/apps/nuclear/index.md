@@ -26,6 +26,6 @@ Report the bug: <https://github.com/nukeop/nuclear/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/nukeop/nuclear/releases/download/player%401.38.0/Nuclear-1.38.0-1.x86_64.rpmhttps://github.com/nukeop/nuclear/releases/download/player%401.38.0/latest.jsonhttps://github.com/nukeop/nuclear/releases/download/player%401.38.0/latest.json">Download x86_64</a>
+      <a href="https://github.com/nukeop/nuclear/releases/download/player%401.38.0/Nuclear-1.38.0-1.x86_64.rpm">Download x86_64</a>
 </button>
 </div>

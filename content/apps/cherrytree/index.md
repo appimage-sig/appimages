@@ -25,6 +25,6 @@ Report the bug: <https://github.com/giuspen/cherrytree/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/giuspen/cherrytree/releases/download/v1.7.0/CherryTree-1.7.0-x86_64.AppImagehttps://github.com/giuspen/cherrytree/releases/download/v1.7.0/CherryTree-1.7.0-x86_64.AppImagehttps://github.com/giuspen/cherrytree/releases/download/v1.7.0/CherryTree-1.7.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/giuspen/cherrytree/releases/download/v1.7.0/CherryTree-1.7.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

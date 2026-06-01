@@ -24,9 +24,9 @@ Report the bug: <https://github.com/PrismLauncher/PrismLauncher/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-x86_64.AppImagehttps://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-11.0.2.tar.gzhttps://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-11.0.2.tar.gz">Download x86_64</a>
+      <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-aarch64-Qt6-Portable-11.0.2.tar.gzhttps://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-11.0.2.tar.gzhttps://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-11.0.2.tar.gz">Download arm64</a>
+    <a href="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-Linux-aarch64-Qt6-Portable-11.0.2.tar.gz">Download arm64</a>
 </button>
 </div>

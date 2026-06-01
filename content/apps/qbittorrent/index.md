@@ -21,6 +21,6 @@ Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-x86_64.AppImagehttps://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-x86_64.AppImagehttps://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download x86_64</a>
+      <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download x86_64</a>
 </button>
 </div>
