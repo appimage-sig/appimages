@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Скачивает всю историю, чтобы избежать проблем с правами на push
           fetch-depth: 0
@@ -27,6 +27,8 @@ jobs:
           # Передаем системный токен GitHub, который уберет ограничение API Rate Limit
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          apt-get update
+          apt-get install -y jq
           chmod +x ./code/shittyscraper.sh
           ./code/shittyscraper.sh
 
