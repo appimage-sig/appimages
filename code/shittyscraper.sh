@@ -115,45 +115,28 @@ match_architecture() {
 		arch="x64"
 	fi
 
-	# Ensure new urls are newline-separated; iterate safely
-	printf '%s\n' "$all_new_urls" | while IFS= read -r new_url; do
-		case "$arch" in
-			arm64)
-				if printf '%s' "$new_url" | grep -qiE "(arm64|aarch64)"; then
-					printf '%s' "$new_url"
-					exit 0
-				fi
-				;;
-			armv7)
-				if printf '%s' "$new_url" | grep -qiE "(armv7|armhf)"; then
-					printf '%s' "$new_url"
-					exit 0
-				fi
-				;;
-			x64)
-				# prefer x86_64/amd64 and not arm variants
-				if ! printf '%s' "$new_url" | grep -qiE "(arm64|aarch64|armv7|armhf)"; then
-					if printf '%s' "$new_url" | grep -qiE "(x86_64|x64|amd64)"; then
-						printf '%s' "$new_url"
-						exit 0
-					fi
-				fi
-				;;
-			default)
-				;;
-		esac
-	done
+	# 1. Попытка точного совпадения по архитектуре
+	case "$arch" in
+		arm64)
+			printf '%s\n' "$all_new_urls" | grep -iE "(arm64|aarch64)" | head -1
+			if [ $? -eq 0 ]; then return 0; fi
+			;;
+		armv7)
+			printf '%s\n' "$all_new_urls" | grep -iE "(armv7|armhf)" | head -1
+			if [ $? -eq 0 ]; then return 0; fi
+			;;
+		x64)
+			printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | grep -iE "(x86_64|x64|amd64)" | head -1
+			if [ $? -eq 0 ]; then return 0; fi
+			;;
+	esac
 
-	# If old_url had no explicit arch, try to pick a new_url without arm indicators
-	printf '%s\n' "$all_new_urls" | while IFS= read -r new_url; do
-		if ! printf '%s' "$new_url" | grep -qiE "(arm64|aarch64|armv7|armhf)"; then
-			printf '%s' "$new_url"
-			return 0
-		fi
-	done
+	# 2. Резервный план: берем первую non-ARM версию
+	printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | head -1
+	if [ $? -eq 0 ]; then return 0; fi
 
-	# Fallback: return the first available URL
-	printf '%s\n' "$all_new_urls" | head -n 1
+	# 3. Если всё остальное не подошло, берем первую доступную
+	printf '%s\n' "$all_new_urls" | head -1
 	return 0
 }
 
@@ -238,11 +221,14 @@ main() {
 			continue
 		fi
 
+		# Сохраняем оригинальное содержимое файла
+		original_content=$(cat "$index_file")
 		is_file_updated=0
 
-		# Iterate old URLs safely line by line
-		printf '%s\n' "$old_urls" | while IFS= read -r old_url; do
-			# match_architecture expects newline-separated all_assets
+		# Iterate old URLs safely line by line БЕЗ подшелла
+		while IFS= read -r old_url; do
+			[ -z "$old_url" ] && continue
+
 			new_url=$(match_architecture "$old_url" "$all_assets")
 
 			if [ -z "$new_url" ]; then
@@ -259,20 +245,16 @@ main() {
 
 			sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"
 			is_file_updated=1
-		done
+		done <<EOF
+$old_urls
+EOF
 
-		# Because while runs in a subshell, we check by testing whether index file changed via git diff (cheap approach)
-		if git --no-pager diff --quiet -- "$index_file" 2>/dev/null; then
-			# no changes
-			if [ $is_file_updated -eq 1 ]; then
-				# subshell change flag not visible here; re-check by content comparison
-				:
-			fi
-			echo "✓ $app_name: все ссылки уже актуальны"
-			skipped_count=$((skipped_count + 1))
-		else
+		if [ $is_file_updated -eq 1 ]; then
 			echo "✓ $app_name: ссылки успешно обновлены"
 			updated_count=$((updated_count + 1))
+		else
+			echo "✓ $app_name: все ссылки уже актуальны"
+			skipped_count=$((skipped_count + 1))
 		fi
 	done
 
