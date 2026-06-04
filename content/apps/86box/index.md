@@ -28,6 +28,6 @@ Report the bug: <https://github.com/86Box/86Box/issues>
   <a href="https://github.com/86Box/86Box/releases/download/v6.0/86Box-Linux-x86_64-b9001.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-  <a href="https://github.com/86Box/86Box/releases/download/v6.0/86Box-macOS-x86_64%2Barm64-b9001.zip">Download arm64</a>
+  <a href="https://github.com/86Box/86Box/releases/download/v6.0/86Box-NDR-Linux-arm64-b9001.AppImage">Download arm64</a>
 </button>
 </div>

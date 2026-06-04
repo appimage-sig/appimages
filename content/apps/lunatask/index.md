@@ -20,6 +20,6 @@ Web page: <https://lunatask.app>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/lunatask/lunatask/releases/download/v2.1.28/latest-linux.yml">Download x86_64</a>
+      <a href="https://github.com/lunatask/lunatask/releases/download/v2.1.28/Lunatask-2.1.28.AppImage">Download x86_64</a>
 </button>
 </div>

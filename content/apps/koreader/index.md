@@ -24,12 +24,12 @@ Report the bug: <https://github.com/koreader/koreader/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-x86_64-v2026.03.tar.xz">Download x86_64</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-android-arm64-v2026.03.apk">Download arm64</a>
+    <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-aarch64.AppImage">Download arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-linux-armhf-v2026.03.tar.xz">Download armv7l</a>
+      <a href="https://github.com/koreader/koreader/releases/download/v2026.03/koreader-v2026.03-armhf.AppImage">Download armv7l</a>
 </button>
 </div>

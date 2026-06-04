@@ -23,6 +23,6 @@ Report the bug: <https://github.com/sedwards2009/extraterm/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/extratermqt-0.82.0-linux-x64.zip">Download x86_64</a>
+      <a href="https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/ExtratermQt-0.82.0.glibc2.38-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

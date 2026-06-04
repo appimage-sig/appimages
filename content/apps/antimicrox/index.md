@@ -26,9 +26,9 @@ Report the bug: <https://github.com/AntiMicroX/antimicrox/issues>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/antimicrox-3.6.1-PortableWindows-AMD64.zip">Download x86_64</a>
+      <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64</a>
 </button>  
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/antimicrox-3.6.1-PortableWindows-AMD64.zip">Download x86_64 debug version</a>
+      <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64 debug version</a>
 </button>
 </div>

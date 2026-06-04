@@ -24,7 +24,7 @@ Report the bug: <https://github.com/dbgate/dbgate/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/dbgate/dbgate/releases/download/v7.1.13/dbgate-7.1.13-linux_amd64.deb">Download x86_64</a>
+      <a href="https://github.com/dbgate/dbgate/releases/download/v7.1.13/dbgate-7.1.13-linux_x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/dbgate/dbgate/releases/download/v7.1.13/dbgate-7.1.13-linux_arm64.AppImage">Download arm64</a>

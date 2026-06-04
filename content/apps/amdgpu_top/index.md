@@ -23,9 +23,9 @@ Report the bug: <https://github.com/Umio-Yasuno/amdgpu_top/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu-top_0.11.5-1_amd64.deb">Download x86_64</a>
+      <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu-top_0.11.5-1_arm64.deb">Download arm64</a>
+    <a href="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

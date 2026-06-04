@@ -23,6 +23,6 @@ Report the bug: <https://github.com/Kong/insomnia/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Kong/insomnia/releases/download/core%4012.6.0/alpha.yml">Download x86_64</a>
+      <a href="https://github.com/Kong/insomnia/releases/download/core%4012.6.0/Insomnia.Core-12.6.0.AppImage">Download x86_64</a>
 </button>
 </div>

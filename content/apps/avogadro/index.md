@@ -26,9 +26,9 @@ Report the bug: <https://github.com/openchemistry/avogadrolibs/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-2.0.0-Darwin-arm64.dmg">Download x86_64</a>
+      <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-2.0.0-Darwin-arm64.dmg">Download arm64</a>
+    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

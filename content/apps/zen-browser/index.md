@@ -25,9 +25,9 @@ Report the bug: <https://github.com/zen-browser/desktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/zen-browser/desktop/releases/download/1.20.1b/linux-aarch64.mar">Download x86_64</a>
+      <a href="https://github.com/zen-browser/desktop/releases/download/1.20.2b/zen-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/zen-browser/desktop/releases/download/1.20.1b/linux-aarch64.mar">Download arm64</a>
+    <a href="https://github.com/zen-browser/desktop/releases/download/1.20.2b/zen-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

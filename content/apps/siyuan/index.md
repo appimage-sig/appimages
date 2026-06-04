@@ -27,9 +27,9 @@ Report the bug: <https://github.com/siyuan-note/siyuan/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.5/SHA256SUMS.txt">Download x86_64</a>
+      <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.5/siyuan-3.6.5-linux.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.5/siyuan-3.6.5-linux-arm64.AppImagehttps://github.com/siyuan-note/siyuan/releases/download/v3.6.5/SHA256SUMS.txt">Download arm64</a>
+    <a href="https://github.com/siyuan-note/siyuan/releases/download/v3.6.5/siyuan-3.6.5-linux-arm64.AppImagehttps://github.com/siyuan-note/siyuan/releases/download/v3.6.5/siyuan-3.6.5-linux.AppImage">Download arm64</a>
 </button>
 </div>

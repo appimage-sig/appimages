@@ -23,9 +23,9 @@ Report the bug: <https://github.com/standardnotes/forum/issues/>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large"
-      <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.21/standard-notes-3.201.21-linux-amd64.deb">Download x86_64</a>
+      <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.21/standard-notes-3.201.21-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.21/latest-linux-arm64.yml">Download arm64</a>
+      <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.201.21/standard-notes-3.201.21-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

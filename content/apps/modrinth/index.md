@@ -25,6 +25,6 @@ Report the bug: <https://github.com/modrinth/code/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/modrinth/code/releases/download/v0.14.2/Modrinth.App_0.14.2_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/modrinth/code/releases/download/v0.14.3/Modrinth.App_0.14.3_amd64.AppImage">Download x86_64</a>
 </button>
 </div>
