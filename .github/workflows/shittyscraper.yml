@@ -2,13 +2,11 @@ name: Update AppImage Download Links
 
 on:
   schedule:
-    # Запуск каждое воскресенье в 00:00 UTC
-    - cron: '0 0 * * 0'
+    - cron: '0 17 1/14 * *'
   workflow_dispatch:
-    # Позволяет запускать скрипт вручную из вкладки Actions
 
 permissions:
-  contents: write # Дает право GitHub Actions коммитить изменения обратно в репозиторий
+  contents: write 
   id-token: write
 
 jobs:
@@ -19,12 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
         with:
-          # Скачивает всю историю, чтобы избежать проблем с правами на push
           fetch-depth: 0
 
       - name: Run AppImage updater script
         env:
-          # Передаем системный токен GitHub, который уберет ограничение API Rate Limit
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ./code/shittyscraper.sh
