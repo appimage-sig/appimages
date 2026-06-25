@@ -6,7 +6,7 @@ date = "2026-06-06T07:48:33Z"
 categories = ["Productivity"]
 authors = ["Overwolf"]
 tags = ["Gaming tool", "Mod marketplace" ]
-framework = ["Electron"]
+frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["EULA"]
 +++

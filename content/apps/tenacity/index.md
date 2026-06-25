@@ -5,6 +5,7 @@ date = "2025-10-12 18:38:00"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Tenacity community"]
+frameworks = 
 tags = ["Audio editor", "DAW", "wxWidgets"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]

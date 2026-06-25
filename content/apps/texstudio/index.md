@@ -6,7 +6,7 @@ date = "2026-06-06T07:48:33Z"
 categories = ["Productivity"]
 authors = ["Jan Sundermeyer"]
 tags = ["editor", "latex", "tex" ]
-framework = ["Qt6"]
+frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
 +++
