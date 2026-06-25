@@ -8,7 +8,7 @@ authors = ["Jan Sundermeyer"]
 tags = ["editor", "latex", "tex" ]
 framework = ["Qt6"]
 architectures = ["x86_64"]
-license = [\"GPL-2.0"]
+license = ["GPL-2.0"]
 +++
 
 <img src="https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png" alt="The TexStudio main window showing a TeX document and the rendered file">
