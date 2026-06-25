@@ -3,12 +3,12 @@
 - [ ] Improve home page like Apps updated, Apps added, Categories list
 - [ ] Implement some featres from LPA <https://framagit.org/linuxphoneapps/linuxphoneapps.frama.io>
 - [ ] Add more applications
-  - [ ] [TeXstudio](https://github.com/texstudio-org/texstudio/releases/download/4.8.5/texstudio-4.8.5-x86_64.AppImage)
+  - [x] [TeXstudio](https://github.com/texstudio-org/texstudio/releases/download/4.8.5/texstudio-4.8.5-x86_64.AppImage)
   - [ ] [texmacs](https://www.texmacs.org/tmweb/home/welcome.en.html)
   - [ ] [tesseract-ocr AppImage](https://github.com/AlexanderP/tesseract-appimage)
   - [ ] [Tascade](https://www.taskade.com/)
   - [ ] [tagspaces](https://github.com/tagspaces/tagspaces/releases/download/v6.2.1/tagspaces-linux-x86_64-6.2.1.AppImage)
-  - [ ] [tabby](https://github.com/Eugeny/tabby)
+  - [x] [tabby](https://github.com/Eugeny/tabby)
   - [ ] [Todoist](https://todoist.com/linux_app/appimage)
   - [ ] [Agregore](https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.7.0/agregore-browser-2.7.0-linux-x86_64.AppImage)
   - [ ] [Aiming pro](https://aiming.pro)
