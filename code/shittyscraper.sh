@@ -94,30 +94,46 @@ match_architecture() {
 	elif printf '%s' "$old_url" | grep -qiE "(armv7|armhf)"; then
 		arch="armv7"
 	elif printf '%s' "$old_url" | grep -qiE "(x86_64|x64|amd64)"; then
-		arch="x64"
+		arch="x86_64"
+	elif printf '%s' "$old_url" | grep -qiE "(i686|i386)"; then
+		arch="x86"
+	elif printf '%s' "$old_url" | grep -qiE "(riscv64)"; then
+		arch="riscv64"
+	elif printf '%s' "$old_url" | grep -qiE "(ppc64le)"; then
+		arch="ppc64le"
 	fi
 
 	case "$arch" in
 		arm64)
 			printf '%s\n' "$all_new_urls" | grep -iE "(arm64|aarch64)" | head -1
-			if [ $? -eq 0 ]; then return 0; fi
+			return 0
 			;;
-		armv7)
-			printf '%s\n' "$all_new_urls" | grep -iE "(armv7|armhf)" | head -1
-			if [ $? -eq 0 ]; then return 0; fi
+		armv7l)
+			printf '%s\n' "$all_new_urls" | grep -iE "(armv7l|armhf)" | head -1
+			return 0
 			;;
-		x64)
+		riscv64)
+			printf '%s\n' "$all_new_urls" | grep -iE "riscv64" | head -1
+			return 0
+			;;
+		ppc64le)
+			printf '%s\n' "$all_new_urls" | grep -iE "ppc64le" | head -1
+			return 0
+			;;
+		x86_64)
 			printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | grep -iE "(x86_64|x64|amd64)" | head -1
-			if [ $? -eq 0 ]; then return 0; fi
+			return 0
+			;;
+		x86)
+			printf '%s\n' "$all_new_urls" | grep -iE "(i686|i386)" | head -1
+			return 0
 			;;
 	esac
-
-	printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | head -1
-	if [ $? -eq 0 ]; then return 0; fi
 
 	printf '%s\n' "$all_new_urls" | head -1
 	return 0
 }
+
 
 main() {
 	if [ ! -d "$CONTENT_DIR" ]; then
