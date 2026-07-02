@@ -28,6 +28,6 @@ Report the bug: <https://github.com/Jelmerro/Vieb/issues>
       <a href="https://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-arm64.AppImagehttps://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Jelmerro/Vieb/releases/download/12.9.0/Vieb-12.9.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

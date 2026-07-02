@@ -24,9 +24,9 @@ Report the bug: <https://github.com/Vencord/Vesktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5.AppImage">Download x86_64</a>
+      <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/latest-linux-arm64.ymlhttps://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5.AppImage">Download arm64</a>
+    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/latest-linux-arm64.ymlhttps://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download arm64</a>
 </button>
 </div>

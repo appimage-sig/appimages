@@ -24,6 +24,6 @@ Report the bug: <https://github.com/Stellarium/stellarium/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Stellarium/stellarium/releases/download/v26.1/Stellarium-26.1-qt5-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Stellarium/stellarium/releases/download/v26.2/Stellarium-26.2-qt5-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

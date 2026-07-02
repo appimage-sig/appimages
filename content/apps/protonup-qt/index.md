@@ -24,6 +24,6 @@ Report the bug: <https://github.com/DavidoTek/ProtonUp-Qt/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.15.0/ProtonUp-Qt-2.15.0-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.15.1/ProtonUp-Qt-2.15.1-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

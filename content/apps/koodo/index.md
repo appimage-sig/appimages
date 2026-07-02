@@ -25,9 +25,9 @@ Report the bug: <https://github.com/koodo-reader/koodo-reader/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.5/Koodo-Reader-2.3.5-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.7/Koodo-Reader-2.3.7-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.5/Koodo-Reader-2.3.5-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.7/Koodo-Reader-2.3.7-arm64.AppImage">Download arm64</a>
 </button>
 </div>

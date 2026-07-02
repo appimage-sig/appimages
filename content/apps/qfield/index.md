@@ -24,6 +24,6 @@ Report the bug: <https://github.com/opengisch/QField/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/opengisch/QField/releases/download/v4.2.0/qfield-v4.2.0-linux-x64.AppImage">Download x86_64</a>
+      <a href="https://github.com/opengisch/QField/releases/download/v4.2.5/qfield-v4.2.5-linux-x64.AppImage">Download x86_64</a>
 </button>
 </div>

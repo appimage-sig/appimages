@@ -30,6 +30,6 @@ Report the bug: <https://github.com/Eugeny/tabby/issues>
     <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-armv7l.AppImage">Download armv7l</a>
+    <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-arm64.AppImage">Download armv7l</a>
 </button>
 </div>

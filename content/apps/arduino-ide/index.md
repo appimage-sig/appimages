@@ -25,6 +25,6 @@ Report the bug: <https://github.com/arduino/arduino-ide/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.9/arduino-ide_2.3.9_Linux_64bit.AppImage">Download x86_64</a>
+      <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Linux_64bit.AppImage">Download x86_64</a>
 </button>
 </div>

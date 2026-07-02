@@ -24,9 +24,9 @@ Report the bug: <https://github.com/CyberTimon/RapidRAW/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.6/03_RapidRAW_v1.5.6_ubuntu-22.04-arm_aarch64.AppImage">Download x86_64</a>
+      <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.8/03_RapidRAW_v1.5.8_ubuntu-22.04-arm_aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.6/03_RapidRAW_v1.5.6_ubuntu-22.04-arm_aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/CyberTimon/RapidRAW/releases/download/v1.5.8/03_RapidRAW_v1.5.8_ubuntu-22.04-arm_aarch64.AppImage">Download arm64</a>
 </button>
 </div>

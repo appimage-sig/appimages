@@ -31,6 +31,6 @@ Report the bug: <https://github.com/Milkshiift/GoofCord/issues>
     <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-armv7l.AppImage">Download armv7l</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.2.1/GoofCord-2.2.1-linux-arm64.AppImage">Download armv7l</a>
 </button>
 </div>

@@ -24,6 +24,6 @@ Report the bug: <https://github.com/johannesjo/super-productivity/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.8.0/superProductivity-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/super-productivity/super-productivity/releases/download/v18.12.0/superProductivity-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

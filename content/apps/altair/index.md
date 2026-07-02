@@ -25,9 +25,9 @@ Report the bug: <https://github.com/altair-graphql/altair/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.3/altair_8.5.3_x86_64_linux.AppImage">Download x86_64</a>
+      <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.7/altair_8.5.7_x86_64_linux.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.3/altair_8.5.3_arm64_linux.AppImage">Download arm64</a>
+    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.7/altair_8.5.7_arm64_linux.AppImage">Download arm64</a>
 </button>
 </div>

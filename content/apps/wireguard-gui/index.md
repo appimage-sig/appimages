@@ -24,9 +24,9 @@ Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>
 
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.9-stable/wireguard-gui_0.1.9_aarch64.AppImage">Download x86_64</a>
+      <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.11-stable/wireguard-gui_0.1.11_aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.9-stable/wireguard-gui_0.1.9_aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.11-stable/wireguard-gui_0.1.11_aarch64.AppImage">Download arm64</a>
 </button>
 </div>

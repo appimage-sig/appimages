@@ -24,9 +24,9 @@ Report the bug: <https://github.com/jgraph/drawio-desktop/issues>
  
 <div class="groups">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/drawio-x86_64-30.0.4.AppImage">Download x86_64</a>
+      <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.2.6/drawio-x86_64-30.2.6.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.0.4/drawio-arm64-30.0.4.AppImage">Download arm64</a>
+    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.2.6/drawio-arm64-30.2.6.AppImage">Download arm64</a>
 </button>
 </div>
