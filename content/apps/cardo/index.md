@@ -24,8 +24,8 @@ Become a sponsor: <https://www.buymeacoffee.com/n0vella>
 Translate: <https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translations>  
 Report the bug: <https://github.com/cardo-podcast/cardo/issues>
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage">Download x86_64</a>
 </button>
 </div>

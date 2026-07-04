@@ -23,8 +23,8 @@ Source code: <https://github.com/hayase-app/electron>
 Become a sponsor: <https://github.com/sponsors/ThaUnknown>  
 Report the bug: <https://github.com/hayase-app/electron/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://api.hayase.watch/files/linux-hayase-6.4.60-linux.AppImage">Download x86_64</a>
 </button>
 </div>

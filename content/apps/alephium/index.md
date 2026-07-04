@@ -23,8 +23,8 @@ Source code: <https://github.com/alephium/alephium-frontend>
 Translate: <https://crowdin.com/project/alephium>  
 Report the bug: <https://github.com/alephium/alephium-frontend/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.2/Alephium-3.2.2.AppImage">Download x86_64</a>
 </button>
 </div>

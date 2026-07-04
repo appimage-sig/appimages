@@ -21,7 +21,7 @@ Source code: <https://github.com/KDAB/hotspot>
 
 Report the bug: <https://github.com/KDAB/hotspot/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"  <a href="https://github.com/KDAB/hotspot/releases/download/v1.6.0/hotspot-v1.6.0-x86_64.AppImage">Download x86_64</a>
+<div class=".d_buttons">
+<button class=".d_buttons button"  <a href="https://github.com/KDAB/hotspot/releases/download/v1.6.0/hotspot-v1.6.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

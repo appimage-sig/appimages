@@ -23,8 +23,8 @@ Source code: <https://github.com/modrinth/code>
 Translate: <https://crowdin.com/project/modrinth>  
 Report the bug: <https://github.com/modrinth/code/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/modrinth/code/releases/download/v0.15.4/Modrinth.App_0.15.4_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

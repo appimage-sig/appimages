@@ -19,6 +19,6 @@ License: EULA
 
 Web page: <https://www.curseforge.com/>
 
-<button class="c-button c-button--primary c-button--large"
+<button class=".d_buttons button"
       <a href="https://curseforge.overwolf.com/downloads/curseforge-latest-linux.AppImage">Download x86_64</a>
 </button>

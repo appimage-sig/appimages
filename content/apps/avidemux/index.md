@@ -22,7 +22,7 @@ Source code: <https://github.com/mean00/avidemux2>
 
 Report the bug: <https://sourceforge.net/p/avidemux/bugs>  
 
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
       <a href="https://www.avidemux.org/nightly/appImage/Avidemux-x86_64_20260403.AppImage">Download x86_64</a>
 </button>
 </div>

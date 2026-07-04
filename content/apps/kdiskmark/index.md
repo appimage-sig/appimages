@@ -22,8 +22,8 @@ Source code: <https://github.com/JonMagon/KDiskMark>
 Translate: <https://crowdin.com/project/kdiskmark>  
 Report the bug: <https://github.com/JonMagon/KDiskMark/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/JonMagon/KDiskMark/releases/download/3.3.0/KDiskMark-3.3.0-fio-3.42-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

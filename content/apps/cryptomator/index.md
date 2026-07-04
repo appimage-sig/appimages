@@ -24,11 +24,11 @@ Become a sponsor: <https://github.com/sponsors/cryptomator>
 Translate: <https://translate.cryptomator.org>  
 Report the bug: <https://github.com/cryptomator/cryptomator/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.3/cryptomator-1.19.3-aarch64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.3/cryptomator-1.19.3-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

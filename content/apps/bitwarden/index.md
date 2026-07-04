@@ -23,8 +23,8 @@ Source code: <https://github.com/bitwarden/clients>
 Translate: <https://crowdin.com/project/bitwarden-desktop>  
 Report the bug: <https://github.com/bitwarden/clients/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bw_2026.5.0_amd64.snap">Download x86_64</a>
 </button>
 </div>

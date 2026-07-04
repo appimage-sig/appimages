@@ -23,8 +23,8 @@ Become a sponsor: <https://keepassxc.org/donate>
 Translate: <https://explore.transifex.com/keepassxc/keepassxc>  
 Report the bug: <https://github.com/keepassxreboot/keepassxc/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg">Download x86_64</a>
 </button>
 </div>

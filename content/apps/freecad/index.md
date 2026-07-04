@@ -24,11 +24,11 @@ Become a sponsor: <https://www.freecad.org/sponsor.php>
 Translate: <https://crowdin.com/project/freecad>  
 Report the bug: <https://github.com/FreeCAD/FreeCAD/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage">Download arm64</a>
 </button>
 </div>

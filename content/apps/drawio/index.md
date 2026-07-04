@@ -22,11 +22,11 @@ Source code: <https://github.com/jgraph/drawio-desktop>
 
 Report the bug: <https://github.com/jgraph/drawio-desktop/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.2.6/drawio-x86_64-30.2.6.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/jgraph/drawio-desktop/releases/download/v30.2.6/drawio-arm64-30.2.6.AppImage">Download arm64</a>
 </button>
 </div>

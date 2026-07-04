@@ -16,8 +16,8 @@ License: EULA
 
 Web page: <https://mochi.cards>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<div class=".d_buttons">
+<button class=".d_buttons button"
       <a href="https://download.mochi.cards/releases/Mochi-1.21.5.AppImage">Download x86_64</a>
 </button>
 </div>

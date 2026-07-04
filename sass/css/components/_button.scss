@@ -75,9 +75,12 @@
 
 .d_buttons {
   display: grid;
-  gap: 10px;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
 }
 
-.d_buttons button:nth-child(n+2) {
-  margin-left: 20px;
+.d_buttons button {
+  width: 100%; 
+  padding: 12px 20px;
+;
 }

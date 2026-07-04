@@ -23,11 +23,11 @@ Source code: <https://github.com/ente-io/ente>
 Translate: <https://crowdin.com/project/ente-photos-web>  
 Report the bug: <https://github.com/ente-io/ente/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.24/ente-1.7.24-arm64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.24/ente-1.7.24-arm64.AppImage">Download arm64</a>
 </button>
 </div>

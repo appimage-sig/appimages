@@ -21,8 +21,8 @@ Source code: <https://github.com/audacity/audacity>
 Translate: <https://explore.transifex.com/audacity/audacity>  
 Report the bug: <https://github.com/audacity/audacity/issues>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/audacity/audacity/releases/download/Audacity-3.7.8/audacity-linux-3.7.8-x64-20.04.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -20,8 +20,8 @@ Source code: <https://github.com/ArchipelagoMW/Archipelago>
 
 Report the bug: <https://github.com/ArchipelagoMW/Archipelago/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.7/archipelago-0.6.7-arm64-v8a-debug.apk">Download x86_64</a>
 </button>
 </div>

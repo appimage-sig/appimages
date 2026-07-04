@@ -22,8 +22,8 @@ Become a sponsor: <https://www.openshot.org/donate>
 Translate: <https://translations.launchpad.net/openshot/2.0/+translations>  
 Report the bug: <https://github.com/OpenShot/openshot-qt/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/OpenShot/openshot-qt/releases/download/v3.5.1/OpenShot-v3.5.1-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

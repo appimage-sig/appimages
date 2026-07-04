@@ -22,11 +22,11 @@ Source code: <https://github.com/dbgate/dbgate>
 Become a sponsor: <https://github.com/sponsors/dbgate>  
 Report the bug: <https://github.com/dbgate/dbgate/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.1/dbgate-7.2.1-linux_x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.1/dbgate-7.2.1-linux_arm64.AppImage">Download arm64</a>
 </button>
 </div>

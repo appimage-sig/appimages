@@ -23,11 +23,11 @@ Source code: <https://github.com/koodo-reader/koodo-reader>
 Translate: <https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#translation>  
 Report the bug: <https://github.com/koodo-reader/koodo-reader/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.7/Koodo-Reader-2.3.7-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.3.7/Koodo-Reader-2.3.7-arm64.AppImage">Download arm64</a>
 </button>
 </div>

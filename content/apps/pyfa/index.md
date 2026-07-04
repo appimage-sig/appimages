@@ -19,8 +19,8 @@ Source code: <https://github.com/pyfa-org/Pyfa>
 Translate: <https://crowdin.com/project/pyfa>  
 Report the bug: <https://github.com/pyfa-org/Pyfa/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/pyfa-org/Pyfa/releases/download/v2.67.0/pyfa-v2.67.0-linux.AppImage">Download x86_64</a>
 </button>
 </div>

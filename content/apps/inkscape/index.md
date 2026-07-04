@@ -24,8 +24,8 @@ Become a sponsor: <https://inkscape.org/support-us/donate>
 Translate: <https://inkscape.org/contribute/translations>  
 Report the bug: <https://gitlab.com/inkscape/inkscape/-/work_items/new>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<div class=".d_buttons">
+<button class=".d_buttons button"
       <a href="https://media.inkscape.org/dl/resources/file/Inkscape-0d15f75-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

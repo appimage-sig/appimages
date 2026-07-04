@@ -16,8 +16,8 @@ License: EULA
 
 Web page: <https://www.mendeley.com>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.144.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

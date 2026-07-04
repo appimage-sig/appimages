@@ -18,8 +18,8 @@ Source code: <https://github.com/mgord9518/aisap>
 
 Report the bug: <https://github.com/mgord9518/aisap/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/mgord9518/aisap/releases/download/continuous/aisap-0.10.5-alpha-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

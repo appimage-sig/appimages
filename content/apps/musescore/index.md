@@ -21,11 +21,11 @@ Source code: <https://github.com/musescore/MuseScore>
 Translate: <https://musescore.org/administrative-guidelines/translation-instructions>  
 Report the bug: <https://github.com/musescore/MuseScore/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.3/MuseScore-Studio-4.7.3.260608135-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.3/MuseScore-Studio-4.7.3.260608135-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

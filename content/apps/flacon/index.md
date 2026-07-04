@@ -24,8 +24,8 @@ Become a sponsor: <https://flacon.github.io/donate>
 Translate: <https://explore.transifex.com/sokoloff/flacon/>  
 Report the bug: <https://github.com/flacon/flacon/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-aarch64.AppImage">Download x86_64</a>
 </button>
 </div>

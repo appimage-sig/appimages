@@ -24,11 +24,11 @@ Become a sponsor: <https://github.com/sponsors/nathanlesage>
 Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
 Report the bug: <https://github.com/Zettlr/Zettlr/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="hhttps://github.com/Zettlr/Zettlr/releases/download/v4.6.0/Zettlr-4.6.0-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.6.0/Zettlr-4.6.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

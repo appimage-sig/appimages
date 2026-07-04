@@ -23,8 +23,8 @@ Source code: <https://github.com/arduino/arduino-ide>
 Translate: <https://explore.transifex.com/arduino-1/ide2>  
 Report the bug: <https://github.com/arduino/arduino-ide/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Linux_64bit.AppImage">Download x86_64</a>
 </button>
 </div>

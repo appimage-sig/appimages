@@ -24,8 +24,8 @@ Become a sponsor: <https://github.com/sponsors/nukeop>
 Translate: <https://crowdin.com/project/nuclear>  
 Report the bug: <https://github.com/nukeop/nuclear/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/nukeop/nuclear/releases/download/player%401.41.4/Nuclear_1.41.4_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

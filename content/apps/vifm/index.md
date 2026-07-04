@@ -22,8 +22,8 @@ Source code: <https://github.com/vifm/vifm>
 Become a sponsor: <https://github.com/sponsors/vifm>  
 Report the bug: <https://github.com/vifm/vifm/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-v0.14.4-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

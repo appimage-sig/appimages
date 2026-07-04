@@ -21,8 +21,8 @@ Source code: <https://github.com/VSCodium/vscodium>
 
 Report the bug: <https://github.com/VSCodium/vscodium/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/VSCodium/vscodium/releases/download/1.121.03429/VSCodium-1.121.03429.glibc2.30-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

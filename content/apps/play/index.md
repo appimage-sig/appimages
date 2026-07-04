@@ -21,8 +21,8 @@ Source code: <https://github.com/jpd002/Play->
 Become a sponsor: <https://github.com/sponsors/jpd002>  
 Report the bug: <https://github.com/jpd002/Play-/issues/new>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<div class=".d_buttons">
+<button class=".d_buttons button"
       <a href="https://purei.org/downloads/play/stable/0.72/Play!-8de4a71f-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

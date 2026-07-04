@@ -20,8 +20,8 @@ Source code: <https://github.com/xonsh/xonsh>
 Become a sponsor: <https://github.com/sponsors/xonsh>  
 Report the bug: <https://github.com/xonsh/xonsh/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/xonsh/xonsh/releases/download/0.23.8/xonsh-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

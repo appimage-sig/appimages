@@ -20,8 +20,8 @@ Source code: <https://github.com/moonlight-stream/moonlight-qt>
 
 Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://nightly.link/moonlight-stream/moonlight-qt/workflows/build/master/Moonlight-LinuxAppImage-0e50a9.zip">Download x86_64</a>
 </button>
 </div>

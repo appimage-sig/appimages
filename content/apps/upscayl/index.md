@@ -23,8 +23,8 @@ Source code: <https://github.com/upscayl/upscayl>
 Become a sponsor: <https://www.buymeacoffee.com/fossisthefuture>  
 Report the bug: <https://github.com/upscayl/upscayl/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage">Download x86_64</a>
 </button>
 </div>

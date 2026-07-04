@@ -22,11 +22,11 @@ Source code: <https://github.com/chrismaltby/gb-studio>
 Translate: <https://github.com/chrismaltby/gb-studio?tab=readme-ov-file#note-for-translators>  
 Report the bug: <https://github.com/chrismaltby/gb-studio/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/chrismaltby/gb-studio/releases/download/v4.3.2/gb-studio-linux-arm64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/chrismaltby/gb-studio/releases/latest/download/gb-studio-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

@@ -21,8 +21,8 @@ Become a sponsor: <https://github.com/sponsors/LizardByte>
 Translate: <https://translate.lizardbyte.dev>  
 Report the bug: <https://github.com/LizardByte/Sunshine/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.516.143833/sunshine.AppImage">Download x86_64</a>
 </button>
 </div>

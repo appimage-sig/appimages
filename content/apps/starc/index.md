@@ -23,8 +23,8 @@ Source code: <https://github.com/story-apps/starc>
 Translate: <https://explore.transifex.com/story-apps/starc>  
 Report the bug: <https://github.com/story-apps/starc/issues/>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<div class=".d_buttons">
+<button class=".d_buttons button"
       <a href="https://github.com/story-apps/starc/releases/download/v0.8.2/starc-setup-qt5.AppImage">Download x86_64</a>
 </button>
 </div>

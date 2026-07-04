@@ -24,8 +24,8 @@ Become a sponsor: <https://github.com/sponsors/gdm-settings>
 Translate: <https://hosted.weblate.org/engage/gdm-settings>  
 Report the bug: <https://github.com/gdm-settings/gdm-settings/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage">Download x86_64</a>
 </button>
 </div>

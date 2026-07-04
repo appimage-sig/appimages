@@ -21,11 +21,11 @@ Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
 Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
 Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues> 
  
-<div class="groups">
-<button class="c-button c-button--primary c-button--large" 
+<div class=".d_buttons">
+<button class=".d_buttons button" 
       <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class=".d_buttons button" 
     <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors-arm64.AppImage">Download arm64</a>
 </button>
 </div>

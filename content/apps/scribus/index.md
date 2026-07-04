@@ -23,8 +23,8 @@ Source code: <https://github.com/scribusproject/scribus>
 Translate: <https://explore.transifex.com/scribus/scribus>  
 Report the bug: <http://bugs.scribus.net>  
 
-<div class="groups">
-<button class="c-button c-button--primary c-button--large"
+<div class=".d_buttons">
+<button class=".d_buttons button"
       <a href="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.2/scribus-1.7.2-linux-x86_64.AppImage/download">Download x86_64</a>
 </button>
 </div>
