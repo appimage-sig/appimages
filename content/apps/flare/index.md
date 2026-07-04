@@ -23,7 +23,7 @@ Translate: <https://explore.transifex.com/flareorg>
 Report the bug: <https://github.com/flareteam/flare-game/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -25,10 +25,10 @@ Become a sponsor: <https://delta.chat/en/donate>
 Report the bug: <https://github.com/deltachat/deltachat-desktop/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.53.0/DeltaChat-2.53.0-arm64.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.53.0/DeltaChat-2.53.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

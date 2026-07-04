@@ -23,10 +23,10 @@ Translate: <https://github.com/rustdesk/rustdesk/tree/master/src/lang>
 Report the bug: <https://github.com/rustdesk/rustdesk/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.8/rustdesk-1.4.8-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/ajbura>
 Report the bug: <https://github.com/cinnyapp/cinny-desktop/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/cinnyapp/cinny-desktop/releases/latest/download/Cinny_desktop-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

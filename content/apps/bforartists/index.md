@@ -23,7 +23,7 @@ Source code: <https://github.com/Bforartists/Bforartists>
 Report the bug: <https://github.com/Bforartists/Bforartists/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.1.2/Bforartists-5.1.2-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

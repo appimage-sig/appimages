@@ -24,7 +24,7 @@ Translate: <https://explore.transifex.com/ddennedy/shotcut>
 Report the bug: <https://github.com/mltframework/shotcut/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/mltframework/shotcut/releases/download/v26.6.25/shotcut-linux-x86_64-26.6.25.AppImage">Download x86_64</a>
 </button>
 </div>

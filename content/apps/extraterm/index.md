@@ -23,7 +23,7 @@ Source code: <https://github.com/sedwards2009/extraterm>
 Report the bug: <https://github.com/sedwards2009/extraterm/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/ExtratermQt-0.82.0.glibc2.38-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

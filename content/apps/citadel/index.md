@@ -21,7 +21,7 @@ Become a sponsor: <https://github.com/sponsors/phildenhoff>
 Report the bug: <https://github.com/every-day-things/citadel/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/every-day-things/citadel/releases/download/v0.4.3/Citadel_0.4.2_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

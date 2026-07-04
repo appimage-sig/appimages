@@ -24,12 +24,12 @@ Translate: <https://crowdin.com/project/tabby>
 Report the bug: <https://github.com/Eugeny/tabby/issues>
 
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-x64.AppImage">Download x86_64</a>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-arm64.AppImage">Download arm64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-arm64.AppImage">Download armv7l</a>
 </button>
 </div>

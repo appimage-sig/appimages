@@ -19,7 +19,7 @@ License: EULA
 Web page: <https://lunatask.app>  
 
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/lunatask/lunatask/releases/download/v2.1.29/Lunatask-2.1.29.AppImage">Download x86_64</a>
 </button>
 </div>

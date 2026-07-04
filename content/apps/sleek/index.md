@@ -24,10 +24,10 @@ Translate: <https://github.com/ransome1/sleek/tree/main/src/locales>
 Report the bug: <https://github.com/ransome1/sleek/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ransome1/sleek/releases/download/v2.0.25/sleek-2.0.25-linux-arm64.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/ransome1/sleek/releases/download/v2.0.25/sleek-2.0.25-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

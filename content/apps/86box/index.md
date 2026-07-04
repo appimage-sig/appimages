@@ -24,10 +24,10 @@ Become a sponsor: <https://www.paypal.com/paypalme/86Box>
 Report the bug: <https://github.com/86Box/86Box/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
   <a href="https://github.com/86Box/86Box/releases/download/v6.0/86Box-Linux-x86_64-b9001.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
   <a href="https://github.com/86Box/86Box/releases/download/v6.0/86Box-NDR-Linux-arm64-b9001.AppImage">Download arm64</a>
 </button>
 </div>

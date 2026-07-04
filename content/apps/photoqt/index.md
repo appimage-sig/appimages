@@ -24,7 +24,7 @@ Translate: <https://translate.photoqt.org>
 Report the bug: <https://gitlab.com/lspies/photoqt/-/work_items/new>  
 
 <div class=".d_buttons">
-<button class=".d_buttons button"
+<button class="c-button c-button--primary c-button--large"
       <a href="https://photoqt.org/downloads/appimages/PhotoQt-5.1.AppImage">Download x86_64</a>
 </button>
 </div>

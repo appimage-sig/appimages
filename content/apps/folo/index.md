@@ -22,7 +22,7 @@ Translate: <https://github.com/RSSNext/Folo/blob/dev/wiki/contribute-i18n.md>
 Report the bug: <https://github.com/RSSNext/Folo/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/RSSNext/Folo/releases/download/desktop/v1.10.0/Folo-1.10.0-linux-x64.AppImage">Download x86_64</a>
 </button>
 </div>

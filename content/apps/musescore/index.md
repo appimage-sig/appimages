@@ -22,10 +22,10 @@ Translate: <https://musescore.org/administrative-guidelines/translation-instruct
 Report the bug: <https://github.com/musescore/MuseScore/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.3/MuseScore-Studio-4.7.3.260608135-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.3/MuseScore-Studio-4.7.3.260608135-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

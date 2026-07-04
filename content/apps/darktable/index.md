@@ -24,7 +24,7 @@ Translate: <https://github.com/darktable-org/darktable/blob/master/doc/TRANSLATO
 Report the bug: <https://github.com/darktable-org/darktable//issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-aarch64.AppImage">Download x86_64</a>
 </button>
 </div>

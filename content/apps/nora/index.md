@@ -21,7 +21,7 @@ Translate: <https://crowdin.com/project/nora>
 Report the bug: <https://github.com/Sandakan/Nora/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

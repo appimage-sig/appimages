@@ -25,7 +25,7 @@ Translate: <https://crowdin.com/project/cutter>
 Report the bug: <https://github.com/rizinorg/cutter/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/rizinorg/cutter/releases/download/v2.5.0/Cutter-v2.5.0-Linux-Qt5-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

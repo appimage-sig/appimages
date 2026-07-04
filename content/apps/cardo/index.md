@@ -25,7 +25,7 @@ Translate: <https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translatio
 Report the bug: <https://github.com/cardo-podcast/cardo/issues>
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage">Download x86_64</a>
 </button>
 </div>

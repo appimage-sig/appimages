@@ -23,10 +23,10 @@ Translate: <https://crowdin.com/project/gdevelop>
 Report the bug: <https://github.com/4ian/GDevelop/issues> 
  
 <div class=".d_buttons">
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.273/GDevelop-5-5.6.273-arm64.AppImage">Download x86_64</a>
 </button>
-<button class=".d_buttons button" 
+<button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.273/GDevelop-5-5.6.273-arm64.AppImagehttps://github.com/4ian/GDevelop/releases/download/v5.6.273/GDevelop-5-5.6.273-arm64.AppImage">Download arm64</a>
 </button>
 </div>
