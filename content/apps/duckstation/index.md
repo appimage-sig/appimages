@@ -22,7 +22,8 @@ Source code: <https://github.com/stenzek/duckstation>
 
 Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-languages#linux>
 
-<button class="c-button c-button--primary c-button--large" 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" Download x86_64 SSE2" " 
