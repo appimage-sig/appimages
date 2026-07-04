@@ -16,6 +16,7 @@ license = ["MIT"]
 The swiss army chainsaw of terminal emulators
 
 License: MIT
+
 Web page: <https://extraterm.org>  
 Source code: <https://github.com/sedwards2009/extraterm>
 
