@@ -3,19 +3,17 @@
 - [ ] Improve home page like Apps updated, Apps added, Categories list
 - [ ] Implement some featres from LPA <https://framagit.org/linuxphoneapps/linuxphoneapps.frama.io>
 - [ ] Add more applications
-  - [x] [TeXstudio](https://github.com/texstudio-org/texstudio/releases/download/4.8.5/texstudio-4.8.5-x86_64.AppImage)
   - [ ] [texmacs](https://www.texmacs.org/tmweb/home/welcome.en.html)
   - [ ] [tesseract-ocr AppImage](https://github.com/AlexanderP/tesseract-appimage)
   - [ ] [Tascade](https://www.taskade.com/)
   - [ ] [tagspaces](https://github.com/tagspaces/tagspaces/releases/download/v6.2.1/tagspaces-linux-x86_64-6.2.1.AppImage)
-  - [x] [tabby](https://github.com/Eugeny/tabby)
   - [ ] [Todoist](https://todoist.com/linux_app/appimage)
   - [ ] [Agregore](https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.7.0/agregore-browser-2.7.0-linux-x86_64.AppImage)
   - [ ] [Aiming pro](https://aiming.pro)
   - [ ] [Freeter](https://github.com/FreeterApp/Freeter)
   - [ ] [Dopamine](https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.37/Dopamine-3.0.0-preview.37.AppImage)
-  - [ ] <https://github.com/gitify-app/gitify/releases/download/v5.18.0/Gitify-5.18.0.AppImage>
-  - [ ] <https://github.com/vnotex/vnote/releases/download/v3.18.2/VNote-3.18.2-linux-x64.AppImage>
+  - [ ] [gitify](https://github.com/gitify-app/gitify/releases/download/v5.18.0/Gitify-5.18.0.AppImage)
+  - [ ] [VNote](https://github.com/vnotex/vnote/releases/download/v3.18.2/VNote-3.18.2-linux-x64.AppImage)
   - [ ] [Altus](https://github.com/amanharwara/altus/releases/download/5.4.0/Altus-5.4.0.AppImage)
   - [ ] [Ghostty](https://github.com/psadi/ghostty-appimage)
   - [ ] [Tandem](https://downloads.tandem.chat/linux/appimage/x64)
@@ -34,8 +32,8 @@
   - [ ] [Rambox](https://github.com/ramboxapp/download/releases/download/v2.5.2/Rambox-2.5.2-linux-x64.AppImage)
   - [ ] [Surf](https://github.com/deta/surf/releases/download/1.3.2-beta.0/Surf-1.3.2-beta.0.x86_64.AppImage)
   - [ ] [Hydralauncher](https://github.com/hydralauncher/hydra/releases/download/v3.7.4/hydralauncher-3.7.4.AppImage)
-  - [ ] <https://github.com/pear-devs/pear-desktop>
-  - [ ] <https://github.com/Venipa/ytmdesktop2/>
+  - [ ] [pear-desktop](https://github.com/pear-devs/pear-desktop)
+  - [ ] [ytmdesktop2](https://github.com/Venipa/ytmdesktop2)
   - [ ] [ZapZap](https://github.com/rafatosta/zapzap)
   - [ ] [Whalebird](https://github.com/h3poteto/whalebird-desktop/releases/tag/v6.2.7)
   - [ ] [OpenCode](https://opencode.ai/download/linux-x64-appimage)
@@ -80,11 +78,9 @@
   - [ ] [Greenlight](https://github.com/unknownskl/greenlight)
   - [ ] [Sayonara](https://sayonara-player.com/files/appimage/sayonara-1.11.0-stable1-gb39e7fab.AppImage)
   - [ ] [Anymex](https://github.com/RyanYuuki/AnymeX/releases/download/v3.0.3/AnymeX-Linux.AppImage)
-  - [x] [QMplay2](https://github.com/zaps166/QMPlay2/releases/download/25.09.11/QMPlay2-25.09.11-1-x86_64.AppImage)
   - [ ] [QTractor](https://sourceforge.net/projects/qtractor/files/latest/download)
   - [ ] [ToLoshare](https://github.com/zoff99/toloshare_material)
-  - [x] [Rapidraw](https://github.com/CyberTimon/RapidRAW)
-  - [x] <https://github.com/doublecmd/doublecmd/releases/tag/v1.2.0>
+  - [ ] [doublecmd](https://github.com/doublecmd/doublecmd/releases/tag/v1.2.0)
   - [ ] [SimpMusic](https://github.com/maxrave-dev/SimpMusic/releases/tag/v1.0.2)
   - [ ] [LibrePCB](https://download.librepcb.org/releases/2.0.0/librepcb-2.0.0-linux-x86_64.AppImage)
   - [ ] [Sklad](https://github.com/Rench321/sklad/releases/download/v0.1.2/Sklad_0.1.2_amd64.AppImage)
@@ -92,7 +88,7 @@
   - [ ] [5ire](https://github.com/nanbingxyz/5ire/releases/download/v0.15.3/5ire-0.15.3-x86_64.AppImage)
   - [ ] [Folio](https://github.com/toolstack/Folio/releases/download/25.02/Folio-25.02-x86_64.AppImage)
   - [ ] [Remnote](https://download2.remnote.io/remnote-desktop2/RemNote-1.23.3.AppImage)
-  - [ ] <https://github.com/MooDoApp/MooDoApp.github.io/releases/download/v2.3.2/Legend-2.3.2-linux-x86\_64.AppImage>
+  - [ ] [Legend]https://github.com/MooDoApp/MooDoApp.github.io/releases/download/v2.3.2/Legend-2.3.2-linux-x86\_64.AppImage>
   - [ ] [Open Video Downloader](https://github.com/StefanLobbenmeier/youtube-dl-gui/releases/download/v2.5.6/Open-Video-Downloader-2.5.6.AppImage)
   - [ ] [MassCode](https://github.com/massCodeIO/massCode/releases/download/v4.4.0/massCode-4.4.0.AppImage)
   - [ ] [Markpad](https://github.com/alecdotdev/Markpad/releases/download/v2.4.4/Markpad_2.4.4_amd64.AppImage)
