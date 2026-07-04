@@ -21,7 +21,7 @@ Source code: <https://github.com/wireapp/wire-desktop>
 Translate: <https://crowdin.com/projects/wire>  
 Report the bug: <https://github.com/wireapp/wire-desktop/issues>
 
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/wireapp/wire-desktop/releases/download/macos/3.40.5442/sha256sum.txt.asc">Download x86_64</a>
 </button>

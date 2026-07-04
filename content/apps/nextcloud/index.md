@@ -21,7 +21,7 @@ Source code: <https://github.com/nextcloud/desktop>
 Translate: <https://explore.transifex.com/nextcloud/nextcloud>  
 Report the bug: <https://github.com/nextcloud/desktop/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/nextcloud-releases/desktop/releases/download/v33.0.7/Nextcloud-33.0.7-x86_64.AppImage">Download x86_64</a>
 </button>

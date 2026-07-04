@@ -21,7 +21,7 @@ Source code: <https://github.com/Blockstream/green_qt>
 Translate: <https://explore.transifex.com/blockstream/blockstream-green/>  
 Report the bug: <https://github.com/Blockstream/green_qt/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Blockstream/green_qt/releases/download/release_3.3.0/Blockstream-arm64.dmg">Download x86_64</a>
 </button>

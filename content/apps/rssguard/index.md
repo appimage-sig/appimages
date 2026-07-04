@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/martinrotter>
 Translate: <https://crowdin.com/project/rssguard>  
 Report the bug: <https://github.com/martinrotter/rssguard/issues>  
 
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/martinrotter/rssguard/releases/download/5.2.1/rssguard-5.2.1-text-qt5-linux64.AppImage">Download x86_64</a>
 </button>

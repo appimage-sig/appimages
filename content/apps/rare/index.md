@@ -21,7 +21,7 @@ Source code: <https://github.com/RareDevs/Rare>
 Translate: <https://explore.transifex.com/rare-1/rare>  
 Report the bug: <https://github.com/RareDevs/Rare/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0/Rare-1.12.0.0-arm64-macos.app.zip">Download x86_64</a>
 </button>

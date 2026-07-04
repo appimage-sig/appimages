@@ -23,7 +23,7 @@ Become a sponsor: <https://patreon.com/zen_browser>
 Translate: <https://crowdin.com/project/zen-browser>  
 Report the bug: <https://github.com/zen-browser/desktop/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/zen-browser/desktop/releases/download/1.21.4b/zen-aarch64.AppImage">Download x86_64</a>
 </button>

@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/nathanlesage>
 Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
 Report the bug: <https://github.com/Zettlr/Zettlr/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="hhttps://github.com/Zettlr/Zettlr/releases/download/v4.6.0/Zettlr-4.6.0-x86_64.AppImage">Download x86_64</a>
 </button>

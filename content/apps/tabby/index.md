@@ -23,7 +23,7 @@ Become a sponsor: <https://github.com/sponsors/Eugeny>
 Translate: <https://crowdin.com/project/tabby>
 Report the bug: <https://github.com/Eugeny/tabby/issues>
 
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.234/tabby-1.0.234-linux-x64.AppImage">Download x86_64</a>
 <button class="c-button c-button--primary c-button--large" 

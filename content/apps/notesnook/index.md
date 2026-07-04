@@ -21,7 +21,7 @@ Source code: <https://github.com/streetwriters/notesnook>
 Become a sponsor: <https://opencollective.com/notesnook>  
 Report the bug: <https://github.com/streetwriters/notesnook/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/streetwriters/notesnook/releases/download/v3.4.2/notesnook_linux_x86_64.AppImage">Download x86_64</a>
 </button>

@@ -24,7 +24,7 @@ Become a sponsor: <https://ko-fi.com/jorio>
 Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
 Report the bug: <https://github.com/jorio/gitfourchette/issues>
 
-<div class=".d_buttons">
+<div class="d_buttons">
   <button class="c-button c-button--primary c-button--large"  
     <a href="https://github.com/jorio/gitfourchette/releases/download/v1.9.0/GitFourchette-1.9.0-aarch64.AppImage">Download x86_64</a>
 </button>

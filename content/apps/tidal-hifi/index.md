@@ -21,7 +21,7 @@ Source code: <https://github.com/Mastermindzh/tidal-hifi>
 Become a sponsor: <https://github.com/sponsors/Mastermindzh>  
 Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>  
 
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/7.0.1/tidal-hifi-7.0.1-arm64-mac.zip">Download x86_64</a>
 </button>

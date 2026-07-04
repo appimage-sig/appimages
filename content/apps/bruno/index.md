@@ -21,7 +21,7 @@ Source code: <https://github.com/usebruno/bruno>
 
 Report the bug: <https://github.com/usebruno/bruno/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/usebruno/bruno/releases/download/v3.5.0/bruno_3.5.0_x86_64_linux.AppImage">Download x86_64</a>
 </button>

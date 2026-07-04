@@ -23,7 +23,7 @@ Become a sponsor: <https://github.com/sponsors/toeverything>
 Translate: <https://crowdin.com/project/affine>  
 Report the bug: <https://github.com/toeverything/AFFiNE/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/toeverything/AFFiNE/releases/download/v0.26.3/affine-0.26.3-stable-linux-x64.appimage">Download x86_64</a>
 </button>

@@ -41,7 +41,7 @@ Translate: <$translate>
 
 Report the bug: <$bugtracker>
 
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-x86_64.AppImage">Download x86_64</a>
 </button>

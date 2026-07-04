@@ -19,7 +19,7 @@ Source code: <https://github.com/ungoogled-software/ungoogled-chromium>
 
 Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/149.0.7827.200-1/ungoogled-chromium-149.0.7827.200-1-arm64.AppImage">Download x86_64</a>
 </button>

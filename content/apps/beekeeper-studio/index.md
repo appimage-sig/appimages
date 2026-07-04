@@ -23,7 +23,7 @@ Source code: <https://github.com/beekeeper-studio/beekeeper-studio>
 Become a sponsor: <https://github.com/sponsors/beekeeper-studio>  
 Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.8.1/Beekeeper-Studio-5.8.1-arm64.AppImage">Download x86_64</a>
 </button>

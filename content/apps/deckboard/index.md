@@ -22,7 +22,7 @@ Web page: <https://deckboard.app>
 Become a sponsor: <https://ko-fi.com/rivafarabi>  
 Report the bug: <https://github.com/rivafarabi/deckboard/issues> 
  
-<div class=".d_buttons">
+<div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
       <a href="https://github.com/rivafarabi/deckboard/releases/download/v3.2.0/Deckboard-3.2.0.AppImage">Download x86_64</a>
 </button>
