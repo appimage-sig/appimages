@@ -23,6 +23,9 @@ taxonomies = [
     { name = "license" },
 ]
 
+[search]
+index_format = "elasticlunr_json"
+
 [extra]
 logo_image = "images/logo.svg"
 social_media_share_image = "/images/01.jpg"

@@ -1,271 +1,264 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const root = document.getElementById("search");
-  if (!root) return;
+// Take from Zola repository:
+// https://github.com/getzola/zola/blob/master/docs/static/search.js
+function debounce(func, wait) {
+  var timeout;
 
-  const input = document.getElementById("search-input");
-  const clearButton = document.getElementById("search-clear");
-  const results = document.getElementById("search-results");
-  const status = document.getElementById("search-status");
-  const resultTemplate = document.getElementById("search-result-template");
-  const pagination = document.getElementById("search-pagination");
+  return function () {
+    var context = this;
+    var args = arguments;
+    clearTimeout(timeout);
 
-  const baseUrl = root.dataset.baseUrl || "";
-  const noResultsText = root.dataset.noResults || "";
-  const resultsTextOne = root.dataset.resultsOne || "";
-  const resultsTextOther = root.dataset.resultsOther || "";
-  const errorText = root.dataset.error || "";
-  const loadingText = root.dataset.loading || "";
-  const pageSize = Math.max(1, parseInt(root.dataset.pageSize || "10", 10) || 10);
-  const pageLabel = root.dataset.pageLabel || "";
-  const pageWindow = Math.max(1, parseInt(root.dataset.pageWindow || "3", 10) || 3);
-
-  const setStatus = (text) => {
-    if (!status) return;
-    status.textContent = text || "";
+    timeout = setTimeout(function () {
+      timeout = null;
+      func.apply(context, args);
+    }, wait);
   };
+}
 
-  const formatResults = (count) => {
-    const template = count === 1 ? resultsTextOne : resultsTextOther;
-    if (!template) return "";
-    if (!template.includes("{count}")) return template;
-    return template.replace("{count}", String(count));
-  };
+// Taken from mdbook
+// The strategy is as follows:
+// First, assign a value to each word in the document:
+//  Words that correspond to search terms (stemmer aware): 40
+//  Normal words: 2
+//  First word in a sentence: 8
+// Then use a sliding window with a constant number of words and count the
+// sum of the values of the words within the window. Then use the window that got the
+// maximum sum. If there are multiple maximas, then get the last one.
+// Enclose the terms in <b>.
+function makeTeaser(body, terms) {
+  var TERM_WEIGHT = 40;
+  var NORMAL_WORD_WEIGHT = 2;
+  var FIRST_WORD_WEIGHT = 8;
+  var TEASER_MAX_WORDS = 30;
 
-  const normalizeUrl = (url) => {
-    if (!url) return "";
-    try {
-      return new URL(url, baseUrl).toString();
-    } catch (error) {
-      return url;
-    }
-  };
+  var stemmedTerms = terms.map(function (w) {
+    return elasticlunr.stemmer(w.toLowerCase());
+  });
+  var termFound = false;
+  var index = 0;
+  var weighted = []; // contains elements of ["word", weight, index_in_document]
 
-  const decodeEntities = (text) => {
-    if (!text) return "";
-    const doc = new DOMParser().parseFromString(text, "text/html");
-    return doc.documentElement.textContent || "";
-  };
+  // split in sentences, then words
+  var sentences = body.toLowerCase().split(". ");
 
-  const getSummary = (doc) => {
-    const raw = doc.description || doc.summary || doc.body || doc.content || "";
-    const text = decodeEntities(raw);
-    if (text.length <= 180) return text;
-    return `${text.slice(0, 177).trimEnd()}...`;
-  };
+  for (var i in sentences) {
+    var words = sentences[i].split(" ");
+    var value = FIRST_WORD_WEIGHT;
 
-  const clearResults = () => {
-    if (results) results.innerHTML = "";
-  };
+    for (var j in words) {
+      var word = words[j];
 
-  const renderResults = (items) => {
-    clearResults();
-    if (!results) return;
-
-    items.forEach((item) => {
-      if (!resultTemplate || !resultTemplate.content.firstElementChild) return;
-
-      const url = normalizeUrl(item.id || item.url || item.permalink || item.path || "");
-      const title = item.title || "";
-      const summary = getSummary(item);
-
-      const card = resultTemplate.content.firstElementChild.cloneNode(true);
-      const titleLink = card.querySelector("[data-search-link]");
-      const titleEl = card.querySelector("[data-search-title]");
-      const summaryEl = card.querySelector("[data-search-summary]");
-
-      if (titleLink) titleLink.href = url;
-      if (titleEl) titleEl.textContent = title || url;
-
-      if (summary && summaryEl) {
-        summaryEl.textContent = summary;
-      } else if (summaryEl) {
-        summaryEl.remove();
+      if (word.length > 0) {
+        for (var k in stemmedTerms) {
+          if (elasticlunr.stemmer(word).startsWith(stemmedTerms[k])) {
+            value = TERM_WEIGHT;
+            termFound = true;
+          }
+        }
+        weighted.push([word, value, index]);
+        value = NORMAL_WORD_WEIGHT;
       }
 
-      results.appendChild(card);
-    });
-  };
-
-  const applyQuery = (query, page) => {
-    const normalizedQuery = (query || "").replace(/[<>&]/g, " ").trim();
-    if (!normalizedQuery) {
-      clearResults();
-      setStatus("");
-      clearPagination();
-      return;
+      index += word.length;
+      index += 1; // ' ' or '.' if last word in sentence
     }
 
-    const matches = root.searchIndex.search(normalizedQuery, { prefix: true });
-    if (!matches.length) {
-      clearResults();
-      setStatus(noResultsText);
-      clearPagination();
-      return;
-    }
+    index += 1; // because we split at a two-char boundary '. '
+  }
 
-    root.searchMatches = matches;
-    setStatus(formatResults(matches.length));
-    renderPage(query, page || 1);
-  };
+  if (weighted.length === 0) {
+    return body;
+  }
 
-  const updateQueryString = (query, page) => {
-    const url = new URL(window.location.href);
-    if (query) {
-      url.searchParams.set("q", query);
-    } else {
-      url.searchParams.delete("q");
-    }
-    if (page && page > 1) {
-      url.searchParams.set("page", String(page));
-    } else {
-      url.searchParams.delete("page");
-    }
-    window.history.replaceState({}, "", url);
-  };
+  var windowWeights = [];
+  var windowSize = Math.min(weighted.length, TEASER_MAX_WORDS);
+  // We add a window with all the weights first
+  var curSum = 0;
+  for (var i = 0; i < windowSize; i++) {
+    curSum += weighted[i][1];
+  }
+  windowWeights.push(curSum);
 
-  const getRequestedPage = () => {
-    const params = new URLSearchParams(window.location.search);
-    const raw = parseInt(params.get("page") || "1", 10);
-    return Number.isFinite(raw) && raw > 0 ? raw : 1;
-  };
+  for (var i = 0; i < weighted.length - windowSize; i++) {
+    curSum -= weighted[i][1];
+    curSum += weighted[i + windowSize][1];
+    windowWeights.push(curSum);
+  }
 
-  const clearPagination = () => {
-    if (pagination) pagination.innerHTML = "";
-  };
-
-  const renderPagination = (totalResults, currentPage, query) => {
-    if (!pagination) return;
-    clearPagination();
-
-    const totalPages = Math.ceil(totalResults / pageSize);
-    if (totalPages <= 1) return;
-
-    const startWindow = Math.max(2, currentPage - pageWindow);
-    const endWindow = Math.min(totalPages - 1, currentPage + pageWindow);
-
-    const addButton = (page) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className =
-        page === currentPage
-          ? "inline-flex items-center px-3 py-2 rounded-md font-medium text-neutral-200 bg-neutral-800"
-          : "inline-flex items-center px-3 py-2 rounded-md font-medium text-neutral-200 hover:text-neutral-50 hover:bg-neutral-700 focus:outline-none focus:text-neutral-700 focus:bg-neutral-200";
-      const label = pageLabel ? `${pageLabel} ${page}` : String(page);
-      button.setAttribute("aria-label", label);
-      button.textContent = String(page);
-      button.addEventListener("click", () => {
-        updateQueryString(query, page);
-        renderPage(query, page);
-      });
-      pagination.appendChild(button);
-    };
-
-    const addEllipsis = () => {
-      const span = document.createElement("span");
-      span.className = "inline-flex items-center px-2 text-neutral-500";
-      span.textContent = "...";
-      pagination.appendChild(span);
-    };
-
-    addButton(1);
-
-    if (startWindow > 2) {
-      addEllipsis();
-    }
-
-    for (let page = startWindow; page <= endWindow; page += 1) {
-      addButton(page);
-    }
-
-    if (endWindow < totalPages - 1) {
-      addEllipsis();
-    }
-
-    if (totalPages > 1) {
-      addButton(totalPages);
-    }
-  };
-
-  const renderPage = (query, page) => {
-    if (!root.searchMatches) return;
-    const totalPages = Math.max(1, Math.ceil(root.searchMatches.length / pageSize));
-    const safePage = Math.min(Math.max(page, 1), totalPages);
-    const start = (safePage - 1) * pageSize;
-    const pageItems = root.searchMatches.slice(start, start + pageSize);
-    renderResults(pageItems);
-    renderPagination(root.searchMatches.length, safePage, query);
-  };
-
-  const syncClearButton = () => {
-    if (!clearButton) return;
-    if (input && input.value) {
-      clearButton.classList.remove("hidden");
-    } else {
-      clearButton.classList.add("hidden");
-    }
-  };
-
-  const loadIndex = async () => {
-    setStatus(loadingText);
-
-    try {
-      const rawDocs =
-        (window.searchIndex &&
-        window.searchIndex.documentStore &&
-        window.searchIndex.documentStore.docs) ||
-        (window.searchIndex && window.searchIndex.docs) ||
-        null;
-      if (!rawDocs) throw new Error("Search index not available");
-
-      const documents = Object.values(rawDocs)
-        .map((doc) => ({
-          id: doc.id,
-          title: doc.title || "",
-          body: doc.body || "",
-        }))
-        .filter((doc) => doc.id && (doc.title || doc.body));
-
-      root.searchIndex = new MiniSearch({
-        fields: ["title", "body"],
-        storeFields: ["title", "body"],
-      });
-
-      root.searchIndex.addAll(documents);
-
-      setStatus("");
-
-      const params = new URLSearchParams(window.location.search);
-      const initialQuery = params.get("q") || "";
-      const initialPage = getRequestedPage();
-      if (input) {
-        input.value = initialQuery;
+  // If we didn't find the term, just pick the first window
+  var maxSumIndex = 0;
+  if (termFound) {
+    var maxFound = 0;
+    // backwards
+    for (var i = windowWeights.length - 1; i >= 0; i--) {
+      if (windowWeights[i] > maxFound) {
+        maxFound = windowWeights[i];
+        maxSumIndex = i;
       }
-      applyQuery(initialQuery.trim(), initialPage);
-      syncClearButton();
-    } catch (error) {
-      console.warn(error);
-      setStatus(errorText);
     }
+  }
+
+  var teaser = [];
+  var startIndex = weighted[maxSumIndex][2];
+  for (var i = maxSumIndex; i < maxSumIndex + windowSize; i++) {
+    var word = weighted[i];
+    if (startIndex < word[2]) {
+      // missing text from index to start of `word`
+      teaser.push(body.substring(startIndex, word[2]));
+      startIndex = word[2];
+    }
+
+    // add <em/> around search terms
+    if (word[1] === TERM_WEIGHT) {
+      teaser.push("<b>");
+    }
+    startIndex = word[2] + word[0].length;
+    teaser.push(body.substring(word[2], startIndex));
+
+    if (word[1] === TERM_WEIGHT) {
+      teaser.push("</b>");
+    }
+  }
+  teaser.push("…");
+  return teaser.join("");
+}
+
+function formatSearchResultItem(item, terms) {
+  return (
+    '<div class="search-results__item">' +
+    `<a href="${item.ref}">${item.doc.title}</a>` +
+    `<div>${makeTeaser(item.doc.body, terms)}</div>` +
+    "</div>"
+  );
+}
+
+function initSearch() {
+  var $searchInput = document.getElementById("search");
+  var $searchResults = document.querySelector(".search-results");
+  var $searchResultsItems = document.querySelector(".search-results__items");
+  var MAX_ITEMS = 10;
+
+  var options = {
+    bool: "AND",
+    fields: {
+      title: { boost: 2 },
+      body: { boost: 1 },
+    },
+  };
+  var currentTerm = "";
+  var index;
+
+  const initIndex = function () {
+    if (index === undefined) {
+      // Get the base path by looking for the first path segment
+      const pathParts = window.location.pathname.split("/");
+      const basePath = pathParts[1] ? `/${pathParts[1]}` : "";
+      const indexPath = `${basePath}/search_index.en.json`;
+
+      // Try fetching the search index file from the base path
+      // and if that fails, try fetching it from the root path
+      index = fetch(indexPath)
+        .then((response) => {
+          if (!response.ok && response.status === 404) {
+            // If base path fails, try root path
+            return fetch("/search_index.en.json");
+          }
+          return response;
+        })
+        .then((response) => {
+          if (!response.ok && response.status === 404) {
+            // If both paths fail
+            console.warn(
+              "Search index not found at either the base or root path.",
+            );
+            return null;
+          }
+          return response.json();
+        })
+        .then((data) => {
+          if (data) {
+            return elasticlunr.Index.load(data);
+          }
+          return null;
+        })
+        .catch((error) => {
+          console.error("Error loading search index:", error);
+          throw error;
+        });
+    }
+
+    return index;
   };
 
-  if (input) {
-    input.addEventListener("input", (event) => {
-      const query = event.target.value.trim();
-      updateQueryString(query, 1);
-      applyQuery(query, 1);
-      syncClearButton();
-    });
-  }
+  $searchInput.addEventListener(
+    "keyup",
+    debounce(async function () {
+      var term = $searchInput.value.trim();
+      if (term === currentTerm) {
+        return;
+      }
+      $searchResults.style.display = term === "" ? "none" : "block";
+      $searchResultsItems.innerHTML = "";
+      currentTerm = term;
+      if (term === "") {
+        return;
+      }
 
-  if (clearButton && input) {
-    clearButton.addEventListener("click", () => {
-      input.value = "";
-      updateQueryString("", 1);
-      applyQuery("", 1);
-      syncClearButton();
-      input.focus();
-    });
-  }
+      var results = (await initIndex()).search(term, options);
+      if (results.length === 0) {
+        $searchResults.style.display = "none";
+        return;
+      }
 
-  loadIndex();
-});
+      for (var i = 0; i < Math.min(results.length, MAX_ITEMS); i++) {
+        var item = document.createElement("li");
+        item.innerHTML = formatSearchResultItem(results[i], term.split(" "));
+        $searchResultsItems.appendChild(item);
+      }
+    }, 150),
+  );
+
+  // exit search on ESC key and move cursor out of search results
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+      $searchResults.style.display = "none";
+      // clear search query to go back to placeholder
+      $searchInput.value = "";
+      $searchInput.blur();
+    }
+  });
+
+  // event listener for `/` to move cursor to search input
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "/") {
+      // don't have input be `/`
+      e.preventDefault();
+      $searchInput.focus();
+    }
+  });
+
+  // on enter event immediately display results
+  $searchInput.addEventListener("keydown", function (e) {
+    if (e.key === "Enter") {
+      $searchResults.style.display = "block";
+    }
+  });
+
+  window.addEventListener("click", function (e) {
+    if (
+      $searchResults.style.display == "block" &&
+      !$searchResults.contains(e.target)
+    ) {
+      $searchResults.style.display = "none";
+    }
+  });
+}
+
+if (
+  document.readyState === "complete" ||
+  (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  initSearch();
+} else {
+  document.addEventListener("DOMContentLoaded", initSearch);
+}
