@@ -47,7 +47,6 @@
   - [ ] [Hollow](https://github.com/hollow-app/hollow/releases/download/v0.0.4/hollow_0.0.4_amd64.AppImage)
   - [ ] [Hology](https://id.hology.app/api/downloads/Hology-0.0.214.AppImage)
   - [ ] [Hydralauncher](https://github.com/hydralauncher/hydra/releases/download/v3.7.4/hydralauncher-3.7.4.AppImage)
-
   - [ ] [Janus](https://github.com/gholmann16/janus)
   - [ ] [kadium](https://github.com/probablykasper/kadium/releases/download/v1.8.1/Kadium_1.8.1_amd64.AppImage)
   - [ ] [Ladymod](https://releases.r2.labymod.net/launcher/linux/x64/LabyMod%20Launcher-latest.AppImage)
@@ -126,3 +125,4 @@
   - [ ] [Zasper](https://github.com/zasper-io/zasper/releases/download/v0.2.0-beta/zasper_0.2.0-beta_arm64_linux.AppImage)
   - [ ] [Zen-App-Manager](https://github.com/d0ksan8/zen-app-manager/releases/download/v0.3.2/zen-app-manager_0.3.2_amd64.AppImage)
   - [ ] [ZenNotes](https://github.com/ZenNotes/zennotes)
+  
