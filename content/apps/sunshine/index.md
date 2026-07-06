@@ -6,7 +6,7 @@ date = "2026-04-18 03:03:00"
 categories = ["Games"]
 authors = ["LizardByte"]
 tags = ["Streaming software"]
-architectures = ["x86_64", "arm64"]
+architectures = ["x86_64"]
 license = ["GPL-3.0"]
 +++
 

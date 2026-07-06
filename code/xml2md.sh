@@ -20,9 +20,9 @@ description = \"$summary\"
 date = "$date"
 [taxonomies]
 categories =
-authors = [\"$author\"
+authors = [\"$author\"]
 tags =
-framework = \"AppImage\"
+framework = [\"Electron\"]
 architectures = [\"x86_64\"]
 license = [\"$license\"]
 +++
@@ -33,7 +33,7 @@ $summary
 
 License: $license
 
-Web page: $homepage
+Web page: <$homepage>
 Source code: <$source>
 
 Become a sponsor: <$donation>
@@ -43,21 +43,21 @@ Report the bug: <$bugtracker>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download arm64</a>
+    <a href="">Download arm64</a>
 </button>
- <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-i686.AppImage">Download x86</a>
+<button class="c-button c-button--primary c-button--large"  
+      <a href="">Download x86</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download armv7l</a>
+    <a href="">Download armv7l</a>
 </button>
-  <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage">Download riscv64</a>
+<button class="c-button c-button--primary c-button--large"  
+      <a href="">Download riscv64</a>
 </button>
     <button class="c-button c-button--primary c-button--large"
-        <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download ppc64el</a>
+        <a href="">Download ppc64el</a>
 </button>
 </div>" >> ~/apps-for-linux.github.io/content/apps/$title.md

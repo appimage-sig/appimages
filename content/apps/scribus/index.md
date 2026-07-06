@@ -1,7 +1,7 @@
 +++
 title = "Scribus"
 description = "Powerful desktop publishing software"
-date = "2026-04-14 02:45:00"
+date = "2026-04-14 02:45:30"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["The Scribus Team"]
@@ -25,6 +25,6 @@ Report the bug: <http://bugs.scribus.net>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-      <a href="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.2/scribus-1.7.2-linux-x86_64.AppImage/download">Download x86_64</a>
+      <a href="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.3/scribus-1.7.3-linux-x86_64.AppImage/download">Download x86_64</a>
 </button>
 </div>

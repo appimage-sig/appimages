@@ -6,7 +6,7 @@ date = "2026-04-04 11:04:00"
 categories = ["Network"]
 authors = ["SchildiChat"]
 tags = ["Messenger", "Matrix", "Cross-platform software"]
-frameworks = ["Electron"]
+frameworks = ["Kotlin Multiplatform"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
 +++

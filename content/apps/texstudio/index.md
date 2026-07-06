@@ -17,10 +17,10 @@ Craft beautiful LaTeX documents
 
 License: GPL-2.0
 
-Web page: <https://texstudio.org>
+Web page: <https://texstudio.org>  
 Source code: <https://github.com/texstudio-org/texstudio>
 
-Translate: <https://explore.transifex.com/texstudio/texstudio/>
+Translate: <https://explore.transifex.com/texstudio/texstudio/>  
 Report the bug: <https://github.com/texstudio-org/texstudio/issues>
 
 <div class="d_buttons">

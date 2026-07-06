@@ -3,9 +3,8 @@
 - [ ] Improve home page like Apps updated, Apps added, Categories list
 - [ ] Implement some featres from LPA <https://framagit.org/linuxphoneapps/linuxphoneapps.frama.io>
 - [ ] Add more applications
-  - [ ] [5ire](https://github.com/nanbingxyz/5ire/releases/download/v0.15.3/5ire-0.15.3-x86_64.AppImage)
-  - [ ] [Addiction-tracker](https://github.com/charlesschaefer/addiction-tracker/releases/download/app-v0.0.27/Addiction.Tracker_0.0.27_amd64.AppImage)
-  - [ ] [Agregore](https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.7.0/agregore-browser-2.7.0-linux-x86_64.AppImage)
+  - [ ] [5ire](https://github.com/nanbingxyz/5ire/)
+  - [x] [Agregore](https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.7.0/agregore-browser-2.7.0-linux-x86_64.AppImage)
   - [ ] [Aiming pro](https://aiming.pro)
   - [ ] [Altus](https://github.com/amanharwara/altus/releases/download/5.4.0/Altus-5.4.0.AppImage)
   - [ ] [Ansel](https://github.com/aurelienpierreeng/ansel/releases/download/v0.0.0/Ansel-0.0.0+2046.g16d22c0db-x86_64.AppImage)
