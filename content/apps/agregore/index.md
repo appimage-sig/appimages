@@ -6,7 +6,7 @@ date = "2026-04-24 22:06:00"
 categories = ["Network"]
 authors = ["Mauve Signweaver"]
 tags = ["Web Browser", "ipfs", "gemini", "BitTorrent"]
-framework = ["Electron"]
+frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 +++

@@ -22,7 +22,7 @@ date = "$date"
 categories =
 authors = [\"$author\"]
 tags =
-framework = [\"Electron\"]
+frameworks = [\"Electron\"]
 architectures = [\"x86_64\"]
 license = [\"$license\"]
 +++
