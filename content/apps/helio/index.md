@@ -16,6 +16,7 @@ license = ["MIT"]
 Free and open-source music sequencer for desktop and mobile platforms
 
 License: MIT
+
 Web page: <https://helio.fm>  
 Source code: <https://github.com/helio-fm/helio-sequencer>
 
