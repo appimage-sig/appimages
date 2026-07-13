@@ -8,6 +8,7 @@
   - [ ] [Ansel](https://github.com/aurelienpierreeng/ansel/)
   - [ ] [Aspect](https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.43-x86_64.AppImage)
   - [ ] [Aurora](https://github.com/legacyO7/Aurora/)
+  - [ ] [Bigtube](https://github.com/eltonfabricio10/bigtube)
   - [ ] [BitBox](https://github.com/BitBoxSwiss/bitbox-wallet-app)
   - [ ] [Cacher](https://s3.amazonaws.com/download.cacher.io/Cacher-2.47.9.AppImage)
   - [ ] [CodeTracer](https://downloads.codetracer.com/CodeTracer-latest-amd64.AppImage)
@@ -26,6 +27,7 @@
   - [ ] [GeForce-Infinity](https://github.com/AstralVixen/GeForce-Infinity/)
   - [ ] [Ghostty](https://github.com/pkgforge-dev/ghostty-appimage)
   - [ ] [gitify](https://github.com/gitify-app/gitify/)
+  - [ ] [GitPulsar](https://gitlab.com/ilshat-apps/gitpulsar)
   - [ ] [GitWand](https://github.com/devlint/GitWand)
   - [ ] [Goverlay](https://github.com/benjamimgois/goverlay/)
   - [ ] [Gozen](https://github.com/VoylinsGamedevJourney/gozen/)
@@ -111,4 +113,3 @@
   - [ ] [Zasper](https://github.com/zasper-io/zasper/releases/)
   - [ ] [Zen-App-Manager](https://github.com/d0ksan8/zen-app-manager/)
   - [ ] [ZenNotes](https://github.com/ZenNotes/zennotes)
-  
