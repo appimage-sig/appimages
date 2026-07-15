@@ -22,6 +22,6 @@ Report the bug: <https://github.com/RPCS3/rpcs3/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-d87cf99b655e1a3c85fa5913b2b591dec18a473a/rpcs3-v0.0.41-19559-d87cf99b_linux64.AppImage">Download x86_64</a>
+      <a href="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-1269ebff279809415d0fea0e22c9c4620c3bccfc/rpcs3-v0.0.41-19572-1269ebff_linux64.AppImage">Download x86_64</a>
 </button>
 </div>

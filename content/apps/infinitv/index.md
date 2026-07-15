@@ -25,6 +25,6 @@ Report the bug: <https://github.com/infinitel8p/Extreme-InfiniTV/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.6.2/Extreme.InfiniTV_1.6.2_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.6.3/Extreme.InfiniTV_1.6.3_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

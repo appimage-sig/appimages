@@ -25,6 +25,6 @@ Report the bug: <https://github.com/alephium/alephium-frontend/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.2/Alephium-3.2.2.AppImage">Download x86_64</a>
+      <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.2.4/Alephium-3.2.4.AppImage">Download x86_64</a>
 </button>
 </div>

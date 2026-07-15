@@ -26,13 +26,13 @@ Report the bug: <https://github.com/sqlitebrowser/sqlitebrowser/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-582f086-x86.64.AppImage">Download SQLCipher x86_64</a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage">Download SQLCipher x86_64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-582f086-aarch64.AppImage">Download SQLCipher arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-582f086-x86.64.AppImage">Download SQLite x86_64 </a>
+      <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage">Download SQLite x86_64 </a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
       <a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLite-dev-582f086-aarch64.AppImage">Download SQLite arm64</a>

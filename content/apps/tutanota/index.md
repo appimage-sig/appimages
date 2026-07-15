@@ -26,6 +26,6 @@ Report the bug: <https://github.com/tutao/tutanota/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-340.260326.1/tutanota-desktop-linux.AppImage">Download x86_64</a>
+      <a href="https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-355.260710.0/tutanota-desktop-linux.AppImage">Download x86_64</a>
 </button>
 </div>
