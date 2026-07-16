@@ -22,6 +22,7 @@
   - [ ] [Eden](https://github.com/eden-emulator/Releases)
   - [ ] [Emulsion](https://github.com/yphil-dev/Emulsion)
   - [ ] [Fluxer](https://api.fluxer.app/dl/desktop/stable/linux/x64/latest/appimage)
+  - [ ] [Fog Panther](https://www.fogpanther.com/releases/latest/appimage?token=eyJfcmFpbHMiOnsiZGF0YSI6eyJpcCI6IjEwNC4yOC4xOTguMjQ0In0sImV4cCI6IjIwMjYtMDctMTZUMTM6MzQ6MjQuNzY1WiJ9fQ%3D%3D--6ba9d88e1b1a887f6bd1e8fa4fc32ba167dc76e8)
   - [ ] [Freeter](https://github.com/FreeterApp/Freeter)
   - [ ] [furnace](https://github.com/tildearrow/furnace/)
   - [ ] [GeForce-Infinity](https://github.com/AstralVixen/GeForce-Infinity/)
