@@ -25,7 +25,7 @@ Report the bug: <https://github.com/zen-browser/desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/zen-browser/desktop/releases/download/1.21.7b/zen-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/zen-browser/desktop/releases/download/1.21.7b/zen-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/zen-browser/desktop/releases/download/1.21.7b/zen-aarch64.AppImage">Download arm64</a>

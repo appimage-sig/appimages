@@ -25,6 +25,6 @@ Report the bug: <https://github.com/linx-systems/clamui/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/linx-systems/clamui/releases/download/v0.3.0/ClamUI-0.3.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/linx-systems/clamui/releases/download/v0.3.0/ClamUI-0.3.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

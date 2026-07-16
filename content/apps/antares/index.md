@@ -24,12 +24,12 @@ Report the bug: <https://github.com/antares-sql/antares/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download arm64</a>
 </button>
     <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download armv7l</a>
+    <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download armv7l</a>
 </button>
 </div>

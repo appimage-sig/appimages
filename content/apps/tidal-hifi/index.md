@@ -23,6 +23,6 @@ Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/7.0.1/tidal-hifi-7.0.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/7.0.1/tidal-hifi-7.0.1.AppImage">Download x86_64</a>
 </button>
 </div>

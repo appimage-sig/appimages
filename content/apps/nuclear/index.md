@@ -26,6 +26,6 @@ Report the bug: <https://github.com/nukeop/nuclear/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/nukeop/nuclear/releases/download/player%401.43.0/Nuclear_1.43.0_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/nukeop/nuclear/releases/download/player%401.43.0/Nuclear_1.43.0_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

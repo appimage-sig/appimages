@@ -25,6 +25,6 @@ Translate: <https://github.com/Levminer/authme/issues/258#issuecomment-190979233
 Report the bug: <https://github.com/Levminer/authme/issues>    
 
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/Levminer/authme/releases/download/7.1.0/authme-7.1.0-linux-x64.appimage">Download x86_64</a>
+    <a href="https://github.com/Levminer/authme/releases/download/7.1.0/authme-7.1.0-linux-x64.appimage">Download x86_64</a>
 </button>
 </div>

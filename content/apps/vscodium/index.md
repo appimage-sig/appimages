@@ -23,6 +23,6 @@ Report the bug: <https://github.com/VSCodium/vscodium/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/VSCodium/vscodium/releases/download/1.126.04524/VSCodium-1.126.04524.glibc2.34-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/VSCodium/vscodium/releases/download/1.126.04524/VSCodium-1.126.04524.glibc2.34-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

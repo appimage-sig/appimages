@@ -21,10 +21,10 @@ Source code: <https://github.com/AppFlowy-IO/AppFlowy>
 
 Become a sponsor: <https://ko-fi.com/appflowy>  
 Translate: <https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy>  
-Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues> 
- 
+Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>
+
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.12.5/AppFlowy-0.12.5-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

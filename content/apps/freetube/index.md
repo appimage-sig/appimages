@@ -26,7 +26,7 @@ Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-amd64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large"
     <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-arm64.AppImage">Download arm64</a>

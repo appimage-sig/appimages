@@ -24,7 +24,7 @@ Report the bug: <https://github.com/AgregoreWeb/agregore-browser/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.24.0/agregore-browser-2.24.0-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.24.0/agregore-browser-2.24.0-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.24.0/agregore-browser-2.24.0-linux-arm64.AppImage">Download arm64</a>

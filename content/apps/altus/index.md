@@ -23,6 +23,6 @@ Report the bug: <https://github.com/amanharwara/altus/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"  
-      <a href="https://github.com/amanharwara/altus/releases/download/5.8.0/Altus-5.8.0.AppImage">Download x86_64</a>
+    <a href="https://github.com/amanharwara/altus/releases/download/5.8.0/Altus-5.8.0.AppImage">Download x86_64</a>
 </button>
 </div>

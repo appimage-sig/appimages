@@ -24,7 +24,7 @@ Report the bug: <https://github.com/multiboxlabs/flow-browser/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/MultiboxLabs/flow-browser/releases/download/v0.12.0/flow-browser-0.12.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/MultiboxLabs/flow-browser/releases/download/v0.12.0/flow-browser-0.12.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/MultiboxLabs/flow-browser/releases/download/v0.12.0/flow-browser-0.12.0-arm64.AppImage">Download arm64</a>

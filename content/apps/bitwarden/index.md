@@ -25,6 +25,6 @@ Report the bug: <https://github.com/bitwarden/clients/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bw_2026.5.0_amd64.snap">Download x86_64</a>
+    <a href="https://github.com/bitwarden/clients/releases/download/cli-v2026.5.0/bw_2026.5.0_amd64.snap">Download x86_64</a>
 </button>
 </div>

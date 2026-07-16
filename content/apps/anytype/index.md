@@ -23,6 +23,6 @@ Report the bug: <https://github.com/anyproto/anytype-ts//issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/anyproto/anytype-ts/releases/download/v0.55.8-alpha/Anytype-0.55.8-alpha-mac-arm64.dmg">Download x86_64</a>
+    <a href="https://github.com/anyproto/anytype-ts/releases/download/v0.55.8-alpha/Anytype-0.55.8-alpha-mac-arm64.dmg">Download x86_64</a>
 </button>
 </div>

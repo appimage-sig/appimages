@@ -24,6 +24,6 @@ Report the bug: <https://github.com/JonMagon/KDiskMark/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/JonMagon/KDiskMark/releases/download/3.3.0/KDiskMark-3.3.0-fio-3.42-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/JonMagon/KDiskMark/releases/download/3.3.0/KDiskMark-3.3.0-fio-3.42-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

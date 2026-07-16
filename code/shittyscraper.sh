@@ -212,7 +212,7 @@ main() {
 		fi
 
 		is_file_updated=0
-		
+
 		# Исправленный поиск текущей даты (учитывает любые пробелы вокруг знака "=")
 		current_file_date=$(grep -E '^[[:space:]]*date[[:space:]]*=[[:space:]]*"[^"]+"' "$index_file" | head -n 1 | cut -d'"' -f2)
 

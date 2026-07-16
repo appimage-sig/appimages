@@ -25,6 +25,6 @@ Report the bug: <https://github.com/keepassxreboot/keepassxc/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg">Download x86_64</a>
+    <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg">Download x86_64</a>
 </button>
 </div>
