@@ -174,11 +174,10 @@ main() {
 			continue
 		fi
 
-		repo_info=$(parse_github_url "$github_repo")
-		if [ $? -ne 0 ] || [ -z "$repo_info" ]; then
-			echo "✗ $app_name: не удалось распарсить URL: $github_repo"
-			error_count=$((error_count + 1))
-			continue
+		if ! repo_info=$(parse_github_url "$github_repo") || [ -z "$repo_info" ]; then
+		echo "✗ $app_name: не удалось распарсить URL: $github_repo"
+		error_count=$((error_count + 1))
+		continue
 		fi
 
 		repo_owner=$(printf '%s' "$repo_info" | cut -d'/' -f1)
