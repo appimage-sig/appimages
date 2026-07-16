@@ -16,7 +16,7 @@ sed_in_place() {
 get_all_github_assets() {
 	repo_owner="$1"
 	repo_name="$2"
-	api_url="https://api.github.com/repos/${repo_owner}/${repo_name}/releases/latest"
+	api_url="https://github.com{repo_owner}/${repo_name}/releases/latest"
 
 	auth_header=""
 	if [ -n "$GITHUB_TOKEN" ]; then
@@ -47,13 +47,15 @@ get_all_github_assets() {
 		return 1
 	fi
 
-	urls=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | .browser_download_url' 2>/dev/null | sed '/^$/d')
-	if [ -z "$urls" ]; then
+	# Извлекаем URL и дату обновлений через разделитель pipe (|)
+	# Преобразуем формат даты 2026-05-30T23:46:49Z -> 2026-05-30 23:46:49
+	assets_data=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | "\(.browser_download_url)|\(.updated_at)"' 2>/dev/null | sed '/^$/d' | sed -E 's/T/ /g; s/Z//g')
+	if [ -z "$assets_data" ]; then
 		echo "no_asset"
 		return 1
 	fi
 
-	printf '%s\n' "$urls"
+	printf '%s\n' "$assets_data"
 	return 0
 }
 
@@ -86,7 +88,7 @@ escape_sed() {
 
 match_architecture() {
 	old_url="$1"
-	all_new_urls="$2"
+	all_new_assets="$2"
 	arch="default"
 
 	if printf '%s' "$old_url" | grep -qiE "(arm64|aarch64)"; then
@@ -102,6 +104,9 @@ match_architecture() {
 	elif printf '%s' "$old_url" | grep -qiE "(ppc64le)"; then
 		arch="ppc64le"
 	fi
+
+	# Извлекаем только список URL для фильтрации архитектур
+	all_new_urls=$(printf '%s\n' "$all_new_assets" | cut -d'|' -f1)
 
 	case "$arch" in
 		arm64)
@@ -208,6 +213,7 @@ main() {
 		fi
 
 		is_file_updated=0
+		asset_datetime=""
 
 		while IFS= read -r old_url; do
 			[ -z "$old_url" ] && continue
@@ -223,12 +229,20 @@ main() {
 
 			sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"
 			is_file_updated=1
+			
+			# Извлекаем дату конкретно для этого нового ассета
+			asset_datetime=$(printf '%s\n' "$all_assets" | grep -F "$new_url" | cut -d'|' -f2 | head -n 1)
 		done <<EOF
 $old_urls
 EOF
 
 		if [ $is_file_updated -eq 1 ]; then
-			echo "✓ $app_name: ссылки успешно обновлены"
+			# Если дата нашлась, обновляем строку вида date = "..." в index.md
+			if [ -n "$asset_datetime" ]; then
+				sed_in_place "s|^date = \".*\"|date = \"${asset_datetime}\"|" "$index_file"
+			fi
+
+			echo "✓ $app_name: ссылки и дата релиза обновлены"
 			updated_count=$((updated_count + 1))
 		else
 			skipped_count=$((skipped_count + 1))
