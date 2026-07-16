@@ -1,7 +1,7 @@
 +++
 title = "RSS Guard"
 description = "Simple RSS/ATOM feed reader"
-date = "2026-03-13 11:46:00"
+date = "2026-07-06 15:18:24"
 [taxonomies]
 categories = ["Network"]
 authors = ["Martin Rotter"]

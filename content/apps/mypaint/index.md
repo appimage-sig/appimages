@@ -1,7 +1,7 @@
 +++
 title = "MyPaint"
 description = "A fast and dead-simple painting app for artists"
-date = "2020-07-10 12:28:00"
+date = "2020-07-09 21:29:05"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["MyPaint Development Team"]

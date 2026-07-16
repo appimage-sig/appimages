@@ -1,7 +1,7 @@
 +++
 title = "CP Editor"
 description = "The IDE for competitive programming."
-date = "2026-04-05 16:14:00"
+date = "2026-04-05 12:56:22"
 [taxonomies]
 categories = ["Development"]
 authors = ["CP Editor team"]

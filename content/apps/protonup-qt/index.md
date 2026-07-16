@@ -1,7 +1,7 @@
 +++
 title = "ProtonUp-Qt"
 description = "Install and manage GE-Proton and Luxtorpeda for Steam and Wine-GE for Lutris with this graphical user interface"
-date = "2026-02-20 19:04:00"
+date = "2026-06-24 07:21:05"
 [taxonomies]
 categories = ["Games"]
 authors = ["DavidoTek"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/DavidoTek/ProtonUp-Qt/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.15.1/ProtonUp-Qt-2.15.1-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/Davido ek/ProtonUp-Qt/releases/download/v2.15.1/ProtonUp-Qt-2.15.1-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Alephium"
 description = "The official Alephium desktop wallet."
-date = "2026-03-12 15:31:00"
+date = "2026-07-15 12:40:09"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Alephium Team"]

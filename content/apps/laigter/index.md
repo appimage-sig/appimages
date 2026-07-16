@@ -1,7 +1,7 @@
 +++
 title = "Laigter"
 description = "Laigter is a tool that automatically generates maps for dynamic lighting effects in games"
-date = "2025-12-16 20:51:00"
+date = "2025-12-16 17:54:27"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Pablo Ivan Fonovich"]

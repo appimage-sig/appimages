@@ -1,7 +1,7 @@
 +++
 title = "Xournal++"
 description = "Handwriting notetaking software with PDF annotation support"
-date = "2026-03-29 12:35:00"
+date = "2026-07-13 20:46:41"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Xournal Team"]

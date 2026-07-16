@@ -1,7 +1,7 @@
 +++
 title = "Upscayl"
 description = "Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy."
-date = "2024-12-25 16:44:00"
+date = "2024-12-25 16:54:39"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Nayam Amarshe"]

@@ -1,7 +1,7 @@
 +++
 title = "Archipelago"
 description = "Archipelago provides a generic framework for developing multiworld capability for game randomizers"
-date = "2026-04-01 22:25:00"
+date = "2026-04-01 19:29:34"
 [taxonomies]
 categories = ["Games"]
 authors = ["Archipelago"]

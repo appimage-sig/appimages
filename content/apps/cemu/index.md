@@ -1,7 +1,7 @@
 +++
 title = "Cemu"
 description = "Nintendo Wii U emulator"
-date = "2025-02-06 16:18:00"
+date = "2026-05-12 15:12:39"
 [taxonomies]
 categories = ["Games"]
 authors = ["Cemu Project"]

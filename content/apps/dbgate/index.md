@@ -1,7 +1,7 @@
 +++
 title = "DbGate"
 description = "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others"
-date = "2026-04-09 16:49:00"
+date = "2026-06-19 10:34:10"
 [taxonomies]
 categories = ["Development"]
 authors = ["Jan Prochazka"]

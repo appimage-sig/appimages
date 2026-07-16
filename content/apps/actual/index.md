@@ -1,7 +1,7 @@
 +++
 title = "Actual Budget"
 description = "Actual Budget is a super fast and privacy-focused app for managing your finances"
-date = "2026-01-04 20:57:00"
+date = "2026-07-02 16:18:44"
 [taxonomies]
 categories = ["Finance"]
 authors = ["James Long"]

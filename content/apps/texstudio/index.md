@@ -1,7 +1,7 @@
 +++
 title = "TeXstudio"
 description = "Craft beautiful LaTeX documents"
-date = "2026-06-06T07:48:33Z"
+date = "2026-06-06 07:48:33"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Jan Sundermeyer"]

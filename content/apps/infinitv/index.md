@@ -1,7 +1,7 @@
 +++
 title = "Extreme InfiniTV"
 description = "Cross-platform IPTV player for Xtream Codes and M3U/M3U8 playlists"
-date = "2026-07-05 15:04"
+date = "2026-07-15 22:28:07"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ludovico Ferrara"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/infinitel8p/Extreme-InfiniTV/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.6.3/Extreme.InfiniTV_1.6.3_amd64.AppImage">Download x86_64</a>
+      <a href="https://github.com/infinitel8p/Extreme-Infini V/releases/download/v1.6.4/Extreme.Infini V_1.6.4_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

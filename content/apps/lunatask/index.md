@@ -1,7 +1,7 @@
 +++
 title = "Lunatask"
 description = "All-in-one encrypted to-do list, habit and mood tracker, journaling and notes app"
-date = "2026-04-01 16:20:00"
+date = "2026-06-10 20:04:48"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Michal Krejci"]

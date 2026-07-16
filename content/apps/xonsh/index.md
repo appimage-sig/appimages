@@ -1,7 +1,7 @@
 +++
 title = "xonsh"
 description = "Python-powered, cross-platform, Unix-gazing shell language and command prompt."
-date = "2026-03-17 14:57:00"
+date = "2026-07-02 11:02:42"
 [taxonomies]
 categories = ["System"]
 authors = ["the xonsh developers"]

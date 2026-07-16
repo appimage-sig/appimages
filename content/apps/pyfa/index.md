@@ -1,7 +1,7 @@
 +++
 title = "pyfa"
 description = "Python fitting assistant, cross-platform fitting tool for EVE Online"
-date = "2026-03-31 16:25:00"
+date = "2026-07-07 20:12:47"
 [taxonomies]
 categories = ["Games"]
 authors = ["Diego Duclos"]

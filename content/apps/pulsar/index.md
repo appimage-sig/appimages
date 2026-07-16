@@ -1,7 +1,7 @@
 +++
 title = "Pulsar"
 description = "A Community-led Hyper-Hackable Text Editor"
-date = "2026-03-20 05:17:00"
+date = "2026-05-20 21:31:43"
 [taxonomies]
 categories = ["Development"]
 authors = ["Pulsar-Edit Original work"]

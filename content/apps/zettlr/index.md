@@ -1,7 +1,7 @@
 +++
 title = "Zettlr"
 description = "Your One-Stop Publication Workbench"
-date = "2026-03-30 10:48:00"
+date = "2026-06-14 10:12:01"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Hendrik Erz"]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/Zettlr/Zettlr/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="hhttps://github.com/Zettlr/Zettlr/releases/download/v4.6.0/Zettlr-4.6.0-x86_64.AppImage">Download x86_64</a>
+      <a href="hhttps://github.com/ettlr/ettlr/releases/download/v4.6.0/ettlr-4.6.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.6.0/Zettlr-4.6.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/ettlr/ettlr/releases/download/v4.6.0/ettlr-4.6.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

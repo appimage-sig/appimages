@@ -1,7 +1,7 @@
 +++
 title = "OnlyOffice"
 description = "Free office suite that combines text, spreadsheet and presentation editors"
-date = "2026-03-03 16:28:00"
+date = "2026-05-22 17:44:48"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Ascensio System"]

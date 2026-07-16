@@ -1,7 +1,7 @@
 +++
 title = "nvtop"
 description = "GPUs process monitoring for AMD, Intel and NVIDIA"
-date = "2026-02-08 20:57:00"
+date = "2026-02-08 17:53:29"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Maxime Schmitt"]

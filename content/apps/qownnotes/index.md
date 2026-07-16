@@ -1,7 +1,7 @@
 +++
 title = "QOwnNotes"
 description = "Open source notepad with Markdown support and todo list manager for GNU/Linux"
-date = "2026-04-16 22:13:00"
+date = "2026-07-14 19:54:40"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Patrizio Bekerle"]

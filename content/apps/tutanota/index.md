@@ -1,7 +1,7 @@
 +++
 title = "Tuta"
 description = "Email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices."
-date = "2026-03-27 13:40:00"
+date = "2026-07-14 09:35:29"
 [taxonomies]
 categories = ["Network"]
 authors = ["Tutao"]

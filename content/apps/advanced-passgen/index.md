@@ -1,7 +1,7 @@
 +++
 title = "Advanced PassGen"
 description = "Free and open-source application that can help you generate passwords and export them"
-date = "2026-04-26T19:27:38Z"
+date = "2026-04-26 19:27:38"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["CodeDead"]

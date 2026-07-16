@@ -1,7 +1,7 @@
 +++
 title = "Saber"
 description = "Cross-platform libre handwritten notes app"
-date = "2026-04-16 19:44:00"
+date = "2026-07-08 15:10:32"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Adil Hanney"]

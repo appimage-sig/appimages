@@ -1,7 +1,7 @@
 +++
 title = "Obsidian"
 description = "Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files"
-date = "2026-03-23 18:56:00"
+date = "2026-03-23 15:27:17"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Obsidian Team"]

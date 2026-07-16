@@ -1,7 +1,7 @@
 +++
 title = "AntimicroX"
 description = "Graphical program used to map gamepad keys to keyboard, mouse, scripts and macros"
-date = "2025-01-27 22:21:00"
+date = "2026-05-22 22:50:36"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["AntiMicroX Authors"]

@@ -1,7 +1,7 @@
 +++
 title = "Vieb"
 description = "Vim Inspired Electron Browser"
-date = "2026-04-09 15:03:00"
+date = "2026-05-10 21:58:18"
 [taxonomies]
 categories = ["Network"]
 authors = ["Jelmer van Arnhem"]

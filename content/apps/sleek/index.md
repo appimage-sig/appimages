@@ -1,7 +1,7 @@
 +++
 title = "Sleek"
 description = "Open-source (FOSS) todo manager based on the todo.txt syntax"
-date = "2026-04-14 14:08:00"
+date = "2026-04-14 09:24:50"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Robin Ahle"]

@@ -1,7 +1,7 @@
 +++
 title = "ungoogled-chromium"
 description = "ungoogled-chromium is Google Chromium, sans dependency on Google web services."
-date = "2026-04-17 23:19:00"
+date = "2026-07-11 05:19:05"
 [taxonomies]
 categories = ["Network"]
 authors = ["The ungoogled-chromium Authors"]

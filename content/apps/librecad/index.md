@@ -1,7 +1,7 @@
 +++
 title = "LibreCAD"
 description = "LibreCAD is a 2D Computer Aided Design (CAD) application for creating plans and designs on your computer"
-date = "2026-03-03 04:51:00"
+date = "2026-05-02 07:20:03"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["LibreCAD Contributors"]

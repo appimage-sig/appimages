@@ -1,7 +1,7 @@
 +++
 title = "Bforartists"
 description = "Bforartists is a fork of the popular 3D software Blender, with the goal to improve the UI"
-date = "2026-03-25 01:27:00"
+date = "2026-06-01 23:39:27"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Reiner Prokein"]

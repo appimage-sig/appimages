@@ -1,7 +1,7 @@
 +++
 title = "Logseq"
 description = "A privacy-first, open-source platform for knowledge management and collaboration"
-date = "2025-12-01 15:33:00"
+date = "2026-07-13 06:35:24"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Logseq"]

@@ -1,7 +1,7 @@
 +++
 title = "Altair"
 description = "A beautiful feature-rich GraphQL Client"
-date = "2025-12-20 18:47:00"
+date = "2026-06-06 08:51:09"
 [taxonomies]
 categories = ["Development"]
 authors = ["Samuel Imolorhe"]

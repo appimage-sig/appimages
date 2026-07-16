@@ -1,7 +1,7 @@
 +++
 title = "Buckets"
 description = "Make your budget quick, simple and private"
-date = "2025-05-15 17:51:00"
+date = "2025-04-22 22:31:09"
 [taxonomies]
 categories = ["Finance"]
 authors = ["One Part Rain"]

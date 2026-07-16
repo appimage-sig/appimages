@@ -1,7 +1,7 @@
 +++
 title = "Siyuan"
 description = "A privacy-first, self-hosted, fully open source personal knowledge management software."
-date = "2025-12-23 06:41:00"
+date = "2026-07-14 03:00:28"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Yunnan Liandi Technology"]

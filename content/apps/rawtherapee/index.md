@@ -1,7 +1,7 @@
 +++
 title = "RawTherapee"
 description = "RawTherapee is a free, cross-platform raw image processing program"
-date = "2025-05-28 09:47:00"
+date = "2025-05-28 04:12:27"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["The RawTherapee Team"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/RawTherapee/RawTherapee/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/RawTherapee/RawTherapee/releases/download/5.12/RawTherapee_5.12_debug.AppImage">Download x86_64</a>
+      <a href="https://github.com/Raw herapee/Raw herapee/releases/download/5.12/Raw herapee_5.12_debug.AppImage">Download x86_64</a>
 </button>
 </div>

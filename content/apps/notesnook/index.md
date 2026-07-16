@@ -1,7 +1,7 @@
 +++
 title = "Notesnook"
 description = "End-to-end encrypted note taking alternative to Evernote."
-date = "2026-04-15 06:38:00"
+date = "2026-07-13 09:06:30"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Streetwriters"]

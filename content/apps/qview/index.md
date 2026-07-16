@@ -1,7 +1,7 @@
 +++
 title = "qView"
 description = "Practical and minimal image viewer"
-date = "2025-07-27 01:25:00"
+date = "2025-07-26 22:25:39"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Benjamin O"]

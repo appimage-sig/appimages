@@ -1,7 +1,7 @@
 +++
 title = "PYDT"
 description = "Civilization 5 / 6 / Beyond Earth / Old World Hotseat Multiplayer Management."
-date = "2025-07-06 21:19:00"
+date = "2026-07-14 10:43:01"
 [taxonomies]
 categories = ["Games"]
 authors = ["Michael Rosack"]

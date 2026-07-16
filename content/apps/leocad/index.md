@@ -1,7 +1,7 @@
 +++
 title = "LeoCAD"
 description = "A CAD application for creating virtual LEGO models"
-date = "2025-09-02 03:31:00"
+date = "2025-09-02 01:10:22"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Leonardo Zide"]

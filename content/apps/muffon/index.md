@@ -1,7 +1,7 @@
 +++
 title = "muffon"
 description = "Advanced multi-source music streaming"
-date = "2026-01-29 11:53:00"
+date = "2026-01-28 22:07:30"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Aleksey Shpakovsky"]

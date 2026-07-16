@@ -1,7 +1,7 @@
 +++
 title = "Localsend"
 description = "Open source cross-platform alternative to AirDrop"
-date = "2025-02-20 04:23:00"
+date = "2025-02-19 15:37:25"
 [taxonomies]
 categories = ["Network"]
 authors = ["Tien Do Nam"]

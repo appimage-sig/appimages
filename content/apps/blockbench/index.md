@@ -1,7 +1,7 @@
 +++
 title = "Blockbench"
 description = "Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures"
-date = "2026-04-05 16:31:00"
+date = "2026-04-25 20:28:30"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Jannis Petersen"]

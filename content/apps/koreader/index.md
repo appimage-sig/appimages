@@ -1,7 +1,7 @@
 +++
 title = "KOReader"
 description = "An ebook reader application"
-date = "2026-03-17 23:52:00"
+date = "2026-03-17 20:52:30"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["KOReader Community"]

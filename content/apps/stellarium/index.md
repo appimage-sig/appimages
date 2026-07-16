@@ -1,7 +1,7 @@
 +++
 title = "Stellarium"
 description = "Stellarium is a free open source planetarium for your computer."
-date = "2026-04-05 15:38:00"
+date = "2026-06-24 17:32:06"
 [taxonomies]
 categories = ["Science"]
 authors = ["Stellarium contributors"]

@@ -1,7 +1,7 @@
 +++
 title = "Delta Chat Desktop"
 description = "Email-based instant messaging for Desktop."
-date = "2026-04-15 14:15:00"
+date = "2026-06-22 11:35:17"
 [taxonomies]
 categories = ["Network"]
 authors = ["Delta Chat contributors"]

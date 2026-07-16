@@ -1,7 +1,7 @@
 +++
 title = "Agregore Browser"
 description = "A minimal web browser for the distributed web"
-date = "2026-04-24 22:06:00"
+date = "2026-04-24 19:11:03"
 [taxonomies]
 categories = ["Network"]
 authors = ["Mauve Signweaver"]

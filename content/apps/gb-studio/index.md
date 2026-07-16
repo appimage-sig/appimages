@@ -1,7 +1,7 @@
 +++
 title = "GB Studio"
 description = "A quick and easy to use drag and drop retro game creator for your favourite handheld video game system"
-date = "2026-02-24 21:33:00"
+date = "2026-06-22 12:47:36"
 [taxonomies]
 categories = ["Development"]
 authors = ["Chris Maltby"]

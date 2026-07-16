@@ -1,7 +1,7 @@
 +++
 title = "GoofCord"
 description = "Take control of your Discord experience with GoofCord – the highly configurable and privacy-focused Discord client"
-date = "2026-04-09 12:37:00"
+date = "2026-07-10 11:36:18"
 [taxonomies]
 categories = ["Network"]
 authors = ["Milkshift"]

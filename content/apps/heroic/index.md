@@ -1,7 +1,7 @@
 +++
 title = "Heroic Games Launcher"
 description = "A Native GOG, Amazon and Epic Games Launcher"
-date = "2026-02-26 22:58:00"
+date = "2026-05-15 23:26:18"
 [taxonomies]
 categories = ["Games"]
 authors = ["Heroic Games Launcher Authors"]

@@ -1,7 +1,7 @@
 +++
 title = "Extraterm"
 description = "The swiss army chainsaw of terminal emulators."
-date = "2025-07-02 19:15:00"
+date = "2026-05-10 12:39:32"
 [taxonomies]
 categories = ["System"]
 authors = ["Simon Edwards"]

@@ -1,7 +1,7 @@
 +++
 title = "Teams for Linux"
 description = "Unofficial Microsoft Teams for Linux client."
-date = "2026-05-29 22:31:00"
+date = "2026-05-29 16:46:29"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ismael Martinez"]

@@ -1,7 +1,7 @@
 +++
 title = "Altus"
 description = "Desktop client for WhatsApp Web with themes, notifications and multiple account support"
-date = "2026-06-06  23:46:00"
+date = "2026-05-06 20:47:02"
 [taxonomies]
 categories = ["Network"]
 authors = ["Aman Harwara"]

@@ -1,7 +1,7 @@
 +++
 title = "vifm"
 description = "File manager with curses interface"
-date = "2025-06-04 20:43:00"
+date = "2026-05-30 16:38:11"
 [taxonomies]
 categories = ["System"]
 authors = ["vifm Authors"]

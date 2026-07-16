@@ -1,7 +1,7 @@
 +++
 title = "Trezor"
 description = "Trezor desktop and web application for managing Trezor hardware wallet"
-date = "2026-03-27 22:29:00"
+date = "2026-06-09 21:49:15"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Trezor company"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/trezor/trezor-suite/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/trezor/trezor-suite/releases/download/v26.6.1/Trezor-Suite-26.6.1-linux-x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/trezor/trezor-suite/releases/download/v26.6.1/ rezor-Suite-26.6.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.6.1/Trezor-Suite-26.6.1-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.6.1/ rezor-Suite-26.6.1-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

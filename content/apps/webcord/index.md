@@ -1,7 +1,7 @@
 +++
 title = "WebCord"
 description = "A Discord and SpaceBar :electron:-based client implemented without Discord API."
-date = "2026-04-07 00:17:00"
+date = "2026-07-12 21:29:24"
 [taxonomies]
 categories = ["Network"]
 authors = ["SpacingBat3"]

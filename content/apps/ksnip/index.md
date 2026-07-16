@@ -1,7 +1,7 @@
 +++
 title = "ksnip"
 description = "ksnip the cross-platform screenshot and annotation tool"
-date = "2026-04-08 01:49:00"
+date = "2023-03-15 09:43:55"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Damir Porobić"]

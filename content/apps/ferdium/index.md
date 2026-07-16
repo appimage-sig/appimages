@@ -1,7 +1,7 @@
 +++
 title = "Ferdium"
 description = "All your services in one place, built by the community."
-date = "2026-04-16 15:53:00"
+date = "2026-04-18 21:38:48"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ferdium Team"]

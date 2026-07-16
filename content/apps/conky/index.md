@@ -1,7 +1,7 @@
 +++
 title = "Conky"
 description = "Light-weight system monitor for X, Wayland, and other things, too"
-date = "2026-03-05 15:44:00"
+date = "2026-06-19 01:29:26"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Brenden Matthews"]

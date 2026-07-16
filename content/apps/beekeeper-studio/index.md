@@ -1,7 +1,7 @@
 +++
 title = "Beekeeper Studio"
 description = "Beekeeper Studio is a cross-platform SQL editor and database manager"
-date = "2026-04-07 18:24:00"
+date = "2026-07-10 20:20:30"
 [taxonomies]
 categories = ["Development"]
 authors = ["Matthew Rathbone"]

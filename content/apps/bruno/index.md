@@ -1,7 +1,7 @@
 +++
 title = "Bruno"
 description = "Open-source IDE for exploring and testing APIs"
-date = "2026-01-07 23:05:00"
+date = "2026-07-13 14:42:52"
 [taxonomies]
 categories = ["Development"]
 authors = ["Bruno Authors"]

@@ -1,7 +1,7 @@
 +++
 title = "Arduino IDE"
 description = "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board"
-date = "2026-02-25 18:51:00"
+date = "2026-06-09 17:11:22"
 [taxonomies]
 categories = ["Development"]
 authors = ["Arduino"]

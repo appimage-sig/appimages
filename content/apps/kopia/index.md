@@ -1,7 +1,7 @@
 +++
 title = "KopiaUI"
 description = "Cross-platform backup tool"
-date = "2025-12-02 21:37:00"
+date = "2026-06-16 01:27:40"
 [taxonomies]
 categories = ["Network"]
 authors = ["Kopia Authors"]

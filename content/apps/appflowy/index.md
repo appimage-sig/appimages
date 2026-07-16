@@ -1,7 +1,7 @@
 +++
 title = "AppFlowy"
 description = "Open-source alternative to Notion. You are in charge of your data and customizations"
-date = "2026-01-12 11:18:00"
+date = "2026-06-23 13:51:31"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["AppFlowy"]

@@ -1,7 +1,7 @@
 +++
 title = "SimpleX Chat"
 description = "First messaging platform that has no user identifiers of any kind"
-date = "2025-12-10 23:12:00"
+date = "2026-06-22 16:38:49"
 [taxonomies]
 categories = ["Network"]
 authors = ["SimpleX Chat"]

@@ -1,7 +1,7 @@
 +++
 title = "Tiled"
 description = "Tiled is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones."
-date = "2025-03-25 15:33:00"
+date = "2026-05-27 13:10:45"
 [taxonomies]
 categories = ["Games"]
 authors = ["Tiled Authors"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/mapeditor/tiled/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-      <a href="https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_Linux_x86_64.AppImage">Download x86_64</a>
+      <a href="https://github.com/mapeditor/tiled/releases/download/v1.12.2/ iled-1.12.2_Linux_x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Notes"
 description = "Notes is an open source and cross-platform note-taking app that is both beautiful and powerful"
-date = "2024-10-01 15:59:00"
+date = "2024-10-01 12:56:58"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Ruby Mamistvalove"]

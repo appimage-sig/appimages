@@ -1,7 +1,7 @@
 +++
 title = "Cardo"
 description = "Cardo is a podcast client for desktop"
-date = "2025-10-19T10:12:12Z"
+date = "2025-10-19 10:12:12"
 [taxonomies]
 categories = ["Network"]
 authors = ["n0vella"]

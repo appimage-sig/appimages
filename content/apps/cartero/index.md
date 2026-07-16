@@ -1,7 +1,7 @@
 +++
 title = "Cartero"
 description = "Native, lightweight, multiplatform and free HTTP client that you can use to test your APIs"
-date = "2026-01-25 21:12:00"
+date = "2026-01-25 18:13:06"
 [taxonomies]
 categories = ["Development"]
 authors = ["the Cartero authors"]

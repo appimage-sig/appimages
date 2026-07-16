@@ -1,7 +1,7 @@
 +++
 title = "Tabby"
 description = "A terminal for a more modern age."
-date = "2025-07-02 19:15:00"
+date = "2026-05-17 10:16:13"
 [taxonomies]
 categories = ["System"]
 authors = ["Tabby Developers"]
