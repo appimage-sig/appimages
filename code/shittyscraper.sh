@@ -214,10 +214,12 @@ main() {
 
 		is_file_updated=0
 		
-		# Извлекаем текущую дату из front matter вида date = "2026-02-25 18:51:00"
-		current_file_date=$(grep -oE '^date = "[^"]+"' "$index_file" | cut -d'"' -f2)
+		# Исправленный поиск текущей даты (учитывает любые пробелы вокруг знака "=")
+		current_file_date=$(grep -E '^[[:space:]]*date[[:space:]]*=[[:space:]]*"[^"]+"' "$index_file" | head -n 1 | cut -d'"' -f2)
 
-		while IFS= read -r old_url; do
+		# Избавляемся от while loop с subshell. Читаем строки через итерацию по переменной.
+		# Заменяем переводы строк на пробелы для безопасного перебора в POSIX for-loop
+		for old_url in $old_urls; do
 			[ -z "$old_url" ] && continue
 
 			new_url=$(match_architecture "$old_url" "$all_assets")
@@ -250,15 +252,12 @@ main() {
 
 			# Если дата отсутствует или отличается от даты релиза — обновляем её
 			if [ $need_date_update -eq 1 ]; then
-				sed_in_place "s|^date = \".*\"|date = \"${asset_datetime}\"|" "$index_file"
+				# Регулярное выражение корректно обработает пробелы вокруг знака "="
+				sed_in_place "s|^[[:space:]]*date[[:space:]]*=[[:space:]]*\".*\"|date = \"${asset_datetime}\"|" "$index_file"
 				is_file_updated=1
-				# Обновляем переменную для случая, если в файле проверяются несколько ссылок
 				current_file_date="$asset_datetime"
 			fi
-
-		done <<EOF
-$old_urls
-EOF
+		done
 
 		if [ $is_file_updated -eq 1 ]; then
 			echo "✓ $app_name: данные обновлены (ссылки или дата релиза)"
