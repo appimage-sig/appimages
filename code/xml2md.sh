@@ -42,22 +42,22 @@ Translate: <$translate>
 Report the bug: <$bugtracker>
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
-      <a href="">Download x86_64</a>
+<button class="c-button c-button--primary c-button--large"
+    <a href="">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
     <a href="">Download arm64</a>
 </button>
-<button class="c-button c-button--primary c-button--large"  
-      <a href="">Download x86</a>
+<button class="c-button c-button--primary c-button--large"
+    <a href="">Download x86</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large"
     <a href="">Download armv7l</a>
 </button>
-<button class="c-button c-button--primary c-button--large"  
-      <a href="">Download riscv64</a>
+<button class="c-button c-button--primary c-button--large"
+    <a href="">Download riscv64</a>
 </button>
-    <button class="c-button c-button--primary c-button--large"
-        <a href="">Download ppc64el</a>
+<button class="c-button c-button--primary c-button--large"
+    <a href="">Download ppc64el</a>
 </button>
 </div>" >> ~/apps-for-linux.github.io/content/apps/$title.md
