@@ -213,36 +213,55 @@ main() {
 		fi
 
 		is_file_updated=0
-		asset_datetime=""
+		
+		# Извлекаем текущую дату из front matter вида date = "2026-02-25 18:51:00"
+		current_file_date=$(grep -oE '^date = "[^"]+"' "$index_file" | cut -d'"' -f2)
 
 		while IFS= read -r old_url; do
 			[ -z "$old_url" ] && continue
 
 			new_url=$(match_architecture "$old_url" "$all_assets")
 
-			if [ -z "$new_url" ] || [ "$old_url" = "$new_url" ]; then
+			if [ -z "$new_url" ]; then
 				continue
 			fi
 
-			old_escaped=$(escape_sed "$old_url")
-			new_escaped=$(escape_sed "$new_url")
-
-			sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"
-			is_file_updated=1
-			
-			# Извлекаем дату конкретно для этого нового ассета
+			# Получаем актуальную дату релиза для выбранного ассета из API
 			asset_datetime=$(printf '%s\n' "$all_assets" | grep -F "$new_url" | cut -d'|' -f2 | head -n 1)
+
+			# Флаг необходимости обновления даты
+			need_date_update=0
+			if [ -n "$asset_datetime" ] && [ "$current_file_date" != "$asset_datetime" ]; then
+				need_date_update=1
+			fi
+
+			# Если и ссылка совпадает, и дата верна — ничего не делаем
+			if [ "$old_url" = "$new_url" ] && [ $need_date_update -eq 0 ]; then
+				continue
+			fi
+
+			# Если ссылка изменилась — обновляем её в файле
+			if [ "$old_url" != "$new_url" ]; then
+				old_escaped=$(escape_sed "$old_url")
+				new_escaped=$(escape_sed "$new_url")
+				sed_in_place "s|$old_escaped|$new_escaped|g" "$index_file"
+				is_file_updated=1
+			fi
+
+			# Если дата отсутствует или отличается от даты релиза — обновляем её
+			if [ $need_date_update -eq 1 ]; then
+				sed_in_place "s|^date = \".*\"|date = \"${asset_datetime}\"|" "$index_file"
+				is_file_updated=1
+				# Обновляем переменную для случая, если в файле проверяются несколько ссылок
+				current_file_date="$asset_datetime"
+			fi
+
 		done <<EOF
 $old_urls
 EOF
 
 		if [ $is_file_updated -eq 1 ]; then
-			# Если дата нашлась, обновляем строку вида date = "..." в index.md
-			if [ -n "$asset_datetime" ]; then
-				sed_in_place "s|^date = \".*\"|date = \"${asset_datetime}\"|" "$index_file"
-			fi
-
-			echo "✓ $app_name: ссылки и дата релиза обновлены"
+			echo "✓ $app_name: данные обновлены (ссылки или дата релиза)"
 			updated_count=$((updated_count + 1))
 		else
 			skipped_count=$((skipped_count + 1))
