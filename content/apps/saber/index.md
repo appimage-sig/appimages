@@ -26,7 +26,7 @@ Report the bug: <https://github.com/saber-notes/saber/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/saber-notes/saber/releases/download/v1.35.0/Saber-1.35.0-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/saber-notes/saber/releases/download/v1.35.0/Saber-1.35.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/saber-notes/saber/releases/download/v1.35.0/Saber-1.35.0-arm64.AppImage">Download arm64</a>

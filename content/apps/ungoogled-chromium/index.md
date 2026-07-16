@@ -1,7 +1,7 @@
 +++
 title = "ungoogled-chromium"
 description = "ungoogled-chromium is Google Chromium, sans dependency on Google web services."
-date = "2026-07-11 05:19:05"
+date = "2026-07-16 19:00:05"
 [taxonomies]
 categories = ["Network"]
 authors = ["The ungoogled-chromium Authors"]
@@ -21,9 +21,9 @@ Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portab
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/150.0.7871.114-1/ungoogled-chromium-150.0.7871.114-1-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/150.0.7871.124-1/ungoogled-chromium-150.0.7871.124-1-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/150.0.7871.114-1/ungoogled-chromium-150.0.7871.114-1-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/150.0.7871.124-1/ungoogled-chromium-150.0.7871.124-1-arm64.AppImage">Download arm64</a>
 </button>
 </div>

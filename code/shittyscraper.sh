@@ -93,8 +93,8 @@ match_architecture() {
 
 	if printf '%s' "$old_url" | grep -qiE "(arm64|aarch64)"; then
 		arch="arm64"
-	elif printf '%s' "$old_url" | grep -qiE "(armv7|armhf)"; then
-		arch="armv7"
+	elif printf '%s' "$old_url" | grep -qiE "(armv7l|armhf)"; then
+		arch="armv7l"
 	elif printf '%s' "$old_url" | grep -qiE "(x86_64|x64|amd64)"; then
 		arch="x86_64"
 	elif printf '%s' "$old_url" | grep -qiE "(i686|i386)"; then
@@ -126,7 +126,7 @@ match_architecture() {
 			return 0
 			;;
 		x86_64)
-			printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7|armhf)" | grep -iE "(x86_64|x64|amd64)" | head -1
+			printf '%s\n' "$all_new_urls" | grep -vE "(arm64|aarch64|armv7l|armhf)" | grep -iE "(x86_64|x64|amd64)" | head -1
 			return 0
 			;;
 		x86)

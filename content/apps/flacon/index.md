@@ -7,7 +7,7 @@ categories = ["AudioVideo"]
 authors = ["Flacon team"]
 tags = ["CD ripper"]
 frameworks = ["Qt5"]
-architectures = ["x86_64"]
+architectures = ["x86_64","arm64"]
 license = ["LGPL-2.1"]
 +++
 
@@ -26,6 +26,9 @@ Report the bug: <https://github.com/flacon/flacon/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-aarch64.AppImage">Download x86_64</a>
+    <a href="https://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" 
+    <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

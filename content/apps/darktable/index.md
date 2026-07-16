@@ -7,7 +7,7 @@ categories = ["Graphics"]
 authors = ["the darktable team"]
 tags = ["RAW processing", "Image editor"]
 frameworks = ["GTK+3"]
-architectures = ["x86_64"]
+architectures = ["x86_64","arm64"]
 license = ["GPL-3.0"]
 +++
 
@@ -25,6 +25,9 @@ Report the bug: <https://github.com/darktable-org/darktable//issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-aarch64.AppImage">Download x86_64</a>
+    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" 
+    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

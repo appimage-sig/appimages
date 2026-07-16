@@ -7,7 +7,7 @@ categories = ["Network"]
 authors = ["c0re100"]
 tags = ["Torrent client", "Download manager"]
 frameworks = ["Qt6"]
-architectures = ["x86_64"]
+architectures = ["x86_64","arm64"]
 license = ["GPL-2.0"]
 +++
 
@@ -21,6 +21,9 @@ Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download x86_64</a>
+    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" 
+    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.1.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download arm64</a>
 </button>
 </div>
