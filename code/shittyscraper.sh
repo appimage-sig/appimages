@@ -16,7 +16,7 @@ sed_in_place() {
 get_all_github_assets() {
 	repo_owner="$1"
 	repo_name="$2"
-	api_url="https://github.com{repo_owner}/${repo_name}/releases/latest"
+	api_url="https://api.github.com/repos/${repo_owner}/${repo_name}/releases/latest"
 
 	auth_header=""
 	if [ -n "$GITHUB_TOKEN" ]; then
