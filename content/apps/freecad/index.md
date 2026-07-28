@@ -1,7 +1,7 @@
 +++
 title = "FreeCAD"
 description = "FreeCAD is a general purpose Open Source 3D CAD/MCAD/CAx/CAE/PLM modeler"
-date = "2026-04-15 00:20:16"
+date = "2026-07-25 06:13:55"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["The FreeCAD Team"]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/FreeCAD/FreeCAD/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage">Download x86_64</a>
+    <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.3/FreeCAD_1.1.3-Linux-aarch64-py311.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.1/FreeCAD_1.1.1-Linux-aarch64-py311.AppImage">Download arm64</a>
+    <a href="https://github.com/FreeCAD/FreeCAD/releases/download/1.1.3/FreeCAD_1.1.3-Linux-aarch64-py311.AppImage">Download arm64</a>
 </button>
 </div>

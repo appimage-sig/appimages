@@ -1,7 +1,7 @@
 +++
 title = "Delta Chat Desktop"
 description = "Email-based instant messaging for Desktop."
-date = "2026-06-22 11:35:17"
+date = "2026-07-26 13:20:56"
 [taxonomies]
 categories = ["Network"]
 authors = ["Delta Chat contributors"]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/deltachat/deltachat-desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.53.0/DeltaChat-2.53.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.57.0/DeltaChat-2.57.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.53.0/DeltaChat-2.53.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.57.0/DeltaChat-2.57.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "DuckStation"
 description = "Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64"
-date = "2026-07-08 01:59:26"
+date = "2026-07-25 03:32:38"
 [taxonomies]
 categories = ["Games"]
 authors = ["Connor McLaughlin"]
@@ -24,7 +24,7 @@ Translate: <https://github.com/stenzek/duckstation/wiki/Translating-to-new-langu
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"  
-    <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64.AppImage">Download x86_64</a>
+    <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" Download x86_64 SSE2" " 
     <a href="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage">Download x86_64 SSE2</a>

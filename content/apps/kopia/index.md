@@ -1,7 +1,7 @@
 +++
 title = "KopiaUI"
 description = "Cross-platform backup tool"
-date = "2026-06-16 01:27:40"
+date = "2026-06-16 01:27:39"
 [taxonomies]
 categories = ["Network"]
 authors = ["Kopia Authors"]
@@ -22,7 +22,7 @@ Report the bug: <https://github.com/kopia/kopia/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
     <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage">Download arm64</a>

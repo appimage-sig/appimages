@@ -1,7 +1,7 @@
 +++
 title = "Bruno"
 description = "Open-source IDE for exploring and testing APIs"
-date = "2026-07-13 14:42:52"
+date = "2026-07-23 17:24:00"
 [taxonomies]
 categories = ["Development"]
 authors = ["Bruno Authors"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/usebruno/bruno/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/usebruno/bruno/releases/download/v3.5.2/bruno_3.5.2_x86_64_linux.AppImage">Download x86_64</a>
+    <a href="https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_x86_64_linux.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/usebruno/bruno/releases/download/v3.5.2/bruno_3.5.2_arm64_linux.AppImage">Download arm64</a>
+    <a href="https://github.com/usebruno/bruno/releases/download/v4.0.0/bruno_4.0.0_arm64_linux.AppImage">Download arm64</a>
 </button>
 </div>

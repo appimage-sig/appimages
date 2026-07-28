@@ -1,7 +1,7 @@
 +++
 title = "OneKeePass"
 description = "OneKeePass is a cross-platform, open source and secure password manager"
-date = "2026-07-03 15:17:29"
+date = "2026-07-17 17:52:40"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["jeyasankar"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/OneKeePass/desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/OneKeePass/desktop/releases/download/v0.23.0/OneKeePass_0.23.0_Linux_x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/OneKeePass/desktop/releases/download/v0.24.0/OneKeePass_0.24.0_Linux_x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

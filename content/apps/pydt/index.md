@@ -1,7 +1,7 @@
 +++
 title = "PYDT"
 description = "Civilization 5 / 6 / Beyond Earth / Old World Hotseat Multiplayer Management."
-date = "2026-07-14 10:43:01"
+date = "2026-07-21 01:55:59"
 [taxonomies]
 categories = ["Games"]
 authors = ["Michael Rosack"]
@@ -22,6 +22,6 @@ Report the bug: <https://github.com/pydt/client/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/pydt/client/releases/download/v2.2.1/playyourdamnturn-linux-2.2.1-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/pydt/client/releases/download/v2.2.3/playyourdamnturn-linux-2.2.3-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

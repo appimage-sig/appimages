@@ -1,7 +1,7 @@
 +++
 title = "ente Photos"
 description = "End-to-end encryption for photos and more."
-date = "2026-04-01 10:46:00"
+date = "2026-07-06 12:06:40"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ente"]
@@ -28,6 +28,6 @@ Report the bug: <https://github.com/ente-io/ente/issues>
     <a href="https://github.com/ente/photos-desktop/releases/download/v1.7.26/ente-1.7.26-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/ente-io/photos-desktop/releases/download/v1.7.24/ente-1.7.24-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/ente/photos-desktop/releases/download/v1.7.26/ente-1.7.26-arm64.AppImage">Download arm64</a>
 </button>
 </div>

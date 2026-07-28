@@ -1,7 +1,7 @@
 +++
 title = "Altus"
 description = "Desktop client for WhatsApp Web with themes, notifications and multiple account support"
-date = "2026-05-06 20:47:02"
+date = "2026-07-18 15:05:49"
 [taxonomies]
 categories = ["Network"]
 authors = ["Aman Harwara"]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/amanharwara/altus/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"  
-    <a href="https://github.com/amanharwara/altus/releases/download/5.8.0/Altus-5.8.0.AppImage">Download x86_64</a>
+    <a href="https://github.com/amanharwara/altus/releases/download/5.8.1/Altus-5.8.1.AppImage">Download x86_64</a>
 </button>
 </div>

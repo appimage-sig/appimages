@@ -1,7 +1,7 @@
 +++
 title = "Flacon"
 description = "Extracts audio tracks from an audio CD image to separate tracks."
-date = "2026-05-29 15:56:25"
+date = "2026-07-26 14:08:50"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Flacon team"]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/flacon/flacon/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/flacon/flacon/releases/download/v13.0.1/Flacon-13.0.1-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

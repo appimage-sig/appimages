@@ -1,7 +1,7 @@
 +++
 title = "Blockbench"
 description = "Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures"
-date = "2026-04-25 20:28:30"
+date = "2026-07-25 12:10:04"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Jannis Petersen"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/JannisX11/blockbench/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/JannisX11/blockbench/releases/download/v5.1.4/Blockbench_5.1.4.AppImage">Download x86_64</a>
+    <a href="https://github.com/JannisX11/blockbench/releases/download/v5.1.6/Blockbench_5.1.6.AppImage">Download x86_64</a>
 </button>
 </div>
