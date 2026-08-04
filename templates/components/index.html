@@ -14,7 +14,11 @@
     {% elif block.block == "blog-section" %}
     {{ blog_section::blog_section(data = block) }}
     {% elif block.block == "content" %}
-    {{ content::content(content_html = block.content_html) }}
+    {{ content::content(content_html = block.content_html |default(value=""), content_md = block.content_md | default(value="")) }}
+    {% elif block.block == "hero" %}
+    {{ hero::hero(data = block) }}
+    {% elif block.block == "newsletter" %}
+    {{ newsletter::newsletter(config = block) }}
     {% elif block.block == "page-heading" %}
     {{ page_heading::page_heading(taxonomies = block.taxonomies | default(value=false), title = block.title, description = block.description | default(value=false)) }}
     {% elif block.block == "page-image" %}

@@ -36,12 +36,9 @@
       </p>
       {% endif %}
 
-      {% set author_image = data.extra.author_image | default(value=config.extra.author_image) %}
-      {% if data.authors | length > 0 %}
-      {% set author_name = data.authors | join(sep=", ") %}
-      {% else %}
-      {% set author_name = config.author %}
-      {% endif %}
+			{%- if page.authors -%}
+				<span>{% include "partials/authors.html" -%}</span>
+					{%- endif -%}
       <div class="{{c}}__meta">
         <div class="{{c}}__author-image">
           <img loading="lazy" src="{{ get_url(path=author_image) }}" alt="{{ author_name }}">

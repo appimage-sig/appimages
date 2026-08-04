@@ -1,5 +1,4 @@
-// Take from Zola repository:
-// https://github.com/getzola/zola/blob/master/docs/static/search.js
+// Based on https://github.com/getzola/zola/blob/1ac1231de1e342bbaf4d7a51a8a9a40ea152e246/docs/static/search.js
 function debounce(func, wait) {
 	var timeout;
 
@@ -60,10 +59,10 @@ function makeTeaser(body, terms) {
 			}
 
 			index += word.length;
-			index += 1; // ' ' or '.' if last word in sentence
+			index += 1;  // ' ' or '.' if last word in sentence
 		}
 
-		index += 1; // because we split at a two-char boundary '. '
+		index += 1;  // because we split at a two-char boundary '. '
 	}
 
 	if (weighted.length === 0) {
@@ -108,15 +107,15 @@ function makeTeaser(body, terms) {
 			startIndex = word[2];
 		}
 
-		// add <em/> around search terms
+		// add <strong> around search terms
 		if (word[1] === TERM_WEIGHT) {
-			teaser.push("<b>");
+			teaser.push("<strong>");
 		}
 		startIndex = word[2] + word[0].length;
 		teaser.push(body.substring(word[2], startIndex));
 
 		if (word[1] === TERM_WEIGHT) {
-			teaser.push("</b>");
+			teaser.push("</strong>");
 		}
 	}
 	teaser.push("…");
@@ -124,18 +123,16 @@ function makeTeaser(body, terms) {
 }
 
 function formatSearchResultItem(item, terms) {
-	return (
-		'<div class="search-results__item">' +
-		`<a href="${item.ref}">${item.doc.title}</a>` +
-		`<div>${makeTeaser(item.doc.body, terms)}</div>` +
-		"</div>"
-	);
+	return '<div class="item">'
+		+ `<a href="${item.ref}">${item.doc.title}</a>`
+		+ `<span>${makeTeaser(item.doc.body, terms)}</span>`
+		+ '</div>';
 }
 
 function initSearch() {
-	var $searchInput = document.getElementById("search");
-	var $searchResults = document.querySelector(".search-results");
-	var $searchResultsItems = document.querySelector(".search-results__items");
+	var searchBar = document.getElementById("search-bar");
+	var searchContainer = document.getElementById("search-container");
+	var searchResults = document.getElementById("search-results");
 	var MAX_ITEMS = 10;
 
 	var options = {
@@ -143,119 +140,67 @@ function initSearch() {
 		fields: {
 			title: { boost: 2 },
 			body: { boost: 1 },
-		},
+		}
 	};
 	var currentTerm = "";
 	var index;
 
-	const initIndex = function () {
+	var initIndex = async function () {
 		if (index === undefined) {
-			// Get the base path by looking for the first path segment
-			const pathParts = window.location.pathname.split("/");
-			const basePath = pathParts[1] ? `/${pathParts[1]}` : "";
-			const indexPath = `${basePath}/search_index.en.json`;
-
-			// Try fetching the search index file from the base path
-			// and if that fails, try fetching it from the root path
-			index = fetch(indexPath)
-				.then((response) => {
-					if (!response.ok && response.status === 404) {
-						// If base path fails, try root path
-						return fetch("/search_index.en.json");
+			let searchIndex = document.getElementById("search-index").textContent;
+			index = fetch(searchIndex)
+				.then(
+					async function (response) {
+						return await elasticlunr.Index.load(await response.json());
 					}
-					return response;
-				})
-				.then((response) => {
-					if (!response.ok && response.status === 404) {
-						// If both paths fail
-						console.warn(
-							"Search index not found at either the base or root path.",
-						);
-						return null;
-					}
-					return response.json();
-				})
-				.then((data) => {
-					if (data) {
-						return elasticlunr.Index.load(data);
-					}
-					return null;
-				})
-				.catch((error) => {
-					console.error("Error loading search index:", error);
-					throw error;
-				});
+				);
+		}
+		let res = await index;
+		return res;
+	}
+
+	searchBar.addEventListener("keyup", debounce(async function () {
+		var term = searchBar.value.trim();
+		if (term === currentTerm) {
+			return;
+		}
+		searchResults.style.display = term === "" ? "none" : "flex";
+		searchResults.innerHTML = "";
+		currentTerm = term;
+		if (term === "") {
+			return;
 		}
 
-		return index;
-	};
+		var results = (await initIndex()).search(term, options);
+		if (results.length === 0) {
+			searchResults.style.display = "none";
+			return;
+		}
 
-	$searchInput.addEventListener(
-		"keyup",
-		debounce(async function () {
-			var term = $searchInput.value.trim();
-			if (term === currentTerm) {
-				return;
-			}
-			$searchResults.style.display = term === "" ? "none" : "block";
-			$searchResultsItems.innerHTML = "";
-			currentTerm = term;
-			if (term === "") {
-				return;
-			}
+		for (var i = 0; i < Math.min(results.length, MAX_ITEMS); i++) {
+			searchResults.innerHTML += formatSearchResultItem(results[i], term.split(" "));
+		}
+	}, 150));
 
-			var results = (await initIndex()).search(term, options);
-			if (results.length === 0) {
-				$searchResults.style.display = "none";
-				return;
-			}
-
-			for (var i = 0; i < Math.min(results.length, MAX_ITEMS); i++) {
-				var item = document.createElement("li");
-				item.innerHTML = formatSearchResultItem(results[i], term.split(" "));
-				$searchResultsItems.appendChild(item);
-			}
-		}, 150),
-	);
-
-	// exit search on ESC key and move cursor out of search results
-	document.addEventListener("keydown", function (e) {
-		if (e.key === "Escape") {
-			$searchResults.style.display = "none";
-			// clear search query to go back to placeholder
-			$searchInput.value = "";
-			$searchInput.blur();
+	document.addEventListener("keydown", function (event) {
+		if (event.key === "/") {
+			event.preventDefault();
+			toggleSearch();
 		}
 	});
 
-	// event listener for `/` to move cursor to search input
-	document.addEventListener("keydown", function (e) {
-		if (e.key === "/") {
-			// don't have input be `/`
-			e.preventDefault();
-			$searchInput.focus();
-		}
-	});
-
-	// on enter event immediately display results
-	$searchInput.addEventListener("keydown", function (e) {
-		if (e.key === "Enter") {
-			$searchResults.style.display = "block";
-		}
-	});
-
-	window.addEventListener("click", function (e) {
-		if (
-			$searchResults.style.display == "block" &&
-			!$searchResults.contains(e.target)
-		) {
-			$searchResults.style.display = "none";
-		}
-	});
+	document.getElementById("search-toggle").addEventListener("click", toggleSearch);
 }
 
-if (
-	document.readyState === "complete" ||
+function toggleSearch() {
+	var searchContainer = document.getElementById("search-container");
+	var searchBar = document.getElementById("search-bar");
+	searchContainer.classList.toggle("active");
+	searchBar.toggleAttribute("disabled");
+	searchBar.focus();
+}
+
+if (document.readyState === "complete" ||
 	(document.readyState !== "loading" && !document.documentElement.doScroll)
 ) {
 	initSearch();
