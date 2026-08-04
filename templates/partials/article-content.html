@@ -11,6 +11,19 @@
 
     <div class="article__content">
 
+		  {%- if page.authors -%}
+			  <p>
+				  <small>
+					  {%- if page.authors -%}
+						  <span>{% include "partials/authors.html" -%}</span>
+						  {%- if config.extra.show_reading_time -%}
+							  <span> {{ config.extra.separator | default(value="•") }} </span>
+						  {%- endif -%}
+					  {%- endif -%}
+				  </small>
+			  </p>
+		  {%- endif -%}
+
       {% if page.taxonomies.tags %}
       <div class="article-tags__box">
         {% for tag in page.taxonomies.tags %}
