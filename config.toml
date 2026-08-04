@@ -2,6 +2,7 @@
 base_url = "https://appimage-sig.github.io/appimages"
 
 title = "Appimage Catalog for Linux users"
+author = "DrSheppard01"
 description = "AppImage catalog for Linux users"
 
 # Whether to automatically compile all Sass files in the sass directory

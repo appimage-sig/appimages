@@ -19,7 +19,7 @@
           {% if data.show_posts %}
           <div class="row">
             {% set section = get_section(path="apps/_index.md") %}
-            {% for i in range(end=3) %}
+            {% for i in range(end=9) %}
             {% if i < section.pages | length %}
             {% set post = section.pages | nth(n=i) %}
               {{ blog_card::blog_card(data = post) }}
