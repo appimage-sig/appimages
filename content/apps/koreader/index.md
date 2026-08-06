@@ -1,7 +1,7 @@
 +++
 title = "KOReader"
 description = "An ebook reader application"
-date = "2026-07-26 21:06:17"
+date = "2026-08-01 11:09:26"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["KOReader Community"]
@@ -24,12 +24,12 @@ Report the bug: <https://github.com/koreader/koreader/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07/koreader-v2026.07-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07/koreader-v2026.07-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage">Download arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large"  
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07/koreader-v2026.07-aarch64.AppImage">Download armv7l</a>
+    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage">Download armv7l</a>
 </button>
 </div>

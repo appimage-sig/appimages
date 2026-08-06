@@ -1,7 +1,7 @@
 +++
 title = "RPCS3"
 description = "Free and Open-source PlayStation 3 emulator/debugger"
-date = "2026-07-28 22:32:20"
+date = "2026-08-05 12:28:35"
 [taxonomies]
 categories = ["Games"]
 authors = ["RPCS3 Authors"]
@@ -22,6 +22,6 @@ Report the bug: <https://github.com/RPCS3/rpcs3/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-cf9133abedd619efb16715f38a0efe1f92fb92b6/rpcs3-v0.0.41-19652-cf9133ab_linux64.AppImage">Download x86_64</a>
+    <a href="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-3d587726a23f514be0e7c3ac43e2db0cf2fe931a/rpcs3-v0.0.42-19699-3d587726_linux64.AppImage">Download x86_64</a>
 </button>
 </div>

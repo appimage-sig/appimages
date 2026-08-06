@@ -1,7 +1,7 @@
 +++
 title = "Nuclear"
 description = "Streaming music player that finds free music for you"
-date = "2026-07-20 13:38:44"
+date = "2026-08-05 00:35:25"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["nukeop"]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/nukeop/nuclear/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/nukeop/nuclear/releases/download/player%401.43.2/Nuclear_1.43.2_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/nukeop/nuclear/releases/download/player%401.45.1/Nuclear_1.45.1_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

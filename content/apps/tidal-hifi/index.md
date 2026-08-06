@@ -1,7 +1,7 @@
 +++
 title = "Tidal-Hifi"
 description = "The web version of TIDAL running in electron with Hi-Fi (High & Max) support thanks to widevine."
-date = "2026-07-20 19:45:25"
+date = "2026-08-03 13:51:48"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Rick van Lieshout"]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/8.0.0/tidal-hifi-8.0.0.AppImage">Download x86_64</a>
+    <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/8.1.1/tidal-hifi-8.1.1.AppImage">Download x86_64</a>
 </button>
 </div>

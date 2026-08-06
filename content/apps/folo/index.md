@@ -1,7 +1,7 @@
 +++
 title = "Folo"
 description = "Folo is the AI RSS Reader"
-date = "2026-07-13 05:23:47"
+date = "2026-07-31 10:29:50"
 [taxonomies]
 categories = ["Network"]
 authors = ["Follow Team"]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/RSSNext/Folo/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/RSSNext/Folo/releases/download/desktop/v1.11.0/Folo-1.11.0-linux-x64.AppImage">Download x86_64</a>
+    <a href="https://github.com/RSSNext/Folo/releases/download/desktop/v1.12.0/Folo-1.12.0-linux-x64.AppImage">Download x86_64</a>
 </button>
 </div>

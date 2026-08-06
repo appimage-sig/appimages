@@ -1,7 +1,7 @@
 +++
 title = "Jitsi Meet"
 description = "Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application."
-date = "2026-07-11 10:09:37"
+date = "2026-08-04 20:55:49"
 [taxonomies]
 categories = ["Network"]
 authors = ["Jitsi team"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/jitsi/jitsi-meet-electron/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.7.0/jitsi-meet-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.8.0/jitsi-meet-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.7.0/jitsi-meet-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.8.0/jitsi-meet-arm64.AppImage">Download arm64</a>
 </button>
 </div>

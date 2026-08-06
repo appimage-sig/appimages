@@ -1,7 +1,7 @@
 +++
 title = "Passy"
 description = "Offline password manager with cross-platform synchronization"
-date = "2026-03-24 00:18:44"
+date = "2026-08-05 21:22:07"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["GlitterWare"]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/GlitterWare/Passy/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.1/Passy-v1.10.1-aarch64.AppImage">Download x86_64</a>
+    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.1/Passy-v1.10.1-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

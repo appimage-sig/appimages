@@ -1,7 +1,7 @@
 +++
 title = "Bforartists"
 description = "Bforartists is a fork of the popular 3D software Blender, with the goal to improve the UI"
-date = "2026-06-01 23:39:27"
+date = "2026-07-29 02:33:41"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Reiner Prokein"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/Bforartists/Bforartists/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.1.2/Bforartists-5.1.2-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.2.0/Bforartists-5.2.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
