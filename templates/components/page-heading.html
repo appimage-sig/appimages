@@ -1,10 +1,9 @@
-{% macro page_heading(title, description=false, taxonomies=false) %}
+{% component ui.page_heading(title: string, description: string, taxonomies: boolean) %}
 {% set c = 'c-page-heading' %}
 <div class="container">
-
   <h1 class="{{c}}__title">{{ title }}</h1>
   {% if description %}
-  <p class="{{c}}__description">{{ description }}</p>
+    <p class="{{c}}__description">{{ description }}</p>
   {% endif %}
 </div>
-{% endmacro page_heading %}
+{% endcomponent ui.page_heading %}

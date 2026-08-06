@@ -1,8 +1,8 @@
-{% macro tags_list(terms) %}
+{% component ui.tags_list(terms:array) %}
 {% set c = 'c-blog-card' %}
 <div class="{{c}}__tags-box">
   {% for term in terms %}
   <a href="{{ term.permalink }}" class="{{c}}__tag">{{ term.name }}</a>
   {% endfor %}
 </div>
-{% endmacro tags_list %}
+{% endcomponent ui.tags_list %}

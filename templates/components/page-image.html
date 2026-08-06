@@ -1,4 +1,4 @@
-{% macro page_image(image, image_alt) %}
+{% component ui.page_image(image:string, image_alt:string) %}
 {% set c = 'c-page-image' %}
 <div class="container">
   <div class="row">
@@ -8,4 +8,4 @@
       </div>
     </div>
   </div>
-{% endmacro page_image %}
+{% endcomponent ui.page_image %}

@@ -1,7 +1,7 @@
-{% macro content(content_html) %}
+{% component ui.content(content_html: string) %}
 <div class="container">
   <div class="page animate">
     {{ content_html | safe }}
   </div>
 </div>
-{% endmacro content %}
+{% endcomponent content %}

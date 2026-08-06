@@ -1,5 +1,4 @@
-{% import "components/blog-card.html" as blog_card %}
-{% macro blog_section(data) %}
+{% component ui.blog_section(data: object) %}
 {% set c = 'c-blog-card' %}
 <!-- begin blog -->
 <section class="section blog">
@@ -19,11 +18,9 @@
           {% if data.show_posts %}
           <div class="row">
             {% set section = get_section(path="apps/_index.md") %}
-            {% for i in range(end=9) %}
-            {% if i < section.pages | length %}
-            {% set post = section.pages | nth(n=i) %}
-              {{ blog_card::blog_card(data = post) }}
-            {% endif %}
+            {% set posts = section.pages[0:9] %}
+            {% for post in posts %}
+              {{<ui.blog_card data=post />}}
             {% endfor %}
           </div>
           {% endif %}
@@ -34,4 +31,4 @@
   </div>
 </section>
 <!-- end blog -->
-{% endmacro blog_section %}
+{% endcomponent ui.blog_section %}
