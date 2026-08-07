@@ -1,3 +1,4 @@
+{% import "components/authors.html" as authors %}
 {% macro blog_card(data) %}
 {% set c = 'c-blog-card' %}
 <div class="{{c}} col col-4 col-d-6 col-t-12">
@@ -36,10 +37,11 @@
       </p>
       {% endif %}
 
-			{%- if page.authors -%}
-				<span>{% include "partials/authors.html" -%}</span>
-					{%- endif -%}
       <div class="{{c}}__meta">
+        <div class="{{c}}__info">
+            <div class="{{c}}__author-name">
+              {{ authors::author_info(authors=data.authors, config=config, with_label=false) }}
+            </div>
           {% set formatted_date_long = data.date | date(format="%Y-%m-%d %H:%M:%S %z") %}
           {% set formatted_date_short = data.date | date(format=config.extra.date_format) %}
           <span class="{{c}}__date"><time datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time></span>
