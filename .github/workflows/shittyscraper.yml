@@ -39,4 +39,4 @@ jobs:
           branch: ${{ github.ref }}
       
       - name: Build site
-        uses: ./.github/workflows/deploy.yml
+        uses: $/.github/workflows/{filename}
