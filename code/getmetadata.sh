@@ -51,6 +51,7 @@ curl -sL https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/fla
 curl -sL https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in -o ./content/apps/gimp/org.gimp.GIMP.metainfo.xml &
 curl -sL https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads -o ./content/apps/glaxnimate/org.kde.glaxnimate.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml  -o ./content/apps/gitfourchette/org.gitfourchette.gitfourchette.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/io.github.benjamimgois.goverlay.metainfo.xml &
 curl -sL https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in?ref_type=heads -o ./content/apps/inkscape/org.inkscape.Inkscape.metainfo.xml &
 curl -sL https://invent.kde.org/multimedia/kdenlive/-/raw/master/data/org.kde.kdenlive.appdata.xml -o ./content/apps/kdenlive/org.kde.kdenlive.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/keepassxreboot/keepassxc/refs/heads/develop/share/linux/org.keepassxc.KeePassXC.appdata.xml -o ./content/apps/keepassxc/org.keepassxc.KeePassXC.metainfo.xml &
