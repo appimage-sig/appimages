@@ -3,6 +3,7 @@
   <!--Created with jdAppStreamEdit 7.1-->
   <id>dev.vencord.Vesktop</id>
   <name>Vesktop</name>
+  <icon type="stock">dev.vencord.Vesktop</icon>
   <summary>Customizable Discord client</summary>
   <developer_name>Vencord Contributors</developer_name>
   <launchable type="desktop-id">dev.vencord.Vesktop.desktop</launchable>
@@ -28,6 +29,35 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.7" date="2026-08-18" type="stable">
+      <url>https://github.com/Vencord/Vesktop/releases/tag/v1.6.7</url>
+      <description>
+        <p>Hotfix for 1.6.6</p>
+        <ul>
+          <li>Fixes Updater being broken</li>
+          <li>Fixes Tray Icon being broken</li>
+          <li>Fixes "C++ Library is too old" error</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.6.6" date="2026-08-17" type="stable">
+      <url>https://github.com/Vencord/Vesktop/releases/tag/v1.6.6</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Streamer Mode: fixed constantly re-enabling itself if OBS is open &amp; fixed "Automatically enable Streamer Mode" toggle not showing in Discord appearance settings</li>
+          <li>Added a setting to work around Voice Chat not working when using VPNs like Tailscale</li>
+          <li>Fixed various issues related to screenshare with system audio on Linux</li>
+          <li>Upgraded to Electron43 which brings many fixes and improvements</li>
+          <li>Fixed an issue where the auto-start toggle would not accurately reflect its actual state on Windows</li>
+          <li>Added a --repair command line flag to quickly update Vencord to the latest version</li>
+        </ul>
+        <ul>
+          <li>On Linux, when using the custom Discord titlebar, Vesktop will now have rounded corners &amp; shadow by default. You can disable this behaviour in Vesktop settings</li>
+          <li>On Linux, Vesktop will now show up as "Vesktop" instead of as "Chromium" in Audio mixers</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.5" date="2026-02-12" type="stable">
       <url>https://github.com/Vencord/Vesktop/releases/tag/v1.6.5</url>
       <description>
