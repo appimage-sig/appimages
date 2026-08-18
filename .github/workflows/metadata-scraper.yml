@@ -32,6 +32,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-      
-      - name: Build site
-        uses:  $/.github/workflows/deploy.yml@c88f0022d7253160b16686a917b42fdf916cab50
