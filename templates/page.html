@@ -31,7 +31,7 @@
 
             <div class="post__meta-bottom">
               <div class="post__author">
-                  {{ authors::author_info(authors=page.authors | default(value=[config.author]), config=config, with_label=false) }}
+                  {% for author in page.taxonomies.authors %}<a href="{{ get_taxonomy_url(kind="authors", name=author) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
               </div>
 
               {% set formatted_date_long = page.date | date(format="%Y-%m-%d %H:%M:%S %z") %}

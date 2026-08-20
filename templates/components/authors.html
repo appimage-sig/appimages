@@ -1,11 +1,21 @@
-{% macro author_info(authors, config, with_label=false) %}
-{%- if authors and authors | length > 0 -%}
-  {%- if with_label -%}By {%- endif -%}
-  {%- for author in authors -%}
-    {{ author }}{%- if not loop.last -%}, {% endif -%}
-  {%- endfor -%}
-{%- elif config.author and config.extra.show_default_author -%}
-  {%- if with_label -%}By {%- endif -%}
-  {{ config.author }}
-{%- endif -%}
-{% endmacro author_info %}
+{% extends "base.html" %}
+
+{% block title %}Authors - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section>
+    <h1>Authors</h1>
+
+    {% if terms %}
+    <ul class="authors-list">
+        {% for term in terms %}
+        <li>
+            <a href="{{ term.permalink }}">{{ term.name }}</a> ({{ term.pages | length }})
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No authors found.</p>
+    {% endif %}
+</section>
+{% endblock content %}
