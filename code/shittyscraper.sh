@@ -47,7 +47,7 @@ get_all_github_assets() {
 		return 1
 	fi
 
-	assets_data=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | "\(.browser_download_url)|\(.updated_at)"' 2>/dev/null | sed '/^$/d' | awk -F'|' '{gsub(/T/, " ", $2); gsub(/Z/, "", $2); print $1"|"$2}')
+	assets_data=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | "\(.browser_download_url)|\(.updated_at)"' 2>/dev/null | sed '/^$/d')
 	if [ -z "$assets_data" ]; then
 		echo "no_asset"
 		return 1
