@@ -28,11 +28,12 @@
 
           <h1 class="post__title">{{ page.title }}</h1>
 
+        {% if page.taxonomies.authors %}
             <div class="post__meta-bottom">
               <div class="post__author">
                   {% for author in page.taxonomies.authors %}<a href="{{ get_taxonomy_url(kind="authors", name=author) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
               </div>
-
+        {% endif %}
               {% set formatted_date_long = page.date | date(format="%Y-%m-%d %H:%M:%S %z") %}
               {% set formatted_date_short = page.date | date(format=config.extra.date_format) %}
               <time class="post__date" datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time>
