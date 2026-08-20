@@ -1,7 +1,7 @@
 +++
 title = "VSCodium"
 description = "Free/Libre Open Source Software Binaries of VS Code"
-date = "2026-07-07 14:17:13"
+date = "2026-07-07T14:17:13Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["The VSCodium contributors"]

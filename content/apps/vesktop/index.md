@@ -1,7 +1,7 @@
 +++
 title = "Vesktop"
 description = "Vesktop is a custom Discord App aiming to give you better performance and improve linux support"
-date = "2026-02-12 04:11:26"
+date = "2026-08-18T02:55:11Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Vendicated"]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/Vencord/Vesktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.7/Vesktop-1.6.7-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.5/Vesktop-1.6.5-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Vencord/Vesktop/releases/download/v1.6.7/Vesktop-1.6.7-arm64.AppImage">Download arm64</a>
 </button>
 </div>

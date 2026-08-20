@@ -1,7 +1,7 @@
 +++
 title = "Trezor"
 description = "Trezor desktop and web application for managing Trezor hardware wallet"
-date = "2026-08-03 15:04:20"
+date = "2026-08-19T14:18:47Z"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Trezor company"]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/trezor/trezor-suite/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.7.4/ rezor-Suite-26.7.4-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage https://github.com/trezor/trezor-suite/releases/download/v26.8.2/Trezor-Suite-26.8.2-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>
