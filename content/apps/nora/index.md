@@ -1,7 +1,7 @@
 +++
 title = "Nora"
 description = "An elegant music player built using Electron and React"
-date = "2025-03-29 11:33:45"
+date = "2025-03-29T11:33:45Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Sandakan Nipunajith"]

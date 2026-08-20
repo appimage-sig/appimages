@@ -1,7 +1,7 @@
 +++
 title = "Actual Budget"
 description = "Actual Budget is a super fast and privacy-focused app for managing your finances"
-date = "2026-08-02 20:25:24"
+date = "2026-08-07T20:50:10Z"
 [taxonomies]
 categories = ["Finance"]
 authors = ["James Long"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/actualbudget/actual/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/actualbudget/actual/releases/download/v26.8.0/Actual-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/actualbudget/actual/releases/download/v26.8.1/Actual-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/actualbudget/actual/releases/download/v26.8.0/Actual-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/actualbudget/actual/releases/download/v26.8.1/Actual-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Shotcut"
 description = "Free, open source, cross-platform video editor"
-date = "2026-08-01 17:23:50"
+date = "2026-08-01T17:23:50Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Meltytech"]

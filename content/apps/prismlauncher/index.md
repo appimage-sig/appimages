@@ -1,7 +1,7 @@
 +++
 title = "Prism Launcher"
 description = "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)"
-date = "2026-07-11 18:28:50"
+date = "2026-07-11T18:28:50Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["Prism Launcher Contributors"]

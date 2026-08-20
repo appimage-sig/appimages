@@ -1,7 +1,7 @@
 +++
 title = "Cutter"
 description = "Free and Open Source Reverse Engineering platform powered by Rizin"
-date = "2026-06-30 18:05:32"
+date = "2026-06-30T18:05:32Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Rizin"]

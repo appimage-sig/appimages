@@ -1,7 +1,7 @@
 +++
 title = "museeks"
 description = "A simple, clean and cross-platform music player"
-date = "2026-02-19 11:37:01"
+date = "2026-02-19T11:37:01Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Pierre de la Martinière"]

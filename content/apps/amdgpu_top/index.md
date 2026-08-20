@@ -1,7 +1,7 @@
 +++
 title = "AMDGPU_TOP"
 description = "amdgpu_top is tool that display AMD GPU utilization."
-date = "2026-05-18 15:48:20"
+date = "2026-05-18T15:48:20Z"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["Umio Yasuno"]

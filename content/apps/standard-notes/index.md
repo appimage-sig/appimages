@@ -1,7 +1,7 @@
 +++
 title = "Standard Notes"
 description = "End-to-end encrypted note-taking app for digitalists and professionals"
-date = "2026-03-06 19:02:46"
+date = "2026-03-06T19:02:46Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Standard Notes"]

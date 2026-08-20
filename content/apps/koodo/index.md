@@ -1,7 +1,7 @@
 +++
 title = "Koodo Reader"
 description = "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux and Web"
-date = "2026-08-01 07:37:07"
+date = "2026-08-01T07:37:07Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["App by Troye"]

@@ -1,7 +1,7 @@
 +++
 title = "Cura"
 description = "3D printer / slicing GUI built on top of the Uranium framework"
-date = "2026-05-28 09:42:46"
+date = "2026-05-28T09:42:46Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Ultimaker"]

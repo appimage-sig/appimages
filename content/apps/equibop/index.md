@@ -1,7 +1,7 @@
 +++
 title = "Equibop"
 description = "Equibop is a fork of Vesktop."
-date = "2026-07-22 23:02:52"
+date = "2026-07-22T23:02:52Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Equicord"]

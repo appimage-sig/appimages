@@ -1,7 +1,7 @@
 +++
 title = "Goverlay"
 description = "Goverlay is an easy graphical interface to configure linux gaming applications"
-date = "2026-08-05 04:12:00"
+date = "2026-08-05T01:12:28Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["Benjamin Gois"]

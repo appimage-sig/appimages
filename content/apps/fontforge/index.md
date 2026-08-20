@@ -1,7 +1,7 @@
 +++
 title = "FontForge"
 description = "An outline font editor"
-date = "2025-10-09 19:35:29"
+date = "2025-10-09T19:35:29Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["FontForge Project contributors"]

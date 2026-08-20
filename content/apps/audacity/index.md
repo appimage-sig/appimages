@@ -1,7 +1,7 @@
 +++
 title = "Audacity"
 description = "Easy-to-use, multi-track audio editor and recorder"
-date = "2026-06-11 14:03:41"
+date = "2026-06-11T14:03:41Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Audacity Developer Team"]

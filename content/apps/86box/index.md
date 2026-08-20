@@ -1,7 +1,7 @@
 +++
 title = "86box"
 description = "Emulator of x86-based machines based on PCem."
-date = "2026-05-30 23:46:29"
+date = "2026-05-30T23:46:29Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["86box"]

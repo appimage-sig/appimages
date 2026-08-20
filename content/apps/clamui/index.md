@@ -1,7 +1,7 @@
 +++
 title = "ClamUI"
 description = "A modern Linux desktop application for ClamAV antivirus"
-date = "2026-06-26 14:39:07"
+date = "2026-06-26T14:39:07Z"
 [taxonomies]
 categories = ["System"]
 authors = ["ClamUI contributors"]

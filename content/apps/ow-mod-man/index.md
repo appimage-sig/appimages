@@ -1,7 +1,7 @@
 +++
 title = "Outer Wilds Mod Manager"
 description = "The mod manager for the Outer Wilds Mod Loader"
-date = "2026-07-13 15:01:37"
+date = "2026-07-13T15:01:37Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["Outer Wilds Mods"]

@@ -1,7 +1,7 @@
 +++
 title = "Lite XL"
 description = "A lightweight text editor written in Lua"
-date = "2025-06-08 22:52:42"
+date = "2025-06-08T22:52:42Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Lite XL Team"]

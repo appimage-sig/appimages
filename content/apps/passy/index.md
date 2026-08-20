@@ -1,7 +1,7 @@
 +++
 title = "Passy"
 description = "Offline password manager with cross-platform synchronization"
-date = "2026-08-05 21:22:07"
+date = "2026-08-05T21:22:07Z"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["GlitterWare"]

@@ -1,7 +1,7 @@
 +++
 title = "spotify-qt"
 description = "Lightweight Spotify client using Qt."
-date = "2026-05-01 16:23:18"
+date = "2026-05-01T16:23:18Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["kraxie"]

@@ -1,7 +1,7 @@
 +++
 title = "Ferdium"
 description = "All your services in one place, built by the community."
-date = "2026-04-18 21:38:48"
+date = "2026-08-19T15:38:33Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ferdium Team"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/ferdium/ferdium-app/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.1.2/Ferdium-linux-Portable-7.1.2-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.2.0/Ferdium-linux-Portable-7.2.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

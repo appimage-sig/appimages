@@ -1,7 +1,7 @@
 +++
 title = "Altair"
 description = "A beautiful feature-rich GraphQL Client"
-date = "2026-06-06 08:51:09"
+date = "2026-08-16T07:39:49Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Samuel Imolorhe"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/altair-graphql/altair/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.7/altair_8.5.7_x86_64_linux.AppImage">Download x86_64</a>
+    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.9/altair_8.5.9_x86_64_linux.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.7/altair_8.5.7_arm64_linux.AppImage">Download arm64</a>
+    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.9/altair_8.5.9_arm64_linux.AppImage">Download arm64</a>
 </button>
 </div>

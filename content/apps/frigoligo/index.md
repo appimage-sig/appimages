@@ -1,7 +1,7 @@
 +++
 title = "Frigoligo"
 description = "Frigoligo is a wallabag client crafted using Flutter"
-date = "2025-03-14 19:36:29"
+date = "2025-03-14T19:36:29Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Martin Chaine"]

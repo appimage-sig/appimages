@@ -1,7 +1,7 @@
 +++
 title = "Deckboard"
 description = "Control your PC with your phone in easy way possible"
-date = "2026-06-06 09:27:20"
+date = "2026-06-06T09:27:20Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["Riva Farabi"]

@@ -1,7 +1,7 @@
 +++
 title = "PCSX2"
 description = "Free and open-source PlayStation 2 (PS2) emulator"
-date = "2026-01-28 17:40:44"
+date = "2026-01-28T17:40:44Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["PCSX2 Team"]

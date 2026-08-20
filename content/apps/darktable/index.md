@@ -1,7 +1,7 @@
 +++
 title = "Darktable"
 description = "darktable is an open source photography workflow application and raw developer"
-date = "2026-06-21 09:07:15"
+date = "2026-06-21T09:07:15Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["the darktable team"]

@@ -1,7 +1,7 @@
 +++
 title = "TeXstudio"
 description = "Craft beautiful LaTeX documents"
-date = "2026-07-24 16:30:08"
+date = "2026-08-14T19:11:32Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Jan Sundermeyer"]
@@ -25,5 +25,5 @@ Report the bug: <https://github.com/texstudio-org/texstudio/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/texstudio-org/texstudio/releases/download/4.9.6/texstudio-4.9.6-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/texstudio-org/texstudio/releases/download/4.9.7/texstudio-4.9.7-x86_64.AppImage">Download x86_64</a>
 </button>

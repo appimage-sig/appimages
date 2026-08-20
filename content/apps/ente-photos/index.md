@@ -1,7 +1,7 @@
 +++
 title = "ente Photos"
 description = "End-to-end encryption for photos and more."
-date = "2026-07-31 05:53:16"
+date = "2026-07-31T05:53:16Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Ente"]

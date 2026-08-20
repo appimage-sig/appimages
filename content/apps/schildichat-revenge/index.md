@@ -1,7 +1,7 @@
 +++
 title = "SchildiChat Revenge"
 description = "Matrix client for desktop written in Kotlin and using the Matrix Rust SDK."
-date = "2026-07-13 06:37:12"
+date = "2026-08-08T06:44:00Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["SchildiChat"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/SchildiChat/schildichat-desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.07.13/schildichat-revenge-x86_64-26.07.13.AppImage">Download x86_64</a>
+    <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.08.08/schildichat-revenge-x86_64-26.08.08.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Aptakube"
 description = "Modern, lightweight and multi-cluster Kubernetes GUI"
-date = "2026-07-28 10:11:01"
+date = "2026-07-28T10:11:01Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Sumbit Labs Limited"]

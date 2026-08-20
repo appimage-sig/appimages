@@ -1,7 +1,7 @@
 +++
 title = "qBittorrent-Enhanced-Edition"
 description = "qBittorrent is a bittorrent client programmed in C++ / Qt"
-date = "2026-07-19 17:55:59"
+date = "2026-07-19T17:55:59Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["c0re100"]

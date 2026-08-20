@@ -1,7 +1,7 @@
 +++
 title = "Legcord"
 description = "Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight"
-date = "2026-07-26 17:31:51"
+date = "2026-07-26T17:31:51Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Legcord"]

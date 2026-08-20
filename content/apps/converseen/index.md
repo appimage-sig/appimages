@@ -1,7 +1,7 @@
 +++
 title = "Converseen"
 description = "Converseen is a batch image converter and resizer"
-date = "2026-07-20 13:45:24"
+date = "2026-07-20T13:45:24Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Francesco Mondello"]

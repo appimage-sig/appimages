@@ -1,7 +1,7 @@
 +++
 title = "GAMS Studio"
 description = "Official development environment of the General Algebraic Modeling System"
-date = "2026-07-10 09:51:27"
+date = "2026-07-10T09:51:27Z"
 [taxonomies]
 categories = ["Science"]
 authors = ["GAMS Development"]

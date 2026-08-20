@@ -1,7 +1,7 @@
 +++
 title = "GDM Settings"
 description = "A settings app for GNOME's Login Manager, GDM"
-date = "2024-11-27 19:19:08"
+date = "2024-11-27T19:19:08Z"
 [taxonomies]
 categories = ["System"]
 authors = ["Mazhar Hussain"]

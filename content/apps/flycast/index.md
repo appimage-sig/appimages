@@ -1,7 +1,7 @@
 +++
 title = "Flycast"
 description = "Multi-platform Sega Dreamcast, Naomi, Naomi 2, and Atomiswave emulator derived from reicast"
-date = "2026-01-10 16:55:53"
+date = "2026-08-19T12:40:01Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["Flyinghead"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/flyinghead/flycast/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/flyinghead/flycast/releases/download/v2.6/flycast-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/flyinghead/flycast/releases/download/v2.7/flycast-x86_64-2.7.AppImage">Download x86_64</a>
 </button>
 </div>

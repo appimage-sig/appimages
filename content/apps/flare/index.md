@@ -1,7 +1,7 @@
 +++
 title = "Flare"
 description = "Fantasy action RPG using the FLARE engine"
-date = "2026-05-08 18:02:20"
+date = "2026-05-08T18:02:20Z"
 [taxonomies]
 categories = ["Games"]
 authors = ["FLARE Team"]

@@ -1,7 +1,7 @@
 +++
 title = "Flacon"
 description = "Extracts audio tracks from an audio CD image to separate tracks."
-date = "2026-07-26 14:08:50"
+date = "2026-07-26T14:08:50Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Flacon team"]

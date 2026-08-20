@@ -1,7 +1,7 @@
 +++
 title = "DbGate"
 description = "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others"
-date = "2026-08-04 13:13:39"
+date = "2026-08-13T09:01:37Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Jan Prochazka"]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/dbgate/dbgate/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.4/dbgate-7.2.4-linux_x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.5/dbgate-7.2.5-linux_x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.4/dbgate-7.2.4-linux_arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/dbgate/dbgate/releases/download/v7.2.5/dbgate-7.2.5-linux_arm64.AppImage">Download arm64</a>
 </button>
 </div>

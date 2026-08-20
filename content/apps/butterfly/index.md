@@ -1,7 +1,7 @@
 +++
 title = "Butterfly"
 description = "Powerful, minimalistic, cross-platform, opensource note-taking app"
-date = "2026-07-20 13:10:42"
+date = "2026-08-10T12:56:16Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["LinwoodDev"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/LinwoodDev/Butterfly/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.4/linwood-butterfly-linux-alternative-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-linux-alternative-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.4/linwood-butterfly-linux-alternative-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/LinwoodDev/Butterfly/releases/download/v2.5.5/linwood-butterfly-linux-alternative-arm64.AppImage">Download arm64</a>
 </button>
 </div>

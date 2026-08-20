@@ -1,7 +1,7 @@
 +++
 title = "Laigter"
 description = "Laigter is a tool that automatically generates maps for dynamic lighting effects in games"
-date = "2025-12-16 17:54:27"
+date = "2026-08-07T14:34:28Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["Pablo Ivan Fonovich"]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/azagaya/laigter/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/azagaya/laigter/releases/download/1.13.1/Laigter-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/azagaya/laigter/releases/download/UNKNOWN%402026-08-07_1786113264/Laigter-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

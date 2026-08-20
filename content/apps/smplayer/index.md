@@ -1,7 +1,7 @@
 +++
 title = "SMPlayer"
 description = "Free Media Player with built-in codecs"
-date = "2025-06-09 11:36:30"
+date = "2025-06-09T11:36:30Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Ricardo Villalba"]

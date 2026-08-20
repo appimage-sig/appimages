@@ -1,7 +1,7 @@
 +++
 title = "RustDesk"
 description = "An open-source remote desktop, and alternative to TeamViewer"
-date = "2026-07-06 10:47:34"
+date = "2026-07-06T10:47:34Z"
 [taxonomies]
 categories = ["Utilities"]
 authors = ["RustDesk"]

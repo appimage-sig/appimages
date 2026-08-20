@@ -1,7 +1,7 @@
 +++
 title = "QField"
 description = "Geodata collection app."
-date = "2026-07-31 13:35:28"
+date = "2026-07-31T13:35:28Z"
 [taxonomies]
 categories = ["Science"]
 authors = ["OPENGIS.ch"]

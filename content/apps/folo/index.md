@@ -1,7 +1,7 @@
 +++
 title = "Folo"
 description = "Folo is the AI RSS Reader"
-date = "2026-07-31 10:29:50"
+date = "2026-07-31T10:29:50Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Follow Team"]

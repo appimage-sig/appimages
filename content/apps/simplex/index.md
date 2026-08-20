@@ -1,7 +1,7 @@
 +++
 title = "SimpleX Chat"
 description = "First messaging platform that has no user identifiers of any kind"
-date = "2026-07-28 16:53:46"
+date = "2026-08-19T11:30:14Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["SimpleX Chat"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/simplex-chat/simplex-chat/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large"  
-    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.0/simplex-desktop-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.1/simplex-desktop-x86_64.AppImage">Download x86_64</a>
   </button>
   <button class="c-button c-button--primary c-button--large"  
-    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.0/simplex-desktop-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.1/simplex-desktop-aarch64.AppImage">Download arm64</a>
   </button>
 </div>

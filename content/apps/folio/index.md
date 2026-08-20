@@ -1,7 +1,7 @@
 +++
 title = "Folio"
 description = "A beautiful markdown note-taking app for GNOME"
-date = "2026-04-17 00:16:50"
+date = "2026-04-17T00:16:50Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Greg Ross"]

@@ -1,7 +1,7 @@
 +++
 title = "Alephium"
 description = "The official Alephium desktop wallet."
-date = "2026-08-04 08:07:52"
+date = "2026-08-17T12:58:25Z"
 [taxonomies]
 categories = ["Finance"]
 authors = ["Alephium Team"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/alephium/alephium-frontend/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.3.1/Alephium-3.3.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.3.2/Alephium-3.3.2.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Beaver Notes"
 description = "Privacy-focused note-taking application"
-date = "2026-03-29 17:06:18"
+date = "2026-03-29T17:06:18Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Daniele Rolli"]
