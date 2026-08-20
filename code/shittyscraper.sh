@@ -47,9 +47,7 @@ get_all_github_assets() {
 		return 1
 	fi
 
-	# Извлекаем URL и дату обновлений через разделитель pipe (|)
-	# Преобразуем формат даты 2026-05-30T23:46:49Z -> 2026-05-30 23:46:49
-	assets_data=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | "\(.browser_download_url)|\(.updated_at)"' 2>/dev/null | sed '/^$/d' | sed -E 's/T/ /g; s/Z//g')
+	assets_data=$(printf '%s' "$body" | jq -r '.assets[] | select(.browser_download_url | endswith(".AppImage")) | "\(.browser_download_url)|\(.updated_at)"' 2>/dev/null | sed '/^$/d' | awk -F'|' '{gsub(/T/, " ", $2); gsub(/Z/, "", $2); print $1"|"$2}')
 	if [ -z "$assets_data" ]; then
 		echo "no_asset"
 		return 1
