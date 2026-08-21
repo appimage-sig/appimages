@@ -1,0 +1,8 @@
+{% macro authors_list(terms) %}
+{% set c = 'c-blog-card' %}
+<div class="{{c}}__author-name">
+  {% for term in terms %}
+  <a href="{{ term.permalink }}" class="{{c}}__author_name">{{ term.name }}</a>
+  {% endfor %}
+</div>
+{% endmacro authors_list %}
