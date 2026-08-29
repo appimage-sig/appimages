@@ -431,6 +431,7 @@
       <li xml:lang="ca-valencia">Emmagatzematge basat en SQLite o MariDB per als continguts dels àlbums i les seues metadades amb eines de busca avançada</li>
       <li xml:lang="es">Almacenamiento basado en SQLite o MariaDB para los álbumes y sus metadatos con herramientas de búsqueda avanzadas</li>
       <li xml:lang="he">אחסון מבוסס SQLite או MariaDB לתוכן האלבום ונתוני העל שלו עם כלי חיפוש מתקדמים</li>
+      <li xml:lang="it">Memorizzazione del contenuto degli album e dei suoi metadati tramite SQLite o MariaDB, con strumenti di ricerca avanzati</li>
       <li xml:lang="ka">SQLite ან MariaDB-ზე დაფუძნებული საცავი ალბომის შემცველობისთვის და მისი მეტამონაცემებისთვის დამატებითი ძებნის ხელსაწყოებისთვის</li>
       <li xml:lang="nl">Op SQLite of MariaDB gebaseerde opslag voor de inhoud van albums en zijn metagegevens met geavanceerde zoekhulpmiddellen</li>
       <li xml:lang="pt-BR">Armazenamento baseado em SQLite ou MariaDB para o conteúdo dos álbuns e seus metadados com ferramentas de pesquisa avançadas</li>
@@ -439,6 +440,7 @@
       <li xml:lang="sv">Lagring driven av SQLite eller MariaDB för album och deras metadata med avancerade sökverktyg</li>
       <li xml:lang="tr">Albüm içeriği ve üst veri için gelişmiş arama araçlarıyla SQLite veya MariaDB destekli depolama</li>
       <li xml:lang="uk">Сховище даних на основі SQLite або MariaDB для вмісту альбомів та метаданих із розширеними можливостями пошуку;</li>
+      <li xml:lang="zh-CN">通过 SQLite 或 MariaDB 为保存的相册内容及其元数据提供高级搜索工具</li>
       <li>Support for filtering and sorting albums</li>
       <li xml:lang="ar">دعم ترشيح الألبومات وفرزها</li>
       <li xml:lang="be">Падтрымка фільтравання і сартавання альбомаў</li>
