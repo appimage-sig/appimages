@@ -1,7 +1,7 @@
 +++
 title = "CherryTree"
 description = "A hierarchical note taking application, featuring rich text and syntax highlighting"
-date = "2026-07-18T18:24:40Z"
+date = "2026-08-22T17:37:28Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Giuseppe Penone"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/giuspen/cherrytree/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/giuspen/cherrytree/releases/download/v1.7.1/CherryTree-1.7.1-x86_64.AppImage"</a>
+    <a href="https://github.com/giuspen/cherrytree/releases/download/v1.7.2/CherryTree-1.7.2-x86_64.AppImage"</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Insomnia"
 description = "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC"
-date = "2026-07-24T00:55:03Z"
+date = "2026-08-25T08:33:26Z"
 [taxonomies]
 categories = ["Development"]
 authors = ["Kong"]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/Kong/insomnia/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/Kong/insomnia/releases/download/core%4013.1.0/Insomnia.Core-13.1.0.AppImage">Download x86_64</a>
+    <a href="https://github.com/Kong/insomnia/releases/download/core%4013.2.0/Insomnia.Core-13.2.0.AppImage">Download x86_64</a>
 </button>
 </div>

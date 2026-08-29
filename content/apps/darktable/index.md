@@ -1,7 +1,7 @@
 +++
 title = "Darktable"
 description = "darktable is an open source photography workflow application and raw developer"
-date = "2026-06-21T09:07:15Z"
+date = "2026-08-26T08:37:00Z"
 [taxonomies]
 categories = ["Graphics"]
 authors = ["the darktable team"]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/darktable-org/darktable//issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.1/Darktable-5.6.1-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.0/Darktable-5.6.0-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.1/Darktable-5.6.1-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

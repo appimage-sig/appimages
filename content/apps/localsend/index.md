@@ -1,7 +1,7 @@
 +++
 title = "Localsend"
 description = "Open source cross-platform alternative to AirDrop"
-date = "2025-02-19 15:37:25"
+date = "2026-08-21T13:33:58Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Tien Do Nam"]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/localsend/localsend//issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage">Download x86_64</a>
+    <a href="https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.AppImage">Download x86_64</a>
 </button>
 </div>

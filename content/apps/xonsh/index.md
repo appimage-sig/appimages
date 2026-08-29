@@ -1,7 +1,7 @@
 +++
 title = "xonsh"
 description = "Python-powered, cross-platform, Unix-gazing shell language and command prompt."
-date = "2026-07-31T07:34:31Z"
+date = "2026-08-23T15:40:33Z"
 [taxonomies]
 categories = ["System"]
 authors = ["the xonsh developers"]
@@ -22,6 +22,6 @@ Report the bug: <https://github.com/xonsh/xonsh/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/xonsh/xonsh/releases/download/0.24.1/xonsh-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/xonsh/xonsh/releases/download/0.24.2/xonsh-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
