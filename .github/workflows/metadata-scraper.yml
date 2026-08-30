@@ -20,6 +20,9 @@ jobs:
       - name: Run getmetadata script
         run: sh ./code/getmetadata.sh
 
+      - name: Trigger deploy workflow
+        uses: appimage-sig/appimages/main/.github/workflows/deploy.yml
+  
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
@@ -32,8 +35,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-
-      - name: Trigger deploy workflow
-        run: gh workflow run deploy.yml --ref ${{ github.ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
