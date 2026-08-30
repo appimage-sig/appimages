@@ -21,7 +21,7 @@ jobs:
         run: sh ./code/getmetadata.sh
 
       - name: Trigger deploy workflow
-        uses: appimage-sig/appimages/main/.github/workflows/deploy.yml
+        uses: appimage-sig/appimages/.github/workflows/deploy.yml
   
       - name: Commit changes
         run: |
