@@ -105,7 +105,7 @@
     <p xml:lang="en-GB">digiKam is an advanced open-source digital photo management application that runs on Linux, Windows, and MacOS. The application provides a comprehensive set of tools for importing, managing, editing, and sharing photos and raw files. You can use digiKam’s import capabilities to easily transfer photos, raw files, and videos directly from your camera and external storage devices (SD cards, USB disks, etc.). The application allows you to configure import settings and rules that process and organise imported items on-the-fly.</p>
     <p xml:lang="eo">digiKam estas altnivela malfermfonta cifereca administrado de fotoj, kiu funkcias per Linukso, Vindozo kaj MacOS. La aplikaĵo provizas ampleksan aron da iloj por importi, administri, redakti kaj kunhavigi fotojn kaj krudajn dosierojn. Vi povas uzi la importkapablojn de digiKam por facile translokigi fotojn, krudajn dosierojn kaj filmetojn rekte de via fotilo kaj eksteraj konserv-aparatoj (SD-kartoj, USB-diskoj ktp.). La aplikaĵo permesas al vi agordi importajn agordojn kaj regulojn, kiuj prilaboras kaj organizas importitajn erojn sur la flugo.</p>
     <p xml:lang="es">digiKam es una avanzada aplicación de código abierto para la gestión de fotografías digitales que se puede ejecutar en Linux, Windows y MacOS. La aplicación proporciona un completo conjunto de herramientas para importar, gestionar, editar y compartir fotos y archivos RAW. Puede usar las funciones de importación de digiKam para transferir fácilmente fotos, archivos RAW y vídeos directamente de la cámara y de dispositivos de almacenamiento externos (como tarjetas SD, discos USB, etc.). La aplicación le permite configurar las preferencias y las reglas de importación para procesar y organizar los elementos importados al vuelo.</p>
-    <p xml:lang="eu">digiKam sorburu irekiko argazki digitalak kudeatzeko aplikazio aurreratu bat da, Linux, Windows eta MacOS-en dabilena. Aplikazioak argazkiak eta fitxategi gordinak inportatu, kudeatu, editatu eta partekatzeko tresna multzo oso bat eskaintzen du. digiKam-en inportatzeko gaitasunak erabil ditzakezu zure kameratik eta kanpoko biltegi gailuetatik (SD txartelak, USB diskoak, etab.) argazkiak, fitxategi gordinak, eta bideoak erraz transmititzeko.</p>
+    <p xml:lang="eu">digiKam sorburu irekiko argazki digitalak kudeatzeko aplikazio aurreratu bat da, Linux, Windows eta macOS sistema eragileetan dabilena. Aplikazioak argazkiak eta RAW fitxategiak inportatu, kudeatu, editatu eta partekatzeko tresna multzo oso bat eskaintzen du. digiKamen inportazio-gaitasunen bidez, argazkiak, RAW fitxategiak eta bideoak zuzenean zure kameratik eta kanpoko biltegiratze-gailuetatik —hala nola SD txarteletatik eta USB diskoetatik— erraz transferitu ditzakezu. Aplikazioak inportatutako elementuak unean bertan prozesatu eta antolatzeko inportazio-ezarpenak eta -arauak konfiguratzeko aukera ematen dizu.</p>
     <p xml:lang="fi">digiKam on kehittynyt avoimen lähdekoodin valokuvanhallintasovellus, joka toimii Linuxissa, Windowsissa ja macOSissa. Se tarjoaa laajan joukon työkaluja valokuvien ja RAW-tiedostojen tuontiin, hallintaan, muokkaamiseen ja jakamiseen. digiKamin tuontiominaisuuksilla voi helposti siirtää valokuvia, RAW-tiedostoja ja videoita suoraan kamerasta ja ulkoisista tallennusvälineistä (SD-kortit, USB-levyt jne.). Kuvien tuontiasetukset sekä käsittelyn ja järjestämisen ajonaikaiset säännöt ovat muokattavissa.</p>
     <p xml:lang="fr">digiKam est une application « Open-source » de gestion de photos numériques, fonctionnant sous Linux, Windows et macOS. L'application fournit un ensemble complet d'outils pour l'importation, la gestion, la modification et le partage de photos et de fichiers natifs. Vous pouvez utiliser les fonctionnalités d'importation de digiKam pour transférer facilement des photos, des fichiers natifs et des vidéos, directement venant de votre appareil photo et de périphériques externes de stockage comme cartes « SD », disques « USB » etc. L'application vous permet de régler les paramètres et les règles d'importation permettant de traiter et d'organiser les éléments importés à la volée.</p>
     <p xml:lang="ga">Is feidhmchlár bainistíochta grianghraf digiteach foinse oscailte chun cinn é digiKam a ritheann ar Linux, Windows, agus MacOS. Soláthraíonn an feidhmchlár sraith chuimsitheach uirlisí chun grianghraif agus comhaid amha a allmhairiú, a bhainistiú, a chur in eagar agus a roinnt. Is féidir leat cumais allmhairithe digiKam a úsáid chun grianghraif, comhaid amha agus físeáin a aistriú go héasca go díreach ó do cheamara agus ó fheistí stórála seachtracha (cártaí SD, dioscaí USB, srl.). Ligeann an feidhmchlár duit socruithe agus rialacha allmhairithe a chumrú a phróiseálann agus a eagraíonn míreanna allmhairithe ar an toirt.</p>
@@ -144,7 +144,7 @@
     <p xml:lang="en-GB">digiKam organises photos, raw files, and videos into albums. But the application also features powerful tagging tools that allow you to assign tags, ratings, and labels to photos and raw files. You can then use filtering functionality to quickly find items that match specific criteria.</p>
     <p xml:lang="eo">digiKam organizas fotojn, krudajn dosierojn kaj filmetojn en albumojn. Sed la aplikaĵo ankaŭ prezentas potencajn etikedajn ilojn, kiuj permesas vin asigni etikedojn, taksojn kaj etikedojn al fotoj kaj krudaj dosieroj. Vi povas tiam uzi filtran funkcion por rapide trovi erojn kiuj kongruas kun specifaj kriterioj.</p>
     <p xml:lang="es">digiKam organiza fotos, archivos RAW y vídeos en álbumes. También proporciona potentes herramientas de etiquetado que le permiten asignar etiquetas, valoraciones y emblemas a las fotos y a los archivos RAW. Tras ello podrá usar la funcionalidad de filtrado para encontrar rápidamente elementos que cumplan criterios específicos.</p>
-    <p xml:lang="eu">digiKam-ek argazkiak, fitxategi gordinak, eta bideoak albumetan antolatzen ditu. Baina aplikazioak baditu ere markatzeko tresna ahaltsuak, argazkiei eta fitxategi gordinei etiketak, balorazioak, eta labelak esleitzen uzten dizutenak. Ondoren iragazteko funtzioak erabil ditzakezu irizpide jakin batzuk betetzen dituzten elementuak laster aurkitzeko.</p>
+    <p xml:lang="eu">digiKamek argazkiak, RAW fitxategiak eta bideoak albumetan antolatzen ditu. Aplikazioak, gainera, etiketatze-tresna ahaltsuak ditu, argazkiei eta RAW fitxategiei etiketak, balorazioak eta markak esleitzeko aukera ematen dutenak. Ondoren, iragazteko funtzioak erabil ditzakezu irizpide jakin batzuk betetzen dituzten elementuak azkar aurkitzeko.</p>
     <p xml:lang="fi">digiKam järjestää valokuvat, RAW-tiedostot ja videot albumeiksi. Ohjelmalla on myös tehokkaat luokitustyökalut luokitusten, arvostelujen ja selitteiden lisäämiseksi valokuviin ja RAW-tiedostoihin. Määräehtoja vastaavat kohteet voi sitten nopeasti löytää suodatustoiminnolla.</p>
     <p xml:lang="fr">DigiKam organiser les photos, les fichiers natifs et les vidéos en albums. Mais, l'application possède aussi de puissants outils de marquage, vous permettant d'affecter des étiquettes, des notes et des labels aux photos et aux fichiers natifs. Vous pouvez aussi utiliser ensuite, des fonctionnalités de filtrage pour retrouver rapidement des éléments correspondant à des critères spécifiques.</p>
     <p xml:lang="ga">Eagraíonn digiKam grianghraif, comhaid amha, agus físeáin in albaim. Ach tá uirlisí clibeála cumhachtacha san fheidhmchlár freisin a ligeann duit clibeanna, rátálacha, agus lipéid a shannadh do ghrianghraif agus do chomhaid amha. Ansin is féidir leat feidhmiúlacht scagtha a úsáid chun míreanna a chomhlíonann critéir shonracha a aimsiú go tapa.</p>
@@ -180,7 +180,7 @@
     <p xml:lang="ca-valencia">De manera addicional a la funcionalitat de filtratge, digiKam té capacitats potents de busca que permeten buscar la biblioteca de fotografies per un ampli ventall de criteris. Es poden buscar fotografies per etiquetes, rètols, valoracions, dates, ubicacions i inclús metadades específiques Exif, IPTC o XMP. També es poden combinar diversos criteris per a busques més avançades. digiKam compta amb la biblioteca Exiv2 i ExifTool per a gestionar el contingut de les etiquetes de metadades dels fitxers per a omplir la biblioteca de fotografies.</p>
     <p xml:lang="de">Neben den Filterfunktionen unterstützt digiKam leistungsstarke Funktionen zum Durchsuchen der Fotosammlung nach verschiedensten Kriterien. Sie können Bilder nach Stichwörtern, Markierungen, Bewertungen, Daten und Orten oder nach bestimmten EXIF-, IPTC- oder XMP-Metadaten durchsuchen. Sie können diese Suchkriterien auch kombinieren. digiKam verwendet Exiv2 und ExifTool für die Verarbeitung von Metadateninhalten, um damit die Fotosammlung anzureichern.</p>
     <p xml:lang="es">Además de la funcionalidad de filtrado, digiKam dispone de potentes funciones de búsqueda que le permiten consultar su colección de fotos por una amplia variedad de criterios. Puede buscar fotos por etiquetas, emblemas, valoraciones, datos, ubicación e incluso por metadatos específicos EXIF, IPTC y XMP. También puede combinar varios criterios para realizar búsquedas avanzadas. digiKam depende de la biblioteca Exiv2 y de ExifTool para manejar el contenido de las etiquetas de metadatos de los archivos para rellenar la colección de fotos.</p>
-    <p xml:lang="eu">Iragazteko funtzioez gain, digiKam-ek baditu argazki liburutegian irizpide aukera zabal baten arabera bilatzeko gaitasun ahaltsuak. Argazkiak bila ditzakezu etiketa, label, balorazio, datu, kokaleku eta baita EXIF, IPTC, edo XMPetako berariazko metadatuen arabera ere. Gainera, hainbat irizpide konbina ditzakezu bilaketa aurreratuagoak egiteko. digiKam-ek Exiv2 liburutegia eta ExifTool erabiltzen ditu fitxategietako metadatu-etiketen edukia maneiatzeko, argazki-liburutegia betetzeko.</p>
+    <p xml:lang="eu">Iragazteko funtzioez gain, digiKamek argazki-liburutegian irizpide ugariren arabera bilatzeko gaitasun ahaltsuak ditu. Argazkiak etiketen, marken, balorazioaren, datuen eta kokalekuaren arabera bila ditzakezu, baita EXIF, IPTC edo XMP metadatu jakinen arabera ere. Hainbat irizpide ere konbina ditzakezu bilaketa aurreratuagoak egiteko. digiKamek Exiv2 liburutegia eta ExifTool erabiltzen ditu fitxategietako metadatu-etiketen edukia kudeatzeko eta argazki-liburutegia osatzeko.</p>
     <p xml:lang="fi">Suodintoimintojen lisäksi digiKamissa on tehokkaat hakuominaisuudet valokuvakokoelmasta etsimiseksi eri ehdoin. Valokuvia voi etsiä luokituksen, selitteen, arvostelun, datan, sijainnin ja jopa Exif-, IPTC- tai XMP-metatietojen perusteella. Haastavampiin hakuihin voi yhdistää monia ehtoja. Metatietojen luokitussisällön lukemisessa tiedostoista valokuvakirjastoon digiKam luottaa Exiv2-kirjastoon ja ExifTooliin.</p>
     <p xml:lang="fr">En plus des fonctionnalités de filtrage, digiKam propose de puissantes fonctions de recherche, vous permettant de faire des recherches dans une bibliothèque de photos selon une large sélection de critères. Vous pouvez rechercher des photos par étiquette, par libellé, par note, par localisation et encore plus spécifiquement par métadonnées « EXIF », « IPTC » ou « XMP ». Vous pouvez aussi combiner plusieurs critères pour des recherches encore plus avancées. DigiKam utilise la bibliothèque « exiv2 » et le module « ExExifToolifTool » pour la gestion des contenus des étiquettes de métadonnées présentes dans les fichiers pour publier une bibliothèque de photos.</p>
     <p xml:lang="ga">Chomh maith le feidhmiúlacht scagacháin, tá cumais chuardaigh chumhachtacha ag digiKam a ligeann duit cuardach a dhéanamh ar an leabharlann grianghraf de réir raon leathan critéar. Is féidir leat grianghraif a chuardach de réir clibeanna, lipéid, rátála, sonraí, suímh, agus fiú meiteashonraí sonracha EXIF, IPTC, nó XMP. Is féidir leat roinnt critéar a chomhcheangal freisin le haghaidh cuardaigh níos airde. Braitheann digiKam ar leabharlann Exiv2 agus ExifTool chun ábhar clibeanna meiteashonraí ó chomhaid a láimhseáil chun an leabharlann grianghraf a líonadh.</p>
@@ -213,7 +213,7 @@
     <p xml:lang="en-GB">digiKam can handle raw files, and the application uses the excellent LibRaw library for decoding raw files. The library is actively maintained and regularly updated to include support for the latest camera models. digiKam can also manage video files for cataloguing purpose, and the application uses the FFmpeg backends to extract metadata and play media.</p>
     <p xml:lang="eo">digiKam povas manipuli krudajn dosierojn, kaj la aplikaĵo uzas la bonegan bibliotekon LibRaw por malkodi krudajn dosierojn. La biblioteko estas aktive prizorgata kaj regule ĝisdatigita por inkluzivi subtenon por la plej novaj fotilmodeloj. digiKam ankaŭ povas administri videodosierojn por katalogado, kaj la aplikaĵo uzas la paron FFmpeg-bibliotekojn por ĉerpi metadatenojn kaj ludigi aŭdvidaĵojn.</p>
     <p xml:lang="es">digiKam puede manejar archivos RAW. Para ello usa la excelente biblioteca LibRaw para descodificar archivos RAW. Esta biblioteca se mantiene de forma activa y se actualiza regularmente para permitir el uso de los últimos modelos de cámaras. digiKam también puede manejar archivos de vídeo con el objetivo de catalogarlos. Para ello, la aplicación usa los motores de FFmpeg para extraer metadatos y reproducir multimedia.</p>
-    <p xml:lang="eu">digiKam-ek fitxategi gordinak (raw) maneiatu ditzake, eta aplikazioak«LibRaw» liburutegi bikaina erabiltzen du fitxategi gordinak (raw) deskodetzeko. Liburutegia modu aktiboan mantendu eta erregularki eguneratzen dute kamera-eredu berrienetarako euskarria eransteko. digiKam-ek katalogatzeko helburuarekin bideo fitxategiak ere kudea ditzake, eta aplikazioak «FFmpeg» bizkarraldekoak erabiltzen ditu metadatuak atera eta hedabideak jotzeko.</p>
+    <p xml:lang="eu">digiKamek RAW fitxategiak kudea ditzake, eta aplikazioak LibRaw liburutegi bikaina erabiltzen du RAW fitxategiak deskodetzeko. Liburutegia aktiboki mantentzen dute eta aldizka eguneratzen dute kamera-eredu berrienetarako euskarria gehitzeko. digiKamek bideo-fitxategiak ere kudea ditzake katalogatzeko, eta aplikazioak FFmpeg bizkarraldekoak erabiltzen ditu metadatuak erauzteko eta media jotzeko.</p>
     <p xml:lang="fi">digiKam osaa käsitellä RAW-tiedostoja, joiden lukemiseen se käyttää erinomaista LibRaw-kirjastoa. Kirjastoa kehitetään aktiivisesti ja siihen päivitetään säännöllisesti viimeisimpien kameramallien tuki. digiKam hallitsee luettelointitarkoituksessa myös videotiedostot, joiden metatiedon purkamiseen ja toistamiseen se käyttää FFmpeg-kirjastoa.</p>
     <p xml:lang="fr">DigiKam peut gérer des fichiers « raw ». L'application utilise l'excellente bibliothèque « LibRaw » pour le décodage des fichiers « raw ». Cette bibliothèque est activement maintenue et mise à jour régulièrement pour la prise en charge des derniers modèles d'appareil photos. DigiKam peut aussi gérer des fichiers de vidéo pour des besoins du catalogage. L'application utilise les moteurs « FFMpeg » pour extraire les métadonnées et pour jouer le média.</p>
     <p xml:lang="ga">Is féidir le digiKam comhaid amha a láimhseáil, agus úsáideann an feidhmchlár an leabharlann LibRaw den scoth chun comhaid amha a dhíchódú. Déantar an leabharlann a chothabháil go gníomhach agus a nuashonrú go rialta chun tacaíocht a thabhairt do na samhlacha ceamara is déanaí. Is féidir le digiKam comhaid físe a bhainistiú freisin chun críocha catalógaithe, agus úsáideann an feidhmchlár na cláir chúltaca FFmpeg chun meiteashonraí a bhaint amach agus meáin a sheinm.</p>
@@ -247,7 +247,7 @@
     <p xml:lang="ca-valencia">L'aplicació proporciona un conjunt integrat d'eines d'edició. Açò inclou eines bàsiques per a ajustar colors, escapçar i definir, així com eines avançades per a ajustar corbes, unir panorames i molt més. Hi ha una eina especial basada en la biblioteca Lensfun que permet aplicar automàticament correccions de la lent a les imatges. El famós connector Gmic-Qt també està disponible amb més de 600 filtres per a ampliar la vostra creativitat. Totes les operacions d'edició en digiKam estan versionades.</p>
     <p xml:lang="de">Die Anwendung bietet umfangreiche Werkzeuge zur Bildbearbeitung. Dies umfasst Basiswerkzeuge zur Farbanpassung, zum Zuschneiden und Schärfen, wie auch Profiwerkzeuge zur Farbkurvenanpassung, Zusammenstellen von Panoramen und einiges mehr. Ein besonderes Werkzeug, das auf der Lensfun-Bibliothek basiert, erlaubt es, Objektivfehler automatisch zu korrigieren. Das berühmte Gmic-Qt-Modul ist ebenfalls verfügbar. Es bietet über 600 Filter, Ihrer Kreativität sind keine Grenzen gesetzt! Alle Bearbeitungsschritte in digiKam sind versioniert.</p>
     <p xml:lang="es">La aplicación proporciona un completo conjunto de herramientas de edición, que incluye herramientas básicas para ajustar colores, recortar y enfocar, así como herramientas avanzadas para ajustar curvas y componer panoramas, entre otras cosas. Una herramienta especial que usa la biblioteca Lensfun permite aplicar correcciones de lentes a las imágenes de forma automática. El famoso complemento Gmic-Qt también está disponible con más de 600 filtros para extender su creatividad. Todas las operaciones de edición en digiKam usan versionado.</p>
-    <p xml:lang="eu">Aplikazioak editatzeko tresna multzo oso bat eskaintzen du. Horien artean koloreak doitzeko, mozteko, eta zorrozteko oinarrizko tresnak, baita tresna aurreratuak ere, kurbak lerrokatzeko, panorama josteko, eta askoz gehiago. Lensfun liburutegian oinarritutako tresna berezi batek irudietan lenteen zuzenketa automatikoa ezartzeko aukera ematen du. Gmic-Qt plugin famatua ere erabilgarri dago zure sorkuntza hedatzeko 600 iragazki baino gehiagorekin. digiKam-eko edizio-eragiketa guztiak bertsio gisa gordetzen dira.</p>
+    <p xml:lang="eu">Aplikazioak editatzeko tresna multzo oso bat eskaintzen du. Horien artean daude koloreak doitzeko, mozteko eta zorrozteko oinarrizko tresnak, baita kurbak doitzeko, panoramak josteko eta askoz gehiagotarako tresna aurreratuak ere. Lensfun liburutegian oinarritutako tresna berezi batek irudiei lente-zuzenketak automatikoki aplikatzeko aukera ematen du. Gmic-Qt plugin ospetsua ere erabilgarri dago, zure sormen-aukerak zabaltzeko 600 iragazki baino gehiagorekin. digiKamen edizio-eragiketa guztiek bertsio-kudeaketa dute.</p>
     <p xml:lang="fi">Sovellus tarjoaa kattavan joukon muokkaustyökaluja: perustyökaluja kuten värien säädön, rajauksen ja terävöityksen sekä edistyneempiä käyrien säätöön, panoraamakuvien koostamiseen ja muuhun. Lensfun-kirjastoon perustuvalla erikoistyökalulla kuviin voi tehdä linssikorjauksen automaattisesti. Saatavilla on myös kuulu Gmic-Qt-liitännäinen ja yli 600 suodatinta luovuutesi valjastamiseen. Kaikki digiKamin muokkaustoimenpiteet versioidaan.</p>
     <p xml:lang="fr">L'application fournit un ensemble complet d'outils de modification. Cela comprend les outils standards pour l'ajustement des couleurs, le centrage et le découpage, mais aussi des outils avancés pour les ajustements de courbes, la production de panorama et bien plus encore. Un outil spécial construit à partie de la bibliothèque « lensfun » permet l'application automatique de corrections de lentilles sur les images. Le célèbre module externe « Gmic-Qt » est également disponible avec plus de 600 filtres pour étendre votre créativité. Toutes les opérations d'édition dans digiKam sont versionnées.</p>
     <p xml:lang="ga">Cuireann an feidhmchlár sraith chuimsitheach uirlisí eagarthóireachta ar fáil. Áirítear leis seo uirlisí bunúsacha chun dathanna a choigeartú, bearradh agus géarú chomh maith le huirlisí chun cinn chun cuar a choigeartú, fuáil lánléargais agus go leor eile. Ceadaíonn uirlis speisialta bunaithe ar leabharlann Lensfun ceartúcháin lionsa a chur i bhfeidhm go huathoibríoch ar íomhánna. Tá an breiseán cáiliúil Gmic-Qt ar fáil freisin le níos mó ná 600 scagaire chun do chruthaitheacht a leathnú. Tá gach oibríocht eagarthóireachta i digiKam leaganach.</p>
@@ -277,7 +277,7 @@
     <p xml:lang="en-GB">Extended functionality in digiKam is implemented via a set of tools based of plugins mechanism (named DPlugins for digiKam Plugins). Plugins can be written to import and export contents to remote web-services, add new features to edit image, and batch process photo.</p>
     <p xml:lang="eo">Plilongigita funkcieco en digiKam estas efektivigita per aro de iloj bazitaj de kromprogramoj (nomitaj DPlugins por digiKam Plugins). Kromaĵoj povas esti skribitaj por importi kaj eksporti enhavon al malproksimaj retservoj, aldoni novajn funkciojn por redakti bildon kaj grupproceza foto.</p>
     <p xml:lang="es">Es posible implementar funcionalidades extendidas en digiKam mediante un conjunto de herramientas basadas en el mecanismo de complementos (llamadas «DPlugins», complementos de digiKam). Se pueden escribir complementos para importar y exportar contenido a servicios web remotos, añadir nuevas funcionalidades para editar imágenes y para procesar fotos por lotes.</p>
-    <p xml:lang="eu">digiKam-en, funtzionaltasun hedatua, plugin mekanismoetan oinarritutako tresna multzo baten bidez (DPluginak izenekoa, digiKam pluginetik) inplementatzen da. Pluginak idatz daitezke edukia web-zerbitzue-tatik/-tara inportatu eta esportatzeko, irudiak editatzeko ezaugarri berriak gehitzeko, eta argazkiak sortaka prozesatzeko.</p>
+    <p xml:lang="eu">digiKamen funtzionaltasun hedatua pluginen mekanismoan oinarritutako tresna multzo baten bidez inplementatzen da; tresna horiei DPluginak esaten zaie (digiKam Plugins). Urruneko web-zerbitzuetatik edukia inportatzeko eta haietara esportatzeko, irudiak editatzeko ezaugarri berriak gehitzeko eta argazkiak sortaka prozesatzeko pluginak idatz daitezke.</p>
     <p xml:lang="fi">digiKamin lisätoiminnot on toteutettu liitännäismekanismiin (”DPlugins”) perustuvin työkaluin. Liitännäiset voivat tuoda ja viedä etäverkkopalvelujen sisältöä, lisätä uusia muokkausominaisuuksia ja eräkäsitellä valokuvia.</p>
     <p xml:lang="fr">La fonctionnalité étendue de digiKam est intégrée par un ensemble d'outils fonctionnant à partir de mécanismes de type module externe nommé « DPlugins » pour « DigiKam Plugin ». Les modules externes peuvent être écrits pour l'importation ou l'exportation de contenus pour des services Internet distants, des ajouts de nouvelles fonctionnalités pour modifier des images ou traiter des photos par lot.</p>
     <p xml:lang="ga">Cuirtear feidhmiúlacht leathnaithe i digiKam i bhfeidhm trí shraith uirlisí bunaithe ar mheicníocht breiseán (ar a dtugtar DPlugins do Bhreiseáin digiKam). Is féidir breiseáin a scríobh chun ábhar a allmhairiú agus a onnmhairiú chuig seirbhísí gréasáin iargúlta, gnéithe nua a chur leis chun íomhá a chur in eagar, agus grianghraf a phróiseáil i mbaisceanna.</p>
@@ -359,7 +359,7 @@
       <li xml:lang="eo">Organizo de fotoj en albumoj kaj sub-albumoj (kun etikedoj kaj komentoj subteno)</li>
       <li xml:lang="es">Organización de fotos en álbumes y álbumes anidados (con uso de etiquetas y comentarios)</li>
       <li xml:lang="et">Fotode paigutamine albumitesse ja alamalbumitesse (toetatud on sildid ja kommentaarid)</li>
-      <li xml:lang="eu">Argazkiak albumetan eta azpi-albumetan antolatzea (etiketa eta iruzkinetarako euskarriarekin)</li>
+      <li xml:lang="eu">Argazkiak albumetan eta azpi-albumetan antolatzea (etiketak eta iruzkinak erabiltzeko euskarriarekin)</li>
       <li xml:lang="fi">Valokuvien järjestely albumeiksi ja alialbumeiksi (tunniste- ja kommenttituella)</li>
       <li xml:lang="fr">Organisation de photos en albums et sous-albums (avec prise en charge des étiquettes et des commentaires)</li>
       <li xml:lang="ga">Eagrú grianghraf in albaim agus i bhfo-albaim (le tacaíocht do chlibeanna agus tráchtanna)</li>
@@ -398,7 +398,7 @@
       <li xml:lang="eo">Subteno por Exif, Iptc, Xmp, Makernotes</li>
       <li xml:lang="es">Uso de Exif, Iptc, Xmp y notas del fabricante</li>
       <li xml:lang="et">Exif'i, Iptc, Xmp, Makernotes'i toetus</li>
-      <li xml:lang="eu">Exif, Iptc, Xmp, Makernotes-erako euskarria</li>
+      <li xml:lang="eu">Exif, IPTC, XMP eta Makernotes-erako euskarria</li>
       <li xml:lang="fi">Exif-, IPTC-, XMP ja Makernotes-tuki</li>
       <li xml:lang="fr">Prise en charge des données EXIF, IPTC, XMP, MakerNotes</li>
       <li xml:lang="ga">Tacaíocht do Exif, Iptc, Xmp, Makernotes</li>
@@ -430,6 +430,7 @@
       <li xml:lang="ca">Emmagatzematge basat en SQLite o MariDB per als continguts dels àlbums i les seves metadades amb eines de cerca avançada</li>
       <li xml:lang="ca-valencia">Emmagatzematge basat en SQLite o MariDB per als continguts dels àlbums i les seues metadades amb eines de busca avançada</li>
       <li xml:lang="es">Almacenamiento basado en SQLite o MariaDB para los álbumes y sus metadatos con herramientas de búsqueda avanzadas</li>
+      <li xml:lang="eu">Albumetako edukia eta haren metadatuak SQLite edo MariaDB bidez biltegiratzea, bilaketa-tresna aurreratuekin</li>
       <li xml:lang="he">אחסון מבוסס SQLite או MariaDB לתוכן האלבום ונתוני העל שלו עם כלי חיפוש מתקדמים</li>
       <li xml:lang="it">Memorizzazione del contenuto degli album e dei suoi metadati tramite SQLite o MariaDB, con strumenti di ricerca avanzati</li>
       <li xml:lang="ka">SQLite ან MariaDB-ზე დაფუძნებული საცავი ალბომის შემცველობისთვის და მისი მეტამონაცემებისთვის დამატებითი ძებნის ხელსაწყოებისთვის</li>
@@ -455,7 +456,7 @@
       <li xml:lang="eo">Subteno por filtrado kaj ordigo de albumoj</li>
       <li xml:lang="es">Implementación de filtrado y ordenación de álbumes</li>
       <li xml:lang="et">Albumite filtreerimise ja sortimise toetus</li>
-      <li xml:lang="eu">Albumak iragazi eta sailkatzeko euskarria du</li>
+      <li xml:lang="eu">Albumak iragazi eta sailkatzeko euskarria</li>
       <li xml:lang="fi">Albumien suodatuksen ja lajittelun tuki</li>
       <li xml:lang="fr">Prise en charge du filtrage et du tri des albums</li>
       <li xml:lang="ga">Tacaíocht le haghaidh albaim a scagadh agus a shórtáil</li>
@@ -495,7 +496,7 @@
       <li xml:lang="eo">Importi el pli ol 1100 bitkameraaj aparatoj</li>
       <li xml:lang="es">Permite importar de más de 1100 cámaras digitales</li>
       <li xml:lang="et">Import enam kui 1100 digitaalkaamerast</li>
-      <li xml:lang="eu">1100 kamera digital gailu baino gehiagotatik inportatzea</li>
+      <li xml:lang="eu">1.100 kamera digital baino gehiagotatik inportatzea</li>
       <li xml:lang="fi">Tuontituki yli 1100 eri digikameralle</li>
       <li xml:lang="fr">Importe à partir de plus de 1100 appareils photos numériques</li>
       <li xml:lang="ga">Iompórtáil ó níos mó ná 1100 gléas ceamara digiteach</li>
@@ -534,7 +535,7 @@
       <li xml:lang="eo">Subteno por pli ol 900 RAW-formataj bildoj</li>
       <li xml:lang="es">Permite imágenes en más de 900 formatos RAW</li>
       <li xml:lang="et">Enam kui 900 toorpildivormingu toetus</li>
-      <li xml:lang="eu">900 RAW formatuko irudi baino gehiagoren euskarria du</li>
+      <li xml:lang="eu">RAW formatuko 900 irudi baino gehiagorako euskarria</li>
       <li xml:lang="fi">Yli 900 RAW-kuvamuodon tuki</li>
       <li xml:lang="fr">Prise en charge de plus de 900 formats d'image RAW</li>
       <li xml:lang="ga">Tacaíocht do níos mó ná 900 pictiúr i bhformáid RAW</li>
@@ -573,7 +574,7 @@
       <li xml:lang="eo">Luma Tablo por kompari foton flanko ĉe flanko</li>
       <li xml:lang="es">Mesa de luz para comparar fotos una junto a otra</li>
       <li xml:lang="et">Valguslaud fotode vahetuks võrdlemiseks</li>
-      <li xml:lang="eu">Argazkiak alboz-albo alderatzeko argi-mahaia</li>
+      <li xml:lang="eu">Argazkiak alboz albo alderatzeko argi-mahaia</li>
       <li xml:lang="fi">Valotaulu kuvien vertailemiseksi rinnakkain</li>
       <li xml:lang="fr">Table lumineuse pour comparer des photos côte-à-côte</li>
       <li xml:lang="ga">Tábla Solais chun grianghraif a chur i gcomparáid taobh le taobh</li>
@@ -612,7 +613,7 @@
       <li xml:lang="eo">Plilongigitaj funkcioj uzante ekstrajn ilojn</li>
       <li xml:lang="es">Funciones extendidas mediante herramientas adicionales</li>
       <li xml:lang="et">Avarad võimalused lisatööriistade abil</li>
-      <li xml:lang="eu">Ezaugarri hedatuak tresna gehigarriak erabiliz</li>
+      <li xml:lang="eu">Tresna gehigarrien bidezko ezaugarri hedatuak</li>
       <li xml:lang="fi">Lisää ominaisuuksia lisätyökaluilla</li>
       <li xml:lang="fr">Fonctionnalités étendues par des outils externes</li>
       <li xml:lang="ga">Gnéithe leathnaithe ag baint úsáide as uirlisí breise</li>
@@ -651,7 +652,7 @@
       <li xml:lang="eo">Kunhavigu viajn fotojn per HTML aŭ publikigante ilin al foraj retservoj</li>
       <li xml:lang="es">Compartir fotos usando HTML o publicándolas en servicios web remotos</li>
       <li xml:lang="et">Fotode jagamine HTML-i vahendusel või nende avaldamine veebiteenustes</li>
-      <li xml:lang="eu">Partekatu zure argazkiak HTML erabiliz edo urrutiko web zerbitzuetan argitaratuz</li>
+      <li xml:lang="eu">Zure argazkiak HTML bidez edo urruneko web-zerbitzuetan argitaratuz partekatzea</li>
       <li xml:lang="fi">Valokuvien jako HTML:ksi tai julkaisu etäverkkopalvelimiin</li>
       <li xml:lang="fr">Permet de partager vos photos avec des pages HTML ou de les publier sur des services web distants</li>
       <li xml:lang="ga">Roinn do ghrianghraif ag baint úsáide as HTML nó iad a fhoilsiú chuig seirbhísí gréasáin iargúlta</li>
@@ -690,7 +691,7 @@
       <li xml:lang="eo">Bildredaktilo inkluzivita kun altnivelaj iloj por ripari foton rapide</li>
       <li xml:lang="es">Editor de imágenes incluido con herramientas avanzadas para corregir las fotos de forma rápida</li>
       <li xml:lang="et">Pildiredaktor võimsate tööriistadega fotode kiireks parandamiseks</li>
-      <li xml:lang="eu">Irudi-editorea barne, argazkia azkar konpontzeko tresna aurreratuekin</li>
+      <li xml:lang="eu">Irudi-editorea barne, argazkia azkar zuzentzeko tresna aurreratuekin</li>
       <li xml:lang="fi">Lisätyökaluissa kuvamuokkain kuvien pikakorjauksiin</li>
       <li xml:lang="fr">Éditeur d'images inclus, avec des fonctionnalités pour réparer rapidement une photo</li>
       <li xml:lang="ga">Eagarthóir íomhá san áireamh le huirlisí chun cinn chun grianghraf a dheisiú go tapa</li>
@@ -735,7 +736,7 @@
       <caption xml:lang="en-GB">digiKam Batch Queue Manager</caption>
       <caption xml:lang="eo">digiKam Batch Queue Manager</caption>
       <caption xml:lang="es">Gestor de la cola de procesos por lotes de digiKam</caption>
-      <caption xml:lang="eu">digiKam sorta ilara kudeatzailea</caption>
+      <caption xml:lang="eu">digiKam sortako ilaren kudeatzailea</caption>
       <caption xml:lang="fi">digiKam – Eräajon hallinta</caption>
       <caption xml:lang="fr">Gestionnaire de files de tâches de digiKam</caption>
       <caption xml:lang="ga">Bainisteoir Scuaine Baisc digiKam</caption>
@@ -813,7 +814,7 @@
       <caption xml:lang="en-GB">digiKam Import From Camera</caption>
       <caption xml:lang="eo">digiKam Importo de fotilo</caption>
       <caption xml:lang="es">Importación de cámara de digiKam</caption>
-      <caption xml:lang="eu">digiKam kameratik inportatzea</caption>
+      <caption xml:lang="eu">digiKam: kameratik inportatzea</caption>
       <caption xml:lang="fi">digiKam – Tuonti kamerasta</caption>
       <caption xml:lang="fr">Importation depuis un appareil photo de digiKam</caption>
       <caption xml:lang="ga">Iompórtáil digiKam Ó Cheamara</caption>
@@ -891,7 +892,7 @@
       <caption xml:lang="en-GB">digiKam Tags View</caption>
       <caption xml:lang="eo">digiKam Etikedoj Vido</caption>
       <caption xml:lang="es">Visor de etiquetas de digiKam</caption>
-      <caption xml:lang="eu">digiKam etiketa erakuslea</caption>
+      <caption xml:lang="eu">digiKam etiketen ikuspegia</caption>
       <caption xml:lang="fi">digiKam – Luokitusnäkymä</caption>
       <caption xml:lang="fr">Afficheur des étiquettes de digiKam</caption>
       <caption xml:lang="ga">Amharc Clibeanna digiKam</caption>
