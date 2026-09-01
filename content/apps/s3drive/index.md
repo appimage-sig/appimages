@@ -1,7 +1,7 @@
 +++
 title = "S3Drive"
 description = "Zero Knowledge E2E encrypted storage compatible with multiple providers"
-date = "2026-08-08T12:30:42Z"
+date = "2026-08-31T14:54:12Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["Cloud storage"]
@@ -20,6 +20,6 @@ Report the bug: <https://github.com/s3drive/app//issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/s3drive/appimage-app/releases/download/1.18.1/S3Drive-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/s3drive/appimage-app/releases/download/1.18.2/S3Drive-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

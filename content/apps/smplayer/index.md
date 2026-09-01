@@ -1,7 +1,7 @@
 +++
 title = "SMPlayer"
 description = "Free Media Player with built-in codecs"
-date = "2025-06-09T11:36:30Z"
+date = "2026-08-30T07:22:34Z"
 [taxonomies]
 categories = ["AudioVideo"]
 authors = ["Ricardo Villalba"]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/smplayer-dev/smplayer/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/smplayer-dev/smplayer/releases/download/v25.6.0/SMPlayer-25.6.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/SMPlayer-26.8.29-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
