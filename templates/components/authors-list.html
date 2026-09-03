@@ -5,4 +5,5 @@
   <a href="{{ term.permalink }}" class="{{c}}__author_name">{{ term.name }}</a>
   {% endfor %}
 </div>
+{%- set author_list = [config.author] -%}
 {% endmacro authors_list %}

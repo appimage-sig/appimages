@@ -15,10 +15,8 @@
 			  <p>
 				  <small>
 					  {%- if page.authors -%}
-						  <span>{% include "partials/authors.html" -%}</span>
-						  {%- if config.extra.show_reading_time -%}
-							  <span> {{ config.extra.separator | default(value="•") }} </span>
-						  {%- endif -%}
+						  <span>{% include "components/authors-list.html" -%}</span>
+								{%- set author_list = [config.author] -%}
 					  {%- endif -%}
 				  </small>
 			  </p>
