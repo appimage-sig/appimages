@@ -27,11 +27,11 @@
     {% elif block.block == "pagination" %}
     {{ pagination::pagination(data = block) }}
     {% elif block.block == "posts-list" %}
-    {% elif block.block == "authors-list" %}
-    {{ tags_list::authors_list(data = block) }}
     {{ posts_list::posts_list(data = block) }}
     {% elif block.block == "tags-list" %}
     {{ tags_list::tags_list(data = block) }}
+    {% elif block.block == "authors-list" %}
+    {{ authors_list::authors_list(data = block) }}
     {% endif %}
 {% endfor %}
 {% endmacro hero %}
