@@ -23,7 +23,7 @@ Become a sponsor: <https://www.paypal.com/paypalme/FlycastEmu>
 Report the bug: <https://github.com/flyinghead/flycast/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/flyinghead/flycast/releases/download/v2.7/flycast-x86_64-2.7.AppImage">Download x86_64</a>
 </button>
 </div>

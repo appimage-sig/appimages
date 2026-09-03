@@ -23,7 +23,7 @@ Source code: <https://github.com/ferdium/ferdium-app>
 Report the bug: <https://github.com/ferdium/ferdium-app/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.2.2/Ferdium-linux-Portable-7.2.2-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

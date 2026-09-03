@@ -23,10 +23,10 @@ Source code: <https://github.com/jgraph/drawio-desktop>
 Report the bug: <https://github.com/jgraph/drawio-desktop/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/drawio-x86_64-31.3.2.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/drawio-arm64-31.3.2.AppImage">Download arm64</a>
 </button>
 </div>

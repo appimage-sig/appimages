@@ -23,7 +23,7 @@ Translate: <https://explore.transifex.com/opengisch/qfield-for-qgis>
 Report the bug: <https://github.com/opengisch/QField/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/opengisch/QField/releases/download/v4.3.1/qfield-v4.3.1-linux-x64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -22,7 +22,7 @@ Become a sponsor: <https://github.com/sponsors/Mastermindzh>
 Report the bug: <https://github.com/Mastermindzh/tidal-hifi/issues>  
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/Mastermindzh/tidal-hifi/releases/download/8.1.3/tidal-hifi-8.1.3.AppImage">Download x86_64</a>
 </button>
 </div>

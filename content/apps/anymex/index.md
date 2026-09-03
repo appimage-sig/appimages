@@ -21,7 +21,7 @@ Become a sponsor: <https://ko-fi.com/ryanyuuki7>
 Report the bug: <https://github.com/RyanYuuki/AnymeX/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.7/AnymeX-Linux.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -24,7 +24,7 @@ Become a sponsor: <https://www.giuspen.net/cherrytree>
 Report the bug: <https://github.com/giuspen/cherrytree/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/giuspen/cherrytree/releases/download/v1.7.2/CherryTree-1.7.2-x86_64.AppImage"</a>
 </button>
 </div>

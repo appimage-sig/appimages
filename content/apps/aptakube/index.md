@@ -21,7 +21,7 @@ Web page: <https://aptakube.com>
 Report the bug: <https://github.com/aptakube/aptakube/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"  
+<button class="c-button c-button--primary c-button--large" > 
     <a href="https://github.com/aptakube/aptakube/releases/download/1.19.6/aptakube_1.19.6_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/linx-systems>
 Report the bug: <https://github.com/linx-systems/clamui/issues>
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/linx-systems/clamui/releases/download/v0.4.0/ClamUI-0.4.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -23,7 +23,7 @@ Translate: <https://localize.toolstack.com/projects/folio/>
 Report the bug: <https://github.com/toolstack/Folio>
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/toolstack/Folio/releases/download/26.01/Folio-26.01-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

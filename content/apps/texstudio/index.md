@@ -24,6 +24,6 @@ Translate: <https://explore.transifex.com/texstudio/texstudio/>
 Report the bug: <https://github.com/texstudio-org/texstudio/issues>
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/texstudio-org/texstudio/releases/download/4.9.7/texstudio-4.9.7-x86_64.AppImage">Download x86_64</a>
 </button>

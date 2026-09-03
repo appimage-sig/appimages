@@ -24,7 +24,7 @@ Translate: <https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/>
 Report the bug: <https://github.com/SchildiChat/schildichat-desktop/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.08.08/schildichat-revenge-x86_64-26.08.08.AppImage">Download x86_64</a>
 </button>
 </div>

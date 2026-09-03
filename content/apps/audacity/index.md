@@ -22,7 +22,7 @@ Translate: <https://explore.transifex.com/audacity/audacity>
 Report the bug: <https://github.com/audacity/audacity/issues>  
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/audacity/audacity/releases/download/Audacity-4.0.0/audacity-linux-4.0.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

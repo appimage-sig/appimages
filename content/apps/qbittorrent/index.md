@@ -20,10 +20,10 @@ Source code: <https://github.com/c0re100/qBittorrent-Enhanced-Edition>
 Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.3.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.3.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

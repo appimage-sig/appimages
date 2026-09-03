@@ -24,7 +24,7 @@ Translate: <https://crowdin.com/project/modrinth>
 Report the bug: <https://github.com/modrinth/code/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/modrinth/code/releases/download/v0.19.2/Modrinth.App_0.19.2_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

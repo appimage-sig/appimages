@@ -21,7 +21,7 @@ Become a sponsor: <https://www.patreon.com/Nekotekina>
 Report the bug: <https://github.com/RPCS3/rpcs3/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-275c2d40931c2bb40d75a29d8d299791c293d497/rpcs3-v0.0.42-19921-275c2d40_linux64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -22,7 +22,7 @@ Translate: <https://hosted.weblate.org/projects/actualbudget>
 Report the bug: <https://github.com/amanharwara/altus/issues>
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"  
+<button class="c-button c-button--primary c-button--large" > 
     <a href="https://github.com/amanharwara/altus/releases/download/5.8.1/Altus-5.8.1.AppImage">Download x86_64</a>
 </button>
 </div>

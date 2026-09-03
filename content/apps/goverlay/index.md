@@ -23,7 +23,7 @@ Become a sponsor: <https://www.buymeacoffee.com/fossisthefuture>
 Report the bug: <https://github.com/benjamimgois/goverlay> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/benjamimgois/goverlay/releases/download/1.9.0/goverlay-1.9.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

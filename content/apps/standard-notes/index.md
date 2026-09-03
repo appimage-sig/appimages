@@ -25,7 +25,7 @@ Report the bug: <https://github.com/standardnotes/forum/issues/>
 <button class="c-button c-button--primary c-button--large"
     <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.0/standard-notes-3.202.0-linux-x86_64.AppImage">Download x86_64</a>
 </button>
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.0/standard-notes-3.202.0-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

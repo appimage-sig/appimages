@@ -24,7 +24,7 @@ Become a sponsor: <https://github.com/sponsors/infinitel8p>
 Report the bug: <https://github.com/infinitel8p/Extreme-InfiniTV/issues>
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/infinitel8p/Extreme-Infini V/releases/download/v1.6.4/Extreme.Infini V_1.6.4_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

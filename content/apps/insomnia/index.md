@@ -22,7 +22,7 @@ Source code: <https://github.com/Kong/insomnia>
 Report the bug: <https://github.com/Kong/insomnia/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/Kong/insomnia/releases/download/core%4013.2.0/Insomnia.Core-13.2.0.AppImage">Download x86_64</a>
 </button>
 </div>

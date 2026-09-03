@@ -23,7 +23,7 @@ Source code: <https://github.com/bambulab/BambuStudio>
 Report the bug: <https://github.com/bambulab/BambuStudio/issues> 
  
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" 
+<button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/bambulab/BambuStudio/releases/download/v02.08.02.61/BambuStudio_ubuntu22.04-v02.08.02.61-20260820225108.AppImage">Download x86_64</a>
 </button>
 </div>
