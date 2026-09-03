@@ -1,6 +1,5 @@
 {% import "components/index.html" as components %}
 {% extends "base.html" %}
-
 {% block main %}
 <div class="post-top">
   <div class="container">
@@ -38,8 +37,6 @@
               {% set formatted_date_short = page.date | date(format=config.extra.date_format) %}
               <time class="post__date" datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time>
             </div>
-          </div>
-
         </div>
       </div>
     </div>
