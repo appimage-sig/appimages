@@ -1,7 +1,7 @@
 +++
 title = "QField"
 description = "Geodata collection app."
-date = "2026-08-28T04:10:19Z"
+date = "2026-09-03T01:55:10Z"
 [taxonomies]
 categories = ["Science"]
 authors = ["OPENGIS.ch"]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/opengisch/QField/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/opengisch/QField/releases/download/v4.3.0/qfield-v4.3.0-linux-x64.AppImage">Download x86_64</a>
+    <a href="https://github.com/opengisch/QField/releases/download/v4.3.1/qfield-v4.3.1-linux-x64.AppImage">Download x86_64</a>
 </button>
 </div>

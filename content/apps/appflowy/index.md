@@ -1,7 +1,7 @@
 +++
 title = "AppFlowy"
 description = "Open-source alternative to Notion. You are in charge of your data and customizations"
-date = "2026-08-28T06:34:27Z"
+date = "2026-09-01T06:47:31Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["AppFlowy"]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" 
-    <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.14.0/AppFlowy-0.14.0-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.14.1/AppFlowy-0.14.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
