@@ -2,9 +2,10 @@
 title = "Nora"
 description = "An elegant music player built using Electron and React"
 date = "2025-03-29T11:33:45Z"
+authors = ["Sandakan Nipunajith"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Sandakan Nipunajith"]
 tags = ["Offline music player"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

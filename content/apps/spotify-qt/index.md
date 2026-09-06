@@ -2,9 +2,10 @@
 title = "spotify-qt"
 description = "Lightweight Spotify client using Qt."
 date = "2026-05-01T16:23:18Z"
+authors = ["kraxie"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["kraxie"]
 tags = ["Music streaming client", "Spotify client"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

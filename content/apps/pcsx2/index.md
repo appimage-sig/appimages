@@ -2,9 +2,10 @@
 title = "PCSX2"
 description = "Free and open-source PlayStation 2 (PS2) emulator"
 date = "2026-08-30T20:46:07Z"
+authors = ["PCSX2 Team"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["PCSX2 Team"]
 tags = ["PlayStation Emulator", "Console Emulator"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

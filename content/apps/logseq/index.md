@@ -2,9 +2,10 @@
 title = "Logseq"
 description = "A privacy-first, open-source platform for knowledge management and collaboration"
 date = "2026-07-13T06:35:24Z"
+authors = ["Logseq"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Logseq"]
 tags = ["Knowledge base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

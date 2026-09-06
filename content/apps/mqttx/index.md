@@ -2,9 +2,10 @@
 title = "MQTTX"
 description = "MQTTX makes developing and testing MQTT applications faster and easier.."
 date = "2026-01-23 07:12:55"
+authors = ["EMQX Team"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["EMQX Team"]
 tags = ["API Testing"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "xemu"
 description = "Free and open-source original Xbox game console emulation"
 date = "2026-06-08T05:46:27Z"
+authors = ["xemu Project"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["xemu Project"]
 tags = ["Xbox emulator", "Console emulator"]
 frameworks = ["GTK3"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "AntimicroX"
 description = "Graphical program used to map gamepad keys to keyboard, mouse, scripts and macros"
 date = "2026-05-22T22:50:36Z"
+authors = ["AntiMicroX Authors"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["AntiMicroX Authors"]
 tags = ["Gamepad", "Gaming controllers"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

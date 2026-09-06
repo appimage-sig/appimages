@@ -2,9 +2,10 @@
 title = "Notes"
 description = "Notes is an open source and cross-platform note-taking app that is both beautiful and powerful"
 date = "2024-10-01T12:56:58Z"
+authors = ["Ruby Mamistvalove"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Ruby Mamistvalove"]
 tags = ["Notes"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

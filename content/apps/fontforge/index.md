@@ -2,9 +2,10 @@
 title = "FontForge"
 description = "An outline font editor"
 date = "2025-10-09T19:35:29Z"
+authors = ["FontForge Project contributors"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["FontForge Project contributors"]
 tags = ["Font editor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]

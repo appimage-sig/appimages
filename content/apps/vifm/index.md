@@ -2,9 +2,10 @@
 title = "vifm"
 description = "File manager with curses interface"
 date = "2026-05-30T16:38:11Z"
+authors = ["vifm Authors"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["vifm Authors"]
 tags = ["File Manager", "ncurses"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]

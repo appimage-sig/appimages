@@ -2,9 +2,10 @@
 title = "LibreWolf"
 description = "A custom version of Firefox, focused on privacy, security and freedom."
 date = "2026-04-09 13:53:00"
+authors = ["LibreWolf"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["LibreWolf"]
 tags = ["Firefox-based", "Browser"]
 architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]

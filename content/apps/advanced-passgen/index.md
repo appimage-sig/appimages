@@ -2,9 +2,10 @@
 title = "Advanced PassGen"
 description = "Free and open-source application that can help you generate passwords and export them"
 date = "2026-04-26T19:27:38Z"
+authors = ["CodeDead"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["CodeDead"]
 tags = ["Password Generator"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

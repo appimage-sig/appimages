@@ -2,9 +2,10 @@
 title = "Pencil2D"
 description = "Pencil2D is an easy, intuitive tool to make 2D hand-drawn animations. Pencil2D is open source and cross-platform."
 date = "2026-03-17T07:56:52Z"
+authors = ["Pencil2D"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Pencil2D"]
 tags = ["2D", "Painting software"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

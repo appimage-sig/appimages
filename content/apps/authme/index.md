@@ -2,9 +2,10 @@
 title = "authme"
 description = "Simple cross-platform two-factor (2FA) authenticator app for desktop."
 date = "2026-01-13 16:28:00"
+authors = ["Lőrik Levente"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Lőrik Levente"]
 tags = ["Authentificator"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "ente Auth"
 description = "Open source 2FA authenticator, with end-to-end encrypted backups"
 date = "2026-02-05 15:20:00"
+authors = ["Ente"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Ente"]
 tags = ["Authentificator", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "xonsh"
 description = "Python-powered, cross-platform, Unix-gazing shell language and command prompt."
 date = "2026-08-23T15:40:33Z"
+authors = ["the xonsh developers"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["the xonsh developers"]
 tags = ["Shell language"]
 architectures = ["x86_64"]
 license = ["BSD-2-Clause"]

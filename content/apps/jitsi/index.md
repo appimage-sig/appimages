@@ -2,9 +2,10 @@
 title = "Jitsi Meet"
 description = "Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application."
 date = "2026-08-04T20:55:49Z"
+authors = ["Jitsi team"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Jitsi team"]
 tags = ["Conference calling", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

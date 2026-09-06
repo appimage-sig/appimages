@@ -2,9 +2,10 @@
 title = "digiKam"
 description = "Professional Photo Management with Power of Open Source"
 date = "2026-04-04 20:51:00"
+authors = ["digiKam Team"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["digiKam Team"]
 tags = ["Photo Management"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

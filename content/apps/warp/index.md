@@ -2,9 +2,10 @@
 title = "Warp"
 description = "Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster"
 date = "2026-03-18  00:00:00"
+authors = ["Warp"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Warp"]
 tags = ["Terminal", "AI-powered software"]
 architectures = ["x86_64", "arm64"]
 license = ["EULA"]

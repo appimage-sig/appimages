@@ -2,9 +2,10 @@
 title = "Frappe"
 description = "Simple, well-designed, free desktop accounting software for freelancers and small businesses"
 date = "2025-11-06T04:00:15Z"
+authors = ["Frappe Technologies"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["Frappe Technologies"]
 tags = ["Budget software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

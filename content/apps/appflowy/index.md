@@ -2,9 +2,10 @@
 title = "AppFlowy"
 description = "Open-source alternative to Notion. You are in charge of your data and customizations"
 date = "2026-09-01T06:47:31Z"
+authors = ["AppFlowy"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["AppFlowy"]
 tags = ["Knowledge Base", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]

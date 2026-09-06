@@ -2,9 +2,10 @@
 title = "Hayase"
 description = "Stream anime torrents, real-time with no waiting for downloads"
 date = "2026-04-23 22:08:00"
+authors = ["Cas"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Cas"]
 tags = ["Anime", "Torrent client"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

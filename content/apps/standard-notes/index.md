@@ -2,9 +2,10 @@
 title = "Standard Notes"
 description = "End-to-end encrypted note-taking app for digitalists and professionals"
 date = "2026-08-17T22:27:53Z"
+authors = ["Standard Notes"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Standard Notes"]
 tags = ["Notes", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

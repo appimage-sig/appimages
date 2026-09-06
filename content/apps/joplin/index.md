@@ -2,9 +2,10 @@
 title = "Joplin"
 description = "The secure note taking and to-do app with synchronisation capabilities"
 date = "2026-01-18 23:10:00"
+authors = ["Laurent Cozic"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Laurent Cozic"]
 tags = ["Notes", "To-do", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

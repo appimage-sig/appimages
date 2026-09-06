@@ -19,6 +19,13 @@
 <meta property="og:description" content="{{ config.description }}" />
 {% endif %}
 
+{% if page.authors %}
+<meta name="author" content="{{ page.authors | join(sep=', ') }}">
+{% for author in page.authors %}
+<meta property="article:author" content="{{ author }}">
+{% endfor %}
+{% endif %}
+
 {% if current_url %}
 <link rel="canonical" href="{{ current_url }}">
 {% endif %}
@@ -38,8 +45,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
 
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@8.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@8.1.0/dist/ionicons/ionicons.js"></script>
 <link type="text/css" rel="stylesheet" href="{{ get_url(path='css/global.css') }}">
 <link type="text/css" rel="stylesheet" href="{{ get_url(path='css/tag.css') }}">
 
@@ -57,11 +64,4 @@
 {% endif %}
 
 {% block ext_head %}
-    {#- /* Misc */}}
-    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-    {{- template "_internal/google_analytics.html" . }}
-    {{- template "partials/templates/opengraph.html" . }}
-    {{- template "partials/templates/twitter_cards.html" . }}
-    {{- template "partials/templates/schema_json.html" . }}
-    {{- end -#}
 {% endblock %}

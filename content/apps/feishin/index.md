@@ -2,9 +2,10 @@
 title = "Feishin"
 description = "A modern self-hosted music player"
 date = "2026-04-07 03:26:00"
+authors = ["Jeff"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Jeff"]
 tags = ["OpenSubsonic", "Jellyfin", "Navidrome", "Self-hosted", "Music streaming client"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

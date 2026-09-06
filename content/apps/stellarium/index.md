@@ -2,9 +2,10 @@
 title = "Stellarium"
 description = "Stellarium is a free open source planetarium for your computer."
 date = "2026-06-24T17:32:06Z"
+authors = ["Stellarium contributors"]
+
 [taxonomies]
 categories = ["Science"]
-authors = ["Stellarium contributors"]
 tags = ["Planetarium"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

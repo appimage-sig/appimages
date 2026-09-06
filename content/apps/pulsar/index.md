@@ -2,9 +2,10 @@
 title = "Pulsar"
 description = "A Community-led Hyper-Hackable Text Editor"
 date = "2026-05-20T21:31:43Z"
+authors = ["Pulsar-Edit Original work"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Pulsar-Edit Original work"]
 tags = ["Code editor"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

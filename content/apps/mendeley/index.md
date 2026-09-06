@@ -2,9 +2,10 @@
 title = "Mendeley"
 description = "The free all-in-one reference manager"
 date = "2026-03-23  00:00:00"
+authors = ["Elsevier"]
+
 [taxonomies]
 categories = ["Science"]
-authors = ["Elsevier"]
 tags = ["Reference manager"]
 architectures = ["x86_64"]
 license = ["EULA"]

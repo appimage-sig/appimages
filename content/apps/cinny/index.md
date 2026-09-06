@@ -2,9 +2,10 @@
 title = "Cinny"
 description = "Matrix client focusing primarly on simple, elegant and secure interface"
 date = "2026-03-11 17:11:00"
+authors = ["Ajay Bura"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ajay Bura"]
 tags = ["Matrix", "Messenger"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

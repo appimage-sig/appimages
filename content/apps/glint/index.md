@@ -2,9 +2,10 @@
 title = "Glint"
 description = "A Graphical interface for Git"
 date = "2025-10-31T16:37:00Z"
+authors = ["Logic Over Snacks"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Logic Over Snacks"]
 tags = ["Git client"]
 architectures = ["x86_64"]
 license = ["EULA"]

@@ -2,9 +2,10 @@
 title = "Altair"
 description = "A beautiful feature-rich GraphQL Client"
 date = "2026-08-16T07:39:49Z"
+authors = ["Samuel Imolorhe"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Samuel Imolorhe"]
 tags = ["GraphQL"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]

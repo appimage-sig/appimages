@@ -2,9 +2,10 @@
 title = "Cinelerra GG"
 description = "Cinelerra GG Infinity is a free and open source video editing software for Linux"
 date = "2026-03-31 17:45:00"
+authors = ["Cinelerra GG community"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Cinelerra GG community"]
 tags = ["Video Editor"]
 frameworks = ["GTK2"]
 architectures = ["x86_64"]

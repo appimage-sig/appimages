@@ -2,9 +2,10 @@
 title = "Trezor"
 description = "Trezor desktop and web application for managing Trezor hardware wallet"
 date = "2026-08-19T14:18:47Z"
+authors = ["Trezor company"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["Trezor company"]
 tags = ["Cryptocurrency"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

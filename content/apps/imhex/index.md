@@ -2,9 +2,10 @@
 title = "ImHex"
 description = "ImHex is a feature-rich Hex Editor."
 date = "2025-12-21T19:01:56Z"
+authors = ["WerWolv"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["WerWolv"]
 tags = ["Hex editor"]
 frameworks = ["IMGUI"]
 architectures = ["x86_64", "arm64"]

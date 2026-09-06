@@ -2,9 +2,10 @@
 title = "Bitwarden"
 description = "Open source password management solutions for individuals, teams, and business organizations."
 date = "2026-04-02 19:03:00"
+authors = ["BitWarden"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["BitWarden"]
 tags = ["Password management", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

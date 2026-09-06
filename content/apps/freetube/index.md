@@ -2,9 +2,10 @@
 title = "FreeTube"
 description = "FreeTube is an open source desktop YouTube player built with privacy in mind"
 date = "2026-04-01 06:12:00"
+authors = ["FreeTube Authors"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["FreeTube Authors"]
 tags = ["Youtube client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

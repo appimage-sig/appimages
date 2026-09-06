@@ -2,9 +2,10 @@
 title = "Helix"
 description = "A post-modern modal text editor."
 date = "2025-07-18 18:13:00"
+authors = ["Blaž Hrastnik"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Blaž Hrastnik"]
 tags = ["Code editor", "TUI"]
 frameworks = ["tui-rs"]
 architectures = ["x86_64"]

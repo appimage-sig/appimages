@@ -2,9 +2,10 @@
 title = "GoofCord"
 description = "Take control of your Discord experience with GoofCord – the highly configurable and privacy-focused Discord client"
 date = "2026-07-21T07:18:58Z"
+authors = ["Milkshift"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Milkshift"]
 tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l" ]

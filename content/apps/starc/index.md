@@ -2,9 +2,10 @@
 title = "Story Architect"
 description = "All in one screenwriting app"
 date = "2026-06-08T12:22:18Z"
+authors = ["Story Apps"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Story Apps"]
 tags = ["Screenwriting"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

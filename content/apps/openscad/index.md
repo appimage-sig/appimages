@@ -2,9 +2,10 @@
 title = "OpenSCAD"
 description = "The Programmers Solid 3D CAD Modeller"
 date = "2026-04-16 18:00:00"
+authors = ["Marius Kintel"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Marius Kintel"]
 tags = ["3D", "CAD"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

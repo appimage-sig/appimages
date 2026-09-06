@@ -2,9 +2,10 @@
 title = "chiaki-ng"
 description = "Open Source Client for PlayStation 4 and PlayStation 5 Remote Play"
 date = "2026-04-03 04:50:00"
+authors = ["Street Pea"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Street Pea"]
 tags = ["PlayStation", "Remote play"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

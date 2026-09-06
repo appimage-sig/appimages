@@ -2,9 +2,10 @@
 title = "draw.io"
 description = "Security-first diagramming for teams."
 date = "2026-08-22T11:34:27Z"
+authors = ["JGraph"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["JGraph"]
 tags = ["Diagramming tool"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

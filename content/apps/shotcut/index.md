@@ -2,9 +2,10 @@
 title = "Shotcut"
 description = "Free, open source, cross-platform video editor"
 date = "2026-08-01T17:23:50Z"
+authors = ["Meltytech"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Meltytech"]
 tags = ["Video Editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "Eclipse Theia"
 description = "Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript."
 date = "2026-04-10 13:43:00"
+authors = ["Eclipse Foundation"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Eclipse Foundation"]
 tags = ["IDE", "VSCode fork"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

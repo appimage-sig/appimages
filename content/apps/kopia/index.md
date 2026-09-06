@@ -2,9 +2,10 @@
 title = "KopiaUI"
 description = "Cross-platform backup tool"
 date = "2026-06-16T01:27:39Z"
+authors = ["Kopia Authors"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Kopia Authors"]
 tags = ["Backup tool"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

@@ -38,10 +38,10 @@
 
       <div class="{{c}}__meta">
         <div class="{{c}}__info">
-            {% if data.taxonomies.authors  %}
+            {% if data.authors %}
             <span class="{{c}}__author-name">
-                {% for author in data.taxonomies.authors  %}
-                <a href="{{ get_taxonomy_url(kind="authors", name=author) }}">{{ author }}</a>
+                {% for author in data.authors %}
+                {{ author }}
                 {% if not loop.last %},
                 {% endif %}
                 {% endfor %}

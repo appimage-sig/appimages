@@ -2,9 +2,10 @@
 title = "LM Studio"
 description = "Discover, download, and run local LLMs"
 date = "2026-04-16  00:00:00"
+authors = ["Element Labs"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Element Labs"]
 tags = ["AI-powered software", "Chatbot"]
 architectures = ["x86_64", "arm64"]
 license = ["EULA"]

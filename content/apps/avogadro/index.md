@@ -2,9 +2,10 @@
 title = "Avogadro"
 description = "Advanced molecular editor designed for cross-platform use in computational chemistry, molecular modeling, bioinformatics, materials science, and related areas"
 date = "2026-04-01T11:16:01Z"
+authors = ["Open Chemistry"]
+
 [taxonomies]
 categories = ["Science"]
-authors = ["Open Chemistry"]
 tags = ["Chemistry"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

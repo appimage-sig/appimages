@@ -2,9 +2,10 @@
 title = "Teams for Linux"
 description = "Unofficial Microsoft Teams for Linux client."
 date = "2026-08-25T16:04:13Z"
+authors = ["Ismael Martinez"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ismael Martinez"]
 tags = ["Conference calling", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

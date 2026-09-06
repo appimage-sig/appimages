@@ -2,9 +2,10 @@
 title = "RetroArch"
 description = "RetroArch is the reference frontend for the libretro API"
 date = "2026-04-06 01:23:00"
+authors = ["Florian Märkl"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Florian Märkl"]
 tags = ["Game Simulator", "Retro Game Simulator"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

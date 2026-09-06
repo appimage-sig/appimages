@@ -2,9 +2,10 @@
 title = "Cursor"
 description = "The AI Code Editor"
 date = "2026-04-13 00:00:00"
+authors = ["Anysphere"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Anysphere"]
 tags = ["AI-powered software", "Code editor"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

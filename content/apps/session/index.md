@@ -2,9 +2,10 @@
 title = "Session"
 description = "Session Desktop - Onion routing based messenger."
 date = "2026-07-09T06:20:08Z"
+authors = ["The Oxen Project"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["The Oxen Project"]
 tags = ["Messenger", "Censorship-resistance software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

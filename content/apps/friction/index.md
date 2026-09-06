@@ -2,9 +2,10 @@
 title = "Friction"
 description = "Powerful and versatile free and open-source motion graphics application."
 date = "2025-12-31T18:59:58Z"
+authors = ["Friction contributors"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Friction contributors"]
 tags = ["2D"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

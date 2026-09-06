@@ -2,9 +2,10 @@
 title = "DevilutionX"
 description = "Port of Diablo and Hellfire that strives to make it simple to run the game while providing engine improvements, bugfixes, and some optional quality of life features"
 date = "2025-10-30 20:00:00"
+authors = ["diasurgical"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["diasurgical"]
 tags = ["OSS Game"]
 frameworks = ["SDL2"]
 architectures = ["x86_64"]

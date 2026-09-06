@@ -2,9 +2,10 @@
 title = "Deckboard"
 description = "Control your PC with your phone in easy way possible"
 date = "2026-06-06T09:27:20Z"
+authors = ["Riva Farabi"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Riva Farabi"]
 tags = ["Remote control", "Streaming tools"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

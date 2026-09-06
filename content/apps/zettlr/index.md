@@ -2,9 +2,10 @@
 title = "Zettlr"
 description = "Your One-Stop Publication Workbench"
 date = "2026-07-26T12:19:33Z"
+authors = ["Hendrik Erz"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Hendrik Erz"]
 tags = ["Notes"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

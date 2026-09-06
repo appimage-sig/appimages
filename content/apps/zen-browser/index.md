@@ -2,9 +2,10 @@
 title = "Zen Browser"
 description = "Performance-optimized and privacy-focused browser built atop Firefox"
 date = "2026-08-29T21:29:32Z"
+authors = ["Zen Browser Team"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Zen Browser Team"]
 tags = ["Browser", "Firefox-based"]
 architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]

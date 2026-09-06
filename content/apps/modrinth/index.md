@@ -2,9 +2,10 @@
 title = "Modrinth"
 description = "Open-source mod platform, built by the community, for the community."
 date = "2026-09-01T01:13:24Z"
+authors = ["Rinth"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Rinth"]
 tags = ["Gaming tool", "Mod marketplace"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

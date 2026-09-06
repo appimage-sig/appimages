@@ -2,9 +2,10 @@
 title = "Wezterm"
 description = "GPU-accelerated cross-platform terminal emulator and multiplexer"
 date = "2024-02-03 21:32:00"
+authors = ["Wez Furlong"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["Wez Furlong"]
 tags = ["Terminal"]
 architectures = ["x86_64"]
 license = ["MIT"]

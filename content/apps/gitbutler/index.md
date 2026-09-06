@@ -2,9 +2,10 @@
 title = "GitButler"
 description = "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte."
 date = "2025-04-17 18:33:00"
+authors = ["GitButler"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["GitButler"]
 tags = ["Git client"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]

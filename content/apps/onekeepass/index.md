@@ -2,9 +2,10 @@
 title = "OneKeePass"
 description = "OneKeePass is a cross-platform, open source and secure password manager"
 date = "2026-08-06T23:12:06Z"
+authors = ["jeyasankar"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["jeyasankar"]
 tags = ["Offline password manager"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

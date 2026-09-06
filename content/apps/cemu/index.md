@@ -2,9 +2,10 @@
 title = "Cemu"
 description = "Nintendo Wii U emulator"
 date = "2026-05-12T15:12:39Z"
+authors = ["Cemu Project"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Cemu Project"]
 tags = ["Game Emulator", "Nintendo Emulator"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "Tiled"
 description = "Tiled is a general purpose tile map editor for all tile-based games, such as RPGs, platformers or Breakout clones."
 date = "2026-05-27T13:10:45Z"
+authors = ["Tiled Authors"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Tiled Authors"]
 tags = ["Map Editor"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

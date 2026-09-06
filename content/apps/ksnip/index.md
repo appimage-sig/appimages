@@ -2,9 +2,10 @@
 title = "ksnip"
 description = "ksnip the cross-platform screenshot and annotation tool"
 date = "2023-03-15T09:43:55Z"
+authors = ["Damir Porobić"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Damir Porobić"]
 tags = ["Screenshot tool"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "OpenShot"
 description = "OpenShot Video Editor is an award-winning free and open-source video editor"
 date = "2026-08-31T01:54:59Z"
+authors = ["OpenShot Studios"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["OpenShot Studios"]
 tags = ["Video Editor"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

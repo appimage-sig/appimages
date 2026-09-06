@@ -2,9 +2,10 @@
 title = "Nextcloud"
 description = "Nextcloud is the industry-leading, fully open-source, on-premises content collaboration platform."
 date = "2026-08-26T09:55:15Z"
+authors = ["Nextcloud"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Nextcloud"]
 tags = ["Collaboration platform", "Cross-platform software"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

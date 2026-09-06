@@ -2,9 +2,10 @@
 title = "Freac"
 description = "Free and open source audio converter"
 date = "2023-03-05T22:10:20Z"
+authors = ["Robert Kausch"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Robert Kausch"]
 tags = ["Audio Converter"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64", "x86", "armv7l", "riscv64", "ppc64el"]

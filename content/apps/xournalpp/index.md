@@ -2,9 +2,10 @@
 title = "Xournal++"
 description = "Handwriting notetaking software with PDF annotation support"
 date = "2026-08-09T11:44:59Z"
+authors = ["Xournal Team"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Xournal Team"]
 tags = ["Notes", "Handwriting"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]

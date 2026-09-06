@@ -2,9 +2,10 @@
 title = "OneKey"
 description = "Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions"
 date = "2026-08-21T08:58:08Z"
+authors = ["OneKey"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["OneKey"]
 tags = ["Cryptocurrency", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

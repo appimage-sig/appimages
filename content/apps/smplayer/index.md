@@ -2,9 +2,10 @@
 title = "SMPlayer"
 description = "Free Media Player with built-in codecs"
 date = "2026-08-30T07:22:34Z"
+authors = ["Ricardo Villalba"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Ricardo Villalba"]
 tags = ["Media player"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

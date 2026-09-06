@@ -2,9 +2,10 @@
 title = "QField"
 description = "Geodata collection app."
 date = "2026-09-03T01:55:10Z"
+authors = ["OPENGIS.ch"]
+
 [taxonomies]
 categories = ["Science"]
-authors = ["OPENGIS.ch"]
 tags = ["Geodata"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

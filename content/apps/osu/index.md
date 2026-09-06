@@ -2,9 +2,10 @@
 title = "osu!"
 description = "Free-to-win rhythm game"
 date = "2026-04-06 09:37:00"
+authors = ["Dean Herbert"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Dean Herbert"]
 tags = ["OSS Game"]
 architectures = ["x86_64"]
 license = ["MIT"]

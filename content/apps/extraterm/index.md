@@ -2,9 +2,10 @@
 title = "Extraterm"
 description = "The swiss army chainsaw of terminal emulators."
 date = "2026-05-10T12:39:32Z"
+authors = ["Simon Edwards"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["Simon Edwards"]
 tags = ["Terminal"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

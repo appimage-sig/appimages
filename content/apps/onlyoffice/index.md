@@ -2,9 +2,10 @@
 title = "OnlyOffice"
 description = "Free office suite that combines text, spreadsheet and presentation editors"
 date = "2026-05-22T17:44:48Z"
+authors = ["Ascensio System"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Ascensio System"]
 tags = ["Office Suite", "Cross-platform software", "Qt6"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]

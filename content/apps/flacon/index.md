@@ -2,9 +2,10 @@
 title = "Flacon"
 description = "Extracts audio tracks from an audio CD image to separate tracks."
 date = "2026-07-26T14:08:50Z"
+authors = ["Flacon team"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Flacon team"]
 tags = ["CD ripper"]
 frameworks = ["Qt5"]
 architectures = ["x86_64","arm64"]

@@ -2,9 +2,10 @@
 title = "Localsend"
 description = "Open source cross-platform alternative to AirDrop"
 date = "2026-08-21T13:33:58Z"
+authors = ["Tien Do Nam"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Tien Do Nam"]
 tags = ["Sending files", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "KOReader"
 description = "An ebook reader application"
 date = "2026-08-01T11:09:26Z"
+authors = ["KOReader Community"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["KOReader Community"]
 tags = ["eBook reader"]
 frameworks = ["Lua"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "deezer-desktop"
 description = "An universal linux port of deezer, supporting Flatpak, Appimage, Snap, RPM, DEB."
 date = "2026-08-29T20:57:55Z"
+authors = ["Aurélien Hamy"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Aurélien Hamy"]
 tags = ["Music streaming client", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

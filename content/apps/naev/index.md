@@ -2,9 +2,10 @@
 title = "Naev"
 description = "Naev is a 2d action/rpg space game that combines elements from the action, rpg and simulation genres."
 date = "2026-03-31 08:45:00"
+authors = ["Naev DevTeam"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Naev DevTeam"]
 tags = ["OSS Game", "RPG"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

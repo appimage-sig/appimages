@@ -2,9 +2,10 @@
 title = "Ossia Score"
 description = "ossia score is a sequencer for audio-visual artists, designed to create interactive shows."
 date = "2026-03-27T08:32:11Z"
+authors = ["ossia.io Contributors"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["ossia.io Contributors"]
 tags = ["Sequencer"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

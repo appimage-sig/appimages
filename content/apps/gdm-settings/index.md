@@ -2,9 +2,10 @@
 title = "GDM Settings"
 description = "A settings app for GNOME's Login Manager, GDM"
 date = "2024-11-27T19:19:08Z"
+authors = ["Mazhar Hussain"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["Mazhar Hussain"]
 tags = ["Appearance"]
 frameworks = ["GTK4"]
 architectures = ["x86_64"]

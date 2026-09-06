@@ -2,9 +2,10 @@
 title = "Play!"
 description = "Play! is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms"
 date = "2026-01-23 08:10:00"
+authors = ["Jean-Philip Desjardins"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Jean-Philip Desjardins"]
 tags = ["PlayStation Emulator", "Console Emulator"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

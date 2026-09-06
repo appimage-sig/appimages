@@ -2,9 +2,10 @@
 title = "Aptakube"
 description = "Modern, lightweight and multi-cluster Kubernetes GUI"
 date = "2026-09-02T10:06:52Z"
+authors = ["Sumbit Labs Limited"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Sumbit Labs Limited"]
 tags = ["Kubernetes", "IDE"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

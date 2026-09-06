@@ -2,9 +2,10 @@
 title = "Conky"
 description = "Light-weight system monitor for X, Wayland, and other things, too"
 date = "2026-06-19T01:29:26Z"
+authors = ["Brenden Matthews"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Brenden Matthews"]
 tags = ["System Monitor", "OSD"]
 frameworks = ["ncurses"]
 architectures = ["x86_64"]

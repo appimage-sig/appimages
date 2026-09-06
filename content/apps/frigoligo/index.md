@@ -2,9 +2,10 @@
 title = "Frigoligo"
 description = "Frigoligo is a wallabag client crafted using Flutter"
 date = "2025-03-14T19:36:29Z"
+authors = ["Martin Chaine"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Martin Chaine"]
 tags = ["Bookmark manager"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

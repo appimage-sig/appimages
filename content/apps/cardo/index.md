@@ -2,9 +2,10 @@
 title = "Cardo"
 description = "Cardo is a podcast client for desktop"
 date = "2025-10-19T10:12:12Z"
+authors = ["n0vella"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["n0vella"]
 tags = ["Podcast player"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

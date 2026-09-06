@@ -2,9 +2,10 @@
 title = "DuckStation"
 description = "Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64"
 date = "2026-08-29T05:53:09Z"
+authors = ["Connor McLaughlin"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Connor McLaughlin"]
 tags = ["Console emulator", "PlayStation Emulator"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64", "armv7l"]

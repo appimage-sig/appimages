@@ -2,9 +2,10 @@
 title = "CP Editor"
 description = "The IDE for competitive programming."
 date = "2026-04-05T12:56:22Z"
+authors = ["CP Editor team"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["CP Editor team"]
 tags = ["Code editor", "Competitive programming"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

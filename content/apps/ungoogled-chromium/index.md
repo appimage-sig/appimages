@@ -2,9 +2,10 @@
 title = "ungoogled-chromium"
 description = "ungoogled-chromium is Google Chromium, sans dependency on Google web services."
 date = "2026-08-30T08:59:24Z"
+authors = ["The ungoogled-chromium Authors"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["The ungoogled-chromium Authors"]
 tags = ["Browser", "Chromium"]
 architectures = ["x86_64", "arm64"]
 license = ["BSD-3-Clause"]

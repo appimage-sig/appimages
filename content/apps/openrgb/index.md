@@ -2,9 +2,10 @@
 title = "OpenRGB"
 description = "Open source RGB lighting control that doesn't depend on manufacturer software"
 date = "2025-09-14 22:32:00"
+authors = ["Adam Honse"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Adam Honse"]
 tags = ["Hardware controller", "RGB lighting control"]
 frameworks = ["Qt5"]
 architectures = ["x86_64", "arm64", "x86", "armv7l"]

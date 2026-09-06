@@ -2,9 +2,10 @@
 title = "Lychee"
 description = "Lychee simplifies the printing process and makes 3D printing accessible to everyone by offering the most innovative and user-friendly solutions."
 date = "2026-04-14  00:00:00"
+authors = ["Mango 3D"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Mango 3D"]
 tags = ["3D", "Slicing software"]
 architectures = ["x86_64"]
 license = ["EULA"]

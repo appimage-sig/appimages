@@ -2,9 +2,10 @@
 title = "KDiskMark"
 description = "A simple open-source disk benchmark tool for Linux distros"
 date = "2026-06-12T15:31:32Z"
+authors = ["Dmitry Sidorov"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Dmitry Sidorov"]
 tags = ["Benchmarking", "Resource monitor"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

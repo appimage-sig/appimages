@@ -2,9 +2,10 @@
 title = "Obsidian"
 description = "Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files"
 date = "2026-08-12T13:37:08Z"
+authors = ["Obsidian Team"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Obsidian Team"]
 tags = ["Knowledge Base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

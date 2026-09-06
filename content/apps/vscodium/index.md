@@ -2,9 +2,10 @@
 title = "VSCodium"
 description = "Free/Libre Open Source Software Binaries of VS Code"
 date = "2026-07-07T14:17:13Z"
+authors = ["The VSCodium contributors"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["The VSCodium contributors"]
 tags = ["Code editor", "VSCode fork"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

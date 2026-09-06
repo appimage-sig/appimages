@@ -2,9 +2,10 @@
 title = "Nuclear"
 description = "Streaming music player that finds free music for you"
 date = "2026-08-16T01:03:11Z"
+authors = ["nukeop"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["nukeop"]
 tags = ["Music streaming client", "YouTube Music client", "Soundcloud client"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

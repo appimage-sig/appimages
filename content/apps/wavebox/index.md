@@ -2,9 +2,10 @@
 title = "Wavebox"
 description = "Connect all the apps and websites you need to run your business and stay signed-in to every account"
 date = "2026-04-16 12:28:00"
+authors = ["Wavebox"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Wavebox"]
 tags = ["Web apps", "Browser"]
 architectures = ["x86_64"]
 license = ["EULA"]

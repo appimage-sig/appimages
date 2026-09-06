@@ -2,9 +2,10 @@
 title = "Flow"
 description = "Feature rich event, group and time managment system"
 date = "2026-01-07 20:18:00"
+authors = ["LinwoodDev"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["LinwoodDev"]
 tags = ["Time management", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

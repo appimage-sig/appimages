@@ -2,9 +2,10 @@
 title = "Feather"
 description = "A free and open-source Monero desktop wallet"
 date = "2025-04-14 07:48:00"
+authors = ["Feather Wallet"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["Feather Wallet"]
 tags = ["Cryptocurrency"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64", "armv7l", "riscv64"]

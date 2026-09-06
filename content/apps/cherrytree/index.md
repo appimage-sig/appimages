@@ -2,9 +2,10 @@
 title = "CherryTree"
 description = "A hierarchical note taking application, featuring rich text and syntax highlighting"
 date = "2026-08-22T17:37:28Z"
+authors = ["Giuseppe Penone"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Giuseppe Penone"]
 tags = ["Notes"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]

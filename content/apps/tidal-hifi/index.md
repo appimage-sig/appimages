@@ -2,9 +2,10 @@
 title = "Tidal-Hifi"
 description = "The web version of TIDAL running in electron with Hi-Fi (High & Max) support thanks to widevine."
 date = "2026-08-18T10:47:19Z"
+authors = ["Rick van Lieshout"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Rick van Lieshout"]
 tags = ["Music streaming client", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

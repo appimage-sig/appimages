@@ -2,9 +2,10 @@
 title = "Bruno"
 description = "Open-source IDE for exploring and testing APIs"
 date = "2026-08-20T14:08:14Z"
+authors = ["Bruno Authors"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Bruno Authors"]
 tags = ["API Testing", "IDE"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

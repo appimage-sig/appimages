@@ -2,9 +2,10 @@
 title = "Equibop"
 description = "Equibop is a fork of Vesktop."
 date = "2026-07-22T23:02:52Z"
+authors = ["Equicord"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Equicord"]
 tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

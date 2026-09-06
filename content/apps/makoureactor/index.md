@@ -2,9 +2,10 @@
 title = "Makoureactor"
 description = "Final Fantasy VII field archive editor"
 date = "2026-01-11T22:03:27Z"
+authors = ["Jérôme Arzel"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Jérôme Arzel"]
 tags = ["Games"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

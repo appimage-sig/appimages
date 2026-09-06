@@ -2,9 +2,10 @@
 title = "Citadel"
 description = "Manage your ebook library without frustrations. Calibre compatible."
 date = "2026-03-07T11:08:10Z"
+authors = ["Phil Denhoff"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Phil Denhoff"]
 tags = ["eBook reader"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "Moonlight"
 description = "Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine."
 date = "2024-09-17 04:35:00"
+authors = ["Moonlight Game Streaming Project"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Moonlight Game Streaming Project"]
 tags = ["Remote play"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

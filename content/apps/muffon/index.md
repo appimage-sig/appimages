@@ -2,9 +2,10 @@
 title = "muffon"
 description = "Advanced multi-source music streaming"
 date = "2026-01-28T22:07:30Z"
+authors = ["Aleksey Shpakovsky"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Aleksey Shpakovsky"]
 tags = ["Music streaming client", "SoundCloud client", "YouTube Music client", "YouTube Client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

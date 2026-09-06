@@ -2,9 +2,10 @@
 title = "Cutter"
 description = "Free and Open Source Reverse Engineering platform powered by Rizin"
 date = "2026-06-30T18:05:32Z"
+authors = ["Rizin"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Rizin"]
 tags = ["Reverse Engineering"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

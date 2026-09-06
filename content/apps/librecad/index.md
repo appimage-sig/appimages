@@ -2,9 +2,10 @@
 title = "LibreCAD"
 description = "LibreCAD is a 2D Computer Aided Design (CAD) application for creating plans and designs on your computer"
 date = "2026-05-02T07:20:03Z"
+authors = ["LibreCAD Contributors"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["LibreCAD Contributors"]
 tags = ["2D", "CAD"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

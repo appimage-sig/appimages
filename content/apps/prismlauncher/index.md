@@ -2,9 +2,10 @@
 title = "Prism Launcher"
 description = "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once (Fork of MultiMC)"
 date = "2026-09-03T06:16:39Z"
+authors = ["Prism Launcher Contributors"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Prism Launcher Contributors"]
 tags = ["Minecraft launcher"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "Neovim"
 description = "Vim-fork focused on extensibility and usability"
 date = "2026-04-04 08:39:00"
+authors = ["Neovim contributors"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Neovim contributors"]
 tags = ["Code editor", "TUI"]
 architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]

@@ -2,9 +2,10 @@
 title = "KeePassXC"
 description = "KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information"
 date = "2025-11-25 03:44:00"
+authors = ["KeePassXC Team"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["KeePassXC Team"]
 tags = ["Offline password manager"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

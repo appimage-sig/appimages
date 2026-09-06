@@ -2,9 +2,10 @@
 title = "Zenkit"
 description = "Project Management, Processes, Communication, Scheduling, Documents, and Knowledge Sharing – all in one platform."
 date = "2025-12-18 00:00:00"
+authors = ["Axonic"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Axonic"]
 tags = ["Project Management"]
 architectures = ["x86_64"]
 license = ["EULA"]

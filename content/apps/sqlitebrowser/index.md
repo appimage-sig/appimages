@@ -2,9 +2,10 @@
 title = "DB Browser for SQLite"
 description = "High quality, visual, open source tool to create, design, and edit database files compatible with SQLite"
 date = "2024-10-18T06:59:43Z"
+authors = ["DB Browser for SQLite Team"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["DB Browser for SQLite Team"]
 tags = ["Database", "SQL"]
 frameworks = ["Qt5"]
 architectures = ["x86_64", "arm64"]

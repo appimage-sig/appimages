@@ -2,9 +2,10 @@
 title = "nvtop"
 description = "GPUs process monitoring for AMD, Intel and NVIDIA"
 date = "2026-02-08T17:53:29Z"
+authors = ["Maxime Schmitt"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Maxime Schmitt"]
 tags = ["Resource Monitor", "GPU"]
 frameworks = ["ncurses"]
 architectures = ["x86_64"]

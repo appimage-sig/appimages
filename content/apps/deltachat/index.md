@@ -2,9 +2,10 @@
 title = "Delta Chat Desktop"
 description = "Email-based instant messaging for Desktop."
 date = "2026-08-23T04:46:51Z"
+authors = ["Delta Chat contributors"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Delta Chat contributors"]
 tags = ["Messenger", "eMail client"]
 frameworks = ["Tauri", "Electron"]
 architectures = ["x86_64", "arm64"]

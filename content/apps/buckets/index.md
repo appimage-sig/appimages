@@ -2,9 +2,10 @@
 title = "Buckets"
 description = "Make your budget quick, simple and private"
 date = "2025-04-22T22:31:09Z"
+authors = ["One Part Rain"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["One Part Rain"]
 tags = ["Budget software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

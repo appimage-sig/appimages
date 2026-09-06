@@ -2,9 +2,10 @@
 title = "Flow Browser"
 description = "A modern, tabbed web browser with Chrome extension support—built on Electron."
 date = "2026-04-15T12:35:00Z"
+authors = ["Evan"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Evan"]
 tags = ["Browser", "Electron-based"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

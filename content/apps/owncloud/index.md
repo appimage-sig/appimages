@@ -2,9 +2,10 @@
 title = "ownCloud"
 description = "Open-source software for highly secure, borderless collaboration and filesharing on any device"
 date = "2026-01-12 19:16:00"
+authors = ["ownCloud"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["ownCloud"]
 tags = ["Collaboration platform", "Cross-platform software"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

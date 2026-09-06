@@ -2,9 +2,10 @@
 title = "qView"
 description = "Practical and minimal image viewer"
 date = "2025-07-26T22:25:39Z"
+authors = ["Benjamin O"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Benjamin O"]
 tags = ["Image Viewer"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

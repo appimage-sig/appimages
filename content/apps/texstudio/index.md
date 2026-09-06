@@ -2,9 +2,10 @@
 title = "TeXstudio"
 description = "Craft beautiful LaTeX documents"
 date = "2026-08-14T19:11:32Z"
+authors = ["Jan Sundermeyer"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Jan Sundermeyer"]
 tags = ["editor", "latex", "tex" ]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "LosslessCut"
 description = "Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files."
 date = "2026-06-04T07:29:17Z"
+authors = ["Mikael Finstad"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Mikael Finstad"]
 tags = ["Video editor"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

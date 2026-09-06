@@ -2,9 +2,10 @@
 title = "ClamUI"
 description = "A modern Linux desktop application for ClamAV antivirus"
 date = "2026-08-23T17:28:51Z"
+authors = ["ClamUI contributors"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["ClamUI contributors"]
 tags = ["ClamAV", "Antivirus"]
 frameworks = ["GTK4"]
 architectures = ["x86_64"]

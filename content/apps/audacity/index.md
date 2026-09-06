@@ -2,9 +2,10 @@
 title = "Audacity"
 description = "Easy-to-use, multi-track audio editor and recorder"
 date = "2026-09-03T09:13:35Z"
+authors = ["Audacity Developer Team"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Audacity Developer Team"]
 tags = ["Audio recording", "DAW"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

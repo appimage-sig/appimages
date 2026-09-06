@@ -2,9 +2,10 @@
 title = "Lite XL"
 description = "A lightweight text editor written in Lua"
 date = "2025-06-08T22:52:42Z"
+authors = ["Lite XL Team"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Lite XL Team"]
 tags = ["Code editor"]
 frameworks = ["Lua"]
 architectures = ["x86_64"]

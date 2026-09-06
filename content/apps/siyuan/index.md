@@ -2,9 +2,10 @@
 title = "Siyuan"
 description = "A privacy-first, self-hosted, fully open source personal knowledge management software."
 date = "2026-08-30T00:52:56Z"
+authors = ["Yunnan Liandi Technology"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Yunnan Liandi Technology"]
 tags = ["Knowledge base", "AI-powered software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

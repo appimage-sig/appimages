@@ -2,9 +2,10 @@
 title = "Flare"
 description = "Fantasy action RPG using the FLARE engine"
 date = "2026-05-08T18:02:20Z"
+authors = ["FLARE Team"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["FLARE Team"]
 tags = ["Game", "OSS Game"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

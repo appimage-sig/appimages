@@ -2,9 +2,10 @@
 title = "Vesktop"
 description = "Vesktop is a custom Discord App aiming to give you better performance and improve linux support"
 date = "2026-08-18T02:55:11Z"
+authors = ["Vendicated"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Vendicated"]
 tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "86box"
 description = "Emulator of x86-based machines based on PCem."
 date = "2026-05-30T23:46:29Z"
+authors = ["86box"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["86box"]
 tags = ["Game Emulator"]
 frameworks = ["Qt5"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "Tabby"
 description = "A terminal for a more modern age."
 date = "2026-07-22T21:12:47Z"
+authors = ["Tabby Developers"]
+
 [taxonomies]
 categories = ["System"]
-authors = ["Tabby Developers"]
 tags = ["Terminal"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

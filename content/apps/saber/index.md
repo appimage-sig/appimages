@@ -2,9 +2,10 @@
 title = "Saber"
 description = "Cross-platform libre handwritten notes app"
 date = "2026-08-30T00:52:56Z"
+authors = ["Adil Hanney"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Adil Hanney"]
 tags = ["Notes", "Handwriting", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

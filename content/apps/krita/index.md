@@ -2,9 +2,10 @@
 title = "Krita"
 description = "Krita is a professional free and open source painting program"
 date = "2026-01-24 13:30:00"
+authors = ["Stichting Krita Foundation"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Stichting Krita Foundation"]
 tags = ["Painting software", "Photo editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

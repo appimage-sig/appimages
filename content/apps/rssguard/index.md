@@ -2,9 +2,10 @@
 title = "RSS Guard"
 description = "Simple RSS/ATOM feed reader"
 date = "2026-08-20T08:07:48Z"
+authors = ["Martin Rotter"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Martin Rotter"]
 tags = ["RSS", "News Reader", "Podcast player"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

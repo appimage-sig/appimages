@@ -2,9 +2,10 @@
 title = "RPCS3"
 description = "Free and Open-source PlayStation 3 emulator/debugger"
 date = "2026-09-03T10:25:52Z"
+authors = ["RPCS3 Authors"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["RPCS3 Authors"]
 tags = ["Console emulator", "PlayStation emulator"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]

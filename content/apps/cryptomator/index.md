@@ -2,9 +2,10 @@
 title = "Cryptomator"
 description = "Multi-platform transparent client-side encryption of your files in the cloud"
 date = "2026-06-29T12:12:00Z"
+authors = ["Skymatic"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Skymatic"]
 tags = ["Cloud encryption"]
 frameworks = ["Java"]
 architectures = ["x86_64", "arm64"]

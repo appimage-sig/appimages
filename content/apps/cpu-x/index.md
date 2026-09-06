@@ -2,9 +2,10 @@
 title = "CPU-X"
 description = "Free software that gathers information on CPU, motherboard and more."
 date = "2025-08-22 15:03:12"
+authors = ["The Tumultuous Unicorn Of Darkness"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["The Tumultuous Unicorn Of Darkness"]
 tags = ["System Monitor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]

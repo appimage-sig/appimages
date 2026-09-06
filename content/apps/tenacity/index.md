@@ -2,9 +2,10 @@
 title = "tenacity"
 description = "Tenacity is an easy-to-use, privacy-friendly, FLOSS, cross-platform multi-track audio editor."
 date = "2025-10-12 18:38:00"
+authors = ["Tenacity community"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Tenacity community"]
 frameworks = ["wxWidgets"]
 tags = ["Audio editor", "DAW"]
 architectures = ["x86_64"]

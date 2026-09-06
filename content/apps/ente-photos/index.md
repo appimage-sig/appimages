@@ -2,9 +2,10 @@
 title = "ente Photos"
 description = "End-to-end encryption for photos and more."
 date = "2026-08-31T07:34:03Z"
+authors = ["Ente"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ente"]
 tags = ["Photo Management", "Cloud storage client", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "Heroic Games Launcher"
 description = "A Native GOG, Amazon and Epic Games Launcher"
 date = "2026-08-08T19:34:19Z"
+authors = ["Heroic Games Launcher Authors"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Heroic Games Launcher Authors"]
 tags = ["Game Launcher"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

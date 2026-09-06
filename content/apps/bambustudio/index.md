@@ -2,9 +2,10 @@
 title = "Bambu Studio"
 description = "Bambu Studio is an open-source, cutting-edge, feature-rich slicing software"
 date = "2026-08-21T04:29:18Z"
+authors = ["Bambu Lab"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Bambu Lab"]
 tags = ["3D", "Slicing software"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]

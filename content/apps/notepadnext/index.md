@@ -2,9 +2,10 @@
 title = "NotepadNext"
 description = "A cross-platform, reimplementation of Notepad++"
 date = "2026-04-27T22:40:50Z"
+authors = ["Justin Dailey"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Justin Dailey"]
 tags = ["Code editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "GDLauncher"
 description = "GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience"
 date = "2025-01-18 20:23:00"
+authors = ["Gorilla Devs"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Gorilla Devs"]
 tags = ["Minecraft Launcher"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

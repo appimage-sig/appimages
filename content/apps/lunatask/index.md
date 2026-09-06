@@ -2,9 +2,10 @@
 title = "Lunatask"
 description = "All-in-one encrypted to-do list, habit and mood tracker, journaling and notes app"
 date = "2026-06-10T20:04:48Z"
+authors = ["Michal Krejci"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Michal Krejci"]
 tags = ["Notes", "To-do", "Cross-platform software"]
 architectures = ["x86_64"]
 license = ["EULA"]

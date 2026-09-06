@@ -2,9 +2,10 @@
 title = "Avidemux"
 description = "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks"
 date = "2026-04-03 07:14:00"
+authors = ["Avidemux Authors"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Avidemux Authors"]
 tags = ["Video editor"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

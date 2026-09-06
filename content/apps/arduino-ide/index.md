@@ -2,9 +2,10 @@
 title = "Arduino IDE"
 description = "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board"
 date = "2026-06-09T17:11:22Z"
+authors = ["Arduino"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Arduino"]
 tags = ["IDE"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

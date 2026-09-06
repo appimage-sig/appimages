@@ -2,9 +2,10 @@
 title = "XPipe"
 description = "XPipe is a new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine"
 date = "2026-04-12 14:33:00"
+authors = ["XPipe UG"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["XPipe UG"]
 tags = ["Server Management", "Kubernetes"]
 frameworks = ["Java"]
 architectures = ["x86_64", "arm64"]

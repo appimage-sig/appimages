@@ -2,9 +2,10 @@
 title = "MuseScore"
 description = "MuseScore is an open source and free music notation software"
 date = "2026-07-07T11:48:28Z"
+authors = ["MuseScore BVBA"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["MuseScore BVBA"]
 tags = ["Audio editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

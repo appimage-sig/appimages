@@ -2,9 +2,10 @@
 title = "Linphone"
 description = "Linphone is an open source SIP phone for voice/video calls, instant messaging and conference calling"
 date = "2026-04-03 16:20:00"
+authors = ["Belledonne Communications"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Belledonne Communications"]
 tags = ["SIP Phone", "Conference calling", "Cross-platform software"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

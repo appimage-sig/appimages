@@ -2,9 +2,10 @@
 title = "Agregore Browser"
 description = "A minimal web browser for the distributed web"
 date = "2026-04-24T19:11:03Z"
+authors = ["Mauve Signweaver"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Mauve Signweaver"]
 tags = ["Web Browser", "ipfs", "gemini", "BitTorrent"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "AMDGPU_TOP"
 description = "amdgpu_top is tool that display AMD GPU utilization."
 date = "2026-05-18T15:48:20Z"
+authors = ["Umio Yasuno"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["Umio Yasuno"]
 tags = ["Resource Monitor", "GPU", "TUI"]
 frameworks = ["egui", "cursive"]
 architectures = ["x86_64", "arm64"]

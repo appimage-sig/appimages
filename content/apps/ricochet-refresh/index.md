@@ -2,9 +2,10 @@
 title = "Ricochet Refresh"
 description = "Anonymous peer-to-peer instant messaging"
 date = "2026-02-05 17:20:00"
+authors = ["Blueprint for Free Speech"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Blueprint for Free Speech"]
 tags = ["Messenger", "Censorship-resistance software"]
 frameworks = ["Qt5"]
 architectures = ["x86_64", "x86"]

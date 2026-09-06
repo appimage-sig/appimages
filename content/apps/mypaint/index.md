@@ -2,9 +2,10 @@
 title = "MyPaint"
 description = "A fast and dead-simple painting app for artists"
 date = "2020-07-09T21:29:05Z"
+authors = ["MyPaint Development Team"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["MyPaint Development Team"]
 tags = ["Painting software"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]

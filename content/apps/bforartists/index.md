@@ -2,9 +2,10 @@
 title = "Bforartists"
 description = "Bforartists is a fork of the popular 3D software Blender, with the goal to improve the UI"
 date = "2026-07-29T02:33:41Z"
+authors = ["Reiner Prokein"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Reiner Prokein"]
 tags = ["3D", "Blender"]
 frameworks = ["SDL2"]
 architectures = ["x86_64"]

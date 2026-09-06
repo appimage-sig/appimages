@@ -2,9 +2,10 @@
 title = "Sleek"
 description = "Open-source (FOSS) todo manager based on the todo.txt syntax"
 date = "2026-08-03T09:18:31Z"
+authors = ["Robin Ahle"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Robin Ahle"]
 tags = ["To-do"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "aisap"
 description = "Tool to make sandboxing AppImages easy"
 date = "2024-12-03 02:26:00"
+authors = ["mgord9518"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["mgord9518"]
 tags = ["Sandbox", "AppImage"]
 architectures = ["x86_64"]
 license = ["MIT"]

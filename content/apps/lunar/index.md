@@ -2,9 +2,10 @@
 title = "Lunar"
 description = "A modpack for all modern versions of Minecraft"
 date = "2026-04-12  00:00:00"
+authors = ["Moonsworth"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Moonsworth"]
 tags = ["Game launcher", "Minecraft launcher"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

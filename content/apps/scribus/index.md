@@ -2,9 +2,10 @@
 title = "Scribus"
 description = "Powerful desktop publishing software"
 date = "2026-04-14 02:45:30"
+authors = ["The Scribus Team"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["The Scribus Team"]
 tags = ["DTP", "Publishing"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "GAMS Studio"
 description = "Official development environment of the General Algebraic Modeling System"
 date = "2026-09-03T07:29:01Z"
+authors = ["GAMS Development"]
+
 [taxonomies]
 categories = ["Science"]
-authors = ["GAMS Development"]
 tags = ["Algebra", "Mathematical models"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

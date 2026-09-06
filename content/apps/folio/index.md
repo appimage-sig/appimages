@@ -2,9 +2,10 @@
 title = "Folio"
 description = "A beautiful markdown note-taking app for GNOME"
 date = "2026-04-17T00:16:50Z"
+authors = ["Greg Ross"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Greg Ross"]
 tags = ["Notebook", "Notes"]
 frameworks = ["GTK4"]
 architectures = ["x86_64"]

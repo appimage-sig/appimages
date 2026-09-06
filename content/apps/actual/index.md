@@ -2,9 +2,10 @@
 title = "Actual Budget"
 description = "Actual Budget is a super fast and privacy-focused app for managing your finances"
 date = "2026-09-01T08:59:33Z"
+authors = ["James Long"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["James Long"]
 tags = ["Budget software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

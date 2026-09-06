@@ -2,9 +2,10 @@
 title = "GIMP"
 description = "The Free & Open Source Image Editor"
 date = "2026-03-28 21:12:00"
+authors = ["GIMP’s Team"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["GIMP’s Team"]
 tags = ["Image editing"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]

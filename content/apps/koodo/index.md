@@ -2,9 +2,10 @@
 title = "Koodo Reader"
 description = "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux and Web"
 date = "2026-09-02T09:43:34Z"
+authors = ["App by Troye"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["App by Troye"]
 tags = ["eBook reader", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

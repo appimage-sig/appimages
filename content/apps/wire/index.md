@@ -2,9 +2,10 @@
 title = "Wire"
 description = "Wire is the most secure platform for messaging, audio, and video calls, based on edge computing and zero knowledge architecture."
 date = "2025-12-10 16:16:00"
+authors = ["Wire Swiss"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Wire Swiss"]
 tags = ["Messenger", "Censorship-resistance software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

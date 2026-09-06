@@ -2,9 +2,10 @@
 title = "appimagecraft"
 description = "appimagecraft completely automates the AppImage build process"
 date = "2026-01-19 04:55:00"
+authors = ["TheAssassin"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["TheAssassin"]
 tags = ["AppImage", "TUI"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]

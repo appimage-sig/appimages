@@ -2,9 +2,10 @@
 title = "SchildiChat Revenge"
 description = "Matrix client for desktop written in Kotlin and using the Matrix Rust SDK."
 date = "2026-08-08T06:44:00Z"
+authors = ["SchildiChat"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["SchildiChat"]
 tags = ["Messenger", "Matrix", "Cross-platform software"]
 frameworks = ["Kotlin Multiplatform"]
 architectures = ["x86_64"]

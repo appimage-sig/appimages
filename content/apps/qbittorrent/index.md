@@ -2,9 +2,10 @@
 title = "qBittorrent-Enhanced-Edition"
 description = "qBittorrent is a bittorrent client programmed in C++ / Qt"
 date = "2026-07-19T17:55:59Z"
+authors = ["c0re100"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["c0re100"]
 tags = ["Torrent client", "Download manager"]
 frameworks = ["Qt6"]
 architectures = ["x86_64","arm64"]

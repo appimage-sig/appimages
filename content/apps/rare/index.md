@@ -2,9 +2,10 @@
 title = "Rare"
 description = "Frontend for legendary, the open source Epic Games Launcher alternative"
 date = "2025-12-09T19:05:30Z"
+authors = ["Rare Devs"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Rare Devs"]
 tags = ["Epic Games", "Game launcher"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

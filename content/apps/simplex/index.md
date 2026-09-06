@@ -2,9 +2,10 @@
 title = "SimpleX Chat"
 description = "First messaging platform that has no user identifiers of any kind"
 date = "2026-09-02T13:31:46Z"
+authors = ["SimpleX Chat"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["SimpleX Chat"]
 tags = ["Messenger", "Censorship-resistance software", "Cross-platform software"]
 frameworks = ["Java"]
 architectures = ["x86_64", "arm64"]

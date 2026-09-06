@@ -2,9 +2,10 @@
 title = "Insomnia"
 description = "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC"
 date = "2026-08-25T08:33:26Z"
+authors = ["Kong"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Kong"]
 tags = ["API Testing"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

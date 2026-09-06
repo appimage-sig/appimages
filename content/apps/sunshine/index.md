@@ -2,9 +2,10 @@
 title = "Sunshine"
 description = "Self-hosted game stream host for Moonlight."
 date = "2026-05-16T18:38:08Z"
+authors = ["LizardByte"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["LizardByte"]
 tags = ["Streaming software"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

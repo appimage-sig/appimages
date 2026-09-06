@@ -2,9 +2,10 @@
 title = "museeks"
 description = "A simple, clean and cross-platform music player"
 date = "2026-02-19T11:37:01Z"
+authors = ["Pierre de la Martinière"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Pierre de la Martinière"]
 tags = ["Offline music player"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]

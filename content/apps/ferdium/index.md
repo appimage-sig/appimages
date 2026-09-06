@@ -2,9 +2,10 @@
 title = "Ferdium"
 description = "All your services in one place, built by the community."
 date = "2026-08-23T15:27:33Z"
+authors = ["Ferdium Team"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ferdium Team"]
 tags = ["Web apps", "Browser"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

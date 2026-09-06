@@ -2,9 +2,10 @@
 title = "Curseforge"
 description = "Easiest Way to Manage Your Mods"
 date = "2026-06-06T07:48:33Z"
+authors = ["Overwolf"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Overwolf"]
 tags = ["Gaming tool", "Mod marketplace" ]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

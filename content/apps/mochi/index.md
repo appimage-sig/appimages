@@ -2,9 +2,10 @@
 title = "Mochi"
 description = "Take notes and make flashcards using markdown, then study them using spaced repetition."
 date = "2026-04-10  00:00:00"
+authors = ["Mochi Cards"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Mochi Cards"]
 tags = ["Notes", "Cross-platform software"]
 architectures = ["x86_64"]
 license = ["EULA"]

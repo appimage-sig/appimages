@@ -2,9 +2,10 @@
 title = "LeoCAD"
 description = "A CAD application for creating virtual LEGO models"
 date = "2025-09-02T01:10:22Z"
+authors = ["Leonardo Zide"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Leonardo Zide"]
 tags = ["CAD"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]

@@ -1,4 +1,3 @@
-{% import "components/authors-list.html" as authors_list %}
 {% import "components/blog-card.html" as blog_card %}
 {% import "components/blog-section.html" as blog_section %}
 {% import "components/content.html" as content %}
@@ -18,10 +17,8 @@
     {{ content::content(content_html = block.content_html |default(value=""), content_md = block.content_md | default(value="")) }}
     {% elif block.block == "hero" %}
     {{ hero::hero(data = block) }}
-    {% elif block.block == "newsletter" %}
-    {{ newsletter::newsletter(config = block) }}
     {% elif block.block == "page-heading" %}
-    {{ page_heading::page_heading(taxonomies = block.taxonomies | default(value=false), title = block.title, description = block.description | default(value=false)) }}
+    {{ page_heading::page_heading(taxonomies = block.taxonomies | default(value=false), title = block.title, description = block.description, author = block.author | default(value=false)) }}
     {% elif block.block == "page-image" %}
     {{ page_image::page_image(image = block.image, image_alt = block.image_alt) }}
     {% elif block.block == "pagination" %}

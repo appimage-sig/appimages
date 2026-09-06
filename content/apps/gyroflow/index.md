@@ -2,9 +2,10 @@
 title = "Gyroflow"
 description = "Video stabilization using gyroscope data"
 date = "2025-09-04T14:41:47Z"
+authors = ["Gyroflow Team"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Gyroflow Team"]
 tags = ["Video stabilization", "Cross-platform software"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

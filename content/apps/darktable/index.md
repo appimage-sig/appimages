@@ -2,9 +2,10 @@
 title = "Darktable"
 description = "darktable is an open source photography workflow application and raw developer"
 date = "2026-08-26T08:37:00Z"
+authors = ["the darktable team"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["the darktable team"]
 tags = ["RAW processing", "Image editor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64","arm64"]

@@ -2,9 +2,10 @@
 title = "RawTherapee"
 description = "RawTherapee is a free, cross-platform raw image processing program"
 date = "2025-05-28 04:12:27"
+authors = ["The RawTherapee Team"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["The RawTherapee Team"]
 tags = ["RAW processing", "Image editor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]

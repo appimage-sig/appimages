@@ -2,9 +2,10 @@
 title = "Butterfly"
 description = "Powerful, minimalistic, cross-platform, opensource note-taking app"
 date = "2026-08-10T12:56:16Z"
+authors = ["LinwoodDev"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["LinwoodDev"]
 tags = ["Notes", "Handwriting", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

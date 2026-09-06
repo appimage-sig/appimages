@@ -2,9 +2,10 @@
 title = "AnymeX"
 description = "AnymeX is a multiservice tracking client designed exclusively for managing and tracking anime and manga progress across AniList, MyAnimeList, and Simkl."
 date = "2026-08-30T18:47:00Z"
+authors = ["Ryan"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ryan"]
 tags = ["Anime"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]

@@ -2,9 +2,10 @@
 title = "FireDragon"
 description = "A Floorp fork with custom branding and opinionated settings."
 date = "2026-04-10 07:48:00"
+authors = ["Nico Jensch"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Nico Jensch"]
 tags = ["Browser", "Firefox-based"]
 architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]

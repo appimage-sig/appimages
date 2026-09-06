@@ -2,9 +2,10 @@
 title = "AFFiNE"
 description = "AFFiNE is a workspace with fully merged docs, whiteboards and databases. Get more things done, your creativity isn’t monotone"
 date = "2026-01-18 18:01:00"
+authors = ["TOEVERYTHING"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["TOEVERYTHING"]
 tags = ["Knowledge Base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

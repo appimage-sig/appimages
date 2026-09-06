@@ -2,9 +2,10 @@
 title = "Lens"
 description = "Lens is the most powerful IDE for Kubernetes developers and operators"
 date = "2026-04-15T00:00:00"
+authors = ["Mirantis"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Mirantis"]
 tags = ["IDE", "Kubernetes"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

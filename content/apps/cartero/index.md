@@ -2,9 +2,10 @@
 title = "Cartero"
 description = "Native, lightweight, multiplatform and free HTTP client that you can use to test your APIs"
 date = "2026-01-25T18:13:06Z"
+authors = ["the Cartero authors"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["the Cartero authors"]
 tags = ["API Testing"]
 frameworks = ["GTK4"]
 architectures = ["x86_64", "arm64"]

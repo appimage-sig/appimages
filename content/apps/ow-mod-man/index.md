@@ -2,9 +2,10 @@
 title = "Outer Wilds Mod Manager"
 description = "The mod manager for the Outer Wilds Mod Loader"
 date = "2026-07-13T15:01:37Z"
+authors = ["Outer Wilds Mods"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Outer Wilds Mods"]
 tags = ["Game Mods"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

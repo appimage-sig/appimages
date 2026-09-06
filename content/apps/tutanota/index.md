@@ -2,9 +2,10 @@
 title = "Tuta"
 description = "Email service with a strong focus on security and privacy that lets you encrypt emails, contacts and calendar entries on all your devices."
 date = "2026-07-14 09:35:29"
+authors = ["Tutao"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Tutao"]
 tags = ["Mail Client", "Censorship-resistance software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

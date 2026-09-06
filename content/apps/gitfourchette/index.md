@@ -2,9 +2,10 @@
 title = "GitFourchette"
 description = "The comfortable Git UI for Linux."
 date = "2026-08-21T19:57:12Z"
+authors = ["Iliyas Jorio"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Iliyas Jorio"]
 tags = ["Git client"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

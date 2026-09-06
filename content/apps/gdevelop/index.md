@@ -2,9 +2,10 @@
 title = "GDevelop"
 description = "Full-featured, no-code, open-source game development software"
 date = "2026-08-28T14:09:51Z"
+authors = ["Florian Rival"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Florian Rival"]
 tags = ["Game development"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

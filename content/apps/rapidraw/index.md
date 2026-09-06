@@ -2,9 +2,10 @@
 title = "RapidRAW"
 description = "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind."
 date = "2026-07-26 16:49:32"
+authors = ["Timon Käch"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Timon Käch"]
 tags = ["RAW processing", "Image editor"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]

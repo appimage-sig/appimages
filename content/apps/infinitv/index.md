@@ -2,9 +2,10 @@
 title = "Extreme InfiniTV"
 description = "Cross-platform IPTV player for Xtream Codes and M3U/M3U8 playlists"
 date = "2026-07-15 22:28:07"
+authors = ["Ludovico Ferrara"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Ludovico Ferrara"]
 tags = ["IPTV player", "M3U8"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]

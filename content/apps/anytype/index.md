@@ -2,9 +2,10 @@
 title = "Anytype"
 description = "Anytype is a personal knowledge base"
 date = "2026-02-09 18:31:00"
+authors = ["Anytype"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Anytype"]
 tags = ["Knowledge base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

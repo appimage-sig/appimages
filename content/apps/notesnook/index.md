@@ -2,9 +2,10 @@
 title = "Notesnook"
 description = "End-to-end encrypted note taking alternative to Evernote."
 date = "2026-08-31T07:51:50Z"
+authors = ["Streetwriters"]
+
 [taxonomies]
 categories = ["Productivity"]
-authors = ["Streetwriters"]
 tags = ["Notes", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]

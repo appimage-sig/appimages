@@ -2,9 +2,10 @@
 title = "Archipelago"
 description = "Archipelago provides a generic framework for developing multiworld capability for game randomizers"
 date = "2026-04-01T19:29:34Z"
+authors = ["Archipelago"]
+
 [taxonomies]
 categories = ["Games"]
-authors = ["Archipelago"]
 tags = ["Game Engine"]
 frameworks = ["Kivy"]
 architectures = ["x86_64"]

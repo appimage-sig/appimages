@@ -2,9 +2,10 @@
 title = "Converseen"
 description = "Converseen is a batch image converter and resizer"
 date = "2026-07-20T13:45:24Z"
+authors = ["Francesco Mondello"]
+
 [taxonomies]
 categories = ["Graphics"]
-authors = ["Francesco Mondello"]
 tags = ["Image converter"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]

@@ -2,9 +2,10 @@
 title = "Wora"
 description = "A beautiful player for audiophiles."
 date = "2025-01-25T10:58:21Z"
+authors = ["Aaryan Kapoor"]
+
 [taxonomies]
 categories = ["AudioVideo"]
-authors = ["Aaryan Kapoor"]
 tags = ["Offline music player"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

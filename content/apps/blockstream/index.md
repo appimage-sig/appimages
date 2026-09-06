@@ -2,9 +2,10 @@
 title = "Blockstream"
 description = "Non-custodial Bitcoin wallet"
 date = "2026-01-14 01:17:00"
+authors = ["Blockstream"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["Blockstream"]
 tags = ["Cryptocurrency"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]

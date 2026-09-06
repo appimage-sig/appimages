@@ -2,9 +2,10 @@
 title = "Passy"
 description = "Offline password manager with cross-platform synchronization"
 date = "2026-08-05T21:22:07Z"
+authors = ["GlitterWare"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["GlitterWare"]
 tags = ["Offline password manager"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

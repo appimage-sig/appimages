@@ -2,9 +2,10 @@
 title = "RustDesk"
 description = "An open-source remote desktop, and alternative to TeamViewer"
 date = "2026-07-06T10:47:34Z"
+authors = ["RustDesk"]
+
 [taxonomies]
 categories = ["Utilities"]
-authors = ["RustDesk"]
 tags = ["Remote control"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]

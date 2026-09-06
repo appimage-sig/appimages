@@ -2,9 +2,10 @@
 title = "S3Drive"
 description = "Zero Knowledge E2E encrypted storage compatible with multiple providers"
 date = "2026-08-31T14:54:12Z"
+authors = ["Cloud storage"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Cloud storage"]
 tags = ["Cloud storage client", "Cross-platform software"]
 architectures = ["x86_64"]
 license = ["EULA"]

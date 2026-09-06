@@ -2,9 +2,10 @@
 title = "Antares"
 description = "A modern, fast and productivity driven SQL client with a focus in UX"
 date = "2025-06-20T07:56:08Z"
+authors = ["Fabio Di Stasio"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["Fabio Di Stasio"]
 tags = ["SQL"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

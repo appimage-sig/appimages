@@ -2,9 +2,10 @@
 title = "Folo"
 description = "Folo is the AI RSS Reader"
 date = "2026-09-02T03:14:39Z"
+authors = ["Follow Team"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Follow Team"]
 tags = ["RSS", "News Reader", "AI-powered software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

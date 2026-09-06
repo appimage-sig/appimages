@@ -2,9 +2,10 @@
 title = "Alephium"
 description = "The official Alephium desktop wallet."
 date = "2026-08-17T12:58:25Z"
+authors = ["Alephium Team"]
+
 [taxonomies]
 categories = ["Finance"]
-authors = ["Alephium Team"]
 tags = ["Cryptocurrency"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]

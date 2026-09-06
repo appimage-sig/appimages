@@ -2,9 +2,10 @@
 title = "WebCord"
 description = "A Discord and SpaceBar :electron:-based client implemented without Discord API."
 date = "2026-07-12T21:29:24Z"
+authors = ["SpacingBat3"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["SpacingBat3"]
 tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

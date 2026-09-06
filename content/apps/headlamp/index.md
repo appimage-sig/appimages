@@ -2,9 +2,10 @@
 title = "Headlamp"
 description = "A Kubernetes web UI that is fully-featured, user-friendly and extensible"
 date = "2026-08-20T23:43:23Z"
+authors = ["The Headlamp Contributors"]
+
 [taxonomies]
 categories = ["Development"]
-authors = ["The Headlamp Contributors"]
 tags = ["DevOps", "Kubernetes"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]

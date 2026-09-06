@@ -2,9 +2,10 @@
 title = "Wireguard GUI"
 description = "A wireguard client GUI for Linux made with nextauri"
 date = "2026-07-04T17:36:23Z"
+authors = ["Wireguard GUI Contributors"]
+
 [taxonomies]
 categories = ["Network"]
-authors = ["Wireguard GUI Contributors"]
 tags = ["VPN Client"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]
