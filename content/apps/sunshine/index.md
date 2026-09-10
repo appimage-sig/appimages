@@ -1,7 +1,7 @@
 +++
 title = "Sunshine"
 description = "Self-hosted game stream host for Moonlight."
-date = "2026-05-16T18:38:08Z"
+date = "2026-09-06T23:31:46Z"
 authors = ["LizardByte"]
 
 [taxonomies]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/LizardByte/Sunshine/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.516.143833/sunshine.AppImage">Download x86_64</a>
+    <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.906.222525/Sunshine_2026.906.222525_aarch64.AppImage">Download x86_64</a>
 </button>
 </div>

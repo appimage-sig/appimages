@@ -1,7 +1,7 @@
 +++
 title = "Equibop"
 description = "Equibop is a fork of Vesktop."
-date = "2026-07-22T23:02:52Z"
+date = "2026-09-05T00:55:36Z"
 authors = ["Equicord"]
 
 [taxonomies]
@@ -22,9 +22,9 @@ Report the bug: <https://github.com/Equicord/Equibop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Equicord/Equibop/releases/download/v3.2.2/Equibop-3.2.2-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/Equicord/Equibop/releases/download/v3.3.0/Equibop-3.3.0-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Equicord/Equibop/releases/download/v3.2.2/Equibop-3.2.2-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Equicord/Equibop/releases/download/v3.3.0/Equibop-3.3.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>

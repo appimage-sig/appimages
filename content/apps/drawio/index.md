@@ -1,7 +1,7 @@
 +++
 title = "draw.io"
 description = "Security-first diagramming for teams."
-date = "2026-08-22T11:34:27Z"
+date = "2026-09-08T15:47:29Z"
 authors = ["JGraph"]
 
 [taxonomies]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/jgraph/drawio-desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/drawio-x86_64-31.3.2.AppImage">Download x86_64</a>
+    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.4.5/drawio-x86_64-31.4.5.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.3.2/drawio-arm64-31.3.2.AppImage">Download arm64</a>
+    <a href="https://github.com/jgraph/drawio-desktop/releases/download/v31.4.5/drawio-arm64-31.4.5.AppImage">Download arm64</a>
 </button>
 </div>

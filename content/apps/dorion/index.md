@@ -1,7 +1,7 @@
 +++
 title = "Dorion"
 description = "Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more"
-date = "2026-07-22T07:20:00Z"
+date = "2026-07-22T04:19:49Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["SpikeHD"]

@@ -1,7 +1,7 @@
 +++
 title = "5ire"
 description = "5ire is an open-source desktop AI assistant designed with privacy as its core principle"
-date = "2026-03-18T13:31:00Z"
+date = "2026-03-18T09:42:05Z"
 [taxonomies]
 categories = ["Productivity"]
 authors = ["Ironben"]

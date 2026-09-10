@@ -1,7 +1,7 @@
 +++
 title = "PCSX2"
 description = "Free and open-source PlayStation 2 (PS2) emulator"
-date = "2026-08-30T20:46:07Z"
+date = "2026-09-04T16:37:30Z"
 authors = ["PCSX2 Team"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/PCSX2/pcsx2/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/PCSX2/pcsx2/releases/download/v2.8.1/pcsx2-v2.8.1-linux-appimage-x64-Qt.AppImage">Download x86_64</a>
+    <a href="https://github.com/PCSX2/pcsx2/releases/download/v2.8.2/pcsx2-v2.8.2-linux-appimage-x64-Qt.AppImage">Download x86_64</a>
 </button>
 </div>
