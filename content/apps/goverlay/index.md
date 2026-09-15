@@ -1,7 +1,7 @@
 +++
 title = "Goverlay"
 description = "Goverlay is an easy graphical interface to configure linux gaming applications"
-date = "2026-08-22T20:37:32Z"
+date = "2026-09-12T03:42:29Z"
 authors = ["Benjamin Gois"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/benjamimgois/goverlay>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/benjamimgois/goverlay/releases/download/1.9.0/goverlay-1.9.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/benjamimgois/goverlay/releases/download/1.9.2/goverlay-1.9.2-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

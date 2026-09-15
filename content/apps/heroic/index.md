@@ -1,7 +1,7 @@
 +++
 title = "Heroic Games Launcher"
 description = "A Native GOG, Amazon and Epic Games Launcher"
-date = "2026-08-08T19:34:19Z"
+date = "2026-09-15T01:18:03Z"
 authors = ["Heroic Games Launcher Authors"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/is
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-<a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.1/Heroic-2.22.1-linux-x86_64.AppImage">Download x86_64</a>
+<a href="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.2/Heroic-2.22.2-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "Aptakube"
 description = "Modern, lightweight and multi-cluster Kubernetes GUI"
-date = "2026-09-10T07:02:42Z"
+date = "2026-09-15T07:51:54Z"
 authors = ["Sumbit Labs Limited"]
 
 [taxonomies]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/aptakube/aptakube/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/aptakube/aptakube/releases/download/1.20.0/aptakube_1.20.0_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/aptakube/aptakube/releases/download/1.20.3/aptakube_1.20.3_amd64.AppImage">Download x86_64</a>
 </button>
 </div>
