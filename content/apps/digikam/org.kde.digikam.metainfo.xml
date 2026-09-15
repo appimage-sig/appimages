@@ -436,6 +436,7 @@
       <li xml:lang="ka">SQLite ან MariaDB-ზე დაფუძნებული საცავი ალბომის შემცველობისთვის და მისი მეტამონაცემებისთვის დამატებითი ძებნის ხელსაწყოებისთვის</li>
       <li xml:lang="nl">Op SQLite of MariaDB gebaseerde opslag voor de inhoud van albums en zijn metagegevens met geavanceerde zoekhulpmiddellen</li>
       <li xml:lang="pt-BR">Armazenamento baseado em SQLite ou MariaDB para o conteúdo dos álbuns e seus metadados com ferramentas de pesquisa avançadas</li>
+      <li xml:lang="ru">Использование баз данных SQLite или MariaDB для хранения метаданных и информации о содержимом альбомов позволяет выполнять расширенный поиск и отбор требуемых изображений;</li>
       <li xml:lang="sk">Ukladanie obsahu albumov a ich metadát založené na SQLite alebo MariaDB s pokročilými nástrojmi na vyhľadávanie</li>
       <li xml:lang="sl">Shramba vsebine albuma in njegovih metapodatkov, ki jo poganja SQLite ali MariaDB, z naprednimi orodji za iskanje</li>
       <li xml:lang="sv">Lagring driven av SQLite eller MariaDB för album och deras metadata med avancerade sökverktyg</li>

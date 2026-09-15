@@ -38,6 +38,30 @@
   <url type="homepage">https://github.com/CyberTimon/RapidRAW</url>
 
   <releases>
+    <release version="v1.6.3" date="2026-09-03">
+        <url type="details">https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.3</url>
+        <description translate="no">
+            <p>New Features</p>
+            <ul>
+                <li>Liquify Tool: Reshape and warp specific areas of an image for structural adjustments or creative distortion.</li>
+                <li>Retouch Tool: Dedicated brush to smooth skin and remove blemishes while intelligently preserving natural edge details.</li>
+                <li>Guided Perspective Correction: Draw up to four guide lines on the canvas to automatically align structures and architectural perspective.</li>
+                <li>Edge-Aware AI Subject Masks: Added an edge-aware post-processing filter so subject mask edges snap accurately to subjects.</li>
+                <li>Unified Crop &amp; Transform Panel: Integrated lens correction and transform controls directly into the crop panel with real-time canvas previews.</li>
+                <li>Rewritten EXIF &amp; Thumbnail Engines: Metadata is now cached centrally without cluttering folders with sidecars, and dual-resolution thumbnails drastically speed up browsing.</li>
+                <li>Categorized Mask Panel: Redesigned the mask creation workflow into categorized sections for quicker access.</li>
+                <li>Workflow Shortcuts: Added a batch auto-apply option for lens corrections and a Shift + Drag canvas shortcut to auto-straighten the horizon.</li>
+            </ul>
+            <p>Core Improvements</p>
+            <ul>
+                <li>Sharpening Refinements: Reduced artifacts and halos around high-contrast edges.</li>
+                <li>Instant Original Preview: Rewritten toggle logic switches instantly via the primary rendering pipeline.</li>
+                <li>Wayland Support: Resolved compatibility issues under Linux Wayland sessions without requiring manual workarounds.</li>
+                <li>Denoise Exposure Fix: Fixed a bug that caused denoised images to appear darker than the original RAW.</li>
+                <li>Stability &amp; Fixes: Added automatic GPU recovery on rendering errors, resolved EXIF metadata export bugs, and refreshed application icons.</li>
+            </ul>
+        </description>
+    </release>
     <release version="v1.6.2" date="2026-08-21">
         <url type="details">https://github.com/CyberTimon/RapidRAW/releases/tag/v1.6.2</url>
         <description translate="no">

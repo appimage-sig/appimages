@@ -80,16 +80,17 @@
     <url type="contact">https://converseen.fasterland.net/contact-me/</url>
     <url type="vcs-browser">https://github.com/Faster3ck/Converseen</url>
     <releases>
-        <release version="0.15.2.7" date="2026-07-20">
+        <release version="0.15.2.8" date="2026-09-07">
             <url type="details">https://converseen.fasterland.net/changelog/</url>
             <description>
-                <p>Changelog for 0.15.2.7</p>
+                <p>Changelog for 0.15.2.8</p>
                 <ul>
-                    <li>Fixed AOM encoder error during AVIF conversions</li>
+                    <li>Added Georgian translation</li>
                     <li>Various Bugfixes</li>
                 </ul>
             </description>
         </release>
+        <release version="0.15.2.7" date="2026-07-20" />
         <release version="0.15.2.6" date="2026-07-07" />
         <release version="0.15.2.5" date="2026-06-01" />
         <release version="0.15.2.4" date="2026-05-20" />

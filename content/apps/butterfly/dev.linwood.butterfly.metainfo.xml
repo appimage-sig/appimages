@@ -5,7 +5,7 @@
 	<developer id="dev.linwood">
 		<name>Linwood</name>
 	</developer>
-	<summary>Draw and organize ideas</summary>
+	<summary>Infinite-canvas notes and sketches</summary>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>AGPL-3.0-only</project_license>
 	<supports>
@@ -27,38 +27,27 @@
 	<url type="vcs-browser">https://github.com/LinwoodDev/Butterfly.git</url>
 	<url type="contribute">https://github.com/LinwoodDev/Butterfly/blob/develop/CONTRIBUTING.md</url>
 	<description>
-		<p>Butterfly is a note-taking app where your ideas come first. You can paint, add texts, and
-			export them easily on every device. This app works on Android, Windows, Linux, and in the web.</p>
-		<p>Features:</p>
-		<ul>
-			<li>Simple and intuitive: Every tool is in the right place. Open the app and start drawing.
-				Change your tools by clicking on them.</li>
-			<li>Customizable: Change everything to your needs. Choose your custom color, create a palette,
-				and add your pages to the paper. The paper has an infinite size, perfect for your ideas and
-				notes.</li>
-			<li>Supports your favorite formats: Import and export are supported for images, PDF and SVG.
-				Open these files directly to edit them.</li>
-			<li>Works on every device: The app is available for Android, Windows, Linux, and in the web.
-				You can use it on your phone, tablet, or computer.</li>
-			<li>Choose where your data is stored: You can choose to store your data locally or in your
-				favorite cloud (WebDAV). You can also export your data to a file and import it again.</li>
-			<li>Available in many languages: The app is available in many languages. Help us to translate
-				this app to your language.</li>
-			<li>FOSS: The app is open source and free. You can contribute to the project and help to make
-				it better.</li>
-			<li>Use it offline: You can use the app offline. You can draw, paint, and export your notes
-				without an internet connection.</li>
-			<li>Use your favorite stylus: The app supports stylus and touch devices. You can draw and
-				paint with your favorite stylus.</li>
-			<li>Write text: You can write text on your notes. You can change the font, size, and color.</li>
-			<li>Take photos: You can take photos and add them to your notes. You can also import photos
-				from your gallery.</li>
-			<li>Editable: You can change the size, color, and position of every element after you added it
-				to your note.</li>
-			<li>Add shapes: You can add shapes to your notes. You can choose between a rectangle,
-				triangle, circle and line.</li>
-			<li>Structure your notes: Add areas and waypoints to your notes to keep them organized.</li>
-		</ul>
+		<p>Butterfly is an open-source app for people who think better with space around their ideas. Instead of
+			writing everything from top to bottom on a fixed page, you get an endless workspace where you can place
+			notes, sketches, diagrams, images, and documents wherever they make sense.</p>
+		<p>Use it for class notes, meeting notes, research, math, worksheets, planning, whiteboarding, storyboards,
+			product sketches, or any project that starts messy and needs room to grow. Write by hand with a stylus,
+			touch, or mouse, type text and Markdown, add shapes and lines, place images and photos, import PDFs,
+			SVGs, and image files, then export your work as PDF, SVG, images, or portable Butterfly files.</p>
+		<p>Butterfly tries to stay out of your way while you work. Recent files, quick-start templates, search,
+			folders, imports, page navigation, and tool settings are close when you need them, but the document
+			stays at the center. You can begin with a plain page, ruled paper, a grid, dotted paper, music paper,
+			or your own template.</p>
+		<p>As your document grows, Butterfly gives you ways to keep it understandable. Split work into pages and
+			page folders, use layers, mark important places with areas and waypoints, save reusable parts in packs,
+			and keep palettes and text styles ready for the next document. Almost everything you add remains
+			editable, so you can move, resize, recolor, reorder, and refine your work later instead of starting
+			over.</p>
+		<p>Your files stay under your control. Work offline, store documents on your device, choose a different
+			data directory, or connect WebDAV and Nextcloud if you want your own sync setup. There is no required
+			account, no required subscription, and no required proprietary cloud.</p>
+		<p>Butterfly is free, community translated, available on phones, tablets, desktops, and the web, and
+			developed in public under the AGPL-3.0 license.</p>
 	</description>
 	<screenshots>
 		<screenshot type="default">
@@ -74,6 +63,40 @@
 	</screenshots>
 	<launchable type="desktop-id">dev.linwood.butterfly.desktop</launchable>
 	<releases>
+		<release version="2.6.0-rc.1" type="development" date="2026-09-13">
+			<description>
+				<ul>
+					<li>Add per-page viewport persistence</li>
+					<li>Add table cell range selection with shared formatting controls</li>
+					<li>Respect viewport rotation in element creation, selection, and spacer tools</li>
+					<li>Assign new text and markdown elements to the current collection</li>
+					<li>Improve hit testing for rotated, curved, and zero-size elements</li>
+					<li>Improve table selection, deselection, and border resizing behavior</li>
+					<li>Use sidebar for full screen and disabled navigation rail on desktop (#1256)</li>
+					<li>Navigate to root directory after connection change (#1256)</li>
+					<li>Fix applying backgrounds from custom templates</li>
+					<li>Fix current tool not updated after toolbar change</li>
+				</ul>
+			</description>
+			<url type="details">https://linwood.dev/butterfly/2.6.0-rc.1</url>
+		</release>
+		<release version="2.6.0-rc.0" type="development" date="2026-09-07">
+			<description>
+				<ul>
+					<li>Add full screen embed option and restore missing embed menu items</li>
+					<li>Add setting for default document persistence states (#1249)</li>
+					<li>Improve landscape mobile home page</li>
+					<li>Improve collaboration reliability and user experience</li>
+					<li>Improve responsiveness and add helper text to the add connection dialog</li>
+					<li>Improve pages and areas navigator performance</li>
+					<li>Improve page switching performance for large documents</li>
+					<li>Improve efficiency of file coping and exporting</li>
+					<li>Improve baking performance by testing layer changes before baking</li>
+					<li>Improve eraser performance by clipping strokes directly at the eraser boundary</li>
+				</ul>
+			</description>
+			<url type="details">https://linwood.dev/butterfly/2.6.0-rc.0</url>
+		</release>
 		<release version="2.6.0-beta.6" type="development" date="2026-08-24">
 			<description>
 				<ul>
@@ -125,39 +148,8 @@
 			</description>
 			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.4</url>
 		</release>
-		<release version="2.6.0-beta.3" type="development" date="2026-07-27">
-			<description>
-				<ul>
-					<li>Add shear property for elements</li>
-					<li>Add camera rotation support (#977)</li>
-					<li>Add custom fonts to label (#1011)</li>
-					<li>Add option to customize default file name globally and in template (#1041)</li>
-					<li>Add flip horizontal and vertical to all elements (#1058)</li>
-					<li>Improve negative scaling</li>
-					<li>Improve rotated elements transformtion (#1099)</li>
-					<li>Improve rendering reliability if baking fails</li>
-					<li>Fix embed/web loading errors (#1167)</li>
-					<li>Fix file previews resetting the language to the system locale</li>
-				</ul>
-			</description>
-			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.3</url>
-		</release>
-		<release version="2.6.0-beta.2" type="development" date="2026-07-13">
-			<description>
-				<ul>
-					<li>Add persistent document states (#1077)</li>
-					<li>Reorder top corner menu to have home on top (#1161)</li>
-					<li>Rebuild internal settings pages</li>
-					<li>Refactor whole state management structure (#1157)</li>
-					<li>Remove unused view options</li>
-					<li>Fix crash with android saf on folders with many files</li>
-					<li>Fix blur resetting on color change</li>
-					<li>Fix polygon collision aabb tests if closed (#1162)</li>
-					<li>Upgrade to agb 9</li>
-				</ul>
-			</description>
-			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.2</url>
-		</release>
+		<release version="2.6.0-beta.3" type="development" date="2026-07-27" />
+		<release version="2.6.0-beta.2" type="development" date="2026-07-13" />
 		<release version="2.6.0-beta.1" type="development" date="2026-07-06" />
 		<release version="2.6.0-beta.0" type="development" date="2026-06-22" />
 		<release version="2.5.5" date="2026-08-10" />
