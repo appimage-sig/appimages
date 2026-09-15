@@ -25,6 +25,6 @@ Report the bug: <https://bugs.kde.org/buglist.cgi?product=digikam&resolution=>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-      <a href="https://download.kde.org/stable/digikam/9.0.0/digiKam-9.0.0-Qt6-x86-64.AppImage">Download x86_64</a>
+    <a href="https://download.kde.org/stable/digikam/9.0.0/digiKam-9.0.0-Qt6-x86-64.AppImage">Download x86_64</a>
 </button>
 </div>

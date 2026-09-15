@@ -42,6 +42,6 @@ Report the bug: <https://github.com/enzo1982/freac/issues>
     <a href="https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage">Download riscv64</a>
 </button>
     <button class="c-button c-button--primary c-button--large" >
-      <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download ppc64el</a>
+    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download ppc64el</a>
 </button>
 </div>

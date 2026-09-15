@@ -20,7 +20,7 @@ Web: <https://www.beeper.com/>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" > 
-      <a href="https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop">Download x86_64</a>
+    <a href="https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
     <a href="https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop">Download arm64</a>

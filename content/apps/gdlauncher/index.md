@@ -25,6 +25,6 @@ Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon//issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-      <a href="https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage">Download x86_64</a>
+    <a href="https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage">Download x86_64</a>
 </button>
 </div>

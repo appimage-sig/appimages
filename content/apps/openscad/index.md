@@ -25,6 +25,6 @@ Report the bug: <https://github.com/openscad/openscad/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-      <a href="https://files.openscad.org/snapshots/OpenSCAD-2026.04.16-x86_64.AppImage">Download x86_64</a>
+    <a href="https://files.openscad.org/snapshots/OpenSCAD-2026.04.16-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

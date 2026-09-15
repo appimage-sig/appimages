@@ -22,7 +22,7 @@ Source code: <https://github.com/dr460nf1r3/firedragon-browser>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" > 
-      <a href="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-x64.AppImage">Download x86_64</a>
+    <a href="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-x64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
     <a href="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-arm64.AppImage">Download arm64</a>
