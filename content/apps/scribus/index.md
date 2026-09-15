@@ -25,7 +25,7 @@ Translate: <https://explore.transifex.com/scribus/scribus>
 Report the bug: <http://bugs.scribus.net>  
 
 <div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"
+<button class="c-button c-button--primary c-button--large" >
       <a href="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.3/scribus-1.7.3-linux-x86_64.AppImage/download">Download x86_64</a>
 </button>
 </div>
