@@ -1,7 +1,7 @@
 +++
 title = "Beekeeper Studio"
 description = "Beekeeper Studio is a cross-platform SQL editor and database manager"
-date = "2026-09-14T16:14:26Z"
+date = "2026-09-15T20:41:56Z"
 authors = ["Matthew Rathbone"]
 
 [taxonomies]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/beekeeper-studio/beekeeper-studio/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.0/Beekeeper-Studio-6.1.0-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.1/Beekeeper-Studio-6.1.1-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.0/Beekeeper-Studio-6.1.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.1.1/Beekeeper-Studio-6.1.1-arm64.AppImage">Download arm64</a>
 </button>
 </div>
