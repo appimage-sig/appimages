@@ -1,7 +1,7 @@
 +++
 title = "Koodo Reader"
 description = "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux and Web"
-date = "2026-09-02T09:43:34Z"
+date = "2026-09-26T02:29:54Z"
 authors = ["App by Troye"]
 
 [taxonomies]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/koodo-reader/koodo-reader/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.4.4/Koodo-Reader-2.4.4-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.4.5/Koodo-Reader-2.4.5-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.4.4/Koodo-Reader-2.4.4-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/koodo-reader/koodo-reader/releases/download/v2.4.5/Koodo-Reader-2.4.5-arm64.AppImage">Download arm64</a>
 </button>
 </div>

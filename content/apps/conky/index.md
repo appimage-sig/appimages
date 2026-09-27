@@ -1,7 +1,7 @@
 +++
 title = "Conky"
 description = "Light-weight system monitor for X, Wayland, and other things, too"
-date = "2026-06-19T01:29:26Z"
+date = "2026-09-27T13:17:31Z"
 authors = ["Brenden Matthews"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/brndnmtthws/conky/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/brndnmtthws/conky/releases/download/v1.24.2/conky-ubuntu-22.04-x86_64-v1.24.2-debug.AppImage">Download x86_64</a>
+    <a href="https://github.com/brndnmtthws/conky/releases/download/v1.25.0/conky-ubuntu-22.04-x86_64-v1.25.0-debug.AppImage">Download x86_64</a>
 </button>
 </div>

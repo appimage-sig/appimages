@@ -1,7 +1,7 @@
 +++
 title = "NotepadNext"
 description = "A cross-platform, reimplementation of Notepad++"
-date = "2026-04-27T22:40:50Z"
+date = "2026-09-21T23:04:33Z"
 authors = ["Justin Dailey"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/dail8859/NotepadNext/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/dail8859/NotepadNext/releases/download/v0.14/NotepadNext-v0.14-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "superProductivity"
 description = "An advanced todo list app with timeboxing & time tracking capabilities that supports importing tasks from your calendar, Jira, GitHub and others"
-date = "2026-09-12T11:02:07Z"
+date = "2026-09-19T15:56:04Z"
 authors = ["Johannes Millan"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/johannesjo/super-productivity/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/super-productivity/super-productivity/releases/download/v19.0.1/superProductivity-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/super-productivity/super-productivity/releases/download/v19.1.0/superProductivity-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

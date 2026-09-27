@@ -1,7 +1,7 @@
 +++
 title = "Story Architect"
 description = "All in one screenwriting app"
-date = "2026-06-08T12:22:18Z"
+date = "2026-09-22T18:19:01Z"
 authors = ["Story Apps"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/story-apps/starc/issues/>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/story-apps/starc/releases/download/v0.8.2/starc-setup-qt5.AppImage">Download x86_64</a>
+    <a href="https://github.com/story-apps/starc/releases/download/v0.8.3/starc-setup-qt5.AppImage">Download x86_64</a>
 </button>
 </div>
