@@ -38,8 +38,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
       
-      - name: Build site
+      - name: Checkout repository
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+      
+      - name: Build site
         uses: ./.github/workflows/deploy.yml
