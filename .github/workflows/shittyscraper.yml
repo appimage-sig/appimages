@@ -39,4 +39,7 @@ jobs:
           branch: ${{ github.ref }}
       
       - name: Build site
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
         uses: ./.github/workflows/deploy.yml
