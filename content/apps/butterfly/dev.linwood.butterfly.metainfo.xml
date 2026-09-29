@@ -63,6 +63,32 @@
 	</screenshots>
 	<launchable type="desktop-id">dev.linwood.butterfly.desktop</launchable>
 	<releases>
+		<release version="2.6.0-rc.3" type="development" date="2026-09-24">
+			<description>
+				<ul>
+					<li>Add explicit raster bounds to offscreen canvas recordings</li>
+					<li>Add more contextual help buttons</li>
+					<li>Fix high-quality image exports being cropped at GPU texture limits (#1269)</li>
+					<li>Fix image exports reusing screen-resolution renderer caches at different quality settings</li>
+					<li>Fix recent file tooltips overlapping file names and refresh thumbnails when their setting changes (#1273)</li>
+					<li>Fix hidden selection transform boxes continuing to catch input after deselection (#1275)</li>
+					<li>Add reset functionality to embeds</li>
+				</ul>
+			</description>
+			<url type="details">https://linwood.dev/butterfly/2.6.0-rc.3</url>
+		</release>
+		<release version="2.6.0-rc.2" type="development" date="2026-09-16">
+			<description>
+				<ul>
+					<li>Show initial document content while PDFs load and repaint once the visible batch is ready</li>
+					<li>Fix strokes disappearing during PDF rendering and stale viewport updates after navigation (#1259)</li>
+					<li>Fix PDF import initialization and loading dialog cleanup after preview failures (#1260)</li>
+					<li>Preserve shared PDFs across page changes, release unused sources, and retry failed asset loads (#1261)</li>
+					<li>Fix rtl icon mirroring on multiple views</li>
+				</ul>
+			</description>
+			<url type="details">https://linwood.dev/butterfly/2.6.0-rc.2</url>
+		</release>
 		<release version="2.6.0-rc.1" type="development" date="2026-09-13">
 			<description>
 				<ul>
@@ -114,44 +140,13 @@
 			</description>
 			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.6</url>
 		</release>
-		<release version="2.6.0-beta.5" type="development" date="2026-08-17">
-			<description>
-				<ul>
-					<li>Add reset zoom shortcut (#1224)</li>
-					<li>Add context menu shortcut (#1214)</li>
-					<li>Add Reveal in Explorer (#1219)</li>
-					<li>Improve renderer refresh and viewport baking performance on large documents</li>
-					<li>Improve settings search performance</li>
-					<li>Improve context menu design (#1220)</li>
-					<li>Restore option icons and theme previews in the personalization settings (#1208)</li>
-					<li>Align settings help buttons with their titles</li>
-					<li>Fix reorder changes applied only visible after moving canvas (#1211)</li>
-					<li>Fix rendering updates and ordering when editing elements across layers (#1209)</li>
-				</ul>
-			</description>
-			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.5</url>
-		</release>
-		<release version="2.6.0-beta.4" type="development" date="2026-08-03">
-			<description>
-				<ul>
-					<li>Add table tool and elements (#1155)</li>
-					<li>Add Markdown table parsing and rendering</li>
-					<li>Add preview images to the pages and areas navigators (#1151)</li>
-					<li>Add color option to the area tool (#1175)</li>
-					<li>Add foreground color option to the ruler tool with automatic contrast (#1168)</li>
-					<li>Add reset to setting pages (#1190)</li>
-					<li>Add focal support to radial gradients (#1193)</li>
-					<li>Add back and forward mouse button mappings (#1169)</li>
-					<li>Add two- and three-finger touch shortcuts (#976)</li>
-					<li>Add configurable canvas rotation keyboard shortcuts (#1170)</li>
-				</ul>
-			</description>
-			<url type="details">https://linwood.dev/butterfly/2.6.0-beta.4</url>
-		</release>
+		<release version="2.6.0-beta.5" type="development" date="2026-08-17" />
+		<release version="2.6.0-beta.4" type="development" date="2026-08-03" />
 		<release version="2.6.0-beta.3" type="development" date="2026-07-27" />
 		<release version="2.6.0-beta.2" type="development" date="2026-07-13" />
 		<release version="2.6.0-beta.1" type="development" date="2026-07-06" />
 		<release version="2.6.0-beta.0" type="development" date="2026-06-22" />
+		<release version="2.6.0" type="stable" date="2026-09-28" />
 		<release version="2.5.5" date="2026-08-10" />
 		<release version="2.5.4" type="stable" date="2026-07-20" />
 		<release version="2.5.3-rc.1" type="development" date="2026-06-05" />
