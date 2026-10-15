@@ -63,6 +63,16 @@
 	</screenshots>
 	<launchable type="desktop-id">dev.linwood.butterfly.desktop</launchable>
 	<releases>
+		<release version="2.6.1" type="stable" date="2026-10-15">
+			<description>
+				<ul>
+					<li>Add camera control visibility settings with fading after five seconds of inactivity and temporary visibility by default on mobile</li>
+					<li>Migrate popover menus to Material UI</li>
+					<li>Fix missing default Markdown formatting when importing notes (#1300)</li>
+				</ul>
+			</description>
+			<url type="details">https://linwood.dev/butterfly/2.6.1</url>
+		</release>
 		<release version="2.6.0" type="stable" date="2026-09-28">
 			<description>
 				<ul>
