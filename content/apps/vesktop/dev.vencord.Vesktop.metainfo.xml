@@ -29,6 +29,21 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.8" date="2026-10-22" type="stable">
+      <url>https://github.com/Vencord/Vesktop/releases/tag/untagged-4c37237ecfa1da7efa05</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Updated Electron to address the [recent eMudhra certificate authority security issue](https://blog.cloudflare.com/emudhra-certificate-compromise) which undermines trust in affected certificates. This does not mean Vesktop was compromised, but updating is strongly recommended.</li>
+          <li>Windows Screenshare: fixed stream containing other participants' voices</li>
+          <li>Fixed various issues related to screenshare with system audio on Linux</li>
+          <li>Improved the Native titlebar setting</li>
+          <li>Fixed not being able to zoom with Numpad +/-</li>
+          <li>Fixed various titlebar issues</li>
+          <li>AppImage: stop using dead fuse2</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.7" date="2026-08-18" type="stable">
       <url>https://github.com/Vencord/Vesktop/releases/tag/v1.6.7</url>
       <description>
