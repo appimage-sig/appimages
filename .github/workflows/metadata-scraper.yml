@@ -33,5 +33,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
       
-      - name: Build site
-        uses: ./.github/workflows/deploy.yml
+  build-site:
+    runs-on: ubuntu-latest
+      steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+      - name: Deploy site
+        uses: ./.github/actions/deploy.yml
