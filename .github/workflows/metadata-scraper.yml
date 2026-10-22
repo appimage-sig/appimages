@@ -35,8 +35,7 @@ jobs:
       
   build-site:
     runs-on: ubuntu-latest
-
-      steps:
+    steps:
         - name: Checkout repository
           uses: actions/checkout@v7
         - name: Deploy site
