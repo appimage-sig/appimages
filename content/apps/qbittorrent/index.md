@@ -1,7 +1,7 @@
 +++
 title = "qBittorrent-Enhanced-Edition"
 description = "qBittorrent is a bittorrent client programmed in C++ / Qt"
-date = "2026-07-19T17:55:59Z"
+date = "2026-10-03T18:29:44Z"
 authors = ["c0re100"]
 
 [taxonomies]
@@ -22,9 +22,9 @@ Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.3.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.3.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

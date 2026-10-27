@@ -1,7 +1,7 @@
 +++
 title = "Wireguard GUI"
 description = "A wireguard client GUI for Linux made with nextauri"
-date = "2026-07-04T17:36:23Z"
+date = "2026-10-26T19:41:30Z"
 authors = ["Wireguard GUI Contributors"]
 
 [taxonomies]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/0xle0ne/wireguard-gui/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.12-stable/wireguard-gui_0.1.12_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.13-stable/wireguard-gui_0.1.13_amd64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.12-stable/wireguard-gui_0.1.12_aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.13-stable/wireguard-gui_0.1.13_aarch64.AppImage">Download arm64</a>
 </button>
 </div>

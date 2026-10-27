@@ -1,7 +1,7 @@
 +++
 title = "RustDesk"
 description = "An open-source remote desktop, and alternative to TeamViewer"
-date = "2026-07-06T10:47:34Z"
+date = "2026-09-30T17:16:43Z"
 authors = ["RustDesk"]
 
 [taxonomies]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/rustdesk/rustdesk/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.4.9/rustdesk-1.4.9-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/rustdesk/rustdesk/releases/download/1.5.0/rustdesk-1.5.0-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

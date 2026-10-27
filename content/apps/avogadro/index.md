@@ -1,7 +1,7 @@
 +++
 title = "Avogadro"
 description = "Advanced molecular editor designed for cross-platform use in computational chemistry, molecular modeling, bioinformatics, materials science, and related areas"
-date = "2026-04-01T11:16:01Z"
+date = "2026-10-23T13:11:24Z"
 authors = ["Open Chemistry"]
 
 [taxonomies]
@@ -27,9 +27,9 @@ Report the bug: <https://github.com/openchemistry/avogadrolibs/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.0.0/Avogadro2-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

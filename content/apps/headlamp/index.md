@@ -1,7 +1,7 @@
 +++
 title = "Headlamp"
 description = "A Kubernetes web UI that is fully-featured, user-friendly and extensible"
-date = "2026-08-20T23:43:23Z"
+date = "2026-10-15T23:03:58Z"
 authors = ["The Headlamp Contributors"]
 
 [taxonomies]
@@ -26,12 +26,12 @@ Report the bug: <https://github.com/headlamp-k8s/headlamp/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.45.0/Headlamp-0.45.0-linux-x64.AppImage">Download x86_64</a>
+    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-x64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.45.0/Headlamp-0.45.0-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.45.0/Headlamp-0.45.0-linux-arm64.AppImage">Download armv7l</a>
+    <a href="https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-arm64.AppImage">Download armv7l</a>
 </button>
 </div>

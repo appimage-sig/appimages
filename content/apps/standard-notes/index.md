@@ -1,7 +1,7 @@
 +++
 title = "Standard Notes"
 description = "End-to-end encrypted note-taking app for digitalists and professionals"
-date = "2026-08-17T22:27:53Z"
+date = "2026-10-23T21:24:26Z"
 authors = ["Standard Notes"]
 
 [taxonomies]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/standardnotes/forum/issues/>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.0/standard-notes-3.202.0-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.0/standard-notes-3.202.0-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

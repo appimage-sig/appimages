@@ -1,7 +1,7 @@
 +++
 title = "Obsidian"
 description = "Obsidian is a powerful and extensible knowledge base that works on top of your local folder of plain text files"
-date = "2026-08-12T13:37:08Z"
+date = "2026-10-22T14:08:58Z"
 authors = ["Obsidian Team"]
 
 [taxonomies]
@@ -22,9 +22,9 @@ Translate: <https://github.com/obsidianmd/obsidian-translations>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/Obsidian-1.13.7-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.14.5/Obsidian-1.14.5-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/Obsidian-1.13.7-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.14.5/Obsidian-1.14.5-arm64.AppImage">Download arm64</a>
 </button>
 </div>

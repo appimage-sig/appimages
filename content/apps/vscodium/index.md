@@ -1,7 +1,7 @@
 +++
 title = "VSCodium"
 description = "Free/Libre Open Source Software Binaries of VS Code"
-date = "2026-09-09T09:37:37Z"
+date = "2026-10-26T09:42:01Z"
 authors = ["The VSCodium contributors"]
 
 [taxonomies]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/VSCodium/vscodium/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-1.135.06055-anylinux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-1.143.17183-anylinux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

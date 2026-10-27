@@ -1,7 +1,7 @@
 +++
 title = "GDevelop"
 description = "Full-featured, no-code, open-source game development software"
-date = "2026-09-11T13:16:08Z"
+date = "2026-10-21T09:12:51Z"
 authors = ["Florian Rival"]
 
 [taxonomies]
@@ -25,9 +25,9 @@ Report the bug: <https://github.com/4ian/GDevelop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.282/GDevelop-5-5.6.282-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.285/GDevelop-5-5.6.285-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.282/GDevelop-5-5.6.282-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/4ian/GDevelop/releases/download/v5.6.285/GDevelop-5-5.6.285-arm64.AppImage">Download arm64</a>
 </button>
 </div>

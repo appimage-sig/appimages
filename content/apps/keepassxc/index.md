@@ -1,7 +1,7 @@
 +++
 title = "KeePassXC"
 description = "KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information"
-date = "2025-11-25 03:44:00"
+date = "2026-10-23T22:32:19Z"
 authors = ["KeePassXC Team"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/keepassxreboot/keepassxc/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg">Download x86_64</a>
+    <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-aarch64.AppImage">Download x86_64</a>
 </button>
 </div>

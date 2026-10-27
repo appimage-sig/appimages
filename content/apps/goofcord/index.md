@@ -1,7 +1,7 @@
 +++
 title = "GoofCord"
 description = "Take control of your Discord experience with GoofCord – the highly configurable and privacy-focused Discord client"
-date = "2026-07-21T07:18:58Z"
+date = "2026-10-01T11:37:19Z"
 authors = ["Milkshift"]
 
 [taxonomies]
@@ -26,12 +26,12 @@ Report the bug: <https://github.com/Milkshiift/GoofCord/issues>
 
 <div class="d_buttons">
   <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.0/GoofCord-2.3.0-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.1/GoofCord-2.3.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.0/GoofCord-2.3.0-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.1/GoofCord-2.3.1-linux-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.0/GoofCord-2.3.0-linux-arm64.AppImage">Download armv7l</a>
+    <a href="https://github.com/Milkshiift/GoofCord/releases/download/v2.3.1/GoofCord-2.3.1-linux-arm64.AppImage">Download armv7l</a>
 </button>
 </div>

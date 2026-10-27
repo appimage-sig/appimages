@@ -1,7 +1,7 @@
 +++
 title = "Logseq"
 description = "A privacy-first, open-source platform for knowledge management and collaboration"
-date = "2026-07-13T06:35:24Z"
+date = "2026-10-07T14:16:15Z"
 authors = ["Logseq"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/logseq/logseq/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/logseq/logseq/releases/download/2.0.1/Logseq-linux-x86_64-2.0.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/logseq/logseq/releases/download/2.0.2/Logseq-linux-x86_64-2.0.2.AppImage">Download x86_64</a>
 </button>
 </div>

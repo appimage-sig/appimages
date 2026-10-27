@@ -1,7 +1,7 @@
 +++
 title = "Session"
 description = "Session Desktop - Onion routing based messenger."
-date = "2026-07-09T06:20:08Z"
+date = "2026-10-26T03:06:33Z"
 authors = ["The Oxen Project"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/session-foundation/session-desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/session-foundation/session-desktop/releases/download/v1.18.1/session-desktop-linux-x86_64-1.18.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/session-foundation/session-desktop/releases/download/v1.18.3/session-desktop-linux-x86_64-1.18.3.AppImage">Download x86_64</a>
 </button>
 </div>

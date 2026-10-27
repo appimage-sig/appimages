@@ -1,7 +1,7 @@
 +++
 title = "Outer Wilds Mod Manager"
 description = "The mod manager for the Outer Wilds Mod Loader"
-date = "2026-07-13T15:01:37Z"
+date = "2026-10-20T19:10:28Z"
 authors = ["Outer Wilds Mods"]
 
 [taxonomies]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/ow-mods/ow-mod-man/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.7/Outer.Wilds.Mod.Manager_0.15.7_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

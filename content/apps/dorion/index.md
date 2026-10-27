@@ -1,7 +1,7 @@
 +++
 title = "Dorion"
 description = "Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more"
-date = "2026-09-20T17:56:56Z"
+date = "2026-10-18T01:45:32Z"
 [taxonomies]
 categories = ["Network"]
 authors = ["SpikeHD"]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/SpikeHD/Dorion/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/SpikeHD/Dorion/releases/download/v6.13.2/Dorion_6.13.2_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/SpikeHD/Dorion/releases/download/v6.14.0/Dorion_6.14.0_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

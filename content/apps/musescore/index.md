@@ -1,7 +1,7 @@
 +++
 title = "MuseScore"
 description = "MuseScore is an open source and free music notation software"
-date = "2026-09-08T13:42:38Z"
+date = "2026-10-26T14:18:33Z"
 authors = ["MuseScore BVBA"]
 
 [taxonomies]
@@ -24,9 +24,9 @@ Report the bug: <https://github.com/musescore/MuseScore/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.5/MuseScore-Studio-4.7.5.260831071-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.6/MuseScore-Studio-4.7.6.261022093-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.5/MuseScore-Studio-4.7.5.260831071-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/musescore/MuseScore/releases/download/v4.7.6/MuseScore-Studio-4.7.6.261022093-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

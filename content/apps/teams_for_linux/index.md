@@ -1,7 +1,7 @@
 +++
 title = "Teams for Linux"
 description = "Unofficial Microsoft Teams for Linux client."
-date = "2026-09-18T16:04:12Z"
+date = "2026-10-19T16:03:00Z"
 authors = ["Ismael Martinez"]
 
 [taxonomies]
@@ -22,10 +22,10 @@ Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.22.0/teams-for-linux-2.22.0-arm64.AppImage">Download x86_64</a>
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.27.0/teams-for-linux-2.27.0-arm64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.22.0/teams-for-linux-2.22.0-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.27.0/teams-for-linux-2.27.0-arm64.AppImage">Download arm64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
     <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.22.0/teams-for-linux-2.22.0-armv7l.AppImage">Download armv7l</a>

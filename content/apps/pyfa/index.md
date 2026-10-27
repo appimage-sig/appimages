@@ -1,7 +1,7 @@
 +++
 title = "pyfa"
 description = "Python fitting assistant, cross-platform fitting tool for EVE Online"
-date = "2026-09-22T14:40:10Z"
+date = "2026-10-17T09:01:47Z"
 authors = ["Diego Duclos"]
 
 [taxonomies]
@@ -22,6 +22,6 @@ Report the bug: <https://github.com/pyfa-org/Pyfa/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/pyfa-org/Pyfa/releases/download/v2.69.0/pyfa-v2.69.0-linux.AppImage">Download x86_64</a>
+    <a href="https://github.com/pyfa-org/Pyfa/releases/download/v2.69.3/pyfa-v2.69.3-linux.AppImage">Download x86_64</a>
 </button>
 </div>

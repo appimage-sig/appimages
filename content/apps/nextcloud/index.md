@@ -1,7 +1,7 @@
 +++
 title = "Nextcloud"
 description = "Nextcloud is the industry-leading, fully open-source, on-premises content collaboration platform."
-date = "2026-09-16T12:27:54Z"
+date = "2026-10-12T12:04:09Z"
 authors = ["Nextcloud"]
 
 [taxonomies]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/nextcloud/desktop/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/nextcloud-releases/desktop/releases/download/v34.0.4/Nextcloud-34.0.4-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/nextcloud-releases/desktop/releases/download/v35.0.0/Nextcloud-35.0.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

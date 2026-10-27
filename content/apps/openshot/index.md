@@ -1,7 +1,7 @@
 +++
 title = "OpenShot"
 description = "OpenShot Video Editor is an award-winning free and open-source video editor"
-date = "2026-08-31T01:54:59Z"
+date = "2026-09-27T22:16:47Z"
 authors = ["OpenShot Studios"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/OpenShot/openshot-qt/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OpenShot/openshot-qt/releases/download/v4.0.0/OpenShot-v4.0.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/OpenShot/openshot-qt/releases/download/v4.0.1/OpenShot-v4.0.1-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

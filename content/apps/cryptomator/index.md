@@ -1,7 +1,7 @@
 +++
 title = "Cryptomator"
 description = "Multi-platform transparent client-side encryption of your files in the cloud"
-date = "2026-06-29T12:12:00Z"
+date = "2026-10-21T07:36:09Z"
 authors = ["Skymatic"]
 
 [taxonomies]
@@ -27,9 +27,9 @@ Report the bug: <https://github.com/cryptomator/cryptomator/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.3/cryptomator-1.19.3-aarch64.AppImage">Download x86_64</a>
+    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.4/cryptomator-1.19.4-aarch64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.3/cryptomator-1.19.3-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.4/cryptomator-1.19.4-aarch64.AppImage">Download arm64</a>
 </button>
 </div>

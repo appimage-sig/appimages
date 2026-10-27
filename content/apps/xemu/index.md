@@ -1,7 +1,7 @@
 +++
 title = "xemu"
 description = "Free and open-source original Xbox game console emulation"
-date = "2026-06-08T05:46:27Z"
+date = "2026-10-21T21:42:31Z"
 authors = ["xemu Project"]
 
 [taxonomies]
@@ -24,15 +24,15 @@ Report the bug: <https://github.com/xemu-project/xemu/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.136/xemu-0.8.136-dbg-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.136/xemu-0.8.136-aarch64.AppImage">Download arm64</a>
+    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage">Download arm64</a>
 </button>
   <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.136/xemu-0.8.136-dbg-x86_64.AppImage">Download debug x86_64</a>
+    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage">Download debug x86_64</a>
 </button>
   <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.136/xemu-0.8.136-aarch64.AppImage">Download debug arm64</a>
+    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage">Download debug arm64</a>
 </button>
 </div>

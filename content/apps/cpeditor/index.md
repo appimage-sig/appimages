@@ -1,7 +1,7 @@
 +++
 title = "CP Editor"
 description = "The IDE for competitive programming."
-date = "2026-04-05T12:56:22Z"
+date = "2026-10-23T19:38:34Z"
 authors = ["CP Editor team"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/cpeditor/cpeditor/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cpeditor/cpeditor/releases/download/7.0.2/cpeditor-7.0.2-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/cpeditor/cpeditor/releases/download/7.1.2/cpeditor-7.1.2-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

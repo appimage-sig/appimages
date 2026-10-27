@@ -1,7 +1,7 @@
 +++
 title = "Shotcut"
 description = "Free, open source, cross-platform video editor"
-date = "2026-08-01T17:23:50Z"
+date = "2026-10-03T23:01:23Z"
 authors = ["Meltytech"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/mltframework/shotcut/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/mltframework/shotcut/releases/download/v26.8.1/shotcut-linux-x86_64-26.8.1.AppImage">Download x86_64</a>
+    <a href="https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-linux-x86_64-26.10.3.AppImage">Download x86_64</a>
 </button>
 </div>

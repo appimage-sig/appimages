@@ -1,7 +1,7 @@
 +++
 title = "Sleek"
 description = "Open-source (FOSS) todo manager based on the todo.txt syntax"
-date = "2026-09-10T18:05:38Z"
+date = "2026-10-18T13:19:35Z"
 authors = ["Robin Ahle"]
 
 [taxonomies]
@@ -26,9 +26,9 @@ Report the bug: <https://github.com/ransome1/sleek/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ransome1/sleek/releases/download/v2.0.29/sleek-2.0.29-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/ransome1/sleek/releases/download/v2.1.1/sleek-2.1.1-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ransome1/sleek/releases/download/v2.0.29/sleek-2.0.29-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/ransome1/sleek/releases/download/v2.1.1/sleek-2.1.1-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>

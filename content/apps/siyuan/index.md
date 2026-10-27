@@ -1,7 +1,7 @@
 +++
 title = "Siyuan"
 description = "A privacy-first, self-hosted, fully open source personal knowledge management software."
-date = "2026-08-30T00:52:56Z"
+date = "2026-10-26T00:10:07Z"
 authors = ["Yunnan Liandi Technology"]
 
 [taxonomies]
@@ -28,9 +28,9 @@ Report the bug: <https://github.com/siyuan-note/siyuan/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/saber-notes/saber/releases/download/v1.36.1/Saber-1.36.1-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber-1.37.0-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/saber-notes/saber/releases/download/v1.36.1/Saber-1.36.1-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/saber-notes/saber/releases/download/v1.37.0/Saber-1.37.0-arm64.AppImage">Download arm64</a>
 </button>
 </div>
