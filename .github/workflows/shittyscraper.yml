@@ -37,15 +37,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
-      
-      - name: Trigger deploy workflow
-        uses: actions/github-script@v9
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-          await github.rest.actions.createWorkflowDispatch({
-          owner: context.repo.owner,
-          repo: context.repo.repo,
-          workflow_id: 'deploy.yml',
-          ref: context.ref
-          })
