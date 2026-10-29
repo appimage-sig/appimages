@@ -68,6 +68,46 @@
   </keywords>
 
   <releases>
+    <release version="1.12.1" date="2026-10-29" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.12.1</url>
+      <description>
+        <p>Fix regression in 1.12.0 preventing the application to start if the configuration directory is missing.</p>
+      </description>
+    </release>
+    <release version="1.12.0" date="2026-10-27" type="stable">
+      <url>https://github.com/jorio/gitfourchette/releases/tag/v1.12.0</url>
+      <description>
+        <p>New features:</p>
+        <ul>
+        <li><em>Interactive Rebase:</em> Right-click any commit or branch, then select "Rebase". You can rearrange commits, run your rebase plan, follow its progress, and continue/abort it at any time.</li>
+        </ul>
+        <p>Quality of life improvements:</p>
+        <ul>
+        <li>GraphView: Option to hide commit hashes (Settings → Commit History → Show commit hashes beside the graph) (#132)</li>
+        <li>Sidebar: Add "Reset HEAD" to local &amp; remote branch context menus</li>
+        <li>Sidebar: Hide "Submodules" section in repos that don't use them</li>
+        <li>Single-instance mode. When you run <code>gitfourchette</code> on the command line, arguments will be forwarded to the running instance. Pass <code>--new</code> to force a new instance. (#114)</li>
+        <li>After updating the application, the status bar shows a discreet notification that lets you read the release notes</li>
+        <li>Askpass dialogs "Verify Fingerprint" and "Enter Passphrase" are now easier to distinguish at a glance by their layout</li>
+        <li>Error messages reporting that Git can't be launched now suggest changing the path to the Git executable</li>
+        </ul>
+        <p>Bug fixes:</p>
+        <ul>
+        <li>Fix regression in v1.11.0 where Export/Revert Patch and Blame Lines couldn't be executed from a detached diff window</li>
+        <li>Fix error messages when displaying files containing U+2029 or a stray CR that's not part of a CRLF line ending</li>
+        <li>Fix line number gutter rarely had incorrect width</li>
+        <li>Fix outsized pointer over line number gutter in XWayland (#142)</li>
+        <li>Fix minor cosmetic issues with built-in themes and icon colors in menus</li>
+        <li>Fix deserialization of incomplete pygit2 signatures from settings JSON files</li>
+        <li>Fix F2 keyboard shortcut on remote branches in the sidebar</li>
+        </ul>
+        <p>Maintenance &amp; packaging notes:</p>
+        <ul>
+        <li>The Flatpak distribution now defaults to the host system's Git (if available) instead of the built-in sandboxed Git. This eliminates common issues with the sandbox when your workflow needs Git to call external programs. You can still switch to sandboxed Git in Settings → Git Integration.</li>
+        <li>Continued from work started in v1.5.0, more operations were rewritten to be implemented with "standard" Git instead of libgit2 for improved compatibility (New Branch From Commit, Edit Upstream Branch, Recall Commit, Delete Branch, Rename Branch, Git Identity).</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.11.0" date="2026-08-21" type="stable">
       <url>https://github.com/jorio/gitfourchette/releases/tag/v1.11.0</url>
       <description>
@@ -95,7 +135,7 @@
       <description>
         <p>New features:</p>
         <ul>
-        <li>CommitDialog: Dedicated "signoff" button (git commit --signoff)</li>
+        <li>CommitDialog: Dedicated <em>Signoff</em> button (git commit --signoff)</li>
         <li>Open repo workdir in external editor (from Repo menu, or by right-clicking a repo tab) (#118)</li>
         </ul>
         <p>Quality of life improvements:</p>
@@ -293,7 +333,7 @@
       <description>
         <p>New features:</p>
         <ul>
-        <li>Blame/File History. Within GitFourchette, right-click any file and select "Blame File"; or, drag any file in your repo from your file manager and drop it onto the main window to view its history.</li>
+        <li><em>Blame/File History:</em> Within GitFourchette, right-click any file and select "Blame File"; or, drag any file in your repo from your file manager and drop it onto the main window to view its history.</li>
         </ul>
         <p>Quality of life improvements:</p>
         <ul>
@@ -317,7 +357,7 @@
         <p><em>Upgrade note:</em> The terminal command template now requires the <code>$COMMAND</code> argument placeholder. Please review your terminal command in <em>Settings → External Tools → Terminal</em>.</p>
         <p>New features:</p>
         <ul>
-        <li>Custom terminal commands (Settings → Custom Commands) (#37).</li>
+        <li><em>Custom terminal commands</em> (Settings → Custom Commands) (#37).</li>
         <li>Sidebar: Hide All But This (#49). You can now show a single branch and hide all others.</li>
         <li>Add file to .gitignore or .git/info/exclude from untracked file context menu (#42)</li>
         </ul>
@@ -348,14 +388,11 @@
     <release version="1.2.1" date="2025-03-05" type="stable">
       <url>https://github.com/jorio/gitfourchette/releases/tag/v1.2.1</url>
       <description>
-        <p>User-suggested quality of life improvements:</p>
+        <p>Quality of life improvements:</p>
         <ul>
         <li>GraphView: Copy commit message from context menu (#33)</li>
         <li>Rephrase some messages (diff too large, delete untracked file) (#27, #28)</li>
         <li>Add Ptyxis terminal preset (#18)</li>
-        </ul>
-        <p>Other quality of life improvements:</p>
-        <ul>
         <li>Friendlier messages related to 'autocrlf' and 'safecrlf' options (#30)</li>
         <li>Flatpak distribution: Detach terminal process from application</li>
         <li>Improve contrast between enabled/disabled SVG icons throughout the UI</li>
@@ -377,7 +414,7 @@
         <ul>
         <li>Open terminal in workdir (#18)</li>
         </ul>
-        <p>User-suggested quality of life improvements:</p>
+        <p>Quality of life improvements:</p>
         <ul>
         <li>Reword "Uncommitted changes" to "Working directory" to clear up any confusion when there are no changes (#13)</li>
         <li>Always display the number of uncommitted changes in the sidebar and in the graph; update this whenever the app returns to the foreground (#13)</li>
@@ -386,9 +423,6 @@
         <li>Allow creating a merge commit without fast-forwarding (#21)</li>
         <li>Dark mode readability tweaks (#24)</li>
         <li>Command line: Open arbitrary nested paths in a repo (#25)</li>
-        </ul>
-        <p>Other quality of life improvements:</p>
-        <ul>
         <li>Improve consistency of ellipses in menus to signify that an action can be canceled</li>
         <li>Warn user if an external Flatpak isn't installed when attempting to run it (merge tool, terminals, etc.)</li>
         <li>Remind user about any unstaged files when about to create an empty commit</li>
@@ -397,7 +431,6 @@
         <li>After pushing a branch that doesn't track an upstream, PushDialog will suggest the remote branch you used previously (instead of defaulting to the first one in the repo)</li>
         <li>Pulling will automatically fast-forward if possible without an extra confirmation step, unless your git config contains "pull.ff=false" (behavior aligned to vanilla git). If fast-forwarding isn't possible, you will still be prompted to merge.</li>
         <li>Push/fetch status text uses the 'tnum' OpenType feature to avoid transfer rate numbers jumping around if your system font has digits with uneven widths</li>
-        <li>AppImage distribution now compatible with fuse3</li>
         </ul>
         <p>Bug fixes:</p>
         <ul>
@@ -442,7 +475,7 @@
       <description>
         <p>New features:</p>
         <ul>
-        <li>Syntax highlighting with Pygments (optional dependency)</li>
+        <li><em>Syntax highlighting</em> with Pygments (optional dependency)</li>
         </ul>
         <p>Quality of life improvements:</p>
         <ul>
@@ -455,7 +488,7 @@
     <release version="1.0.2" date="2024-12-16" type="stable">
       <url>https://github.com/jorio/gitfourchette/releases/tag/v1.0.2</url>
       <description>
-        <p>Usability improvements:</p>
+        <p>Quality of life improvements:</p>
         <ul>
         <li>Support launching a Flatpak as an external diff/merge tool (#4)</li>
         </ul>
