@@ -1,7 +1,7 @@
 +++
 title = "LosslessCut"
 description = "Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files."
-date = "2026-10-19T12:22:20Z"
+date = "2026-10-28T05:43:07Z"
 authors = ["Mikael Finstad"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/mifi/lossless-cut/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/mifi/lossless-cut/releases/download/v3.70.1/LosslessCut-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

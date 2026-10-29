@@ -1,7 +1,7 @@
 +++
 title = "AnymeX"
 description = "AnymeX is a multiservice tracking client designed exclusively for managing and tracking anime and manga progress across AniList, MyAnimeList, and Simkl."
-date = "2026-10-25T19:43:57Z"
+date = "2026-10-27T19:37:07Z"
 authors = ["Ryan"]
 
 [taxonomies]
@@ -23,6 +23,6 @@ Report the bug: <https://github.com/RyanYuuki/AnymeX/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.9/AnymeX-Linux.AppImage">Download x86_64</a>
+    <a href="https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-Linux.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "QOwnNotes"
 description = "Open source notepad with Markdown support and todo list manager for GNU/Linux"
-date = "2026-10-25T19:04:59Z"
+date = "2026-10-29T19:20:31Z"
 authors = ["Patrizio Bekerle"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/pbek/QOwnNotes/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/pbek/QOwnNotes/releases/download/v26.10.12/QOwnNotes-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/pbek/QOwnNotes/releases/download/v26.10.14/QOwnNotes-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>
