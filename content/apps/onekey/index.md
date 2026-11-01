@@ -1,7 +1,7 @@
 +++
 title = "OneKey"
 description = "Secure, open source and community driven crypto wallet runs on all platforms and trusted by millions"
-date = "2026-10-23T12:13:37Z"
+date = "2026-10-30T16:30:32Z"
 authors = ["OneKey"]
 
 [taxonomies]
@@ -23,9 +23,9 @@ Report the bug: <https://github.com/OneKeyHQ/app-monorepo/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.3/OneKey-Wallet-6.6.3-linux-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.4/OneKey-Wallet-6.6.4-linux-x86_64.AppImage">Download x86_64</a>
 </button>
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.3/OneKey-Wallet-6.6.3-linux-arm64.AppImage">Download arm64</a>
+    <a href="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.6.4/OneKey-Wallet-6.6.4-linux-arm64.AppImage">Download arm64</a>
 </button>
 </div>
