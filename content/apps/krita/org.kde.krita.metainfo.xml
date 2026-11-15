@@ -101,7 +101,6 @@
     <p xml:lang="ca-valencia">Krita és l'estudi d'art digital ple de funcionalitats.</p>
     <p xml:lang="cs">Krita je plnohodnotné studio digitálního umění.</p>
     <p xml:lang="de">Krita ist ein digitales Designstudio mit umfangreichen Funktionen.</p>
-    <p xml:lang="el">Το Krita είναι ένα πλήρες χαρακτηριστικών ψηφιακό ατελιέ.</p>
     <p xml:lang="en-GB">Krita is the full-featured digital art studio.</p>
     <p xml:lang="eo">Krita estas la plentaŭga cifereca artstudio.</p>
     <p xml:lang="es">Krita es un estudio de arte digital completo</p>
@@ -143,7 +142,6 @@
     <p xml:lang="ca-valencia">És perfecte per a fer esbossos i pintar, i presenta una solució final per a crear fitxers de dibuix digital des de zero per a mestres.</p>
     <p xml:lang="cs">Je ideální pro náčrtky i malování a představuje všestranné řešení pro vytváření digitálních malířských souborů od začátečníků až po mistry.</p>
     <p xml:lang="de">Krita ist perfekt zum Zeichnen oder Malen und stellt eine umfängliche Lösung für die Erstellung digitaler Bilder dar.</p>
-    <p xml:lang="el">Είναι ιδανικό για σκιτσογραφία και ζωγραφική, και παρουσιάζει μια από άκρη σε άκρη λύση για τη δημιουργία από το μηδέν αρχείων ψηφιακης ζωγραφικής από τους δασκάλους της τέχνης.</p>
     <p xml:lang="en-GB">It is perfect for sketching and painting, and presents an end–to–end solution for creating digital painting files from scratch by masters.</p>
     <p xml:lang="eo">Ĝi estas perfekta por skizado kaj pentrado, kaj prezentas fin-al-finan solvon por krei ciferecajn pentraĵdosierojn ekde nulo far majstroj.</p>
     <p xml:lang="es">Es perfecto para diseñar y pintar, y ofrece una solución completa para crear desde cero archivos de pintura digital apta para profesionales.</p>
@@ -187,7 +185,6 @@
     <p xml:lang="ca-valencia">Krita és una gran elecció per a crear art conceptual, còmics, textures per a renderitzar i pintures «matte». Krita permet molts espais de color com RGB i CMYK amb canals enters de 8 i 16 bits així com canals de coma flotant de 16 i 32 bits.</p>
     <p xml:lang="cs">Krita je skvělou volbou pro tvorbu konceptuálního umění, komiksů, textur pro vykreslování a tvorbu matných maleb. Krita podporuje mnoho barevných prostorů, jako je RGB a CMYK při 8 a 16bitových celočíselných kanálech, stejně jako 16 a 32bitové kanály s plovoucí desetinnou čárkou.</p>
     <p xml:lang="de">Krita ist eine großartige Wahl zur Erstellung von Concept Art, Comics, Rendertexturen und Vorsatzmalerei. Krita unterstützt viele Farbräume, wie RGB und CMYK mit 8 oder 16 Bit Integerkanälen, sowie 16 und 32 Bit Fließkomma-Kanälen.</p>
-    <p xml:lang="el">Το Krita είναι μια εξαιρετική επιλογή για τη δημιουργία αφηρημένης τέχνης, ιστοριών με εικόνες, υφής για ζωγραφική αποτύπωσης και διάχυσης φωτός. Το Krita υποστηρίζει πολλούς χρωματικούς χώρους όπως τα RGB και CMYK σε 8 και 16 bit κανάλια ακεραίων καθώς επίσης και σε 16 και 32 bit κανάλια κινητής υποδιαστολής,</p>
     <p xml:lang="en-GB">Krita is a great choice for creating concept art, comics, textures for rendering and matte paintings. Krita supports many colourspaces like RGB and CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating point channels.</p>
     <p xml:lang="eo">Krita estas bonega elekto por krei konceptarton, bildstriojn, teksturojn por bildigo kaj matajn pentraĵojn. Krita subtenas multajn kolorspacojn kiel RGBkaj CMYK je 8- kaj 16-bitaj entjerkanaloj, same kiel 16- kaj 32-bitaj glitkomaj kanaloj.</p>
     <p xml:lang="es">Krita es una gran elección para crear arte conceptual, cómics, texturas para renderizar y «matte paintings». Krita permite el uso de muchos espacios de color, como, por ejemplo, RGB y CMYK, tanto en canales de enteros de 8 y 16 bits, así como en canales de coma flotante de 16 y 32 bits.</p>
@@ -275,7 +272,6 @@
       <caption xml:lang="ca-valencia">Krita és un estudi de pintura digital ple de funcionalitats</caption>
       <caption xml:lang="cs">Krita je plně vybavené digitální malířské studio</caption>
       <caption xml:lang="de">Krita ist ein digitales Zeichenstudio mit umfangreichen Funktionen</caption>
-      <caption xml:lang="el">Το Krita είναι ένα πλήρες χαρακτηριστικών ψηφιακό ατελιέ.</caption>
       <caption xml:lang="en-GB">Krita is a full-featured digital painting studio</caption>
       <caption xml:lang="eo">Krita estas plentaŭga cifereca pentraĵstudio</caption>
       <caption xml:lang="es">Krita es un completo estudio de dibujo digital</caption>
@@ -399,7 +395,6 @@
       <caption xml:lang="ca-valencia">Esteu amb les animacions? Krita proporciona tot el que cal per a l'animació a mà tradicional</caption>
       <caption xml:lang="cs">Chcete animaci? Krita poskytuje vše, co potřebujete pro tradiční, ručně kreslenou animaci.</caption>
       <caption xml:lang="de">Sie interessieren sich für Animation? Krita bietet alles was für traditionelle, handgezeichnete Animation benötigt wird</caption>
-      <caption xml:lang="el">Σας αρέσει το κινούμενο σχέδιο; Το Krita παρέχει ό,τι θα χρειαστείτε για την παραδοσιακή, φτιαγμένη στο χέρι κινούμενη εικόνα</caption>
       <caption xml:lang="en-GB">Into animation? Krita provides everything you need for traditional, hand-drawn animation</caption>
       <caption xml:lang="eo">Animaciema? Krita provizas ĉion, kion vi bezonas por tradicia, mane desegnita animacio</caption>
       <caption xml:lang="es">¿Trabaja con animación? Krita proporciona todo lo necesario para la animación manual tradicional</caption>
@@ -521,7 +516,6 @@
       <caption xml:lang="ca">I també hi ha integració amb el G'Mic, el qual afegeix més centenars de filtres</caption>
       <caption xml:lang="ca-valencia">I també hi ha integració amb G'MIC, el qual afig més centenars de filtres</caption>
       <caption xml:lang="cs">A také máme integraci s G'Mic, která nám přidává ještě další stovky filtrů</caption>
-      <caption xml:lang="el">Και ακόμη ενσωμάτωση με το G'Mic, το οποίο προσθέτει εκατοντάδες φίλτρα</caption>
       <caption xml:lang="en-GB">And, there is integration with G'Mic, too, which adds hundreds of filters more</caption>
       <caption xml:lang="eo">Kaj ankaŭ ekzistas integriĝo kun G'Mic, kiu aldonas centojn da filtriloj pli</caption>
       <caption xml:lang="es">Y también está la integración con G'Mic, que añade cientos de filtros</caption>
@@ -592,41 +586,21 @@
       <image>https://cdn.kde.org/screenshots/krita/youtube.png</image>
     </screenshot>
     <screenshot>
-      <caption>Or the active <a href="https://krita-artists.org">Krita Artists community</a></caption>
-      <caption xml:lang="ar">أو نشط <a href="https://krita-artists.org">مجتمع فناني كريتا</a></caption>
-      <caption xml:lang="bg">Или  активния <a href="https://krita-artists.org">Общност на художниците на Krita</a></caption>
-      <caption xml:lang="ca">O l'actiu <a href="https://krita-artists.org">La comunitat d'artistes del Krita</a></caption>
-      <caption xml:lang="ca-valencia">O l'actiu <a href="https://krita-artists.org">La comunitat d'artistes de Krita</a></caption>
-      <caption xml:lang="cs">Nebo aktivní <a href="https://krita-artists.org">Komunita umělců Krita</a></caption>
-      <caption xml:lang="el">Ή το ενεργό <a href="https://krita-artists.org">Η κοινότητα των καλλιτεχνών του Krita</a></caption>
-      <caption xml:lang="en-GB">Or the active <a href="https://krita-artists.org">Krita Artists community</a></caption>
-      <caption xml:lang="eo">Aŭ la aktiva <a href="https://krita-artists.org">Komunumo de Krita-Artistoj</a></caption>
-      <caption xml:lang="es">O al activo <a href="https://krita-artists.org">La comunidad de artistas de Krita</a></caption>
-      <caption xml:lang="eu">Edo <a href="https://krita-artists.org">Krita Artisten komunitatea</a> aktiboa</caption>
-      <caption xml:lang="fi">Tai aktiivinen <a href="https://krita-artists.org">Krita-taiteilijayhteisö</a></caption>
-      <caption xml:lang="fr">Ou l'active <a href="https://krita-artists.org">La communauté d'artistes de Krita</a></caption>
-      <caption xml:lang="ga">Nó an <a href="https://krita-artists.org">Pobal Ealaíontóirí Krita</a> gníomhach</caption>
-      <caption xml:lang="gl">Ou á activa <a href="https://krita-artists.org">comunidade de artistas de KDE</a>.</caption>
-      <caption xml:lang="he">או ה־<a href="https://krita-artists.org">קהילת האומנים של Krita</a> הפעיל</caption>
-      <caption xml:lang="hi">या सक्रिय <a href="https://krita-artists.org">क्रिता कलाकार समुदाय</a></caption>
-      <caption xml:lang="hu">Vagy az aktív <a href="https://krita-artists.org">A Krita Művészek közössége</a></caption>
-      <caption xml:lang="id">Atau <a href="https://krita-artists.org">Komunitas Pelukis Krita</a> yang aktif</caption>
-      <caption xml:lang="it">O l'attiva <a href="https://krita-artists.org">Comunità degli Artisti di Krita</a></caption>
-      <caption xml:lang="ja">または、活発な <a href="https://krita-artists.org">Krita アーティストコミュニティー</a></caption>
-      <caption xml:lang="ka">ან აქტიური <a href="https://krita-artists.org">Krita -ის ხელვნების საზოგადოება</a></caption>
-      <caption xml:lang="nl">Of het actieve <a href="https://krita-artists.org">Krita-artiestengemeenschap</a></caption>
-      <caption xml:lang="nn">Eller det populære <a href="https://krita-artists.org">forumet for Krita-kunstnarar</a></caption>
-      <caption xml:lang="pl">Lub aktywny <a href="https://krita-artists.org">Społeczność artystów Krity</a></caption>
-      <caption xml:lang="pt">Ou o <a href="https://krita-artists.org">Comunidade de Artistas do Krita</a> activo</caption>
-      <caption xml:lang="pt-BR">Ou o ativo <a href="https://krita-artists.org">Comunidade de artistas do Krita</a></caption>
-      <caption xml:lang="ru">Или активный <a href="https://krita-artists.org">Сообщество художников Krita</a></caption>
-      <caption xml:lang="sk">Or the active <a href="https://krita-artists.org">Krita Artists community</a></caption>
-      <caption xml:lang="sl">Ali aktivni <a href="https://krita-artists.org">Skupnost ustvarjalce Krita Artists</a></caption>
-      <caption xml:lang="sv">Eller den aktiva <a href="https://krita-artists.org">Kritas konstnärsgemenskap</a></caption>
-      <caption xml:lang="tr">Veya etkin <a href="https://krita-artists.org">Krita Sanatçıları topluluğu</a></caption>
-      <caption xml:lang="uk">Або активний <a href="https://krita-artists.org">Спільнота Krita Artists</a></caption>
-      <caption xml:lang="zh-CN">或者活动的 <a href="https://krita-artists.org">Krita 国际画师社区</a></caption>
-      <caption xml:lang="zh-TW">或者生氣勃勃的 <a href="https://krita-artists.org">Krita Artists 社群討論區</a></caption>
+      <caption>Or the active </caption>
+      <caption xml:lang="ar">أو النشط</caption>
+      <caption xml:lang="bg">Или активния</caption>
+      <caption xml:lang="ca">O l'actiu</caption>
+      <caption xml:lang="ca-valencia">O l'actiu</caption>
+      <caption xml:lang="es">O al activo</caption>
+      <caption xml:lang="he">או הפעיל</caption>
+      <caption xml:lang="it">O l'attiva</caption>
+      <caption xml:lang="ka">ან აქტიური</caption>
+      <caption xml:lang="nl">Of het actieve</caption>
+      <caption xml:lang="pt-BR">Ou o ativo</caption>
+      <caption xml:lang="ru">Или активный</caption>
+      <caption xml:lang="sl">Ali aktivni</caption>
+      <caption xml:lang="tr">Veya etkin</caption>
+      <caption xml:lang="uk">Або активний</caption>
       <image>https://cdn.kde.org/screenshots/krita/community.png</image>
     </screenshot>
   </screenshots>
@@ -899,7 +873,7 @@
         <p xml:lang="ar">إصدار رئيس جديد يتضمن أداة النص الجديدة على اللوحة، وميزات سد الفجوات، وشريط أدوات التحديد، وأداة السكين الجديدة.</p>
         <p xml:lang="bg">Нова основна версия, включваща новия инструмент за текст върху платното, функции за затваряне на празнини, лента с инструменти за селекция и новия инструмент „нож“</p>
         <p xml:lang="ca">Una versió important nova amb l'eina nova de text en el llenç, les característiques de tancament de separacions, la barra d'eines de selecció i l'eina de ganivet nova</p>
-        <p xml:lang="ca-valencia">Una versió important nova amb l'eina nova de text en el llenç, les característiques de tancament de separacions, la barra d'eines de selecció i l'eina de ganivet nova</p>
+        <p xml:lang="ca-valencia">Una versió important nova amb l'eina nova de text en el llenç, les característiques de tancament de separacions, la barra d'eines de selecció i l'eina «Ganivet» nova</p>
         <p xml:lang="cs">Nové větší vydání s novým nástrojem pro text přímo na plátně, funkcemi pro uzavření mezer, lištou nástrojů pro výběr a novým nožem</p>
         <p xml:lang="es">Una nueva versión mayor que incluye la nueva herramienta de texto sobre el lienzo, funciones para cerrar huecos, una barra de selección y la nueva herramienta de cuchillo.</p>
         <p xml:lang="fr">Une nouvelle version majeure comprenant le nouvel outil de texte sur le canevas, des fonctionnalités de comblement des écarts, la barre d'outils de sélection et le nouvel outil « Couteau »</p>
@@ -1098,7 +1072,7 @@
         <p xml:lang="ar">تتوفر مجموعة كاملة جديدة من الإعدادات المسبقة للفُرش تحاكي الرسم بالألوان المائية. أُضيف وضع لوني في مرشح خريطة التدرج، ومرشح جديد كليًّا لتبسيط الألوان (palletize)، ومرشح تمرير عالٍ (high pass). وُسّعت واجهة برمجة التطبيقات (API) الخاصة بالبرمجة النصية. أصبح من الممكن الآن ضبط التعتيم والإضاءة على رؤوس الفُرش الملونة بشكل منفصل. يمكنك الآن إنشاء رؤوس فُرش متحركة تختار الفرشاة عبر أبعاد متعددة. أتحنا وضع منطقة لوحة الرسم في نافذة خاصة بها، بحيث يمكنك في إعدادات الشاشات المتعددة وضع جميع أدوات التحكم على شاشة واحدة، وصورك على الشاشة الأخرى. حُدّث منتقي الألوان تحديثًا كبيرًا. توجد لوحة (Docker) جديدة للقطات تخزن حالات صورتك، ويمكنك التنقل بينها. تتوفر أداة تحديد مغناطيسية جديدة كليًّا. ويمكن الآن رسم التدرجات كأشكال لولبية.</p>
         <p xml:lang="bg">Добавен е нов комплект предварително зададени четки, които имитират акварелно рисуване. Въведен е цветен режим във филтъра за градиентна карта, както и изцяло нов филтър за палетиране и филтър за високочестотен пас (high pass). API за скриптиране е разширено. Вече е възможно отделното регулиране на непрозрачността и яркостта на цветните върхове на четките. Добавена е възможност за създаване на анимирани върхове на четки, които избират четката по няколко измерения. Платното вече може да бъде поставено в отделен прозорец, така че при конфигурация с няколко монитора всички контроли да бъдат на един монитор, а изображенията – на друг. Селекторът на цветове е значително обновен. Добавен е нов панел за snapshots, който съхранява състоянията на изображението и позволява превключване между тях. Въведен е нов инструмент за магнитно избиране. Градиентите вече могат да бъдат рисувани като спирали.</p>
         <p xml:lang="ca">Hi ha tot un conjunt nou de pinzells predefinits que evoquen la pintura a l'aquarel·la. Hi ha un mode de color en el filtre de mapa de degradats i un filtre de paletització nou i un filtre de passaalt. S'ha ampliat l'API de creació de scripts. Ara és possible ajustar l'opacitat i la lluminositat a les puntes de pinzell de color per separat. Ara podeu crear puntes de pinzell animades que seleccionin un pinzell al llarg de dimensions múltiples. Hem fet possible posar l'àrea del llenç en una finestra pròpia, de manera que en una configuració multimonitor, podeu tenir tots els controls en un monitor i les imatges en l'altre. El selector de color s'ha actualitzat força. Hi ha un acoblador nou d'instantània que emmagatzema els estats de la vostra imatge, i podeu canviar entre aquests. Hi ha una eina nova de selecció magnètica. Els degradats ara poden pintar com a espirals.</p>
-        <p xml:lang="ca-valencia">Hi ha tot un conjunt nou de pinzells predefinits que evoquen la pintura a l'aquarel·la. Hi ha un mode de color en el filtre de mapa de degradats i un filtre de paletització nou i un filtre de passaalt. S'ha ampliat l'API de creació de scripts. Ara és possible ajustar l'opacitat i la claredat a les puntes de pinzell de color per separat. Ara podeu crear puntes de pinzell animades que seleccionen un pinzell al llarg de dimensions múltiples. Hem fet possible posar l'àrea del llenç en una finestra pròpia, de manera que en una configuració multimonitor, podeu tindre tots els controls en un monitor i les imatges en l'altre. El selector de color s'ha actualitzat força. Hi ha un acoblador nou d'instantània que emmagatzema els estats de la vostra imatge, i podeu canviar entre estos. Hi ha una eina nova de selecció magnètica. Els degradats ara poden pintar com a espirals.</p>
+        <p xml:lang="ca-valencia">Hi ha tot un conjunt nou de pinzells predefinits que evoquen la pintura a l'aquarel·la. Hi ha un mode «Color» en el filtre de mapa de degradats i un filtre de paletització nou i un filtre de passaalt. S'ha ampliat l'API de creació de scripts. Ara és possible ajustar l'opacitat i la claredat a les puntes de pinzell de color per separat. Ara podeu crear puntes de pinzell animades que seleccionen un pinzell al llarg de dimensions múltiples. Hem fet possible posar l'àrea del llenç en una finestra pròpia, de manera que en una configuració multimonitor, podeu tindre tots els controls en un monitor i les imatges en l'altre. El selector de color s'ha actualitzat força. Hi ha un acoblador nou «Instantànies» que emmagatzema els estats de la vostra imatge, i podeu canviar entre estos. Hi ha una eina nova «Selecció magnètica». Els degradats ara poden pintar com a espirals.</p>
         <p xml:lang="cs">Přichází zcela nová sada předvoleb štětců, které evokují malbu vodovými barvami. Ve filtru mapování přechodu je přidán režim barvy a zcela nový filtr paletizace a filtr vysokého průchodu. Rozhraní skriptování API bylo rozšířeno. Nyní je možné samostatně upravovat průhlednost a světlost na barevných špičkách štětců. Také nyní můžete vytvářet animované špičky štětců, které vybírají štětce podle více rozměrů. Umožnili jsme umístění oblasti plátna do vlastního okna, takže na nastavení s více monitory můžete mít všechny ovládací prvky na jednom monitoru a vaše obrázky na druhém. Výběr barvy dostal velkou aktualizaci. Přidán je nový dok snímků, který ukládá stavy vašeho obrázku, a můžete mezi nimi přepínat. Přidán je zcela nový nástroj magnetického výběru. Přechody lze nyní malovat jako spirály.</p>
         <p xml:lang="es">Hay un nuevo conjunto de preajustes de pincel que evocan la pintura de acuarela. Hay un modo de color en el filtro de mapa de degradado, un nuevo filtro de paletización y un filtro de paso alto. La API de guiones se ha ampliado. Ahora es posible ajustar la opacidad y la luminosidad de las puntas de pincel de color por separado. Ahora se pueden crear puntas de pincel animadas que seleccionan el pincel en múltiples dimensiones. Hemos hecho que se pueda colocar el área del lienzo en una ventana propia, por lo que, en una configuración de varios monitores, se pueden tener todos los controles en un monitor y las imágenes en el otro. El selector de color ha visto una gran actualización. Existe un nuevo panel de instantáneas que almacena los estados de la imagen y permite cambiar entre ellos. Hay una nueva herramienta de selección magnética. Los degradados pueden pintarse ahora como espirales.</p>
         <p xml:lang="fr">Il y a tout un nouvel ensemble de préréglages de brosses évoquant la peinture à l'aquarelle. Il existe un mode « Couleur » dans le filtre de correspondance des dégradés, ainsi qu'un tout nouveau filtre de palette et un filtre passe-haut. L'API de scripts a été étendue. Il est maintenant possible de régler séparément l'opacité et la luminosité des pointes de brosses colorées. Vous pouvez maintenant créer des pointes de brosses animées sélectionnant la brosse selon plusieurs dimensions. Nous avons rendu possible la mise en fenêtre de la zone de canevas, de sorte que sur une configuration multi-écrans, vous pouvez avoir tous les contrôles sur un écran et vos images sur l'autre. Le sélecteur de couleurs a été grandement mis à jour. Il y a un nouveau panneau de captures enregistrant les états de votre image et vous pouvez naviguer entre elles. Il y a un tout nouvel outil de sélection magnétique. Les dégradés peuvent maintenant être peints en spirale.</p>

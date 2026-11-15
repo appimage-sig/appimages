@@ -29,6 +29,22 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.9" date="2026-11-05" type="stable">
+      <url>https://github.com/Vencord/Vesktop/releases/tag/untagged-f0334517c5f9a0a7d7f6</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Considerably improved Rich Presence. Now much faster and should detect way more games. Also supports full Discord RPC now, which means apps like Discord Streamkit Overlay should now work with Vesktop</li>
+          <li>fixed the Discord titlebar having no close/maximise/minimise buttons</li>
+          <li>fixed various Linux screenshare audio issues</li>
+          <li>KDE: fixed tray icon not working when using autostart</li>
+          <li>modernised the screenshare implementation</li>
+          <li>fixed popout windows having no titlebar</li>
+          <li>fixed an issue where portable Windows installs may be updated to the Setup version</li>
+          <li>now better handles errors when Vencord fails to load &amp; offers to Repair</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.8" date="2026-10-22" type="stable">
       <url>https://github.com/Vencord/Vesktop/releases/tag/untagged-4c37237ecfa1da7efa05</url>
       <description>
