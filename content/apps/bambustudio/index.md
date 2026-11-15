@@ -1,7 +1,7 @@
 +++
 title = "Bambu Studio"
 description = "Bambu Studio is an open-source, cutting-edge, feature-rich slicing software"
-date = "2026-08-21T04:29:18Z"
+date = "2026-11-03T12:20:15Z"
 authors = ["Bambu Lab"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/bambulab/BambuStudio/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/bambulab/BambuStudio/releases/download/v02.08.02.61/BambuStudio_ubuntu22.04-v02.08.02.61-20260820225108.AppImage">Download x86_64</a>
+    <a href="https://github.com/bambulab/BambuStudio/releases/download/v02.09.01.70/BambuStudio_ubu22_v02.09.01.70-20261103183404.AppImage">Download x86_64</a>
 </button>
 </div>

@@ -1,7 +1,7 @@
 +++
 title = "ClamUI"
 description = "A modern Linux desktop application for ClamAV antivirus"
-date = "2026-11-01T16:35:39Z"
+date = "2026-11-11T17:22:55Z"
 authors = ["ClamUI contributors"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/linx-systems/clamui/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/linx-systems/clamui/releases/download/v0.5.0/ClamUI-0.5.0-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/linx-systems/clamui/releases/download/v0.6.0/ClamUI-0.6.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

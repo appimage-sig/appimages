@@ -1,7 +1,7 @@
 +++
 title = "Bitwarden"
 description = "Open source password management solutions for individuals, teams, and business organizations."
-date = "2026-10-29T13:47:57Z"
+date = "2026-11-05T16:26:52Z"
 authors = ["BitWarden"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/bitwarden/clients/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.2/Bitwarden-2026.10.2-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

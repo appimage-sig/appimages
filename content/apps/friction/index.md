@@ -1,7 +1,7 @@
 +++
 title = "Friction"
 description = "Powerful and versatile free and open-source motion graphics application."
-date = "2025-12-31T18:59:58Z"
+date = "2026-11-09T16:23:29Z"
 authors = ["Friction contributors"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/friction2d/friction/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.3/Friction-1.0.0-rc.3-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/friction2d/friction/releases/download/v1.0.0/Friction-1.0.0-x86_64-GLX.AppImage">Download x86_64</a>
 </button>
 </div>

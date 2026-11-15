@@ -1,7 +1,7 @@
 +++
 title = "Arduino IDE"
 description = "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board"
-date = "2026-06-09T17:11:22Z"
+date = "2026-11-12T15:29:00Z"
 authors = ["Arduino"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/arduino/arduino-ide/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.10/arduino-ide_2.3.10_Linux_64bit.AppImage">Download x86_64</a>
+    <a href="https://github.com/arduino/arduino-ide/releases/download/2.3.11/arduino-ide_2.3.11_Linux_64bit.AppImage">Download x86_64</a>
 </button>
 </div>

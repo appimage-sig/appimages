@@ -1,7 +1,7 @@
 +++
 title = "Audacity"
 description = "Easy-to-use, multi-track audio editor and recorder"
-date = "2026-09-30T11:56:27Z"
+date = "2026-11-02T09:57:31Z"
 authors = ["Audacity Developer Team"]
 
 [taxonomies]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/audacity/audacity/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

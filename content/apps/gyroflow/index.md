@@ -1,7 +1,7 @@
 +++
 title = "Gyroflow"
 description = "Video stabilization using gyroscope data"
-date = "2025-09-04T14:41:47Z"
+date = "2026-11-07T03:26:34Z"
 authors = ["Gyroflow Team"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/gyroflow/gyroflow/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/gyroflow/gyroflow/releases/download/v1.6.3/Gyroflow-linux64.AppImage">Download x86_64</a>
+    <a href="https://github.com/gyroflow/gyroflow/releases/download/v1.7.0/Gyroflow-linux64.AppImage">Download x86_64</a>
 </button>
 </div>

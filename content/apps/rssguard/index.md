@@ -1,7 +1,7 @@
 +++
 title = "RSS Guard"
 description = "Simple RSS/ATOM feed reader"
-date = "2026-08-20T08:07:48Z"
+date = "2026-11-12T13:34:07Z"
 authors = ["Martin Rotter"]
 
 [taxonomies]
@@ -25,6 +25,6 @@ Report the bug: <https://github.com/martinrotter/rssguard/issues>
 
 <div class="d_buttons">
     <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/martinrotter/rssguard/releases/download/5.2.5/rssguard-5.2.5-text-qt5-linux64.AppImage">Download x86_64</a>
+    <a href="https://github.com/martinrotter/rssguard/releases/download/5.3.0/rssguard-5.3.0-text-qt5-linux64.AppImage">Download x86_64</a>
     </button>
 </div>

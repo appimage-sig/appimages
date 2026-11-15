@@ -1,7 +1,7 @@
 +++
 title = "Cura"
 description = "3D printer / slicing GUI built on top of the Uranium framework"
-date = "2026-05-28T09:42:46Z"
+date = "2026-11-05T09:53:34Z"
 authors = ["Ultimaker"]
 
 [taxonomies]
@@ -27,6 +27,6 @@ Report the bug: <https://github.com/Ultimaker/Cura/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-linux-X64.AppImage">Download x86_64</a>
+    <a href="https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-linux-X64.AppImage">Download x86_64</a>
 </button>
 </div>

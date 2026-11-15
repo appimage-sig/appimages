@@ -1,7 +1,7 @@
 +++
 title = "Modrinth"
 description = "Open-source mod platform, built by the community, for the community."
-date = "2026-10-29T14:59:09Z"
+date = "2026-11-12T18:31:37Z"
 authors = ["Rinth"]
 
 [taxonomies]
@@ -26,6 +26,6 @@ Report the bug: <https://github.com/modrinth/code/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/modrinth/code/releases/download/v0.22.1/Modrinth.App_0.22.1_amd64.AppImage">Download x86_64</a>
+    <a href="https://github.com/modrinth/code/releases/download/v0.23.3/Modrinth.App_0.23.3_amd64.AppImage">Download x86_64</a>
 </button>
 </div>

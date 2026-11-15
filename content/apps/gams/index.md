@@ -1,7 +1,7 @@
 +++
 title = "GAMS Studio"
 description = "Official development environment of the General Algebraic Modeling System"
-date = "2026-10-09T10:34:34Z"
+date = "2026-11-13T15:13:17Z"
 authors = ["GAMS Development"]
 
 [taxonomies]
@@ -24,6 +24,6 @@ Report the bug: <https://github.com/GAMS-dev/studio/issues>
  
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/GAMS-dev/studio/releases/download/v1.25.8/GAMS_Studio-1.25.8-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/GAMS-dev/studio/releases/download/v1.26.0/GAMS_Studio-1.26.0-x86_64.AppImage">Download x86_64</a>
 </button>
 </div>

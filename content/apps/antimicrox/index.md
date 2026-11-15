@@ -1,7 +1,7 @@
 +++
 title = "AntimicroX"
 description = "Graphical program used to map gamepad keys to keyboard, mouse, scripts and macros"
-date = "2026-05-22T22:50:36Z"
+date = "2026-11-13T16:19:38Z"
 authors = ["AntiMicroX Authors"]
 
 [taxonomies]
@@ -27,9 +27,9 @@ Report the bug: <https://github.com/AntiMicroX/antimicrox/issues>
 
 <div class="d_buttons">
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64</a>
+    <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.2/AntiMicroX-debug-x86_64.AppImage">Download x86_64</a>
 </button>  
 <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.1/AntiMicroX-debug-x86_64.AppImage">Download x86_64 debug version</a>
+    <a href="https://github.com/AntiMicroX/antimicrox/releases/download/3.6.2/AntiMicroX-debug-x86_64.AppImage">Download x86_64 debug version</a>
 </button>
 </div>
