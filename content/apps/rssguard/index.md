@@ -19,25 +19,5 @@ donations = "https://github.com/sponsors/martinrotter"
 translations = "https://crowdin.com/project/rssguard"
 bugtracker = "https://github.com/martinrotter/rssguard/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/martinrotter/rssguard/refs/heads/master/resources/desktop/rssguard.metainfo.xml.in"
-install_x86_64="https://github.com/martinrotter/rssguard/releases/download/5.2.5/rssguard-5.2.5-text-qt5-linux64.AppImage"
+install_x86_64="https://github.com/martinrotter/rssguard/releases/download/5.3.0/rssguard-5.3.0-web-qt6-linux64.AppImage"
 +++
-<<<<<<< HEAD
-=======
-
-Simple RSS/ATOM feed reader
-
-License: GPL-3.0
-
-Web page: <https://rssguard.readthedocs.io/en/stable/index.html>  
-Source code: <https://github.com/martinrotter/rssguard>
-
-Become a sponsor: <https://github.com/sponsors/martinrotter>  
-Translate: <https://crowdin.com/project/rssguard>  
-Report the bug: <https://github.com/martinrotter/rssguard/issues>  
-
-<div class="d_buttons">
-    <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/martinrotter/rssguard/releases/download/5.3.0/rssguard-5.3.0-text-qt5-linux64.AppImage">Download x86_64</a>
-    </button>
-</div>
->>>>>>> refs/remotes/origin/main

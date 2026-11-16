@@ -21,24 +21,3 @@ screenshots = "https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/i
 appstream_xml_url = "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
 install_x86_64 = "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.15.1/AppFlowy-0.15.1-linux-x86_64.AppImage"
 +++
-<<<<<<< HEAD
-=======
-
-<img src="https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/imgs/welcome.png" alt="Main Window (Light Theme)">
-Open-source alternative to Notion. You are in charge of your data and customizations
-
-License: AGPL-3.0
-
-Web page: <https://www.appflowy.io>  
-Source code: <https://github.com/AppFlowy-IO/AppFlowy>
-
-Become a sponsor: <https://ko-fi.com/appflowy>  
-Translate: <https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy>  
-Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.15.1/AppFlowy-0.15.1-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>
->>>>>>> refs/remotes/origin/main

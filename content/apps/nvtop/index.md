@@ -16,22 +16,5 @@ license = ["GPL-3.0"]
 repository = "https://github.com/Syllo/nvtop"
 bugtracker = "https://github.com/Syllo/nvtop/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/Syllo/nvtop/refs/heads/master/desktop/nvtop.metainfo.xml.in"
-install_x86_64="https://github.com/Syllo/nvtop/releases/download/3.3.2/nvtop-3.3.2-x86_64.AppImage"
+install_x86_64="https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-x86_64.AppImage"
 +++
-<<<<<<< HEAD
-=======
-
-GPUs process monitoring for AMD, Intel and NVIDIA
-
-License: GPL-3.0
-
-Source code: <https://github.com/Syllo/nvtop>
-
-Report the bug: <https://github.com/Syllo/nvtop/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Syllo/nvtop/releases/download/3.4.0/nvtop-3.4.0-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>
->>>>>>> refs/remotes/origin/main

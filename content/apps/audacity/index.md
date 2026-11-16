@@ -20,8 +20,6 @@ screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/
 appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
 install_x86_64 = "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage"
 +++
-<<<<<<< HEAD
-=======
 
 Easy-to-use, multi-track audio editor and recorder
 

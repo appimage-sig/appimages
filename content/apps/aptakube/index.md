@@ -19,21 +19,3 @@ screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/
 appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
 install_x86_64 = "https://github.com/aptakube/aptakube/releases/download/1.22.3/aptakube_1.22.3_amd64.AppImage"
 +++
-<<<<<<< HEAD
-=======
-<img src="https://aptakube.com/screenshot.png" alt="Main Window (Dark Theme)">
-
-Modern, lightweight and multi-cluster Kubernetes GUI
-
-License: EULA
-
-Web page: <https://aptakube.com>
-
-Report the bug: <https://github.com/aptakube/aptakube/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/aptakube/aptakube/releases/download/1.22.3/aptakube_1.22.3_amd64.AppImage">Download x86_64</a>
-</button>
-</div>
->>>>>>> refs/remotes/origin/main

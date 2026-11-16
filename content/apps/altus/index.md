@@ -18,22 +18,3 @@ donations = "https://github.com/sponsors/amanharwara"
 appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
 install_x86_64 = "https://github.com/amanharwara/altus/releases/download/5.8.2/Altus-5.8.2.AppImage"
 +++
-<<<<<<< HEAD
-=======
-
-Desktop client for WhatsApp Web with themes, notifications and multiple account support
-
-License: GPL-3.0
-
-Source code: <https://github.com/amanharwara/altus>
-
-Become a sponsor: <https://github.com/sponsors/amanharwara>  
-Translate: <https://hosted.weblate.org/projects/actualbudget>  
-Report the bug: <https://github.com/amanharwara/altus/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/amanharwara/altus/releases/download/5.8.2/Altus-5.8.2.AppImage">Download x86_64</a>
-</button>
-</div>
->>>>>>> refs/remotes/origin/main
