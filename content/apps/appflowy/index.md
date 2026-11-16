@@ -1,7 +1,7 @@
 +++
 title = "AppFlowy"
 description = "Open-source alternative to Notion. You are in charge of your data and customizations"
-date = "2026-10-26T00:09:38Z"
+date = "2026-11-15T02:51:07Z"
 authors = ["AppFlowy"]
 
 [taxonomies]
@@ -10,22 +10,14 @@ tags = ["Knowledge Base", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]
 license = ["AGPL-3.0"]
+
+[extra]
+homepage = "https://www.appflowy.io"
+repository = "https://github.com/AppFlowy-IO/AppFlowy"
+bugtracker = "https://github.com/AppFlowy-IO/AppFlowy/issues"
+donations = "https://ko-fi.com/appflowy"
+translations = "https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy"
+screenshots = "https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/imgs/welcome.png"
+appstream_xml_url = "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
+install_x86_64 = "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.15.1/AppFlowy-0.15.1-linux-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/imgs/welcome.png" alt="Main Window (Light Theme)">
-Open-source alternative to Notion. You are in charge of your data and customizations
-
-License: AGPL-3.0
-
-Web page: <https://www.appflowy.io>  
-Source code: <https://github.com/AppFlowy-IO/AppFlowy>
-
-Become a sponsor: <https://ko-fi.com/appflowy>  
-Translate: <https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy>  
-Report the bug: <https://github.com/AppFlowy-IO/AppFlowy/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.14.11/AppFlowy-0.14.11-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

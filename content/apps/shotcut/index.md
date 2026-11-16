@@ -10,22 +10,14 @@ tags = ["Video Editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+screenshots = "https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png"
+homepage = "https://www.shotcut.org"  
+repository = "https://github.com/mltframework/shotcut"
+translations = "https://explore.transifex.com/ddennedy/shotcut"
+bugtracker = "https://github.com/mltframework/shotcut/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/mltframework/shotcut/refs/heads/master/packaging/linux/org.shotcut.Shotcut.metainfo.xml.in"
+install_x86_64="https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-linux-x86_64-26.10.3.AppImage"
 +++
-
-<img src="https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png">
-
-Free, open source, cross-platform video editor
-
-License: GPL-3.0
-
-Web page: <https://www.shotcut.org>  
-Source code: <https://github.com/mltframework/shotcut>
-
-Translate: <https://explore.transifex.com/ddennedy/shotcut>  
-Report the bug: <https://github.com/mltframework/shotcut/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-linux-x86_64-26.10.3.AppImage">Download x86_64</a>
-</button>
-</div>

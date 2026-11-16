@@ -10,22 +10,14 @@ tags = ["Messenger", "Matrix", "Cross-platform software"]
 frameworks = ["Kotlin Multiplatform"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+screenshots = "https://schildi.chat/revenge/img/inbox_2.png"
+homepage = "https://schildi.chat/revenge/"  
+repository = "https://github.com/SchildiChat/schildi-revenge/"
+translations = "https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/"
+bugtracker = "https://github.com/SchildiChat/schildichat-desktop/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.10.26/schildichat-revenge-x86_64-26.10.26.AppImage"
 +++
-
-<img src="https://schildi.chat/revenge/img/inbox_2.png">
-
-Matrix client for desktop written in Kotlin and using the Matrix Rust SDK
-
-License: GPL-3.0
-
-Web page: <https://schildi.chat/revenge/>  
-Source code: <https://github.com/SchildiChat/schildi-revenge/>
-
-Translate: <https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/>  
-Report the bug: <https://github.com/SchildiChat/schildichat-desktop/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.10.26/schildichat-revenge-x86_64-26.10.26.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,23 +10,15 @@ tags = ["Office Suite", "Cross-platform software", "Qt6"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+
+homepage = "https://www.onlyoffice.com"  
+repository = "https://github.com/ONLYOFFICE/DesktopEditors"
+
+translations = "https://helpcenter.onlyoffice.com/guides/become-translator.aspx"
+bugtracker = "https://github.com/ONLYOFFICE/DesktopEditors/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-x86_64.AppImage"
+install_arm64="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-arm64.AppImage"
 +++
-
-Free office suite that combines text, spreadsheet and presentation editors
-
-License: AGPL-3.0
-
-Web page: <https://www.onlyoffice.com>  
-Source code: <https://github.com/ONLYOFFICE/DesktopEditors>
-
-Translate: <https://helpcenter.onlyoffice.com/guides/become-translator.aspx>  
-Report the bug: <https://github.com/ONLYOFFICE/DesktopEditors/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-arm64.AppImage">Download arm64</a>
-</button>
-</div>

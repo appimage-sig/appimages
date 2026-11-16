@@ -8,24 +8,17 @@ authors = ["KeePassXC Team"]
 categories = ["Utilities"]
 tags = ["Offline password manager"]
 frameworks = ["Qt5"]
-architectures = ["x86_64"]
+architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+repository = "https://github.com/keepassxreboot/keepassxc"
+donations = "https://keepassxc.org/donate"
+translations = "https://explore.transifex.com/keepassxc/keepassxc"
+bugtracker = "https://github.com/keepassxreboot/keepassxc/issues"
+screenshots = "https://keepassxc.org/assets/img/screenshots/database_view.png"
+appstream_xml_url = ""
+install_x86_64 = "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.AppImage"
+install_arm64 = "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-aarch64.AppImage"
 +++
-
-<img src="https://keepassxc.org/assets/img/screenshots/database_view.png">
-
-KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information
-
-License: GPL-3.0
-
-Source code: <https://github.com/keepassxreboot/keepassxc>
-
-Become a sponsor: <https://keepassxc.org/donate>  
-Translate: <https://explore.transifex.com/keepassxc/keepassxc>  
-Report the bug: <https://github.com/keepassxreboot/keepassxc/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-aarch64.AppImage">Download x86_64</a>
-</button>
-</div>

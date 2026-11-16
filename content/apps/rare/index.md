@@ -1,7 +1,7 @@
 +++
 title = "Rare"
 description = "Frontend for legendary, the open source Epic Games Launcher alternative"
-date = "2025-12-09T19:05:30Z"
+date = "2025-09-28T23:57:30"
 authors = ["Rare Devs"]
 
 [taxonomies]
@@ -10,23 +10,14 @@ tags = ["Epic Games", "Game launcher"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://raredevs.github.io/Rare"
+repository = "https://github.com/RareDevs/Rare"
+bugtracker = "https://github.com/RareDevs/Rare/issues"
+translations = "https://explore.transifex.com/rare-1/rare/"
+screenshots = "https://raw.githubusercontent.com/RareDevs/Rare/refs/heads/main/docs/assets/RareLibraryIcon.png"
+appstream_xml_url = ""
+install_x86_64 = "https://github.com/RareDevs/Rare/releases/download/1.12.0.237/Rare-1.12.0.237-x86_64.AppImage"
+install_arm64 = "https://github.com/RareDevs/Rare/releases/download/1.12.0.237/Rare-1.12.0.237-arm64.AppImage"
 +++
-
-Frontend for legendary, the open source Epic Games Launcher alternative
-
-License: GPL-3.0
-
-Web page: <https://raredevs.github.io/Rare>  
-Source code: <https://github.com/RareDevs/Rare>
-
-Translate: <https://explore.transifex.com/rare-1/rare>  
-Report the bug: <https://github.com/RareDevs/Rare/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0/Rare-1.12.0.0-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/RareDevs/Rare/releases/download/1.12.0.178/Rare-1.12.0.178-arm64.AppImage">Download arm64</a>
-</button>
-</div>

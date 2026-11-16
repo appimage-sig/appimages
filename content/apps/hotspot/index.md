@@ -10,19 +10,12 @@ tags = ["Resource Monitor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+repository = "https://github.com/KDAB/hotspot"
+bugtracker = "https://github.com/KDAB/hotspot/issues"
+translations = "https://crowdin.com/project/qownnotes"
+screenshots = "https://raw.githubusercontent.com/KDAB/hotspot/refs/heads/master/screenshots/summary.png"
+appstream_xml_url = "https://github.com/KDAB/hotspot/blob/master/com.kdab.Hotspot.appdata.xml"
+install_x86_64 = "https://github.com/KDAB/hotspot/releases/download/continuous/hotspot-continuous.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/KDAB/hotspot/refs/heads/master/screenshots/summary.png">
-
-Linux perf GUI for performance analysis
-
-License: GPL-2.0
-
-Source code: <https://github.com/KDAB/hotspot>
-
-Report the bug: <https://github.com/KDAB/hotspot/issues>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" > <a href="https://github.com/KDAB/hotspot/releases/download/v1.6.0/hotspot-v1.6.0-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

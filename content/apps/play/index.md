@@ -10,20 +10,13 @@ tags = ["PlayStation Emulator", "Console Emulator"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["BSD-2-Clause"]
+
+[extra]
+
+homepage = "https://purei.org"  
+repository = "https://github.com/jpd002/Play-"
+donations = "https://github.com/sponsors/jpd002"
+bugtracker = "https://github.com/jpd002/Play-/issues/new"
+
+install_="https://purei.org/downloads/play/stable/0.72/Play!-8de4a71f-x86_64.AppImage"
 +++
-
-Play! is a PlayStation2 emulator for Windows, macOS, UNIX, Android, iOS and web browser platforms
-
-License: BSD-2-Clause
-
-Web page: <https://purei.org>  
-Source code: <https://github.com/jpd002/Play->
-
-Become a sponsor: <https://github.com/sponsors/jpd002>  
-Report the bug: <https://github.com/jpd002/Play-/issues/new>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://purei.org/downloads/play/stable/0.72/Play!-8de4a71f-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

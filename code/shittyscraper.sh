@@ -103,7 +103,6 @@ match_architecture() {
 		arch="ppc64le"
 	fi
 
-	# Извлекаем только список URL для фильтрации архитектур
 	all_new_urls=$(printf '%s\n' "$all_new_assets" | cut -d'|' -f1)
 
 	case "$arch" in

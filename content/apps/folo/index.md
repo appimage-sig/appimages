@@ -10,20 +10,12 @@ tags = ["RSS", "News Reader", "AI-powered software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://folo.is/"
+repository = "https://github.com/RSSNext/Folo"
+bugtracker = "https://github.com/RSSNext/Folo/issues"
+donations = "https://github.com/sponsors/pbek"
+translations = "https://github.com/RSSNext/Folo/blob/dev/wiki/contribute-i18n.md"
+install_x86_64 = "https://github.com/RSSNext/Folo/releases/download/desktop%2Fv1.18.0/Folo-1.18.0-linux-x64.AppImage"
 +++
-
-"Folo is the AI RSS Reader"
-
-License: GPL-3.0
-
-Web page: <https://folo.is/>  
-Source code: <https://github.com/RSSNext/Folo/>
-
-Translate: <https://github.com/RSSNext/Folo/blob/dev/wiki/contribute-i18n.md>  
-Report the bug: <https://github.com/RSSNext/Folo/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/RSSNext/Folo/releases/download/desktop/v1.16.0/Folo-1.16.0-linux-x64.AppImage">Download x86_64</a>
-</button>
-</div>

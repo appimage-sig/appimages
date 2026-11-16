@@ -1,7 +1,7 @@
 +++
 title = "Moonlight"
 description = "Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine."
-date = "2024-09-17 04:35:00"
+date = "2024-10-04 03:44:00"
 authors = ["Moonlight Game Streaming Project"]
 
 [taxonomies]
@@ -10,19 +10,12 @@ tags = ["Remote play"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://moonlight-stream.org"  
+repository = "https://github.com/moonlight-stream/moonlight-qt"
+bugtracker = "https://github.com/moonlight-stream/moonlight-qt/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.2.0/Moonlight-6.2.0-x86_64.AppImage"
 +++
-
-Moonlight PC is an open source PC client for NVIDIA GameStream and Sunshine
-
-License: GPL-3.0
-
-Web page: <https://moonlight-stream.org>  
-Source code: <https://github.com/moonlight-stream/moonlight-qt>
-
-Report the bug: <https://github.com/moonlight-stream/moonlight-qt/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://nightly.link/moonlight-stream/moonlight-qt/workflows/build/master/Moonlight-LinuxAppImage-0e50a9.zip">Download x86_64</a>
-</button>
-</div>

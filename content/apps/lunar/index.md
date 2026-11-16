@@ -9,16 +9,9 @@ categories = ["Games"]
 tags = ["Game launcher", "Minecraft launcher"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://www.lunarclient.com"
+install_x86_64="https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.6-ow.AppImage"
 +++
-
-A modpack for all modern versions of Minecraft
-
-License: GPL-3.0
-
-Web: <https://www.lunarclient.com/>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://launcherupdates.lunarclientcdn.com/Lunar%20Client-3.6.6-ow.AppImage">Download x86_64</a>
-</button>
-</div>

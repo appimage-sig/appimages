@@ -10,22 +10,13 @@ tags = ["Code editor", "TUI"]
 frameworks = ["tui-rs"]
 architectures = ["x86_64"]
 license = ["MPL-2.0"]
+
+[extra]
+homepage = "https://helix-editor.com"
+repository = "https://github.com/helix-editor/helix"
+bugtracker = "https://github.com/helix-editor/helix/issues"
+donations = "https://opencollective.com/helix-editor"
+screenshots = "https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/contrib/Helix.appdata.xml"
+install_x86_64 = "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/screenshot.png">
-
-A post-modern modal text editor
-
-License: MPL-2.0
-
-Web page: <https://helix-editor.com>  
-Source code: <https://github.com/helix-editor/helix>
-
-Become a sponsor: <https://opencollective.com/helix-editor>  
-Report the bug: <https://github.com/helix-editor/helix/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-aarch64-linux.tar.xz">Download x86_64</a>
-</button>
-</div>

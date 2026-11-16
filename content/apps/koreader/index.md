@@ -10,27 +10,16 @@ tags = ["eBook reader"]
 frameworks = ["Lua"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+
+homepage = "http://koreader.rocks"  
+repository = "https://github.com/koreader/koreader"
+donations = "https://liberapay.com/KOReader"
+translations = "https://hosted.weblate.org/engage/koreader"
+bugtracker = "https://github.com/koreader/koreader/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/koreader/koreader/refs/heads/master/platform/linux/koreader.metainfo.xml"
+install_x86_64="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-x86_64.AppImage"
+install_arm64="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage"
+install_armv7l="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage"
 +++
-
-An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices
-
-License: AGPL-3.0
-
-Web page: <http://koreader.rocks>  
-Source code: <https://github.com/koreader/koreader>
-
-Become a sponsor: <https://liberapay.com/KOReader>  
-Translate: <https://hosted.weblate.org/engage/koreader>  
-Report the bug: <https://github.com/koreader/koreader/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage">Download arm64</a>
-</button>
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage">Download armv7l</a>
-</button>
-</div>

@@ -10,21 +10,13 @@ tags = ["Web apps", "Browser"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["Apache-2.0"]
+
+[extra]
+
+screenshots = "https://raw.githubusercontent.com/ferdium/ferdium-app/refs/heads/develop/branding/screenshots/service-store.png"
+homepage = "https://ferdium.org"
+repository = "https://github.com/ferdium/ferdium-app"
+bugtracker = "https://github.com/ferdium/ferdium-app/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/ferdium/ferdium-app/releases/download/v7.2.3/Ferdium-linux-Portable-7.2.3-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/ferdium/ferdium-app/refs/heads/develop/branding/screenshots/service-store.png">
-
-All your services in one place, built by the community
-
-License: Apache-2.0
-
-Web page: <https://ferdium.org>  
-Source code: <https://github.com/ferdium/ferdium-app>
-
-Report the bug: <https://github.com/ferdium/ferdium-app/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ferdium/ferdium-app/releases/download/v7.2.3/Ferdium-linux-Portable-7.2.3-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

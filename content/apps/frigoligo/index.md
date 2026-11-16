@@ -10,24 +10,13 @@ tags = ["Bookmark manager"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]
+
+[extra]
+repository = "https://github.com/casimir/frigoligo"
+bugtracker = "https://github.com/casimir/frigoligo/issues"
+translations = "https://hosted.weblate.org/engage/frigoligo"
+screenshots = "https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/assets/screenshots/desktop.png"
+appstream_xml_url = "https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/flathub/net.casimirlab.frigoligo.metainfo.xml"
+install_x86_64 = "https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-x86_64.AppImage"
+install_arm64 = "https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/assets/screenshots/desktop.png">
-
-Frigoligo is a wallabag client crafted using Flutter
-
-License: "MIT"
-
-Source code: <https://github.com/casimir/frigoligo>
-
-Translate: <https://hosted.weblate.org/engage/frigoligo>  
-Report the bug: <https://github.com/casimir/frigoligo/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/casimir/frigoligo/releases/download/v2.4.0/Frigoligo-v2.4.0-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

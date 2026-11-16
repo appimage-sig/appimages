@@ -10,19 +10,13 @@ tags = ["Offline music player"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["MIT"]
+
+[extra]
+
+homepage = "https://noramusic.netlify.app"  
+repository = "https://github.com/Sandakan/Nora"
+translations = "https://crowdin.com/project/nora"
+bugtracker = "https://github.com/Sandakan/Nora/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/Sandakan/Nora/refs/heads/master/flatpak/app.netlify.noramusic.Nora.metainfo.xml"
+install_x86_64="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage"
 +++
-
-An elegant music player built using Electron and React
-
-License: MIT
-Web page: <https://noramusic.netlify.app>  
-Source code: <https://github.com/Sandakan/Nora>
-
-Translate: <https://crowdin.com/project/nora>  
-Report the bug: <https://github.com/Sandakan/Nora/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

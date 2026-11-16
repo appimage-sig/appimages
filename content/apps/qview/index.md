@@ -10,20 +10,13 @@ tags = ["Image Viewer"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://interversehq.com/qview"  
+repository = "https://github.com/jurplel/qView"
+translations = "https://hosted.weblate.org/projects/qview/qview"
+bugtracker = "https://github.com/jurplel/qView/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-x86_64.AppImage"
 +++
-
-Practical and minimal image viewer
-
-License: GPL-3.0
-
-Web page: <https://interversehq.com/qview>  
-Source code: <https://github.com/jurplel/qView>
-
-Translate: <https://hosted.weblate.org/projects/qview/qview>  
-Report the bug: <https://github.com/jurplel/qView/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

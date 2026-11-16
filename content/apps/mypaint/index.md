@@ -10,21 +10,14 @@ tags = ["Painting software"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "http://mypaint.app"  
+repository = "https://github.com/mypaint/mypaint"
+donations = "https://opencollective.com/mypaint"
+translations = "https://hosted.weblate.org/engage/mypaint/?utm_source=widget"
+bugtracker = "https://github.com/mypaint/mypaint/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage"
 +++
-
-A fast and dead-simple painting app for artists
-
-License: GPL-2.0
-
-Web page: <http://mypaint.app>  
-Source code: <https://github.com/mypaint/mypaint>
-
-Become a sponsor: <https://opencollective.com/mypaint>  
-Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
-Report the bug: <https://github.com/mypaint/mypaint/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage">Download x86_64</a>
-</button>
-</div>

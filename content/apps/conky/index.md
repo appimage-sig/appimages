@@ -10,22 +10,14 @@ tags = ["System Monitor", "OSD"]
 frameworks = ["ncurses"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://conky.cc"
+repository = "https://github.com/brndnmtthws/conky"
+bugtracker = "https://github.com/brndnmtthws/conky/issues"
+donations = "https://github.com/sponsors/brndnmtthws"
+screenshots = "https://raw.githubusercontent.com/Eboreg/klaatu-conky-conf/refs/heads/main/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/brndnmtthws/conky/releases/download/v1.26.0/conky-ubuntu-26.04-x86_64-v1.26.0-release.AppImage"
+install_arm64 = "https://github.com/brndnmtthws/conky/releases/download/v1.26.0/conky-ubuntu-26.04-aarch64-v1.26.0-release.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/wiki/brndnmtthws/conky/configs/brenden/screenshot.png">
-
-Light-weight system monitor for X, Wayland, and other things, too
-
-License: GPL-3.0
-
-Web page: <https://conky.cc>  
-Source code: <https://github.com/brndnmtthws/conky>
-
-Become a sponsor: <https://github.com/sponsors/brndnmtthws>  
-Report the bug: <https://github.com/brndnmtthws/conky/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/brndnmtthws/conky/releases/download/v1.26.0/conky-ubuntu-22.04-x86_64-v1.26.0-debug.AppImage">Download x86_64</a>
-</button>
-</div>

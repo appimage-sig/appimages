@@ -10,22 +10,14 @@ tags = ["Authentificator", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://ente.io/auth/"  
+repository = "https://github.com/ente-io/ente"
+translations = "https://crowdin.com/project/ente-photos-web"
+bugtracker = "https://github.com/ente-io/ente/issues"
+screenshots = "https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/.github/assets/auth.png"
+appstream_xml_url = ""
+install_x86_64="https://github.com/ente-io/ente/releases/download/auth-v4.4.22/ente-auth-v4.4.22-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/.github/assets/auth.png">
-
-Open source 2FA authenticator, with end-to-end encrypted backups
-
-License: GPL-3.0
-
-Web page: <https://ente.io/auth/>  
-Source code: <https://github.com/ente-io/ente>
-
-Translate: <https://crowdin.com/project/ente-photos-web>  
-Report the bug: <https://github.com/ente-io/ente/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ente-io/ente/releases/download/auth-v4.4.22/ente-auth-v4.4.22-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

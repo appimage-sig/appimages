@@ -9,20 +9,13 @@ categories = ["System"]
 tags = ["Shell language"]
 architectures = ["x86_64"]
 license = ["BSD-2-Clause"]
+
+[extra]
+
+homepage = "https://xon.sh"  
+repository = "https://github.com/xonsh/xonsh"
+donations = "https://github.com/sponsors/xonsh"
+bugtracker = "https://github.com/xonsh/xonsh/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/xonsh/xonsh/refs/heads/main/appimage/xonsh.appdata.xml"
+install_x86_64="https://github.com/xonsh/xonsh/releases/download/0.25.0/xonsh-x86_64.AppImage"
 +++
-
-Python-powered, cross-platform, Unix-gazing shell language and command prompt
-
-License: BSD-2-Clause
-
-Web page: <https://xon.sh>  
-Source code: <https://github.com/xonsh/xonsh>
-
-Become a sponsor: <https://github.com/sponsors/xonsh>  
-Report the bug: <https://github.com/xonsh/xonsh/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/xonsh/xonsh/releases/download/0.25.0/xonsh-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

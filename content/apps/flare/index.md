@@ -9,22 +9,14 @@ categories = ["Games"]
 tags = ["Game", "OSS Game"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "http://flarerpg.org"  
+repository = "https://github.com/flareteam/flare-game"
+translations = "https://explore.transifex.com/flareorg"
+screenshots = "https://raw.githubusercontent.com/flareteam/flare-game/refs/heads/master/distribution/screenshot1.jpg"
+bugtracker = "https://github.com/flareteam/flare-game/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/flareteam/flare-game/refs/heads/master/distribution/org.flarerpg.Flare.appdata.xml"
+install_x86_64="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/flareteam/flare-game/refs/heads/master/distribution/screenshot1.jpg">
-
-Fantasy action RPG using the FLARE engine
-
-License: GPL-3.0
-
-Web page: <http://flarerpg.org>  
-Source code: <https://github.com/flareteam/flare-game>
-
-Translate: <https://explore.transifex.com/flareorg>  
-Report the bug: <https://github.com/flareteam/flare-game/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,21 +10,13 @@ tags = ["Office Suite"]
 frameworks = ["VCL"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://www.libreoffice.org"
+repository = "https://github.com/LibreOffice/core"
+donations = "https://www.libreoffice.org/donate"
+translations = "https://wiki.documentfoundation.org/Language"
+bugtracker = "https://bugs.documentfoundation.org"
+install_x86_64 = "https://appimages.libreitalia.org/portable/LibreOffice-25.8.4.2.standard-x86_64.AppImage"
 +++
-
-Free open source office suite
-
-License: GPL-3.0
-
-Web page: <https://www.libreoffice.org>  
-Source code: <https://github.com/LibreOffice/core>
-
-Become a sponsor: <https://www.libreoffice.org/donate>  
-Translate: <https://wiki.documentfoundation.org/Language>  
-Report the bug: <https://bugs.documentfoundation.org>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://appimages.libreitalia.org/portable/LibreOffice-25.8.4.2.standard-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

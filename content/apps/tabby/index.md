@@ -10,27 +10,17 @@ tags = ["Terminal"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]
 license = ["MIT"]
+
+[extra]
+
+homepage = "https://tabby.sh/"  
+repository = "https://github.com/Eugeny/tabby"
+donations = "https://github.com/sponsors/Eugeny"
+translations = "https://crowdin.com/project/tabby"
+bugtracker = "https://github.com/Eugeny/tabby/issues"
+screenshots = "https://raw.githubusercontent.com/Eugeny/tabby/refs/heads/master/docs/readme.png"
+appstream_xml_url = ""
+install_x86_64="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage"
+install_arm64="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage"
+install_armv7l="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/Eugeny/tabby/refs/heads/master/docs/readme.png">
-
-A terminal for a more modern age
-
-License: MIT
-Web page: <https://tabby.sh/>  
-Source code: <https://github.com/Eugeny/tabby>
-
-Become a sponsor: <https://github.com/sponsors/Eugeny>
-Translate: <https://crowdin.com/project/tabby>
-Report the bug: <https://github.com/Eugeny/tabby/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage">Download x86_64</a>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage">Download armv7l</a>
-</button>
-</div>

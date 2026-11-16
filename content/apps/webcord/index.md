@@ -10,26 +10,15 @@ tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]
 license = ["MIT"]
+
+[extra]
+
+repository = "https://github.com/SpacingBat3/WebCord"
+translations = "https://hosted.weblate.org/projects/webcord"
+donations = "https://github.com/sponsors/SpacingBat3"
+bugtracker = "https://github.com/SpacingBat3/WebCord/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-x64.AppImage"
+install_arm64="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage"
+install_armv7l="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage"
 +++
-
-A Discord and SpaceBar Electron-based client implemented without Discord API.
-
-License: "MIT"
-
-Source code: <https://github.com/SpacingBat3/WebCord>
-
-Translate: <https://hosted.weblate.org/projects/webcord>  
-Become a sponsor: <https://github.com/sponsors/SpacingBat3>  
-Report the bug: <https://github.com/SpacingBat3/WebCord/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-x64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage">Download armv7l</a>
-</button>
-</div>

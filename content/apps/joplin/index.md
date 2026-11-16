@@ -10,21 +10,14 @@ tags = ["Notes", "To-do", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["AGPL-3.0"]
+
+[extra]
+homepage = "https://joplinapp.org"
+repository = "https://github.com/laurent22/joplin"
+bugtracker = "https://github.com/laurent22/joplin/issues"
+donations = "https://joplinapp.org/donate"
+translations = "https://joplinapp.org/help/dev/localisation/"
+screenshots = "https://joplinapp.org/images/home-top-img.png"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/net.cozic.joplin_desktop/refs/heads/master/net.cozic.joplin_desktop.appdata.xml"
+install_x86_64 = "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.AppImage"
 +++
-
-The secure note taking and to-do app with synchronisation capabilities
-
-License: AGPL-3.0
-
-Web page: <https://joplinapp.org>  
-Source code: <https://github.com/laurent22/joplin>
-
-Become a sponsor: <https://github.com/sponsors/laurent22>  
-Translate: <https://joplinapp.org/help/dev/localisation>  
-Report the bug: <https://github.com/laurent22/joplin/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/laurent22/joplin/releases/download/v3.6.14/Joplin-3.6.14-arm64.DMG">Download x86_64</a>
-</button>
-</div>

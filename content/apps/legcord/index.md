@@ -10,27 +10,16 @@ tags = ["Messenger", "Discord client"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]
 license = ["OSL-3.0"]
+
+[extra]
+
+homepage = "https://legcord.app"  
+repository = "https://github.com/Legcord/Legcord"
+donations = "https://github.com/sponsors/smartfrigde"
+translations = "https://hosted.weblate.org/projects/armcord/"
+bugtracker = "https://github.com/Legcord/Legcord/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/Legcord/Legcord/refs/heads/dev/meta/app.legcord.Legcord.metainfo.xml"
+install_x86_64="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-x86_64.AppImage"
+install_arm64="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage"
+install_armv7l="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage"
 +++
-
-Legcord is a custom client designed to enhance your Discord experience while keeping everything lightweight
-
-License: OSL-3.0
-
-Web page: <https://legcord.app>  
-Source code: <https://github.com/Legcord/Legcord>
-
-Become a sponsor: <https://github.com/sponsors/smartfrigde>  
-Translate: <https://hosted.weblate.org/projects/armcord/>  
-Report the bug: <https://github.com/Legcord/Legcord/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage">Download armv7l</a>
-</button>
-</div>

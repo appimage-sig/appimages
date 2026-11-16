@@ -10,38 +10,19 @@ tags = ["Audio Converter"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64", "x86", "armv7l", "riscv64", "ppc64el"]
 license = ["GPL-2.0"]
+
+[extra]
+homepage = "https://www.freac.org"
+repository = "https://github.com/enzo1982/freac"
+bugtracker = "https://github.com/enzo1982/freac/issues"
+donations = "https://www.freac.org/donate-to-bonkenc-othermenu-34"
+translations = "https://crowdin.com/project/freac"
+screenshots = "https://freac.org/images/freac-linux.png"
+appstream_xml_url = "https://raw.githubusercontent.com/enzo1982/freac/refs/heads/master/metadata/org.freac.freac.appdata.xml"
+install_x86_64 = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-x86_64.AppImage"
+install_arm64 = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-aarch64.AppImage"
+install_x86 = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-i686.AppImage"
+install_armv7l = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-armhf.AppImage"
+install_riscv64 = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage"
+install_ppc64el = "https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-ppc64el.AppImage"
 +++
-
-<img src="https://freac.org/images/freac-linux.png">
-
-Free and open source audio converter
-
-License: GPL-2.0
-
-Web page: <https://www.freac.org>  
-Source code: <https://github.com/enzo1982/freac>
-
-Become a sponsor: <https://www.freac.org/donate-to-bonkenc-othermenu-34>  
-Translate: <https://www.freac.org/translation-status-othermenu-26>  
-Report the bug: <https://github.com/enzo1982/freac/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download arm64</a>
-</button>
- <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-i686.AppImage">Download x86</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download armv7l</a>
-</button>
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/enzo1982/freac/releases/download/continuous/freac-continuous-linux-riscv64.AppImage">Download riscv64</a>
-</button>
-    <button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-aarch64.AppImage">Download ppc64el</a>
-</button>
-</div>

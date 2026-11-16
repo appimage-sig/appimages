@@ -9,16 +9,9 @@ categories = ["Science"]
 tags = ["Reference manager"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+homepage = "https://www.mendeley.com"
+install_x86_64="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.151.0-x86_64.AppImage"
 +++
-
-The free all-in-one reference manager
-
-License: EULA
-
-Web page: <https://www.mendeley.com>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.144.0-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

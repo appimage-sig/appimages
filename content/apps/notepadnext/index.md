@@ -10,21 +10,13 @@ tags = ["Code editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+screenshots = "https://raw.githubusercontent.com/dail8859/NotepadNext/master/doc/screenshot_linux.png"
+repository = "https://github.com/dail8859/NotepadNext"
+donations = "https://github.com/sponsors/dail8859"
+bugtracker = "https://github.com/dail8859/NotepadNext/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml"
+install_x86_64="https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/dail8859/NotepadNext/master/doc/screenshot_linux.png">
-
-A cross-platform, reimplementation of Notepad++
-
-License: GPL-3.0
-
-Source code: <https://github.com/dail8859/NotepadNext>
-
-Become a sponsor: <https://github.com/sponsors/dail8859>  
-Report the bug: <https://github.com/dail8859/NotepadNext/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

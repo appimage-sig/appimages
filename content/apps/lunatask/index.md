@@ -9,18 +9,11 @@ categories = ["Productivity"]
 tags = ["Notes", "To-do", "Cross-platform software"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+homepage = "https://lunatask.app"
+screenshots = "https://lunatask.app/assets/images/Artboard-46ce7f8c3d5dddd4c137b3b9491d26ea.png"
+appstream_xml_url = ""
+install_x86_64="https://github.com/lunatask/lunatask/releases/download/v2.1.29/Lunatask-2.1.29.AppImage"
 +++
-
-<img src="https://lunatask.app/assets/images/Artboard-46ce7f8c3d5dddd4c137b3b9491d26ea.png">
-
-All-in-one encrypted to-do list, habit and mood tracker, journaling and notes app
-
-License: EULA
-
-Web page: <https://lunatask.app>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/lunatask/lunatask/releases/download/v2.1.29/Lunatask-2.1.29.AppImage">Download x86_64</a>
-</button>
-</div>

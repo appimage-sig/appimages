@@ -10,23 +10,14 @@ tags = ["Reverse Engineering"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://cutter.re/"
+repository = "https://github.com/rizinorg/cutter"
+bugtracker = "https://github.com/rizinorg/cutter/issues"
+donations = "https://github.com/sponsors/rizinorg"
+translations = "https://crowdin.com/project/cutter"
+screenshots = "https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/rizinorg/cutter/refs/heads/dev/src/re.rizin.cutter.appdata.xml"
+install_x86_64 = "https://github.com/rizinorg/cutter/releases/download/v2.5.0/Cutter-v2.5.0-Linux-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png">
-
-Free and Open Source Reverse Engineering platform powered by Rizin
-
-License: GPL-3.0
-
-Web page: <https://cutter.re>  
-Source code: <https://github.com/rizinorg/cutter>
-
-Become a sponsor: <https://github.com/sponsors/rizinorg>  
-Translate: <https://crowdin.com/project/cutter>  
-Report the bug: <https://github.com/rizinorg/cutter/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/rizinorg/cutter/releases/download/v2.5.0/Cutter-v2.5.0-Linux-Qt5-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

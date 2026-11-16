@@ -1,38 +1,24 @@
 +++
 title = "FreeTube"
 description = "FreeTube is an open source desktop YouTube player built with privacy in mind"
-date = "2026-04-01 06:12:00"
+date = "2026-11-02 11:37:00"
 authors = ["FreeTube Authors"]
 
 [taxonomies]
 categories = ["Network"]
 tags = ["Youtube client"]
 frameworks = ["Electron"]
-architectures = ["x86_64", "arm64", "armv7l"]
+architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+homepage = "https://freetubeapp.io"
+repository = "https://github.com/FreeTubeApp/FreeTube"
+bugtracker = "https://github.com/FreeTubeApp/FreeTube/issues"
+donations = "https://github.com/FreeTubeApp/FreeTube#donate"
+translations = "https://hosted.weblate.org/engage/free-tube"
+screenshots = "https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub1.png"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.freetubeapp.FreeTube/refs/heads/master/io.freetubeapp.FreeTube.metainfo.xml"
+install_x86_64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-amd64.AppImage"
+install_arm64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-arm64.AppImage"
 +++
-
-<img src="https://i.imgur.com/zFgZUUV.png">
-
-FreeTube is an open source desktop YouTube player built with privacy in mind
-
-License: AGPL-3.0
-
-Web page: <https://freetubeapp.io>  
-Source code: <https://github.com/FreeTubeApp/FreeTube>
-
-Become a sponsor: <https://liberapay.com/FreeTube>  
-Translate: <https://hosted.weblate.org/engage/free-tube>  
-Report the bug: <https://github.com/FreeTubeApp/FreeTube/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-amd64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-armv7l.AppImage">Download armv7l</a>
-</button>
-</div>

@@ -10,22 +10,14 @@ tags = ["Knowledge Base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://affine.pro"
+repository = "https://github.com/toeverything/AFFiNE"
+bugtracker = "https://github.com/toeverything/AFFiNE/issues"
+donations = "https://github.com/sponsors/toeverything"
+translations = "https://crowdin.com/project/affine"
+screenshots = "https://affine.pro/overview/Write.jpg"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/toeverything/AFFiNE/releases/download/v0.26.3/affine-0.26.3-stable-linux-x64.appimage"
 +++
-
-<img src="https://affine.pro/overview/Write.jpg" alt="Document writing interface with block-based editing">
-
-AFFiNE is a workspace with fully merged docs, whiteboards and databases. Get more things done, your creativity isn’t monotone
-
-License: MIT
-Web page: <https://affine.pro>  
-Source code: <https://github.com/toeverything/AFFiNE>
-
-Become a sponsor: <https://github.com/sponsors/toeverything>  
-Translate: <https://crowdin.com/project/affine>  
-Report the bug: <https://github.com/toeverything/AFFiNE/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/toeverything/AFFiNE/releases/download/v0.26.3/affine-0.26.3-stable-linux-x64.appimage">Download x86_64</a>
-</button>
-</div>

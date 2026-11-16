@@ -10,24 +10,15 @@ tags = ["Offline password manager"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://glitterware.github.io/Passy"  
+repository = "https://github.com/GlitterWare/Passy"
+donations = "https://github.com/sponsors/GlitterWare"
+translations = "https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md"
+bugtracker = "https://github.com/GlitterWare/Passy/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/GlitterWare/Passy/refs/heads/main/linux_assets/com.glitterware.passy.appdata.xml"
+install_x86_64="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage"
+install_arm64="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage"
 +++
-
-Offline password manager with cross-platform synchronization
-
-License: GPL-3.0
-
-Web page: <https://glitterware.github.io/Passy>  
-Source code: <https://github.com/GlitterWare/Passy>
-
-Become a sponsor: <https://github.com/sponsors/GlitterWare>  
-Translate: <https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md>  
-Report the bug: <https://github.com/GlitterWare/Passy/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/GlitterWare/Passy/releases/download/v1.10.2/Passy-v1.10.2-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

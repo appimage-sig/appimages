@@ -7,24 +7,17 @@ authors = ["OpenShot Studios"]
 [taxonomies]
 categories = ["AudioVideo"]
 tags = ["Video Editor"]
-frameworks = ["Qt5"]
+frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://www.openshot.org"  
+repository = "https://github.com/OpenShot/openshot-qt"
+donations = "https://www.openshot.org/donate"
+translations = "https://translations.launchpad.net/openshot/2.0/+translations"
+bugtracker = "https://github.com/OpenShot/openshot-qt/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/OpenShot/openshot-qt/refs/heads/develop/xdg/org.openshot.OpenShot.appdata.xml"
+install_x86_64="https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.AppImage"
 +++
-
-OpenShot Video Editor is an award-winning free and open-source video editor
-
-License: GPL-3.0
-
-Web page: <https://www.openshot.org>  
-Source code: <https://github.com/OpenShot/openshot-qt>
-
-Become a sponsor: <https://www.openshot.org/donate>  
-Translate: <https://translations.launchpad.net/openshot/2.0/+translations>  
-Report the bug: <https://github.com/OpenShot/openshot-qt/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/OpenShot/openshot-qt/releases/download/v4.1.0/OpenShot-v4.1.0-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,26 +10,15 @@ tags = ["Cloud encryption"]
 frameworks = ["Java"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://cryptomator.org"
+repository = "https://github.com/cryptomator/cryptomator"
+bugtracker = "https://github.com/cryptomator/cryptomator/issues"
+donations = "https://cryptomator.org/donate/"
+translations = "https://translate.cryptomator.org"
+screenshots = "https://static.cryptomator.org/desktop/flathubScreenshots/MainWindowUnlocked_light.png"
+appstream_xml_url = "https://raw.githubusercontent.com/cryptomator/cryptomator/refs/heads/develop/dist/linux/common/org.cryptomator.Cryptomator.metainfo.xml"
+install_x86_64 = "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-x86_64.AppImage"
+install_arm64 = "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-aarch64.AppImage"
 +++
-
-<img src="https://static.cryptomator.org/desktop/flathubScreenshots/MainWindowUnlocked_light.png">
-
-Multi-platform transparent client-side encryption of your files in the cloud
-
-License: GPL-3.0
-
-Web page: <https://cryptomator.org>  
-Source code: <https://github.com/cryptomator/cryptomator>
-
-Become a sponsor: <https://github.com/sponsors/cryptomator>  
-Translate: <https://translate.cryptomator.org>  
-Report the bug: <https://github.com/cryptomator/cryptomator/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-aarch64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

@@ -1,7 +1,7 @@
 +++
 title = "Curseforge"
 description = "Easiest Way to Manage Your Mods"
-date = "2026-06-06T07:48:33Z"
+date = "2026-11-08T07:48:33Z"
 authors = ["Overwolf"]
 
 [taxonomies]
@@ -10,17 +10,10 @@ tags = ["Gaming tool", "Mod marketplace" ]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+homepage = "https://www.curseforge.com"
+screenshots = "https://static-beta.curseforge.com/images/download-app/app-preview.webp"
+appstream_xml_url = ""
+install_x86_64 = "https://curseforge.overwolf.com/downloads/curseforge-latest-linux.AppImage"
 +++
-
-<img src="https://static-beta.curseforge.com/images/download-app/app-preview.webp" alt="Curseforge app preview">
-
-Easiest Way to Manage Your Mods
-
-License: EULA
-
-Web page: <https://www.curseforge.com/>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://curseforge.overwolf.com/downloads/curseforge-latest-linux.AppImage">Download x86_64</a>
-</button>

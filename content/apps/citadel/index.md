@@ -10,19 +10,14 @@ tags = ["eBook reader"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://citadel.page/"
+repository = "https://github.com/everydaythingssoftware/citadel"
+bugtracker = "https://github.com/everydaythingssoftware/citadel/issues"
+donations = "https://github.com/sponsors/phildenhoff"
+translations = "https://crowdin.com/project/qownnotes"
+screenshots = "https://citadel.page/screenshot-light-1200.webp"
+appstream_xml_url = ""
+install_x86_64 = "https://github.com/everydaythingssoftware/citadel/releases/download/v0.7.2/Citadel_0.7.2_amd64.AppImage"
 +++
-
-Manage your ebook library without frustrations. Calibre compatible.
-
-License: "MIT"
-
-Source code: <https://github.com/every-day-things/citadel>
-
-Become a sponsor: <https://github.com/sponsors/phildenhoff>  
-Report the bug: <https://github.com/every-day-things/citadel/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/every-day-things/citadel/releases/download/v0.4.3/Citadel_0.4.2_amd64.AppImage">Download x86_64</a>
-</button>
-</div>

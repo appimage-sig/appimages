@@ -9,20 +9,11 @@ categories = ["Development"]
 tags = ["AppImage", "TUI"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]
+
+[extra]
+repository = "https://github.com/TheAssassin/appimagecraft"
+bugtracker = "https://github.com/TheAssassin/appimagecraft/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage"
+install_arm64= "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-aarch64.AppImage"
 +++
-
-appimagecraft completely automates the AppImage build process
-
-License: "MIT"
-Source code: <https://github.com/TheAssassin/appimagecraft>
-
-Report the bug: <https://github.com/TheAssassin/appimagecraft/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

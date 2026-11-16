@@ -10,26 +10,15 @@ tags = ["Git client"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://gitfourchette.org"
+repository = "https://github.com/jorio/gitfourchette"
+bugtracker = "https://github.com/jorio/gitfourchette/issues"
+donations = "https://ko-fi.com/jorio"
+translations = "https://gitfourchette.org/localization"
+screenshots = "https://gitfourchette.org/_static/appstream/packshot-shadow-light.png"
+appstream_xml_url = "https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml"
+install_x86_64 = "https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-x86_64.AppImage"
+install_arm64 = "https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-aarch64.AppImage"
 +++
-
-<img src="https://gitfourchette.org/_static/appstream/packshot-shadow-light.png">
-
-The comfortable Git UI for Linux.
-
-License: GPL-3.0
-
-Web page: <https://gitfourchette.org/>  
-Source code: <https://github.com/jorio/gitfourchette>
-
-Become a sponsor: <https://ko-fi.com/jorio>  
-Translate: <https://hosted.weblate.org/projects/gitfourchette/gitfourchette/>  
-Report the bug: <https://github.com/jorio/gitfourchette/issues>
-
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-x86_64.AppImage">Download x86_64</a>
-</button>
-  <button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

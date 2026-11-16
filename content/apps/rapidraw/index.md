@@ -10,24 +10,14 @@ tags = ["RAW processing", "Image editor"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+screenshots = "https://raw.githubusercontent.com/CyberTimon/RapidRAW/2f7c0354580bbd403287a924e2a7fce9f2cdfc40/.github/assets/editor.png</"
+homepage = "https://www.getrapidraw.com/"
+repository = "https://github.com/CyberTimon/RapidRAW"
+donations = "https://ko-fi.com/cybertimon"
+bugtracker = "https://github.com/CyberTimon/RapidRAW/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/data/io.github.CyberTimon.RapidRAW.metainfo.xml"
+install_x86_64="https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/03_RapidRAW_v1.6.9_ubuntu-22.04_amd64.AppImage"
+install_arm64="https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/03_RapidRAW_v1.6.9_ubuntu-22.04-arm_aarch64.AppImage"
 +++
-
-A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.
-
-License: AGPL-3.0
-
-Web page: <https://www.getrapidraw.com/>  
-Source code: <https://github.com/CyberTimon/RapidRAW>
-
-Become a sponsor: <https://ko-fi.com/cybertimon>  
-Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
-Report the bug: <https://github.com/CyberTimon/RapidRAW/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Cyber imon/RapidRAW/releases/download/v1.6.0/03_RapidRAW_v1.6.0_ubuntu-22.04_amd64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Cyber imon/RapidRAW/releases/download/v1.6.0/03_RapidRAW_v1.6.0_ubuntu-22.04-arm_aarch64.AppImage">Download arm64</a>
-</button>
-</div>

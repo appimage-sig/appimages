@@ -1,7 +1,28 @@
 # TODO.md
-
-- [ ] Improve home page like Apps updated, Apps added, Categories list
-- [ ] Implement some featres from LPA <https://framagit.org/linuxphoneapps/linuxphoneapps.frama.io>
+- [ ] Improve taxonomies
+  - [ ] Show screenshot from extra taxonomy
+  - [x] Show homepage from extra taxonomy
+  - [x] Show bugtracker from extra taxonomy
+  - [x] Show translations from extra taxonomy
+  - [x] Show donations from extra taxonomy
+  - [ ] Show install from extra taxonomy
+    - [x] Show install for x86_64
+    - [ ] Show install for arm64
+    - [ ] Show install for x*86
+    - [ ] Show install for armv7l
+    - [ ] Show install for risv64
+    - [ ] Show install for ppcel64
+  - [ ] Show description
+  - [ ] Show license
+  - [ ] Show category
+  - [ ] Show tag
+- [ ] Add search functionality
+- [ ] Change main page UI
+  - [ ] Add recently added apps to main page
+  - [ ] Add recently updated apps to main page
+  - [ ] Change categories visability in main page
+  - [ ] Add See more button
+- [ ] Add MuslC supported tag
 - [ ] Add more applications
   - [ ] [5ire](https://github.com/nanbingxyz/5ire/)
   - [ ] [Aiming pro](https://aiming.pro)

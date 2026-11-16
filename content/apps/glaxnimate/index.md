@@ -7,26 +7,17 @@ authors = ["Mattia Basaglia"]
 [taxonomies]
 categories = ["Graphics"]
 tags = ["2D", "Vector graphics editor"]
-frameworks = ["Qt5"]
+frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://glaxnimate.org"
+repository = "https://invent.kde.org/graphics/glaxnimate"
+bugtracker = "https://bugs.kde.org/enter_bug.cgi?product=glaxnimate"
+donations = "https://www.kde.org/community/donations/?app=glaxnimate"
+translations = "https://l10n.kde.org"
+screenshots = "https://glaxnimate.org/images/screenshots/main_window/main_window.png"
+appstream_xml_url = "https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads"
+install_x86_64 = "https://download.kde.org/stable/glaxnimate/0.6.0/linux/glaxnimate-0.6.0-x86_64.AppImage"
 +++
-
-<img src="https://glaxnimate.org/images/screenshots/main_window/main_window.png">
-
-Simple vector animation program.
-
-License: GPL-3.0
-
-Web page: <https://glaxnimate.org/>  
-Source code: <https://invent.kde.org/graphics/glaxnimate>
-
-Donate: <https://ko-fi.com/glaxdragon>  
-Translate: <https://l10n.kde.org/>  
-Report the bug: <https://bugs.kde.org/enter_bug.cgi?product=glaxnimate>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://download.kde.org/unstable/glaxnimate/0.5.80/linux/glaxnimate-0.5.80-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

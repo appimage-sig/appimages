@@ -10,20 +10,13 @@ tags = ["Cryptocurrency"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://blockstream.com/app"
+repository = "https://github.com/Blockstream/green_qt"
+bugtracker = "https://github.com/Blockstream/green_qt/issues"
+translations = "https://explore.transifex.com/blockstream/blockstream-green/"
+screenshots = "https://storage.googleapis.com/dxp-production-assets/ds/_transforms/main/app/_AUTOxAUTO_crop_center-center_none/24806/app-hero-blockstream-app-on-laptop-and-phone-desktop-1.png"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.blockstream.Green/refs/heads/master/com.blockstream.Green.metainfo.xml"
+install_x86_64 = "https://github.com/Blockstream/green_qt/releases/download/release_3.6.1/Blockstream-x86_64.AppImage"
 +++
-
-Non-custodial Bitcoin wallet
-
-License: GPL-3.0
-
-Web page: <https://blockstream.com/green>  
-Source code: <https://github.com/Blockstream/green_qt>
-
-Translate: <https://explore.transifex.com/blockstream/blockstream-green/>  
-Report the bug: <https://github.com/Blockstream/green_qt/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Blockstream/green_qt/releases/download/release_3.3.0/Blockstream-arm64.dmg">Download x86_64</a>
-</button>
-</div>

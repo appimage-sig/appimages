@@ -9,21 +9,13 @@ categories = ["Network"]
 tags = ["Web apps", "Browser"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+homepage = "https://wavebox.io"  
+repository = "https://github.com/wavebox/waveboxapp"
+bugtracker = "https://github.com/wavebox/waveboxapp/issues"
+screenshots = "https://raw.githubusercontent.com/wavebox/waveboxapp/refs/heads/master/images/hero.png"
+appstream_xml_url = ""
+install_x86_64="https://download.wavebox.app/stable/linux/appimage/Wavebox_10.147.47-2_x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/wavebox/waveboxapp/refs/heads/master/images/hero.png">
-
-Wavebox, the revolutionary and feature-rich Chromium browser that's built for productive working across Google Workspaces, Microsoft Teams, ClickUp, Monday, Atlassian, Asana, AirTable, Slack, and every other web app you use to get work done.
-
-License: EULA
-
-Web page: <https://wavebox.io>  
-Source code: <https://github.com/wavebox/waveboxapp>
-
-Report the bug: <https://github.com/wavebox/waveboxapp/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://download.wavebox.app/stable/linux/appimage/Wavebox_10.147.47-2_x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

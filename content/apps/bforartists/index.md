@@ -10,21 +10,12 @@ tags = ["3D", "Blender"]
 frameworks = ["SDL2"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+homepage = "http://www.bforartists.de"
+repository = "https://github.com/Bforartists/Bforartists"
+bugtracker = "https://github.com/Bforartists/Bforartists/issues"
+screenshots = "https://cdn.prod.website-files.com/650c5901cff33429a5e537f5/6a21fd0d758de7fd33f50319_workspace_main.webp"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/refs/heads/master/de.bforartists.Bforartists.metainfo.xml"
+install_x86_64 = "https://github.com/Bforartists/Bforartists/releases/download/v5.2.3/Bforartists-5.2.3-x86_64.AppImage"
 +++
-
-<img src="https://www.bforartists.de/wp-content/uploads/2020/04/modelingbfa2.jpg">
-
-Bforartists is a fork of the popular 3D software Blender, with the goal to improve the UI.
-
-License: GPL-2.0
-
-Web page: <http://www.bforartists.de>  
-Source code: <https://github.com/Bforartists/Bforartists>
-
-Report the bug: <https://github.com/Bforartists/Bforartists/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Bforartists/Bforartists/releases/download/v5.2.3/Bforartists-5.2.3-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,23 +10,15 @@ tags = ["Media player"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+screenshots = "https://www.smplayer.info/images/screenshots/mainwindow.png"
+homepage = "https://smplayer.info"  
+repository = "https://github.com/smplayer-dev/smplayer"
+donations = "https://www.smplayer.info/en/contribute"
+translations = "https://explore.transifex.com/rvm/smplayer"
+bugtracker = "https://github.com/smplayer-dev/smplayer/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/smplayer-dev/smplayer/refs/heads/master/smplayer.appdata.xml"
+install_x86_64="https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/SMPlayer-26.8.29-x86_64.AppImage"
 +++
-
-<img src="https://www.smplayer.info/images/screenshots/mainwindow.png">
-
-Free Media Player with built-in codecs
-
-License: GPL-2.0
-
-Web page: <https://smplayer.info>  
-Source code: <https://github.com/smplayer-dev/smplayer>
-
-Become a sponsor: <https://www.smplayer.info/en/contribute>  
-Translate: <https://explore.transifex.com/rvm/smplayer>  
-Report the bug: <https://github.com/smplayer-dev/smplayer/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/SMPlayer-26.8.29-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

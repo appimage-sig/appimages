@@ -10,23 +10,13 @@ tags = ["API Testing", "IDE"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://www.usebruno.com"
+repository = "https://github.com/usebruno/bruno"
+bugtracker = "https://github.com/usebruno/bruno/issues"
+screenshots = "https://github.com/usebruno/bruno/blob/main/assets/images/landing-2-dark.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x86_64_linux.AppImage"
+install_arm64 = "https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_linux.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/usebruno/bruno/main/assets/images/landing-2.png">
-
-Open-source IDE for exploring and testing APIs
-
-License: MIT
-Web page: <https://www.usebruno.com>  
-Source code: <https://github.com/usebruno/bruno>
-
-Report the bug: <https://github.com/usebruno/bruno/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_x86_64_linux.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/usebruno/bruno/releases/download/v4.3.0/bruno_4.3.0_arm64_linux.AppImage">Download arm64</a>
-</button>
-</div>

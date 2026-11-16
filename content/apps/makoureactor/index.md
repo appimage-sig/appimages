@@ -10,21 +10,12 @@ tags = ["Games"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+repository = "https://github.com/myst6re/makoureactor"
+bugtracker = "https://github.com/myst6re/makoureactor/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master/deploy/linux/io.github.myst6re.makoureactor.metainfo.xml"
+install_x86_64="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage"
+install_arm64="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage"
 +++
-
-Final Fantasy VII field archive editor
-
-License: GPL-3.0
-
-Source code: <https://github.com/myst6re/makoureactor>
-
-Report the bug: <https://github.com/myst6re/makoureactor/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_x64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/myst6re/makoureactor/releases/download/v2.2.0/makoureactor-gui-linux_arm64.AppImage">Download arm64</a>
-</button>
-</div>

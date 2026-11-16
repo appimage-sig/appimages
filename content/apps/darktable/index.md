@@ -10,25 +10,14 @@ tags = ["RAW processing", "Image editor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64","arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://www.darktable.org"
+repository = "https://github.com/darktable-org/darktable"
+bugtracker = "https://github.com/darktable-org/darktable/issues"
+translations = "https://github.com/darktable-org/darktable/blob/master/doc/TRANSLATORS.md"
+screenshots = "https://www.darktable.org/images/darktable-appdata-lighttable.jpg"
+appstream_xml_url = "https://raw.githubusercontent.com/darktable-org/darktable/refs/heads/master/data/org.darktable.darktable.appdata.xml.in"
+install_x86_64 = "https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-x86_64.AppImage"
+install_arm64 = "https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-aarch64.AppImage"
 +++
-
-<img src="https://user-images.githubusercontent.com/45535283/148689197-e53dd75f-32f1-4297-9a0f-a9547fd4e7c7.jpg">
-
-darktable is an open source photography workflow application and raw developer
-
-License: GPL-3.0
-
-Web page: <https://www.darktable.org>  
-Source code: <https://github.com/darktable-org/darktable>
-
-Translate: <https://github.com/darktable-org/darktable/blob/master/doc/TRANSLATORS.md>  
-Report the bug: <https://github.com/darktable-org/darktable//issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

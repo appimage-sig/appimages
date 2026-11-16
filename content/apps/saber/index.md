@@ -10,26 +10,16 @@ tags = ["Notes", "Handwriting", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+screenshots = "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/tenInchScreenshots/1_home.png"
+homepage = "https://saber.adil.hanney.org"  
+repository = "https://github.com/saber-notes/saber"
+donations = "https://github.com/sponsors/adil192"
+translations = "https://github.com/saber-notes/saber?tab=readme-ov-file#translating"
+bugtracker = "https://github.com/saber-notes/saber/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/saber-notes/saber/releases/download/v1.37.1/Saber-1.37.1-x86_64.AppImage"
+install_arm64="https://github.com/saber-notes/saber/releases/download/v1.37.1/Saber-1.37.1-arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/tenInchScreenshots/1_home.png">
-
-Cross-platform libre handwritten notes app
-
-License: GPL-3.0
-
-Web page: <https://saber.adil.hanney.org>  
-Source code: <https://github.com/saber-notes/saber>
-
-Become a sponsor: <https://github.com/sponsors/adil192>  
-Translate: <https://github.com/saber-notes/saber?tab=readme-ov-file#translating>  
-Report the bug: <https://github.com/saber-notes/saber/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/saber-notes/saber/releases/download/v1.37.1/Saber-1.37.1-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/saber-notes/saber/releases/download/v1.37.1/Saber-1.37.1-arm64.AppImage">Download arm64</a>
-</button>
-</div>

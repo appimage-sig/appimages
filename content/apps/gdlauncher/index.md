@@ -10,21 +10,13 @@ tags = ["Minecraft Launcher"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["BUSL-1.1"]
+
+[extra]
+homepage = "https://gdlauncher.com"
+repository = "https://github.com/gorilla-devs/GDLauncher-Carbon"
+bugtracker = "https://github.com/gorilla-devs/GDLauncher-Carbon/issues"
+translations = "https://github.com/gorilla-devs/GDLauncher-Carbon/blob/develop/CONTRIBUTE_LANGS.md"
+screenshots = "https://cdn.gdl.gg/assets/website-home-app-screenshot.webp"
+appstream_xml_url = ""
+install_x86_64 = "https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.40__linux__x64.AppImage"
 +++
-
-<img src="https://cdn.gdl.gg/assets/website-home-app-screenshot.webp">
-
-GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience
-
-License: BUSL-1.1
-
-Web page: <https://gdlauncher.com>  
-Source code: <https://github.com/gorilla-devs/GDLauncher-Carbon>
-
-Report the bug: <https://github.com/gorilla-devs/GDLauncher-Carbon//issues>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.29__linux__x64.AppImage">Download x86_64</a>
-</button>
-</div>

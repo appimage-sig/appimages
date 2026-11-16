@@ -9,24 +9,22 @@ categories = ["Network"]
 tags = ["Podcast player"]
 frameworks = ["Tauri"]
 architectures = ["x86_64"]
-license = ["GPL-3.0"] 
+license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://cardo-podcast.github.io/"
+repository = "https://github.com/cardo-podcast/cardo"
+bugtracker = "https://github.com/cardo-podcast/cardo/issues"
+donations = "https://github.com/sponsors/cardo-podcast"
+translations = "https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translations"
+screenshots = "https://raw.githubusercontent.com/cardo-podcast/cardo/refs/heads/master/assets/readme/1.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage"
 +++
 
-<img src="https://raw.githubusercontent.com/cardo-podcast/cardo/refs/heads/master/assets/readme/1.png">
+screenshots = "">
 
 Cardo is a podcast client for desktop
 
-License: GPL-3.0
-
-Web page: <https://cardo-podcast.github.io/>  
-Source code: <https://github.com/cardo-podcast/cardo>
-
-Become a sponsor: <https://www.buymeacoffee.com/n0vella>  
-Translate: <https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translations>  
-Report the bug: <https://github.com/cardo-podcast/cardo/issues>
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage">Download x86_64</a>
-</button>
-</div>
+install_x86_64=""
++++

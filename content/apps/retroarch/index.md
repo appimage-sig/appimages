@@ -9,21 +9,14 @@ categories = ["Games"]
 tags = ["Game Simulator", "Retro Game Simulator"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+screenshots = "https://www.libretro.com/wp-content/uploads/2020/03/ozone-768x414.png"
+homepage = "https://www.retroarch.com"  
+repository = "https://github.com/libretro/RetroArch"
+donations = "https://github.com/sponsors/libretro"
+translations = "https://crowdin.com/project/retroarch"
+bugtracker = "https://github.com/libretro/RetroArch/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/ColinKinloch/RetroArch/refs/heads/master/com.libretro.RetroArch.metainfo.xml"
+install_x86_64="https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch_Qt.7z"
 +++
-
-RetroArch is the reference frontend for the libretro API
-
-License: GPL-3.0
-
-Web page: <https://www.retroarch.com>  
-Source code: <https://github.com/libretro/RetroArch>
-
-Become a sponsor: <https://github.com/sponsors/libretro>  
-Translate: <https://crowdin.com/project/retroarch>  
-Report the bug: <https://github.com/libretro/RetroArch/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch_Qt.7z">Download x86_64</a>
-</button>
-</div>

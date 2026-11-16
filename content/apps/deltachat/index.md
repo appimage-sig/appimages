@@ -10,26 +10,15 @@ tags = ["Messenger", "eMail client"]
 frameworks = ["Tauri", "Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://delta.chat"
+repository = "https://github.com/deltachat/deltachat-desktop"
+bugtracker = "https://github.com/deltachat/deltachat-desktop/issues"
+donations = "https://delta.chat/en/donate"
+translations = "https://explore.transifex.com/delta-chat/delta-chat-app"
+screenshots = "https://raw.githubusercontent.com/deltachat/deltachat-desktop/refs/heads/main/README_ASSETS/desktop.png"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/chat.delta.desktop/refs/heads/master/chat.delta.desktop.appdata.xml"
+install_x86_64 = "https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-x86_64.AppImage"
+install_arm64 = "https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/deltachat/deltachat-desktop/refs/heads/main/README_ASSETS/desktop.png">
-
-Email-based instant messaging for Desktop
-
-License: GPL-3.0
-
-Web page: <https://delta.chat>  
-Source code: <https://github.com/deltachat/deltachat-desktop>
-
-Translate: <https://explore.transifex.com/delta-chat/delta-chat-app/>  
-Become a sponsor: <https://delta.chat/en/donate>  
-Report the bug: <https://github.com/deltachat/deltachat-desktop/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-arm64.AppImage">Download arm64</a>
-</button>
-</div>

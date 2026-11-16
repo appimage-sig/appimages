@@ -9,23 +9,14 @@ categories = ["Development"]
 tags = ["Code editor", "TUI"]
 architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]
+
+[extra]
+
+homepage = "https://neovim.io"
+repository = "https://github.com/neovim/neovim"
+donations = "https://github.com/sponsors/neovim"
+bugtracker = "https://github.com/neovim/neovim/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/neovim/neovim/refs/heads/master/runtime/org.neovim.nvim.appdata.xml"
+install_x86_64="https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-linux-x86_64.appimage"
+install_arm64="https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-linux-arm64.appimage"
 +++
-
-Vim-fork focused on extensibility and usability
-
-License: Apache-2.0
-
-Web page: <https://neovim.io>  
-Source code: <https://github.com/neovim/neovim>
-
-Become a sponsor: <https://github.com/sponsors/neovim>  
-Report the bug: <https://github.com/neovim/neovim/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-linux-x86_64.appimage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/neovim/neovim/releases/download/v0.12.4/nvim-linux-arm64.appimage">Download arm64</a>
-</button>
-</div>

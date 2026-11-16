@@ -38,6 +38,39 @@
               <time class="post__date" datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time>
             </div>
         </div>
+        <strong>Project links:</strong>
+        <ul>
+          <li>
+          {% if page.extra.repository %}
+          Repository:
+            <a href="{{ page.extra.repository }}">{{ page.extra.repository }}</a>
+          </li>
+          {% endif %}
+          {% if page.extra.homepage %}
+          <li>
+            Homepage: <a href="{{ page.extra.homepage }}">{{ page.extra.homepage }}</a>
+          </li>
+          {% endif %}
+          {% if page.extra.bugtracker %}
+          <li>
+            <a href="{{ page.extra.bugtracker }}">{{ page.extra.bugtracker }}"</a>
+          </li>
+          {% endif %}
+          {% if page.extra.translate %}
+          <li>
+            <a href="{{ page.extra.translate }}">{{ page.extra.translate }}</a>
+            </li>
+          {% endif %}
+          {% if page.extra.donation %}
+          <li>
+            <a href="{{ page.extra.donation }}">{{ page.extra.translate }}</a>
+          </li>
+          {% endif %}
+        </ul>
+        {% if page.extra.screenshots %}
+            <img src="{{ page.extra.screenshots }}">
+        {% endif %}
+        </div>
       </div>
     </div>
   </div>

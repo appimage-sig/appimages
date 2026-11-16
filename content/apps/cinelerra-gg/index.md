@@ -1,29 +1,20 @@
 +++
 title = "Cinelerra GG"
 description = "Cinelerra GG Infinity is a free and open source video editing software for Linux"
-date = "2026-03-31 17:45:00"
+date = "2026-10-31 17:35:00"
 authors = ["Cinelerra GG community"]
 
 [taxonomies]
 categories = ["AudioVideo"]
 tags = ["Video Editor"]
-frameworks = ["GTK2"]
+frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+homepage = "https://www.cinelerra-gg.org"
+repository = "https://git.cinelerra-gg.org/git"
+bugtracker = "https://www.cinelerra-gg.org/bugtracker/login_page.php"
+screenshots = "https://www.cinelerra-gg.org/_next/image?url=%2Fimages%2Fscreenshots%2Fmulticam01.png&w=1200&q=75"
+install_x86_64 = "https://download.cinelerra-gg.org/download.php?file=qt6-alpha%2FCinGG-qt6-alpha-20261108-anylinux-x86_64.AppImage"
 +++
-
-Cinelerra GG Infinity is a free and open source video editing software for Linux
-
-License: GPL-2.0
-
-Web page: <https://www.cinelerra-gg.org>  
-Source code: <https://git.cinelerra-gg.org/git>
-
-Translate: <https://www.cinelerra-gg.org/translate-app>  
-Report the bug: <https://www.cinelerra-gg.org/bugtracker/login_page.php>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://download.cinelerra-gg.org/download.php?file=images%2FCinGG-20260331-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,22 +10,14 @@ tags = ["DTP", "Publishing"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "https://www.scribus.net"
+repository = "https://github.com/scribusproject/scribus"
+bugtracker = "http://bugs.scribus.net"
+translations = "https://explore.transifex.com/scribus/scribus"
+screenshots = "https://a.fsdn.com/con/app/proj/scribus/screenshots/Scribus_170_dark-theme-da248d2a.png/max/max/1"
+appstream_xml_url = ""
+install_x86_64="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.3/scribus-1.7.3-linux-x86_64.AppImage/download"
 +++
-
-<img src="https://a.fsdn.com/con/app/proj/scribus/screenshots/Scribus_170_dark-theme-da248d2a.png/max/max/1">
-
-Powerful desktop publishing software
-
-License: GPL-2.0
-
-Web page: <https://www.scribus.net>  
-Source code: <https://github.com/scribusproject/scribus>
-
-Translate: <https://explore.transifex.com/scribus/scribus>  
-Report the bug: <http://bugs.scribus.net>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.3/scribus-1.7.3-linux-x86_64.AppImage/download">Download x86_64</a>
-</button>
-</div>

@@ -10,25 +10,14 @@ tags = ["Image converter"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://converseen.fasterland.net"
+repository = "https://github.com/Faster3ck/Converseen"
+bugtracker = "https://github.com/Faster3ck/Converseen/issues"
+donations = "https://ko-fi.com/faster3ck"
+screenshots = "https://converseen.fasterland.net/images/converseen_013_github.png"
+appstream_xml_url = "https://raw.githubusercontent.com/Faster3ck/Converseen/refs/heads/main/converseen.appdata.xml"
+install_x86_64 = "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-x86_64.AppImage"
+install_arm64 = "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-aarch64.AppImage"
 +++
-
-<img src="https://converseen.fasterland.net/images/appstream/converseen-appdata-kde6_1.png">
-
-Converseen is a batch image converter and resizer
-
-License: GPL-3.0
-
-Web page: <https://converseen.fasterland.net>  
-Source code: <https://github.com/Faster3ck/Converseen>
-
-Become a sponsor: <https://ko-fi.com/faster3ck>  
-Report the bug: <https://github.com/Faster3ck/Converseen/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

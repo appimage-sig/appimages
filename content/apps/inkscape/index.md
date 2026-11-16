@@ -10,23 +10,14 @@ tags = ["Vector graphics editor"]
 frameworks = ["GTK4"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+homepage = "https://inkscape.org"
+repository = "https://github.com/pbek/QOwnNotes"
+bugtracker = "https://inkscape.org/contribute/report-bugs"
+donations = "https://inkscape.org/support-us/donate"
+translations = "https://inkscape.org/contribute/translations"
+screenshots = "https://media.inkscape.org/media/resources/file/light-2.png"
+appstream_xml_url = "https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in"
+install_x86_64 = "https://inkscape.org/gallery/item/59506/Inkscape-1.4.4.AppImage"
 +++
-
-<img src="https://media.inkscape.org/media/resources/file/light-2.png">
-
-A Free and open source vector graphics editor
-
-License: GPL-2.0
-
-Web page: <https://inkscape.org>  
-Source code: <https://gitlab.com/inkscape/inkscape>
-
-Become a sponsor: <https://inkscape.org/support-us/donate>  
-Translate: <https://inkscape.org/contribute/translations>  
-Report the bug: <https://gitlab.com/inkscape/inkscape/-/work_items/new>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://media.inkscape.org/dl/resources/file/Inkscape-0d15f75-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

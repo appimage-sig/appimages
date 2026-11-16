@@ -10,25 +10,15 @@ tags = ["GraphQL"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://altairgraphql.dev"  
+repository = "https://github.com/altair-graphql/altair"
+donations = "https://opencollective.com/altair"
+translations = "https://crwd.in/altair-gql"
+bugtracker = "https://github.com/altair-graphql/altair/issues"
+screenshots = "https://raw.githubusercontent.com/altair-graphql/altair/refs/heads/master/packages/altair-docs/public/assets/img/app-shot.png"
+appstream_xml_url = ""
+install_x86_64="https://github.com/altair-graphql/altair/releases/download/v8.5.11/altair_8.5.11_x86_64_linux.AppImage"
+install_arm64="https://github.com/altair-graphql/altair/releases/download/v8.5.11/altair_8.5.11_arm64_linux.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/altair-graphql/altair/refs/heads/master/packages/altair-docs/public/assets/img/app-shot.png
-
-A beautiful feature-rich GraphQL Client
-
-License: MIT
-Web page: <https://altairgraphql.dev>  
-Source code: <https://github.com/altair-graphql/altair>
-
-Become a sponsor: <https://opencollective.com/altair>  
-Translate: <https://crwd.in/altair-gql>  
-Report the bug: <https://github.com/altair-graphql/altair/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.11/altair_8.5.11_x86_64_linux.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/altair-graphql/altair/releases/download/v8.5.11/altair_8.5.11_arm64_linux.AppImage">Download arm64</a>
-</button>
-</div>

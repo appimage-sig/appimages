@@ -10,25 +10,17 @@ tags = ["Messenger", "Censorship-resistance software", "Cross-platform software"
 frameworks = ["Java"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+
+homepage = "https://simplex.chat"  
+repository = "https://github.com/simplex-chat/simplex-chat"
+donations = "https://github.com/sponsors/simplex-chat"
+translations = "https://hosted.weblate.org/engage/simplex-chat"
+bugtracker = "https://github.com/simplex-chat/simplex-chat/issues" 
+screenshots = "https://simplex.chat/blog/images/simplex-desktop-light.png"
+appstream_xml_url = "https://raw.githubusercontent.com/simplex-chat/simplex-chat/refs/heads/stable/scripts/flatpak/chat.simplex.simplex.metainfo.xml"
+install_x86_64="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-x86_64.AppImage"
+install_arm64="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-aarch64.AppImage"
+
 +++
-
-<img src="https://simplex.chat/blog/images/simplex-desktop-light.png">
-First messaging platform that has no user identifiers of any kind
-
-License: AGPL-3.0
-
-Web page: <https://simplex.chat>  
-Source code: <https://github.com/simplex-chat/simplex-chat>
-
-Become a sponsor: <https://github.com/sponsors/simplex-chat>  
-Translate: <https://hosted.weblate.org/engage/simplex-chat>  
-Report the bug: <https://github.com/simplex-chat/simplex-chat/issues>  
-
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-x86_64.AppImage">Download x86_64</a>
-  </button>
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-aarch64.AppImage">Download arm64</a>
-  </button>
-</div>

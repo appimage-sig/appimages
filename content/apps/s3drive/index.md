@@ -9,18 +9,11 @@ categories = ["Network"]
 tags = ["Cloud storage client", "Cross-platform software"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+homepage = "https://s3drive.app"
+bugtracker = "https://github.com/s3drive/app//issues" 
+
+install_="https://github.com/s3drive/appimage-app/releases/download/1.18.2/S3Drive-x86_64.AppImage"
 +++
-
-Zero Knowledge E2E encrypted storage compatible with multiple providers
-
-License: EULA
-
-Web page: <https://s3drive.app>
-
-Report the bug: <https://github.com/s3drive/app//issues>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/s3drive/appimage-app/releases/download/1.18.2/S3Drive-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,27 +10,15 @@ tags = ["SQL"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://antares-sql.app"
+repository = "https://github.com/antares-sql/antares"
+bugtracker = "https://github.com/antares-sql/antares/issues"
+translations = "https://github.com/antares-sql/antares/wiki/Translate-Antares"
+screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/antares-sql/antares/refs/heads/master/assets/flatpak/it.fabiodistasio.AntaresSQL.metainfo.xml"
+install_x86_64 = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage"
+install_arm64 = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage"
+install_armv7l = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/antares-sql/antares/master/docs/gh-logo.png" alt="Main Screen">
-A modern, fast and productivity driven SQL client with a focus in UX
-
-License: MIT
-Web page: <https://antares-sql.app>  
-Source code: <https://github.com/antares-sql/antares>
-
-Become a sponsor: <https://www.paypal.com/paypalme/fabiodistasio>  
-Translate: <https://github.com/antares-sql/antares/wiki/Translate-Antares>  
-Report the bug: <https://github.com/antares-sql/antares/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download arm64</a>
-</button>
-    <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage">Download armv7l</a>
-</button>
-</div>

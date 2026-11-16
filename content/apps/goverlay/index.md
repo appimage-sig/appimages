@@ -10,21 +10,12 @@ tags = ["Gaming tools"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+repository = "https://github.com/benjamimgois/goverlay"
+bugtracker = "https://github.com/benjamimgois/goverlay/issues"
+donations = "https://github.com/benjamimgois/goverlay#donations"
+screenshots = "https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/1.webp"
+appstream_xml_url = "https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/io.github.benjamimgois.goverlay.metainfo.xml"
+install_x86_64 = "https://github.com/benjamimgois/goverlay/releases/download/1.9.4/goverlay-1.9.4-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/1.webp" alt="Main Screen">
-
-Goverlay is an easy graphical interface to configure linux gaming applications
-
-License: GPL-3.0
-
-Source code: <https://github.com/benjamimgois/goverlay>
-
-Become a sponsor: <https://www.buymeacoffee.com/fossisthefuture>  
-Report the bug: <https://github.com/benjamimgois/goverlay> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/benjamimgois/goverlay/releases/download/1.9.4/goverlay-1.9.4-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

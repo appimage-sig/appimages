@@ -10,21 +10,13 @@ tags = ["IDE", "VSCode fork"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "http://theia-ide.org/"  
+repository = "https://github.com/eclipse-theia/theia"
+bugtracker = "https://github.com/eclipse-theia/theia/issues"
+screenshots = "https://raw.githubusercontent.com/eclipse-theia/theia/master/doc/images/theia-screenshot.png"
+appstream_xml_url = ""
+install_x86_64="https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/eclipse-theia/theia/master/doc/images/theia-screenshot.png" alt="Main Screen">
-
-Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
-
-License: EPL-2.0
-
-Web page: <http://theia-ide.org/>  
-Source code: <https://github.com/eclipse-theia/theia>
-
-Report the bug: <https://github.com/eclipse-theia/theia/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage">Download x86_64</a>
-</button>
-</div>

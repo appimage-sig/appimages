@@ -10,25 +10,14 @@ tags = ["Backup tool"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64", "armv7l"]
 license = ["Apache-2.0"]
+
+[extra]
+
+homepage = "https://kopia.io"
+repository = "https://github.com/kopia/kopia"
+bugtracker = "https://github.com/kopia/kopia/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage"
+install_arm64="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage"
+install_armv7l="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-armv7l.AppImage"
 +++
-
-Cross-platform backup tool for Windows, macOS & Linux with fast, incremental backups, client-side end-to-end encryption, compression and data deduplication. CLI and GUI included.
-
-License: Apache-2.0
-
-Web page: <https://kopia.io>  
-Source code: <https://github.com/kopia/kopia>
-
-Report the bug: <https://github.com/kopia/kopia/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage">Download arm64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-armv7l.AppImage">Download armv7l</a>
-</button>
-</div>

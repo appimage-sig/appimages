@@ -9,21 +9,14 @@ categories = ["Games"]
 tags = ["Streaming software"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://app.lizardbyte.dev/Sunshine"  
+repository = "https://github.com/LizardByte/Sunshine"
+donations = "https://github.com/sponsors/LizardByte"
+translations = "https://translate.lizardbyte.dev"
+bugtracker = "https://github.com/LizardByte/Sunshine/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/LizardByte/Sunshine/refs/heads/master/packaging/linux/dev.lizardbyte.app.Sunshine.metainfo.xml"
+install_x86_64="https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine_2026.914.233613_aarch64.AppImage"
 +++
-
-Self-hosted game stream host for Moonlight
-
-License: GPL-3.0
-
-Web page: <https://app.lizardbyte.dev/Sunshine>  
-Source code: <https://github.com/LizardByte/Sunshine>
-
-Become a sponsor: <https://github.com/sponsors/LizardByte>  
-Translate: <https://translate.lizardbyte.dev>  
-Report the bug: <https://github.com/LizardByte/Sunshine/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/LizardByte/Sunshine/releases/download/v2026.914.233613/Sunshine_2026.914.233613_aarch64.AppImage">Download x86_64</a>
-</button>
-</div>

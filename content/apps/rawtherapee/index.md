@@ -10,21 +10,15 @@ tags = ["RAW processing", "Image editor"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "http://rawtherapee.com"
+repository = "https://github.com/RawTherapee/RawTherapee"
+bugtracker = "https://github.com/RawTherapee/RawTherapee/issues"
+donations = "https://pixls.us/support"
+translations = "https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README"
+screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/RawTherapee/RawTherapee/refs/heads/dev/com.rawtherapee.RawTherapee.appdata.xml"
+install_x86_64 = "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_x86_64_release.AppImage"
+install_arm64 = "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_arm64_release.AppImage"
 +++
-
-RawTherapee is a free, cross-platform raw image processing program
-
-License: GPL-3.0
-
-Web page: <http://rawtherapee.com>  
-Source code: <https://github.com/RawTherapee/RawTherapee>
-
-Become a sponsor: <https://pixls.us/support>  
-Translate: <https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README>  
-Report the bug: <https://github.com/RawTherapee/RawTherapee/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Raw herapee/Raw herapee/releases/download/5.12/Raw herapee_5.12_debug.AppImage">Download x86_64</a>
-</button>
-</div>

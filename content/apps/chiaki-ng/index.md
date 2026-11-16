@@ -1,7 +1,7 @@
 +++
 title = "chiaki-ng"
 description = "Open Source Client for PlayStation 4 and PlayStation 5 Remote Play"
-date = "2026-04-03 04:50:00"
+date = "2026-11-03 11:45:00"
 authors = ["Street Pea"]
 
 [taxonomies]
@@ -10,25 +10,15 @@ tags = ["PlayStation", "Remote play"]
 frameworks = ["Qt6"]
 architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
+
+[extra]
+homepage = "https://streetpea.github.io/chiaki-ng"
+repository = "https://github.com/streetpea/chiaki-ng"
+bugtracker = "https://github.com/streetpea/chiaki-ng/issues"
+donations = "https://buymeacoffee.com/streetpea"
+translations = "https://crowdin.com/project/qownnotes"
+screenshots = "https://raw.githubusercontent.com/streetpea/chiaki-ng/refs/heads/main/assets/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/chiaki-ng/chiaki-ng/releases/download/v1.10.1/chiaki-ng.AppImage_x86_64"
+install_arm64 = "https://github.com/streetpea/chiaki-ng/releases/download/v1.10.1/chiaki-ng.AppImage_arm64"
 +++
-
-<img src="https://raw.githubusercontent.com/streetpea/chiaki-ng/refs/heads/main/assets/screenshot.png">
-
-Open Source Client for PlayStation 4 and PlayStation 5 Remote Play
-
-License: AGPL-3.0
-
-Web page: <https://streetpea.github.io/chiaki-ng>  
-Source code: <https://github.com/streetpea/chiaki-ng>
-
-Become a sponsor: <https://buymeacoffee.com/streetpea>  
-Report the bug: <https://github.com/streetpea/chiaki-ng/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_x86_64">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/streetpea/chiaki-ng/releases/latest/download/chiaki-ng.AppImage_arm64">Download arm64</a>
-</button>
-</div>

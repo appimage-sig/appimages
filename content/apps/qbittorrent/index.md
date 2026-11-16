@@ -10,21 +10,12 @@ tags = ["Torrent client", "Download manager"]
 frameworks = ["Qt6"]
 architectures = ["x86_64","arm64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+repository = "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
+bugtracker = "https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/c0re100/qBittorrent-Enhanced-Edition/refs/heads/v5_2_x/dist/unix/org.qbittorrent.qBittorrent-nox.metainfo.xml"
+install_x86_64="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-x86_64.AppImage"
+install_arm64="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-aarch64.AppImage"
 +++
-
-qBittorrent is a bittorrent client programmed in C++ / Qt
-
-License: GPL-2.0
-
-Source code: <https://github.com/c0re100/qBittorrent-Enhanced-Edition>
-
-Report the bug: <https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases/download/release-5.2.4.10/qBittorrent-Enhanced-Edition-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

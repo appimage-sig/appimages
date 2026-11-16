@@ -10,25 +10,14 @@ tags = ["Budget software", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["EULA"]
+
+[extra]
+homepage = "https://www.budgetwithbuckets.com"
+bugtracker = "https://github.com/buckets/application/issues"
+donations = "https://www.patreon.com/iffy"
+translations = "https://github.com/buckets/translations"
+screenshots = "https://www.budgetwithbuckets.com/images/main-screenshot-hires.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage"
+install_arm64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage"
 +++
-
-<img src="https://www.budgetwithbuckets.com/images/main-screenshot-hires.png">
-
-Make your budget quick, simple and private
-
-License: EULA
-
-Web page: <https://www.budgetwithbuckets.com>  
-
-Translate: <https://github.com/buckets/translations>  
-Become a sponsor: <https://www.patreon.com/iffy>  
-Report the bug: <https://github.com/buckets/application/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage">Download arm64</a>
-</button>
-</div>

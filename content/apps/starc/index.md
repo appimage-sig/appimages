@@ -10,22 +10,13 @@ tags = ["Screenwriting"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+screenshots = "https://starc.app/media/screenshot-main.png"
+homepage = "https://starc.app"
+repository = "https://github.com/story-apps/starc"
+translations = "https://explore.transifex.com/story-apps/starc"
+bugtracker = "https://github.com/story-apps/starc/issues/"
+install_x86_64="https://github.com/story-apps/starc/releases/download/v0.8.4/starc-setup-qt5.AppImage"
 +++
-
-<img src="https://starc.app/media/screenshot-main.png">
-
-All in one screenwriting app
-
-License: GPL-3.0
-
-Web page: <https://starc.app>  
-Source code: <https://github.com/story-apps/starc>
-
-Translate: <https://explore.transifex.com/story-apps/starc>  
-Report the bug: <https://github.com/story-apps/starc/issues/>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/story-apps/starc/releases/download/v0.8.4/starc-setup-qt5.AppImage">Download x86_64</a>
-</button>
-</div>

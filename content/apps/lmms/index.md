@@ -10,24 +10,15 @@ tags = ["DAW", "Audio Editor"]
 frameworks = ["Qt5"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "https://lmms.io"  
+repository = "https://github.com/LMMS/lmms"
+donations = "https://lmms.io/get-involved/#donate"
+translations = "https://explore.transifex.com/lmms/lmms"
+bugtracker = "https://github.com/LMMS/lmms/issues"
+appstream_xml_url = ""
+install_x86_64="https://lmms.io/download/artifact/14191151592"
+install_arm_64="https://lmms.io/download/artifact/14190633379"
 +++
-
-LMMS is an open-source cross-platform digital audio workstation designed for music production.
-
-License: GPL-2.0
-
-Web page: <https://lmms.io>  
-Source code: <https://github.com/LMMS/lmms>
-
-Become a sponsor: <https://lmms.io/get-involved/#donate>  
-Translate: <https://explore.transifex.com/lmms/lmms>  
-Report the bug: <https://github.com/LMMS/lmms/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://lmms.io/download/artifact/6273929037">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://lmms.io/download/artifact/6273942111">Download arm64</a>
-</button>
-</div>

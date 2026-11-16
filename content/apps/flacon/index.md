@@ -10,26 +10,16 @@ tags = ["CD ripper"]
 frameworks = ["Qt5"]
 architectures = ["x86_64","arm64"]
 license = ["LGPL-2.1"]
+
+[extra]
+
+screenshots = "https://raw.githubusercontent.com/flacon/flacon.github.io/b76825f411f8de0ad4e4de6d46fd912a13a6e980/images/flacon-convert.png"
+homepage = "https://flacon.github.io"  
+repository = "https://github.com/flacon/flacon"
+donations = "https://flacon.github.io/donate"
+translations = "https://explore.transifex.com/sokoloff/flacon/"
+bugtracker = "https://github.com/flacon/flacon/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/flacon/flacon/refs/heads/master/misc/com.github.Flacon.metainfo.xml.in"
+install_x86_64="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-x86_64.AppImage"
+install_arm64="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-aarch64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/flacon/flacon.github.io/b76825f411f8de0ad4e4de6d46fd912a13a6e980/images/flacon-convert.png">
-
-Extracts audio tracks from an audio CD image to separate tracks.
-
-License: LGPL-2.1
-
-Web page: <https://flacon.github.io>  
-Source code: <https://github.com/flacon/flacon>
-
-Become a sponsor: <https://flacon.github.io/donate>  
-Translate: <https://explore.transifex.com/sokoloff/flacon/>  
-Report the bug: <https://github.com/flacon/flacon/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

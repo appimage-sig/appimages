@@ -10,20 +10,12 @@ tags = ["Screenshot tool"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+repository = "https://github.com/ksnip/ksnip"
+donations = "https://github.com/sponsors/DamirPorobic"
+translations = "https://hosted.weblate.org/engage/ksnip"
+bugtracker = "https://github.com/ksnip/ksnip/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/ksnip/ksnip/refs/heads/master/desktop/org.ksnip.ksnip.appdata.xml"
+install_x86_64="https://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-x86_64.AppImage"
 +++
-
-ksnip the cross-platform screenshot and annotation tool
-
-License: GPL-3.0
-
-Source code: <https://github.com/ksnip/ksnip>  
-
-Become a sponsor: <https://github.com/sponsors/DamirPorobic>  
-Translate: <https://hosted.weblate.org/engage/ksnip>  
-Report the bug: <https://github.com/ksnip/ksnip/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,20 +10,13 @@ tags = ["Knowledge base", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["Custom"]
+
+[extra]
+homepage = "https://anytype.io"
+repository = "https://github.com/anyproto/anytype-ts"
+bugtracker = "https://github.com/anyproto/anytype-ts/issues"
+translations = "https://crowdin.com/project/anytype-desktop"
+screenshots = "https://github.com/user-attachments/assets/6b11140f-ea1b-48d6-b14a-d89c3a6d57ca"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.anytype.anytype/refs/heads/master/io.anytype.anytype.metainfo.xml"
+install_x86_64 = "https://github.com/anyproto/anytype-ts/releases/download/v0.57.8-alpha/Anytype-0.57.8-alpha.AppImage"
 +++
-
-Anytype is a personal knowledge base, a digital brain that allows you to quickly capture, describe, and connect information
-
-License: Any Source Available License 1.0
-
-Web page: <https://anytype.io>  
-Source code: <https://github.com/anyproto/anytype-ts>
-
-Translate: <https://crowdin.com/project/anytype-desktop>  
-Report the bug: <https://github.com/anyproto/anytype-ts//issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/anyproto/anytype-ts/releases/download/v0.55.8-alpha/Anytype-0.55.8-alpha-mac-arm64.dmg">Download x86_64</a>
-</button>
-</div>

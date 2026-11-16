@@ -10,23 +10,13 @@ tags = ["Git client"]
 frameworks = ["Tauri"]
 architectures = ["x86_64", "arm64"]
 license = ["FSL-1.0-MIT"]
+
+[extra]
+homepage = "https://gitbutler.com"
+repository = "https://github.com/gitbutlerapp/gitbutler"
+bugtracker = "https://github.com/gitbutlerapp/gitbutler/issues"
+screenshots = "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/app-preview-light.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://releases.gitbutler.com/releases/release/0.23.4-3353/linux/x86_64/GitButler_0.23.4_amd64.AppImage.tar.gz"
+install_arm64 = "https://releases.gitbutler.com/releases/release/0.23.4-3353/linux/aarch64/GitButler_0.23.4_aarch64.AppImage.tar.gz"
 +++
-
-<img src="https://github.com/gitbutlerapp/gitbutler/assets/16262535/0d180bfd-7a3c-4a66-a923-30534c5a8197">
-
-The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte
-
-License: FSL-1.0-MIT
-
-Web page: <https://gitbutler.com>  
-Source code: <https://github.com/gitbutlerapp/gitbutler>
-
-Report the bug: <https://github.com/gitbutlerapp/gitbutler/issues>
-
-<div class="d_buttons">
-  <button class="c-button c-button--primary c-button--large" > 
-      <a href="https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/x86_64/GitButler_0.18.8_amd64.AppImage.tar.gz">Download x86_64</a>
- </button>  <button class="c-button c-button--primary c-button--large" >
-    <a href="https://releases.gitbutler.com/releases/release/0.18.8-2821/linux/aarch64/GitButler_0.18.8_aarch64.AppImage.tar.gz">Download arm64</a>
-</button>
-</div>

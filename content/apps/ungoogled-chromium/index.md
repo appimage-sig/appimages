@@ -9,22 +9,13 @@ categories = ["Network"]
 tags = ["Browser", "Chromium"]
 architectures = ["x86_64", "arm64"]
 license = ["BSD-3-Clause"]
+
+[extra]
+
+homepage = "https://ungoogled-software.github.io"  
+repository = "https://github.com/ungoogled-software/ungoogled-chromium"
+bugtracker = "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/156.0.8078.79-1/ungoogled-chromium-156.0.8078.79-1-x86_64.AppImage"
+install_arm64="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/156.0.8078.79-1/ungoogled-chromium-156.0.8078.79-1-arm64.AppImage"
 +++
-
-ungoogled-chromium is Google Chromium, sans dependency on Google web services.
-
-License: BSD-3-Clause
-
-Web page: <https://ungoogled-software.github.io>  
-Source code: <https://github.com/ungoogled-software/ungoogled-chromium>
-
-Report the bug: <https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/156.0.8078.79-1/ungoogled-chromium-156.0.8078.79-1-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/156.0.8078.79-1/ungoogled-chromium-156.0.8078.79-1-arm64.AppImage">Download arm64</a>
-</button>
-</div>

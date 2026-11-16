@@ -9,20 +9,11 @@ categories = ["Productivity"]
 tags = ["Project Management"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+screenshots = "https://zenkit.com/wp-content/uploads/2023/09/zenkit_image_1.png"
+homepage = "https://zenkit.com/"
+bugtracker = "https://help.zenkit.com/en/support/tickets/new"
+install_x86_64="https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage"
 +++
-
-<img src="https://zenkit.com/wp-content/uploads/2023/09/zenkit_image_1.png">
-
-Project Management, Processes, Communication, Scheduling, Documents, and Knowledge Sharing – all in one platform
-
-License: EULA
-
-Web page: <https://zenkit.com/>  
-
-Report the bug: <https://help.zenkit.com/en/support/tickets/new>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -10,22 +10,14 @@ tags = ["Upscaling software", "AI-powered software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["AGPL-3.0"]
+
+[extra]
+
+screenshots = "https://raw.githubusercontent.com/upscayl/upscayl.github.io/main/static/2.png"
+homepage = "https://upscayl.org"  
+repository = "https://github.com/upscayl/upscayl"
+donations = "https://www.buymeacoffee.com/fossisthefuture"
+bugtracker = "https://github.com/upscayl/upscayl/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/upscayl/upscayl/refs/heads/main/flatpak/org.upscayl.Upscayl.metainfo.xml"
+install_x86_64="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/upscayl/upscayl.github.io/main/static/2.png" alt="Main Screen">
-
-Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
-
-License: AGPL-3.0
-
-Web page: <https://upscayl.org>  
-Source code: <https://github.com/upscayl/upscayl>
-
-Become a sponsor: <https://www.buymeacoffee.com/fossisthefuture>  
-Report the bug: <https://github.com/upscayl/upscayl/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage">Download x86_64</a>
-</button>
-</div>

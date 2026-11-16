@@ -1,7 +1,7 @@
 +++
 title = "GIMP"
 description = "The Free & Open Source Image Editor"
-date = "2026-03-28 21:12:00"
+date = "2026-11-02 21:44:00"
 authors = ["GIMP’s Team"]
 
 [taxonomies]
@@ -10,26 +10,15 @@ tags = ["Image editing"]
 frameworks = ["GTK+3"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://www.gimp.org/"
+repository = "https://gitlab.gnome.org/GNOME/gimp"
+bugtracker = "https://gitlab.gnome.org/GNOME/gimp/-/work_items/"
+donations = "https://www.gimp.org/donating"
+translations = "https://l10n.gnome.org/module/gimp/"
+screenshots = "https://www.gimp.org/screenshots/Screenshot-gimp-3.0-painting.jpg"
+appstream_xml_url = "https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in.in?ref_type=heads"
+install_x86_64 = "https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.8-x86_64.AppImage"
+install_arm64 = "https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.8-aarch64.AppImage"
 +++
-
-<img src="https://www.gimp.org/screenshots/Screenshot-gimp-3.0-painting.jpg">
-
-The Free & Open Source Image Editor
-
-License: GPL-3.0
-
-Web page: <https://www.gimp.org/>  
-Source code: <https://gitlab.gnome.org/GNOME/gimp>
-
-Become a sponsor: <https://www.gimp.org/donating/>  
-Translate: <https://hosted.weblate.org/engage/mypaint/?utm_source=widget>  
-Report the bug: <https://gitlab.gnome.org/GNOME/gimp/-/work_items/new>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.2-aarch64.AppImage">Download arm64</a>
-</button>
-</div>

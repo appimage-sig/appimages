@@ -10,25 +10,15 @@ tags = ["Photo Management", "Cloud storage client", "Cross-platform software"]
 frameworks = ["Flutter"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://ente.io"  
+repository = "https://github.com/ente-io/ente"
+translations = "https://crowdin.com/project/ente-photos-web"
+bugtracker = "https://github.com/ente-io/ente/issues"
+screenshots = "https://raw.githubusercontent.com/ente-io/ente/main/.github/assets/photos.png"
+appstream_xml_url = ""
+install_x86_64="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-x86_64.AppImage"
+install_arm64="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/ente-io/ente/main/.github/assets/photos.png">
-
-End-to-end encryption for photos and more
-
-License: GPL-3.0
-
-Web page: <https://ente.io>  
-Source code: <https://github.com/ente-io/ente>
-
-Translate: <https://crowdin.com/project/ente-photos-web>  
-Report the bug: <https://github.com/ente-io/ente/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-arm64.AppImage">Download arm64</a>
-</button>
-</div>

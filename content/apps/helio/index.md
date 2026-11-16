@@ -10,23 +10,13 @@ tags = ["Audio editor"]
 frameworks = ["JUCE"]
 architectures = ["x86_64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://helio.fm"
+repository = "https://github.com/helio-fm/helio-sequencer"
+bugtracker = "https://github.com/helio-fm/helio-sequencer/issues"
+donations = "https://github.com/helio-fm/helio-sequencer#support-the-project"
+screenshots = "https://raw.githubusercontent.com/helio-fm/helio-sequencer/refs/heads/develop/Docs/images/screen-v3"
+appstream_xml_url = ""
+install_x86_64 = "https://ci.helio.fm/helio-3.18-x64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/helio-fm/helio-sequencer/refs/heads/develop/Docs/images/screen-v3.png">
-
-Free and open-source music sequencer for desktop and mobile platforms
-
-License: MIT
-
-Web page: <https://helio.fm>  
-Source code: <https://github.com/helio-fm/helio-sequencer>
-
-Become a sponsor: <https://www.patreon.com/peterrudenko>  
-Translate: <https://docs.google.com/spreadsheets/d/1RBDyVUDZcx6Y_OZzicnfwaWSI5uAcPbHgByo6xiFhBQ/edit?gid=0#gid=0>  
-Report the bug: <https://github.com/helio-fm/helio-sequencer/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://ci.helio.fm/helio-3.17-x64.AppImage">Download x86_64</a>
-</button>
-</div>

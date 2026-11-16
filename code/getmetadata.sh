@@ -50,7 +50,7 @@ curl -sL https://raw.githubusercontent.com/FreeCAD/FreeCAD/refs/heads/main/src/X
 curl -sL https://raw.githubusercontent.com/casimir/frigoligo/refs/heads/main/flathub/net.casimirlab.frigoligo.metainfo.xml -o ./content/apps/frigoligo/net.casimirlab.frigoligo.metainfo.xml &
 curl -sL https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in -o ./content/apps/gimp/org.gimp.GIMP.metainfo.xml &
 curl -sL https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads -o ./content/apps/glaxnimate/org.kde.glaxnimate.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml  -o ./content/apps/gitfourchette/org.gitfourchette.gitfourchette.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml -o ./content/apps/gitfourchette/org.gitfourchette.gitfourchette.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/io.github.benjamimgois.goverlay.metainfo.xml &
 curl -sL https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in?ref_type=heads -o ./content/apps/inkscape/org.inkscape.Inkscape.metainfo.xml &
 curl -sL https://invent.kde.org/multimedia/kdenlive/-/raw/master/data/org.kde.kdenlive.appdata.xml -o ./content/apps/kdenlive/org.kde.kdenlive.metainfo.xml &
@@ -68,7 +68,7 @@ curl -sL https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/n
 curl -sL https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master/deploy/linux/io.github.myst6re.makoureactor.metainfo.xml -o ./content/apps/makoureactor/io.github.myst6re.makoureactor.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/musescore/MuseScore/refs/heads/main/buildscripts/packaging/Linux%2BBSD/org.musescore.MuseScore.appdata.xml.in -o ./content/apps/musescore/org.musescore.MuseScore.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/Sandakan/Nora/refs/heads/master/flatpak/app.netlify.noramusic.Nora.metainfo.xml -o ./content/apps/nora/app.netlify.noramusic.Nora.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml  -o ./content/apps/notepadnext/com.github.dail8859.NotepadNext.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml -o ./content/apps/notepadnext/com.github.dail8859.NotepadNext.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/nuttyartist/notes/refs/heads/master/packaging/linux/common/notes.appdata.xml.in -o ./content/apps/notes/io.github.nuttyartist.notes.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml -o ./content/apps/nuclear/com.nuclearplayer.Nuclear.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/neovim/neovim/refs/heads/master/runtime/org.neovim.nvim.appdata.xml -o ./content/apps/neovim/org.neovim.nvim.metainfo.xml &
@@ -76,7 +76,7 @@ curl -sL https://raw.githubusercontent.com/Syllo/nvtop/refs/heads/master/desktop
 curl -sL https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/qt/org.openrgb.OpenRGB.metainfo.xml -o ./content/apps/openrgb/org.openrgb.OpenRGB.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/openscad/openscad/refs/heads/master/openscad.appdata.xml.in -o ./content/apps/openscad/org.openscad.OpenSCAD.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/OpenShot/openshot-qt/refs/heads/develop/xdg/org.openshot.OpenShot.appdata.xml -o ./content/apps/openshot/org.openshot.OpenShot.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/GlitterWare/Passy/refs/heads/main/linux_assets/com.glitterware.passy.appdata.xml  -o ./content/apps/passy/com.glitterware.passy.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/GlitterWare/Passy/refs/heads/main/linux_assets/com.glitterware.passy.appdata.xml -o ./content/apps/passy/com.glitterware.passy.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/PCSX2/pcsx2/refs/heads/master/.github/workflows/scripts/linux/pcsx2-qt.metainfo.xml.in -o ./content/apps/pcsx2/pcsx2-qt.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/pencil2d/pencil/refs/heads/master/app/data/org.pencil2d.Pencil2D.metainfo.xml -o ./content/apps/pencil2d/org.pencil2d.Pencil2D.metainfo.xml &
 curl -sL https://gitlab.com/lspies/photoqt/-/raw/master/org.photoqt.PhotoQt.metainfo.xml -o ./content/apps/photoqt/org.photoqt.PhotoQt.metainfo.xml &
@@ -98,7 +98,7 @@ curl -sL https://raw.githubusercontent.com/scribusproject/scribus/refs/heads/mas
 curl -sL https://raw.githubusercontent.com/mltframework/shotcut/refs/heads/master/packaging/linux/org.shotcut.Shotcut.metainfo.xml.in -o ./content/apps/shotcut/org.shotcut.Shotcut.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/simplex-chat/simplex-chat/refs/heads/stable/scripts/flatpak/chat.simplex.simplex.metainfo.xml -o ./content/apps/simplex/chat.simplex.simplex.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/ransome1/sleek/refs/heads/main/flatpak/com.github.ransome1.sleek.appdata.xml -o ./content/apps/sleek/com.github.ransome1.sleek.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/smplayer-dev/smplayer/refs/heads/master/smplayer.appdata.xml  -o ./content/apps/smplayer/info.smplayer.SMPlayer.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/smplayer-dev/smplayer/refs/heads/master/smplayer.appdata.xml -o ./content/apps/smplayer/info.smplayer.SMPlayer.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/refs/heads/master/distri/sqlitebrowser.metainfo.xml -o ./content/apps/sqlitebrowser/org.sqlitebrowser.SqliteBrowser.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/story-apps/starc/refs/heads/master/build/linux/flathub/share/metainfo/dev.storyapps.starc.metainfo.xml -o ./content/apps/starc/dev.storyapps.starc.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/Stellarium/stellarium/refs/heads/master/data/org.stellarium.Stellarium.appdata.xml -o ./content/apps/stellarium/org.stellarium.Stellarium.metainfo.xml &

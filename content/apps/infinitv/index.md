@@ -8,24 +8,16 @@ authors = ["Ludovico Ferrara"]
 categories = ["Network"]
 tags = ["IPTV player", "M3U8"]
 frameworks = ["Tauri"]
-architectures = ["x86_64"]
+architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://dev.infinitel8p.com/Extreme-InfiniTV"
+repository = "https://github.com/infinitel8p/Extreme-InfiniTV"
+bugtracker = "https://github.com/infinitel8p/Extreme-InfiniTV/issues"
+donations = "https://github.com/sponsors/infinitel8p"
+screenshots = "https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/heads/main/docs/screenshots/Desktop/home.png"
+appstream_xml_url = "https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/heads/main/packaging/flatpak/io.github.infinitel8p.Extreme-InfiniTV.metainfo.xml"
+install_x86_64 = "https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.9.0/Extreme.InfiniTV_1.9.0_amd64.AppImage"
+install_arm64 = "https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.9.0/Extreme.InfiniTV_1.9.0_aarch64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/heads/main/docs/screenshots/Desktop/home.png" alt="Home page">
-
-Cross-platform IPTV player for Xtream Codes and M3U/M3U8 playlists
-
-License: GPL-3.0
-
-Web page: <https://dev.infinitel8p.com/Extreme-InfiniTV/>
-Source code: <https://github.com/infinitel8p/Extreme-InfiniTV/>
-
-Become a sponsor: <https://github.com/sponsors/infinitel8p>
-Report the bug: <https://github.com/infinitel8p/Extreme-InfiniTV/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/infinitel8p/Extreme-Infini V/releases/download/v1.6.4/Extreme.Infini V_1.6.4_amd64.AppImage">Download x86_64</a>
-</button>
-</div>

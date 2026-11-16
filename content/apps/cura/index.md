@@ -10,23 +10,14 @@ tags = ["Slicing software", "3D"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["LGPL-3.0"]
+
+[extra]
+homepage = "https://curaslicer.com/"
+repository = "https://github.com/Ultimaker/Cura/"
+bugtracker = "https://github.com/Ultimaker/Cura/issues"
+donations = "https://github.com/sponsors/Ultimaker"
+translations = "https://github.com/Ultimaker/Cura/wiki/Translating-Cura"
+screenshots = "https://raw.githubusercontent.com/Ultimaker/Cura/main/cura-logo.PNG"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-linux-X64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/Ultimaker/Cura/main/cura-logo.PNG">
-
-3D printer / slicing GUI built on top of the Uranium framework
-
-License: LGPL-3.0
-
-Web page: <https://ultimaker.com/software/ultimaker-cura>  
-Source code: <https://github.com/Ultimaker/Cura>
-
-Become a sponsor: <https://github.com/sponsors/Ultimaker>  
-Translate: <https://github.com/Ultimaker/Cura/wiki/Translating-Cura>  
-Report the bug: <https://github.com/Ultimaker/Cura/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Ultimaker/Cura/releases/download/5.13.0/UltiMaker-Cura-5.13.0-linux-X64.AppImage">Download x86_64</a>
-</button>
-</div>

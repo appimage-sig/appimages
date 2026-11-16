@@ -10,21 +10,15 @@ tags = ["editor", "latex", "tex" ]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "https://texstudio.org"
+repository = "https://github.com/texstudio-org/texstudio"
+screenshots = "https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png"
+translations = "https://explore.transifex.com/texstudio/texstudio/"
+bugtracker = "https://github.com/texstudio-org/texstudio/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/texstudio-org/texstudio/releases/download/4.9.9/texstudio-4.9.9-x86_64.AppImage"
+
 +++
-
-<img src="https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png" alt="The TexStudio main window showing a TeX document and the rendered file">
-
-Craft beautiful LaTeX documents
-
-License: GPL-2.0
-
-Web page: <https://texstudio.org>  
-Source code: <https://github.com/texstudio-org/texstudio>
-
-Translate: <https://explore.transifex.com/texstudio/texstudio/>  
-Report the bug: <https://github.com/texstudio-org/texstudio/issues>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/texstudio-org/texstudio/releases/download/4.9.9/texstudio-4.9.9-x86_64.AppImage">Download x86_64</a>
-</button>

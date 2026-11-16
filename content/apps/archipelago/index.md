@@ -10,19 +10,12 @@ tags = ["Game Engine"]
 frameworks = ["Kivy"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://archipelago.gg"
+repository = "https://github.com/ArchipelagoMW/Archipelago"
+bugtracker = "https://github.com/ArchipelagoMW/Archipelago/issues"
+screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
+appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+install_x86_64 = "https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.8/Archipelago_0.6.8_linux-x86_64.AppImage"
 +++
-
-Archipelago provides a generic framework for developing multiworld capability for game randomizers
-
-License: GPL-3.0
-
-Web page: <https://archipelago.gg>  
-Source code: <https://github.com/ArchipelagoMW/Archipelago>
-
-Report the bug: <https://github.com/ArchipelagoMW/Archipelago/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.8/Archipelago_0.6.8_linux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

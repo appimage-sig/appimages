@@ -9,20 +9,13 @@ categories = ["Games"]
 tags = ["Game Mods"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+
+homepage = "https://outerwildsmods.com/mod-manager"
+repository = "https://github.com/ow-mods/ow-mod-man"
+translations = "https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md"
+bugtracker = "https://github.com/ow-mods/ow-mod-man/issues"
+install_x86_64 = "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_amd64.AppImage"
+install_arm64 = "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_aarch64.AppImage"
 +++
-
-The mod manager for the Outer Wilds Mod Loader
-
-License: GPL-3.0
-
-Web page: <https://outerwildsmods.com/mod-manager>  
-Source code: <https://github.com/ow-mods/ow-mod-man>
-
-Translate: <https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md>  
-Report the bug: <https://github.com/ow-mods/ow-mod-man/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_amd64.AppImage">Download x86_64</a>
-</button>
-</div>

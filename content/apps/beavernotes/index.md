@@ -9,26 +9,15 @@ tags = ["Notes", "Cross-platform software"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["MIT"]
+
+[extra]
+homepage = "https://beavernotes.com"
+repository = "https://github.com/Daniele-rolli/Beaver-Notes"
+bugtracker = "https://github.com/Daniele-rolli/Beaver-Notes/issues"
+donations = "https://github.com/sponsors/Beaver-Notes"
+translations = "https://docs.beavernotes.com/Dev/translate/"
+screenshots = "https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/Home.png"
+appstream_xml_url = "https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml"
+install_x86_64 = "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0.AppImage"
+install_arm64 = "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0-arm64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/Home.png" alt="Home">
-
-Privacy-focused note-taking application
-
-License: MIT
-
-Web page: <https://beavernotes.com>  
-Source code: <https://github.com/Daniele-rolli/Beaver-Notes>
-
-Become a sponsor: <https://ko-fi.com/danielerollibeavernotes>  
-Translate: <https://docs.beavernotes.com/beaver%20notes%20(dev)/2025/01/06/translate.html>  
-Report the bug: <https://github.com/Daniele-rolli/Beaver-Notes/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0-arm64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0-arm64.AppImage">Download arm64</a>
-</button>
-</div>

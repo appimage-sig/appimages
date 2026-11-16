@@ -10,29 +10,14 @@ tags = ["Xbox emulator", "Console emulator"]
 frameworks = ["GTK3"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "https://xemu.app"  
+repository = "https://github.com/xemu-project/xemu"
+donations = "https://www.patreon.com/mborgerson"
+bugtracker = "https://github.com/xemu-project/xemu/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage"
+install_arm64="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage"
 +++
-
-Free and open-source original Xbox game console emulation
-
-License: GPL-2.0
-
-Web page: <https://xemu.app>  
-Source code: <https://github.com/xemu-project/xemu>
-
-Become a sponsor: <https://www.patreon.com/mborgerson>  
-Report the bug: <https://github.com/xemu-project/xemu/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage">Download x86_64</a>
-</button>
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage">Download arm64</a>
-</button>
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage">Download debug x86_64</a>
-</button>
-  <button class="c-button c-button--primary c-button--large" > 
-    <a href="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage">Download debug arm64</a>
-</button>
-</div>

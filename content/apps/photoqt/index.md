@@ -1,7 +1,7 @@
 +++
 title = "PhotoQt"
 description = "PhotoQt is a simple yet powerful and good looking image viewer, based on Qt/QML, published as open-source and completely free"
-date = "2026-01-16 11:15:00"
+date = "2026-06-24 07:03:00"
 authors = ["Lukas Spies"]
 
 [taxonomies]
@@ -10,22 +10,14 @@ tags = ["Image viewer"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+screenshots = "https://photoqt.org/img/metainfo/metainfo1.png"
+homepage = "https://photoqt.org"  
+repository = "https://gitlab.com/lspies/photoqt"
+translations = "https://translate.photoqt.org"
+bugtracker = "https://gitlab.com/lspies/photoqt/-/work_items/new"
+
+install_="https://photoqt.org/downloads/appimages/PhotoQt.AppImage"
 +++
-
-<img src="https://photoqt.org/img/metainfo/metainfo1.png">
-
-PhotoQt is a simple yet powerful and good looking image viewer, based on Qt/QML, published as open-source and completely free
-
-License: GPL-2.0
-
-Web page: <https://photoqt.org>  
-Source code: <https://gitlab.com/lspies/photoqt>
-
-Translate: <https://translate.photoqt.org>  
-Report the bug: <https://gitlab.com/lspies/photoqt/-/work_items/new>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://photoqt.org/downloads/appimages/PhotoQt-5.1.AppImage">Download x86_64</a>
-</button>
-</div>

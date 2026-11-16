@@ -10,20 +10,12 @@ tags = ["Code editor", "VSCode fork"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["MIT"]
+
+[extra]
+screenshots = "https://vscodium.com/img/vscodium.png"
+homepage = "https://vscodium.com/"  
+repository = "https://github.com/VSCodium/vscodium"
+bugtracker = "https://github.com/VSCodium/vscodium/issues"
+appstream_xml_url = ""
+install_x86_64="https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-1.143.17232-anylinux-x86_64.AppImage"
 +++
-
-<img src="https://vscodium.com/img/vscodium.png">
-
-Free/Libre Open Source Software Binaries of VS Code
-
-License: MIT
-Web page: <https://vscodium.com/>  
-Source code: <https://github.com/VSCodium/vscodium>
-
-Report the bug: <https://github.com/VSCodium/vscodium/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-1.143.17232-anylinux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

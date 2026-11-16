@@ -10,21 +10,12 @@ tags = ["Remote control", "Streaming tools"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+homepage = "https://deckboard.app"
+bugtracker = "https://github.com/rivafarabi/deckboard/issues"
+donations = "https://ko-fi.com/rivafarabi"
+screenshots = "https://raw.githubusercontent.com/rivafarabi/deckboard/refs/heads/master/01"
+appstream_xml_url = ""
+install_x86_64 = "https://github.com/rivafarabi/deckboard/releases/download/v3.2.0/Deckboard-3.2.0.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/rivafarabi/deckboard/refs/heads/master/01.PNG">
-
-Control your PC with your phone in easy way possible
-
-License: EULA
-
-Web page: <https://deckboard.app>  
-
-Become a sponsor: <https://ko-fi.com/rivafarabi>  
-Report the bug: <https://github.com/rivafarabi/deckboard/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/rivafarabi/deckboard/releases/download/v3.2.0/Deckboard-3.2.0.AppImage">Download x86_64</a>
-</button>
-</div>

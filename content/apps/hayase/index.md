@@ -10,22 +10,13 @@ tags = ["Anime", "Torrent client"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
+
+[extra]
+homepage = "https://hayase.watch"
+repository = "https://github.com/hayase-app/electron"
+bugtracker = "https://github.com/hayase-app/electron/issues"
+donations = "https://github.com/sponsors/ThaUnknown"
+screenshots = "https://hayase.watch/app.webp"
+appstream_xml_url = ""
+install_x86_64 = "https://api.hayase.watch/files/linux-hayase-6.5.10-linux.AppImage"
 +++
-
-<img src="https://hayase.watch/app.webp">
-
-Stream anime torrents, real-time with no waiting for downloads
-
-License: GPL-3.0
-
-Web page: <https://hayase.watch/>  
-Source code: <https://github.com/hayase-app/electron>
-
-Become a sponsor: <https://github.com/sponsors/ThaUnknown>  
-Report the bug: <https://github.com/hayase-app/electron/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://api.hayase.watch/files/linux-hayase-6.4.60-linux.AppImage">Download x86_64</a>
-</button>
-</div>

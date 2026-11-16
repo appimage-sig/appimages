@@ -10,21 +10,13 @@ tags = ["CAD"]
 frameworks = ["Qt5"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+screenshots = "https://www.leocad.org/towerbridge.png"
+homepage = "https://www.leocad.org"  
+repository = "https://github.com/leozide/leocad"
+bugtracker = "https://github.com/leozide/leocad/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/leozide/leocad/refs/heads/master/tools/setup/leocad.appdata.xml"
+install_x86_64="https://github.com/leozide/leocad/releases/download/v26.09/LeoCAD-Linux-26.09-x86_64.AppImage"
 +++
-
-<img src="https://www.leocad.org/towerbridge.png">
-
-A CAD application for creating virtual LEGO models
-
-License: GPL-2.0
-
-Web page: <https://www.leocad.org>  
-Source code: <https://github.com/leozide/leocad>  
-
-Report the bug: <https://github.com/leozide/leocad/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/leozide/leocad/releases/download/v26.09/LeoCAD-Linux-26.09-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

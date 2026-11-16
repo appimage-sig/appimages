@@ -10,23 +10,15 @@ tags = ["Video editor"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["GPL-2.0"]
+
+[extra]
+
+homepage = "https://mifi.no/losslesscut"  
+repository = "https://github.com/mifi/lossless-cut"
+donations = "https://github.com/sponsors/mifi"
+translations = "https://hosted.weblate.org/projects/losslesscut/losslesscut"
+bugtracker = "https://github.com/mifi/lossless-cut/issues"
+screenshots = "https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/main_screenshot.jpg"
+appstream_xml_url = ""
+install_x86_64="https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage"
 +++
-
-<img src="https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/main_screenshot.jpg">
-
-Simple and ultra fast cross platform tool for lossless trimming/cutting of video and audio files.
-
-License: GPL-2.0
-
-Web page: <https://mifi.no/losslesscut>  
-Source code: <https://github.com/mifi/lossless-cut>
-
-Become a sponsor: <https://github.com/sponsors/mifi>  
-Translate: <https://hosted.weblate.org/projects/losslesscut/losslesscut>  
-Report the bug: <https://github.com/mifi/lossless-cut/issues> 
- 
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage">Download x86_64</a>
-</button>
-</div>

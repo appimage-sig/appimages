@@ -10,19 +10,12 @@ tags = ["Censorship-resistance software"]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["BSD-3-Clause"]
+
+[extra]
+
+homepage = "https://ooni.org/install/desktop"
+repository = "https://github.com/ooni/probe-desktop"
+bugtracker = "https://github.com/ooni/probe-desktop"
+
+install_="https://github.com/ooni/probe-desktop/releases/download/v3.10.1/OONI-Probe-3.10.1.AppImage"
 +++
-
-OONI Probe is a free and open source software designed to measure internet censorship and other forms of network interference.
-
-License: BSD-3-Clause
-
-Web page: <https://ooni.org/install/desktop>  
-Source code: <https://github.com/ooni/probe-desktop>
-
-Report the bug: <https://github.com/ooni/probe-desktop>  
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large"
-    <a href="https://github.com/ooni/probe-desktop/releases/download/v3.10.1/OONI-Probe-3.10.1.AppImage">Download x86_64</a>
-</button>
-</div>

@@ -9,16 +9,9 @@ categories = ["Network"]
 tags = ["Web apps management"]
 architectures = ["x86_64"]
 license = ["EULA"]
+
+[extra]
+
+homepage = "https://www.todesktop.com/"
+install_x86_64="https://builder.todesktop.com/"
 +++
-
-Web app to desktop app in minutes
-
-License: EULA
-
-Web page: <https://www.todesktop.com/>
-
-<div class="d_buttons">
-<button class="c-button c-button--primary c-button--large" >
-    <a href="https://builder.todesktop.com/">Download x86_64</a>
-</button>
-</div>
