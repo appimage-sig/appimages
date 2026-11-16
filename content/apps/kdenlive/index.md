@@ -2,8 +2,10 @@
 title = "Kdenlive"
 description = "Free and Open Source Video Editor"
 date = "2026-11-06 16:51:00"
-categories = ["AudioVideo"]
 authors = ["Kdenlive Team"]
+
+[taxonomies]
+categories = ["AudioVideo"]
 tags = ["Video Editor"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
