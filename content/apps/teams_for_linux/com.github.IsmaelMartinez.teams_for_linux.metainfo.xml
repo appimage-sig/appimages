@@ -14,6 +14,78 @@
   <url type="bugtracker">https://github.com/IsmaelMartinez/teams-for-linux/issues</url>
   <launchable type="desktop-id">com.github.IsmaelMartinez.teams_for_linux.desktop</launchable>
   <releases>
+    <release version="2.32.1" date="2026-11-15">
+      <description>
+        <ul>
+          <li>deps: bump electron to 45.3.2 to stop the screen share crash (#3213)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.32.0" date="2026-11-15">
+      <description>
+        <ul>
+          <li>multi-account: a notification click switches to the profile that raised it (ADR-020 Phase 2) (#3218)</li>
+          <li>multi-account: per-profile notification and sound switches (#3198)</li>
+          <li>notifications: size, position, margin and style options for custom toasts (#3201)</li>
+          <li>config: say where to find Show Updated Config in the deprecation warning (#3217)</li>
+          <li>graph: follow @odata.nextLink so get-calendar returns every event (#3207)</li>
+          <li>snap: bundle libpipewire so Wayland screen sharing uses PipeWire (#3181)</li>
+          <li>config: move the flat-name removal from 2.32.0 to 2.36.0 (#3219)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.31.1" date="2026-11-11">
+      <description>
+        <ul>
+          <li>build: exclude the compiled cbor-extract from the package instead of deleting it after packing (#3209)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.31.0" date="2026-11-10">
+      <description>
+        <ul>
+          <li>dbus: add SetStatus presence control (#3178)</li>
+          <li>run native wayland by default on deb, rpm and appimage (#3129)</li>
+          <li>auth: keep msal.cache.encryption persistent on every profile session (#3193)</li>
+          <li>build: ship the prebuilt cbor-extract instead of the runner-compiled copy (#3194)</li>
+          <li>connection: clear service workers after a main-frame ERR_FAILED (#3145)</li>
+          <li>ADR catch-up, research index retirement and documentation sweep (#3196)</li>
+          <li>adr: mark ADR-018 superseded now the triage bot is retired (#3191)</li>
+          <li>describe versions relative to the release stream instead of hard-coded numbers (#3199)</li>
+          <li>link the community headset bridge and fix two shortcut rows (#3195)</li>
+          <li>move CLAUDE.md to AGENTS.md (ADR-036) (#3197)</li>
+          <li>deps: bump minimatch from 10.2.5 to 11.0.5 in /docs-site (#3190)</li>
+          <li>deps: bump the minor-and-patch group with 3 updates (#3205)</li>
+          <li>remove the finished smartcard PIN spike script (#3200)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="2.30.0" date="2026-11-07">
+      <description>
+        <ul>
+          <li>copy a chosen app icon into the user icon theme (#3031)</li>
+          <li>window: add an integrated title bar with client-side decorations (#3174)</li>
+          <li>appimage: switch to the static AppImage runtime so libfuse2 is no longer required (#3176)</li>
+          <li>auth: load teams again when sign-out lands on microsoft's signed-out page (#3169)</li>
+          <li>protocol: handle web+msteams links from the Teams launcher (#3162)</li>
+          <li>security: grant device permissions only to Teams, sign-in and app pages (#3185)</li>
+          <li>security: harden the preload IPC surface and keep credentials out of the renderer (#3184)</li>
+          <li>webauthn: wait for a security key instead of failing when none is plugged in (#3168)</li>
+          <li>appimage: note that libfuse2 is no longer required from 2.30.0 (#3186)</li>
+          <li>deps-dev: bump eslint (#3170)</li>
+          <li>deps-dev: bump follow-redirects from 1.16.1 to 1.16.2 (#3159)</li>
+          <li>deps-dev: bump qs from 6.16.0 to 6.17.1 (#3156)</li>
+          <li>deps: bump actions/setup-node from 7.0.0 to 7.1.0 (#3163)</li>
+          <li>deps: bump actions/upload-artifact from 7.0.1 to 7.0.2 (#3166)</li>
+          <li>deps: bump canonical/setup-lxd (#3165)</li>
+          <li>deps: bump follow-redirects from 1.16.1 to 1.16.2 in /docs-site (#3160)</li>
+          <li>deps: bump github/codeql-action from 4.38.2 to 4.39.1 (#3167)</li>
+          <li>deps: bump google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml (#3164)</li>
+          <li>deps: bump joi from 17.13.8 to 17.13.9 in /docs-site (#3179)</li>
+          <li>deps: bump qs from 6.16.0 to 6.17.1 in /docs-site (#3157)</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.29.0" date="2026-10-30">
       <description>
         <ul>

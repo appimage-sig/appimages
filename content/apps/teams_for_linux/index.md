@@ -1,7 +1,7 @@
 +++
 title = "Teams for Linux"
 description = "Unofficial Microsoft Teams for Linux client."
-date = "2026-10-25T11:12:19Z"
+date = "2026-11-15T09:32:26Z"
 authors = ["Ismael Martinez"]
 
 [taxonomies]
@@ -20,3 +20,26 @@ install_x86_64="https://github.com/IsmaelMartinez/teams-for-linux/releases/downl
 install_arm64="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.28.0/teams-for-linux-2.28.0-arm64.AppImage"
 install_armv7l="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.22.0/teams-for-linux-2.22.0-armv7l.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+Unofficial Microsoft Teams for Linux client
+
+License: GPL-3.0
+
+Source code: <https://github.com/IsmaelMartinez/teams-for-linux/>
+
+Report the bug: <https://github.com/IsmaelMartinez/teams-for-linux/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.32.0/teams-for-linux-2.32.0-arm64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.32.0/teams-for-linux-2.32.0-arm64.AppImage">Download arm64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.22.0/teams-for-linux-2.22.0-armv7l.AppImage">Download armv7l</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

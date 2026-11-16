@@ -1,7 +1,7 @@
 +++
 title = "Gyroflow"
 description = "Video stabilization using gyroscope data"
-date = "2025-09-04T14:41:47Z"
+date = "2026-11-07T03:26:34Z"
 authors = ["Gyroflow Team"]
 
 [taxonomies]
@@ -21,3 +21,25 @@ screenshots = "https://raw.githubusercontent.com/gyroflow/gyroflow/refs/heads/ma
 appstream_xml_url = ""
 install_x86_64 = "https://github.com/gyroflow/gyroflow/releases/download/v1.7.0/Gyroflow-linux64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://raw.githubusercontent.com/gyroflow/gyroflow/refs/heads/master/resources/screenshot.jpg">
+
+Video stabilization using gyroscope data
+
+License: GPL-3.0
+
+Web page: <https://gyroflow.xyz>  
+Source code: <https://github.com/gyroflow/gyroflow>
+
+Become a sponsor: <https://gyroflow.xyz/donate>  
+Translate: <https://crowdin.com/project/gyroflow>  
+Report the bug: <https://github.com/gyroflow/gyroflow/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/gyroflow/gyroflow/releases/download/v1.7.0/Gyroflow-linux64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

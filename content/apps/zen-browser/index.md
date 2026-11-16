@@ -1,7 +1,7 @@
 +++
 title = "Zen Browser"
 description = "Performance-optimized and privacy-focused browser built atop Firefox"
-date = "2026-10-29T21:29:13Z"
+date = "2026-11-12T10:18:36Z"
 authors = ["Zen Browser Team"]
 
 [taxonomies]
@@ -22,3 +22,28 @@ appstream_xml_url = ""
 install_x86_64="https://github.com/zen-browser/desktop/releases/download/1.24b/zen-x86_64.AppImage"
 install_arm64="https://github.com/zen-browser/desktop/releases/download/1.24b/zen-aarch64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://zen-browser.app/_astro/ComImage.DV0rTSHO_Z1aH5BP.webp">
+
+Performance-optimized and privacy-focused browser built atop Firefox
+
+License: MPL-2.0
+
+Web page: <https://zen-browser.app>  
+Source code: <https://github.com/zen-browser/desktop>
+
+Become a sponsor: <https://patreon.com/zen_browser>  
+Translate: <https://crowdin.com/project/zen-browser>  
+Report the bug: <https://github.com/zen-browser/desktop/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen-x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen-aarch64.AppImage">Download arm64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

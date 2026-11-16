@@ -1,7 +1,7 @@
 +++
 title = "Nextcloud"
 description = "Nextcloud is the industry-leading, fully open-source, on-premises content collaboration platform."
-date = "2026-10-29T12:09:23Z"
+date = "2026-11-04T16:57:07Z"
 authors = ["Nextcloud"]
 
 [taxonomies]
@@ -20,3 +20,22 @@ bugtracker = "https://github.com/nextcloud/desktop/issues"
 appstream_xml_url = ""
 install_x86_64="https://github.com/nextcloud-releases/desktop/releases/download/v35.0.1/Nextcloud-35.0.1-x86_64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+Nextcloud is the industry-leading, fully open-source, on-premises content collaboration platform.
+
+License: GPL-2.0
+
+Web page: <https://nextcloud.com>  
+Source code: <https://github.com/nextcloud/desktop>
+
+Translate: <https://explore.transifex.com/nextcloud/nextcloud>  
+Report the bug: <https://github.com/nextcloud/desktop/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/nextcloud-releases/desktop/releases/download/v35.0.3/Nextcloud-35.0.3-x86_64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

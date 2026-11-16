@@ -1,7 +1,7 @@
 +++
 title = "DbGate"
 description = "Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others"
-date = "2026-10-27T12:16:40Z"
+date = "2026-11-12T10:06:30Z"
 authors = ["Jan Prochazka"]
 
 [taxonomies]
@@ -21,3 +21,26 @@ appstream_xml_url = "https://raw.githubusercontent.com/dbgate/dbgate/refs/heads/
 install_x86_64 = "https://github.com/dbgate/dbgate/releases/download/v7.3.3/dbgate-7.3.3-linux_x86_64.AppImage"
 install_arm64 = "https://github.com/dbgate/dbgate/releases/download/v7.3.3/dbgate-7.3.3-linux_arm64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://raw.githubusercontent.com/dbgate/dbgate/master/img/screenshot1.png">
+
+Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others
+
+License: MIT
+Web page: <https://dbgate.org>  
+Source code: <https://github.com/dbgate/dbgate>
+
+Become a sponsor: <https://github.com/sponsors/dbgate>  
+Report the bug: <https://github.com/dbgate/dbgate/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/dbgate/dbgate/releases/download/v7.3.6/dbgate-7.3.6-linux_x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/dbgate/dbgate/releases/download/v7.3.6/dbgate-7.3.6-linux_arm64.AppImage">Download arm64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

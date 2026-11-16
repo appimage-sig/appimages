@@ -1,7 +1,7 @@
 +++
 title = "DuckStation"
 description = "Fast PlayStation 1 emulator for x86-64/AArch32/AArch64/RV64"
-date = "2026-10-25T02:59:58Z"
+date = "2026-11-07T03:09:59Z"
 authors = ["Connor McLaughlin"]
 
 [taxonomies]

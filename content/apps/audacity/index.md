@@ -20,3 +20,22 @@ screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/
 appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
 install_x86_64 = "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+Easy-to-use, multi-track audio editor and recorder
+
+License: GPL-3.0
+
+Web page: <https://www.audacityteam.org>  
+Source code: <https://github.com/audacity/audacity>  
+
+Translate: <https://explore.transifex.com/audacity/audacity>  
+Report the bug: <https://github.com/audacity/audacity/issues>  
+
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

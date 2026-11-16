@@ -1,7 +1,7 @@
 +++
 title = "Nuclear"
 description = "Streaming music player that finds free music for you"
-date = "2026-10-31T01:27:03Z"
+date = "2026-11-13T10:27:55Z"
 authors = ["nukeop"]
 
 [taxonomies]
@@ -22,3 +22,25 @@ bugtracker = "https://github.com/nukeop/nuclear/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml"
 install_x86_64="https://github.com/nukeop/nuclear/releases/download/player%401.53.1/Nuclear_1.53.1_amd64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/docs/.gitbook/assets/dashboard-main.png" alt="Dashboard Main">
+
+Streaming music player that finds free music for you
+
+License: AGPL-3.0
+
+Web page: <https://nuclearplayer.com/>  
+Source code: <https://github.com/nukeop/nuclear>
+
+Become a sponsor: <https://github.com/sponsors/nukeop>  
+Translate: <https://crowdin.com/project/nuclear>  
+Report the bug: <https://github.com/nukeop/nuclear/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/nukeop/nuclear/releases/download/player%401.55.0/Nuclear_1.55.0_amd64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

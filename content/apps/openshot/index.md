@@ -1,7 +1,7 @@
 +++
 title = "OpenShot"
 description = "OpenShot Video Editor is an award-winning free and open-source video editor"
-date = "2026-10-31T20:28:08Z"
+date = "2026-11-02T01:17:26Z"
 authors = ["OpenShot Studios"]
 
 [taxonomies]
@@ -21,3 +21,23 @@ bugtracker = "https://github.com/OpenShot/openshot-qt/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/OpenShot/openshot-qt/refs/heads/develop/xdg/org.openshot.OpenShot.appdata.xml"
 install_x86_64="https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+OpenShot Video Editor is an award-winning free and open-source video editor
+
+License: GPL-3.0
+
+Web page: <https://www.openshot.org>  
+Source code: <https://github.com/OpenShot/openshot-qt>
+
+Become a sponsor: <https://www.openshot.org/donate>  
+Translate: <https://translations.launchpad.net/openshot/2.0/+translations>  
+Report the bug: <https://github.com/OpenShot/openshot-qt/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

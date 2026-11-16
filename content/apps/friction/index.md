@@ -1,7 +1,7 @@
 +++
 title = "Friction"
 description = "Powerful and versatile free and open-source motion graphics application."
-date = "2025-12-31T18:59:58Z"
+date = "2026-11-09T16:23:29Z"
 authors = ["Friction contributors"]
 
 [taxonomies]
@@ -20,3 +20,23 @@ screenshots = "https://friction.graphics/assets/screenshots/100/friction-100-lin
 appstream_xml_url = "https://github.com/friction2d/friction/blob/main/src/app/appdata.xml.in"
 install_x86_64 = "https://github.com/friction2d/friction/releases/download/v1.0.0/Friction-1.0.0-x86_64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://friction.graphics/assets/screenshots/100/friction-100rc3-screenshot.png">
+
+Powerful and versatile free and open-source motion graphics application
+
+License: GPL-3.0
+
+Web page: <https://friction.graphics>  
+Source code: <https://github.com/friction2d/friction>
+
+Report the bug: <https://github.com/friction2d/friction/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/friction2d/friction/releases/download/v1.0.0/Friction-1.0.0-x86_64-GLX.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

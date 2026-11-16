@@ -1,7 +1,7 @@
 +++
 title = "Zettlr"
 description = "Your One-Stop Publication Workbench"
-date = "2026-10-25T07:14:39Z"
+date = "2026-11-13T16:30:11Z"
 authors = ["Hendrik Erz"]
 
 [taxonomies]
@@ -23,3 +23,28 @@ appstream_xml_url = ""
 install_x86_64="https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-x86_64.AppImage"
 install_arm64="https://github.com/Zettlr/Zettlr/releases/download/v4.9.0/Zettlr-4.9.0-arm64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+<img src="https://raw.githubusercontent.com/Zettlr/Zettlr/refs/heads/develop/resources/screenshots/zettlr_view.png">
+
+Your One-Stop Publication Workbench
+
+License: GPL-3.0
+
+Web page: <https://www.zettlr.com>  
+Source code: <https://github.com/Zettlr/Zettlr>
+
+Become a sponsor: <https://github.com/sponsors/nathanlesage>  
+Translate: <https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating>  
+Report the bug: <https://github.com/Zettlr/Zettlr/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-x86_64.AppImage">Download x86_64</a>
+</button>
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-arm64.AppImage">Download arm64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main

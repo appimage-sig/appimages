@@ -20,6 +20,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
 
 //]]>
 </script>
+<<<<<<< HEAD
         <link rel="stylesheet"
             href="/assets/errors-45c1d2fc2ec7ef0afac5acde41382108e23931e8271d844594f126d177eaf5ab.css" />
         <link rel="stylesheet"
@@ -36,6 +37,19 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
                     src="/assets/illustrations/error/error-404-lg-9dfb20cc79e1fe8104e0adb122a710283a187b075b15187e2f184d936a16349c.svg" />
                 <h1>
                     404: Page not found
+=======
+<link rel="stylesheet" href="/assets/errors-cc438031220058b8f0e7ca33ccb63608311320e60955743e55ba38f07db1400a.css" />
+<link rel="stylesheet" href="/assets/application-79f356d98146549c21e5657de00ff91a957f995329d1725db0bb2a7251d2b59a.css" />
+<link rel="stylesheet" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" />
+<link rel="stylesheet" href="/assets/tailwind-1643fe418f6d3ad9eacf47d603d9c8150de2e6a435bbd333f32fd5f776cd7c7c.css" />
+</head>
+<body>
+<div class="page-container">
+<div class="error-container">
+<img alt="404" src="/assets/illustrations/error/error-404-lg-9dfb20cc79e1fe8104e0adb122a710283a187b075b15187e2f184d936a16349c.svg" />
+<h1>
+404: Page not found
+>>>>>>> refs/remotes/origin/main
 </h1>
                 <p>
                     Make sure the address is correct and the page has not moved.

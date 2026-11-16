@@ -1,7 +1,7 @@
 +++
 title = "superProductivity"
 description = "An advanced todo list app with timeboxing & time tracking capabilities that supports importing tasks from your calendar, Jira, GitHub and others"
-date = "2026-10-25T11:57:41Z"
+date = "2026-11-06T20:42:44Z"
 authors = ["Johannes Millan"]
 
 [taxonomies]
@@ -21,3 +21,23 @@ bugtracker = "https://github.com/johannesjo/super-productivity/issues"
 appstream_xml_url = ""
 install_x86_64="https://github.com/super-productivity/super-productivity/releases/download/v19.3.1/superProductivity-x86_64.AppImage"
 +++
+<<<<<<< HEAD
+=======
+
+An advanced todo list app with timeboxing & time tracking capabilities that supports importing tasks from your calendar, Jira, GitHub and others
+
+License: MIT  
+
+Web page: <https://super-productivity.com/>  
+Source code: <https://github.com/johannesjo/super-productivity>
+
+Become a sponsor: <https://github.com/sponsors/johannesjo>  
+Translate: <https://fink.inlang.com/github.com/johannesjo/super-productivity>  
+Report the bug: <https://github.com/johannesjo/super-productivity/issues> 
+ 
+<div class="d_buttons">
+<button class="c-button c-button--primary c-button--large" >
+    <a href="https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-x86_64.AppImage">Download x86_64</a>
+</button>
+</div>
+>>>>>>> refs/remotes/origin/main
