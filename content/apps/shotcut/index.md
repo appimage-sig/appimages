@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png"
-homepage = "https://www.shotcut.org"  
+homepage = "https://www.shotcut.org"
 repository = "https://github.com/mltframework/shotcut"
 translations = "https://explore.transifex.com/ddennedy/shotcut"
 bugtracker = "https://github.com/mltframework/shotcut/issues"

@@ -14,7 +14,7 @@ license = ["LGPL-2.1"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/flacon/flacon.github.io/b76825f411f8de0ad4e4de6d46fd912a13a6e980/images/flacon-convert.png"
-homepage = "https://flacon.github.io"  
+homepage = "https://flacon.github.io"
 repository = "https://github.com/flacon/flacon"
 donations = "https://flacon.github.io/donate"
 translations = "https://explore.transifex.com/sokoloff/flacon/"

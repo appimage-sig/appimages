@@ -16,7 +16,8 @@ license = ["MIT"]
 screenshots = "https://raw.githubusercontent.com/Mastermindzh/tidal-hifi/refs/heads/master/docs/images/preview.png"
 repository = "https://github.com/Mastermindzh/tidal-hifi"
 donations = "https://github.com/sponsors/Mastermindzh"
-bugtracker = "https://github.com/Mastermindzh/tidal-hifi/issues" 
+bugtracker = "https://github.com/Mastermindzh/tidal-hifi/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.mastermindzh.tidal-hifi/refs/heads/master/com.mastermindzh.tidal-hifi.metainfo.xml"
 install_x86_64 = "https://github.com/Mastermindzh/tidal-hifi/releases/download/9.0.1/tidal-hifi-9.0.1.AppImage"
 install_arm64 = "https://github.com/Mastermindzh/tidal-hifi/releases/download/9.0.1/tidal-hifi-9.0.1-arm64.AppImage"
 +++

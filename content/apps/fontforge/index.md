@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/fontforge/fontforge/master/desktop/ff-screenshot.png"
-homepage = "http://fontforge.org"  
+homepage = "http://fontforge.org"
 repository = "https://github.com/fontforge/fontforge"
 donations = "https://fontforge.org/en-US/donate"
 translations = "https://crowdin.com/project/fontforge"

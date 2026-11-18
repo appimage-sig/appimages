@@ -12,9 +12,8 @@ license = ["MPL-2.0"]
 
 [extra]
 
-homepage = "https://librewolf.net"  
+homepage = "https://librewolf.net"
 repository = "https://codeberg.org/librewolf/source"
-
 translations = "https://translate.codeberg.org/engage/librewolf"
 bugtracker = "https://codeberg.org/librewolf/issues"
 appstream_xml_url = "https://gitlab.com/librewolf-community/browser/appimage/-/raw/master/io.gitlab.librewolf-community.appdata.xml.in"

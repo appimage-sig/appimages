@@ -16,7 +16,7 @@ homepage = "https://desktop.jitsi.org"
 repository = "https://github.com/jitsi/jitsi-meet-electron"
 bugtracker = "https://github.com/jitsi/jitsi-meet-electron/issues"
 screenshots = "https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/refs/heads/master/screenshot_linux.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.10.0/jitsi-meet-x86_64.AppImage"
 install_arm64 = "https://github.com/jitsi/jitsi-meet-electron/releases/download/v2026.10.0/jitsi-meet-arm64.AppImage"
 +++

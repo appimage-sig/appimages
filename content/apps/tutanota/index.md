@@ -13,12 +13,12 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://tuta.com"  
+homepage = "https://tuta.com"
 repository = "https://github.com/tutao/tutanota"
 donations = "https://tuta.com/community/#donate"
 translations = "https://tuta.com/blog/tutanota-translation-project"
 bugtracker = "https://github.com/tutao/tutanota/issues"
 screenshots = "https://raw.githubusercontent.com/flathub/com.tutanota.Tutanota/master/screenshot_mail.png"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.tutanota.Tutanota/refs/heads/master/com.tutanota.Tutanota.appdata.xml"
 install_x86_64="https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-362.261023.2/tutanota-desktop-linux.AppImage"
 +++

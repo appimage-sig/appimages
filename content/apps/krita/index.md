@@ -13,11 +13,12 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://krita.org"  
+homepage = "https://krita.org"
 repository = "https://invent.kde.org/graphics/krita"
 donations = "https://krita.org/en/support-us/donations"
 screenshots = "https://cdn.kde.org/screenshots/krita/splash.png"
 translations = "https://l10n.kde.org"
 bugtracker = "https://bugs.kde.org/enter_bug.cgi"
+appstream_xml_url = "https://invent.kde.org/graphics/krita/-/raw/master/krita/org.kde.krita.appdata.xml"
 install_x86_64="https://download.kde.org/unstable/krita/6.0.0-beta1/krita-6.0.0-beta1-x86_64.AppImage"
 +++

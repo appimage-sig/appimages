@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://rssguard.readthedocs.io/en/stable/index.html"  
+homepage = "https://rssguard.readthedocs.io/en/stable/index.html"
 repository = "https://github.com/martinrotter/rssguard"
 donations = "https://github.com/sponsors/martinrotter"
 translations = "https://crowdin.com/project/rssguard"

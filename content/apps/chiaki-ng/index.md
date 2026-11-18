@@ -18,7 +18,7 @@ bugtracker = "https://github.com/streetpea/chiaki-ng/issues"
 donations = "https://buymeacoffee.com/streetpea"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://raw.githubusercontent.com/streetpea/chiaki-ng/refs/heads/main/assets/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/chiaki-ng/chiaki-ng/releases/download/v1.10.1/chiaki-ng.AppImage_x86_64"
 install_arm64 = "https://github.com/streetpea/chiaki-ng/releases/download/v1.10.1/chiaki-ng.AppImage_arm64"
 +++

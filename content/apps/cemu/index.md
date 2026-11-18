@@ -15,7 +15,7 @@ license = ["MPL-2.0"]
 homepage = "https://cemu.info"
 repository = "https://github.com/cemu-project/Cemu"
 bugtracker = "https://github.com/cemu-project/Cemu/issues"
-screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
+screenshots = ""
 appstream_xml_url = "https://github.com/cemu-project/Cemu/blob/main/dist/linux/info.cemu.Cemu.metainfo.xml"
 install_x86_64 = "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
 +++

@@ -13,7 +13,7 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "https://koodoreader.com"  
+homepage = "https://koodoreader.com"
 repository = "https://github.com/koodo-reader/koodo-reader"
 translations = "https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#translation"
 bugtracker = "https://github.com/koodo-reader/koodo-reader/issues"

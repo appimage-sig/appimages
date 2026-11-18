@@ -12,7 +12,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://app.lizardbyte.dev/Sunshine"  
+homepage = "https://app.lizardbyte.dev/Sunshine"
 repository = "https://github.com/LizardByte/Sunshine"
 donations = "https://github.com/sponsors/LizardByte"
 translations = "https://translate.lizardbyte.dev"

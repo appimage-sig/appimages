@@ -13,7 +13,7 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://tabby.sh/"  
+homepage = "https://tabby.sh/"
 repository = "https://github.com/Eugeny/tabby"
 donations = "https://github.com/sponsors/Eugeny"
 translations = "https://crowdin.com/project/tabby"

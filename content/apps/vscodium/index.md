@@ -13,9 +13,9 @@ license = ["MIT"]
 
 [extra]
 screenshots = "https://vscodium.com/img/vscodium.png"
-homepage = "https://vscodium.com/"  
+homepage = "https://vscodium.com/"
 repository = "https://github.com/VSCodium/vscodium"
 bugtracker = "https://github.com/VSCodium/vscodium/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.vscodium.codium/refs/heads/master/com.vscodium.codium.metainfo.xml"
 install_x86_64="https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-1.143.17232-anylinux-x86_64.AppImage"
 +++

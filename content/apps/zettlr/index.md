@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/Zettlr/Zettlr/refs/heads/develop/resources/screenshots/zettlr_view.png"
-homepage = "https://www.zettlr.com"  
+homepage = "https://www.zettlr.com"
 repository = "https://github.com/Zettlr/Zettlr"
 donations = "https://github.com/sponsors/nathanlesage"
 translations = "https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating"

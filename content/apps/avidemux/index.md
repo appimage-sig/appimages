@@ -17,6 +17,6 @@ repository = "https://github.com/mean00/avidemux2"
 bugtracker = "https://sourceforge.net/p/avidemux/bugs"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "http://fixounet.free.fr/avidemux/index_files/screenshot1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://www.avidemux.org/nightly/appImage/Avidemux-x86_64_20261018.AppImage"
 +++

@@ -14,10 +14,10 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "https://photoqt.org/img/metainfo/metainfo1.png"
-homepage = "https://photoqt.org"  
+homepage = "https://photoqt.org"
 repository = "https://gitlab.com/lspies/photoqt"
 translations = "https://translate.photoqt.org"
-bugtracker = "https://gitlab.com/lspies/photoqt/-/work_items/new"
-
-install_="https://photoqt.org/downloads/appimages/PhotoQt.AppImage"
+bugtracker = "https://gitlab.com/lspies/photoqt/-/work_items/"
+appstream_xml_url = "https://gitlab.com/lspies/photoqt/-/raw/master/org.photoqt.PhotoQt.metainfo.xml"
+install_x86_64="https://photoqt.org/downloads/appimages/PhotoQt.AppImage"
 +++

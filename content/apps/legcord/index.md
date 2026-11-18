@@ -13,7 +13,7 @@ license = ["OSL-3.0"]
 
 [extra]
 
-homepage = "https://legcord.app"  
+homepage = "https://legcord.app"
 repository = "https://github.com/Legcord/Legcord"
 donations = "https://github.com/sponsors/smartfrigde"
 translations = "https://hosted.weblate.org/projects/armcord/"

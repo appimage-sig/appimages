@@ -15,6 +15,6 @@ license = ["GPL-3.0"]
 repository = "https://github.com/amanharwara/altus"
 bugtracker = "https://github.com/amanharwara/altus/issues"
 donations = "https://github.com/sponsors/amanharwara"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/amanharwara/altus/releases/download/5.8.2/Altus-5.8.2.AppImage"
 +++

@@ -15,5 +15,5 @@ license = ["EULA"]
 homepage = "https://s3drive.app"
 bugtracker = "https://github.com/s3drive/app//issues" 
 
-install_="https://github.com/s3drive/appimage-app/releases/download/1.18.2/S3Drive-x86_64.AppImage"
+install_x86_64="https://github.com/s3drive/appimage-app/releases/download/1.18.2/S3Drive-x86_64.AppImage"
 +++

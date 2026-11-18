@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://schildi.chat/revenge/img/inbox_2.png"
-homepage = "https://schildi.chat/revenge/"  
+homepage = "https://schildi.chat/revenge/"
 repository = "https://github.com/SchildiChat/schildi-revenge/"
 translations = "https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/"
 bugtracker = "https://github.com/SchildiChat/schildichat-desktop/issues"

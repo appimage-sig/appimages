@@ -17,7 +17,7 @@ bugtracker = "https://github.com/buckets/application/issues"
 donations = "https://www.patreon.com/iffy"
 translations = "https://github.com/buckets/translations"
 screenshots = "https://www.budgetwithbuckets.com/images/main-screenshot-hires.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage"
 install_arm64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage"
 +++

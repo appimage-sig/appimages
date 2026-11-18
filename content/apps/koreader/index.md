@@ -13,7 +13,7 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "http://koreader.rocks"  
+homepage = "http://koreader.rocks"
 repository = "https://github.com/koreader/koreader"
 donations = "https://liberapay.com/KOReader"
 translations = "https://hosted.weblate.org/engage/koreader"

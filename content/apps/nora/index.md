@@ -12,8 +12,8 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
-homepage = "https://noramusic.netlify.app"  
+screenshots = "https://github.com/Sandakan/Nora/raw/refs/heads/master/resources/other/artwork%200.webp"
+homepage = "https://noramusic.netlify.app"
 repository = "https://github.com/Sandakan/Nora"
 translations = "https://crowdin.com/project/nora"
 bugtracker = "https://github.com/Sandakan/Nora/issues"

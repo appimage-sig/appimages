@@ -14,7 +14,7 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "https://www.smplayer.info/images/screenshots/mainwindow.png"
-homepage = "https://smplayer.info"  
+homepage = "https://smplayer.info"
 repository = "https://github.com/smplayer-dev/smplayer"
 donations = "https://www.smplayer.info/en/contribute"
 translations = "https://explore.transifex.com/rvm/smplayer"

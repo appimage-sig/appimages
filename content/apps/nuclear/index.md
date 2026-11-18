@@ -14,7 +14,7 @@ license = ["AGPL-3.0"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/docs/.gitbook/assets/dashboard-main.png"
-homepage = "https://nuclearplayer.com/"  
+homepage = "https://nuclearplayer.com/"
 repository = "https://github.com/nukeop/nuclear"
 donations = "https://github.com/sponsors/nukeop"
 translations = "https://crowdin.com/project/nuclear"

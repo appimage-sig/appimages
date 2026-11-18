@@ -13,7 +13,7 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "https://simplex.chat"  
+homepage = "https://simplex.chat"
 repository = "https://github.com/simplex-chat/simplex-chat"
 donations = "https://github.com/sponsors/simplex-chat"
 translations = "https://hosted.weblate.org/engage/simplex-chat"

@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://davidotek.github.io/protonup-qt"  
+homepage = "https://davidotek.github.io/protonup-qt"
 repository = "https://github.com/DavidoTek/ProtonUp-Qt"
 donations = "https://ko-fi.com/davidotek"
 translations = "https://hosted.weblate.org/projects/protonup-qt"

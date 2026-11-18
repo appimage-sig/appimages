@@ -15,7 +15,7 @@ license = ["MIT"]
 repository = "https://github.com/RyanYuuki/AnymeX"
 bugtracker = "https://github.com/RyanYuuki/AnymeX/issues"
 donations = "https://ko-fi.com/ryanyuuki7"
-screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+screenshots = ""
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-Linux.AppImage"
 +++

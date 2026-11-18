@@ -12,7 +12,7 @@ license = ["GPL-3.0"]
 
 [extra]
 screenshots = "https://www.libretro.com/wp-content/uploads/2020/03/ozone-768x414.png"
-homepage = "https://www.retroarch.com"  
+homepage = "https://www.retroarch.com"
 repository = "https://github.com/libretro/RetroArch"
 donations = "https://github.com/sponsors/libretro"
 translations = "https://crowdin.com/project/retroarch"

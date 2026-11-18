@@ -14,7 +14,7 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "https://xournalpp.github.io/img/Physics%20Problem.png"
-homepage = "https://xournalpp.github.io"  
+homepage = "https://xournalpp.github.io"
 repository = "https://github.com/xournalpp/xournalpp"
 translations = "https://crowdin.com/project/xournalpp"
 bugtracker = "https://github.com/xournalpp/xournalpp/issues"

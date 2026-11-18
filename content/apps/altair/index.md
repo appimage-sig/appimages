@@ -12,7 +12,7 @@ architectures = ["x86_64", "arm64"]
 license = ["MIT"]
 
 [extra]
-homepage = "https://altairgraphql.dev"  
+homepage = "https://altairgraphql.dev"
 repository = "https://github.com/altair-graphql/altair"
 donations = "https://opencollective.com/altair"
 translations = "https://crwd.in/altair-gql"

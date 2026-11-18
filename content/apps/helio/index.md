@@ -16,7 +16,7 @@ homepage = "https://helio.fm"
 repository = "https://github.com/helio-fm/helio-sequencer"
 bugtracker = "https://github.com/helio-fm/helio-sequencer/issues"
 donations = "https://github.com/helio-fm/helio-sequencer#support-the-project"
-screenshots = "https://raw.githubusercontent.com/helio-fm/helio-sequencer/refs/heads/develop/Docs/images/screen-v3"
+screenshots = "https://raw.githubusercontent.com/helio-fm/helio-sequencer/refs/heads/develop/Docs/images/screen-v3.png"
 appstream_xml_url = ""
 install_x86_64 = "https://ci.helio.fm/helio-3.18-x64.AppImage"
 +++

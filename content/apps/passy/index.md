@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://glitterware.github.io/Passy"  
+homepage = "https://glitterware.github.io/Passy"
 repository = "https://github.com/GlitterWare/Passy"
 donations = "https://github.com/sponsors/GlitterWare"
 translations = "https://github.com/GlitterWare/Passy/blob/main/LOCALIZATION.md"

@@ -13,7 +13,7 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "https://rustdesk.com"  
+homepage = "https://rustdesk.com"
 repository = "https://github.com/rustdesk/rustdesk"
 donations = "https://github.com/sponsors/rustdesk"
 translations = "https://github.com/rustdesk/rustdesk/tree/master/src/lang"

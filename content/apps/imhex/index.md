@@ -18,7 +18,7 @@ bugtracker = "https://github.com/WerWolv/ImHex/issues"
 donations = "https://github.com/sponsors/WerWolv"
 translations = "https://weblate.werwolv.net/projects/imhex"
 screenshots = "https://imhex.werwolv.net/assets/screenshot-TGF_JnPp.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-x86_64.AppImage"
 install_arm64 = "https://github.com/WerWolv/ImHex/releases/download/v1.38.1/imhex-1.38.1-arm64.AppImage"
 +++

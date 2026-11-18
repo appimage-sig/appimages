@@ -12,12 +12,11 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-homepage = "https://www.qownnotes.org"
 repository = "https://github.com/Levminer/authme"
 bugtracker = "https://github.com/Levminer/authme/issues"
 donations = "https://github.com/sponsors/Levminer"
 translations = "https://github.com/Levminer/authme/issues/258#issuecomment-1909792332"
-screenshots = "https://raw.githubusercontent.com/Levminer/authme/dev/screenshots/codes"
+screenshots = "https://raw.githubusercontent.com/Levminer/authme/dev/screenshots/codes.png"
 appstream_xml_url = ""
 install_x86_64 = "https://github.com/Levminer/authme/releases/download/7.1.0/authme-7.1.0-linux-x64.appimage"
 +++

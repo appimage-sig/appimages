@@ -13,8 +13,8 @@ license = ["EULA"]
 
 [extra]
 homepage = "https://www.beeper.com/"
-screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+screenshots = ""
+appstream_xml_url = ""
 install_x86_64 = "https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop"
 install_arm64 = "https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop"
 +++

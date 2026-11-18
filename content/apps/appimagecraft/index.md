@@ -13,7 +13,7 @@ license = ["MIT"]
 [extra]
 repository = "https://github.com/TheAssassin/appimagecraft"
 bugtracker = "https://github.com/TheAssassin/appimagecraft/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage"
 install_arm64= "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-aarch64.AppImage"
 +++

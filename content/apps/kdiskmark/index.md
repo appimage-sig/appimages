@@ -15,7 +15,7 @@ license = ["GPL-3.0"]
 repository = "https://github.com/JonMagon/KDiskMark"
 bugtracker = "https://github.com/JonMagon/KDiskMark/issues"
 translations = "https://crowdin.com/project/kdiskmark"
-screenshots = "https://raw.githubusercontent.com/JonMagon/KDiskMark/master/assets/images/kdiskmark"
+screenshots = "https://raw.githubusercontent.com/JonMagon/KDiskMark/master/assets/images/kdiskmark.png"
 appstream_xml_url = ""
 install_x86_64 = "https://github.com/JonMagon/KDiskMark/releases/download/3.3.0/KDiskMark-3.3.0-fio-3.42-x86_64.AppImage"
 +++

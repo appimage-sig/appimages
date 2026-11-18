@@ -14,9 +14,9 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "https://www.leocad.org/towerbridge.png"
-homepage = "https://www.leocad.org"  
+homepage = "https://www.leocad.org"
 repository = "https://github.com/leozide/leocad"
 bugtracker = "https://github.com/leozide/leocad/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/leozide/leocad/refs/heads/master/tools/setup/leocad.appdata.xml"
+appstream_xml_url = "https://raw.githubusercontent.com/leozide/leocad/refs/heads/master/tools/setup/org.leocad.LeoCAD.appdata.xml"
 install_x86_64="https://github.com/leozide/leocad/releases/download/v26.09/LeoCAD-Linux-26.09-x86_64.AppImage"
 +++

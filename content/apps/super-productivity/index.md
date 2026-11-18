@@ -13,11 +13,11 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://super-productivity.com/"  
+homepage = "https://super-productivity.com/"
 repository = "https://github.com/johannesjo/super-productivity"
 donations = "https://github.com/sponsors/johannesjo"
 translations = "https://fink.inlang.com/github.com/johannesjo/super-productivity"
 bugtracker = "https://github.com/johannesjo/super-productivity/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/refs/heads/master/com.super_productivity.SuperProductivity.metainfo.xml"
 install_x86_64="https://github.com/super-productivity/super-productivity/releases/download/v20.0.0/superProductivity-x86_64.AppImage"
 +++

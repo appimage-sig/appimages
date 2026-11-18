@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://pcsx2.net"  
+homepage = "https://pcsx2.net"
 repository = "https://github.com/PCSX2/pcsx2"
 donations = "https://github.com/sponsors/PCSX2"
 translations = "https://crowdin.com/project/pcsx2-emulator"

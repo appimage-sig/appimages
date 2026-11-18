@@ -14,7 +14,7 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "http://mapeditor.org/img/screenshot-front.png"
-homepage = "https://www.mapeditor.org/"  
+homepage = "https://www.mapeditor.org/"
 repository = "https://github.com/mapeditor/tiled/"
 donations = "https://github.com/bjorn"
 bugtracker = "https://github.com/mapeditor/tiled/issues"

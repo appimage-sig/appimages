@@ -14,10 +14,11 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://i.imgur.com/ydVhH00.png"
-homepage = "https://getsession.org"  
+homepage = "https://getsession.org"
 repository = "https://github.com/session-foundation/session-desktop"
 donations = "https://donorbox.org/optf-donation"
 translations = "https://crowdin.com/project/session-crossplatform-strings"
 bugtracker = "https://github.com/session-foundation/session-desktop/issues"
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/network.loki.Session/refs/heads/master/network.loki.Session.metainfo.xml"
 install_x86_64 = "https://github.com/session-foundation/session-desktop/releases/download/v1.18.4/session-desktop-linux-x86_64-1.18.4.AppImage"
 +++

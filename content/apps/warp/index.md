@@ -16,5 +16,5 @@ homepage = "https://www.warp.dev"
 bugtracker = "https://github.com/warpdotdev/Warp/issues"
 appstream_xml_url = ""
 install_x86_64="https://app.warp.dev/download?package=appimage"
-install_="https://app.warp.dev/get_warp?package=appimage_arm64"
+install_arm64="https://app.warp.dev/get_warp?package=appimage_arm64"
 +++

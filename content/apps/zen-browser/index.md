@@ -13,7 +13,7 @@ license = ["MPL-2.0"]
 [extra]
 
 screenshots = "https://zen-browser.app/_astro/ComImage.DV0rTSHO_Z1aH5BP.webp"
-homepage = "https://zen-browser.app"  
+homepage = "https://zen-browser.app"
 repository = "https://github.com/zen-browser/desktop"
 donations = "https://patreon.com/zen_browser"
 translations = "https://crowdin.com/project/zen-browser"

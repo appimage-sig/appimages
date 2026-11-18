@@ -13,10 +13,10 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://interversehq.com/qview"  
+homepage = "https://interversehq.com/qview"
 repository = "https://github.com/jurplel/qView"
 translations = "https://hosted.weblate.org/projects/qview/qview"
 bugtracker = "https://github.com/jurplel/qView/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/jurplel/qView/refs/heads/main/dist/linux/com.interversehq.qView.appdata.xml"
 install_x86_64="https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-x86_64.AppImage"
 +++

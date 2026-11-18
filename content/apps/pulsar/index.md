@@ -13,7 +13,7 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://pulsar-edit.dev"  
+homepage = "https://pulsar-edit.dev"
 repository = "https://github.com/pulsar-edit/pulsar"
 donations = "https://opencollective.com/pulsar-edit"
 translations = "https://crowdin.com/project/pulsar-edit"

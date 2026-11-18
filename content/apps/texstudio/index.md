@@ -18,7 +18,7 @@ repository = "https://github.com/texstudio-org/texstudio"
 screenshots = "https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png"
 translations = "https://explore.transifex.com/texstudio/texstudio/"
 bugtracker = "https://github.com/texstudio-org/texstudio/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/texstudio-org/texstudio/refs/heads/master/utilities/texstudio.metainfo.xml"
 install_x86_64="https://github.com/texstudio-org/texstudio/releases/download/4.9.9/texstudio-4.9.9-x86_64.AppImage"
 
 +++

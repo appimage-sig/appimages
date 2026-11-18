@@ -12,7 +12,7 @@ license = ["MIT"]
 
 [extra]
 screenshots = "https://wezterm.org/screenshots/wezterm-vday-screenshot.png"
-homepage = "https://wezfurlong.org/wezterm"  
+homepage = "https://wezfurlong.org/wezterm"
 repository = "https://github.com/wez/wezterm"
 donations = "https://patreon.com/WezFurlong"
 bugtracker = "https://github.com/wez/wezterm/issues"

@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "http://mypaint.app"  
+homepage = "http://mypaint.app"
 repository = "https://github.com/mypaint/mypaint"
 donations = "https://opencollective.com/mypaint"
 translations = "https://hosted.weblate.org/engage/mypaint/?utm_source=widget"

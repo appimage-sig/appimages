@@ -16,6 +16,5 @@ license = ["BSD-3-Clause"]
 homepage = "https://ooni.org/install/desktop"
 repository = "https://github.com/ooni/probe-desktop"
 bugtracker = "https://github.com/ooni/probe-desktop"
-
-install_="https://github.com/ooni/probe-desktop/releases/download/v3.10.1/OONI-Probe-3.10.1.AppImage"
+install_x86_64="https://github.com/ooni/probe-desktop/releases/download/v3.10.1/OONI-Probe-3.10.1.AppImage"
 +++

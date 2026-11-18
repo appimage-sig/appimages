@@ -13,12 +13,12 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "https://logseq.com"  
+homepage = "https://logseq.com"
 repository = "https://github.com/logseq/logseq"
 donations = "https://opencollective.com/logseq"
 translations = "https://github.com/logseq/logseq/blob/master/docs/contributing-to-translations.md"
-screenshots = "https://raw.githubusercontent.com/logseq/logseq/refs/heads/master/resources/img/screenshot.png"
+screenshots = "https://raw.githubusercontent.com/flathub/com.logseq.Logseq/7b794b7a3fab4ce6d6ec63657ca2334ff40b341e/screenshots/01-intro.png"
 bugtracker = "https://github.com/logseq/logseq/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.logseq.Logseq/refs/heads/master/com.logseq.Logseq.metainfo.xml"
 install_x86_64="https://github.com/logseq/logseq/releases/download/2.0.2/Logseq-linux-x86_64-2.0.2.AppImage"
 +++

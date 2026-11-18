@@ -18,7 +18,7 @@ bugtracker = "https://github.com/cardo-podcast/cardo/issues"
 donations = "https://github.com/sponsors/cardo-podcast"
 translations = "https://github.com/cardo-podcast/cardo?tab=readme-ov-file#translations"
 screenshots = "https://raw.githubusercontent.com/cardo-podcast/cardo/refs/heads/master/assets/readme/1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/cardo-podcast/cardo/releases/download/1.12.0/cardo_1.12.0_amd64_linux.AppImage"
 +++
 

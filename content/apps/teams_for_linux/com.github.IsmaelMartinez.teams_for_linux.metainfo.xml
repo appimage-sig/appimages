@@ -485,7 +485,7 @@
           <li>config: phase 0 of config/docs UX initiative (#2597) (#2602)</li>
           <li>config: record #2597 phase 3b plan, migration as optional companion (#2657)</li>
           <li>install: document the beta apt/rpm channel for pre-releases (#2638) (d53d0f3), closes #2637</li>
-          <li>moverepository install instructions to the dedicated webpage (#2619)</li>
+          <li>move repository install instructions to the dedicated webpage (#2619)</li>
           <li>research: documentation, contributing, and config UX (#2598)</li>
           <li>research: FIDO2 touch-prompt feasibility note (#2631) (#2634)</li>
           <li>research: smartcard/NSS PIN dialog feasibility for client-cert auth (#2641) (0cbd31a), closes #2639</li>
@@ -721,7 +721,7 @@
           <li>chore(deps-dev): bump eslint from 10.0.2 to 10.0.3 (#2316)</li>
           <li>docs: restructure roadmap to thematic sections and add changelog pipeline enhancements - by @IsmaelMartinez (#2317)</li>
           <li>Fix: Add --flags option and resolve UID conflict in Dockerfiles - by @IsmaelMartinez (#2321)</li>
-          <li>docs: addrepository health analysis for Feb-Mar 2026 - by @IsmaelMartinez (#2324)</li>
+          <li>docs: add repository health analysis for Feb-Mar 2026 - by @IsmaelMartinez (#2324)</li>
           <li>docs: add WebAuthn/FIDO2 implementation plan for Linux security keys - by @IsmaelMartinez (#2327)</li>
           <li>Fix: Update MQTT status selectors and remove broken React presence detection - by @IsmaelMartinez (#2333)</li>
           <li>Fix: Update documentation links and remove template placeholders - by @IsmaelMartinez (#2336)</li>
@@ -912,7 +912,7 @@
         <ul>
           <li>Implement Calendar Data Export Feature - by @IsmaelMartinez (#2006)</li>
           <li>chore: upgrade Electron from 37.9.0 to 39.2.6 - by @IsmaelMartinez (#2020)</li>
-          <li>docs: fix documentation inconsistencies acrossrepository - by @IsmaelMartinez (#2030)</li>
+          <li>docs: fix documentation inconsistencies across repository - by @IsmaelMartinez (#2030)</li>
           <li>fix: MQTT status stuck on do_not_disturb - by @IsmaelMartinez (#2032)</li>
           <li>chore(deps): bump the npm_and_yarn group across 2 directories with 1 update (#2034)</li>
           <li>chore(deps): bump qs from 6.13.0 to 6.14.1 in /docs-site in the npm_and_yarn group across 1 directory (#2035)</li>

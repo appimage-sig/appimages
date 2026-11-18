@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "https://xemu.app"  
+homepage = "https://xemu.app"
 repository = "https://github.com/xemu-project/xemu"
 donations = "https://www.patreon.com/mborgerson"
 bugtracker = "https://github.com/xemu-project/xemu/issues"

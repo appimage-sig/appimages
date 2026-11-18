@@ -13,7 +13,7 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://www.playyourdamnturn.com"  
+homepage = "https://www.playyourdamnturn.com"
 repository = "https://github.com/pydt/client"
 donations = "https://www.patreon.com/pydt"
 bugtracker = "https://github.com/pydt/client/issues"

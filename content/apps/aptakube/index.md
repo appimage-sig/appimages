@@ -15,7 +15,7 @@ license = ["EULA"]
 homepage = "https://aptakube.com"
 repository = "https://github.com/aptakube/aptakube"
 bugtracker = "https://github.com/aptakube/aptakube/issues"
-screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+screenshots = ""
+appstream_xml_url = ""
 install_x86_64 = "https://github.com/aptakube/aptakube/releases/download/1.22.3/aptakube_1.22.3_amd64.AppImage"
 +++

@@ -15,6 +15,6 @@ license = ["GPL-3.0"]
 repository = "https://github.com/pyfa-org/Pyfa"
 translations = "https://crowdin.com/project/pyfa"
 bugtracker = "https://github.com/pyfa-org/Pyfa/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.github.pyfa_org.Pyfa/refs/heads/master/io.github.pyfa_org.Pyfa.metainfo.xml"
 install_x86_64="https://github.com/pyfa-org/Pyfa/releases/download/v2.70.0/pyfa-v2.70.0-linux.AppImage"
 +++

@@ -16,7 +16,7 @@ homepage = "https://gitbutler.com"
 repository = "https://github.com/gitbutlerapp/gitbutler"
 bugtracker = "https://github.com/gitbutlerapp/gitbutler/issues"
 screenshots = "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/app-preview-light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+appstream_xml_url = ""
 install_x86_64 = "https://releases.gitbutler.com/releases/release/0.23.4-3353/linux/x86_64/GitButler_0.23.4_amd64.AppImage.tar.gz"
 install_arm64 = "https://releases.gitbutler.com/releases/release/0.23.4-3353/linux/aarch64/GitButler_0.23.4_aarch64.AppImage.tar.gz"
 +++

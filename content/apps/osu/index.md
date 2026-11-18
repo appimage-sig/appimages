@@ -12,7 +12,7 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://osu.ppy.sh"  
+homepage = "https://osu.ppy.sh"
 repository = "https://github.com/ppy/osu"
 donations = "https://github.com/sponsors/ppy"
 bugtracker = "https://github.com/ppy/osu/issues"

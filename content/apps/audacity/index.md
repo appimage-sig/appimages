@@ -16,8 +16,8 @@ homepage = "https://www.audacityteam.org"
 repository = "https://github.com/audacity/audacity"
 bugtracker = "https://github.com/audacity/audacity/issues"
 translations = "https://explore.transifex.com/audacity/audacity"
-screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+screenshots = ""
+appstream_xml_url = "https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in"
 install_x86_64 = "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage"
 +++
 

@@ -12,11 +12,10 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://naev.org"  
+homepage = "https://naev.org"
 repository = "https://codeberg.org/naev/naev"
 donations = "https://www.libreoffice.org/donate"
 translations = "https://hosted.weblate.org/projects/naev/naev"
 bugtracker = "https://codeberg.org/naev/naev/issues/"
-
-install_="https://codeberg.org/naev/naev/releases/download/v0.13.4/naev-0.13.4-linux-x86-64.AppImage"
+install_x86_64="https://codeberg.org/naev/naev/releases/download/v0.13.4/naev-0.13.4-linux-x86-64.AppImage"
 +++

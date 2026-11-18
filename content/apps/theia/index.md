@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "http://theia-ide.org/"  
+homepage = "http://theia-ide.org/"
 repository = "https://github.com/eclipse-theia/theia"
 bugtracker = "https://github.com/eclipse-theia/theia/issues"
 screenshots = "https://raw.githubusercontent.com/eclipse-theia/theia/master/doc/images/theia-screenshot.png"

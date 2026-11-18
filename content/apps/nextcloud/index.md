@@ -12,11 +12,11 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
-homepage = "https://nextcloud.com"  
+screenshots = "https://nextcloud.com/wp-content/uploads/2022/04/linux.png"
+homepage = "https://nextcloud.com"
 repository = "https://github.com/nextcloud/desktop"
 translations = "https://explore.transifex.com/nextcloud/nextcloud"
 bugtracker = "https://github.com/nextcloud/desktop/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/nextcloud/desktop/refs/heads/master/admin/linux/flatpak/com.nextcloud.desktopclient.nextcloud.metainfo.xml"
 install_x86_64="https://github.com/nextcloud-releases/desktop/releases/download/v35.0.3/Nextcloud-35.0.3-x86_64.AppImage"
 +++

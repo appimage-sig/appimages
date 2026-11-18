@@ -13,12 +13,12 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "https://lmms.io"  
+homepage = "https://lmms.io"
 repository = "https://github.com/LMMS/lmms"
 donations = "https://lmms.io/get-involved/#donate"
 translations = "https://explore.transifex.com/lmms/lmms"
 bugtracker = "https://github.com/LMMS/lmms/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.lmms.LMMS/refs/heads/master/io.lmms.LMMS.metainfo.xml"
 install_x86_64="https://lmms.io/download/artifact/14191151592"
 install_arm_64="https://lmms.io/download/artifact/14190633379"
 +++

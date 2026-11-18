@@ -12,7 +12,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "https://rpcs3.net"  
+homepage = "https://rpcs3.net"
 repository = "https://github.com/RPCS3/rpcs3"
 donations = "https://www.patreon.com/Nekotekina"
 bugtracker = "https://github.com/RPCS3/rpcs3/issues"

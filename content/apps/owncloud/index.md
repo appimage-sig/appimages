@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "https://owncloud.com/desktop-app"  
+homepage = "https://owncloud.com/desktop-app"
 repository = "https://github.com/owncloud/client"
 translations = "https://explore.transifex.com/owncloud-org/owncloud/"
 bugtracker = "https://github.com/owncloud/client/issues"

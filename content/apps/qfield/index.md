@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "http://www.qfield.org"  
+homepage = "http://www.qfield.org"
 repository = "https://github.com/opengisch/QField"
 donations = "https://github.com/sponsors/opengisch"
 translations = "https://explore.transifex.com/opengisch/qfield-for-qgis"

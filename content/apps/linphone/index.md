@@ -13,9 +13,9 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://linphone.org"  
+homepage = "https://linphone.org"
 repository = "https://gitlab.linphone.org/BC/public/linphone-desktop"
 translations = "https://weblate.linphone.org/projects/linphone/linphone-desktop-6-1/"
-bugtracker = "https://gitlab.linphone.org/BC/public/linphone-desktop/-/work_items/new"
+bugtracker = "https://gitlab.linphone.org/BC/public/linphone-desktop/-/work_items/"
 install_x86_64="https://download.linphone.org/releases/linux/app/Linphone-6.2.4-x86_64.AppImage"
 +++

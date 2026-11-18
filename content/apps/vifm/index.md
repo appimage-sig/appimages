@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/vifm/vifm/refs/heads/master/data/graphics/screenshot.png"
-homepage = "https://vifm.info"  
+homepage = "https://vifm.info"
 repository = "https://github.com/vifm/vifm"
 donations = "https://github.com/sponsors/vifm"
 bugtracker = "https://github.com/vifm/vifm/issues"

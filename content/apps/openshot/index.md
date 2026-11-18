@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://www.openshot.org"  
+homepage = "https://www.openshot.org"
 repository = "https://github.com/OpenShot/openshot-qt"
 donations = "https://www.openshot.org/donate"
 translations = "https://translations.launchpad.net/openshot/2.0/+translations"

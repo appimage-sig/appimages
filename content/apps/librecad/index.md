@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 
 screenshots = "https://dokuwiki.librecad.org/lib/exe/fetch.php/librecad_screeshot_2.2.png"
-homepage = "https://www.librecad.org"  
+homepage = "https://www.librecad.org"
 repository = "https://github.com/LibreCAD/LibreCAD"
 donations = "https://github.com/sponsors/LibreCAD"
 translations = "https://translate.librecad.org"

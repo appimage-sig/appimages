@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://modrinth.com"  
+homepage = "https://modrinth.com"
 repository = "https://github.com/modrinth/code"
 translations = "https://crowdin.com/project/modrinth"
 screenshots = "https://cdn-raw.modrinth.com/app-landing/app-screenshot.webp"

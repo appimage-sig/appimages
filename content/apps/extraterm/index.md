@@ -13,7 +13,7 @@ license = ["MIT"]
 
 [extra]
 
-homepage = "https://extraterm.org"  
+homepage = "https://extraterm.org"
 repository = "https://github.com/sedwards2009/extraterm"
 bugtracker = "https://github.com/sedwards2009/extraterm/issues"
 screenshots = "https://extraterm.org/minimap_450.png"

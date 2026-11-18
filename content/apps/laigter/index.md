@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://azagaya.itch.io/laigter"  
+homepage = "https://azagaya.itch.io/laigter"
 repository = "https://github.com/azagaya/laigter"
 donations = "https://www.patreon.com/jazagaya"
 translations = "https://github.com/azagaya/laigter/blob/master/CONTRIBUTING.md#contributing-with-translation"

@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://notesnook.com"  
+homepage = "https://notesnook.com"
 repository = "https://github.com/streetwriters/notesnook"
 donations = "https://opencollective.com/notesnook"
 bugtracker = "https://github.com/streetwriters/notesnook/issues"

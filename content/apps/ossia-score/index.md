@@ -13,11 +13,11 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://ossia.io/score/about.html"  
+homepage = "https://ossia.io/score/about.html"
 repository = "https://github.com/ossia/score"
 donations = "https://opencollective.com/ossia"
 bugtracker = "https://github.com/ossia/score/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/ossia/score/refs/heads/master/cmake/Deployment/Linux/ossia-score.appdata.xml"
 install_x86_64="https://github.com/ossia/score/releases/download/v3.9.0/ossia.score-3.9.0-linux-x86_64.AppImage"
 install_arm64="https://github.com/ossia/score/releases/download/v3.9.0/ossia.score-3.9.0-linux-aarch64.AppImage"
 +++

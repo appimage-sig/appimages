@@ -13,7 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
-homepage = "http://pencil2d.org"  
+homepage = "http://pencil2d.org"
 repository = "https://github.com/pencil2d/pencil"
 translations = "https://explore.transifex.com/pencil2d/pencil2d/"
 bugtracker = "https://github.com/pencil2d/pencil/issues"

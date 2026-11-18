@@ -12,14 +12,14 @@ permissions:
 jobs:
   run-metadata:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
       - name: Run getmetadata script
         run: sh ./code/getmetadata.sh
-  
+
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"

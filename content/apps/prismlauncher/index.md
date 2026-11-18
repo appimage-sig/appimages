@@ -13,7 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
-homepage = "https://prismlauncher.org/"  
+homepage = "https://prismlauncher.org/"
 repository = "https://github.com/PrismLauncher/PrismLauncher"
 donations = "https://opencollective.com/prismlauncher"
 translations = "https://hosted.weblate.org/projects/prismlauncher/launcher/"

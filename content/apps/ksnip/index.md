@@ -1,7 +1,7 @@
 +++
 title = "ksnip"
 description = "ksnip the cross-platform screenshot and annotation tool"
-date = "2023-03-15T09:43:55Z"
+date = "2026-10-21T13:20:00Z"
 authors = ["Damir Porobić"]
 
 [taxonomies]
@@ -17,5 +17,5 @@ donations = "https://github.com/sponsors/DamirPorobic"
 translations = "https://hosted.weblate.org/engage/ksnip"
 bugtracker = "https://github.com/ksnip/ksnip/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/ksnip/ksnip/refs/heads/master/desktop/org.ksnip.ksnip.appdata.xml"
-install_x86_64="https://github.com/ksnip/ksnip/releases/download/v1.10.1/ksnip-1.10.1-x86_64.AppImage"
+install_x86_64="https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage"
 +++

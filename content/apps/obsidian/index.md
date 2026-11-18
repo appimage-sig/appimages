@@ -15,6 +15,6 @@ license = ["EULA"]
 
 homepage = "https://obsidian.md"
 translations = "https://github.com/obsidianmd/obsidian-translations"
-install_="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.AppImage"
+install_x86_64="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.AppImage"
 install_arm64="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1-arm64.AppImage"
 +++

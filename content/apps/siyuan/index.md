@@ -13,7 +13,7 @@ license = ["AGPL-3.0"]
 
 [extra]
 
-homepage = "https://b3log.org/siyuan"  
+homepage = "https://b3log.org/siyuan"
 repository = "https://github.com/siyuan-note/siyuan"
 donations = "https://ld246.com/sponsor"
 translations = "https://github.com/siyuan-note/siyuan/tree/master/app/appearance/langs"

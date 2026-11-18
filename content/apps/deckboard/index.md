@@ -15,7 +15,7 @@ license = ["EULA"]
 homepage = "https://deckboard.app"
 bugtracker = "https://github.com/rivafarabi/deckboard/issues"
 donations = "https://ko-fi.com/rivafarabi"
-screenshots = "https://raw.githubusercontent.com/rivafarabi/deckboard/refs/heads/master/01"
+screenshots = "https://raw.githubusercontent.com/rivafarabi/deckboard/refs/heads/master/01.PNG"
 appstream_xml_url = ""
 install_x86_64 = "https://github.com/rivafarabi/deckboard/releases/download/v3.2.0/Deckboard-3.2.0.AppImage"
 +++

@@ -14,10 +14,11 @@ license = ["MIT"]
 [extra]
 
 screenshots = "https://raw.githubusercontent.com/martpie/museeks/refs/heads/master/screenshot.png"
-homepage = "https://museeks.io"  
+homepage = "https://museeks.io"
 repository = "https://github.com/martpie/museeks"
 bugtracker = "https://github.com/martpie/museeks/issues"
-appstream_xml_url = ""
+translations = "https://github.com/martpie/museeks?tab=readme-ov-file#translations"
+appstream_xml_url = "https://raw.githubusercontent.com/martpie/museeks/refs/heads/master/src-tauri/release/flatpak.metainfo.xml"
 install_x86_64="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_amd64.AppImage"
 install_arm64="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_aarch64.AppImage"
 +++
