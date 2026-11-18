@@ -1,4 +1,5 @@
-{% macro pagination() %}
+{% component pagination(paginator=false) %}
+{% if paginator %}
 <!-- begin pagination -->
 <nav class="pagination">
     <div class="container">
@@ -15,8 +16,8 @@
           {% endif %}
 
           <div class="pagination__count">
-            Page <span data-pagebreak-label="current">{{paginator.current_index}}</span>
-            of <span data-pagebreak-label="total">{{paginator.number_pagers}}</span>
+            Page <span data-pagebreak-label="current">{{ paginator.current_index }}</span>
+            of <span data-pagebreak-label="total">{{ paginator.number_pagers }}</span>
           </div>
 
           {% set next_text = "Next" %}
@@ -32,4 +33,5 @@
     </div>
   </nav>
   <!-- end pagination -->
-  {% endmacro pagination %}
+{% endif %}
+{% endcomponent pagination %}

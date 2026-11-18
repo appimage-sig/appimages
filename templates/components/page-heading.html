@@ -1,4 +1,4 @@
-{% macro page_heading(title, description=false, taxonomies=false) %}
+{% component page_heading(title, description: string = "", taxonomies=false) %}
 {% set c = 'c-page-heading' %}
 <div class="container">
 
@@ -7,4 +7,4 @@
   <p class="{{c}}__description">{{ description }}</p>
   {% endif %}
 </div>
-{% endmacro page_heading %}
+{% endcomponent page_heading %}

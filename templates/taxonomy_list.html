@@ -1,4 +1,3 @@
-{% import "components/tags-list.html" as tags_list %}
 {% extends "base.html" %}
 {% block main %}
 
@@ -8,7 +7,7 @@
     <div class="col col-12">
       <div class="contaniner__inner animate">
         <div class="row">
-          {{ tags_list::tags_list(terms = terms) }}
+            {{<tags_list terms={terms} />}}
         </div>
       </div>
     </div>

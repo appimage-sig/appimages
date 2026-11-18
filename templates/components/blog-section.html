@@ -1,5 +1,4 @@
-{% import "components/blog-card.html" as blog_card %}
-{% macro blog_section(data) %}
+{% component blog_section(data) %}
 {% set c = 'c-blog-card' %}
 <!-- begin blog -->
 <section class="section blog">
@@ -22,7 +21,7 @@
             {% for i in range(end=9) %}
             {% if i < section.pages | length %}
             {% set post = section.pages | nth(n=i) %}
-              {{ blog_card::blog_card(data = post) }}
+                {{<blog_card data={post} />}}
             {% endif %}
             {% endfor %}
           </div>
@@ -34,4 +33,4 @@
   </div>
 </section>
 <!-- end blog -->
-{% endmacro blog_section %}
+{% endcomponent blog_section %}

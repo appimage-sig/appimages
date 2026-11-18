@@ -3,47 +3,57 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
-<title>{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}</title>
 
-{% if page.keywords %}
-<meta name="keywords" content="{{ page.keywords | join(sep=', ') }}">
+{% if page is defined and page.title %}
+  {% set page_title = page.title %}
+{% elif section is defined and section.title %}
+  {% set page_title = section.title %}
 {% else %}
+  {% set page_title = config.title %}
+{% endif %}
+<title>{{ page_title }}</title>
+
+{% if page is defined and page.keywords %}
+<meta name="keywords" content="{{ page.keywords | join(sep=', ') }}">
+{% elif config.extra.keywords is defined %}
 <meta name="keywords" content="{{ config.extra.keywords | join(sep=', ') }}">
 {% endif %}
 
-{% if page.description %}
-<meta name="description" content="{{ page.description }}">
-<meta property="og:description" content="{{ page.description }}" />
+{% if page is defined and page.description %}
+  {% set page_desc = page.description %}
+{% elif section is defined and section.description %}
+  {% set page_desc = section.description %}
 {% else %}
-<meta name="description" content="{{ config.description }}">
-<meta property="og:description" content="{{ config.description }}" />
+  {% set page_desc = config.description %}
 {% endif %}
 
-{% if page.authors %}
+{% if page_desc %}
+<meta name="description" content="{{ page_desc }}">
+<meta property="og:description" content="{{ page_desc }}" />
+{% endif %}
+
+{% if page is defined and page.authors %}
 <meta name="author" content="{{ page.authors | join(sep=', ') }}">
 {% for author in page.authors %}
 <meta property="article:author" content="{{ author }}">
 {% endfor %}
 {% endif %}
 
-{% if current_url %}
+{% if current_url is defined and current_url %}
 <link rel="canonical" href="{{ current_url }}">
 {% endif %}
 
 <!-- Featured Image -->
-{% if page.extra.seo.featured_image %}
-<meta name="og:image" content="{{ page.extra.seo.featured_image }}" />
-<meta name="twitter:image" content="{{ page.extra.seo.featured_image }}" />
-{% elif page.extra.image %}
-<meta name="og:image" content="{{ page.extra.image }}" />
-<meta name="twitter:image" content="{{ page.extra.image }}" />
-{% else %}
+{% if page is defined and page.extra.screenshots is defined %}
+<meta property="og:image" content="{{ page.extra.screenshots }}" />
+<meta name="twitter:image" content="{{ page.extra.screenshots }}" />
+{% elif config.extra.social_media_share_image is defined %}
 <meta property="og:image" content="{{ get_url(path=config.extra.social_media_share_image) }}">
 <meta name="twitter:image" content="{{ get_url(path=config.extra.social_media_share_image) }}">
 {% endif %}
 
 <meta property="og:type" content="website" />
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ config.title }}{% endif %}">
+<meta property="og:title" content="{{ page_title }}">
 
 <script type="module" src="https://unpkg.com/ionicons@8.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@8.1.0/dist/ionicons/ionicons.js"></script>

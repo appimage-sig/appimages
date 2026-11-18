@@ -27,8 +27,7 @@
             <ul class="nav__list list-reset">
               {% for item in config.extra.navigation %}
               {% set url = item.url | replace(from='$BASE_URL', to=config.base_url) %}
-              {% set is_active_link = current_url and url | trim_end_matches(pat="/") == current_url |
-              trim_end_matches(pat="/") %}
+              {% set is_active_link = current_url and url | trim_end(pat="/") == current_url | trim_end(pat="/") %}
 
               {% if item.submenu %}
               <li class="nav__item dropdown">
@@ -37,10 +36,8 @@
                 <div class="dropdown-menu">
                   {% for subitem in item.submenu %}
                   {% set url = subitem.url | replace(from='$BASE_URL', to=config.base_url) %}
-                  {% set is_active_link = current_url and url | trim_end_matches(pat="/") == current_url |
-                  trim_end_matches(pat="/") %}
-                  <a href="{{ url }}"
-                    class="nav__link {% if is_active_link %}active-link{% endif %}">{{ subitem.title }}</a>
+                  {% set is_active_link = current_url and url | trim_end(pat="/") == current_url | trim_end(pat="/") %}
+                  <a href="{{ url }}" class="nav__link {% if is_active_link %}active-link{% endif %}">{{ subitem.title }}</a>
                   {% endfor %}
                 </div>
               </li>

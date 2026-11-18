@@ -1,15 +1,13 @@
-{% import "components/page-heading.html" as page_heading %}
-{% import "components/blog-card.html" as blog_card %}
 {% extends "base.html" %}
 {% block main %}
 {% set taxonomy_title = taxonomy.name | replace(from="_",to=" ") | title %}
 {% set title = term.name | title %}
-{{ page_heading::page_heading(title = title) }}
+{{<page_heading title={title} />}}
 
 <div class="container">
   {% set_global sections = [] %}
   {% for page in term.pages %}
-  {% set_global sections = sections | concat(with=page.components | first) | unique %}
+  {% set_global sections = [...sections, page.components | first] | unique %}
   {% endfor %}
   {% for section in sections | sort %}
   <h1>{{ section | title }}</h1>
@@ -19,13 +17,13 @@
         <div class="row">
           {% for page in term.pages %}
           {% if page.components | first == section %}
-          {{ blog_card::blog_card(data=page) }}
+          {{<blog_card data={page} />}}
           {% endif %}
           {% endfor %}
         </div>
       </div>
     </div>
-  </div>
+</div>
   {% endfor %}
 </div>
 

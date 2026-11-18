@@ -1,6 +1,5 @@
-{% import "components/index.html" as components %}
 <!DOCTYPE html>
-<html lang="{{ lang }}" dir="{{ config.extra.language_direction }}">
+<html lang="{{ lang }}" dir="{{ config.extra.language_direction | default(value='ltr') }}">
 <head>
     {% block head %}
     {% include "partials/head.html" %}
@@ -10,10 +9,17 @@
     {% block header %}
     {% include "partials/header.html" %}
     {% endblock %}
+
     <main class="main">
         {% block main %}
-        {% if section.extra.content_blocks %}
-        {{ components::content_blocks(data = section.extra.content_blocks) }}
+        {% if section is defined and section.extra.content_blocks is defined %}
+            {% if paginator is defined %}
+                {% set pages_list = paginator.pages %}
+            {% else %}
+                {% set pages_list = section.pages %}
+            {% endif %}
+
+            {{<content_blocks data={section.extra.content_blocks} pages={pages_list} />}}
         {% endif %}
         {% endblock %}
     </main>

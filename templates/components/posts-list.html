@@ -1,14 +1,14 @@
-{% import "components/blog-card.html" as blog_card %}
-{% import "components/pagination.html" as pagination %}
-{% macro posts_list(data) %}
+{% component posts_list(data, pages=[], paginator=false) %}
 {% if data.show_posts %}
 <div class="container animate">
   <div class="row" data-pagebreak="6">
-    {% for page in paginator.pages | default(value=section.pages) %}
-      {{ blog_card::blog_card(data = page) }}
+    {% for page in pages %}
+      {{<blog_card data={page} />}}
     {% endfor %}
   </div>
 </div>
-{{ pagination::pagination() }}
+{% if paginator %}
+  {{<pagination paginator={paginator} />}}
 {% endif %}
-{% endmacro posts_list %}
+{% endif %}
+{% endcomponent posts_list %}

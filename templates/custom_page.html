@@ -2,6 +2,6 @@
 {% extends "base.html" %}
 {% block main %}
 {% if page.extra.content_blocks %}
-{{ components::content_blocks(data = page.extra.content_blocks) }}
+{{<content_blocks data={page.extra.content_blocks} />}}
 {% endif %}
 {% endblock %}
