@@ -26,7 +26,7 @@ jobs:
       - name: Build Zola + upload Pages artifact
         uses: getzola/github-pages@435a833fd3f1edcb28d70576c89e30a6365cd8f7
         with:
-          zola_version: v0.22.0
+          zola_version: v0.23.6
 
   deploy:
     runs-on: ubuntu-latest
