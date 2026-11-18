@@ -13,6 +13,7 @@ license = ["GPL-2.0"]
 
 [extra]
 
+screenshots = ""
 homepage = "http://www.qfield.org"
 repository = "https://github.com/opengisch/QField"
 donations = "https://github.com/sponsors/opengisch"

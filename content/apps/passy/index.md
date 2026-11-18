@@ -12,7 +12,7 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
+screenshots = "https://raw.githubusercontent.com/GlitterWare/Passy/273e012d77e0667486388d94c9f5d129a2911350/screenshots/1920x1080/5.png"
 homepage = "https://glitterware.github.io/Passy"
 repository = "https://github.com/GlitterWare/Passy"
 donations = "https://github.com/sponsors/GlitterWare"

@@ -13,6 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
+screenshots = "https://interversehq.com/qview/assets/img/screenshot1.png"
 homepage = "https://interversehq.com/qview"
 repository = "https://github.com/jurplel/qView"
 translations = "https://hosted.weblate.org/projects/qview/qview"

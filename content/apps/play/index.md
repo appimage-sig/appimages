@@ -12,7 +12,7 @@ architectures = ["x86_64"]
 license = ["BSD-2-Clause"]
 
 [extra]
-
+screenshots = "https://purei.org/screenshots/i_000089.png"
 homepage = "https://purei.org"
 repository = "https://github.com/jpd002/Play-"
 donations = "https://github.com/sponsors/jpd002"

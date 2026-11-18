@@ -13,6 +13,7 @@ license = ["MIT"]
 
 [extra]
 
+scereenshots = "https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/linux/linux-screenshot.png"
 homepage = "https://pulsar-edit.dev"
 repository = "https://github.com/pulsar-edit/pulsar"
 donations = "https://opencollective.com/pulsar-edit"

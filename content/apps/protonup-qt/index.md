@@ -13,6 +13,7 @@ license = ["GPL-3.0"]
 
 [extra]
 
+screenshots = "https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/main/.github/images/pupgui2-dark.png"
 homepage = "https://davidotek.github.io/protonup-qt"
 repository = "https://github.com/DavidoTek/ProtonUp-Qt"
 donations = "https://ko-fi.com/davidotek"

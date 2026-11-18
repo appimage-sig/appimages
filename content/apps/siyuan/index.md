@@ -19,7 +19,7 @@ donations = "https://ld246.com/sponsor"
 translations = "https://github.com/siyuan-note/siyuan/tree/master/app/appearance/langs"
 bugtracker = "https://github.com/siyuan-note/siyuan/issues"
 screenshots = "https://b3log.org/siyuan/static/home-img.png"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/org.b3log.siyuan/refs/heads/master/org.b3log.siyuan.metainfo.xml"
 install_x86_64="https://github.com/saber-notes/saber/releases/download/v1.37.2/Saber-1.37.2-x86_64.AppImage"
 install_arm64="https://github.com/saber-notes/saber/releases/download/v1.37.2/Saber-1.37.2-arm64.AppImage"
 +++
