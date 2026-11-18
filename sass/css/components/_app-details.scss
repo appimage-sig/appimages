@@ -1,0 +1,275 @@
+/* App Page Layout & Details Sidebar */
+
+.app-page-layout {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    gap: 32px;
+    align-items: start;
+    margin-top: 32px;
+    margin-bottom: 48px;
+
+    @media (max-width: 960px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.app-details {
+    background-color: $background-color-alt;
+    border: 1px solid $border-color;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba($dark, 0.04);
+    color: $text-color;
+    font-size: 0.925rem;
+
+    &__header {
+        background-color: $background-color;
+        border-bottom: 1px solid $border-color;
+        padding: 16px 20px;
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: $heading-font-color;
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+
+        &--nested {
+            border-top: 1px solid $border-color;
+        }
+    }
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding: 12px 20px;
+        border-bottom: 1px solid $border-color;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    &__label {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: rgba($text-color, 0.65);
+    }
+
+    &__value {
+        margin: 0;
+        font-weight: 500;
+        color: $text-color;
+
+        &--wrap {
+            word-break: break-word;
+            overflow-wrap: anywhere;
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            transition: color 0.15s ease;
+
+            &:hover {
+                color: $button-background-hover;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 2px;
+    }
+
+    &__tag {
+        display: inline-block;
+        padding: 3px 10px;
+        background-color: $background-color;
+        border: 1px solid $border-color;
+        border-radius: 6px;
+        font-size: 0.8rem;
+        color: $text-color !important;
+        transition: all 0.15s ease;
+
+        &:hover {
+            border-color: $primary-color;
+            color: $primary-color !important;
+            text-decoration: none !important;
+        }
+    }
+
+    /* Сворачиваемые секции (<details>) */
+    &__accordion {
+        border-top: 1px solid $border-color;
+
+        &[open] .app-details__chevron {
+            transform: rotate(180deg);
+        }
+    }
+
+    &__summary {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 20px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: $heading-font-color;
+        cursor: pointer;
+        list-style: none;
+        user-select: none;
+        transition: background-color 0.15s ease;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &:hover {
+            background-color: $background-color;
+        }
+    }
+
+    &__chevron {
+        color: rgba($text-color, 0.6);
+        font-size: 1rem;
+        transition: transform 0.2s ease;
+    }
+
+    /* Список ссылок в Resources */
+    &__links {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border-top: 1px solid $border-color;
+
+        li+li {
+            border-top: 1px solid $border-color;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 20px;
+            color: $link-color;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background-color 0.15s ease, color 0.15s ease;
+
+            &:hover {
+                background-color: $background-color;
+                color: $primary-color;
+
+                ion-icon {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        ion-icon {
+            color: rgba($text-color, 0.5);
+            font-size: 1rem;
+            transition: color 0.15s ease;
+        }
+    }
+
+    &__download-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: 600;
+    }
+}
+
+/* Описание приложения в шапке */
+.post__description {
+    margin: 12px 0 18px;
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: rgba($text-color, 0.8);
+}
+
+.app-resources-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid $border-color;
+}
+
+/* Виджет выбора архитектуры и кнопки скачивания */
+/* Виджет выбора архитектуры и кнопки скачивания */
+.app-install-widget {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid $border-color;
+
+    &:first-of-type {
+        margin-top: 32px;
+    }
+
+    @media (max-width: 576px) {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.app-arch-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    min-width: 110px;
+}
+
+.app-arch-btn {
+    padding: 7px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: inherit;
+    text-align: center;
+    border: 1px solid $border-color;
+    background-color: $background-color-alt;
+    color: $text-color;
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+    &:hover {
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+
+    &.is-active {
+        background-color: rgba($primary-color, 0.12);
+        border-color: $primary-color;
+        color: $primary-color;
+    }
+}
+
+.app-install-download {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    @media (max-width: 576px) {
+        margin-left: 0;
+        width: 100%;
+    }
+}

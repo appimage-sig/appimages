@@ -1,4 +1,3 @@
-{% import "components/index.html" as components %}
 {% extends "base.html" %}
 {% block main %}
 <div class="post-top">
@@ -27,64 +26,130 @@
 
           <h1 class="post__title">{{ page.title }}</h1>
 
-        {% if page.taxonomies.authors %}
-            <div class="post__meta-bottom">
+          {# Описание приложения #}
+          {% if page.taxonomies.description is defined and page.taxonomies.description %}
+            <p class="post__description">{{ page.taxonomies.description | join(sep=", ") }}</p>
+          {% elif page.description is defined and page.description %}
+            <p class="post__description">{{ page.description }}</p>
+          {% endif %}
+
+          <div class="post__meta-bottom">
+            {% if page.taxonomies.authors %}
               <div class="post__author">
-                  {% for author in page.taxonomies.authors %}<a href="{{ get_taxonomy_url(kind="authors", name=author) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+                {% for author in page.taxonomies.authors %}<a href="{{ get_taxonomy_url(kind="authors", name=author) }}">{{ author }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
               </div>
-        {% endif %}
-              {% set formatted_date_long = page.date | date(format="%Y-%m-%d %H:%M:%S %z") %}
-              {% set formatted_date_short = page.date | date(format=config.extra.date_format) %}
-              <time class="post__date" datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time>
-            </div>
-        </div>
-        <strong>Project links:</strong>
-        <ul>
-            {% if page.extra.homepage %}
-            <li>
-              Homepage: <a href="{{ page.extra.homepage }}">{{ page.extra.homepage }}</a>
-            </li>
             {% endif %}
-          <li>
-          {% if page.extra.repository %}
-          Repository:
-            <a href="{{ page.extra.repository }}">{{ page.extra.repository }}</a>
-          </li>
-          {% endif %}
-          {% if page.extra.bugtracker %}
-          <li>
-            Repost the bug: <a href="{{ page.extra.bugtracker }}">{{ page.extra.bugtracker }}"</a>
-          </li>
-          {% endif %}
-          {% if page.extra.translate %}
-          <li>
-            <a href="{{ page.extra.translate }}">{{ page.extra.translate }}</a>
-            </li>
-          {% endif %}
-          {% if page.extra.donation %}
-          <li>
-            <a href="{{ page.extra.donation }}">{{ page.extra.donation }}</a>
-          </li>
-          {% endif %}
-        </ul>
-        {% if page.extra.screenshots %}
-            <img src="{{ page.extra.screenshots }}">
-        {% endif %}
+            {% set formatted_date_long = page.date | date(format="%Y-%m-%d %H:%M:%S %z") %}
+            {% set formatted_date_short = page.date | date(format=config.extra.date_format | default(value="%Y-%m-%d")) %}
+            <time class="post__date" datetime="{{ formatted_date_long }}">{{ formatted_date_short }}</time>
+          </div>
+
+          {% set all_archs = ["x86_64", "arm64", "x86", "armv7l", "riscv64", "ppc64el"] %}
+          {% set_global first_url = "" %}
+          {% set_global first_arch = "" %}
+
+          {# Предварительно находим первую доступную архитектуру и ссылку #}
+          {% for arch in all_archs %}
+            {% set key = "install_" ~ arch %}
+            {% set url = page.extra[key] | default(value="") %}
+            {% if not url and arch == "arm64" %}
+              {% set url = page.extra.install_aarch64 | default(value="") %}
+            {% endif %}
+            {% if url and not first_url %}
+              {% set_global first_url = url %}
+              {% set_global first_arch = arch %}
+            {% endif %}
+          {% endfor %}
+
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- begin post -->
 <div class="container animate">
-  <article class="post">
-    <div class="post__content">
-      {{ page.content | safe }}
-    </div>
-  </article>
+  <div class="app-page-layout">
+    <article class="post">
+      {% if page.extra.screenshots %}
+        <div class="post-screenshots" style="margin-bottom: 1.5rem;">
+          <img loading="lazy" src="{{ page.extra.screenshots }}" alt="{{ page.title }} screenshot" style="border-radius: 10px; width: 100%;">
+        </div>
+      {% endif %}
+
+      <div class="post__content">
+        {{ page.content | safe }}
+      </div>
+
+      {# 1-й ряд: Кнопки ресурсов под описанием приложения #}
+      {# 1-й ряд: Кнопки ресурсов под описанием приложения #}
+      {% set has_bug = page.extra.bugtracker is defined and page.extra.bugtracker %}
+      {% set has_trans = (page.extra.translations is defined and page.extra.translations) or (page.extra.translate is defined and page.extra.translate) %}
+      {% set has_don = (page.extra.donations is defined and page.extra.donations) or (page.extra.donation is defined and page.extra.donation) %}
+
+      {% if has_bug or has_trans or has_don %}
+      <div class="app-resources-buttons">
+        {% if has_bug %}
+          <a href="{{ page.extra.bugtracker }}" target="_blank" rel="noopener noreferrer" class="c-button c-button--secondary c-button--app">
+            <ion-icon name="bug-outline"></ion-icon>
+            <span>Report an issue</span>
+          </a>
+        {% endif %}
+
+        {% if has_trans %}
+          {% set trans_url = page.extra.translations | default(value=page.extra.translate) %}
+          <a href="{{ trans_url }}" target="_blank" rel="noopener noreferrer" class="c-button c-button--secondary c-button--app">
+            <ion-icon name="language-outline"></ion-icon>
+            <span>Translate</span>
+          </a>
+        {% endif %}
+
+        {% if has_don %}
+          {% set don_url = page.extra.donations | default(value=page.extra.donation) %}
+          <a href="{{ don_url }}" target="_blank" rel="noopener noreferrer" class="c-button c-button--secondary c-button--app">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span>Donate</span>
+          </a>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {# 2-й ряд: Отдельный блок выбора архитектуры и скачивания #}
+      {% if first_url %}
+      <div class="app-install-widget" id="app-install-widget">
+        {# Переключатель доступных архитектур #}
+        <div class="app-arch-selector" role="group" aria-label="Select architecture">
+          {% for arch in all_archs %}
+            {% set key = "install_" ~ arch %}
+            {% set url = page.extra[key] | default(value="") %}
+            {% if not url and arch == "arm64" %}
+              {% set url = page.extra.install_aarch64 | default(value="") %}
+            {% endif %}
+
+            {% if url %}
+              <button type="button"
+                      class="app-arch-btn {% if arch == first_arch %}is-active{% endif %}"
+                      data-url="{{ url }}"
+                      data-arch="{{ arch }}">
+                {{ arch }}
+              </button>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        {# Основная кнопка скачивания #}
+        <div class="app-install-download">
+          <a href="{{ first_url }}" id="app-download-btn" class="c-button c-button--primary c-button--download">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download AppImage (<strong id="app-download-arch">{{ first_arch }}</strong>)</span>
+          </a>
+        </div>
+      </div>
+      {% endif %}
+    </article>
+
+    {{<app_details page={page} date_format={config.extra.date_format | default(value="%Y-%m-%d")} />}}
+  </div>
 </div>
-<!-- end post -->
 
 <div class="container">
   <div class="row">
@@ -95,5 +160,33 @@
 </div>
 
 {% include "partials/related-posts.html" %}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const widget = document.getElementById("app-install-widget");
+    if (!widget) return;
+
+    const archBtns = widget.querySelectorAll(".app-arch-btn");
+    const downloadBtn = document.getElementById("app-download-btn");
+    const downloadArchLabel = document.getElementById("app-download-arch");
+
+    archBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        archBtns.forEach((b) => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+
+        const newUrl = btn.getAttribute("data-url");
+        const newArch = btn.getAttribute("data-arch");
+
+        if (downloadBtn && newUrl) {
+          downloadBtn.setAttribute("href", newUrl);
+        }
+        if (downloadArchLabel && newArch) {
+          downloadArchLabel.textContent = newArch;
+        }
+      });
+    });
+  });
+</script>
 
 {% endblock main %}

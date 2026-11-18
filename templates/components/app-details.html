@@ -1,0 +1,110 @@
+{% component app_details(page, date_format="%Y-%m-%d") %}
+<aside class="app-details" aria-labelledby="details-heading">
+  <div class="app-details__header">
+    <h2 class="app-details__title" id="details-heading">Details</h2>
+  </div>
+
+  <dl class="app-details__list">
+    {# Website #}
+    {% if page.extra.homepage is defined and page.extra.homepage %}
+      {% set web_label = page.extra.homepage | replace(from="https://www.", to="") | replace(from="http://www.", to="") | replace(from="https://", to="") | replace(from="http://", to="") | trim_end(chars="/") %}
+      <div class="app-details__row">
+        <dt class="app-details__label">Website</dt>
+        <dd class="app-details__value app-details__value--wrap">
+          <a href="{{ page.extra.homepage }}" target="_blank" rel="noopener noreferrer">{{ web_label }}</a>
+        </dd>
+      </div>
+    {% endif %}
+
+    {# License #}
+    {% if page.taxonomies.license is defined and page.taxonomies.license | length > 0 %}
+      <div class="app-details__row">
+        <dt class="app-details__label">License</dt>
+        <dd class="app-details__value">
+          {% for lic in page.taxonomies.license %}
+            <a href="{{ get_taxonomy_url(kind='license', name=lic, lang=page.lang) }}">{{ lic }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {# Categories #}
+    {% if page.taxonomies.categories is defined and page.taxonomies.categories | length > 0 %}
+      <div class="app-details__row">
+        <dt class="app-details__label">Categories</dt>
+        <dd class="app-details__value app-details__tags">
+          {% for cat in page.taxonomies.categories %}
+            <a href="{{ get_taxonomy_url(kind='categories', name=cat, lang=page.lang) }}" class="app-details__tag">{{ cat }}</a>
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {# Frameworks #}
+    {% if page.taxonomies.frameworks is defined and page.taxonomies.frameworks | length > 0 %}
+      <div class="app-details__row">
+        <dt class="app-details__label">Frameworks</dt>
+        <dd class="app-details__value">
+          {% for fw in page.taxonomies.frameworks %}
+            <a href="{{ get_taxonomy_url(kind='frameworks', name=fw, lang=page.lang) }}">{{ fw }}</a>{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {# Architectures (фильтрация по таксономии) #}
+    {% if page.taxonomies.architectures is defined and page.taxonomies.architectures | length > 0 %}
+      <div class="app-details__row">
+        <dt class="app-details__label">Architectures</dt>
+        <dd class="app-details__value app-details__tags">
+          {% for arch in page.taxonomies.architectures %}
+            <a href="{{ get_taxonomy_url(kind='architectures', name=arch, lang=page.lang) }}" class="app-details__tag">{{ arch }}</a>
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {# Repository #}
+    {% if page.extra.repository is defined and page.extra.repository %}
+      {% set repo_label = page.extra.repository | replace(from="https://www.", to="") | replace(from="http://www.", to="") | replace(from="https://", to="") | replace(from="http://", to="") | trim_end(chars="/") %}
+      <div class="app-details__row">
+        <dt class="app-details__label">Repository</dt>
+        <dd class="app-details__value app-details__value--wrap">
+          <a href="{{ page.extra.repository }}" target="_blank" rel="noopener noreferrer">{{ repo_label }}</a>
+        </dd>
+      </div>
+    {% endif %}
+  </dl>
+
+  {# Сворачиваемая секция: Source information #}
+  {% set has_appstream = page.extra.appstream_xml_url is defined and page.extra.appstream_xml_url %}
+  {% if has_appstream or page.date %}
+  <details class="app-details__accordion" open>
+    <summary class="app-details__summary">
+      <span>Source information</span>
+      <ion-icon name="chevron-down-outline" class="app-details__chevron"></ion-icon>
+    </summary>
+    <dl class="app-details__list app-details__list--nested">
+      {% if has_appstream %}
+        {% set meta_label = page.extra.appstream_xml_url | replace(from="https://www.", to="") | replace(from="http://www.", to="") | replace(from="https://", to="") | replace(from="http://", to="") %}
+        <div class="app-details__row">
+          <dt class="app-details__label">Metadata source</dt>
+          <dd class="app-details__value app-details__value--wrap">
+            <a href="{{ page.extra.appstream_xml_url }}" target="_blank" rel="noopener noreferrer">{{ meta_label }}</a>
+          </dd>
+        </div>
+      {% endif %}
+
+      {% if page.date %}
+        <div class="app-details__row">
+          <dt class="app-details__label">Last updated</dt>
+          <dd class="app-details__value">
+            <time datetime="{{ page.date }}">{{ page.date | date(format=date_format) }}</time>
+          </dd>
+        </div>
+      {% endif %}
+    </dl>
+  </details>
+  {% endif %}
+</aside>
+{% endcomponent app_details %}
