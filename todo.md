@@ -1,21 +1,21 @@
 # TODO.md
-- [ ] Improve taxonomies
-  - [ ] Show screenshot from extra taxonomy
+- [x] Improve taxonomies
+  - [x] Show screenshot from extra taxonomy
   - [x] Show homepage from extra taxonomy
   - [x] Show bugtracker from extra taxonomy
   - [x] Show translations from extra taxonomy
   - [x] Show donations from extra taxonomy
-  - [ ] Show install from extra taxonomy
+  - [x] Show install from extra taxonomy
     - [x] Show install for x86_64
-    - [ ] Show install for arm64
-    - [ ] Show install for x*86
-    - [ ] Show install for armv7l
-    - [ ] Show install for risv64
-    - [ ] Show install for ppcel64
-  - [ ] Show description
-  - [ ] Show license
-  - [ ] Show category
-  - [ ] Show tag
+    - [x] Show install for arm64
+    - [x] Show install for x*86
+    - [x] Show install for armv7l
+    - [x] Show install for risv64
+    - [x] Show install for ppcel64
+  - [x] Show description
+  - [x] Show license
+  - [x] Show category
+  - [x] Show tag
 - [ ] Add search functionality
 - [ ] Change main page UI
   - [ ] Add recently added apps to main page
@@ -24,11 +24,10 @@
   - [ ] Add See more button
 - [ ] Add MuslC supported tag
 - [ ] Add more applications
-  - [ ] [5ire](https://github.com/nanbingxyz/5ire/)
+  - [x] [5ire](https://github.com/nanbingxyz/5ire/)
   - [ ] [Aiming pro](https://aiming.pro)
   - [ ] [Ansel](https://github.com/aurelienpierreeng/ansel/)
   - [ ] [Aspect](https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.43-x86_64.AppImage)
-  - [ ] [Aurora](https://github.com/legacyO7/Aurora/)
   - [ ] [Bigtube](https://github.com/eltonfabricio10/bigtube)
   - [ ] [BitBox](https://github.com/BitBoxSwiss/bitbox-wallet-app)
   - [ ] [Cacher](https://s3.amazonaws.com/download.cacher.io/Cacher-2.47.9.AppImage)

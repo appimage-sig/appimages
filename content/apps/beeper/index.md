@@ -1,7 +1,7 @@
 +++
 title = "Beeper"
 description = "Beeper is a universal chat app. With Beeper, you can send and receive messages to friends, family and colleagues on 14 different chat networks, all from a single app."
-date = "2026-01-14  00:00:00"
+date = "2026-11-19  00:00:00"
 authors = ["Automattic"]
 
 [taxonomies]
@@ -13,7 +13,7 @@ license = ["EULA"]
 
 [extra]
 homepage = "https://www.beeper.com/"
-screenshots = ""
+screenshots = "https://i0.wp.com/www.beeper.com/wp-content/uploads/2026/10/beeper-app-screenshot-scaled.png?resize=1024%2C721&ssl=1"
 appstream_xml_url = ""
 install_x86_64 = "https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop"
 install_arm64 = "https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop"
