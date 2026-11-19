@@ -1,8 +1,8 @@
 +++
 title = "FireDragon"
-description = "A Floorp fork with custom branding and opinionated settings."
-date = "2026-04-10 07:48:00"
-authors = ["Nico Jensch"]
+description = "FireDragon is a cross-platform, feature-rich and privacy-focused web browser"
+date = "2026-11-16 02:19:46"
+authors = ["Garuda Linux"]
 
 [taxonomies]
 categories = ["Network"]
@@ -16,6 +16,6 @@ screenshots = "https://gitlab.com/garuda-linux/firedragon/settings/-/raw/master/
 homepage = "https://firedragon.garudalinux.org"
 repository = "https://github.com/dr460nf1r3/firedragon-browser"
 appstream_xml_url = "https://raw.githubusercontent.com/garuda-linux/firedragon/refs/heads/main/assets/org.garudalinux.firedragon.metainfo.xml"
-install_x86_64="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-x64.AppImage"
-install_arm64="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.0.0-rc.6/downloads/firedragon.appimage-arm64.AppImage"
+install_x86_64="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.12.1/downloads/firedragon.appimage-x64.AppImage"
+install_arm64="https://gitlab.com/garuda-linux/firedragon/firedragon13/-/releases/v13.12.1/downloads/firedragon.appimage-arm64.AppImage"
 +++

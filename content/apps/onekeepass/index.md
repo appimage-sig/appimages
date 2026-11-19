@@ -17,7 +17,7 @@ screenshots = "https://raw.githubusercontent.com/OneKeePass/desktop/refs/heads/m
 homepage = "https://onekeepass.github.io"
 repository = "https://github.com/OneKeePass/desktop"
 bugtracker = "https://github.com/OneKeePass/desktop/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/OneKeePass/desktop/refs/heads/main/linux/com.onekeepass.OneKeePass.metainfo.xml"
 install_x86_64="https://github.com/OneKeePass/desktop/releases/download/v0.27.0/OneKeePass_0.27.0_Linux_x86_64.AppImage"
 install_arm64 = "https://github.com/OneKeePass/desktop/releases/download/v0.27.0/OneKeePass_0.27.0_Linux_aarch64.AppImage"
 +++

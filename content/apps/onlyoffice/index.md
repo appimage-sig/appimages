@@ -15,10 +15,9 @@ license = ["AGPL-3.0"]
 
 homepage = "https://www.onlyoffice.com"
 repository = "https://github.com/ONLYOFFICE/DesktopEditors"
-
 translations = "https://helpcenter.onlyoffice.com/guides/become-translator.aspx"
 bugtracker = "https://github.com/ONLYOFFICE/DesktopEditors/issues"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/org.onlyoffice.desktopeditors/refs/heads/master/org.onlyoffice.desktopeditors.metainfo.xml"
 install_x86_64="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-x86_64.AppImage"
 install_arm64="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors-arm64.AppImage"
 +++

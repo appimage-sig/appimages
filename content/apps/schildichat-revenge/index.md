@@ -17,7 +17,7 @@ screenshots = "https://schildi.chat/revenge/img/inbox_2.png"
 homepage = "https://schildi.chat/revenge/"
 repository = "https://github.com/SchildiChat/schildi-revenge/"
 translations = "https://weblate.spiritcroc.de/projects/schildichat/schildi-revenge/"
-bugtracker = "https://github.com/SchildiChat/schildichat-desktop/issues"
+bugtracker = "https://github.com/SchildiChat/schildi-revenge/issues"
 appstream_xml_url = ""
 install_x86_64="https://github.com/SchildiChat/schildi-revenge/releases/download/v26.10.26/schildichat-revenge-x86_64-26.10.26.AppImage"
 +++

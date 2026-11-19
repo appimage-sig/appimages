@@ -18,6 +18,6 @@ bugtracker = "https://github.com/cinnyapp/cinny-desktop/issues"
 donations = "https://github.com/sponsors/ajbura"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://raw.githubusercontent.com/cinnyapp/cinny-site/refs/heads/main/assets/preview2-light.png"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/in.cinny.Cinny/refs/heads/master/in.cinny.Cinny.appdata.xml"
 install_x86_64 = "https://github.com/cinnyapp/cinny-desktop/releases/download/v4.12.8/Cinny_desktop-x86_64.AppImage"
 +++
