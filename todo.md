@@ -24,12 +24,10 @@
   - [ ] Add See more button
 - [ ] Add MuslC supported tag
 - [ ] Add more applications
-  - [x] [5ire](https://github.com/nanbingxyz/5ire/)
   - [ ] [Aiming pro](https://aiming.pro)
   - [ ] [Ansel](https://github.com/aurelienpierreeng/ansel/)
   - [ ] [Aspect](https://download.bildhuus.com/packages/aspect/aspect-1.0.0-rc.43-x86_64.AppImage)
-  - [ ] [Bigtube](https://github.com/eltonfabricio10/bigtube)
-  - [ ] [BitBox](https://github.com/BitBoxSwiss/bitbox-wallet-app)
+  - [x] [BitBox](https://github.com/BitBoxSwiss/bitbox-wallet-app)
   - [ ] [Cacher](https://s3.amazonaws.com/download.cacher.io/Cacher-2.47.9.AppImage)
   - [ ] [CodeTracer](https://downloads.codetracer.com/CodeTracer-latest-amd64.AppImage)
   - [ ] [Deskscreen](https://github.com/pavlobu/deskreen/)
