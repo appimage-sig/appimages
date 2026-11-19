@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.freetubeapp.FreeTube</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0+</project_license>
+  <name>FreeTube</name>
+  <summary>Watch YouTube privately</summary>
+  <developer id="io.freetubeapp">
+    <name>FreeTube Team</name>
+  </developer>
+  <description>
+    <p>FreeTube is an open source desktop YouTube player built with privacy in
+    mind. Use YouTube without advertisements and prevent Google from tracking
+    you with their cookies and JavaScript. Available for Windows, Mac &amp;
+    Linux thanks to Electron.</p>
+    <p>Please note that FreeTube is currently in Beta. While it should work well
+    for most users, there are still bugs and missing features that need to be
+    addressed.</p>
+  </description>
+  <launchable type="desktop-id">io.freetubeapp.FreeTube.desktop</launchable>
+  
+  <branding>
+    <color type="primary" scheme_preference="light">#f06a73</color>
+    <color type="primary" scheme_preference="dark">#8b1e2d</color>
+  </branding>
+
+  <content_rating type="oars-1.1"/>
+
+  <url type="homepage">https://freetubeapp.io/</url>
+  <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
+  <url type="help">https://docs.freetubeapp.io/</url>
+  <url type="contribute">https://docs.freetubeapp.io/development/getting-started</url>
+  <url type="vcs-browser">https://github.com/FreeTubeApp/FreeTube</url>
+  <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
+  <url type="contact">https://freetubeapp.io/#contact</url>
+
+  <screenshots>
+    <screenshot type="default" environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub1.png</image>
+      <caption>Watching a video</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub2.png</image>
+      <caption>Browse videos from subscribed channels</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub3.png</image>
+      <caption>Search for and discover content</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub4.png</image>
+      <caption>Manage subscribed channels</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub5.png</image>
+      <caption>Create playlists and save videos for later</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub6.png</image>
+      <caption>View your watch history</caption>
+    </screenshot>
+    <screenshot environment="gnome:dark">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub7.png</image>
+      <caption>Watch a video in dark mode</caption>
+    </screenshot>
+  </screenshots>
+
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <recommends>
+    <internet>always</internet>
+  </recommends>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+
+  <releases>
+    <release version="v0.26.0-beta" date="2026-11-02">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.26.0-beta</url>
+      <description></description>
+    </release>
+    <release version="v0.25.3-beta" date="2026-08-28">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.3-beta</url>
+      <description/>
+    </release>
+    <release version="v0.25.2-beta" date="2026-08-11">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.2-beta</url>
+      <description/>
+    </release>
+    <release version="v0.25.1-beta" date="2026-07-20">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.1-beta</url>
+      <description/>
+    </release>
+    <release version="v0.25.0-beta" date="2026-07-17">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.0-beta</url>
+      <description/>
+    </release>
+    <release version="v0.24.1-beta" date="2026-06-08">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.24.1-beta</url>
+      <description/>
+    </release>
+    <release version="v0.24.0-beta" date="2026-04-01">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.24.0-beta</url>
+      <description/>
+    </release>
+    <release version="v0.23.15-beta" date="2026-03-18">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.15-beta</url>
+      <description/>
+    </release>
+    <release version="0.23.14 Beta" date="2026-03-05">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.14-beta</url>
+    </release>
+    <release version="0.23.13 Beta" date="2026-01-18">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.13-beta</url>
+    </release>
+    <release version="0.23.12 Beta" date="2025-10-16">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.12-beta</url>
+    </release>
+    <release version="0.23.11 Beta" date="2025-10-14">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.11-beta</url>
+    </release>
+    <release version="0.23.10 Beta" date="2025-10-13">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.10-beta</url>
+    </release>
+    <release version="0.23.9 Beta" date="2025-09-14">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.9-beta</url>
+    </release>
+    <release version="0.23.8 Beta" date="2025-08-23">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.8-beta</url>
+    </release>
+    <release version="0.23.7 Beta" date="2025-08-15">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.7-beta</url>
+    </release>
+    <release version="0.23.6 Beta" date="2025-08-09">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.6-beta</url>
+    </release>
+    <release version="0.23.5 Beta" date="2025-05-01">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.5-beta</url>
+    </release>
+    <release version="0.23.4 Beta" date="2025-04-23">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.4-beta</url>
+    </release>
+    <release version="0.23.3 Beta" date="2025-03-28">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.3-beta</url>
+    </release>
+    <release version="0.23.2 Beta" date="2025-02-23">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.2-beta</url>
+    </release>
+    <release version="0.23.1 Beta" date="2025-1-31">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.1-beta</url>
+    </release>
+    <release version="0.23.0 Beta" date="2025-1-30">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.0-beta</url>
+    </release>
+    <release version="0.22.1 Beta" date="2024-12-12">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.22.1-beta</url>
+    </release>
+    <release version="0.22.0 Beta" date="2024-10-26">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.22.0-beta</url>
+    </release>
+    <release version="0.21.3 Beta" date="2024-08-01">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.21.3-beta</url>
+    </release>
+    <release version="0.21.2 Beta" date="2024-07-25">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.21.2-beta</url>
+    </release>
+    <release version="0.21.1 Beta" date="2024-07-10">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.21.1-beta</url>
+    </release>
+    <release version="0.21.0 Beta" date="2024-06-20">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.21.0-beta</url>
+    </release>
+    <release version="0.20.0 Beta" date="2024-04-03">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.20.0-beta</url>
+    </release>
+    <release version="0.19.2 Beta" date="2024-02-24">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.2-beta</url>
+    </release>
+    <release version="0.19.1 Beta" date="2023-10-09">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.1-beta</url>
+    </release>
+    <release version="0.19.0 Beta" date="2023-08-21">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.0-beta</url>
+    </release>
+    <release version="0.18.0 Beta" date="2022-11-02">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.18.0-beta</url>
+    </release>
+    <release version="0.17.1 Beta" date="2022-08-12">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.17.1-beta</url>
+    </release>
+    <release version="0.17.0 Beta" date="2022-08-01">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.17.0-beta</url>
+    </release>
+    <release version="0.16.0 Beta" date="2022-02-07">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.16.0-beta</url>
+    </release>
+    <release version="0.15.1 Beta" date="2021-11-11">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.15.1-beta</url>
+    </release>
+    <release version="0.15.0 Beta" date="2021-10-18">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.15.0-beta</url>
+    </release>
+    <release version="0.14.0 Beta" date="2021-09-04">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.14.0-beta</url>
+    </release>
+    <release version="0.13.2 Beta" date="2021-06-26">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.13.2-beta</url>
+    </release>
+    <release version="0.13.1 Beta" date="2021-05-29">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.13.1-beta</url>
+    </release>
+    <release version="0.13.0 Beta" date="2021-05-17">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.13.0-beta</url>
+    </release>
+    <release version="0.12.0 Beta" date="2021-03-07">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.12.0-beta</url>
+    </release>
+    <release version="0.11.3 Beta" date="2021-02-15">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.11.3-beta</url>
+    </release>
+    <release version="0.11.2 Beta" date="2021-01-22">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.11.2-beta</url>
+    </release>
+    <release version="0.11.1 Beta" date="2021-01-15">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.11.1-beta</url>
+    </release>
+    <release version="0.11.0 Beta" date="2021-01-15">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.11.0-beta</url>
+    </release>
+    <release version="0.10.0 Beta" date="2020-12-18">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.10.0-beta</url>
+    </release>
+    <release version="0.9.3 Beta" date="2020-12-07">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.9.3-beta</url>
+    </release>
+    <release version="0.9.2 Beta" date="2020-10-31">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.9.2-beta</url>
+    </release>
+    <release version="0.9.1 Beta" date="2020-10-21">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.9.1-beta</url>
+    </release>
+    <release version="0.9.0 Beta" date="2020-10-09">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.9.0-beta</url>
+    </release>
+    <release version="0.7.3 Beta" date="2020-06-28">
+      <url>https://write.as/freetube/freetube-release-0-7-3-beta-video-bug-fixes</url>
+    </release>
+    <release version="0.7.2 Beta" date="2019-12-21">
+      <url>https://write.as/freetube/freetube-release-0-7-2-beta-and-the-state-of-freetube</url>
+    </release>
+    <release version="0.7.1 Beta" date="2019-10-15">
+      <url>https://write.as/freetube/freetube-release-0-7-1-beta-video-playback-hot-fix</url>
+    </release>
+    <release version="0.7.0 Beta" date="2019-08-16">
+      <url>https://freetube.writeas.com/freetube-release-0-7-0-beta-local-profiles-new-channel-view-invidious-proxy</url>
+    </release>
+    <release version="0.6.1 Beta" date="2019-07-09">
+      <url>https://freetube.writeas.com/freetube-release-0-6-1-beta-dash-hotfix-grid-view-new-settings</url>
+    </release>
+    <release version="0.6.0 Beta" date="2019-06-14">
+      <url>https://freetube.writeas.com/freetube-release-0-6-0-beta-1080p-and-a-lot-of-qol</url>
+    </release>
+    <release version="0.5.3 Beta" date="2019-04-18">
+      <url>https://write.as/freetube/freetube-release-0-5-3-beta-hotfix</url>
+    </release>
+  </releases>
+</component>

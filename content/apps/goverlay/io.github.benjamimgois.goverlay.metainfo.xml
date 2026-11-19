@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<component type="desktop-application">
+    <id>io.github.benjamimgois.goverlay</id>
+
+    <name>Goverlay</name>
+    <summary>Configure gaming overlays</summary>
+    <developer id="io.github.benjamimgois">
+        <name>Benjamim Gois</name>
+    </developer>
+
+    <url type="homepage">https://github.com/benjamimgois/goverlay</url>
+    <url type="bugtracker">https://github.com/benjamimgois/goverlay/issues</url>
+    <url type="vcs-browser">https://github.com/benjamimgois/goverlay</url>
+
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0</project_license>
+
+    <description>
+        <p>
+            Goverlay is an easy graphical interface to configure MangoHud, vkBasalt, OptiScaler, and Lossless Scaling. Goverlay helps Linux gamers get the most out of their systems by providing an intuitive graphical interface to configure performance monitoring overlays, visual enhancements, DLSS/FSR upscaling, and frame generation in just a few clicks.
+        </p>
+    </description>
+
+    <launchable type="desktop-id">io.github.benjamimgois.goverlay.desktop</launchable>
+
+    <branding>
+        <color type="primary" scheme_preference="light">#0369a1</color>
+        <color type="primary" scheme_preference="dark">#0f4c75</color>
+    </branding>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>Pre-configured presets</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/1.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>Visual configuration for position and orientation</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/2.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>Performance metrics and frametime graphs</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/3.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>Hardware metrics for CPU and GPU monitoring</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/4.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>System information and session details</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/5.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>Visual enhancement shaders with vkBasalt</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/6.webp</image>
+        </screenshot>
+        <screenshot>
+            <caption>Upscaling and frame generation configuration</caption>
+            <image>https://raw.githubusercontent.com/benjamimgois/goverlay/refs/heads/main/data/screenshots/7.webp</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="1.9.3" date="2026-09-24">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Added native ReShade Windows DLL deployment and injection via bgmod, with interactive shader pack management and hotkey capture</li>
+                    <li>Unified ReShade and vkBasalt post-processing under a single tab with an intuitive method selector</li>
+                    <li>Added 3D Color LUT support (.cube and .png formats) for vkBasalt</li>
+                    <li>Added ability to clone global tool configurations directly into individual game profiles from the game card context menu</li>
+                    <li>Added custom launch arguments and global custom environment variable support in the Tweaks tab</li>
+                    <li>Added native Linux game executable resolution in bgmod, intelligently bypassing Windows DLL injection for native games</li>
+                    <li>Added dedicated Ray Tracing benchmark and hardware comparison scoring to the PasCube test suite</li>
+                    <li>Added non-blocking game launch confirmation splash screen (bgmod-splash)</li>
+                    <li>Added support for importing and using custom experimental OptiScaler builds</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Modernized Environment tab into a streamlined MD3-styled Tweaks tab</li>
+                    <li>Steam and non-Steam game cards are now automatically sorted alphabetically</li>
+                    <li>Set MangoHud Presets as the default initial view upon application startup</li>
+                    <li>Compacted vkBasalt built-in effects card to expand visible area for ReShade shaders</li>
+                    <li>Positioned missing dependency warning banners at the top of tabs and added caching to eliminate check latency</li>
+                    <li>Automatically synchronized master wrapper binaries across all game profiles on startup and during game launch</li>
+                    <li>Relocated diagnostic and execution logs from game directories to centralized user storage (~/.local/share/goverlay/logs/)</li>
+                    <li>Preserved third-party proxy DLLs during game launch and uninstallation</li>
+                    <li>Harmonized card padding, margins, and layouts across all tabs to eliminate unwanted vertical scrolling</li>
+                    <li>Added dimmed visual indicators for unselected scaling methods in OptiScaler and Lossless Scaling</li>
+                </ul>
+                <p>Bug Fixes</p>
+                <ul>
+                    <li>Fixed an issue where the fps_only preset failed to persist across load and save cycles in MangoHud</li>
+                    <li>Decoupled hardware telemetry in PasCube to a background thread to prevent a 5 FPS cap on NVIDIA GPUs</li>
+                    <li>Deduplicated ReShade shaders and excluded built-in effects (FXAA, SMAA, LUT) and header includes (.fxh, .h) from the shader list</li>
+                    <li>Fixed SteamOS boot loops caused by implicit Vulkan layer pollution from the host</li>
+                    <li>Updated Turkish translations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.9.2" date="2026-09-11">
+            <description>
+                <p>Bug Fixes</p>
+                <ul>
+                    <li>Fixed critical boot loop on SteamOS caused by Flatpak writing incomplete implicit Vulkan layers to the host filesystem</li>
+                    <li>Restricted vkSumi and MAKO automatic layer provisioning to native environments</li>
+                    <li>Hardened download routines with HTTP error status verification and ELF binary validation</li>
+                    <li>Added automatic cleanup of stale or corrupted user-space Vulkan layer manifests</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.9.1" date="2026-09-10">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Migrated Lossless Scaling integration to lsfg-vk 2.0 schema with automated Migration Assistant dialog and dynamic DLL validation</li>
+                    <li>Added MAKO Vulkan layer support for frame generation and spatial scaling with background download and updates</li>
+                    <li>Added Lutris platform tab in the Finish Configuration dialog with procedural canvas guidance and clean command formatting</li>
+                    <li>Streamline SDK full deployment, native backup, and auto-healing support via bgmod</li>
+                    <li>Centralized diagnostic tool logging to user directory (~/.local/share/goverlay/logs/) with real-time sync and file manager shortcuts</li>
+                    <li>Added FSR version combobox with centralized downloads and auto-saving in OptiScaler</li>
+                    <li>Added metric graph toggles and graphs= support in MangoHud Metrics tab</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Replaced checkboxes across all tabs with compact, anti-aliased toggle switches with shadow depth</li>
+                    <li>Redesigned Environment Variables tab with modern cards and color-coded RADEON and NVIDIA badges</li>
+                    <li>Unified Lossless Scaling tab visual design with side-by-side Method and GPU selectors and high-res banners</li>
+                    <li>Simplified MangoHud Active GPU selector with clean market names and index prefixes</li>
+                    <li>Safe atomic config saving preventing file-locking crashes</li>
+                    <li>Added Steam Grid artwork integration and modernized game card fallback covers</li>
+                    <li>AppImage embedded update information and published zsync control files</li>
+                    <li>Replaced PROTON_PRIORITY_HIGH with dedicated game-performance wrapper</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Fixed Flatpak sandbox startup crash by pre-creating the lsfgvk extension mount directory</li>
+                    <li>Preemptively restore original DLL backups before game uninstall and configuration wipe</li>
+                    <li>Synchronized toggle switch states when selecting MangoHud presets and preserved custom FPS color thresholds</li>
+                    <li>Prevented MangoHud global enable from injecting descriptive text into launch commands</li>
+                    <li>Prevented duplicate vkBasalt built-in effects and fixed button clipping on resize</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.9.0" date="2026-08-22">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Lossless Scaling (lsfg-vk) frame generation integration with 1x to 10x multiplier support, HDR Mode, Performance Mode, and per-game profile isolation</li>
+                    <li>DLSS Enabler integration with dual-channel (Stable and Bleeding-edge) downloads and NVIDIA Streamline SDK support</li>
+                    <li>Added "None" upscaler method option to allow using Lossless Scaling standalone without proxy DLL injection</li>
+                    <li>Brand new visual identity with modernized layered neon overlay branding, application icon, and startup boot splash</li>
+                    <li>Floating action dock with quick Finish walkthrough, 3D preview launcher, and configuration file shortcuts</li>
+                    <li>PasCube Vulkan 1.3 3D preview and benchmark suite with active frame generation detection and score protection</li>
+                    <li>Proton tweaks added for PROTON_LOCAL_SHADER_CACHE and PROTON_DISCORD_BRIDGE</li>
+                    <li>Internationalization (i18n) framework integration with full Russian translation catalogue</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Modernized dark theme card layouts and Slate Navy styled inputs, comboboxes, and trackbars across all tabs</li>
+                    <li>Debounced automatic configuration persistence without requiring a manual Save button</li>
+                    <li>High-resolution vector master upscaler logos with subpixel antialiasing and crisp rendering under Qt6</li>
+                    <li>Decoupled vkSumi post-processing flags and automated neutral default detection</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Hardened sandbox directory checks and eliminated pipe deadlocks in logging and testing</li>
+                    <li>Resolved Steam Flatpak shortcuts permissions and isolated global versus per-game configurations</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.10" date="2026-07-28">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Fluid resizable main window with dynamic reflow and window geometry persistence</li>
+                    <li>Responsive 2-column layouts for Environment Variables tab and VkBasalt ReShade effects selector</li>
+                    <li>Added PROTON_VKD3D_LOWLATENCY tweak support</li>
+                    <li>Live synchronization of PasCube hardware comparison hover scores with benchmark database</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Contextual sidebar auto-hiding on Home tab with toast notifications</li>
+                    <li>High-resolution vector canvas drawing for VkBasalt toggle switches and game card tooltips</li>
+                    <li>Dynamic configuration path synchronization across VkBasalt and VkSumi on game card selection</li>
+                    <li>Flatpak permissions updated with read-only access to external media (/run/media:ro)</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Corrected FPS and frametime default colors across MangoHud Stock, Simple White, and Old Afterburner themes</li>
+                    <li>Resolved persistence issues for gl_vsync, load colors, GPU list filtering, and Vulkan VSync hints</li>
+                    <li>Fixed OptiScaler driver controls, global config sync, default INI file seeding, and update fallbacks</li>
+                    <li>AppImage stability fixes with cmem integration and thread creation guards</li>
+                    <li>Fixed crashes and improved context menu behavior when removing non-Steam game folders</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.9" date="2026-07-19">
+            <description>
+                <p>Fixes &amp; Improvements</p>
+                <ul>
+                    <li>Fixed Flatpak non-Steam configuration paths</li>
+                    <li>Resolved UI freezes during changelog fetching and curl pipe deadlocks</li>
+                    <li>Fixed OptiScaler version parsing, GUI synchronization, and silent saving</li>
+                    <li>Included blacklist configuration in per-game profiles</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.8" date="2026-07-18">
+            <description>
+                <p>Improvements</p>
+                <ul>
+                    <li>Unified the OptiScaler UI layout between Stable and Bleeding-edge channels</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Resolved UI freezes and deadlocks during startup (changelog fetching and fallback cover generation)</li>
+                    <li>Updated FSR Stable fallback version string to 4.1.1</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.7" date="2026-07-18">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Added option to select a preferred upscaler in the OptiScaler tab</li>
+                    <li>Implemented a persistent power monitoring fix for Intel CPUs</li>
+                    <li>Added Vulkan Low Latency layer (Korthos) integration</li>
+                    <li>Support for creating and launching Steam game shortcuts</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Enabled navigation sidebar toggles in global configuration mode</li>
+                    <li>Synchronize configuration files (OptiScaler.ini, fakenvapi.ini) dynamically on game launch</li>
+                    <li>Support for AppImage game detection and custom covers</li>
+                    <li>Improved settings menu visual structure with separators</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Corrected configuration path resolution under Flatpak using XDG_CONFIG_HOME</li>
+                    <li>Fixed config resets and parser bugs in OptiScaler settings</li>
+                    <li>Ignore crash/bug report folders during Unreal Engine game searches</li>
+                    <li>Fixed StartupWMClass in desktop configuration</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.5" date="2026-07-04">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Preserved active tool environment variables (MangoHud, OptiScaler) when tweaks/envvars are saved or toggled off</li>
+                    <li>Added full backup, cleanup, and restoration support for d3d12.dll proxies</li>
+                    <li>Added floating action button (FAB) to game cards for quick options, replacing the right-click context menu</li>
+                    <li>Added asynchronous frameless release notes ("What's New") popup showing latest changelog</li>
+                    <li>Support for user nicknames and leaderboard benchmark submissions</li>
+                    <li>Support for game-specific custom MangoHud preset loading</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Modernized UI scrollbars across all tabs with thin semitransparent styling</li>
+                    <li>Isolated DLL backups outside of the game directories to prevent corruption</li>
+                    <li>Isolated global profile configurations to gameconfig/global/</li>
+                    <li>Improved Steam library scans with multi-CDN fallbacks and web search for covers</li>
+                    <li>Clean up overlay files and wrapper DLLs on game uninstall while preserving native platform badges</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Prevented infinite mouse wheel scrolling past bottom in tweaks and vkbasalt tabs</li>
+                    <li>Fixed OptiScaler version persistence and correct INT8 DLL copying on update</li>
+                    <li>Implemented dynamic GPU 360p fallback on low framerate to prevent system crashes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.2" date="2026-05-29">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>vkSumi integration with automated configuration generation and environment management</li>
+                    <li>Renamed "Proton Tweaks" tab to "EnvVars" and added latency reduction tweaks</li>
+                    <li>Added support for custom non-Steam games with asynchronous cover art downloading and right-click removal</li>
+                    <li>Bundle vkSumi and Nerd Fonts dependencies in Goverlay AppImage</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>UI/UX modernization using theme-aware layouts for light themes and custom cards for vkBasalt, OptiScaler, vkSumi, and MangoHud</li>
+                    <li>Standardized Flatpak host configuration path resolution for MangoHud and Goverlay</li>
+                    <li>X11 right-modifier detection and layout reflow logic improvements</li>
+                    <li>Added configuration version check and automated migration prompt on startup</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>Corrected OptiScaler shortcut and scale values loading from the correct section</li>
+                    <li>Fixed Tweaks tab checkbox mappings and simplified loading logic</li>
+                    <li>Preserve existing global fgmod script on startup and fixed default environment variables state</li>
+                    <li>Prevented cover download thread deadlocks and fixed path quoting for non-Steam games</li>
+                    <li>Renamed the vkSumi configuration environment variable to VKSUMI_CONFIG_FILE</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.1" date="2026-05-08">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Add "Clear configuration" button to the System card</li>
+                    <li>Migrate vkBasalt ReShade effects to MD3-style toggle list</li>
+                </ul>
+                <p>Improvements &amp; Fixes</p>
+                <ul>
+                    <li>Ensure DLSS version persistence in global configuration</li>
+                    <li>Resolve Steam games and icon loading for Flatpak/system installs</li>
+                    <li>Relocated Flatpak build scripts and clean up unused code</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.8.0" date="2026-05-06">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Modernized sidebar with clean nav rail design and collapsable animation</li>
+                    <li>Brand new resizable main window and Steam games tab with cover art and search</li>
+                    <li>Fully per-game configuration support with environment variables and covers</li>
+                    <li>Added new System information card to the Home tab</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Redesigned vkBasalt, OptiScaler, Presets, and MangoHud tabs with modern dark card layouts</li>
+                    <li>Improved Flatpak pathing and Steam prefix detection</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.7.5" date="2026-02-28">
+            <description>
+                <p>New Features</p>
+                <ul>
+                    <li>Protontricks Windows version manager with Flatpak support</li>
+                    <li>NVIDIA DLSS file downloader</li>
+                    <li>Custom X and Y offset configurations for overlay placement</li>
+                    <li>FSR4 Update configuration for OptiScaler</li>
+                    <li>Modern Design System with toast notifications, search functionality, and status bar</li>
+                    <li>Dynamic Theme application to multiple forms and controls</li>
+                </ul>
+                <p>Improvements</p>
+                <ul>
+                    <li>Redesigned OptiScaler UI layout with Wine prefix icon</li>
+                    <li>Adjusted default active tab for quicker access</li>
+                </ul>
+                <p>Fixes</p>
+                <ul>
+                    <li>FakeNVAPI Reflex configuration persistence</li>
+                    <li>OptiScaler settings correctly scoped to [Menu] section</li>
+                    <li>Accurate identification of GPUs in graphics device detection</li>
+                    <li>Improved FGMod copy logic for nvngx files</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.7.4" date="2026-02-07">
+            <description>
+                <p>OptiScaler &amp; vkBasalt Enhancements</p>
+                <ul>
+                    <li>OptiPatcher support with automatic version detection</li>
+                    <li>OptiPatcher "Games supported" label added</li>
+                    <li>Fixed vkBasalt shader path for Flatpak</li>
+                </ul>
+                <p>Proton Tweaks Tab Additions</p>
+                <ul>
+                    <li>RADV_DEBUG=nofastclears option for AMD GPU debugging</li>
+                    <li>Force Zink checkbox with smart GPU detection</li>
+                    <li>Helpful tooltips on all FGMOD Tweaks checkboxes</li>
+                </ul>
+                <p>Flatpak Improvements</p>
+                <ul>
+                    <li>GameMode warning dialog for Flatpak users</li>
+                    <li>Improved path handling and manifest cleanup</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.7.3" date="2026-01-27">
+            <description>
+                <ul>
+                    <li>Fixed OptiScaler path issue in Flatpak</li>
+                    <li>Reverted Flatpak paths for fgmod/nohup to standard sandbox paths</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.7.2" date="2026-01-25">
+            <url type="details">https://github.com/benjamimgois/goverlay/releases/tag/1.7.0</url>
+            <description>
+                <p>New Proton Tweaks Tab</p>
+                <ul>
+                    <li>Implemented "Save as" funcionality for MangoHud and vkBasalt, now you can create different configs for each game.</li>
+                    <li>Fixed games that keep running on steam after quiting. Thanks @8Vinso8 for the help diagnosing the problem inside FGMOD !</li>
+                </ul>
+                <p>Save As Functionality</p>
+                <ul>
+                    <li>Easy folder selection dialog</li>
+                    <li>Export configs to any directory you choose</li>
+                </ul>
+                <p>OptiScaler Auto-Installation</p>
+                <ul>
+                    <li>Zero hassle setup! OptiScaler now installs automatically for FGMOD</li>
+                </ul>
+                <p>Complete XDG Compliance</p>
+                <ul>
+                    <li>This release brings full XDG Base Directory specification compliance, ensuring Goverlay follows Linux standards for configuration and data storage.
+                    </li>
+                </ul>
+                <p>FGMOD updated</p>
+                <ul>
+                    <li>Fixed process tracking for Steam integration</li>
+                    <li>Properly handles argument separator</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+
+    <categories>
+        <category>Game</category>
+        <category>Utility</category>
+    </categories>
+
+    <content_rating type="oars-1.1" />
+</component>

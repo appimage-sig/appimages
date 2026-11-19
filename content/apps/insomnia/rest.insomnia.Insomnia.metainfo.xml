@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>rest.insomnia.Insomnia</id>
+  <name>Insomnia</name>
+  <project_license>MIT</project_license>
+  <developer id="com.konghq"><name>Kong</name></developer>
+  <url type="homepage">https://insomnia.rest/</url>
+  <url type="bugtracker">https://github.com/flathub/rest.insomnia.Insomnia/issues</url>
+  <url type="vcs-browser">https://github.com/kong/insomnia</url>
+  <launchable type="desktop-id">rest.insomnia.Insomnia.desktop</launchable>
+  <summary>Open-source API client</summary>
+  <description>
+    <p>
+      Insomnia is an open-source, cross-platform API client for GraphQL, REST,
+      WebSockets, Server-sent events (SSE), gRPC and any other HTTP compatible
+      protocol.
+    </p>
+    <p>
+      With Insomnia you can:
+    </p>
+    <ul>
+      <li>Debug APIs using the most popular protocols and formats.</li>
+      <li>Design APIs using the native OpenAPI editor and visual preview.</li>
+      <li>Test APIs using native test suites.</li>
+      <li>Mock APIs will be coming soon in November 2023.</li>
+      <li>Build CI/CD pipelines using the native Insomnia CLI for linting and testing.</li>
+      <li>
+        Collaborate with others using the many collaboration features to share
+        your projects.
+      </li>
+    </ul>
+    <p>
+      And a lot more! The following storage options are supported for your
+      projects, collections, specs and all other files:
+    </p>
+    <ul>
+      <li>
+        Local Vault: for local storage of collections, design specs and every
+        other resource.
+      </li>
+      <li>Cloud Sync: for cloud collaboration, encrypted and free.</li>
+      <li>Git Sync: for Git storage of all files using any 3rd party Git repository.</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Product UI</caption>
+      <image>https://insomnia.rest/images/home/image-hero-insomnia-20260612.png</image>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">rest.insomnia.Insomnia.desktop</launchable>
+
+  <releases>
+    <release version="13.3.0" date="2026-09-23">
+      <description></description>
+    </release>
+    <release version="13.2.0" date="2026-08-25">
+      <description/>
+    </release>
+    <release version="13.1.0" date="2026-07-24">
+      <description/>
+    </release>
+    <release version="12.6.0" date="2026-05-22">
+      <description/>
+    </release>
+    <release version="12.5.0" date="2026-04-02">
+      <description/>
+    </release>
+    <release version="12.4.0" date="2026-03-05">
+      <description/>
+    </release>
+    <release version="12.3.1" date="2026-02-05">
+      <description/>
+    </release>
+    <release version="12.3.0" date="2026-01-15">
+      <description/>
+    </release>
+    <release version="12.2.0" date="2025-12-19">
+      <description/>
+    </release>
+    <release version="12.1.0" date="2025-11-21">
+      <description/>
+    </release>
+    <release version="12.0.0" date="2025-11-03">
+      <description/>
+    </release>
+    <release version="11.6.2" date="2025-10-21">
+      <description/>
+    </release>
+    <release version="11.6.1" date="2025-09-18">
+      <description/>
+    </release>
+    <release version="11.6.0" date="2025-09-11">
+      <description/>
+    </release>
+    <release version="11.5.0" date="2025-08-26"/>
+    <release version="11.3.0" date="2025-07-11"/>
+    <release version="11.2.0" date="2025-06-06"/>
+    <release version="11.1.0" date="2025-05-06"/>
+    <release version="11.0.2" date="2025-04-03"/>
+    <release version="11.0.1" date="2025-03-27"/>
+    <release version="11.0.0" date="2025-03-18"/>
+    <release version="10.3.1" date="2025-02-11"/>
+    <release version="10.0.0" date="2024-09-10"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+
+  <update_contact>hugo@barrera.io</update_contact>
+  <metadata_license>CC0-1.0</metadata_license>
+</component>

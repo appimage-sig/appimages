@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Tim Hoffmann -->
+<component type="desktop-application">
+  <id>org.texstudio.TeXstudio</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <name>TeXstudio</name>
+  <summary>Craft beautiful LaTeX documents</summary>
+  <description>
+    <p>
+      TeXstudio is an integrated writing environment for creating LaTeX documents. It integrates editing, building and viewing into a single, user-friendly interface.
+    </p>
+    <p>
+      Our goal is to make writing LaTeX as easy and comfortable as possible.
+      This means you can focus on your content with the help of a powerful set of features:
+    </p>
+    <ul>
+      <li>Easy source code navigation: A structure view, clickable links and a cursor history</li>
+      <li>Detailed syntax highlighting</li>
+      <li>Auto-completion</li>
+      <li>Live checking for spelling, grammar, citations, references, syntax and packages</li>
+      <li>Innovative table editing</li>
+      <li>Clear display of LaTeX errors and warnings (in-editor and as a list)</li>
+      <li>Integrated PDF viewer with (almost) word-level syncing</li>
+      <li>Live-updating inline preview for formulas and code segments</li>
+      <li>Scripting support</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">texstudio.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The TexStudio main window showing a TeX document and the rendered file</caption>
+      <image>https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png</image>
+    </screenshot>
+  </screenshots>
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+  <keywords>
+    <keyword>editor</keyword>
+    <keyword translate="no">tex</keyword>
+    <keyword translate="no">latex</keyword>
+    <keyword>ide</keyword>
+    <keyword>latex-editor</keyword>
+  </keywords>
+  <url type="homepage">https://texstudio.org/</url>
+  <url type="bugtracker">https://github.com/texstudio-org/texstudio/issues</url>
+  <url type="faq">https://github.com/texstudio-org/texstudio/wiki/Frequently-Asked-Questions</url>
+  <url type="help">https://texstudio-org.github.io/getting_started.html</url>
+  <url type="translate">https://explore.transifex.com/texstudio/texstudio/</url>
+  <url type="contact">https://texstudio.org/#about</url>
+  <url type="vcs-browser">https://github.com/texstudio-org/texstudio</url>
+  <url type="contribute">https://texstudio.org/#participate</url>
+  <developer id="org.texstudio">
+    <name>J. Sundermeyer</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <update_contact>texstudio-list_at_lists.sourceforge.net</update_contact>
+  <releases>
+    <release date="2022-04-03T09:26:48+0000" version="4.2.3">
+      <description>
+        <ul>
+          <li>fix unable to save under special circumstances (#2124)</li>
+          <li>fix stuck to save unsaved document (only in explicit root mode and with a new unsaved document,#2153) </li>
+          <li>xindex engine added</li>
+          <li>fix math highlighting in keyvals (#2138)</li>
+          <li>add context menu in embbeded pdf viewer to invert pdf colors</li>
+          <li>remember window state (maximized/normal) of config dialog</li>
+          <li>fix (and speed-up) miktex package detection</li>
+          <li>fix handling apostrophed words better in spellchecker (#2179)</li>
+          <li>regular expression in extended search behave the same as in normal search</li>
+          <li>more cwls</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <provides>
+    <binary>texstudio</binary>
+  </provides>
+</component>

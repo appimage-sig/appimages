@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2017 the Chromium authors, with modifications -->
+<component type="desktop-application">
+  <id>io.github.ungoogled_software.ungoogled_chromium</id>
+  <launchable type="desktop-id">io.github.ungoogled_software.ungoogled_chromium.desktop</launchable>
+  <name>Ungoogled Chromium</name>
+  <developer id="io.github.ungoogled_software">
+    <name>Ungoogled Software</name>
+  </developer>
+  <summary>Chromium without Google</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license xml:space="preserve">BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)</project_license>
+  <url type="homepage">https://github.com/ungoogled-software/ungoogled-chromium</url>
+  <url type="help">https://github.com/ungoogled-software/ungoogled-chromium/blob/master/SUPPORT.md</url>
+  <url type="bugtracker">https://github.com/ungoogled-software/ungoogled-chromium-flatpak/issues</url>
+  <keywords>
+    <keyword>web browser</keyword>
+    <keyword>chromium</keyword>
+    <keyword>ungoogled</keyword>
+    <keyword>privacy</keyword>
+    <keyword>security</keyword>
+    <keyword>transparency</keyword>
+    <keyword>control</keyword>
+  </keywords>
+  <categories>
+    <category>Network</category>
+    <category>WebBrowser</category>
+    <category>WebDevelopment</category>
+    <category>Viewer</category>
+  </categories>
+  <description>
+    <p>Ungoogled Chromium is Google Chromium, sans dependency on Google web services. It also
+      features some tweaks to enhance privacy, control, and transparency <em>(almost all of which
+      require manual activation or enabling)</em>.</p>
+    <p>Ungoogled Chromium retains the default Chromium experience as closely as possible. Unlike
+      other Chromium forks that have their own visions of a web browser, Ungoogled Chromium is
+      essentially a drop-in replacement for Chromium.</p>
+    <p>Without signing in to a Google Account, Chromium does pretty well in terms of security and
+      privacy. However, Chromium still has some dependency on Google web services and binaries. In
+      addition, Google designed Chromium to be easy and intuitive for users, which means they
+      compromise on transparency and control of inner operations.</p>
+    <p>Ungoogled Chromium addresses these issues in the following ways:</p>
+    <ul>
+      <li>Remove all remaining background requests to any web services while building and running
+        the browser</li>
+      <li>Remove all code specific to Google web services</li>
+      <li>Remove all uses of pre-made binaries from the source code, and replace them with
+        user-provided alternatives when possible</li>
+      <li>Disable features that inhibit control and transparency, and add or modify features that
+        promote them (these changes will almost always require manual activation or enabling)</li>
+    </ul>
+    <p>These features are implemented as configuration flags, patches, and custom scripts.</p>
+  </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#ff8f8f</color>
+    <color type="primary" scheme_preference="dark">#5e3838</color>
+  </branding>
+  <screenshots>
+    <screenshot type="default">
+      <caption>About window with light mode</caption>
+      <image xml:space="preserve">https://raw.githubusercontent.com/ungoogled-software/ungoogled-chromium-flatpak/master/screenshots/about_light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Welcome window with light mode</caption>
+      <image xml:space="preserve">https://raw.githubusercontent.com/ungoogled-software/ungoogled-chromium-flatpak/master/screenshots/welcome_light.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Welcome window with dark mode</caption>
+      <image xml:space="preserve">https://raw.githubusercontent.com/ungoogled-software/ungoogled-chromium-flatpak/master/screenshots/welcome_dark.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="157.0.8103.78-1" date="2026-11-11">
+      <description/>
+    </release>
+    <release version="157.0.8103.50-1" date="2026-11-09">
+      <description/>
+    </release>
+    <release version="157.0.8103.38-1" date="2026-11-02">
+      <description/>
+    </release>
+    <release version="156.0.8078.79-1" date="2026-10-30">
+      <description/>
+    </release>
+    <release version="156.0.8078.73-1" date="2026-10-26">
+      <description/>
+    </release>
+    <release version="156.0.8078.47-1" date="2026-10-20">
+      <description/>
+    </release>
+    <release version="155.0.8059.84-1" date="2026-10-15">
+      <description/>
+    </release>
+    <release version="155.0.8059.79-1" date="2026-10-14">
+      <description/>
+    </release>
+    <release version="155.0.8059.39-1" date="2026-10-09">
+      <description/>
+    </release>
+    <release version="154.0.8037.97-1" date="2026-10-03">
+      <description/>
+    </release>
+    <release version="154.0.8037.92-1" date="2026-10-01">
+      <description/>
+    </release>
+    <release version="154.0.8037.57-1" date="2026-09-30">
+      <description/>
+    </release>
+    <release version="152.0.7977.82-1" date="2026-09-04">
+      <description/>
+    </release>
+    <release version="152.0.7977.75-1" date="2026-09-02">
+      <description/>
+    </release>
+    <release version="151.0.7922.173-1" date="2026-08-21">
+      <description/>
+    </release>
+    <release version="151.0.7922.169-1" date="2026-08-21">
+      <description/>
+    </release>
+    <release version="151.0.7922.137-1" date="2026-08-12">
+      <description/>
+    </release>
+    <release version="151.0.7922.108-1" date="2026-08-07">
+      <description/>
+    </release>
+    <release version="151.0.7922.75-1" date="2026-08-06">
+      <description/>
+    </release>
+    <release version="151.0.7922.71-1" date="2026-07-31">
+      <description/>
+    </release>
+    <release version="150.0.7871.186-1" date="2026-07-24">
+      <description/>
+    </release>
+    <release version="150.0.7871.181-1" date="2026-07-23">
+      <description/>
+    </release>
+    <release version="150.0.7871.128-1" date="2026-07-17">
+      <description/>
+    </release>
+    <release version="150.0.7871.124-1" date="2026-07-16">
+      <description/>
+    </release>
+    <release version="150.0.7871.114-1" date="2026-07-09">
+      <description/>
+    </release>
+    <release version="150.0.7871.100-1" date="2026-07-08">
+      <description/>
+    </release>
+    <release version="150.0.7871.46-1" date="2026-07-04">
+      <description/>
+    </release>
+    <release version="149.0.7827.196-1" date="2026-06-25">
+      <description/>
+    </release>
+    <release version="149.0.7827.155-1" date="2026-06-17">
+      <description/>
+    </release>
+    <release version="149.0.7827.114-1" date="2026-06-12">
+      <description/>
+    </release>
+    <release version="149.0.7827.102-1" date="2026-06-12">
+      <description/>
+    </release>
+    <release version="149.0.7827.53-1" date="2026-06-03">
+      <description/>
+    </release>
+    <release version="148.0.7778.215-1" date="2026-05-28">
+      <description/>
+    </release>
+    <release version="148.0.7778.178-1" date="2026-05-20">
+      <description/>
+    </release>
+    <release version="148.0.7778.167-1" date="2026-05-13">
+      <description/>
+    </release>
+    <release version="148.0.7778.96-1" date="2026-05-08">
+      <description/>
+    </release>
+    <release version="147.0.7727.137-1" date="2026-05-02">
+      <description/>
+    </release>
+    <release version="147.0.7727.116-1" date="2026-04-24">
+      <description/>
+    </release>
+    <release version="147.0.7727.101-1" date="2026-04-16">
+      <description/>
+    </release>
+    <release version="147.0.7727.55-1" date="2026-04-09">
+      <description/>
+    </release>
+    <release version="146.0.7680.177-1" date="2026-04-01">
+      <description/>
+    </release>
+    <release version="146.0.7680.164-1" date="2026-03-25">
+      <description/>
+    </release>
+    <release version="146.0.7680.153-1" date="2026-03-20">
+      <description/>
+    </release>
+    <release version="146.0.7680.80-1" date="2026-03-14">
+      <description/>
+    </release>
+    <release version="146.0.7680.75-1" date="2026-03-14">
+      <description/>
+    </release>
+    <release version="146.0.7680.71-1" date="2026-03-13">
+      <description/>
+    </release>
+    <release version="145.0.7632.159-1" date="2026-03-05">
+      <description/>
+    </release>
+    <release version="145.0.7632.116-1" date="2026-02-24">
+      <description/>
+    </release>
+    <release version="145.0.7632.109-1" date="2026-02-20">
+      <description/>
+    </release>
+    <release version="145.0.7632.75-1" date="2026-02-14">
+      <description/>
+    </release>
+    <release version="145.0.7632.45-1" date="2026-02-11">
+      <description/>
+    </release>
+    <release version="144.0.7559.132-1" date="2026-02-04">
+      <description/>
+    </release>
+    <release version="144.0.7559.109-1" date="2026-01-28">
+      <description/>
+    </release>
+    <release version="144.0.7559.96-1" date="2026-01-22">
+      <description/>
+    </release>
+    <release version="144.0.7559.59-1" date="2026-01-14">
+      <description/>
+    </release>
+    <release version="143.0.7499.192-1" date="2026-01-08">
+      <description/>
+    </release>
+    <release version="143.0.7499.169-1" date="2025-12-19">
+      <description/>
+    </release>
+    <release version="143.0.7499.146-1" date="2025-12-18">
+      <description/>
+    </release>
+    <release version="143.0.7499.109-1" date="2025-12-12">
+      <description/>
+    </release>
+    <release version="143.0.7499.40-1" date="2025-12-04">
+      <description/>
+    </release>
+    <release version="142.0.7444.175-1" date="2025-11-22">
+      <description/>
+    </release>
+    <release version="142.0.7444.162-1" date="2025-11-12">
+      <description/>
+    </release>
+    <release version="142.0.7444.134-1" date="2025-11-06">
+      <description/>
+    </release>
+    <release version="142.0.7444.59-2" date="2025-11-03">
+      <description/>
+    </release>
+    <release version="142.0.7444.59-1" date="2025-10-30">
+      <description/>
+    </release>
+    <release version="141.0.7390.122-1" date="2025-10-22">
+      <description/>
+    </release>
+    <release version="141.0.7390.107-1" date="2025-10-16">
+      <description/>
+    </release>
+    <release version="141.0.7390.76-1" date="2025-10-10">
+      <description/>
+    </release>
+    <release version="141.0.7390.65-1" date="2025-10-09">
+      <description/>
+    </release>
+    <release version="141.0.7390.54-1" date="2025-10-02">
+      <description/>
+    </release>
+    <release version="140.0.7339.207-1" date="2025-09-25">
+      <description/>
+    </release>
+    <release version="140.0.7339.185-1" date="2025-09-18">
+      <description/>
+    </release>
+    <release version="140.0.7339.127-1" date="2025-09-12">
+      <description/>
+    </release>
+    <release version="140.0.7339.80-1" date="2025-09-08">
+      <description/>
+    </release>
+    <release version="140.0.7339.41-1" date="2025-08-28">
+      <description/>
+    </release>
+    <release version="139.0.7258.154-1" date="2025-08-28">
+      <description/>
+    </release>
+    <release version="139.0.7258.138-1" date="2025-08-20">
+      <description/>
+    </release>
+    <release version="139.0.7258.127-1" date="2025-08-13">
+      <description/>
+    </release>
+    <release version="139.0.7258.66-1" date="2025-08-06">
+      <description/>
+    </release>
+    <release version="138.0.7204.183-1" date="2025-08-02">
+      <description/>
+    </release>
+    <release version="138.0.7204.168-1" date="2025-07-24">
+      <description/>
+    </release>
+    <release version="138.0.7204.157-1" date="2025-07-18">
+      <description/>
+    </release>
+    <release version="138.0.7204.100-1" date="2025-07-10">
+      <description/>
+    </release>
+    <release version="138.0.7204.96-1" date="2025-07-01">
+      <description/>
+    </release>
+    <release version="138.0.7204.49-1" date="2025-06-24">
+      <description/>
+    </release>
+    <release version="138.0.7204.35-1" date="2025-06-24">
+      <description/>
+    </release>
+    <release version="137.0.7151.119-1" date="2025-06-18">
+      <description/>
+    </release>
+    <release version="137.0.7151.103-1" date="2025-06-11">
+      <description/>
+    </release>
+    <release version="137.0.7151.68-1" date="2025-06-04">
+      <description/>
+    </release>
+    <release version="137.0.7151.55-1" date="2025-05-28">
+      <description/>
+    </release>
+    <release version="137.0.7151.40-1" date="2025-05-27">
+      <description/>
+    </release>
+    <release version="136.0.7103.113-1" date="2025-05-15">
+      <description/>
+    </release>
+    <release version="136.0.7103.92-1" date="2025-05-08">
+      <description/>
+    </release>
+    <release version="136.0.7103.59-1" date="2025-04-30">
+      <description/>
+    </release>
+    <release version="135.0.7049.114-1" date="2025-04-24">
+      <description/>
+    </release>
+    <release version="135.0.7049.95-1" date="2025-04-16">
+      <description/>
+    </release>
+    <release version="135.0.7049.84-1" date="2025-04-09">
+      <description/>
+    </release>
+    <release version="135.0.7049.52-1" date="2025-04-02">
+      <description/>
+    </release>
+    <release version="134.0.6998.177-1" date="2025-03-27">
+      <description/>
+    </release>
+    <release version="134.0.6998.165-1" date="2025-03-23">
+      <description/>
+    </release>
+    <release version="134.0.6998.117-1" date="2025-03-21">
+      <description/>
+    </release>
+    <release version="134.0.6998.88-1" date="2025-03-13">
+      <description/>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+  <update_contact>https://github.com/ungoogled-software/ungoogled-chromium-flatpak/issues</update_contact>
+</component>

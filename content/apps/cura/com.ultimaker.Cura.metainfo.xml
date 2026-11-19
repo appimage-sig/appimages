@@ -1,18 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop-application">
-	<id>com.ultimaker.cura</id>
-	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>LGPL-3.0</project_license>
+<!-- Copyright 2016 Richard Hughes <richard@hughsie.com> -->
+<component type="desktop">
+  <id>com.ultimaker.cura.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-3.0 and CC-BY-SA-4.0</project_license>
+  <developer_name>UltiMaker</developer_name>
 	<name>UltiMaker Cura</name>
 	<summary>Slicer to prepare your 3D printing projects</summary>
 	<description>
 		<p>UltiMaker Cura is a slicer, an application that prepares your model for 3D printing. Optimized, expert-tested profiles for 3D printers and materials mean you can start printing reliably in no time. And with industry-standard software integration, you can streamline your workflow for maximum efficiency.</p>
 	</description>
-	<url type="homepage">https://ultimaker.com/en/software/ultimaker-cura</url>
-	<screenshots>
-		<screenshot type="default">
-			<caption>Print preparation screen</caption>
-			<image>https://raw.githubusercontent.com/Ultimaker/Cura/main/cura-logo.PNG</image>
-		</screenshot>
-	</screenshots>
+  <url type="homepage">https://ultimaker.com/en/software/ultimaker-cura</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Print preparation screen</caption>
+      <image>https://raw.githubusercontent.com/Ultimaker/Cura/main/cura-logo.PNG</image>
+    </screenshot>
+  </screenshots>
+  <translation type="gettext">Cura</translation>
+  <launchable type="desktop-id">com.ultimaker.cura.desktop</launchable>
+  <releases>
+    <release version="5.14.0" date="2026-11-05">
+      <url type="details">https://github.com/Ultimaker/Cura/releases/tag/5.14.0</url>
+      <description></description>
+    </release>
+    <release version="5.13.0" date="2026-05-28">
+      <description/>
+    </release>
+    <release version="5.12.1" date="2026-04-09">
+      <description/>
+    </release>
+    <release version="5.12.0" date="2026-03-05">
+      <description/>
+    </release>
+    <release version="5.11.0" date="2025-10-23">
+      <description/>
+    </release>
+    <release version="5.10.2" date="2025-07-31">
+      <description/>
+    </release>
+    <release version="5.10.1" date="2025-06-03">
+      <description/>
+    </release>
+    <release version="5.10.0" date="2025-03-24">
+      <description/>
+    </release>
+    <release version="5.9.1" date="2025-02-19">
+      <description/>
+    </release>
+    <release version="5.9.0" date="2024-11-18">
+      <description/>
+    </release>
+    <release version="5.8.1" date="2024-08-28">
+      <description/>
+    </release>
+    <release version="5.8.0" date="2024-08-01">
+      <description/>
+    </release>
+    <release version="5.7.2-RC2" date="2024-06-03">
+      <description/>
+    </release>
+    <release version="5.7.1" date="2024-04-24"/>
+    <release version="5.7.0" date="2024-04-02"/>
+    <release version="5.6.0" date="2023-11-28"/>
+    <release version="5.5.0" date="2023-10-25"/>
+    <release version="5.4.0" date="2023-07-04"/>
+    <release version="5.3.1" date="2023-04-19"/>
+    <release version="5.3.0" date="2023-03-07"/>
+    <release version="5.2.2" date="2023-01-24"/>
+    <release version="5.2.1" date="2022-10-19"/>
+    <release version="5.1.1" date="2022-09-13"/>
+    <release version="5.1.0" date="2022-07-19"/>
+    <release version="4.13.1" date="2022-01-28"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
 </component>

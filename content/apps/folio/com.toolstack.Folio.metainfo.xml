@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>@app_id@</id>
+  <name translate="no">Folio</name>
+  <summary>Beautiful markdown note-taking app</summary>
+  <description>
+    <p>Create notebooks and take notes in markdown</p>
+    <p>Some features include:</p>
+    <ul>
+      <li>Almost WYSIWYG markdown rendering</li>
+      <li>Searchable through GNOME search</li>
+      <li>Highlight and strikethrough text formatting</li>
+      <li>App themeing based on notebook color</li>
+      <li>Trash can</li>
+      <li>Markdown document</li>
+      <li>Optional line numbers</li>
+      <li>Optional auto save</li>
+      <li>Open links with Control-Click</li>
+      <li>Link to other notes in Folio</li>
+      <li>Automatically create links for bare URL's and e-mail addresses</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">@app_id@.desktop</launchable>
+
+  <releases>
+    <release type="stable" version="26.01" date="2026-04-16">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+		  <li>Added ellipses to long note titles (thanks @diegopvlk).</li>
+		  <li>Added option for wrapping long note titles (thanks @lawmurry).</li>
+		  <li>Add option to set auto-save interval.</li>
+          <li>Fixed matching lists with more than single digits.</li>
+		  <li>Fixed several memory leaks (thanks @lawmurray).</li>
+		  <li>Fixed edge case with desktop files (thanks @lawmurray).</li>
+		  <li>Fixed required newline at end of file (thanks @lawmurry).</li>
+		  <li>Fixed issue with renaming a note with popup.</li>
+		  <li>Fixed scroll issue when switching from longer to shorter notes (thanks @lawmurry).</li>
+		  <li>Converted indents to margins to fix formatting issues.</li>
+		  <li>Use system default fonts for initial setup.</li>
+		  <li>Updated translations, thanks to all the translators!</li>
+          <li>Moved to Gnome 50 (thanks @yakushabb).</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="25.02" date="2025-04-27">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Fixed more renaming a note causing data loss.</li>
+          <li>Fixed not saving note on exit.</li>
+          <li>Fixed Gtk.init() called early for Gnome 48 compatibility.</li>
+          <li>Fixed zoom buttons in overflow menu.</li>
+          <li>Fixed being unable to select last note after going to the trash.</li>
+          <li>Moved to Gnome 48.</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="25.01" date="2025-02-04">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Fixed renaming a note causing data loss for unsaved notes.</li>
+          <li>Fixed new notes contain garbage instead of being blank.</li>
+          <li>Fixed Catalan country code for translations.</li>
+          <li>Fixed sidebar opening when saving a note with it closed.</li>
+          <li>Translation updates</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.14" date="2024-12-01">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Added tooltips to more controls.</li>
+          <li>Fixed memory leaks in preferences page, thanks @GeopJr</li>
+          <li>Fixed more memory leaks throughout the codebase.</li>
+          <li>Fixed padding in new/edit notebook dialog.</li>
+          <li>Fixed inserting empty link tags properly.</li>
+          <li>Fixed title level selector in the toolbar.</li>
+          <li>Fixed saving notes overwriting symlinks.</li>
+          <li>Translation updates</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.13" date="2024-11-12">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Added support to display long notebook/note names in the UI</li>
+          <li>Perforamce improvements for large markdown files, thanks @machitgarha</li>
+          <li>Fixed AppImage support</li>
+          <li>Fixed highlighting of text when opening an outside file in Folio</li>
+          <li>Fixed crash when opening files/notes from the command line</li>
+          <li>Fixed autosave not functioning</li>
+          <li>Fixed more issues with deleting notebooks</li>
+          <li>Translation updates</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.12" date="2024-10-21">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Added support for opening URI as files</li>
+          <li>Added option to open non-text files in system handler (also avoids corrupting them)</li>
+          <li>Added custom text for notebook icons (including emojis)</li>
+          <li>Added requirement of periods after ordered lists to avoid false positives</li>
+          <li>Added option to set the URL detection level</li>
+          <li>Added option to set linespacing</li>
+          <li>Added natural sort order for notebooks/notes</li>
+          <li>Fixed styling of elements inside of links</li>
+          <li>Fixed Ctrl-Scroll getting stuck sometimes</li>
+          <li>Fixed stray formatting tags from URLs when opening them</li>
+          <li>Fixed Ctrl-Click behaviour when window loses focus</li>
+          <li>Fixed deleting notebooks when duplicates in the trash already exist</li>
+          <li>Fixed zero size trash items not displaying</li>
+          <li>Fixed crash when opening notes from the command line (or Gnome Search)</li>
+          <li>Fixed zooming of monospace fonts</li>
+          <li>Removed selection of the text in the rename box automatically</li>
+          <li>Moved to Gnome 47 runtime (thanks @drpetrikov)</li>
+          <li>Moved to newer Gnome widgets (thanks @turlegarden)</li>
+          <li>Translation updates</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.11" date="2024-07-04">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Added title bar widget to markdown scheatsheet (thanks @heldderarbeit)</li>
+          <li>Added support for notebooks with periods in their names</li>
+          <li>Fix deletion of notebooks</li>
+          <li>Translation updates</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.10" date="2024-04-04">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Added a double click action on a note to rename the note</li>
+          <li>Replace multiple deprecated GTK/Adwaita widgets/functions (build warnings down from 58 to 18)</li>
+          <li>Switch to display names for files/folder system calls so cloud drive providers like Google work correctly</li>
+          <li>Fix incorrect template display when the trash was empty</li>
+          <li>Fix headerbar styling in edit window</li>
+          <li>Fix inverted sorting for notebooks</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.09" date="2024-03-27">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Add sort order to notebook and note lists</li>
+          <li>Updated note sort after update process</li>
+          <li>Fixed misc translation items (thanks @yakushabb)</li>
+          <li>Fixed line formatting spilling over into the next line (thanks @HighKingofMelons)</li>
+          <li>Other minor fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.08" date="2024-03-18">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Emergency fix for 0 size fonts, the following is what changed in 24.07</li>
+          <li>Add option to make the trash can visible</li>
+          <li>Add option to set the trash can directory</li>
+          <li>Add auto-save option (disabled by default)</li>
+          <li>Add keyboard shortcuts for zoom in/out</li>
+          <li>Add support for font sizes to the font preferences.</li>
+          <li>Add table formatting (monospace fonts/centered)</li>
+          <li>Add ordered/unordered list formatting (indent only)</li>
+          <li>Monitor for disk changes and reload note as required</li>
+          <li>Fix race condition for bare links causing formatting not to be applied correctly</li>
+          <li>Fix warning message on the console about def:text nto found</li>
+          <li>Fix translation of new note names</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.07" date="2024-03-18">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Add option to make the trash can visible</li>
+          <li>Add option to set the trash can directory</li>
+          <li>Add auto-save option (disabled by default)</li>
+          <li>Add keyboard shortcuts for zoom in/out</li>
+          <li>Add support for font sizes to the font preferences.</li>
+          <li>Add table formatting (monospace fonts/centered)</li>
+          <li>Add ordered/unordered list formatting (indent only)</li>
+          <li>Monitor for disk changes and reload note as required</li>
+          <li>Fix race condition for bare links causing formatting not to be applied correctly</li>
+          <li>Fix warning message on the console about def:text nto found</li>
+          <li>Fix translation of new note names</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.06" date="2024-03-12">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Add support for naming a new note based on currently selected text in an existing note</li>
+          <li>Add support to link to other notes and be able to ctrl-click to open them</li>
+          <li>Add support for double backticks for code spans</li>
+          <li>Add AppImage packaging instructions</li>
+          <li>Add auto save option (disabled by default)</li>
+          <li>Add option to display the "All notes" notebook all the time (disabled by default)</li>
+          <li>Add option to show line numbers</li>
+          <li>Add option to set the fixed width of the note area</li>
+          <li>Reorganized the preferences page</li>
+          <li>Fix amperands in the changelog</li>
+          <li>Fix possible crash if notes were not loaded in time</li>
+          <li>Fix when saving a note the timestamp not being updated in the note list</li>
+          <li>Fix when selecting a different note, the scroll position should be returned to the top</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.05" date="2024-03-06">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Add snap release (thanks @soumyaDghosh)</li>
+          <li>Translation updates: Spanish and French</li>
+          <li>Support Control-Click to open links in your default browser</li>
+          <li>Add formatting to links that do not have markdown syntax</li>
+          <li>Add formatting to e-mail address</li>
+          <li>Fix main menu box size</li>
+          <li>Fix more build warnings</li>
+          <li>Fix notebook icon not being updated after it is renamed</li>
+          <li>Fix crash if the note's directory has been moved/deleted</li>
+          <li>Fix missing scroll bars on notebook/note list</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.04" date="2024-03-01">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Fixed unable to save changes editing of notebook details without changing notebook name.</li>
+          <li>New icon.</li>
+          <li>Handle escaped characters inside code span/blocks.</li>
+          <li>Fixed dark mode in flatpak.</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.03" date="2024-02-22">
+      <description translate="no">
+        <p>Changes:</p>
+        <ul>
+          <li>Rework the format bar so that it works more like a standard toolbar.  Toggle formats on and off, format around current word if none selected, place the text/url parts into the right area when creating a new link, don't split current line when inserting a new HR, return focus to the editor after clicking a format button, and return the cursor to the right position.</li>
+          <li>Update deprecated font selector dialogs.</li>
+          <li>Fixed note title not being updated when renamed.</li>
+          <li>Renaming a not active note no longer makes it active.</li>
+          <li>Make sure to update the title bar when renaming a note.</li>
+          <li>Add translator credits.</li>
+          <li>Fixed GNOME search results.</li>
+          <li>Fixed new notes names not being translated.</li>
+          <li>Remove dialog highlights between boxes.</li>
+          <li>Fixed crashes when the last line of a file doesn't contain a terminating LF.</li>
+          <li>Warn about duplicate notebook names when creating new notebooks.</li>
+          <li>Cleanup complier warnings during build.</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.02" date="2024-02-11">
+      <description translate="no">
+          <p>UI Changes:</p>
+        <ul>
+          <li>None</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>Fix incorrect display of switches in the preferences window</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="24.01" date="2024-02-11">
+      <description translate="no">
+          <p>UI Changes:</p>
+        <ul>
+          <li>Place cursor between formatting characters when using formatting shortcuts (thanks u1f98e@gitlab)</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>Updated to libadwaita 1.4.2</li>
+          <li>Upgrade to Gnome runtime version 45 (thanks @tpikonen)</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.11" date="2022-10-20">
+      <description translate="no">
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Added setting to stretch text area to fill the window</li>
+          <li>Updated to libadwaita 1.2</li>
+          <li>Tweaked styling</li>
+          <li>Simplified notebook icons</li>
+          <li>Improved compatibility with screen readers</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>Not using the right directory for note storage</li>
+          <li>Glitchy creating/deleting notebooks</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.10" date="2022-09-17">
+      <description translate="no">
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Added support for non-markdown files</li>
+          <li>Made font scale persist across startups</li>
+          <li>Improved search</li>
+          <li>Note right click menu now appears below the note, instead of above it</li>
+          <li>Added more notebook icon options</li>
+          <li>Reduced maximum text view width</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>OLED theme dissapearing after restart</li>
+          <li>Note cards not showing outline when in focus</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.9" date="2022-08-01">
+      <description translate="no">
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Added font resizing</li>
+          <li>Toolbar gets the mobile layout whenever there isn't enough space for all of the elements</li>
+          <li>Replaced the save indicator icon with a dot next to the title</li>
+          <li>Added setting to hide the cheatsheet button</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>Blurry notebook icons in creation popup</li>
+          <li>Clicking on a search result provoking a crash</li>
+          <li>All Notes button not appearing in search mode</li>
+          <li>App not opening</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.8" date="2022-07-19">
+      <description translate="no">
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Inline note renaming</li>
+          <li>Notes are created without asking for the note name</li>
+          <li>Save status indicator</li>
+          <li>Ctrl+S shortcut to force save a file</li>
+          <li>Note font is instantly updated, instead of requiring restart</li>
+          <li>Fullscreen support</li>
+          <li>App menu in file editor window</li>
+          <li>Setting for the font used for code</li>
+        </ul>
+          <p>New Translations:</p>
+        <ul>
+          <li>Finnish</li>
+          <li>Polish</li>
+        </ul>
+          <p>Fixes:</p>
+        <ul>
+          <li>Shortcuts not working in file editor</li>
+          <li>Messed up splash screen when there's no notebooks</li>
+          <li>Not being able to delete notebooks</li>
+          <li>Deleting empty notebook switching to another one, but not showing its content</li>
+          <li>Wrong note last modification time</li>
+          <li>Settings not opening from the file editor window</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.7" date="2022-07-09">
+      <description translate="no">
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Added subtitle to notebook title when sidebar is not visible</li>
+          <li>Made headerbar fade out when you start typing with the sidebar hidden</li>
+          <li>Added theme variant selector (auto, light, dark)</li>
+          <li>Added preference to remove toolbar</li>
+          <li>Added preference to make the notebooks bar look like a 3rd pane</li>
+        </ul>
+          <p>Markdown Rendering:</p>
+        <ul>
+          <li>Center horizontal rules</li>
+          <li>New blockquote appearance</li>
+          <li>Removed green tint from code blocks</li>
+        </ul>
+          <p>Translations:</p>
+        <ul>
+          <li>Persian</li>
+          <li>Italian</li>
+          <li>Korean</li>
+          <li>Simplified Chinese</li>
+        </ul>
+          <p>Fixed:</p>
+        <ul>
+          <li>Title buttons not being shown on the left side when the sidebar is hidden</li>
+          <li>UI not reflecting changes after editing a notebook</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.6" date="2022-06-02">
+      <description translate="no">
+          <p>New Stuff:</p>
+        <ul>
+          <li>Added more icons for notebooks</li>
+          <li>Added ability to drag notes to a notebook, to move them</li>
+          <li>Made window state get saved</li>
+        </ul>
+          <p>Translations:</p>
+        <ul>
+          <li>French</li>
+          <li>Portuguese (Brazilian)</li>
+          <li>Occitan</li>
+          <li>Russian</li>
+        </ul>
+          <p>UI Tweaks:</p>
+        <ul>
+          <li>Made headings more compact</li>
+          <li>Improved mobile toolbar layout</li>
+          <li>Improved contrast for OLED mode</li>
+          <li>Made note cards look closer to normal GNOME sidebars</li>
+          <li>Removed search from preferences window</li>
+          <li>Improved the preferences UI</li>
+          <li>Redesigned app icons</li>
+        </ul>
+          <p>Fixed:</p>
+        <ul>
+          <li>Blurry icon in notebook creation popup</li>
+          <li>Sidebar folding glitchiness</li>
+          <li>Emojis not being properly displayed in notebook icons</li>
+          <li>Random bugs with deleting and creating notes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.5" date="2022-05-24">
+      <description translate="no">
+          <p>This update brings the setting to change where notebooks are stored, among other improvements:</p>
+        <ul>
+          <li>Unobtrusive headerbars</li>
+          <li>Search all notes from inside the app</li>
+          <li>OLED mode setting</li>
+          <li>UI tweaks</li>
+          <li>New icon</li>
+          <li>Several bug-fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.4" date="2022-05-19">
+      <description translate="no">
+          <p>New Features:</p>
+        <ul>
+          <li>Move to Notebook... option in note context menus</li>
+          <li>i18n: Spanish, Catalan, toki pona</li>
+          <li>Open Containing Folder option in note context menus</li>
+        </ul>
+          <p>UI:</p>
+        <ul>
+          <li>Actual icons on notebooks</li>
+          <li>Move to Notebook... option in note context menus</li>
+          <li>i18n: Spanish, Catalan, toki pona</li>
+          <li>Open Containing Folder option in note context menus</li>
+          <li>Different ways to choose the icon characters</li>
+          <li>UI and Markdown rendering tweaks</li>
+          <li>Better confirmation dialogs</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.3" date="2022-05-04">
+      <description translate="no">
+          <p>Search:</p>
+        <ul>
+          <li>Gnome search integration</li>
+          <li>Fuzzy matching in search</li>
+          <li>New icon</li>
+          <li>Tweaked UI</li>
+          <li>Icon right click menu</li>
+        </ul>
+          <p>Graphical:</p>
+        <ul>
+          <li>New icon</li>
+          <li>Tweaked UI</li>
+          <li>Icon right click menu</li>
+        </ul>
+      </description>
+    </release>
+    <release type="stable" version="22.2" date="2022-04-23"/>
+    <release type="stable" version="22.1" date="2022-04-06"/>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/toolstack/Folio/main/meta/folio-desktop.png</image>
+      <caption>Main Folio window in light mode</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/toolstack/Folio/main/meta/folio-desktop-dark.png</image>
+      <caption>Main Folio window in dark mode</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/toolstack/Folio/main/meta/folio-mobile.png</image>
+      <caption>Folio on small/mobile screens</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/toolstack/Folio/main/meta/folio-preferences.png</image>
+      <caption>Folio preferences screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/toolstack/Folio/main/meta/folio-three-pane-mode.png</image>
+      <caption>Folio in three pane mode</caption>
+    </screenshot>
+  </screenshots>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <content_rating type="oars-1.1"/>
+
+  <developer_name translate="no">Greg Ross</developer_name>
+  <project_group translate="no">toolstack.com</project_group>
+
+  <url type="homepage">https://github.com/toolstack/Folio</url>
+  <url type="bugtracker">https://github.com/toolstack/Folio/issues</url>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#c6eabf</color>
+    <color type="primary" scheme_preference="dark">#246c4d</color>
+  </branding>
+
+  <translation type="gettext">@app_id@</translation>
+</component>

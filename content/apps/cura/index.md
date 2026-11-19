@@ -18,6 +18,6 @@ bugtracker = "https://github.com/Ultimaker/Cura/issues"
 donations = "https://github.com/sponsors/Ultimaker"
 translations = "https://github.com/Ultimaker/Cura/wiki/Translating-Cura"
 screenshots = "https://raw.githubusercontent.com/Ultimaker/Cura/main/cura-logo.PNG"
-appstream_xml_url = ""
+appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.ultimaker.cura/refs/heads/master/com.ultimaker.cura.appdata.xml"
 install_x86_64 = "https://github.com/Ultimaker/Cura/releases/download/5.14.0/UltiMaker-Cura-5.14.0-linux-X64.AppImage"
 +++

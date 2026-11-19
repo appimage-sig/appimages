@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>io.gdevelop.ide</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>MIT</project_license>
+	<name>GDevelop</name>
+	<summary>Fast and Easy Game-Making</summary>
+	<description>
+		<p>GDevelop is a full-featured, no-code, open-source game development software. You can build
+			games for mobile, desktop and the web. GDevelop is fast and easy to use: the game logic is
+			built up using an intuitive and powerful event-based system.</p>
+
+		<p>With GDevelop, you can make simple projects for fun, create ambitious indie games or even
+			build the next hit, grossing 1 million downloads like some games powered by GDevelop!
+			Professionals, educators or hobbyists all use GDevelop for game making.</p>
+
+		<p>What makes GDevelop unique and so easy to use are the events and behaviors. Events are a
+			powerful way to express the logic of your game, without having to learn a programming
+			language. Behaviors are pre-made logic that you can create and attach to your game objects.
+			It's simpler and faster than code, and super powerful.</p>
+
+		<p>Publish your games on the web, make a mobile app for iOS and Android, publish on Steam,
+			Facebook, Itch.io, Newgrounds, the Windows store... Games created with GDevelop run anywhere
+			and can be packaged in a single click.</p>
+	</description>
+	<url type="homepage">https://gdevelop.io</url>
+	<url type="help">https://wiki.gdevelop.io/</url>
+	<url type="bugtracker">https://forum.gdevelop.io/</url>
+	<launchable type="desktop-id">io.gdevelop.ide.desktop</launchable>
+	<releases>
+		<release version="5.6.287" date="2026-11-04">
+			<description></description>
+		</release>
+		<release version="5.6.286" date="2026-11-02">
+			<description/>
+		</release>
+		<release version="5.6.285" date="2026-10-21">
+			<description/>
+		</release>
+		<release version="5.6.283" date="2026-09-29">
+			<description/>
+		</release>
+		<release version="5.6.282" date="2026-09-11">
+			<description/>
+		</release>
+		<release version="5.6.281" date="2026-08-28">
+			<description/>
+		</release>
+		<release version="5.6.279" date="2026-08-11">
+			<description/>
+		</release>
+		<release version="5.6.276" date="2026-07-28">
+			<description/>
+		</release>
+		<release version="5.6.274" date="2026-07-16">
+			<description/>
+		</release>
+		<release version="5.6.273" date="2026-06-30">
+			<description/>
+		</release>
+		<release version="5.6.272" date="2026-06-17">
+			<description/>
+		</release>
+		<release version="5.6.271" date="2026-06-03">
+			<description/>
+		</release>
+		<release version="5.6.270" date="2026-06-02">
+			<description/>
+		</release>
+		<release version="5.6.269" date="2026-05-07">
+			<description/>
+		</release>
+		<release version="5.6.266" date="2026-04-13">
+			<description/>
+		</release>
+		<release version="5.6.264" date="2026-04-02">
+			<description/>
+		</release>
+		<release version="5.6.263" date="2026-04-01">
+			<description/>
+		</release>
+		<release version="5.6.262" date="2026-03-24">
+			<description/>
+		</release>
+		<release version="5.6.260" date="2026-03-03">
+			<description/>
+		</release>
+		<release version="5.6.259" date="2026-02-27">
+			<description/>
+		</release>
+		<release version="5.6.258" date="2026-02-20">
+			<description/>
+		</release>
+		<release version="5.6.257" date="2026-02-13">
+			<description/>
+		</release>
+		<release version="5.6.256" date="2026-02-12">
+			<description/>
+		</release>
+		<release version="5.6.254" date="2026-01-30">
+			<description/>
+		</release>
+		<release version="5.6.253" date="2026-01-27">
+			<description/>
+		</release>
+		<release version="5.6.252" date="2026-01-15">
+			<description/>
+		</release>
+		<release version="5.6.251" date="2025-12-26">
+			<description/>
+		</release>
+		<release version="5.6.250" date="2025-12-11">
+			<description/>
+		</release>
+		<release version="5.6.249" date="2025-12-02">
+			<description/>
+		</release>
+		<release version="5.5.247" date="2025-11-27">
+			<description/>
+		</release>
+		<release version="5.5.246" date="2025-11-26">
+			<description/>
+		</release>
+		<release version="5.5.244" date="2025-10-22">
+			<description/>
+		</release>
+		<release version="5.5.243" date="2025-10-13">
+			<description/>
+		</release>
+		<release version="5.5.242" date="2025-09-26">
+			<description/>
+		</release>
+		<release version="5.5.240" date="2025-09-14">
+			<description/>
+		</release>
+		<release version="5.5.239" date="2025-08-14">
+			<description/>
+		</release>
+		<release version="5.5.238" date="2025-07-25">
+			<description/>
+		</release>
+		<release version="5.5.237" date="2025-07-17">
+			<description/>
+		</release>
+		<release version="5.5.231" date="2025-05-15">
+			<description/>
+		</release>
+		<release version="5.5.230" date="2025-05-06">
+			<description/>
+		</release>
+		<release version="5.5.228" date="2025-03-28">
+			<description/>
+		</release>
+		<release version="5.5.227" date="2025-03-27">
+			<description/>
+		</release>
+		<release version="5.5.226" date="2025-03-11">
+			<description/>
+		</release>
+		<release version="5.5.224" date="2025-02-04">
+			<description/>
+		</release>
+		<release version="5.5.223" date="2025-01-27">
+			<description/>
+		</release>
+		<release version="5.5.222" date="2025-01-23">
+			<description/>
+		</release>
+		<release version="5.5.221" date="2025-01-02">
+			<description/>
+		</release>
+		<release version="5.5.220" date="2024-12-20">
+			<description/>
+		</release>
+		<release version="5.4.219" date="2024-11-30">
+			<description/>
+		</release>
+		<release version="5.4.218" date="2024-11-14">
+			<description/>
+		</release>
+		<release version="5.4.217" date="2024-10-22">
+			<description/>
+		</release>
+		<release version="5.4.213" date="2024-09-17">
+			<description/>
+		</release>
+		<release version="5.4.212" date="2024-09-12">
+			<description/>
+		</release>
+		<release version="5.4.211" date="2024-09-09">
+			<description/>
+		</release>
+		<release version="5.4.210" date="2024-09-05">
+			<description/>
+		</release>
+		<release version="5.4.207" date="2024-07-31">
+			<description/>
+		</release>
+		<release version="5.4.205" date="2024-07-03">
+			<description/>
+		</release>
+		<release version="5.4.204" date="2024-06-20">
+			<description>
+				<ul>
+					<li>Updated to version 5.4.204. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.4.202-beta" date="2024-06-08">
+			<description/>
+		</release>
+		<release version="5.3.201" date="2024-04-29"/>
+		<release version="5.3.200" date="2024-04-23"/>
+		<release version="5.3.198" date="2024-04-03"/>
+		<release version="5.3.196" date="2024-03-28"/>
+		<release version="5.3.195" date="2024-03-14"/>
+		<release version="5.3.194" date="2024-03-08"/>
+		<release version="5.3.193" date="2024-03-08"/>
+		<release version="5.3.192" date="2024-03-01"/>
+		<release version="5.3.191" date="2024-02-29"/>
+		<release version="5.3.189" date="2024-02-09"/>
+		<release version="5.3.188" date="2024-01-26">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.188. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.187" date="2024-01-24">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.187. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.186" date="2023-12-20">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.186. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.185" date="2023-12-14">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.185. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.184" date="2023-12-14">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.184. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.181" date="2023-11-22">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.181. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.180" date="2023-11-02">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.180. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.3.179" date="2023-10-31">
+			<description>
+				<ul>
+					<li>Updated to version 5.3.179. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.176" date="2023-10-11">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.176. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.175" date="2023-10-06">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.175. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.174" date="2023-10-05">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.174. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.172" date="2023-09-01">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.172. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.171" date="2023-08-30">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.171. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.169" date="2023-08-03">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.169. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.168" date="2023-07-27">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.168. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.167" date="2023-07-24">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.167. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.166" date="2023-06-23">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.166. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.2.165" date="2023-06-19">
+			<description>
+				<ul>
+					<li>Updated to version 5.2.165. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.160" date="2023-04-11">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.160. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.159" date="2023-03-22">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.159. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.157" date="2023-02-06">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.157. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.155" date="2022-12-27">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.155. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.153" date="2022-12-19">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.153. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.151" date="2022-11-16">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.151. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.149" date="2022-10-28">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.149. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.1.148" date="2022-10-26">
+			<description>
+				<ul>
+					<li>Updated to version 5.1.148. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.146" date="2022-10-03">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.146. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.144" date="2022-09-20">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.144. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.143" date="2022-09-19">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.143. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.142" date="2022-09-16">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.142. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.140" date="2022-08-18">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.140. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.139" date="2022-07-22">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.139. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.136" date="2022-06-15">
+			<description>
+				<ul>
+					<li>Updated to version 5.0.136. See the full changelog in the app.</li>
+				</ul>
+			</description>
+		</release>
+		<release version="5.0.133-testing1" date="2022-05-02">
+			<description>
+				<ul>
+					<li>First release as a Flatpak (based on GDevelop 5.0.132).</li>
+				</ul>
+			</description>
+		</release>
+	</releases>
+	<developer_name>GDevelop Team</developer_name>
+	<screenshots>
+		<screenshot type="default">
+			<image type="source">
+				https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20screenshot.png</image>
+		</screenshot>
+	</screenshots>
+	<content_rating type="oars-1.1"/>
+</component>

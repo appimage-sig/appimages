@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.b3log.siyuan</id>
+
+  <name>SiYuan</name>
+  <summary>A privacy-first personal knowledge management system</summary>
+
+  <developer id="org.b3log"><name>SiYuan</name></developer>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0</project_license>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+
+  <description>
+    <p>A privacy-first personal knowledge management system, support fine-grained block-level reference and Markdown WYSIWYG</p>
+    <p>Block editing: SiYuan, the only important core concept is Content block. The content block
+      can be formed through the formatting format, so that we can organize our thoughts and
+      knowledge at the block-level granularity, and it is also convenient for reading and outputting
+      long content.</p>
+    <p>Privacy security Encrypted cloud, worry-free privacy: Data is stored entirely on the device
+      under the control of the user. Even if there is no network, even if the cloud service is down,
+      it can still be used locally without restrictions. No offline, no notes.</p>
+    <p>Bidirectional link: Documentation page are also blocks, reducing mental load. All content
+      exists on a block basis, and documentation pages are no exception. Blocks can be converted to
+      each other, splitting, reorganizing and moving do not affect existing links.</p>
+    <p>List outline: Sort out the main points, logically layered</p>
+    <p>Multi-device data sync: Keep data complete and consistent</p>
+  </description>
+
+  <launchable type="desktop-id">org.b3log.siyuan.desktop</launchable>
+
+  <url type="homepage">https://b3log.org/siyuan/</url>
+  <url type="bugtracker">https://github.com/flathub/org.b3log.siyuan/issues</url>
+  <url type="donation">https://liuyun.io/sponsor</url>
+  <url type="faq">https://github.com/siyuan-note/siyuan#-faq</url>
+  <url type="vcs-browser">https://github.com/siyuan-note/siyuan</url>
+
+  <content_rating type="oars-1.1"/>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://b3log.org/siyuan/static/home-img.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature1-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature3-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature3-2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature3-3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature4-1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://b3log.org/siyuan/static/feature4-2.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="3.8.10" date="2026-11-10">
+      <description></description>
+    </release>
+    <release version="3.8.9" date="2026-10-29">
+      <description/>
+    </release>
+    <release version="3.8.8" date="2026-10-21">
+      <description/>
+    </release>
+    <release version="3.8.7" date="2026-10-14">
+      <description/>
+    </release>
+    <release version="3.8.6" date="2026-09-29">
+      <description/>
+    </release>
+    <release version="3.8.5" date="2026-09-24">
+      <description/>
+    </release>
+    <release version="3.8.4" date="2026-09-17">
+      <description/>
+    </release>
+    <release version="3.8.3" date="2026-09-07">
+      <description/>
+    </release>
+    <release version="3.8.2" date="2026-08-30">
+      <description/>
+    </release>
+    <release version="3.8.1" date="2026-08-18">
+      <description/>
+    </release>
+    <release version="3.8.0" date="2026-08-12">
+      <description/>
+    </release>
+    <release version="3.7.3" date="2026-07-21">
+      <description/>
+    </release>
+    <release version="3.7.2" date="2026-07-14">
+      <description/>
+    </release>
+    <release version="3.7.1" date="2026-07-04">
+      <description/>
+    </release>
+    <release version="3.7.0" date="2026-07-02">
+      <description/>
+    </release>
+    <release version="3.6.5" date="2026-04-21">
+      <description/>
+    </release>
+    <release version="3.6.4" date="2026-04-14">
+      <description/>
+    </release>
+    <release version="3.6.3" date="2026-04-02">
+      <description/>
+    </release>
+    <release version="3.6.2" date="2026-03-31">
+      <description/>
+    </release>
+    <release version="3.6.1" date="2026-03-17">
+      <description/>
+    </release>
+    <release version="3.6.0" date="2026-03-13">
+      <description/>
+    </release>
+    <release version="3.5.10" date="2026-03-10">
+      <description/>
+    </release>
+    <release version="3.5.9" date="2026-03-04">
+      <description/>
+    </release>
+    <release version="3.5.8" date="2026-02-24">
+      <description/>
+    </release>
+    <release version="3.5.7" date="2026-02-14">
+      <description/>
+    </release>
+    <release version="3.5.6" date="2026-02-13">
+      <description/>
+    </release>
+    <release version="3.5.5" date="2026-02-10">
+      <description/>
+    </release>
+    <release version="3.5.4" date="2026-01-26">
+      <description/>
+    </release>
+    <release version="3.5.3" date="2026-01-13"/>
+    <release version="3.5.2" date="2025-12-30"/>
+    <release version="3.5.1" date="2025-12-23"/>
+    <release version="3.5.0" date="2025-12-16"/>
+    <release version="3.4.1" date="2025-11-25"/>
+    <release version="3.3.6" date="2025-10-29"/>
+    <release version="3.3.5" date="2025-10-14"/>
+    <release version="3.3.4" date="2025-10-01"/>
+    <release version="3.3.3" date="2025-09-23"/>
+  </releases>
+</component>

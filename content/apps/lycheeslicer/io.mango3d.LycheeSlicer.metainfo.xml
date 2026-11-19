@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.mango3d.LycheeSlicer</id>
+
+  <name>Lychee Slicer</name>
+  <summary>A powerful and versatile Slicer for Resin and Filament 3D Printers</summary>
+
+  <developer id="io.mango3d">
+	  <name>Mango3D</name>
+  </developer>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://mango3d.io/terms-and-conditions/</project_license>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>tablet</control>
+  </supports>
+
+  <description>
+    <p>
+      With Lychee Slicer, you get the best companion to prepare 3D models for your Resin and Filament 3D Printers. Get access to many features to create a tailored and smooth workflow that fits your needs! Lychee Slicer is easy to use and provides powerful tools in an elegant and intuitive interface. Always be at the edge of 3D Printing with Lychee Slicer!
+    </p>
+  </description>
+
+  <url type="homepage">https://mango3d.io</url>
+
+  <content_rating type="oars-1.0">
+    <content_attribute id="money-advertising">moderate</content_attribute>
+  </content_rating>
+
+  <releases>
+	<release version="8.0.4" date="2026-11-04">
+	</release>
+	<release version="7.6.6" date="2026-06-29">
+    </release>
+    <release version="7.6.1" date="2026-02-05">
+    </release>
+  	<release version="7.5.5" date="2025-12-17">
+  	  <description>
+  	    <ul>
+  	      <li>Added Piocreate Halot X1</li>
+  	      <li>Improved Overhang Support System</li>
+  	      <li>Smarter Suport Placement Between Close Islands</li>
+  	      <li>Maximum Angle for Reinforcement and Stabilization</li>
+  	      <li>Improved Reinforcement Point Placement</li>
+  	      <li>Mini Support Filtering</li>
+  		</ul>
+  	  </description>
+  	</release>
+    <release version="7.4.1" date="2025-07-24">
+      <description>
+        <ul>
+          <li>Add up to 49 plates manually - Perfect for batch printing, multi-model setups, and complex projects</li>
+          <li>Adding Plates: Add a new plate directly from: The 3D view - The object and plate list</li>
+          <li>The “Outside” Plate: The Outside plate automatically collects objects from a plate that was deleted. It does not include all objects outside a build plate (unlike Bambu Studio). So an object may appear outside the plate in the 3D view but not be listed in the Outside plate. If you delete a plate containing objects, those objects will move to the “Outside” plate.</li>
+          <li>Quick Selection Shortcut: Select all objects on the active plate using `Ctrl + Shift + A` Note: This shortcut currently does not select supports in Prepare mode — that’s coming in the next release!</li>
+          <li>Moving Objects Between Plates using: Right-click in the object list - Right-click in the 3D view - The gizmo - Directly editing position values in the input fields</li>
+		</ul>
+      </description>
+    </release>
+    <release version="7.3.2" date="2025-04-23">
+      <description>
+        <ul>
+          <li>Fixed a critical bug that could corrupt scenes during certain geometry operations.</li>
+	  <li>Fixed broken Documentation Links - Several in-app links (e.g., general info, CTBV4 format, object notes, hollow blockers, late supports, community profile, exportable holes, and batch tools) were leading to 404 errors. They now correctly point to the right documentation pages.</li>
+          <li>Fixed incorrect Z Height for YMD Falcon Pro: the printer's Z value was incorrect—now set to the right size for accurate slicing.</li>
+	  <li>Fixed default Resin Profile Exposure Time on Voxelab Polaris The exposure time in the default resin profile was off.</li>
+	</ul>
+      </description>
+    </release>
+    <release version="7.3.1" date="2025-03-26">
+      <description>
+        <ul>
+          <li>Fixed a critical bug that could corrupt scenes during certain geometry operations.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.3.0" date="2025-03-24">
+      <description>
+        <ul>
+          <li>CTRL + Shift + E Shortcut – The "Export Selected Object" shortcut now works as expected.</li>
+          <li>Saving Empty Scenes – Previously, attempting to save an empty scene was impossible. This has been fixed.</li>
+          <li>Transparent Navigation Tabs – The Resin and Filament menus no longer appear transparent when returning from Preferences.</li>
+          <li>External Drive Saving – On Windows, scene files (.lys) can now be saved at the root of a drive.</li>
+          <li>Shift + Drag Select for Supports – Selecting supports with SHIFT + drag now works consistently without deselecting other supports.</li>
+          <li>Reload Last Scene Dialog Checkbox – The “Do not show again” checkbox now properly prevents the dialog from reappearing.</li>
+          <li>Creality Halot One Screen Ratio – Corrected the height/width ratio in sliced files for the Creality Halot One, causing UVTools to alert on an incorrect ratio.</li>
+          <li>Hole Editing &amp; Wi-Fi Printer Reset – Gizmo no longer resets when using advanced features (planar cut, hole advanced mode) with a Wi-Fi printer connected.</li>
+          <li>Files Not Opening in Recent Versions – Fixed a bug causing some files from older versions to take a long time to open on recent versions, which worked fine in 5.2.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="7.2.0" date="2024-12-12">
+    </release>
+    <release version="6.0.2" date="2024-04-16">
+    </release>
+    <release version="5.4.3" date="2023-11-29">
+      <description>
+        <ul>
+          <li>Mac OS Sonoma compatibility, including the fix of the suction cup detector and island detection features.</li>
+          <li>The Island Detector not showing islands on objects has been fixed.</li>
+          <li>Supports created through the Magic tool no longer go through the model raft.</li>
+          <li>Advertising issues that reload while using Wifi export has been fixed.</li>
+          <li>Support painting first support was using the expected preset, but not following supports. It has been fixed.</li>
+          <li>Better detection of mouse/cursor position when click and dragging supports.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="5.4.0" date="2023-10-20">
+      <description>
+        <ul>
+          <li>Wi-Fi support for 3D Printers equipped with Chitubox mainboard (ApexMaker x1, Elegoo Saturn 3 Ultra, Elegoo Mars 4 Ultra)</li>
+          <li>Optional and skippable ads when Slicing for Pro users (related to 3D Printing)</li>
+          <li>Fix start gcode of Sovol SV07 and SV07 Plus</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
+  <launchable type="desktop-id">io.mango3d.LycheeSlicer.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/io.mango3d.LycheeSlicer/master/screenshots/screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+</component>

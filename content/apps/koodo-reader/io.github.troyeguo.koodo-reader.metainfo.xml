@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>io.github.troyeguo.koodo-reader</id>
+    <launchable type="desktop-id">io.github.troyeguo.koodo-reader.desktop</launchable>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>AGPL-3.0</project_license>
+    <name>Koodo Reader</name>
+    <developer_name>Troye Guo</developer_name>
+    <summary>All-in-one ebook reader</summary>
+    <description>
+        <p>
+            Koodo Reader is an all-in-one ebook reader that can help you better manage and study
+            your ebooks. It's free and open-source.
+        </p>
+        <ul>
+            <li>Extensive formats support</li>
+            <li>Save your data to Dropbox or Webdav</li>
+            <li>Customize the source folder and synchronize among multiple devices using OneDrive,
+                iCloud, Dropbox, etc.</li>
+            <li>Single-column, two-column, or continuous scrolling layouts</li>
+            <li>Text-to-speech, translation, progress slider, touch screen support, batch import</li>
+            <li>Add bookmarks, notes, highlights to your books</li>
+            <li>Adjust font size, font family, line-spacing, paragraph spacing, background color,
+                text color, margins, and brightness</li>
+            <li>Night mode and theme color</li>
+            <li>Text highlight, underline, boldness, italics and shadow</li>
+        </ul>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://dl.koodoreader.com/screenshots/1.png</image>
+            <caption>Home Page</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://dl.koodoreader.com/screenshots/5.png</image>
+            <caption>Reader Page</caption>
+        </screenshot>
+    </screenshots>
+    <url type="homepage">https://www.koodoreader.com/</url>
+    <url type="bugtracker">https://github.com/koodo-reader/koodo-reader/issues</url>
+    <url type="vcs-browser">https://github.com/koodo-reader/koodo-reader</url>
+    <url type="translate">https://github.com/koodo-reader/koodo-reader#translation</url>
+    <url type="contact">https://www.koodoreader.com/support</url>
+    <url type="help">
+        https://www.koodoreader.com/document</url>
+
+    <releases>
+        <release version="2.4.6" date="2026-10-07">
+            <description></description>
+        </release>
+        <release version="2.4.3" date="2026-08-01">
+            <description></description>
+        </release>
+        <release version="1.7.4" date="2025-01-06">
+            <description></description>
+        </release>
+        <release version="1.6.7" date="2024-06-10">
+            <description/>
+        </release>
+        <release version="1.6.6" date="2024-04-06"/>
+        <release version="1.6.5" date="2024-03-01"/>
+        <release version="1.6.3" date="2024-01-18"/>
+        <release version="1.6.2" date="2024-01-13"/>
+        <release version="1.6.1" date="2023-12-17"/>
+        <release version="1.6.0" date="2023-11-06"/>
+        <release version="1.5.9" date="2023-10-24"/>
+        <release version="1.5.7" date="2023-07-29"/>
+        <release version="1.5.6" date="2023-06-24"/>
+        <release version="1.5.5" date="2023-05-22"/>
+        <release version="1.5.4" date="2023-05-20"/>
+        <release version="1.5.3" date="2023-04-08"/>
+    </releases>
+
+    <content_rating type="oars-1.1">
+        <content_attribute id="violence-fantasy">mild</content_attribute>
+        <content_attribute id="drugs-alcohol">mild</content_attribute>
+        <content_attribute id="drugs-narcotics">mild</content_attribute>
+        <content_attribute id="drugs-tobacco">mild</content_attribute>
+        <content_attribute id="sex-nudity">mild</content_attribute>
+        <content_attribute id="sex-themes">mild</content_attribute>
+        <content_attribute id="language-profanity">moderate</content_attribute>
+        <content_attribute id="language-humor">moderate</content_attribute>
+        <content_attribute id="language-discrimination">moderate</content_attribute>
+    </content_rating>
+</component>

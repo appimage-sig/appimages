@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.ossia.score</id>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <project_license>GPL-3.0</project_license>
+  <name>ossia score</name>
+  <summary>Sequencer for media artists</summary>
+  <developer id="io.github.ossia">
+    <name>ossia.io</name>
+  </developer>
+  <branding>
+    <color type="primary" scheme_preference="light">#e9f0f1</color>
+    <color type="primary" scheme_preference="dark">#1f1f20</color>
+  </branding>
+  <description>
+    <p>ossia score is a sequencer for audio-visual artists, designed to enable the creation of interactive shows, museum installations, intermedia digital artworks, interactive music and more in an intuitive user interface.</p>
+
+    <ul>
+      <li>Sequence OSC, MIDI, DMX, sound, video and more, between multiple software and hardware. </li>
+      <li>Script and live-code with JavaScript, ISF Shaders, Faust, PureData or C++.</li>
+      <li>Leverage IoT protocols such as CoAP or MQTT for industrial-grade automation.</li>
+      <li>Interact with joysticks, Wiimotes, Leapmotions, Web APIs and BLE sensors.</li>
+      <li>Integrate programs from a wealth of creative programming languages such as Structure Synth, Context-Free Art and Bytebeat.</li>
+      <li>Load any kind of audio or video format and process visuals through Spout, Syphon, NDI, Shmdata or Sh4lt.</li>
+      <li>Use VST3, LV2 audio plug-ins and more.</li>
+    </ul>
+  </description>
+  <!-- flatpak-builder's rename-desktop-file rewrites this to io.ossia.score.desktop.
+       A launchable naming a file the package does not ship fails appstreamcli compose. -->
+  <launchable type="desktop-id">ossia-score.desktop</launchable>
+  <provides>
+    <binary>ossia-score</binary>
+    <mediatype>application/x-ossia-score</mediatype>
+    <mediatype>application/x-ossia-score-binary</mediatype>
+  </provides>
+  <content_rating type="oars-1.1" />
+  <url type="bugtracker">https://github.com/ossia/score/issues</url>
+  <url type="contact">https://discord.gg/8Hzm4UduaS</url>
+  <url type="contribute">https://ossia.io/project.html</url>
+  <url type="donation">https://opencollective.com/ossia</url>
+  <url type="help">https://ossia.io/docs.html</url>
+  <url type="homepage">https://ossia.io</url>
+  <url type="vcs-browser">https://github.com/ossia/score</url>
+  <screenshots>
+    <screenshot type="default" xml:lang="en">
+      <image>https://github.com/ossia/score/raw/master/docs/score.png?raw=true</image>
+      <caption>Sequence all kinds of media in ossia score</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="3.9.0" date="2026-10-15">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.9.0</url>
+      <description>
+        <p>ossia score 3.9.0 is a large release: highlights are a complete 3D pipeline, new video capture, streaming and tracking devices, advances on custom user interfaces, a more customizable look, along with dozens of new protocols, synthesizers and objects.</p>
+        <p>New features</p>
+        <ul>
+          <li>3d: a complete 3D scene pipeline. An Asset Loader reads glTF/GLB, FBX, STL, OFF and MagicaVoxel .vox (alongside OBJ and PLY) with their lights, cameras, glTF animations and skins, and FBX node animation. Scene-graph processes filter, tag, group, switch, duplicate and transform a scene, with material overrides driven from the device tree.</li>
+          <li>3d: new objects include Camera, Camera Array, Camera Switch, Light, Environment, PBR Mesh, Material Override, Transform 3D, Instancer, Text to Mesh, Text to Texture, Cubemap Loader and Composer, Animation Player, and Scene Inspector, with point clouds and gaussian splats supported throughout.</li>
+          <li>about: the displayed version shows how many commits it is past the release and the branch, for example 3.8.2+42.</li>
+          <li>ai: librediffusion adds StreamV2V and Flux.2 Klein (with inpainting), multi-step SDXL, img2img-turbo, ControlNet, a runtime LoRA scale, and multi-step CUDA graphs with DMD2, NitroFusion and RIFE presets.</li>
+          <li>ai: onnx: the pose detector tracks several people, with smoothing, box modes, RTMO, YOLO-pose models and an OpenPose palette. Also new: generic nodes for any ONNX model, Vocos vocoders, separation into stems, MHR body meshes and InstantHMR, SmolVLM, Gemma 3 and more LLMs and VLMs, tokenizers read from tokenizer.json, and WebNN in the web build.</li>
+          <li>audio: a WASAPI driver through miniaudio, now the default on Windows and following the system's default devices. Thanks @ogauthiersat!</li>
+          <li>automation: points snap to the timeline's magnetism (the musical grid and the points of nearby processes) while dragged or created; Ctrl disables it.</li>
+          <li>avnd API: section, table and strip/detail layouts, envelope editors, folder ports, folder-backed or runtime-filled comboboxes (thanks @bltzr!), geometry auxiliary buffers and textures, per-instance semantics, keyed string lists, file and save-path pickers with host-expanded placeholders, xyzw spin boxes, cubemap and render-target texture ports, and tensor ports.</li>
+          <li>avnd: new objects: Point Tracker (2D and 3D), Beat Tracker, Entity To MIDI, Midi Humanize, Midi Envelope, Regex, Enumerator, Array Best Match, Color display, Control to CV, Switch, Rendezvous, Serialize and Deserialize (JSON, CBOR, text, binary), String tool, Split string, Join strings, String to and from Bytes, Read File, Read File Line, Write File, and the utilities Spigot, Repeat, Mux inlets, Demux outlets, Flip Flop, Bang and Button.</li>
+          <li>avnd: the LED view has an RGB01 mode, taking colours as floats between 0 and 1.</li>
+          <li>cables: feedback is now supported in all modes, through delayed connections in the same graph: a cable that closes a loop is made a delayed cable automatically, and graphics feedback cycles render one frame late instead of blanking the output. Only a cable from a node to itself is refused. A cable's type also shows in how it is drawn, and a cable can be dragged from a port's name.</li>
+          <li>can: new DBC-driven CAN device, browsing the .dbc databases of the library and enumerating the machine's real interfaces.</li>
+          <li>clap: plug-ins are also searched in CLAP_PATH, and a plug-in that marks its state dirty has it saved.</li>
+          <li>comment box: an Auto-reflow option wraps the text to the box's width instead of growing it sideways.</li>
+          <li>custom apps: generated launchers accept --debug (?debug on the web) to show the score editor next to the custom UI, and SCORE_VIDEO_DECODING_METHOD selects the video decoder.</li>
+          <li>devices: MIDI Controller devices build their tree from a device description, to be able to address knobs and faders directly instead of looking up MIDI CCs.</li>
+          <li>devices: new depth camera add-on: colour, infrared, depth and point clouds from Orbbec Femto, Gemini and Astra (also over Ethernet), Kinect v1 and v2, Azure Kinect, Intel RealSense and Luxonis OAK cameras, installable as one Depth cameras package from the package manager.</li>
+          <li>devices: new openzen device: LP-Research LPMS IMUs over serial and USB.</li>
+          <li>devices: new sysinfo device, exposing the local machine (CPU, GPU, memory, disks, battery, network, open file handles) as an ossia device with a settable refresh rate.</li>
+          <li>devices: new trackingprotocols add-on: OpenTrackIO, OpenXR, PosiStageNet, RTTrP and TUIO devices.</li>
+          <li>devices: new videoio add-on: one video input and output device for capture and playout cards, GPU-direct where the card allows it. AJA cards and V4L2 capture on Linux are built in; Blackmagic DeckLink, Magewell and NVIDIA Jetson cameras work when score is built with their respective SDKs. Deltacast, Bluefish444 will be supported later.</li>
+          <li>devices/processes: processes now have a "Scriptable" mode which makes their parameters accessible through custom addresses in the Local device.</li>
+          <li>embedded: yocto support with the new meta-ossia repo. Enjoy ossia score as PID1!</li>
+          <li>fx: new versions of LFO (phase and jitter in degrees, cycles that can lock to the bars), Arpeggiator, Midi quantify, Free metronome, Rate Limiter, ADSR, Flanger, Compressor and Limiter (a lookahead brickwall peak limiter), with times set by the time chooser and able to follow the tempo.</li>
+          <li>gfx: a script can render an exact number of frames, set the frame-step rate and grab frames to files, for repeatable headless renders.</li>
+          <li>gfx: a Sink process runs its input at a set rate without displaying it, so a chain whose result is data, such as an AI model's output, is computed.</li>
+          <li>gfx: cubemap render targets and multiview rendering.</li>
+          <li>gfx: for capture and SDI rigs: NVIDIA GPUDirect for Video, zero-copy Vulkan capture upload, high-bit-depth planar and packed GPU encoders and a V210 decoder, GPU demosaicing of Bayer sensors, cross-stream frame correlation, bt2020-10 colorimetry, and work towards genlock support.</li>
+          <li>gfx: new video devices: PipeWire video input and output with zero-copy DMA-BUF, window and screen capture, GStreamer pipelines as input or output (video and audio), and gphoto2 cameras when the library is installed. The FFmpeg device (formerly Libav Output) also reads streams (RTSP, SRT), files, image sequences, cameras and screen capture, records to MP4, MKV, ProRes, DNxHD, AV1, WAV and Opus, and comes with presets.</li>
+          <li>gfx: shader previews can be toggled at runtime from a new Graphics toolbar.</li>
+          <li>gfx: window devices expose the cursor position in GL coordinates, next to the scaled and absolute ones.</li>
+          <li>gfx: with vsync off, a Rate of 0 renders frames back to back as fast as the GPU allows.</li>
+          <li>js: a much larger API: cables, path lookup, process controls, document metadata, presets carrying a script's program and state, object colours and comments, undo stack and macros, device settings read-back, Score.select(), Score.Editor, a View object for automation and screenshots, and Util.listFiles, listDirectories, openFileDialog, saveFileDialog and removeFile.</li>
+          <li>js: QML scripts can read and write local files through XMLHttpRequest.</li>
+          <li>js: Score.Controls, Score.Triggers and Score.Conditions expose a document-wide namespace of controls, triggers and conditions, including those of child processes, also sent to remote control clients; states can address them.</li>
+          <li>js: Score.Editor gains hasProcessUI, showProcessUI and libraryEntries; createProcess resolves the &lt;LIBRARY&gt;: and &lt;PROJECT&gt;: prefixes; a device's connected() can be called from QML.</li>
+          <li>js: scripts can build persistent, interactive QML interfaces from native score widgets and Canvas2D painting, with undoable state. Custom UIs can be docked, placed by script, or shown in a window, the side panel or the central view.</li>
+          <li>library: packages can ship native libraries that load on Linux, macOS and Windows.</li>
+          <li>midi: new MIDI display process.</li>
+          <li>osc: COBS framing, alongside the other framings found in the wild.</li>
+          <li>process: file and folder controls save &lt;PROJECT&gt;: and &lt;LIBRARY&gt;: relative paths, and a Faust import folder is saved relative to the library or the project.</li>
+          <li>processes: new carto-tcp process, receiving the point clouds that Carto from the Suite SAT streams over TCP.</li>
+          <li>processes: new cv add-on: computer vision ported from traditional Max/MSP cv.jit, rewritten without OpenCV: GPU filters (threshold, morphology, chroma key, frame difference, optical flow) and analyses (centroid, moments, histogram, corners, Hough lines), and CPU objects for blobs, contours, homography and Kalman filtering.</li>
+          <li>processes: new lavfi add-on: a process running any FFmpeg filter graph on audio and video, with ports and controls taken from the graph, analyzer metadata as an output, live editing, presets, and filtering kept on the GPU when on the Vulkan backend.</li>
+          <li>processes: path generator gets its own UI drawing the trajectories and the playing position, more trajectories, and a choice of what its output carries.</li>
+          <li>processes: puara: Leaky Integrator and Avalanches objects.</li>
+          <li>project: collect a document's media into its own folder, find missing files with an exhaustive, cancellable search, archive a project to a zip, trim media and remove the files a project no longer uses; a document can declare the platforms it runs on.</li>
+          <li>protocols: QML protocols gain Bluetooth, NFC and serial bindings, sender information on received UDP messages so replies are possible, automatic deserialization of encodings such as base64, and the OSC type tags a script asks for.</li>
+          <li>protocols: QML scripts can talk to SocketCAN buses, classic and FD, with Protocols.can(), and list the interfaces with Protocols.canInterfaces() (Linux).</li>
+          <li>protocols: QML sockets and serial ports gain STX/ETX, 1-, 2- and 4-byte little- and big-endian size prefixes and fixed-length framings, and Protocols.http() takes a full request object.</li>
+          <li>remote control: an HTTP server, with configurable port, address and path, serving a WebAssembly remote. Thanks @thibaudk!</li>
+          <li>skin: more complete skinning support, with about thirty bundled skins: editor themes (Catppuccin, Dracula, Nord, Solarized, Gruvbox, Tokyo Night...), light, greyscale and high-contrast skins, colour-blind-safe skins and skins with beautiful tight pixel fonts. A skin carries its fonts and its widget palette.</li>
+          <li>sound: the Sound process plays the audio track of video files, and reads AIFC and CAF files.</li>
+          <li>synths: FoMo, an FM synthesizer, and Kaboom, an electronic drum machine.</li>
+          <li>synths: granola: polyphonic MIDI grain spawning, velocity-driven grain amplitude, a MIDI listening toggle and an active grain count output.</li>
+          <li>synths: the Deuterium drum machine becomes a multi-format sampler reading GIG, DLS, SF2, KORG KMP/KSF and plain audio files, with complete sampler control, trigger pads and keyboard, legato, a note-off mode and a MIDI channel filter.</li>
+          <li>ui: --vector-gui / --no-vector-gui for higher-quality rendering, a configurable base font size, and the Phosphor icon fonts shipped for custom UIs.</li>
+          <li>ui: a central view stack with a navigation bar per document, and reworked the address bar to be available in every view.</li>
+          <li>ui: code editors can now be docked or also used as central view.</li>
+          <li>ui: right-clicking the XY pad opens spin boxes, so a coordinate can be typed or pasted.</li>
+          <li>ui: scoring internal processes now behaves exactly like scoring device tree parameters, including support for tweening, etc. Simply drag a parameter to a state, etc.</li>
+          <li>wasm: the LTC, Granola, bendage, Airwindows, cv, ONNX and Deuterium add-ons are available in the web build.</li>
+          <li>wasm: the web build gets camera input (getUserMedia and WebCodecs), audio input, drag-and-drop media import, asynchronous Load and Save As, documents opened from the page URL, zip project archives, persisted settings and local-storage backups, and the start screen with its online examples.</li>
+          <li>windows: a Windows arm64 build.</li>
+          <li>ysfx: a JSFX in the library is described by its own header: description, author, tags and license.</li>
+        </ul>
+        <p>Improvements</p>
+        <ul>
+          <li>3d: fulldome output offers the four fisheye projections: equidistant, equisolid, stereographic and orthographic.</li>
+          <li>bendage: the JPEG node uses libjpeg-turbo, about five times faster at 1080p; Airwindows plug-ins get proper parameter widgets.</li>
+          <li>jk: jk filters understand jq literals, arithmetic, comparisons, //, ? and the builtins, with jq's operator precedence.</li>
+          <li>ndi: NDI sends every format it can encode from the GPU without a copy. A source is chosen by name and previewed before connecting, with colour, receive format and deinterlacing settings; all eleven receive formats are decoded, including the alpha of UYVA and PA16.</li>
+          <li>ndi: the newest NDI runtime installed is loaded. It used to mistakenly be the oldest.</li>
+          <li>ai: onnx models load and run on a worker thread instead of the audio thread, a frame that fails no longer disables the node, and a model that cannot be built does not take the others down.</li>
+          <li>spat: SpatGRIS, SPAT and ADM-OSC devices take a source index offset.</li>
+          <li>leapmotion: one Leap Motion device per sensor.</li>
+          <li>data: large HDF5 and CSV columns are imported as one sampled curve segment.</li>
+          <li>lsl: LSL outlets are named after their UID.</li>
+          <li>GBAP: in Voronoi mode a node fades in at the edge of its zone, instead of a sharp jump.</li>
+          <li>synths: Synthimi and Kabang envelope times are time choosers, and Kabang's UI is redesigned with drum strips.</li>
+          <li>3d: the Model Display light no longer moves with the transport, and models whose normals face away from the light are lit.</li>
+          <li>app: --script starts on a document with nothing modal in the way.</li>
+          <li>app: a redesigned start screen with templates, examples (including those published on the documentation site), project info, archives and an about page listing the license of every bundled component. It covers the main window, returns when the last document closes and is reachable from the Help menu.</li>
+          <li>audio: a sound file at a different rate than the device, or above 4GB, is streamed instead of decoded entirely into memory, and plays at the right pitch; a document's master volume is applied when it is opened.</li>
+          <li>audio: the audio engine stays alive across documents, which should reduce errors about audio devices, and a soundcard change while a document is loaded is survived.</li>
+          <li>audio: the PipeWire back-end adapts to graph quantum and rate changes instead of skipping cycles, and detects a graph that schedules nothing.</li>
+          <li>automation: resizing an interval with many automations no longer rebuilds every state on each mouse move (0.5 to 1.4 s per move before).</li>
+          <li>avnd: a Bang or a Button drives any toggle for one tick, and toggles accept numbers.</li>
+          <li>avnd: an enum control set by name or number from a state or a script takes that value, enum ports start at their declared default, and a name received by message stays a name.</li>
+          <li>avnd: every built-in object has a functional category and a description, and every port has a name.</li>
+          <li>avnd: Prompt Composer's keywords are a list, and each weight port follows its keyword when the list is reordered.</li>
+          <li>avnd: two-, three- and four-component and colour controls carry their unit (cart2D, cart3D, rgb).</li>
+          <li>dataflow: a single number sent to a vector or colour control is rescaled into the control's range.</li>
+          <li>devices: the device dialog is sorted, with Video in, Video out and Media categories, and joysticks plugged in while it is open appear.</li>
+          <li>explorer: large and small numbers are no longer shown in scientific notation.</li>
+          <li>flatpak: Wayland support.</li>
+          <li>gfx: ISF event inputs and Faust buttons fire on impulses from cables and messages.</li>
+          <li>gfx: resizing an output or inserting a node keeps feedback, simulations and persistent passes instead of restarting the graph.</li>
+          <li>gfx: selecting a shader in the library no longer freezes the GUI for about 200 ms.</li>
+          <li>gfx: shaders using names that HLSL, MSL or NVIDIA's GL compiler reserve (lerp, frac, new...) are renamed instead of refused.</li>
+          <li>joystick: game-controller triggers range from 0 to 1.</li>
+          <li>js: script durations accept flicks, 500ms, 2s, 1min and clock times; --script reads a path as a file and exits non-zero on errors.</li>
+          <li>library: a shader is credited to its own CREDIT, and a Faust DSP to its declared author.</li>
+          <li>library: the Add process dialog hides deprecated processes.</li>
+          <li>library: the out-of-date packages notice moved into the library panel, packages can be filtered by kind, and a failed install keeps the previous version.</li>
+          <li>linux: the startup check lists the packages to install, checks AVX2 and group membership, and can be dismissed on Wayland.</li>
+          <li>lv2: when a plug-in has several UIs, score picks an installed one, and refuses UIs built for another Qt version instead of crashing.</li>
+          <li>mapper: nodes start at zero instead of NaN, follow their sources without echoing values back, and show the script being edited.</li>
+          <li>media: a camera that cannot be started says so in the Messages panel; on Windows, DirectShow camera formats are named by codec and many more codecs are recognised.</li>
+          <li>multicursor: a cursor can be grabbed anywhere in its node.</li>
+          <li>nodal: a node dropped in the view stays where it was dropped without zooming, a node added outside the canvas brings everything into view, a node added to a chain goes next to its neighbour, and a node with only outlets draws them on its right edge.</li>
+          <li>nodal: a node with hundreds of controls pages through them; folded, it shows only its routing and the controls in use, and folding is saved and undoable. VST and LV2 controls use the control grid.</li>
+          <li>processes: Value delay takes any value, with feedback, mix, freeze and smoothing; the array combiner gains similarity, distance, arithmetic and comparison modes; the accumulator and counter choose when they send and get an Output bang; Buffer queue gets a manual output mode; Wavecycle glides between frequencies and plays chords; the shell command object takes an interpreter.</li>
+          <li>bitfocus: Companion modules run as they do in Companion: their saved configuration is kept, shared UDP sockets and binary payloads work, and a crashed module is restarted.</li>
+          <li>camera: each resolution offers its fastest rate, rather than dozens of slower duplicates.</li>
+          <li>clap: the song position is sent in the right unit, non-note MIDI and sysex reach plug-ins and come back out, parameter edits from the plug-in are picked up, automation is sample-accurate, and plug-ins share score's audio thread pool.</li>
+          <li>curve: edition scales to more than 100k points, with sampled segments and waveform rendering; segments can be dragged in the select tool.</li>
+          <li>custom apps: create-app packages for the web and Windows on ARM64, takes a per-OS environment overlay, and branded apps no longer carry ossia score's icon and branding.</li>
+          <li>dataflow: binding a control to an address no longer overwrites the control's own unit: a colour or a gain keeps converting correctly.</li>
+          <li>dataflow: port addresses are picked in an editable combo box that only lists the devices carrying the right kind; the cable drag line follows its port, scrolling continues past the view's edge, and port hit zones are circular.</li>
+          <li>devices: any device can be exported and imported, the device dialog has a preset view, and device lists have search boxes and follow the keyboard; the Artnet device is renamed DMX (thanks Maude-Antoine), as it also speaks sACN and DMX USB.</li>
+          <li>explorer: per-type value editors in the tree and in the address panel, with a form for every value type, multi-line strings, and lists and maps edited as lists and maps.</li>
+          <li>explorer: values of an unfolded node keep updating after a reconnect or refresh, and a device tree is no longer emptied by a failed exploration.</li>
+          <li>fx, gfx: expressions stop runaway loops instead of hanging the engine.</li>
+          <li>fx: the Looper's passthrough can be None, Record-only or Always, a change of mode carries on through the loop instead of rewinding, and quantized actions land on bar lines; Pulse to Midi schedules notes causally with minimum and maximum lengths.</li>
+          <li>gfx: colour pads open the colour dialog on right-click; D3D12 can use shader model 6, its compiler now shipping with the Windows build; shader includes are found in packages installed while score runs.</li>
+          <li>gfx: full-range video no longer comes out slightly too bright, high-bit-depth video is scaled exactly, and direct video playback applies the output's colour conversion.</li>
+          <li>gfx: multi-window rendering reworked around one texture feeding all windows, with finer mapping, border lock and off-origin outputs; the window's title is in the device tree, and the mapping grid shows coordinates.</li>
+          <li>graphics: knobs, sliders, spin boxes, the minimap and the note chooser scroll infinitely using the platform's relative motion APIs instead of a bespoke hack, and behave on multi-screen HiDPI setups.</li>
+          <li>jit: JIT-compiled add-ons on Windows get C++ exceptions, native TLS and a correct runtime; LLVM 22 and 23 are supported. JIT can finally be considered fully stable, after eight years!</li>
+          <li>js: a script taken from the library follows the library file instead of a copy frozen into the document, and the inspector offers to update it when the file has changed; scripts edited on disk are picked up.</li>
+          <li>library: greatly improved scan times, with much more of the scan moved off the main thread; hierarchic preset categories with an optional description; synthesizers have their own category; the package manager says what went wrong when a download fails.</li>
+          <li>linux: OpenGL prefers EGL over GLX on X11</li>
+          <li>SCORE_OPENGL_FORMAT=gl|gles picks desktop GL or GLES, and on Wayland rendering no longer stalls waiting for the compositor.</li>
+          <li>local device: its OSC and WebSocket ports can be set at launch with --local-osc-port and --local-ws-port, and score says when one is already taken. Thanks @bltzr!</li>
+          <li>lv2, vst, vst3: plug-ins get the real playhead position and also play when the timeline runs backwards; LV2 plug-ins hear transport start and stop, CV ports work as audio, atom ports get the buffer size they ask for, and control values are restored when a document is reopened.</li>
+          <li>media: more advanced probing reads semi-broken media, such as files with no duration in the header.</li>
+          <li>midi: device scans also list network MIDI ports, and hardware, software and network ports are grouped the same way on every back-end.</li>
+          <li>nodal: a cable's end can be dragged to another port, with every selected cable following; a node dropped on a cable is inserted into it; a new cable connects to the first port of a matching type.</li>
+          <li>nodal: rubber-band box selection and Ctrl+click multi-selection, with the zoom level and canvas position kept across navigation and reload.</li>
+          <li>piano roll: keyboard-coloured rows, Up and Down transpose the selection (Shift for an octave), and moving notes past the range grows it.</li>
+          <li>playback: running backwards now reaches MIDI (notes sound in reverse, transport resumes), video (frame-exact seeking, HAP and DXV included) and Faust.</li>
+          <li>plug-ins: VST, VST3, CLAP and LV2 scans no longer list a plug-in many times over or mark working ones invalid after false time-outs; LV2 is now scanned out of process too, and each format has its own settings.</li>
+          <li>quantification: quantized starts and metronome clicks land on the right beats: the subdivision grid restarts at every bar line, and positions are right when the timeline runs backwards.</li>
+          <li>scenario: a multi-selection of processes can be deleted, and Del removes a state message like Backspace.</li>
+          <li>scenario: a new document lasts eight bars by default (always configurable in the settings), a paste lands where the user is working, nested or not, and a document reopens at the zoom it was saved with.</li>
+          <li>scenario: a preset dropped on a state creates a box after it, and an Alt-drop of a sound, video, layer, preset or port into empty space makes a box that starts on play.</li>
+          <li>scenario: dragging inside a process snaps to the time syncs of the sibling processes, and in a child interval's full view the ruler, time signatures and magnetism count from the start of the score.</li>
+          <li>scenario: states are drawn above their intervals, and a double-click selects the state it creates.</li>
+          <li>scenario: the state editor uses the device explorer's per-type value editors.</li>
+          <li>shaders: compute shaders take general geometry, vertices and instances, with multipass at distinct local sizes; ISF gains DIMENSIONS, COPY_FROM, ISF_READ / ISF_WRITE, IMG_* accessors for raw rasters, ISF v1 persistent buffers, name_prev for persistent storage, and a Geometry mode and TRANSPARENCY block for raw rasters; draw counts can come from a GPU buffer.</li>
+          <li>skin: idle, running and failed intervals are no longer confusable, every skin's contrast is kept within reach of the default, and the last hardcoded colours are gone from the chrome.</li>
+          <li>sound: tempo-aligned drop-in on running intervals, seeking to where a running copy actually is.</li>
+          <li>state: a string containing quotes, backslashes or line breaks survives copy and paste and the address dialog.</li>
+          <li>step sequencer: several sequences, a Duration port, quantized switching, and the playing step is lit; the pattern sequencer gets ports to select the pattern and quantize the switch.</li>
+          <li>ui: a new knob design, a light on value displays when values arrive, a Pretty toggle on the Value display, a fixed range for Signal display, +/- buttons on integer spin boxes, and Shift to move a vector's components together.</li>
+          <li>ui: a port's description shows when hovering its label and its control, not only the port.</li>
+          <li>ui: enumerated device parameters (OSCQuery RANGE.VALS, DMX modes) get a combo box, which accepts typed values not in its list; long combo box lists in the scene scroll.</li>
+          <li>ui: file and folder pickers open next to the current file, else in the project folder.</li>
+          <li>ui: fonts are sized in pixels rather than points, so macOS matches everywhere else, and the whole widget UI uses score's font rather than the platform theme's.</li>
+          <li>ui: hitboxes and interaction areas are larger for core elements, and double-clicking a slider returns it to its default.</li>
+          <li>ui: selecting and dragging thousands of notes or objects stays fast.</li>
+          <li>ui: the time chooser is a compact time bar and a knob with a full division table, longer sync durations and a readout cycling free, straight, dotted and triplet; short times get most of the travel.</li>
+          <li>video: Auto playback picks the renderer from the file's keyframe layout rather than a codec flag and a 1080p cap.</li>
+          <li>video: direct-mode playback of long-GOP files is about 3x faster (4K H.264 goes from 22 to 72 fps), seeking backwards shows the right frame, and the last B-frames of a file are kept.</li>
+          <li>video: GPU decoding of DCI X'Y'Z' 12-bit, half-float planar RGB as in EXR files, and the other pixel formats that still went through swscale; raw elementary streams play. We're almost cinema-ready, with a good JPEG2000 decoder we can read DCPs!</li>
+          <li>video: ProRes and FFV1 no longer go to the Vulkan compute decoders, which got about 2% of every frame wrong.</li>
+          <li>video: thumbnails are decoded at the height of their slot.</li>
+          <li>vst3: CC, pitch bend and aftertouch are delivered to the plug-in; the VST3 SDK is updated to 3.8.1.</li>
+          <li>windows: file names and text with non-ASCII characters work on every build.</li>
+          <li>ysfx: presets starting with tags are categorized.</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>granola: granola's trigger rate no longer depends on pitch, the interpolation setting takes effect, and output channels are filled when the source has a different channel count.</li>
+          <li>deuterium: Hydrogen kits whose instruments share a MIDI note are mapped by instrument order instead of stacking on one key.</li>
+          <li>kabang: Kabang's pitch envelope applies, a negative Vel->Pitch no longer pins the pitch, and Minibang no longer crashes on a note that arrives before its sample is loaded.</li>
+          <li>leapmotion: Leap Motion hands are cleared when tracking stops.</li>
+          <li>GBAP: a GBAP node can be grabbed anywhere on its circle.</li>
+          <li>synthimi: switching synthimi between poly and mono no longer leaves a stuck note.</li>
+          <li>bendage: the bendage nodes no longer read or write past their buffers on adversarial images.</li>
+          <li>airwindows: creating an airwindows process without a plug-in name no longer crashes.</li>
+          <li>3d: a Splat process gained one extra inlet every time its document was reloaded.</li>
+          <li>analysis: the stereo pitch and onset objects analysed the left channel for the right one.</li>
+          <li>app: --help or --version left the next launch in failsafe mode, with OpenGL turned off.</li>
+          <li>audio: on ALSA, input and output card names were swapped, and a card that cannot record stopped the engine from starting even with no inputs.</li>
+          <li>automation: two automations of one address meeting at a state recursed until the stack overflowed, crashing the document on load.</li>
+          <li>avnd: Audio Particles in sync mode triggered at twice the chosen note value, and its position overflowed after about 12 hours.</li>
+          <li>avnd: event value ports re-read their value at every tick, so Repetition Filter saw repeats.</li>
+          <li>avnd: impulse buttons were pressed once when an object was created, so a Counter, Accumulator or Buffer queue in manual mode sent at start.</li>
+          <li>avnd: in objects that also have curve ports, a UI edit could reach the wrong control.</li>
+          <li>avnd: lists of named float structs arrived as zeros, Array Combiner's Median sorted NaN, and the Device Recorder's Timestamped toggle defaults to on.</li>
+          <li>avnd: reloading a file or sound file port left dangling data or freed memory on the audio thread, and control outputs nobody reads grew memory without bound.</li>
+          <li>avnd: the Lightness Sampler read past the image's edge, and the Lightness Computer crashed on Windows.</li>
+          <li>bitfocus: Companion module processes stop when score quits or is killed.</li>
+          <li>camera: removing a camera node did not close the device; a camera's compressed mode was ignored on Windows; DirectShow YV12 and YVU9 and V4L2 RGB32 cameras had red and blue swapped; an H.264 DirectShow camera was given the MJPEG decoder.</li>
+          <li>clap: a CLAP process with no plug-in chosen crashed.</li>
+          <li>clap: plug-ins without MIDI inputs receive parameter and transport events; event times are rebased and clamped to the tick's buffer span.</li>
+          <li>core: a second exit request no longer re-enters document teardown; restoring a backup after Save As no longer crashes, and the restored document shows its saved name.</li>
+          <li>core: plug-ins are torn down in reverse creation order when a document closes, and devices are disconnected before documents are destroyed.</li>
+          <li>core: quitting crashed when documents were destroyed after the main window, and on NVIDIA Linux drivers when the Vulkan instance was destroyed; a failing background task or a missing library folder aborted the application.</li>
+          <li>csv: the CSV player and recorder wrote the header twice or crashed on playback.</li>
+          <li>curve: an automation starting after zero keeps its first segment.</li>
+          <li>curve: power and easing segments not starting at 0 gave wrong values; the curve tool could stay stuck on the pen; Shift+Alt bends every selected segment.</li>
+          <li>curve: the crashes and corruptions of curve edition are fixed.</li>
+          <li>dataflow: a looping process at speed 0 still runs at its place in the loop.</li>
+          <li>dataflow: chaining after an audio outlet keeps its propagation setting, and removing a cable or undoing restores it.</li>
+          <li>dataflow: loading a preset now updates curve controls, so the next edit no longer reverts it.</li>
+          <li>dataflow: sample-accurate value outputs were moved to the start of the tick.</li>
+          <li>devices: a device refreshed after it disconnected no longer crashes, and cancelling a Learn no longer rebuilds the device and drops its MIDI cables.</li>
+          <li>devices: opening a document replayed phantom impulses into the explorer, the message recorder and remote control.</li>
+          <li>effects: resizing the control column left ports hidden and disabled.</li>
+          <li>engine: --no-gui runs, headless remote play, pause and stop, and --script runs aborted at the end.</li>
+          <li>execution: a crash lurking in execution cleanup since 2018 is fixed.</li>
+          <li>execution: play from here in a child interval moves that interval, and an interval played again afterwards starts from its beginning.</li>
+          <li>execution: pressing play before a large document finished loading crashed; editing a trigger, condition or quantization while a time sync was torn down could crash; closing a document whose triggers watch a destroyed device read freed memory.</li>
+          <li>execution: the timer that resets a stopped document no longer resets, or crashes on, another document.</li>
+          <li>execution: triggers and conditions on a missing device no longer hold, and an edit command that throws no longer aborts the application.</li>
+          <li>explorer: an OSCQuery device showed an empty tree when added; changing a device's camera, joystick or MIDI port kept the old name and broke references; audio gains were not editable in the tree.</li>
+          <li>expressions: the Expression Value Filter and Micromap used only the first element of x[1] and x[] vectors, and kept the variables of the previous expression.</li>
+          <li>faust: on Apple Silicon the JIT compiles for the host instead of for Linux.</li>
+          <li>ffmpeg: audio recorded by the FFmpeg output overran the frame or repeated stale samples.</li>
+          <li>fx: ADSR jumped back to the sustain level, hid envelopes shorter than a buffer, never settled at zero, and fired on load.</li>
+          <li>fx: in the Compressor and Limiter, a ratio of 0 divided by zero, and a lookahead of 0 or above 100 ms read the wrong sample.</li>
+          <li>fx: MathAudioFilter's x/px buffer swap corrupted odd samples.</li>
+          <li>fx: Midi scale stops every note it starts, and the free metronome ticks every period.</li>
+          <li>fx: the Envelope RMS was sqrt(sum)/N instead of sqrt(sum/N).</li>
+          <li>fx: the Limiter squashed everything to about plus or minus 0.02 around a DC offset at its default threshold; it is now a lookahead brickwall peak limiter.</li>
+          <li>fx: the Looper wrote the wrong span on every tick that did not start at zero, and looped, overdubbed and narrowed its channels out of bounds.</li>
+          <li>general: many memory leaks and data races found with LeakSanitizer and ThreadSanitizer are fixed.</li>
+          <li>gfx: a bang on a graphics node fired every frame, and Structure Synth regenerated every frame.</li>
+          <li>gfx: a colour arriving without its alpha was drawn invisible or black.</li>
+          <li>gfx: a mirrored vertex Y flipped the winding, so Direct3D culled the wrong faces.</li>
+          <li>gfx: a preset loaded during playback drew nothing; a .fs and .vs pair dropped together made two processes; compute, geometry-filter and VSA shaders could not be dragged from the library.</li>
+          <li>gfx: a render target the backend refuses, or a video device created from a script with incomplete settings, aborted the application.</li>
+          <li>gfx: an exception during a render no longer leaves the frame open for the rest of the session, and a lost Direct3D device is reported by every output.</li>
+          <li>gfx: an output window could stop drawing when moved to another screen, and a failed graphics backend creation left the output black without a word.</li>
+          <li>gfx: GPU objects' controls did not convert units and ranges, so an LFO on a Primitive's rotation did not make a full turn.</li>
+          <li>gfx: ISF shaders sampling a pass target crashed on Vulkan; gl_FragDepth, depth-less targets and six Vertex Shader Art presets failed on Metal; an ISF long input's DEFAULT was read as an index; persistent passes lagged one or two frames behind VVISF; audio FFT and histogram inputs were NaN at sizes that are not a power of two.</li>
+          <li>gfx: many crashes on document close, device loss and graph mutation during rendering.</li>
+          <li>gfx: multi-window output was flipped on Vulkan, its soft-edge blend left a bright fringe, cancelling its settings while playing crashed, and a full-screen output on Windows landed at an offset.</li>
+          <li>gfx: QSG_RHI_BACKEND is no longer set, as it broke VST plug-ins that also use Qt such as Kontakt 8.</li>
+          <li>gfx: Text node edges were too dark, and an unconfigured Text node was drawn off-screen.</li>
+          <li>gfx: the Images process did not show its image at start, and crashed when its list shrank during playback.</li>
+          <li>gfx: Vulkan Video zero-copy decoding works on Windows; an unknown pixel format rendered undefined content.</li>
+          <li>gfx: window outputs on macOS OpenGL could crash on present.</li>
+          <li>graph: a cycle of immediate edges is reported instead of silently running nothing.</li>
+          <li>graphics: an item deleted while it held the mouse grab is deleted later instead of corrupting the grab stack.</li>
+          <li>gstreamer: little-endian 10-bit 4:4:4 with alpha was decoded as big-endian in the GStreamer, Sh4lt and Shmdata inputs, and caps written without type annotations stayed black.</li>
+          <li>jit: --compile-node builds again.</li>
+          <li>js: a QML DeviceEnumerator hung startup on Windows; --script could not run .mjs modules; a GPU script lost its controls on resize, so rect-mapper shapes vanished; a document opened from the command line did not find the library's QML modules.</li>
+          <li>js: deleting a texture source from QML aborted the application.</li>
+          <li>js: lists in UI messages did not reach scripts as arrays; Windows file paths bound to QML url properties did not load; Qt.vector2d, vector3d, vector4d, quaternion and matrix4x4 returned empty values; removing a device from a script during playback crashed.</li>
+          <li>js: MIDI bytes were dropped, audio outlets were never cleared, and four calls aborted the application.</li>
+          <li>js: QML processes with a UI would only load the second time.</li>
+          <li>linux: the AppImage segfaulted at startup on hosts with a newer libxcb, and Wayland sessions without XWayland did not start.</li>
+          <li>media: a camera with no signal no longer hangs its own shutdown; v4l2 cameras reporting a rate range no longer come out at 1 fps.</li>
+          <li>media: a soundfile control opened the path the document stored rather than the file; drag-and-drop of audio files behind symlinks works.</li>
+          <li>media: sws_scale read a one-element destination plane array out of bounds.</li>
+          <li>media: video thumbnails had the wrong aspect ratio and garbage columns, and a mid-stream resolution change read past the frame.</li>
+          <li>midi: a MIDI input nobody reads grew memory without bound.</li>
+          <li>midi: a MIDI outlet addressed to a MIDI channel node sent nothing, or sent on the wrong channel.</li>
+          <li>midi: a missing ALSA sequencer no longer crashes, and the bytes of incoming messages are no longer trusted.</li>
+          <li>midi: computer keyboard input was broken on X11.</li>
+          <li>midi: note-offs were dropped for short and adjacent notes; a document naming a MIDI back-end this build lacks no longer aborts.</li>
+          <li>midi: on ALSA raw, opening an output port already in use hung instead of failing.</li>
+          <li>midi: on Windows (MME), Start, Stop, Continue, Tune Request and Reset messages were dropped, and closing an input could corrupt the heap.</li>
+          <li>midi: PipeWire MIDI ports could crash when created before being opened, and could not be reopened.</li>
+          <li>midi: the computer keyboard could produce notes above 127; in Patternist, HC is the hi conga (note 66).</li>
+          <li>model display: the projections read textures upside down on Vulkan, and an untextured mesh was not drawn white.</li>
+          <li>osc: an address first learned as a bang stayed a bang; an OSC receiver on port 0 crashed when stopped on macOS.</li>
+          <li>patternist: held notes are released when stopping, note-offs reach the output, and every step a tick covers is played.</li>
+          <li>pd: a Pd process with no patch read out of bounds.</li>
+          <li>piano roll: undoing a resize of notes did not redraw them.</li>
+          <li>process: a time chooser's declared default was read as quarter notes instead of seconds.</li>
+          <li>process: an unknown uuid no longer loses the process and its cables.</li>
+          <li>process: file chooser ports lost their file-type filter when a document was reopened.</li>
+          <li>process: rebuilding a drifted process's ports dropped every control value; saved ports are matched by name when a process changed.</li>
+          <li>protocols: in QML protocol scripts, line framing dropped all but the first line of a read, a remote close and onFail were ignored, inboundWS did not listen, the HTTP client dropped query strings, WebSocket callbacks ran off-thread, and Device.addNode and removeNode corrupted memory or left stale addresses.</li>
+          <li>protocols: removing a network device during a pending read used freed memory; the WebSocket device's host is filled from its script again; mapper devices no longer crash at teardown.</li>
+          <li>recording: playback started while a recording waits starts the recording.</li>
+          <li>scenario: dragging a brace snapped a duration as if it were a date.</li>
+          <li>scenario: going back from the nodal view kept a partial zoom, and the play bar could crash after entering and leaving a sub-interval while playing.</li>
+          <li>scenario: in an interval with a tempo but no time signature, Patternist and sound files followed different clocks.</li>
+          <li>scenario: jumping back while playing left finished intervals marked as ended, so they stopped as soon as they started.</li>
+          <li>scenario: pasting multiple processes into a scenario crashed or silently failed.</li>
+          <li>scenario: processes added while an interval is already executing are started, and process order survives a save and load round-trip.</li>
+          <li>scenario: resizing a playing interval reaches the engine.</li>
+          <li>scenario: the Shift lock and Ctrl scale modes could stay on after the key was released over another widget.</li>
+          <li>sdk: the published Windows and macOS SDKs, and run-time add-ons, can build and load add-ons again.</li>
+          <li>serial: a line delimiter longer than seven characters corrupted memory.</li>
+          <li>sound: an interval starting or ending in the middle of an audio buffer overwrote the next interval's samples and drifted; off-grid starts left a one-sample gap.</li>
+          <li>sound: changing the tempo during raw playback made the read position jump and click; the repitch mode padded small buffers with silence.</li>
+          <li>sound: dragging a sound before the start of the timeline crashed, and looping from a negative position read out of bounds.</li>
+          <li>sound: full-scale samples wrapped to the opposite polarity at 24 and 32 bits.</li>
+          <li>sound: RubberBand's start delay is trimmed, so stretched sounds are not late.</li>
+          <li>sound: seeking in a file decoded through FFmpeg went back to the start of the file.</li>
+          <li>sound: the waveform could stay blank after zooming or panning.</li>
+          <li>spout, syphon: Spout follows GL sender changes and registers D3D senders correctly; a Syphon texture survives its sender quitting.</li>
+          <li>startscreen: HiDPI rendering and cursor behaviour on Wayland.</li>
+          <li>startscreen: the initial network request could hang it on misconfigured Windows machines.</li>
+          <li>step sequencer: synced steps count from the start of the process; a pattern with a rejected lane no longer loses its length.</li>
+          <li>syphon: an input on Metal with no server advertised built the OpenGL decoder and dropped every draw.</li>
+          <li>ui: Value display dropped values when its log was longer than 1; on X11 HiDPI or with UI zoom the cursor was drawn offset from the pointer.</li>
+          <li>video: closing or seeking an image sequence no longer crashes.</li>
+          <li>video: playback of decoders without pkt_dts and of thread-sliced codecs in direct mode.</li>
+          <li>video: truncated files and files without a duration no longer spin or abort, and formats libswscale cannot handle are refused.</li>
+          <li>vst, vst3, clap, ysfx: MIDI landing in a tick shorter than one sample is sent with the next block.</li>
+          <li>vst: a document whose VST is not installed no longer segfaults when its UI is built.</li>
+          <li>vst: plug-in libraries are no longer unloaded, since many crash when unloaded.</li>
+          <li>wasm: gfx output windows recover from permanent black after hide and show, and no longer steal the keyboard.</li>
+          <li>wasm: OSC devices can be created, gamepads deliver values, and Web MIDI inputs no longer abort when closed and have correct timestamps.</li>
+          <li>widgets: range sliders did not drag unless their domain was 0 to 1; a momentary button press is one undo step; a second click on a file control opened a second dialog.</li>
+          <li>windows: an absolute path became a UNC share path.</li>
+          <li>ysfx: copy-paste and undo/redo are fixed.</li>
+          <li>ysfx: the tick offset was ignored, so a tick starting mid-buffer read and wrote at the wrong position.</li>
+        </ul>
+        <p>Upgrading from 3.8</p>
+        <ul>
+          <li>Documents are saved in format 5: score 3.9 says when a document comes from a newer version, but 3.8 cannot open documents saved by 3.9.</li>
+          <li>macOS 13 or later is required.</li>
+          <li>Kabang and Minibang moved from the built-in objects to the synthimi add-on.</li>
+          <li>The Libav Output device is now the FFmpeg device, and the Artnet device is now named DMX.</li>
+          <li>ADSR, Flanger, Compressor and Limiter have new versions; the old ones are renamed "... (old)", hidden from the library, and still load in existing documents.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.8.2" date="2026-03-27">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.8.2</url>
+      <description>
+        <p>ossia score 3.8.2 is a minor hotfix release.</p>
+
+        <p>New features</p>
+        <ul>
+          <li>gfx: hdr: support for HLG format and ICtCp-encoded videos. Better support for Display P3 and BT.2100</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>gfx: fix a double-uninit issue that could lead to crashes with some objects.</li>
+          <li>render pipeline: initialize blend modes to One instead of Zero in the raster pipeline renderer.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.8.1" date="2026-03-25">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.8.1</url>
+      <description>
+        <p>ossia score 3.8.1 brings major video and multi-window improvements, full backwards playback, and many bug fixes.</p>
+
+        <p>New features</p>
+        <ul>
+          <li>video: massive hardware decoding rework with D3D12 and Vulkan Video backends, thanks to FFMPEG.</li>
+          <li>video: added automatic mode to pick the best hardware decoder for a given task.</li>
+          <li>video: HDR support for Window output (tested on macOS and Windows).</li>
+          <li>video: HDR shaders added to user library: tonemapping, exposure, OETF, etc.</li>
+          <li>video: rework of color processing, proper support for full range MPEG, fix Cineform support</li>
+          <li>video: hardware-decoded DXV</li>
+          <li>video: finish the implementation for GPU-accelerated rendering of every YUV format in existence</li>
+          <li>video: add a direct synchronous playback option for formats that support it (HAP and other all-I formats)</li>
+          <li>video: add .ts as acceptable extension</li>
+          <li>video: add a multi-window output mode to handle multi-projector mapping, with soft-edge blending and warping.</li>
+          <li>scenario: allow backwards playback</li>
+          <li>time ruler: implement scrubbing by double-clicking and dragging</li>
+          <li>process: add a VU meter object for audio visualization</li>
+          <li>process: add a video mapper (rect-mapper) object in the user library for mapping multiple textures in one viewport.</li>
+          <li>process: add an advanced-text object in the user library for fancy text rendering.</li>
+          <li>process: add a presentation object in the user library because what use is a graphics software which isn't even able to render slides.</li>
+          <li>isf: initial infrastructure for cubemap textures</li>
+          <li>network: add a debug log panel to HTTP, WebSocket, etc.</li>
+          <li>js: add Util.environmentVariable(), Util.timestamp(), file info utility functions</li>
+          <li>js: add API functions for working with TimeVal</li>
+          <li>js: add a positionChanged signal for UIs ; implement Score.scrub(milliseconds)</li>
+          <li>js: store a path to allow processes that have local file dependencies to retrieve them ; enables creating advanced QML objects with multiple files.</li>
+          <li>js: give access to Util in JSProcessModel</li>
+          <li>cli: js: allow to run a script on startup with --script</li>
+          <li>gfx: add infrastructure to allow objects to fetch a texture from a previous node instead of being rendered into</li>
+          <li>ui: allow to disable the UI updates during execution for low power systems</li>
+          <li>core: add SCORE_PRETTIFY_JSON=1 environment variable to save JSON indented</li>
+          <li>tools: add a git update tool</li>
+        </ul>
+
+        <p>Improvements</p>
+        <ul>
+          <li>ui: improve styling for Qt Quick objects</li>
+          <li>ui: make it easier to start a drag from a port which already has a cable</li>
+          <li>ui: make port labels clickable</li>
+          <li>video: improve thumbnail computations and seeking logic</li>
+          <li>video: better heuristics for direct video playback</li>
+          <li>video: use software decoding as far as possible for thumbnails</li>
+          <li>js: use Basic style for QML UIs to match score style</li>
+          <li>js: force update of items on each tick to ensure View3D updates correctly</li>
+          <li>create-app: include assets from score file directory in create-app scripts for all platforms. Thanks @ogauthiersat!</li>
+          <li>3rdparty: broad library update</li>
+          <li>ci: update to SDK 36 (FFmpeg 8.1)</li>
+          <li>msvc: update to VS2026</li>
+        </ul>
+
+        <p>Bugfixes</p>
+        <ul>
+          <li>ui: fix that library download check had been moved to opening the settings UI</li>
+          <li>ui: fix wrong condition to check whether value input is some binary string</li>
+          <li>ui: fix scroll in timeline view scrolling the interior of nodal views</li>
+          <li>metal/d3d: fix background texture inverted. Fixes #1968</li>
+          <li>exec: fix looping when playing backwards</li>
+          <li>scenario: drop on cable: fix crash when a node would be changed in a separate slot upon drag and drop</li>
+          <li>video: fix IgnoreTempo property read missing regression. Thanks @ogauthiersat!</li>
+          <li>video decoder: add a missing flush</li>
+          <li>lfo: fix phase in quantified mode</li>
+          <li>lfo: fix phase missing a multiplication by pi</li>
+          <li>js: fix state not restoring on graph change</li>
+          <li>js: fix using background textures from QML in hidden views</li>
+          <li>js: fix a QtQuick3D deletion order issue</li>
+          <li>js: fix passing paths that have LIBRARY: or PROJECT: prefixes</li>
+          <li>js: GPU node fixes for state handling</li>
+          <li>qml: put the ASIO state in a separate thread-safe object to prevent concurrency issues in mapper device</li>
+          <li>qml: set simpler environment for Python support</li>
+          <li>coremidi: fix observer not being initialized</li>
+          <li>core: fix settings crash on close</li>
+          <li>core: make the settings children of qApp so that JS engine does not appropriate them</li>
+          <li>ports: fix changing between ControlInlet and ValueInlet at runtime for e.g. JS script</li>
+          <li>avnd: variable ports: fix missing resize of intermediary buffers</li>
+          <li>avnd: increase resiliency against 0 I/O channels ; fix order of calls for channel allocation</li>
+          <li>avnd: fix that buffers were only up to 31 bit size, instead of 32. 4GB buffers are now possible if the GPU handles it.</li>
+          <li>gfx: prevent a node that has been just removed to be added again as a preview node</li>
+          <li>gfx: null check fix in buffer release</li>
+          <li>preview: fix gamma blending</li>
+          <li>model display: fix that preview had broken</li>
+          <li>fft: kfr: fix an issue with deallocation</li>
+          <li>linux: fix missing avahi-daemon program warning on some distros. Thanks @ogauthiersat!</li>
+          <li>tools: fix missing line feed in mac custom app launcher environment. Thanks @ogauthiersat!</li>
+          <li>core: prevent dummy warning with Clang 22 on each __COUNTER__</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.8.0" date="2026-02-03">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.8.0</url>
+      <description>
+        <p>ossia score 3.8.0 is a major release bringing many new features and improvements.</p>
+        <p>New features</p>
+        <ul>
+          <li>arpeggiator: add more controls, add a random mode</li>
+          <li>array tool: add a way to insert and erase values in the input array at a regular stride</li>
+          <li>ci: add a manual workflow to enable triggering builds with custom CMake options</li>
+          <li>code editor: add built-insearch with Ctrl+F</li>
+          <li>console: implement completion, persistent history and readline-like shortcuts</li>
+          <li>core: add utility functions to detect MDM enrollment</li>
+          <li>core: allow loading addons that have runtime dependencies in Documents/ossia/score/support/</li>
+          <li>core: change process priority on startup on win32</li>
+          <li>cuda: add utility function to check whether it is available</li>
+          <li>custom ui: add support for QtWebView if available (needs a source build, we won't ship QtWebEngine as it requires a MSVC Qt build)</li>
+          <li>custom ui: allow to override appname/domain/etc with env vars to simplify custom apps</li>
+          <li>custom ui: greatly improve the capabilities for creating custom apps on top of ossia score: support QRC files, icons, etc. Add helper scripts and templates to allow people to create their own custom ossia score-based apps.</li>
+          <li>custom ui: improve fonts and color palette</li>
+          <li>device recorder: allow to set separator in generated CSV file</li>
+          <li>devices: add support for QML protocols which require OAuth authentication with Ossia.OAuth (currently requires building from source with QtNetworkAuth support).</li>
+          <li>devices: enable adding some devices during execution (Camera, Window, etc.).</li>
+          <li>devices: implement a new Default Device kind for cameras, MIDI devices and gamepads, that will select the default device on the user's system. Useful for examples, etc.</li>
+          <li>exprtk: add useful math functions: bitwise_and, bitwise_or, bitwise_xor, bitwise_not, bitwise_shiftl, bitwise_shiftr, map, norm, step, lerp, smoothstep, smoothstep5</li>
+          <li>ffmpeg: handle gpu decoding of 16-bit float single-channel textures</li>
+          <li>geometry: Add a raw Raster Pipeline object which allows to render using entirely custom shader, with only a small veneer of isf. e.g. this allows to define what are the vertex inputs / outputs with much greater control than classic ISF shaders. This also allow instanced rendering.</li>
+          <li>geometry: Rework geometry in depth, allow geometry and buffer passing in every avnd objects, add support for instancing.</li>
+          <li>geometry: allow to have both CPU and GPU buffer handles, automatically convert in-between depending on the needs of objects.</li>
+          <li>gfx: add support for Spout in the D3D11, D3D12 and Vulkan backends.</li>
+          <li>gfx: add support for Syphon in the Metal backend.</li>
+          <li>gfx: allow buffer ports to pass buffers around. White ports can now carry either buffers or textures.</li>
+          <li>gfx: compute shader: render single-component textures as white instead of red.</li>
+          <li>gfx: implement support of SSBOs as output of Compute Shader process</li>
+          <li>icons: add icons for console_on/console_off in icons_16. Thanks @aklevy!</li>
+          <li>images: add support for more image formats, including SVG.</li>
+          <li>js: Add new API for storing and retrieving state of JS objects across restarts and communicating between UI and execution.</li>
+          <li>js: Fully implement custom UI support.</li>
+          <li>js: Make sure that engines respect import paths, and change presets to use a qmldir to import JS files, so that we do not hit QTBUG-107204</li>
+          <li>js: Whenever possible, load QML files from disk to trigger the disk cache, which will enable much faster loading / reloading on the execution thread</li>
+          <li>js: add Device.toValue function, to convert JS values to a simpler representation</li>
+          <li>js: add Util.uuid()</li>
+          <li>js: add a System object to retrieve general system info</li>
+          <li>js: add support for Qt Quick 3D to create 3D UIs easily as well as give access to PBR materials, environment maps, etc.</li>
+          <li>js: add support for downloading packages from the Library.* api</li>
+          <li>js: allow to have both an execution script and a UI script.</li>
+          <li>js: give access to transport object, to connect to play(), stop(), etc.</li>
+          <li>js: gpu: allow using texture inlets</li>
+          <li>js: major rework: Have a single engine per-thread with distinct QQmlContext instead of one engine per object</li>
+          <li>js: more utility functions</li>
+          <li>js: new APIs (Library, System, etc)</li>
+          <li>js: new api functions:  Score.device("foo");  Score.device("Window").window();  Score.save() / Score.load() / Score.saveAs(); Score.documentPlugin(), mainly useful to enable saving custom data from JS into a score.</li>
+          <li>layouts: add new layouts displaying all ports vertically when an object is in folded mode.</li>
+          <li>led view: add ability to set an explicit size</li>
+          <li>library: Add a new Timing category for all the timing-related objects (metronome, MIDI Sync, LTC, etc.)</li>
+          <li>lightness computer: add support for custom swizzle to handle uncommon LED formats.</li>
+          <li>mapper: allow to create dummy nodes just to store and retrieve data</li>
+          <li>midi: add MIDI sync objects to generate and track MIDI Clock and Timecode.</li>
+          <li>midi: add support for interpreting and / or sending Note ON with a value of 0 instead of note off. Needed for instance for some Novation Launchpad devices.</li>
+          <li>midi: handle reloading a midi device across backends / OS through various heuristics</li>
+          <li>new process: Add many geometry utilities: Geometry Info to get basic info about an input geometry, Extract attribute / buffer / etc., Create a mesh from multiple buffers, Pointcloud to mesh, Repack attributes to pack or multiple attributes of a geometry into a single buffer.</li>
+          <li>new process: Array to Buffer and Buffer to Array, to go easily e.g. from an OSC message to a GPU buffer.</li>
+          <li>new process: LTC input.</li>
+          <li>new process: Tempo synchronizer. This process will analyze incoming position and speed variations, obtained for instance from timecode, and turn them into real-time speed adjustments to keep smooth playback.</li>
+          <li>new process: add a ArrayToTexture object</li>
+          <li>new process: add a multi-choice object</li>
+          <li>new process: add a node text box to leave comments around</li>
+          <li>new process: add a queue object</li>
+          <li>new process: add a value mixer object</li>
+          <li>new process: add an audio splitter</li>
+          <li>new process: add utilities for vec2f/3i/etc.</li>
+          <li>new process: introduce StreamDiffusion support (real-time inference of GenAI image workflows), ported to C++ from StreamDiffusion Python code for absolute maximum performance. Requires CUDA.</li>
+          <li>new process: add an XWax-based DVS processor to control timelines with scratching. Thanks @mbncr for the testing.</li>
+          <li>node item: many improvements: display titles for all ports, enforce port names on construction</li>
+          <li>package manager: allow to download packages without main ui</li>
+          <li>ports: ports without a UI control will now display a label.</li>
+          <li>processes: allow processes to have both a script editor and a custom UI by separating the concept of script-editable process.</li>
+          <li>processes: allow to match multiple address groups in objects that can send / receive from/to multiple addresses</li>
+          <li>qml/gfx: handle QSG_RHI_BACKEND. If set, it will override the chosen graphics backend.</li>
+          <li>scenario: add zoom with scroll wheel, fix zoom +/- centering</li>
+          <li>script editor: style update. Default font is now IBM Plex which is much more readable on Win32</li>
+          <li>scrub: implement scrubbing on scenario</li>
+          <li>sound: implement backwards audio playback ; Also add a limit on how low we can downsample as it seems that libsamplerate does not like     very small tempos</li>
+          <li>time ruler: double click becomes play from here</li>
+          <li>ui: add a way for nodes to not have a background</li>
+          <li>ui: add many new built-in fonts and update existing ones to last versions.</li>
+          <li>ui: allow replacing a cable by dropping a new cable on an existing one</li>
+          <li>ui: allow to set visual outputs as background</li>
+          <li>ui: basic scrub with play tool</li>
+          <li>ui: refactor more deeply script processes to allow processes to have separate scripting and UI.</li>
+          <li>ui: support text OSC messages with line breaks and tabs</li>
+          <li>ui: when dropping a video input device, create a passthrough</li>
+          <li>utils: allow to replace %n in filenames in recorder processes by the current number</li>
+          <li>widgets: add a folder chooser</li>
+          <li>widgets: allow to drop library elements on top of file chooser widgets</li>
+          <li>windows: enable gcodeview by default so that we can debug again</li>
+          <li>windows: handle more video pixel format</li>
+          <li>window device: add fps tracking</li>
+          <li>ysfx: allow to use saike version, change official builds to use it</li>
+          <li>ysfx: major improvements:  support resizing,  support menu, support cursor API</li>
+          <li>ysfx: support livecoding of YSFX plugins</li>
+        </ul>
+
+        <p>Improvements</p>
+        <ul>
+          <li>avnd: add support for more cases of texture inputs</li>
+          <li>avnd: allow nodes to upload buffers to gpu directly</li>
+          <li>avnd: allow to set line edit width</li>
+          <li>avnd: minor improvement to mouse events</li>
+          <li>avnd: work on updating texture sizes dynamically</li>
+          <li>bitfocus: handle number fields without range</li>
+          <li>bitfocus: implement some missing features</li>
+          <li>ci: add the possibility to pass a custom cache file when triggering a workflow</li>
+          <li>ci: boost 1.90, updates to every thirdparty library.</li>
+          <li>core: add a much more precise timer implementation than Qt timerEvent. We go from roughly 5 ms of variation to less than 0.5 ms, which gives much more stable FPS for outputs such as with Spout, NDI, etc.</li>
+          <li>core: improvements to floating-point environment handling to make sure we always are in a sane state.</li>
+          <li>core: load app settings if using --ui mode</li>
+          <li>core: rework InterfaceList to reduce build times</li>
+          <li>csv recorder: better handle escaping when writing</li>
+          <li>custom mesh: make it more tolerant of objects that havent finished building their geometry yet</li>
+          <li>exec: more thread enforcement, move some things from audio thread to main thread</li>
+          <li>execution: put all the initial cable creation into one single transaction</li>
+          <li>execution: revert to spsc for execution queue, now with better threading guarantees</li>
+          <li>expr: sin instead of cos for math generator</li>
+          <li>flatpak: many fixes and upgrades to all the libraries. Update to 6.10 runtime and clang-21.</li>
+          <li>freetype: rendering improvements</li>
+          <li>geometry filter: put it in the gpu thread</li>
+          <li>gfx: compute shader: limit buffer size to theoretical max for float[] as Qt RHI API supports 32-bit buffer sizes max (e.g. 2GB max per buffer).</li>
+          <li>gl: Force nvidia offload on linux only if there is any non nvidia gpu</li>
+          <li>gui: increase default ui update fps for VST, etc.</li>
+          <li>hidpi: fix artefacts when dragging nodes around</li>
+          <li>hidpi: improve rendering on non-integer ratios</li>
+          <li>isf: add some logic to handle parameters with default value but not min or max</li>
+          <li>js: improve default js script</li>
+          <li>js_utilities: implement more type conversions Qt between ossia</li>
+          <li>libraries: support FFMPEG 8</li>
+          <li>libraries: update HDF5</li>
+          <li>library: rework categories ; fix missing sorting on subcategories</li>
+          <li>lv2: implement full midi 1 between 2 conversion to enable more plugins to work</li>
+          <li>mqtt: upgrade to boost.mqtt5 when available</li>
+          <li>process: improve inspector label</li>
+          <li>sh4lt: update to sh4lt 0.2.0. Thanks @nicobou!</li>
+          <li>spline: improve the positioning of the origin axes</li>
+          <li>spout: direct gpu input instead of cpu copy</li>
+          <li>spout: improve frame sync</li>
+          <li>spout: update library to latest version</li>
+          <li>syphon: update library to latest version</li>
+        </ul>
+
+        <p>Bugfixes</p>
+        <ul>
+          <li>addons: fix off-by-one error which prevented addon loading bar to reset</li>
+          <li>appimage: fix that appimage recipe did not account for the new libv4lconvert not matched by libv4l2*</li>
+          <li>audio recorder: fix that the filename was not being sent anymore</li>
+          <li>audio: fix audio device document reload not recreating custom nodes</li>
+          <li>buffers: successful processing and passing around of gpu buffers</li>
+          <li>c++: just disable modules altogether, clang-scan-deps is broken on too many platforms</li>
+          <li>ci: add missing Qt SVG where needed</li>
+          <li>ci: do not fail macOS if there are no certificates</li>
+          <li>ci: fix longpath support on git clone on windows</li>
+          <li>ci: macos: fix frameworks that do not have headers</li>
+          <li>ci: simplify osx signing script</li>
+          <li>ci: update to sdk35 for switch to ysfx from @JoepVanlier</li>
+          <li>ci: wrong package name for fedora</li>
+          <li>command: add missing CreateTimeSync_Event_State in the CreationMetaCommand. Thanks @thibaudk!</li>
+          <li>command: fix #1879. Thanks @thibaudk!</li>
+          <li>core: fix live-coding order of operations issues</li>
+          <li>csf: handle differing input formats for input image</li>
+          <li>devices: fix a disconnect order bug</li>
+          <li>drive-by: fix vsts crashing if reloading on a computer that does not have said vst</li>
+          <li>gfx: rework of the general timer and vsync mechanism</li>
+          <li>gpu: large refactor and simplification of the gpu nodes</li>
+          <li>images node: fix infinite loop when setting an OSC address with non-null images</li>
+          <li>images: fix import of paths from library, fix scaling changing when preview was selected</li>
+          <li>inspector: add missing script process button</li>
+          <li>isf: fix events</li>
+          <li>jit: fix for clang-21 api changes</li>
+          <li>js: ensure the QJSValueList is destroyed in the same thread than the QQmlEngine</li>
+          <li>js: fix dynamic TextureSource objects</li>
+          <li>js: force clear color in TextureSource if we are not connected, to avoid artifacts</li>
+          <li>js: gpu node: always recreate it on script change for now</li>
+          <li>js: handle Qt versions that do not have QQuickRhiItem</li>
+          <li>layout: fix a crash when pasting string in a lineedit</li>
+          <li>lfo: fix pixmap sizes in hidpi</li>
+          <li>library: SCORE_ADDITIONAL_SCRIPT_INCLUDE_PATHS now supported on windows</li>
+          <li>library: skip .ui.qml files</li>
+          <li>library: use org name / app name for default path instead of hardcoded ossia/score</li>
+          <li>linux: fix appimage platform scripts</li>
+          <li>lv2: fix duplicate paths which can cause issues when opening UIs</li>
+          <li>macos: fix font bug due to QTBUG-143506</li>
+          <li>mapper: add debounce on the roots computation so that we only ever use the last version</li>
+          <li>metadata commands: handle cases where objects cannot be reloaded</li>
+          <li>msvc: support building with clang-cl</li>
+          <li>node item: prefer name to label</li>
+          <li>opengl: only check once for the GL capabilities</li>
+          <li>pipewire: handle cases where pw gives us more frames than requested</li>
+          <li>plugins: add missing composer key plug-in. fixes #1899</li>
+          <li>port source / port sink: also accept an inlet / outlet pointer directly</li>
+          <li>portaudio, samplerate: update to version that support cmake greater 3.5</li>
+          <li>presets: fix that values sometimes did not reload</li>
+          <li>process: make sure that processes do not lose their icons in object item model</li>
+          <li>qml: handle disconnection / reconnection of devices</li>
+          <li>qt: minor fix to hash combine</li>
+          <li>scenario: fix skin editor. Thanks @sophiepartoffranceinscotland for the report!</li>
+          <li>scenario: fix that timebar was disappearing when jumping into a subscenario that did not have it</li>
+          <li>serial: fix sending of OSC messages as bundles through Serial object</li>
+          <li>structure synth: ignore empty requests to prevent redundant work</li>
+          <li>thread pool: increase default priority</li>
+          <li>thread: add finer-grained functions to detect current thread</li>
+          <li>time_value: fix a logic error in addition.</li>
+          <li>timers: set timerId to -1 when unset</li>
+          <li>tools: fix developer.sh referencing an old, deleted function. Fixes #1909</li>
+          <li>tools: update fetch-sdk.sh to use proper macOS archive name</li>
+          <li>ui: add missing help tooltip to some items</li>
+          <li>ui: allow to force native dialogs</li>
+          <li>ui: do not try to restore</li>
+          <li>ui: enforce double precision for spinbox range computation, fixes a graphical bug with undo and reloading</li>
+          <li>ui: fix parsing of [] as ["[]"] and "" as [""] for list addresses</li>
+          <li>ui: fix small issues with folder chooser</li>
+          <li>ui: fix that time node look ugly when devicepixelratio between 1.5 and 2.</li>
+          <li>ui: fix title missing update when save as</li>
+          <li>ui: greatly improve performance of redraw of musical bars</li>
+          <li>ui: improve useability of some UI widgets from JS ; add support for vulkan backend for QtQuick in JS</li>
+          <li>ui: improvements to widget processes ; add a false-y check to impulse</li>
+          <li>ui: minor hidpi adjustments</li>
+          <li>ui: send interval updates even in --no-gui</li>
+          <li>video: make more robust in the face of invalid video files</li>
+          <li>vst3: skip hidden params</li>
+          <li>vst: adjust name / label</li>
+          <li>vst: fix that we have to do additional checks before unloading modules on mac</li>
+          <li>widgets: fix wrong relayout calculations when the size of a child widget changes</li>
+          <li>widgets: improve ComboBox mapping from avnd objects</li>
+          <li>win32: add enumerateCameraDevices implementation</li>
+          <li>win32: add vulkan sdk to github actions</li>
+          <li>win32: always ship libwinpthread, and ship a recent version</li>
+          <li>win32: fix loss of focus in library</li>
+          <li>win32: fix support of cameras that only report one FPS</li>
+          <li>win32: improve debug support</li>
+          <li>window: fixes under linux for updating refresh rate dynamically</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.7.1" date="2025-09-22">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.7.1</url>
+      <description>
+        <p>ossia score 3.7.1 is a minor patch release on top of the large 3.7 version from two days ago, mainly to fix the build against newly-released clang-21.</p>
+        <p>Bugfixes and improvements</p>
+        <ul>
+          <li>Fix build on clang-21, necessary for MSYS2 packages.</li>
+          <li>Fix that Wavecycle process had been inadvertently removed.</li>
+          <li>Minor graphics pipeline improvements.</li>
+          <li>Fix an issue with the drop of preset in hotswap mode.</li>
+          <li>Math expressions: fix that pos was not always set to the correct value.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.7.0" date="2025-09-18">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.7.0</url>
+      <description>
+        <p>ossia score 3.7.0 is a feature-packed back-to-school release, with a specific focus on deep bugfix, as well as UX and quality-of-life improvements.</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>AirWindows: mono plug-ins will now be able to be used in polyphonic contexts (e.g. they will be scaled to the number of input channels.</li>
+          <li>Array recombiner: add a transposition mode to turn for instance [ r, g, b, r, g, b ] into [ [ r r ] [ g g ] [ b b ] ].</li>
+          <li>Audio: initial ADM-OSC support in the Spatialization device.</li>
+          <li>Beat metronome: it now has inlets for every subdivision, and keeps track of the count.</li>
+          <li>Execution: annotate the code base to ensure that execution things happen in the correct thread.</li>
+          <li>GPU: allow the ossia::geometry class to carry GPU handles in addition of CPU buffers.</li>
+          <li>Interpolator: make the alpha factor minimum lower to enable very, very smooth operation.</li>
+          <li>JS: add a Score.createCable(outlet, inlet) function.</li>
+          <li>JS: add a Utils.writeFile function.</li>
+          <li>JS: allow to add additional script include paths through SCORE_ADDITIONAL_SCRIPT_INCLUDE_PATHS environment variable.</li>
+          <li>JS: allow to create processes by UUID.</li>
+          <li>JS: allow to introspect all the processes in the library.</li>
+          <li>JS: allow to use Qt.exit(0).</li>
+          <li>Library: allow to scan QML objects with imports that do not have versions (Qt 6 QML).</li>
+          <li>Local tree: add a /script address that allows running JS console scripts.</li>
+          <li>Local tree: if sending the OSC message /exit force then no dialog will be shown to ask the user to save modified scores. This will cause data loss if not careful!</li>
+          <li>Local tree: properly support processes with variable numbers of ports.</li>
+          <li>New process: Accumulator. Statistical tools on incoming values: outputs sum, count, mean, variance, median, kurtosis, min and max.</li>
+          <li>New process: Array to texture. Turn a [ R G B A R G B A R G B A ] input array into a video texture. </li>
+          <li>New process: Compute Shader. This allows to use compute shader to generate and process images. This is one of the last steps towards a useful GPU-based instancing node for massive particles rendering.</li>
+          <li>New process: Counter. Counts the incoming messages. Can optionally loop over a provided max or clip when the max is reached.</li>
+          <li>New process: Easetanbul. Delicately ease from one incoming value to another with the classic easing functions.</li>
+          <li>New process: Pulse view. A simple LED that lights up on incoming messages.</li>
+          <li>New process: Repetition Filter. A simple object to filter repeated values, useful for quick debounce.</li>
+          <li>New process: Value Filter. A full-blown toolkit to filter incoming values according to multiple criterion: combines noise gate, range filter, repetition filter with a deadzone, hysteresis, clipping, and temporal filter.</li>
+          <li>New process: Vertex Shader Art. This allows to create dynamic audio-reactive visuals from vertex shaders, based on the eponymous website. Be sure to update the user library to get the new shaders, imported from the website github!</li>
+          <li>New processes: Bendage, a set of video-bending processes for real-time image destruction: JPeg, Xlippy and Safe Word. They had been developed years ago but sadly forgotten... More to come!</li>
+          <li>New protocol: LSL (Lab Streaming Layer) for integration with scientific hardware and software.</li>
+          <li>Object Loader: will now display .ply files in addition of .obj.</li>
+          <li>QML: add an OSC packet processor to easily handle OSC packets in custom protocols.</li>
+          <li>QML: add support for setting QVector2D / 3D / 4D values.</li>
+          <li>Shaders: shaders with a mouse input will now automatically start mapped to the first Window devices mouse.</li>
+          <li>Sound: clicking on the waveform will now select it.</li>
+          <li>UX: add a shift+delete shortcut to remove a process in the middle of a chain while keeping the connections in the chain alive if the processes before and after are compatible.</li>
+          <li>UX: allow to create nodes while dropping into an empty full view.</li>
+          <li>UX: allow to drop a process or preset from the library onto a cable to insert it in the middle of a chain, if the first inputs and outputs are compatible. Drop will be indicated by the cable becoming dashed.</li>
+          <li>UX: allow to drop a process or preset from the library onto a node to insert it in the middle of a chain, if the first inputs and outputs are compatible. Drop will be indicated by the node border becoming orange. This allows hot-swap behaviour, to easily switch for instance a shader or an audio effect for another live.</li>
+          <li>UX: change the visualization of ports when they contain an address, to indicate better whether the address is active or not. </li>
+          <li>UX: dropping multiple processes or files in nodal view will now properly offset them by a few pixels to improve clarity.</li>
+          <li>Value display: it is now possible to request the process to log the last N received messages.</li>
+          <li>Video: clicking on the thumbnail will now select it.</li>
+        </ul>
+        <p>Bugfixes and improvements</p>
+        <ul>
+          <li>Algorithms: replace std:: implementations by custom ones to improve speed under ASAN.</li>
+          <li>Audio: thorough rework of audio start / stop ; fix the annoying JACK warning when opening a new document.</li>
+          <li>Avnd: add an automated RGBA from / to RGB conversion for processes that want to operate on CPU RGB textures.</li>
+          <li>Avnd: improve the color handling API to allow more precise skinning of processes.</li>
+          <li>Avnd: various small backend improvements especially for handling musical ticks.</li>
+          <li>CI: force ffmpeg@7 on macOS homebrew as ffmpeg@8 does not export symbols?</li>
+          <li>CI: ton of bugfixes and change tracking as usual.</li>
+          <li>CLAP: implement more features of the spec, in particular tempo / time signature support.</li>
+          <li>CLAP: make flush occur in the exec thread, not the main thread, per the spec.</li>
+          <li>Execution: fix a long-lived execution bug where setting the speed too fast could cause an invalid token request to be submitted to processes.</li>
+          <li>Execution: many smaller improvements and optimizations.</li>
+          <li>FFT: multiple fixes to FFT implementation.</li>
+          <li>GPU: various improvements and bug fixes to the render loop.</li>
+          <li>ISF and other shaders: fix that the default shader had disappeared, when dropping the process without an existing preset.</li>
+          <li>ISF: many backend improvements and simplifications. Deep rework of audio textures handling.</li>
+          <li>ISF: remove now-unneeded values from UBOs.</li>
+          <li>Library: ensure subcategories are sorted.</li>
+          <li>Library: performance optimizations.</li>
+          <li>Local tree: bugfixes.</li>
+          <li>Metronome: fix a potential division by zero.</li>
+          <li>Network: handle cases where socket shutdown throws an exception.</li>
+          <li>Nodes: improve default node sizing and allow smaller nodes.</li>
+          <li>ONNX: add a SCORE_ONNX_FORCE_PROVIDER env var to allow setting the ONNX provider manually.</li>
+          <li>ONNX: many bugfixes to various models implementations.</li>
+          <li>Sound: do not resize the main interval if dropping a sound file. This fixes a bug where dropping a sound in an empty node could have stopped playback due to the sound having a finite duration.</li>
+          <li>Sound: fix that sound would sometimes disappear when changing the used soundfile live.</li>
+          <li>Sound: fix that trying to load invalid audio files could lead to unhandled exceptions.</li>
+          <li>Sound: update drwav to latest version which allows to handle more cases of ACID tags.</li>
+          <li>Spline: fix that it did not loop.</li>
+          <li>Time chooser widget: improvements to range handling.</li>
+          <li>Tooling: various bugfixes and improvements to fetch-sdk.sh.</li>
+          <li>UI: cosmetic adjustments to prevent process to sometimes leak by 1 pixel in the background.</li>
+          <li>UI: do not show the PROJECT / LIBRARY paths in Button UI.</li>
+          <li>UI: fix that the first switch between nodal and temporal mode could lead to a wrong zoom value being saved.</li>
+          <li>UI: improve render performance in execution due to the little green bar constantly causing a repaint of the cables.</li>
+          <li>UI: prevent cables seemingly plugging into nothing when objects are connected in the same interval. They will now be turned into short dashed stubs pointing to the direction of the other part.</li>
+          <li>UI: prevent long labels from overflowing in nodes.</li>
+          <li>UI: various fixes caused by cases where the mouse release event would not be delivered to graphical items, leading the score to possibly end up in an incoherent state.</li>
+          <li>UI: various fixes to drag and drop getting stuck</li>
+          <li>UX: fix that nodes for sound and video did not always have the correct size when switching to nodal view.</li>
+          <li>VST/VST3: fix a crash that occured when dropping a port in a parent interval.</li>
+          <li>VST/VST3: scanner will now also look in .vst / .vst3 in the HOME folder in all platforms.</li>
+          <li>Video: playback bugfixes.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.6.1" date="2025-08-11">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.6.1</url>
+      <description>
+        <p>ossia score 3.6.1 is a small series of bugfix on top of 3.6.0. Special SIGGRAPH2025 edition!</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>Audio: Integrate the great Airwindows audio plug-ins.</li>
+          <li>Primitives: plane can now have varying number of subdivisions.</li>
+          <li>JS API: add a function to allow getting the current save file.</li>
+          <li>Model display: add support for controlling blending options to enable better particle effects.</li>
+          <li>Geometry filter: add support for reading .glsl files from the library directly. Check the new examples!</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>Core: fix an execution bug due to concurrency and threading in GPU threads.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.6.0" date="2025-08-07">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.6.0</url>
+      <description>
+        <p>ossia score 3.6.0 is a major release introducing useful new features and objects.</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>AI: new model support: FastVLM for video-to-text real-time inference.</li>
+          <li>AI: new model support: GAN image generation e.g. with MobileStyleGAN, FBAnimeGAN. More to come!</li>
+          <li>AI: new model support: GAN image processing e.g. with AnimeGANv3, DeblurGAN, FSRGan. More to come!</li>
+          <li>AI: new model support: LLM inference with Qwen3.</li>
+          <li>Audio: add initial support for CLAP plug-ins on Mac, Windows and Linux. Testing and feedback needed!</li>
+          <li>Audio: new reverber inspired from vintage Alesis MIDIVerb (BarrVerb, ported from github.com/ErroneousBosh/BarrVerb).</li>
+          <li>Avnd: improvements to the available APIs for UI to enable more use-cases with cross-controls interactions.</li>
+          <li>Bytebeat: implement a safe mode to try and avoid SIGFPE errors when a division by zero happens due to wrong bytebeat code.</li>
+          <li>Core: add xtensor, xsimd and xtl and eigen as official built-in libraries accessible to score addons.</li>
+          <li>Core: AI prompt composer.</li>
+          <li>Core: AI prompt tweener.</li>
+          <li>Core: the codebase now officially requires C++23 to build.</li>
+          <li>EGLFS / vkkhrdisplay: allow to exit the app with esc when running without X11 or Wayland for unattended installations.</li>
+          <li>Gfx: add support for Shadertoy effects, by drag'n'drop of Shadertoy URLs into a score which will trigger an automated conversion to ISF.</li>
+          <li>JIT: port to jitlink which fixes a lot of limitations when JIT-compiling plug-ins.</li>
+          <li>Linux: add a --platform argument to the appimage, to replicate the functionality of the previous Raspberry Pi scripts (ossia-score-eglfs, etc).</li>
+          <li>LV2: fixes for finding plug-ins in /usr/ with the AppImage.</li>
+          <li>Patterns: add support for patterns from drumpatterns.onether.com.</li>
+          <li>Processes: new data processing tool: Classifier (based on RapidLib, similar to Wekinator).</li>
+          <li>Processes: new data processing tool: Regressor (based on RapidLib, similar to Wekinator).</li>
+          <li>Processes: new object: interpolator. From a set of weights and a set of values, provides the linear interpolation of each values. Useful for navigating latent spaces!</li>
+          <li>Processes: new object: Nodes, to allow interpolation across multiple states. Features both a "circular node" mode, as well as a Voronoi mode.</li>
+          <li>Processes: new objects in the Puara toolkit: Correlation, Compass, Binarize, ERP, Clustering, PCA, Power Band. Thanks @pyandcpp-coder!</li>
+          <li>Processes: new objects: Impulse, String, Float, Integer to force the casting of a value type.</li>
+          <li>Processes: new objects: Knob, Multislider to have simple UI affordances to control parameters.</li>
+          <li>QML UI: add a TextureSource object to allow custom UI to import a texture from the output of a process.</li>
+          <li>QML UI: Qt Quick and Qt Quick Controls are now available to use for external UIs with official releases, which allows to make custom software with advanced UIs backed by a given score.</li>
+          <li>Script console, mapper device: add objects to allow low-level access to TCP and UDP sockets (#1798) as well as OSC.</li>
+          <li>Script editor: syntax highlighting for Faust code.</li>
+          <li>SDK: update the platform to LLVM 20, Qt 6.10.</li>
+          <li>UI: allow to copy the value of a Value Display easily.</li>
+        </ul>
+        <p>Bugfixes and improvements</p>
+        <ul>
+
+          <li>#1720: CMake issues with concurrentqueue on FreeBSD.</li>
+          <li>#1831: Missing includes.</li>
+          <li>#1833: Sporadic macOS crash when inferring AI models.</li>
+          <li>Avnd: processes with file ports will now relativize paths correctly to allow easier project portability across computers.</li>
+          <li>Avnd: put message bus things in a thread for GUI objects.</li>
+          <li>CI: a few hundred fixes as always.</li>
+          <li>Core: use std::span everywhere consistently.</li>
+          <li>Faust: fix live-coding a synth (#1829).</li>
+          <li>Fix missing port count in process library.</li>
+          <li>LV2: fixes to Suil and LV2 integration.</li>
+          <li>Reworked categories.</li>
+          <li>SDK: many bugfixes to features to allow building addons against the score SDK.</li>
+          <li>SDK: rework the CI infrastructure to allow repos building score addons to use a shared set of Github actions on github.com/ossia/actions.</li>
+          <li>UI: improve multi-xy pad rendering.</li>
+          <li>UI: improve reliability of script editor GUI.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.5.3" date="2025-07-07">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.5.3</url>
+      <description>
+        <p>ossia score 3.5.3 is another series of small bugfixes and improvements after the large 3.5.0 release.</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>Audio: Support using the PIPEWIRE_QUANTUM in addition to PIPEWIRE_LATENCY to set buffer size and sample rate under pipewire.</li>
+          <li>Linux: add a small independent binary that will run to devise whether the app has all the necessary dynamic libraries available.</li>
+          <li>OSC: allow to resolve by using DNS and not just IP addresses; refactor the DNS resolving code across the codebase. (#1689)</li>
+          <li>Windows: implement camera resolution enumeration using the most atrocious Win32 API.</li>
+          <li>Image node: add a stretch mode port.</li>
+          <li>AI models: add EmotionNet support for detecting emotions, DepthAnythingV2 for converting RGB frames into depth frames, and YOLO-segmentation support.</li>
+          <li>AI models: better default engine selection.</li>
+          <li>Gestures: add many new gesture detection algorithms courtesy of Yash Tiwary, our GSoC student. Thanks @pyandcpp-coder!</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>UI: Fix an UI bug when reloading an item with an XY slider.</li>
+          <li>Core: enforce using the same hash function in most places.</li>
+          <li>UI: improve rendering performance of cables.</li>
+          <li>Presets: fix loading presets of objects that may change ports.</li>
+          <li>Core: large cleanup of codebase compiler warnings which had accumulated.</li>
+          <li>Packaging: improve support for packaged KFR (#1819).</li>
+          <li>Core: update to boost 1.88.</li>
+          <li>Mapper: fix a concurrency bug which could have caused crashes when restoring a score which created and removed mapper devices.</li>
+          <li>Windows: fix open dialog sometimes having issues (QTBUG-138093).</li>
+          <li>Windows: fix that KFR was forced to SSE2.</li>
+          <li>Windows / Mac: fix the Window devices being jittery when moved (#1783).</li>
+          <li>CSV and audio recorder: ignore quotes in paths as they happen when using the "copy path" feature of Windows 11. (#1598)</li>
+          <li>Graphics: fix some textures still being inverted on Metal and D3D11/D3D12.</li>
+          <li>macOS: fix to enable running under Xcode frame capture. </li>
+          <li>Graphics: allow offscreen renderers to use something else than OpenGL now that it works fine.</li>
+          <li>MIDI: replace MIDI Pitch with MIDI Filter which is more powerful.</li>
+          <li>Graphics: handle more cases of texture formats in different processes, e.g. support R8 or RGB as input instead of only RGBA in Avendish nodes.</li>
+          <li>VST3: fix for some buggy plug-ins which do not follow the spec and do not allow deleting and recreating their IPlugView.</li>
+          <li>macOS: fixes for GL rendering (#1807).</li>
+          <li>UI: improvements to focus behaviour (#1811).</li>
+          <li>Camera: fix #1814.</li>
+          <li>UI: improvement to Graphics Combo ui widget.</li>
+          <li>Scripting: add Score.availableProcesses() and Score.availableProtocols() for introspection of available features and processes.</li>
+          <li>Scripting: implement removal of processes.</li>
+          <li>Audio: update Miniaudio on macOS and set it as default backend. Fix #1797.</li>
+          <li>Core: improvements to the quantization algorithm.</li>
+          <li>Core: lots of work to prevent bogus UBSAN warnings on hash functions.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.5.2" date="2025-05-05">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.5.2</url>
+      <description>
+        <p>ossia score 3.5.2 is another series of small bugfixes and improvements after the large 3.5.0 release.</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>New process: Deuterium is a drum machine specialized in loading Hydrogen drumkits.</li>
+          <li>New process: Kabang is a more controllable drum machine with 8 potential samples, pitch shift, etc.</li>
+          <li>New process: Minibang is a basic lo-fi vintage one-sample sampler.</li>
+          <li>UI: owners of a mouse with a forward / backward button can now use it to scroll through presets on the preset button of processes.</li>
+          <li>UI: double-clicking on a 2D pad will center it.</li>
+          <li>Breaking change: the address for key press on Window devices has changed. A key release event has been added, too.</li>
+          <li>Core: add an --ui-debug option to enable visualizing the score backend when creating a custom QML UI.</li>
+          <li>Core: add a few new API functions to enable building more powerful apps accessing all the devices.</li>
+          <li>Packaging: use distro Faust libraries when system libraries are requested.</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>Packaging: various flatpak-related fixes.</li>
+          <li>OSCQuery: many compatibility improvements for various kinds of HTTP and mDNS implementations which may not always support all features.</li>
+          <li>Graphics: performance optimization: do not render empty passes in unconnected ports, etc.</li>
+          <li>JS: fix that TextureOutlet was using an expensive RGBA32F texture instead of a RGBA8 one.</li>
+          <li>Core: fix a deep logic bug which caused weird errors when restoring a document that had cables being edited.</li>
+          <li>Graphics: fix auto-repeat blocking key input on Window device.</li>
+          <li>Graphics: disable back-face culling on plane primitive.</li>
+          <li>Graphics: fix an invalid vertex count issue with some primitive.</li>
+          <li>Graphics: fix UV maps on model display with Vulkan.</li>
+          <li>Core: UI performance optimization during execution of the score.</li>
+          <li>Graphics: fix avnd graphics processes with custom render target size.</li>
+          <li>VST: fix that reloading VSTs had broken on Windows and macOS.</li>
+          <li>VST: enable -execstack flag on Linux as otherwise with newer glibc this break some proprietary VSTs.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.5.1" date="2025-04-19">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.5.1</url>
+      <description>
+        <p>ossia score 3.5.1 is a series of small bugfixes and improvements after the large 3.5.0 release.</p>
+        <p>New features and changes</p>
+        <ul>
+          <li>CI: use native ARM64 runners for building AArch64 flatpaks.</li>
+          <li>JS: add support for ComboBox inlet.</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>CoreAudio and ALSA: bugfixes for high channel count soundcards. Raise limit to 1024.</li>
+          <li>Faust: fix potential errors due to disabled floating-point exceptions when instantiating instruments.</li>
+          <li>Flatpak: use native dialogs as it seems Flatpak does not supports Qt dialogs.</li>
+          <li>JS: fix that TextureOutlet was using an expensive RGBA32F texture instead of a RGBA8 one.</li>
+          <li>Linux: improve GLES support on AArch64.</li>
+          <li>Mapper device: fix a concurrency issue when closing a score.</li>
+          <li>Signal display: fix a potential crash when reloading scores from older versions using it.</li>
+          <li>VST: many small VST / VST3-related fixes in library scanning.</li>
+          <li>VST: limit parallel processes being launched for VST scans.</li>
+          <li>VST: make VST scanners much more lightweight.</li>
+          <li>Video: update HAP library to support newer formats.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.5.0" date="2025-01-16">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.5.0</url>
+      <description>
+        <p>ossia score 3.5.0 is a large upgrade which paves the way towards many future improvements.</p>
+        <p>Major platform changes</p>
+        <ul>
+          <li>Official releases now assume an AVX2 CPU and 64-bit on Intel and AMD CPUs. This does not apply to releases from various packages managers such as MSYS2, NixPkgs, Flathub, FreeBSD ports, only to official binaries from the official ossia website</li>
+          <li>Updated libraries: Qt to 6.9, FFMPEG to 7.1.1, etc.</li>
+          <li>On macOS, at least macOS 12.0 is now required as it is the minimum for recent Qt versions.</li>
+          <li>On macOS, score will abort if DYLD_LIBRARY_PATH is set as this usually cause spurious crashes when using the app due to loading Homebrew libs such as libpng over Apple ones.</li>
+          <li>The AArch64 Linux build (for Raspberry Pi, Asahi Linux, etc.) is now based on AppImage too and uses the same build scripts than x86_64 Linux. </li>
+          <li>Build support for newer compilers, e.g. Clang 20, 21 as well as CMake 4.0.</li>
+          <li>The entirety of MIDI processing inside score is now based on MIDI 2 UMP instead of MIDI 1 messages, which for now has no other user-facing effect than improving performance when using many MIDI objects, as UMP is more efficient.</li>
+        </ul>
+
+        <p>New features</p>
+        <ul>
+          <li>Audio: add ALSA support through Miniaudio to handle some cases where MMAP (Alsa Raw) and PortAudio both cause issues, e.g. for the pulse ALSA plugin</li>
+          <li>Audio: add an env var to force a global audio decoding method</li>
+          <li>Core: support building in C++23 and C++26 mode.</li>
+          <li>DMX: many interface improvements and features when creating a device. Allow to set universe length for special cases (DMX LEDs with 510 channels per universe). DMX addresses are more easily editable. Allow to add directly simple dimmers and RGB pars.</li>
+          <li>DMX: work-in-progress UI for defining LED fixtures (strips, panes)</li>
+          <li>Graphics: add a SCORE_DISABLE_SHADER_PREVIEW environment variable to disable shader preview widgets in the main score UI, as depending on the pipelines they can cause unwanted graphics lags in live performances.</li>
+          <li>Graphics: add support for the Qt RHI D3D12 backend</li>
+          <li>Graphics: allow running on the vkkhrdisplay backend, to support Vulkan rendering without any graphics server.</li>
+          <li>Graphics: allow setting single, double or triple buffering in the settings.</li>
+          <li>Graphics: enable NVidia and AMD card by default if available over integrated graphics</li>
+          <li>Graphics: enable Vulkan 1.1+ if available</li>
+          <li>Graphics: texture inlets can now specify a custom rendering resolution and filtering mode (ne.g. earest or linear).</li>
+          <li>HTTP device: add onRead and onReadString to allow to handle streaming input</li>
+          <li>HTTP device: add support for POST requests</li>
+          <li>ISF: support shader controls with inverted min / max</li>
+          <li>JS: add an UI mode to run a score with a custom Qt Quick user interface, through `--ui` command line flag.</li>
+          <li>JS: add functions useful for creating and looking up devices from the console.</li>
+          <li>JS: texture inlets will now receive mouse, touch and key events to enable user interaction with e.g. MouseArea.</li>
+          <li>MIDI: add a MIDI to array plug-in</li>
+          <li>Model display: implement a basic fulldome projection mode suitable for point clouds and detailed geometry</li>
+          <li>Spatialization: add the GBAP add-on which allows to generate grid-based spatialization coefficients. Thanks @bltzr @D3mh4!</li>
+          <li>Spatialization: add the Matrix audio object which spatializes a source to a number of channels according to a list of coefficients.</li>
+          <li>UI: add new widgets useful for spatialization trajectories: Multi-cursor and Path generator. Thanks @D3mh4!</li>
+          <li>UI: Allow to open code in external editors. Thanks @samamou! For this feature to work an editor must be set in the settings.</li>
+          <li>UI: indicate when an address is not found in the tree to help with error understanding</li>
+          <li>UI: make address search recursive and fix some unhandled cases</li>
+        </ul>
+
+        <p>Changes and bugfixes</p>
+        <ul>
+          <li>AI models: many improvements to support of the various ONNX models. Thanks @samamou!</li>
+          <li>Audio: better handling of denormals across the board, allow to specify that some nodes actually needs denormals</li>
+          <li>Audio: fix that dummy plug-in was always set back to 1024 buffer size</li>
+          <li>Audio: fix using ossia with soundcards with more than 128 channels on Mac.</li>
+          <li>Build fixes for various LV2 and Suil corner cases</li>
+          <li>Camera: fix that custom camera type was not being saved</li>
+          <li>coreaudio: fix device names in selector and no device not coming back</li>
+          <li>DMX: remove libartnet dependency which fixes a lot of ArtNet spurious errors</li>
+          <li>engine: fix play / pause remote control in no-gui mode</li>
+          <li>GPIOs: add a timer to regularly poll inputs</li>
+          <li>Graphics: add a way for render nodes to have a parent renderer, to allow synchronized multi-viewport</li>
+          <li>Graphics: create less surfaces when scrolling ISF presets which makes interaction much smoother.</li>
+          <li>Graphics: fix OpenGL support on Flatpak on GLES platforms.</li>
+          <li>Graphics: fix window not coming back up for rendering once closed</li>
+          <li>Graphics: many compatibility fixes for Spout and Syphon support</li>
+          <li>Graphics: many fixes to Y being inverted in some cases with back-ends other than OpenGL.</li>
+          <li>Graphics: more leniency towards invalid shaders, try to avoid crashes in much more cases.</li>
+          <li>ISF: set default range to 0-1 to not break mappings if the shader does not provide a range</li>
+          <li>JIT: fix target triple especially on Apple</li>
+          <li>Library: improve startup times by deferring parsing of many file formats to when they get selected on the library.</li>
+          <li>Local device: fix changing port</li>
+          <li>LV2: look for plugins into $HOME/.lv2</li>
+          <li>macOS: reenable JIT on AArch64</li>
+          <li>Mappings: Fix conversion of int addresses into float nodes ; fix midi mapping of CCs into e.g. ISF shaders</li>
+          <li>Micromap: fix that time-related variables were broken in non-array cases</li>
+          <li>MIDI control surfaces: fix support for hardware BCF2000 protocol</li>
+          <li>OSC: fix invalid widget for OSC over serial port</li>
+          <li>Processes: fix that kurtosis analysis process had disappeared.</li>
+          <li>RMS: fix that computation was broken when in stereo</li>
+          <li>UI: fix copy-paste position of multiple nodes in nodal view</li>
+          <li>UI: fix splash screen scaling on hidpi screens</li>
+          <li>UI: fix that inspector comboboxes would not update when creating a new device</li>
+          <li>UI: show address widgets if an address is set</li>
+          <li>Vel to Note: fix that notes were killed instantly when no quantification</li>
+          <li>VST: fix that resizeable plug-ins would not show up if a global UI scale factor was set in score.</li>
+          <li>VST: look for plugins into $HOME/.vst</li>
+          <li>And of course numerous smaller bugfixes, code and performance improvements, in particular many fixes to the graphics pipeline.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.4.1" date="2025-01-16">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.4.1</url>
+      <description>
+        <p>ossia score 3.4.1 is a feature-packed release for the start of 2025.</p>
+        <p>New features</p>
+        <ul>
+          <li>Bitfocus: handle regexes better in fields, fix that some configuration fields could not be typed into.</li>
+          <li>BSD: look explicitly for linux/gpio.h as it seems that some BSDs have linux/types.h and not linux/gpio.h</li>
+          <li>CI: fix build on Qt 6.2</li>
+          <li>CI: fix missing env. var when building tarballs.</li>
+          <li>Gfx: Fix cpu filter ports with multiple inputs</li>
+          <li>Linux: disable custom qt.conf in distro builds</li>
+          <li>Local tree: add port min/max metadata for parameters</li>
+          <li>Local tree: allow copy-paste of local tree address of inlets and objects</li>
+          <li>macOS: more Coreaudio fixes, for some devices such as Blackhole</li>
+          <li>Mapper device: safety fix, implement #1672 (Device.read and Device.write)</li>
+          <li>Poles: fix count which had an improptu off-by-one error</li>
+          <li>Scenario: disable min / max bounds when connecting to a trigger</li>
+          <li>Tooling: developer.sh: fix that it would clone addons with sudo leading to end-user confusion</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.4.0" date="2024-12-31">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.4.0</url>
+      <description>
+        <p>ossia score 3.4.0 is a feature-packed release for the start of 2025.</p>
+        <p>New features</p>
+        <ul>
+          <li>Introduce initial alpha support for loading AI models through onnxruntime. Right now supported models are BlazePose, YOLOv7 (blob detection), YOLOv8 (pose), ResNet. More to come, please mention any model you'd be interested in on our Discord! Feat. a cute new icon by @aklevy!</li>
+          <li>Introduce initial support for using Bitfocus Companion integrations and modules directly from ossia score. This requires installing an additional package from the package manager.</li>
+          <li>Introduce initial support for MIDI control surfaces using the MCU protocol. Selecting a process will now make its parameters available over the control surface UI.</li>
+          <li>Introduce Array Combiner, Array Tool, Array Flattener, and Array Recombiner processes to efficiently process arrays in various ways.</li>
+          <li>Add a new 2D Point View visualizer to visualize arrays of 2D positions.</li>
+          <li>Add a new Envelope Follower based on kferg.dev algorithm.</li>
+          <li>Add an initial implementation for 2D and 3D DBAP spatialization algorithm. Note that the implementation just generates the coefficients, and thus can be applied to any kind of spatial content, not just audio data.</li>
+          <li>Arraygen / Arraymap now provide an `n` variable to get access to the current number of elements.</li>
+          <li>Improve on-line help integration. Hitting F1 on any process will now open a browser with the help page of said object.</li>
+          <li>Integrate on-line help with Faust, VST and LV2 help page if available.</li>
+          <li>LED View now supports displaying input array as a lightness array.</li>
+          <li>Lightness Computer now supports RGBW output to facilitate use with this kind of LED strip.</li>
+          <li>LV2: add a locally-built Suil for showing LV2 UIs as the latest release does not yet support Qt 6.</li>
+          <li>macOS: more video format support.</li>
+          <li>macOS: port away from PortAudio to MiniAudio for audio backend. This finally allows to select a different input and output device and overall looks much more stable all while being much easier to integrate.</li>
+          <li>Patternist: add support for Accent and Slide features to enable sick acid bassline patterns.</li>
+          <li>Patternist: add support for legato notes.</li>
+          <li>Patternist: add TB-3 (303-like) patterns to the pattern library (jcelerier/drum-patterns on GitHub).</li>
+          <li>Patternist: add patterns from "260 Drum Machine Patterns" (René-Pierre Bardet) to the pattern library (thanks @danielmroczek.</li>
+          <li>Soundfile: allow to choose three quality levels for the resampling mode (e.g. pitch shift instead of time stretch). Previous and default mode is the HQ one, based on high-quality sinc interpolation from libsamplerate.</li>
+          <li>Threedim addon moved into official score repo to track changes more easily.</li>
+        </ul>
+        <p>Platform and CI changes</p>
+        <ul>
+          <li>Compatibility with Boost 1.87.</li>
+          <li>Flatpak: add an AArch64 build in CI.</li>
+          <li>Flatpak: update to the latest toolchain.</li>
+          <li>Initial successful builds of libossia targetting ESP32, more to come :-)</li>
+          <li>Many updates to dependencies</li>
+          <li>Reduce duplication in Github Actions CI tasks.</li>
+          <li>Replace Azure entirely with Github Actions.</li>
+          <li>RPi build: improve the startup scripts to cleanup unwanted dependencies if running on more recent AArch64 operating systems, such as Arch Linux or Asahi Linux.</li>
+          <li>Ubuntu Lunar (23.10) was removed from CI due end-of-life.</li>
+          <li>Ubuntu Oracular (24.10) was added to CI.</li>
+        </ul>
+        <p>Bugfixes and improvements</p>
+        <ul>
+          <li>Audio Recorder: support relative paths like elsewhere.</li>
+          <li>Automation: big rework of the pen tool to make sure we never end up in invalid states.</li>
+          <li>Automation: fix a rare crash when editing a curve point's X position.</li>
+          <li>BSD: implement VST3 support.</li>
+          <li>Calibrator: fix crash on remove on macOS. Thanks @led78 for finding and reproducing it!</li>
+          <li>CSV Reader: multiple bugfixes, improve timestamping.</li>
+          <li>Dev: allow to bypass some harmless ASAN warnings through SCORE_SANITIZE_SKIP_CHECKS=1 env var.</li>
+          <li>Dev: fix missing include (thanks @aalex!).</li>
+          <li>Fix some save format cable-related issues.</li>
+          <li>Geometry Filter: allow to chain multiple identical filters (a small feature in appearance, which requires a full-blown GLSL parser in practice...).</li>
+          <li>Geometry Filter: support livecoding better.</li>
+          <li>Gfx: work on geometry output from nodes in the GPU node graph.</li>
+          <li>GPS: fix a memory safety issue.</li>
+          <li>JIT: re-add support on AArch64.</li>
+          <li>JS: implement a deviceToOSCQuery function to export the OSCQuery JSON of a given device.</li>
+          <li>JS: implement an enumerateDevices API to track added and removed devices like in the Device dialog.</li>
+          <li>Kinect: fix build, initial try for a registered point-cloud output.</li>
+          <li>MIDI: fix that devices would sometimes enumerate too early on macOS leading to them not being visible in the UI.</li>
+          <li>MIDI: fix Computer Keyboard support on macOS. Note that this requires Accessibility permissions.</li>
+          <li>MinGW: reenable addons on CI.</li>
+          <li>MSVC: reenable addons on CI.</li>
+          <li>OSC: add support for always sending bundles for devices that only understand bundles.</li>
+          <li>OSC: disable broadcast being locked to 255.255.255.255.</li>
+          <li>OSC: fix that OSC devices were not recreated leading to OSC not working after editing the device.</li>
+          <li>OSCQuery: improve compatibility with weird embedded webservers.</li>
+          <li>Package manager: support packages with multiple files to download.</li>
+          <li>Patternist: fix crash when changing current pattern.</li>
+          <li>Serial: work on allowing non-standard baud rates, if the system supports that.</li>
+          <li>Signal display: fix scaling issues.</li>
+          <li>UI: make a preset appear under the mouse when dropped.</li>
+          <li>UI: performance optimizations for process and filesystem views.</li>
+          <li>UI: improve behaviour of nodal view especially when rescaling and resizing things.</li>
+          <li>UI: improve behaviour of copy-paste in nodal view.</li>
+          <li>Video: do not hide cursor on embedded video windows.</li>
+          <li>Video: multiple fixes to color space shaders introduced in 3.3.2.</li>
+          <li>VNC: fill the requested screen resolution instead of a 1024x768 default square.</li>
+          <li>VST3: fix crash when closing and reopening JUCE plug-ins. Fixes #1620.</li>
+          <li>Many performance optimisations for the various math expression objects.</li>
+          <li>As always a slew of smaller bugfixes and improvements !</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.2" date="2024-11-17">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.3.2</url>
+      <description>
+        <p>ossia score 3.3.2 is a minor hotfix release.</p>
+        <p>New features</p>
+        <ul>
+          <li>Support for automatic detection of BT.601, BT.709 and Rec2020 colorspaces in videos. Rec2020 is currently downscaled to SDR until we support a proper HDR video pipeline.</li>
+          <li>Signal Display will now display constant values as middle-centered dots</li>
+          <li>Devices: raw evdev input access on Linux to enable reading any kind of global keyboard / tablet / mouse / ACPI event</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>Audio: fix that audio analysis nodes would crash if using a non-power-of-two sample rate.</li>
+          <li>Audio: improve nomenclature for audio channel extractor.</li>
+          <li>Merger: fix missing combobox items.</li>
+          <li>Geometry filter: fix default filter which wasn't valid json</li>
+          <li>Geometry filter: add a validation step</li>
+          <li>Shmdata / Sh4lt: fix support of YUY2 video</li>
+          <li>LV2: prevent plug-ins with atom ports to crash.</li>
+          <li>MIDI: fix support for computer keyboard on non-X11 platforms.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.1" date="2024-11-15">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.3.1</url>
+      <description>
+        <p>ossia score 3.3.1 is a minor hotfix release.</p>
+        <p>New features</p>
+        <ul>
+          <li>LED View process to display [r,g,b,r,g,b,...] triplets</li>
+          <li>Signal Display will now display multi-dimensional arrays in addition of single values</li>
+        </ul>
+        <p>Bugfixes</p>
+        <ul>
+          <li>Build: fix warnings coming from 3rdparty libraries</li>
+          <li>CI: multiple fixes</li>
+          <li>UI: do not center widgets in vertical layouts</li>
+          <li>UI: fix precision issue with xy / xyz spinboxes and large ranges</li>
+          <li>Signal Display: fix that it was stuck</li>
+          <li>Core: be more lenient with processes that have dynamic ports</li>
+          <li>Core: fix that a QThread was deleted after QCoreApplication leading to a macOS crash</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.0" date="2024-11-12">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.3.0</url>
+      <description>
+        <p>ossia score 3.3.0 is a major release featuring a host of new capabilities.</p>
+        <p>New features</p>
+        <ul>
+          <li>Audio: Add an audio channel selector object</li>
+          <li>Audio: mono merging mode in Merger object</li>
+          <li>Automation: Make prettyName more descriptive</li>
+          <li>Avnd: initial support for objects defined as C++20 modules</li>
+          <li>Avnd: support for automatic reflection of enumeration names through magic_enum, removing the need for some macros</li>
+          <li>Avnd: support for CV-like data processing object with a very simple API</li>
+          <li>Avnd: support for loading data files in GPU nodes</li>
+          <li>Avnd: support making objects with dynamic port counts more easily</li>
+          <li>CI: Migrated continuous builds to GH actions</li>
+          <li>Core: Use snmalloc as default allocator</li>
+          <li>Data processing: HDF5 explorer processses, which allow to expose HDF5 data as either a 1D dimension or a texture.</li>
+          <li>Data processing: initial work towards importing of CSV and HDF5 files as curves by drag-and-drop.</li>
+          <li>Devices: initial work in allowing devices to specify the resources they are using such as ports, etc. in a more structured way.</li>
+          <li>Devices: Move the Device QML object implementation from score to libossia ; add Device.read/write to HTTP device</li>
+          <li>Devices: support for direct NeoPixel LED control over SPI.</li>
+          <li>Devices: support for the Sh4lt protocol which supersedes Shmdata. Thanks @nbouillot!</li>
+          <li>Graphics: Add support for GPU decoding of RGB24 and BGR24 textures, useful for Qt Animation qtrle files</li>
+          <li>Graphics: Efficient geometry filtering pipeline. Introduction of a Geometry Filter object which is able to inject transformations in the vertex shader stage and support for geometry processing relationships in the graphics thread.</li>
+          <li>Graphics: Sprite Reader object for all your retro-gaming needs</li>
+          <li>Graphics: Support for loading point clouds</li>
+          <li>JS: Add utility functions to convert between types</li>
+          <li>Mappings: Add a ArrayGen object to generate arrays easily</li>
+          <li>Mappings: add Combine and Spread objects to enable simpler processing and recombination of values into arrays</li>
+          <li>Mappings: add initial gesture detection support through the Puara Gestures library</li>
+          <li>Mappings: Mapping Tool object with a lot of feature for mapping data such as deadzone detection, re-scaling, etc.</li>
+          <li>Math: Fix live editing of expression in arraygen / arraymap</li>
+          <li>MIDI: initial support for computer keyboard input</li>
+          <li>MIDI: Virtual ports will now be scanned</li>
+          <li>OSC: add support for the SpatGRIS OSC API directly through a new device</li>
+          <li>OSC: allow to expose a local OSC device as a TCP server</li>
+          <li>OSC: allow to expose a local OSC device over an OSCQuery port</li>
+          <li>OSCQuery: handle buggy HTTP implementations that do not properly close connection</li>
+          <li>OSCQuery: implement dense mode which packs values according to an OSCQuery spec, especially useful for resource-constrained devices</li>
+          <li>Pipewire Respect PIPEWIRE_LATENCY environment variable</li>
+          <li>Platforms: add CI script based on native packages for Debian Trixie</li>
+          <li>Platforms: prevent the Intel version to run on AppleSilicon Macs as it is thoroughly incompatible</li>
+          <li>Platforms: support for building in C++23 mode</li>
+          <li>Platforms: support for macOS 15 and Xcode 16, clang-18, clang-19, Fedora 41</li>
+          <li>PureData / libpd: revert to a version with working audio</li>
+          <li>UI: Add icon for upcoming AI-based processes. Thanks @aklevy!</li>
+          <li>UI: Add support for slowing down slider changes with CTRL / Command</li>
+          <li>UI: implement reset-to-default-value-on-double-click on most central view UI controls</li>
+          <li>UI: make the middle column resizeable in the Device dialog. Thanks @samamou!</li>
+          <li>UI: tighter UI style</li>
+          <li>VST3: Support for VST3 on AArch64 platforms</li>
+        </ul>
+        <p>Improvements and bug fixes</p>
+
+        <ul>
+          <li>Audio: Fix saving / loading of propagate attribute</li>
+          <li>Audio: many fixes to quantification.</li>
+          <li>Audio: Various fixes for VST and LV2</li>
+          <li>Automation: Fix that changing the address would reset the scale if it was a pattern</li>
+          <li>Avnd: dynamic ports improvements</li>
+          <li>Avnd: support for texture sizes in CPU texture filters</li>
+          <li>BLE: Fix support on Win32 and Flatpak</li>
+          <li>Core: Be more lenient when reloading if a cable isn't present in a save file due to dynamic operations</li>
+          <li>Core: finish porting all the plug-ins written in the previous "Fx" API to Avendish which is now the one and only officially supported API for making ossia add-ons.</li>
+          <li>Curve rendering: optimizations when we have more than a thousand points.</li>
+          <li>Devices: Add a more optimized device_parameter implementation when we know the type beforehand</li>
+          <li>Devices: DNSSD: force every execution to execute over the same thread as Avahi is not thread-safe nor reentrant</li>
+          <li>Devices: Do not try to infer the min / max if things are patterns</li>
+          <li>Execution: domain and range improvements, allow value ports with ranges, fix LFO output range</li>
+          <li>Graphics: Fix missing Spout I/O on Windows</li>
+          <li>Graphics: fix that shmdata input do not reconnect when writer quits</li>
+          <li>Graphics: improve the amount of recomputations needed for geometry updates</li>
+          <li>Images: fix render shader which had broken</li>
+          <li>Items: Send signals to release mouse if a graphics item is deleted while being grabbed</li>
+          <li>JS: thread safety fixes and improvements</li>
+          <li>MIDI: fix some note-off cases that were not handled.</li>
+          <li>MIDI: Use the proper app name in MIDI APIs</li>
+          <li>Platform: Improve support of QT_QPA_PLATFORM=minimal</li>
+          <li>Raw I/O: improve PWM support</li>
+          <li>Scenario: creating a state by double-click will now automatically make it auto-started</li>
+          <li>Spline: Update and fix small bugs in tinyspline library</li>
+          <li>UI: Add documentation links to most processes and devices. The process inspector and device dialog now have direct links to the relevant help pages.</li>
+          <li>UI: Be more permissive with looping slot issues</li>
+          <li>UI: fix connected port look in hi-dpi mode</li>
+          <li>UI: fix the ugly ampersand that appeared some Qt versions ago.</li>
+          <li>UI: Fix UI not resizing when a port is added to a node</li>
+          <li>UI: LineEdit: improve relayout in nodes</li>
+          <li>UI: make sure that controls always show up no matter what in the inspector panel</li>
+          <li>UI: port UI improvements in inspector ; show more port names and always show port list.</li>
+          <li>UI: respect Alt-key magnetism behaviour when dropping a state.</li>
+          <li>UI: Update scene when node size changes to prevent background artefacts</li>
+          <li>UI: use double-precision for storing slider data as it caused visible precision issues with large ranges</li>
+          <li>VST / VST3: Disable GUI when running under wayland as plug-ins will crash</li>
+          <li>VST and friends:  Use the actual processed samples as timing information instead of a computation depending on speed</li>
+          <li>YSFX: cmake improvements</li>
+          <li>Many, many other bugfixes and code improvements...</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.4" date="2024-07-08">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.2.4</url>
+      <description>
+        <p>ossia score 3.2.4 is a bugfix release which enables FreeBSD support.</p>
+        <ul>
+          <li>Various fixes for VST and LV2</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.3" date="2024-07-02">
+      <url type="details">https://github.com/ossia/score/releases/tag/v3.2.3</url>
+      <description>
+        <p>ossia score 3.2.3 is a bugfix release which enables Flatpak support.</p>
+        <ul>
+          <li>Update dependencies to be flatpak-compatible</li>
+          <li>A bugfix to Nix support</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

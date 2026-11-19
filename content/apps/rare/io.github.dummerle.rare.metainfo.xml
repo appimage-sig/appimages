@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>io.github.dummerle.rare</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>Rare</name>
+    <developer id="io.github">
+        <name>RareDevs</name>
+    </developer>
+    <summary>Games launcher for Epic Games Store</summary>
+    <description>
+        <p>
+            Rare is a frontend for legendary-gl, an open source alternative for
+            the Epic Games Launcher.
+        </p>
+        <p>Why Rare?</p>
+        <ul>
+            <li>Tries to be as lightweight as we can make it while still offering a feature-full experience</li>
+            <li>Supports all major platforms (Windows, Linux, Mac)</li>
+            <li>Gets out of your way when you don't need it, allowing you to enjoy your games</li>
+        </ul>
+        <p>
+            Rare supports all core features from the Epic Games Launcher,
+            like installing and launching games, also many options to launch
+            games with compatibility tools.
+        </p>
+    </description>
+    <launchable type="desktop-id">io.github.dummerle.rare.desktop</launchable>
+    <screenshots>
+        <screenshot type="default">
+            <caption>Game library</caption>
+            <image>https://github.com/RareDevs/Rare/blob/main/docs/assets/RareLibraryIcon.png?raw=true</image>
+        </screenshot>
+        <screenshot>
+            <caption>Game details</caption>
+            <image>https://github.com/RareDevs/Rare/blob/main/docs/assets/RareGameInfo.png?raw=true</image>
+        </screenshot>
+    </screenshots>
+    <branding>
+      <color type="primary" scheme_preference="light">#483d8b</color>
+      <color type="primary" scheme_preference="dark">#483d8b</color>
+    </branding>
+    <url type="bugtracker">https://github.com/RareDevs/Rare/issues</url>
+    <url type="homepage">https://github.com/RareDevs/Rare</url>
+    <url type="translate">https://explore.transifex.com/rare-1/rare/</url>
+    <url type="contribute">https://github.com/RareDevs/Rare</url>
+    <url type="vcs-browser">https://github.com/RareDevs/Rare</url>
+    <releases>
+        <release version="1.12.0.178" date="2026-06-10">
+            <description>
+                <p>Cobia Cormorant (dev 178)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.178</url>
+        </release>
+        <release version="1.12.0.155" date="2026-04-27">
+            <description>
+                <p>Cobia Cormorant (dev 155)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.155</url>
+        </release>
+        <release version="1.12.0.154" date="2026-04-26">
+            <description>
+                <p>Cobia Cormorant (dev 154)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.154</url>
+        </release>
+        <release version="1.12.0.116" date="2026-03-19">
+            <description>
+                <p>Cobia Cormorant (dev 116)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.116</url>
+        </release>
+        <release version="1.12.0.102" date="2026-03-01">
+            <description>
+                <p>Cobia Cormorant (dev 102)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0.102</url>
+        </release>
+        <release version="1.12.0" date="2025-12-09">
+            <description>
+                <p>Cobia Cormorant</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.12.0</url>
+        </release>
+        <release version="1.11.3.332" date="2025-12-06">
+            <description>
+                <p>Boga Discus (Hotfix 3) (dev 332)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.3.332</url>
+        </release>
+        <release version="1.11.3.286" date="2025-11-18">
+            <description>
+                <p>Boga Discus (Hotfix 3) (dev 286)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.3.286</url>
+        </release>
+        <release version="1.11.3.255" date="2025-10-31">
+            <description>
+                <p>Boga Discus (Hotfix 3) (dev 255)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.3.255</url>
+        </release>
+        <release version="1.11.3.221" date="2025-10-01">
+            <description>
+                <p>Boga Discus (Hotfix 3) (dev 221)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.3.221</url>
+        </release>
+        <release version="1.11.3" date="2025-01-11">
+            <description>
+                <p>Boga Discus (Hotfix 3)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.3</url>
+        </release>
+        <release version="1.11.2" date="2025-01-01">
+            <description>
+                <p>Boga Discus (Hotfix 2)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.2</url>
+        </release>
+        <release version="1.11.0" date="2025-01-01">
+            <description>
+                <p>Boga Discus</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.11.0</url>
+        </release>
+        <release version="1.10.11" date="2023-12-17">
+            <description>
+                <p>Garlic Crab (Hotfix 11)</p>
+            </description>
+            <url>https://github.com/RareDevs/Rare/releases/tag/1.10.11</url>
+        </release>
+    </releases>
+    <content_rating type="oars-1.0"/>
+</component>

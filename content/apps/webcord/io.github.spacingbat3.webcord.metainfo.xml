@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.spacingbat3.webcord</id>
+
+  <name>WebCord</name>
+  <summary>Web-based Discord client</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <url type="homepage">https://github.com/SpacingBat3/WebCord</url>
+  <url type="bugtracker">https://github.com/SpacingBat3/WebCord/issues</url>
+  <url type="vcs-browser">https://github.com/SpacingBat3/WebCord</url>
+  <url type="translate">https://hosted.weblate.org/engage/webcord/</url>
+  <launchable type="desktop-id">io.github.spacingbat3.webcord.desktop</launchable>
+  <developer id="io.github.spacingbat3">
+    <name>Contributors of WebCord</name>
+  </developer>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+    <content_attribute id="money-purchasing">intense</content_attribute>
+  </content_rating>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <description>
+    <p>
+      This flatpak is not supported by webcord directly! Please open issues on the flathub repository first!
+    </p>
+    <p>
+      An Electron wrapper for the Discord web-client. It introduces new privacy features and an optionnal native wayland support.
+    </p>
+  </description>
+
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>About page</caption>
+      <image>https://imgproxy.flathub.org/insecure/dpr:2/f:avif/rs:fill-down/aHR0cHM6Ly9kbC5mbGF0aHViLm9yZy9tZWRpYS9pby9naXRodWIvc3BhY2luZ2JhdDMud2ViY29yZC8xZmU5NWQ3MTIwMDkyYmVlOGMwNDczYzRkZjk2OWNlYy9zY3JlZW5zaG90cy9pbWFnZS0xX29yaWcucG5n</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="4.14.0" date="2026-07-12" urgency="medium">
+      <description />
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.14.0</url>
+    </release>
+    <release version="4.13.2" date="2026-06-28" urgency="medium">
+	  <description />
+	  <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.13.2</url>
+    </release>
+    <release version="4.13.0" date="2026-04-06" urgency="medium">
+      <description />
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.13.0</url>
+    </release>
+    <release version="4.12.1" date="2025-11-18" urgency="medium">
+      <description />
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.12.1</url>
+    </release>
+    <release version="4.11.1" date="2025-08-23" urgency="medium">
+      <description />
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.11.1</url>
+    </release>
+    <release version="4.11.0" date="2025-05-16" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.11.0</url>
+    </release>
+    <release version="4.10.5" date="2025-04-18" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.5</url>
+    </release>
+    <release version="4.10.4" date="2025-02-19" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.4</url>
+    </release>
+    <release version="4.10.3" date="2024-12-26" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.3</url>
+    </release>
+    <release version="4.10.2" date="2024-10-06" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.2</url>
+    </release>
+    <release version="4.10.1" date="2024-08-25" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.1</url>
+    </release>
+    <release version="4.10.0" date="2024-07-06" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.10.0</url>
+    </release>
+    <release version="4.9.2" date="2024-05-12" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.9.2</url>
+    </release>
+    <release version="4.9.1" date="2024-05-04" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.9.1</url>
+    </release>
+    <release version="4.9.0" date="2024-05-03" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.9.0</url>
+    </release>
+    <release version="4.8.0" date="2024-02-20" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.8.0</url>
+    </release>
+    <release version="4.7.1" date="2024-02-06" urgency="medium">
+      <description>
+        <p>Implement handling of the circular references in CSS files that WebCord parses (it might be fun to try how this behaved before)</p>
+        <p>Properly handle audio sharing; don't define the audio should be shared if the user doesn't want to to do so and allow sharing audio on all platforms only with Electron 29 and newer</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.7.1</url>
+    </release>
+    <release version="4.7.0" date="2024-01-28" urgency="medium">
+      <description></description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.7.0</url>
+    </release>
+    <release version="4.6.1" date="2023-12-29" urgency="medium">
+      <description>
+        <p>Bump lockfile, update dependencies</p>
+        <p>Remove (most) font modules that were bundled with WebCord, try using available system fonts instead</p>
+        <p>Fix renderer crashes with About window</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.6.1</url>
+        <artifacts>
+            <artifact type="binary">
+                <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.6.1.tar.gz</location>
+                <checksum type="sha256">982edbd64ef19d95c27d765fff900a5f5c6d9b16a516e3346e2a1b5d18f0f99d</checksum>
+            </artifact>
+        </artifacts>
+    </release>
+    <release version="4.6.0" date="2023-12-16" urgency="medium">
+      <description>
+        <p>Update to Electron 18</p>
+        <p>Strip tracking from Discords CDN URLs when those are opened outside for WebCord</p>
+        <p>Fix built-in CSP for new Soundcloud player</p>
+        <p>Re-approach move to Node16</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.6.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.6.0.tar.gz</location>
+          <checksum type="sha256">082634d14590703c6496f30c9c55595e61ecfb8536ab5b5f95ffbe17e31427e0</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.5.2" date="2023-11-26" urgency="medium">
+      <description>
+        <p>Revert back to `module.exports` in Forge config.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.2</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.2.tar.gz</location>
+          <checksum type="sha256">e6fca20aa9ef370639ca02097859f61d971b800fb07750bd1f86bee8d1e318a6</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.5.1" date="2023-11-1" urgency="medium">
+      <description>
+        <p>Fix some CSS tweaks in WebCord made to Discord</p>
+        <p>Update Electron to 27.0.2</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.1.tar.gz</location>
+          <checksum type="sha256">171b7a8f0d1a28078a5375cded70ad3b9ad35c137c6641118970db61d15f9f84</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.5.0" date="2023-10-15" urgency="medium">
+      <description>
+        <p>Bump Electron to v27. This resolves regressions with webcord turning blank after leaving it open for a while.</p>
+        <p>Update various dependencies, such as marked and highlight.js.</p>
+        <p>Update implementation of source listing for screen share, this resolves an issue with not being able to share seperate windows.</p>
+        </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.5.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.5.0.tar.gz</location>
+          <checksum type="sha256">27723a752ca4750eda16b7a1f93b785160f5f85460cc3a395a86f75c917db62a</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.4.3" date="2023-10-08" urgency="medium">
+      <description>
+        <p>Fix / improve displaying long url in OS/native cross-origin dialog window</p>
+        <p>Update implementation of --add-css-theme, to make it display an OS/native file chooser dialog instead of reading the predefined path in cmdline, possibly making it to work better with sandboxing (Flatpaks, Snaps etc.)</p>
+        <p>Improve how safe mode is launched, removing redundant process.argv[0] from arguments.</p>
+        <p>Switch to Node16 module code, which makes WebCord to use an actual import() calls instead of wrapped require() into promises, allowing for partial ESM implementation.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.3</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.3.tar.gz</location>
+          <checksum type="sha256">9cd7baee440226209f4dd4979fe264c3eb0c2aa65ec4829d645a64490cf789df</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.4.1" date="2023-09-19" urgency="medium">
+      <description>
+        <p>!!Important: This update was mainly created due to a security vulnerability in Electron, it does not resolve the crashing issue</p>
+        <p>Implement safe mode to resolve the GPU crashing issues</p>
+        <p>Implement a way in locale files to add title= element for labels, as a way for additional description when labels are not enough.</p>
+        <p>Update Electron to 26.2.1</p>
+        <p>Update spanish and arabic localization</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.1.tar.gz</location>
+          <checksum type="sha256">ba747ccc0bcab7c0831a06b751f4b5881c330272caa8eaa5e86a7c46b7643536</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.4.0" date="2023-08-15" urgency="medium">
+      <description>
+        <p>Remove (previously left) unnecessary dependencies.</p>
+        <p>Update to Electron v26.0.0.</p>
+        <p>Resolve linter errors/warnings around types.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.4.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.4.0.tar.gz</location>
+          <checksum type="sha256">aa9668102cdec283e2a2af09738c8750ee1bbb57af24de529efc2b1a5e642a82</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.3.0" date="2023-06-23" urgency="medium">
+      <description>
+        <p>AppImages now use type2-runtime that while being experimental, doesn't require installing fuse2 package installed on modern distros/DEs (as most of them use fuse3 now) and since we use fuse2 builds, we still don't deprecate users with older software installed</p>
+        <p>AppImages now support parsing Arch Linux styled {{ name }}-flags.conf files</p>
+        <p>Add select all item/keybind to menu bar for all platforms</p>
+        <p>Bump Electron to v25</p>
+        <p>Remove polyfills from WebCord</p>
+        <p>Update code for breaking changes in some WebCord dependencies</p>
+        <p>Update overall dependencies to their latest versions</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.3.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.3.0.tar.gz</location>
+          <checksum type="sha256">298f0a47abaa896f894d93e1d4a76325381c989630161750af5e91593af9aa27</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.2.0" date="2023-04-08" urgency="medium">
+      <description>
+        <p>Update lockfile</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.2.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.2.0.tar.gz</location>
+          <checksum type="sha256">f49eb0627ef1cf2ce41cdf22fef81b09614c0080619be6a77016e14a426bc951</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.1.1" date="2023-01-01" urgency="medium">
+      <description>
+        <p>Sync localization files with Weblate</p>
+        <p>Repackage app under newer @reforged/maker-appimage version to fix .desktop / shell script syntax errors</p>
+        <p>Cache favicon hashes to conserve CPU usage</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.1.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.1.1.tar.gz</location>
+          <checksum type="sha256">3f22e5db824b73780f33b1eba8e9bf7cd3998cf65cf9304d3fc0c624319192f9</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.1.0" date="2022-12-31" urgency="medium">
+      <description>
+        <p>Workaround a bug with desktopCapturer that caused crashes/SIGSEV on Wayland when trying to screen share.</p>
+        <p>Refactor right-click context menu.</p>
+        <p>Implement a button to copy a link from origin dialog popups.</p>
+        <p>Try to optimize app with Chromium profiler (Node / main process only).</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.1.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.1.0.tar.gz</location>
+          <checksum type="sha256">8a5a600e2c3ce896744b141628d340716c8609a06ab767a62a70fb3f581bf021</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="4.0.0" date="2022-12-10" urgency="medium">
+      <description>
+        <p>Bump to 4.0.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v4.0.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v4.0.0.tar.gz</location>
+          <checksum type="sha256">2a9421a4261c62e5d49f13e7b689a9a1cf85733cf20f181e7ae64d0758c4a710</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.10.2" date="2022-12-10" urgency="medium">
+      <description>
+        <p>Revert Electron bump and older versions deprecation.</p>
+        <p>Improve --verbose flag implementation to also make Chromium engine log at verbose as maximum LOG() and VLOG() level and actually enable logs.</p>
+        <p>Multiple bug fixes with WinStateKeeper logic about detecting if window is still maximized or not.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.2</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.2.tar.gz</location>
+          <checksum type="sha256">59d58a25fadb49adf0e9fae8b78aacfd1bf8414ebdc458e893e1433e755bf2cd</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.10.1" date="2022-12-02" urgency="medium">
+      <description>
+        <p>Move WebSocket implementation to SpacingBat3/DisConnection</p>
+        <p>Implement support for NODE_DEBUG and DEBUG env variables</p>
+        <p>Improve algorithm that calculates and stores the window state</p>
+        <p>Move to electron 22</p>
+        <p>Bump minimal supported Electron version to 17.x.y</p>
+        <p>Localize WebCord to Arabic</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.1.tar.gz</location>
+          <checksum type="sha256">ecc3d2e8c3f860fe47aa9911e3b2708a3e584146a2f51e5fe95b604607a08663</checksum>
+	</artifact>
+      </artifacts>
+    </release>
+    <release version="3.10.0" date="2022-11-20" urgency="medium">
+      <description>
+        <p>UI fixes for smaller window sizes / screens. </p>
+        <p>Improve some command-line flags. </p>
+        <p>Update Russian localization files. </p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.10.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.10.0.tar.gz</location>
+          <checksum type="sha256">c03042ac18c65d5009a26bc6729b76154d2c1a8e53e738ee7912a060c04dba3f</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.9.3" date="2022-11-9" urgency="medium">
+      <description>
+        <p>Fix weird behaviour of Hide window to tray with the close button option</p>
+        <p>Refactor localization files loader class (L10N)</p>
+        <p>Refactor Content Security Policy class</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.3</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.3.tar.gz</location>
+          <checksum type="sha256">2c0cf7f0b5ea793ba2eb6259626fab52d0817bb09be0581d6e94f9be620e2436</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.9.2" date="2022-11-2" urgency="medium">
+      <description>
+        <p>Fix CSP for YouTube activity</p>
+        <p>Add setting to always close window on close button</p>
+        <p>Update electron to 21.2.1</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.2</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.2.tar.gz</location>
+          <checksum type="sha256">788554fd22edebe98443f1d10b8666a8a7120436ff1ebd947ec3644b55d270ae</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.9.1" date="2022-10-28" urgency="medium">
+      <description>
+        <p>Fix a bug which caused first argument passed to Electron not being parsed by WebCord.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.1.tar.gz</location>
+          <checksum type="sha256">e09059453f498220e63f9f6dbfa583f0384eff62b46a6c649ab34640f58a1a8d</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.9.0" date="2022-10-27" urgency="medium">
+      <description>
+        <p>Logging function fixes</p>
+        <p>Fix bug in CSS Loader which would cause webcord to freeze</p>
+        <p>Add support for window background transparency</p>
+        <p>Allow injecting CSS into popups</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.9.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.9.0.tar.gz</location>
+          <checksum type="sha256">a5fa741647212d8f59ec5c8278537e6d14203913794da4185fa3112f63365d50</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.8" date="2022-10-10" urgency="medium">
+      <description>
+        <p>Fix applying flags outside of list of WebCord's.</p>
+        <p>Update @spacingbat3/kolor to 3.0.2.</p>
+        <p>Update @pkgjs/parseargs to 0.11.0.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.8</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.8.tar.gz</location>
+          <checksum type="sha256">978b77738dfc8fbaf9534ebb8dbd3bbf892b68fa36f80448409727e3ca5423ac</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.7" date="2022-10-09" urgency="medium">
+      <description>
+        <p>Fix random freezes somehow caused by logging functions.</p>
+        <p>Use native fetch API if available in Node</p>
+        <p>Fix some Spotify embeds using build/embeds-legacy</p>
+        <p>Fix a crash/fatal Error that caused about window not to load</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.7</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.7.tar.gz</location>
+          <checksum type="sha256">69f616cb6ca83bacb48d6aeb9519d8f23355c80b53e2c6a3d0c3c556e4398f8b</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.6" date="2022-10-01" urgency="medium">
+      <description>
+        <p>Fix bug with a microphone caused by a duplicate requests sent without mediaType in Electron 21</p>
+        <p>Improve logic of detecting unofficial Discord instances used for determining if tray icon should be changed</p>
+        <p>Fix (in-promise, non-critical) Error when requesting the screen share if permission to it should be denied</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.6</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.6.tar.gz</location>
+          <checksum type="sha256">daa132afafc77aa75dff595952ae256cd84f15b0526286931f707b32d6c5fd23</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.5" date="2022-09-30" urgency="medium">
+      <description>
+        <p>Bump Electron to 21.x.y</p>
+        <p>Fix Spotify Embeds with built-in CSP turned on</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.5</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.6.tar.gz</location>
+          <checksum type="sha256">948e1e41b1cdac4030b5e87fe3bf24fc062b05af29b930113bd4e52a63a2cca9</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.4" date="2022-09-25" urgency="medium">
+      <description>
+        <p>Update WebCord's branding</p>
+        <p>Fix WebSocket server not being able to handle any connections</p>
+        <p>Update electron to 20.2.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.4</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.4.tar.gz</location>
+          <checksum type="sha256">76c7eb0166419f99549ca2a869e82ce2b9d303021471d242a84a3c4e811b157a</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.3" date="2022-09-12" urgency="medium">
+      <description>
+        <p>Fix wayland screenshare portals</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.3</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.3.tar.gz</location>
+          <checksum type="sha256">b1dbe5424800081434639bc11f0bfc80223fd16b590de819574f97e0204d7d4d</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.2" date="2022-09-11" urgency="medium">
+      <description>
+        <p>Bump webcord version to 3.8.2</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.2</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.2.tar.gz</location>
+          <checksum type="sha256">b780b8129ff9bddb231398109967007761e84cf95694f2db5d129d49e0c3cc18</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.1" date="2022-08-30" urgency="medium">
+       <description>
+         <p>Flatpak changes:</p>
+         <p>This release enables wayland by default when using webcord on wayland</p>
+         <p>Webcord changes:</p>
+         <p>Fix missing icon in releases.</p>
+         <p>Fix tray icon showing unread messages even when there are no unread messages</p>
+         <p>Update electron to 20.1.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.1.tar.gz</location>
+          <checksum type="sha256">f7144eb63939039ce666994916d694537e3bb1991ec159b47b89d79e800c0d39</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.8.0" date="2022-08-29" urgency="medium">
+      <description>
+        <p>Add support for redirecting to http pages</p>
+        <p>Make scrollbars more compact in WebCord's internal pages</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.8.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.8.0.tar.gz</location>
+          <checksum type="sha256">aa69bbd289651a6138464013c753c2d0488f8f5664df41ca1c10906bc57b2c69</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.7.1" date="2022-08-08" urgency="medium">
+      <description>
+        <p>Fix screenshare with electron 20.x.1</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.7.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archichve/refs/tags/v3.6.1.tar.gz</location>
+          <checksum type="sha256">3191f1420a51e13840a6ecc518c9560c9044282f0a6bc055285b7cc53273e118</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.7.0" date="2022-08-07" urgency="medium">
+      <description>
+        <p>Encrypt configuration files using the safeStorage api</p>
+        <p>Bump major electron version, now at 20.x.y</p>
+        <p>Harden webPrefrences policies</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.7.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.7.0.tar.gz</location>
+          <checksum type="sha256">09ef55ed2a97ff35f1cd64cf4d4b16a64367683067b524475c771bd62c7a6a94</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.6.0" date="2022-08-01" urgency="medium">
+      <description>
+        <p>Bump version to 3.6.0</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.6.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.6.0.tar.gz</location>
+          <checksum type="sha256">3191f1420a51e13840a6ecc518c9560c9044282f0a6bc055285b7cc53273e118</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.5.2" date="2022-07-24" urgency="medium">
+      <description>
+        <p>Flatpak changes: Added permissions to allow webcord to send notifications</p>
+        <p>Add Google Storage API CSP.</p>
+        <p>Spoof Errors in modified Web API elements.</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.2</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.5.2.tar.gz</location>
+          <checksum type="sha256">86431b54c97617734ed5bd7307830e522e208f6f8087cf4cec5ddbecaba25e15</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.5.1" date="2022-07-18" urgency="medium">
+      <description>
+        <p>Mitigate/fix the Electron's getUserMedia</p>
+        <p>Sort third-party checklist by identifier in Content Security Policy configuration section</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.4.0.tar.gz</location>
+          <checksum type="sha256">6f9173d7950bf7c0204e162c1ca513d5c7de2c2680cc8706eada27433d764419</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.4.0" date="2022-07-05" urgency="medium">
+      <description>
+        <p>Flatpak changes: this update gives the permission needed to allow a statusbar icon</p>
+        <p>This release bumps the electron version and adds german localization</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.4.0</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.4.0.tar.gz</location>
+          <checksum type="sha256">6f9173d7950bf7c0204e162c1ca513d5c7de2c2680cc8706eada27433d764419</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.3.0" date="2022-06-20" urgency="medium">
+      <description>
+        <p>This release adds a canvas fingerprinting blocker as well as webPrefrences hardening</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.5.1</url>
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.3.0.tar.gz</location>
+          <checksum type="sha256">d75baf875d8bd0ccb7becf3248e5609b49ceb8e4e9ba6aa7f39c39083ea62da7</checksum>
+        </artifact>
+      </artifacts>
+    </release>
+    <release version="3.2.0" date="2022-05-29" urgency="medium">
+      <description>
+        <p>This release bumps the electron version to 19.0.1 and greatly improves wayland support</p>
+      </description>
+      <url>https://github.com/SpacingBat3/WebCord/releases/tag/v3.2.0</url>
+
+      <artifacts>
+        <artifact type="binary">
+          <location>https://github.com/SpacingBat3/WebCord/archive/refs/tags/v3.2.0.tar.gz</location>
+          <checksum type="sha256">472eea406b220d28ad2eb5d3da65ec39ddb9503a0309e190e87af095943243b2</checksum>
+        </artifact>
+      </artifacts>
+
+    </release>
+  </releases>
+</component>

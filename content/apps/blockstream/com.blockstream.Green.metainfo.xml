@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.blockstream.Green</id>
+  
+  <name>Blockstream</name>
+  
+  <summary>A simple and secure Bitcoin and Liquid Network wallet</summary>
+
+  <developer_name>Blockstream</developer_name>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  
+  <project_license>GPL-3.0-only</project_license>
+  
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-info">moderate</content_attribute>
+  </content_rating> 
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  
+  <description>
+    <p>
+    Built by one of the most respected teams in the Bitcoin industry, Blockstream App is supported across multiple platforms and is designed for Bitcoin beginners and power users alike.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">com.blockstream.Green.desktop</launchable>
+  <url type="homepage">https://blockstream.com/green</url>
+  <url type="vcs-browser">https://github.com/blockstream/green_qt</url>
+  <releases>
+	  <release version="3.6.1" date="2026-11-04">
+	    <url type="details">https://github.com/Blockstream/green_qt/releases/tag/release_3.6.1</url>
+	    <description>
+        <p>Changed</p>
+        <ul>
+          <li>Updated GDK to 0.78.1</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Jade genuine check no longer requires a network connection</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.6.0" date="2026-09-21">
+	    <url type="details">https://github.com/Blockstream/green_qt/releases/tag/release_3.6.0</url>
+	    <description>
+        <p>Added</p>
+        <ul>
+          <li>Pay Lightning addresses and LNURL pay requests from the Lightning send flow</li>
+          <li>Dedicated login progress page, with a status-page link when login takes longer than expected</li>
+          <li>Configurable Electrum server gap limit in app preferences</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Updated GDK to 0.78.0</li>
+          <li>Redesigned manual coin selection, with a dedicated coin details page</li>
+          <li>Restored 2of2 and 2of3 account creation, with 2of3 limited to Bitcoin</li>
+          <li>Removed account creation from the receive flow</li>
+          <li>Send Liquid asset registry information to Jade when signing</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Lightning send failures reported without a human-readable error</li>
+          <li>Jade login and firmware updates when the device disconnects or has pending requests</li>
+          <li>Heap corruption when GDK fails to convert JSON to a string</li>
+          <li>The app restarting after the UI was terminated on purpose</li>
+          <li>Account balance shown while the account is still loading</li>
+          <li>Restore hanging when mnemonic login fails, and unusable buttons after a restore error</li>
+          <li>Wallet and account creation analytics events</li>
+          <li>Analytics sessions not restarting after analytics consent is enabled</li>
+          <li>Jade HTTP proxy host validation for empty or partially unapproved host lists</li>
+          <li>Improved Jade genuine-check failure handling</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.5.4" date="2026-08-31">
+	 	 	 <description>
+        <p>Changed</p>
+        <ul>
+          <li>Updated Qt to 6.11.2</li>
+          <li>Completed swaps are no longer restored at login</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Stale swap status caused by updates dropped while restoring pending swaps</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.5.3" date="2026-08-27">
+	 	 	 <description>
+        <p>Changed</p>
+        <ul>
+          <li>Updated GDK to 0.77.9</li>
+          <li>Updated LWK to 0.19.0</li>
+          <li>The Windows installer now requires the VC++ 2015-2022 runtime 14.40 or later</li>
+          <li>Use GDK to generate the Jade genuine check challenge</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Login hanging while waiting for an already connected Tor session</li>
+          <li>Crash when loading accounts without a session context</li>
+          <li>Crash when syncing payments without a QML engine</li>
+          <li>Crashes on macOS from unchecked HID reports</li>
+          <li>Crashes from concurrent Jade requests</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.5.2" date="2026-08-19">
+	 	 	 <description>
+        <p>Changed</p>
+        <ul>
+          <li>Improve swap data loading and error handling</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.5.1" date="2026-08-14">
+	 	 	 <description>
+        <p>Changed</p>
+        <ul>
+          <li>Updated sentry-native to 0.16.2</li>
+          <li>Log generic Boltz errors to help diagnose swap failures</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Crash on exit when a wallet is logged in</li>
+          <li>Crashes from the analytics session being released mid request and at shutdown</li>
+          <li>Crashes during Jade login when callbacks outlived their controller</li>
+          <li>Crash when checking Jade firmware with a stale request</li>
+          <li>Crashes from dangling edges in the task graph, and from tasks destroyed by siblings</li>
+          <li>Camera crashes when leaving the QR scanner or when devices are plugged and unplugged</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.5.0" date="2026-08-11">
+	 	 	 <description>
+        <p>Added</p>
+        <ul>
+          <li>Lightning Network support (Beta): enable a Lightning node from wallet settings, with dedicated send and receive pages (mainnet software wallets only, excluding BIP39 wallets)</li>
+          <li>AMP2 accounts, unified with AMP0 accounts in the wallet UI (testnet only)</li>
+          <li>Jade QR Connect for connecting and unlocking Jade over QR codes</li>
+          <li>Airgapped signing with Jade on watch-only wallets</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Temporarily disabled new swaps (Bitcoin/Liquid, and Liquid Bitcoin via Lightning) due to a service interruption; existing funds are unaffected</li>
+          <li>Migrated crash reporting from Crashpad to sentry-native, and disabled Sentry automatic session tracking</li>
+          <li>macOS disk images now contain only the native architecture</li>
+          <li>Windows wallet libraries are now code signed</li>
+          <li>Updated references from Green to Blockstream across the app and translations</li>
+          <li>Restored legacy multisig nLockTime and recovery email flows</li>
+          <li>Auto select asset and account in the receive flow</li>
+          <li>Updated transaction completed and failed pages</li>
+          <li>Disabled archiving for non-empty accounts and single account wallets</li>
+          <li>Disabled the PIN field when no login attempts remain</li>
+          <li>Show testnet unit labels in amount fields</li>
+          <li>Use the converted fiat currency in the unit menu</li>
+          <li>Supplement existing Jade entropy with additional host entropy</li>
+          <li>Configure builds with CMake presets</li>
+          <li>Updated GDK to 0.77.7</li>
+          <li>Updated LWK to 0.18.3</li>
+          <li>Updated zxing-cpp</li>
+        </ul>
+        <p>Removed</p>
+        <ul>
+          <li>Telegram 2FA</li>
+          <li>Delete wallet dialog</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Total balance fiat conversion on testnet</li>
+          <li>Send flow for BIP21 recipients</li>
+          <li>Balance refresh after payment</li>
+          <li>Focus after switching wallet</li>
+          <li>Lightning payments denominated in millisatoshi</li>
+          <li>Greedy spend amount now read from PSET outputs</li>
+          <li>Jade firmware update offering an already-installed version</li>
+          <li>Jade firmware update prompt while the device state is unsaved</li>
+          <li>Crash on exit when using Tor</li>
+          <li>Crash when Countly is unavailable, with graceful handling of network issues</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.4.1" date="2026-06-17">
+	 	 	 <description>
+        <p>Added</p>
+        <ul>
+          <li>BOLT12 offer description support</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Updated Qt to 6.11.1</li>
+          <li>Updated GDK to 0.77.6</li>
+          <li>Updated LWK</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.4.0" date="2026-06-02">
+	 	 	 <description>
+        <p>Added</p>
+        <ul>
+          <li>Support for paying BOLT12 offers, LNURL, and BIP353 addresses</li>
+          <li>Swap button on account asset page</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Updated minimum Jade firmware version to 1.0.40</li>
+          <li>Load swaps in background thread for faster startup</li>
+          <li>Reduce tasks during loading for improved performance</li>
+          <li>Updated GDK to 0.77.4</li>
+          <li>Updated hidapi to 0.15.0</li>
+          <li>Updated libusb to 1.0.29</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Race condition during swap sync</li>
+          <li>Various QML linting issues</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.3.0" date="2026-05-06">
+	 	 	 <description/>
+	  </release>
+	  <release version="3.2.0" date="2026-04-03">
+	 	 	 <description>
+        <p>Added</p>
+        <ul>
+          <li>Fiat pricing support for Liquid assets</li>
+          <li>Jade Core integration with improved device connection checks</li>
+          <li>Build scripts and setup instructions for macOS, Linux, and Windows</li>
+          <li>Swap ID display for lockup transactions in Onchain and Submarine swaps</li>
+          <li>Countly analytics events for swaps</li>
+          <li>Added LWK dependency</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Updated wallet header with improved actions layout</li>
+          <li>Improved Jade device status handling and unlock experience</li>
+          <li>Refactored swap, invoice, and context/limit models for better maintainability</li>
+          <li>Enabled Qt Wayland integration on Linux</li>
+          <li>Updated GDK to 0.77.2</li>
+        </ul>
+        <p>Fixed</p>
+        <ul>
+          <li>Coin list refresh after transaction creation</li>
+          <li>URL link handling on macOS</li>
+          <li>Testnet handling in payment parser</li>
+          <li>Cursor consistency on clickable UI elements</li>
+          <li>Notification section visibility when multisig notifications are unavailable</li>
+          <li>Notification toasts with long descriptions</li>
+          <li>Stability improvements in resolver/task error handling and swap sync concurrency</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.1.0" date="2026-03-04">
+	 	 	 <description>
+        <p>Added</p>
+        <ul>
+          <li>Receive Liquid Bitcoin via Lightning</li>
+          <li>Pay Lightning invoice with Liquid Bitcoin</li>
+          <li>Swap Bitcoin and Liquid Bitcoin</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Show 2FA options for existing multisig sessions</li>
+          <li>Jade genuine check improvements with dedicated drawer</li>
+          <li>Updated onboarding flow</li>
+          <li>Updated GDK to 0.76.3</li>
+          <li>Updated kdsingleapplication to 1.2.0</li>
+          <li>Improvements in build scripts</li>
+        </ul>
+        <p>Fixes</p>
+        <ul>
+          <li>Check version of the installed Visual C++ Redistributable package</li>
+          <li>Fixed several runtime execution warnings</li>
+          <li>Fix pay BIP21 flow</li>
+        </ul>
+       </description>
+	  </release>
+	  <release version="3.0.1" date="2026-01-27">
+		  <description>
+        <p>Added</p>
+        <ul>
+          <li>Buy events</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Improved send flow when the wallet does not have liquid assets</li>
+          <li>Better look and feel consistency of some controls</li>
+        </ul>
+        <p>Fixes</p>
+        <ul>
+          <li>Amounts when exporting transactions to CSV file</li>
+          <li>Load all transactions of a watchonly wallet</li>
+          <li>Exclude archived accounts to compute total wallet balance</li>
+          <li>Crash during application quit</li>
+        </ul>
+		  </description>
+	  </release>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://blog.blockstream.com/content/images/size/w1000/2026/01/App_Desktop_3.0.0.jpg</image>
+      <caption>Main wallet overview</caption>
+    </screenshot>
+  </screenshots>
+</component>

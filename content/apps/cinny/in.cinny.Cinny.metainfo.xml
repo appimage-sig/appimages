@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>in.cinny.Cinny</id>
+  
+  <name>Cinny</name>
+  <summary>Yet another Matrix client with simple, elegant and secure interface.</summary>
+  <developer_name>Ajay Bura</developer_name>
+  <developer id="io.github.ajbura">
+    <name>Ajay Bura</name>
+  </developer>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  
+  <url type="homepage">https://cinny.in/</url>
+  <url type="bugtracker">https://github.com/cinnyapp/cinny/issues</url>
+  <url type="donation">https://cinny.in/#sponsor</url>
+  
+  <supports>
+    <control>touch</control>
+  </supports>
+  
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <display_length compare="ge" side="shortest">330</display_length>
+    <display_length compare="ge" side="longest">360</display_length>
+  </recommends>
+
+  <requires>
+    <internet>always</internet>
+  </requires>
+
+  <categories>
+    <category>Network</category>
+    <category>InstantMessaging</category>
+    <category>Chat</category>
+  </categories>
+
+  <description>
+    <p>
+      Cinny is a matrix.org client focusing primarily on simple, elegant and secure interface protected by e2ee with the power of open source.
+    </p>
+    <p>
+      Features: User-friendly design, Login and register, Full space support, Encryption and emoji verification, Ability to create new rooms and tweak settings, Support replies, markdown, message editing, Dark, light, and black themes.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">in.cinny.Cinny.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/in.cinny.Cinny/master/resources/screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/in.cinny.Cinny/master/resources/screenshot2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/in.cinny.Cinny/master/resources/screenshot3.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+      <release version="4.12.8" date="2026-10-25">
+         <description></description>
+      </release>
+      <release version="4.12.7" date="2026-09-15">
+         <description/>
+      </release>
+      <release version="4.12.6" date="2026-08-01">
+         <description/>
+      </release>
+      <release version="4.12.5" date="2026-06-24">
+         <description/>
+      </release>
+      <release version="4.12.4" date="2026-06-22">
+         <description/>
+      </release>
+      <release version="4.12.2" date="2026-05-23">
+         <description/>
+      </release>
+      <release version="4.12.1" date="2026-05-15">
+         <description/>
+      </release>
+      <release version="4.11.2" date="2026-03-12">
+         <description/>
+      </release>
+      <release version="4.10.0" date="2025-08-31">
+         <description/>
+      </release>
+      <release version="4.9.1" date="2025-08-18">
+         <description/>
+      </release>
+      <release version="4.8.1" date="2025-07-28">
+         <description/>
+      </release>
+      <release version="4.6.0" date="2025-03-31">
+         <description/>
+      </release>
+      <release version="4.5.1" date="2025-03-05">
+         <description/>
+      </release>
+      <release version="4.5.0" date="2025-03-04">
+         <description/>
+      </release>
+      <release version="4.4.0" date="2025-02-23">
+         <description/>
+      </release>
+      <release version="4.3.2" date="2025-02-17">
+         <description/>
+      </release>
+      <release version="4.3.1" date="2025-02-11">
+         <description/>
+      </release>
+      <release version="4.2.3" date="2024-11-12">
+         <description/>
+      </release>
+      <release version="4.2.2" date="2024-10-16">
+         <description/>
+      </release>
+      <release version="4.2.1" date="2024-09-14">
+         <description/>
+      </release>
+      <release version="4.1.0" date="2024-08-04">
+         <description/>
+      </release>
+      <release version="4.0.3" date="2024-07-25">
+         <description/>
+      </release>
+      <release version="3.2.1" date="2023-11-05"/>
+      <release version="3.0.0" date="2023-10-21"/>
+      <release version="2.2.6" date="2023-03-29"/>
+      <release version="2.2.4" date="2023-01-30"/>
+      <release version="2.2.3" date="2023-01-15"/>
+      <release version="2.2.2" date="2022-09-28"/>
+      <release version="2.2.1" date="2022-09-28"/>
+      <release version="2.2.0" date="2022-09-17"/>
+      <release version="2.1.3" date="2022-08-31"/>
+      <release version="2.1.2" date="2022-08-11"/>
+      <release version="2.1.1" date="2022-08-07"/>
+      <release version="2.1.0" date="2022-08-07"/>
+      <release version="2.0.4" date="2022-05-29"/>
+      <release version="2.0.3" date="2022-05-15"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

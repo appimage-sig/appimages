@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>com.super_productivity.SuperProductivity</id>
+  <name>Super Productivity</name>
+  <summary>To-do list and time tracker</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <url type="homepage">https://super-productivity.com/</url>
+  <url type="bugtracker">https://github.com/super-productivity/super-productivity/issues</url>
+  <url type="vcs-browser">https://github.com/super-productivity/super-productivity/</url>
+  <url type="contribute">https://github.com/super-productivity/super-productivity/blob/master/CONTRIBUTING.md</url>
+  <url type="help">https://github.com/super-productivity/super-productivity/wiki</url>
+  <url type="donation">https://github.com/sponsors/johannesjo</url>
+  <launchable type="desktop-id">com.super_productivity.SuperProductivity.desktop</launchable>
+  <icon type="stock">com.super_productivity.SuperProductivity</icon>
+  <branding>
+    <color type="primary" scheme_preference="light">#99c1f1</color>
+    <color type="primary" scheme_preference="dark">#0d47a1</color>
+  </branding>
+  <categories>
+    <category>Office</category>
+    <category>ProjectManagement</category>
+  </categories>
+  <keywords>
+    <keyword>timeboxing</keyword>
+    <keyword>flowtime</keyword>
+    <keyword>gtd</keyword>
+    <keyword>focus</keyword>
+    <keyword>jira</keyword>
+    <keyword>github</keyword>
+    <keyword>gitlab</keyword>
+    <keyword>nextcloud</keyword>
+    <keyword>webdav</keyword>
+    <keyword>obsidian</keyword>
+  </keywords>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+  </supports>
+  <developer id="com.super_productivity">
+    <name>Johannes Millan</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+  <description>
+    <p>
+      Super Productivity is an open-source to-do list and time tracker for developers, freelancers, and anyone managing complex personal workflows. It works fully offline, with no account required.
+    </p>
+
+    <p>Highlights</p>
+    <ul>
+      <li>Drag-and-drop daily planner, weekly schedule, and Kanban boards</li>
+      <li>Built-in Pomodoro, timeboxing, and Flowtime modes with one-click time tracking and reports</li>
+      <li>Integrations with Jira, GitHub, GitLab, Gitea, Redmine, OpenProject, and Google Calendar</li>
+      <li>Optional sync via Nextcloud, WebDAV, Dropbox, or Super Sync; runs fully offline by default</li>
+      <li>Automations: rule-based triggers that auto-tag, auto-move, or auto-start tracking</li>
+      <li>Deadlines: sort, group, and filter tasks by deadline</li>
+      <li>Procrastination helper with CBT techniques and a structured end-of-day review</li>
+      <li>Plugin system with community plugins for Obsidian, Google Calendar, and more</li>
+      <li>Onboarding presets at first launch: Simple Todo, Time Tracker, or full Productivity Suite</li>
+      <li>Privacy by default: no sign-up, no tracking, no telemetry; MIT-licensed</li>
+    </ul>
+
+    <p>
+      Super Productivity has been in active development since 2016 and is supported entirely by community contributions and optional GitHub Sponsorships.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/01-list-with-schedule.png</image>
+      <caption>Today view with scheduled tasks and current work</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/02-planner.png</image>
+      <caption>Weekly planner for arranging tasks across upcoming days</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/03-eisenhower.png</image>
+      <caption>Eisenhower matrix for prioritizing urgent and important work</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/04-schedule.png</image>
+      <caption>Weekly schedule with tasks placed on the calendar</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/05-list-with-notes.png</image>
+      <caption>Project tasks next to the notes panel</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/06-focus-mode.png</image>
+      <caption>Focus mode with timer, current task, and Pomodoro controls</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/07-project.png</image>
+      <caption>Project view with tasks and subtasks</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.super_productivity.SuperProductivity/f5483f345cac0cd6441993748452c80a25296f61/08-task-detail-panel.png</image>
+      <caption>Task details with subtasks, planned date, note and tags</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="v20.0.0" date="2026-11-06">
+      <description>
+        <ul>
+          <li>Build Smart Lists with multiple tags and pin custom views</li>
+          <li>Keep links, attachments, and deadlines when duplicating tasks</li>
+          <li>Review your week with Friday wrap-ups and export worklogs including archived projects</li>
+          <li>Open New task, Today, or Inbox from desktop launch shortcuts</li>
+          <li>Fixes for recurring tasks, sync conflicts, and file-sync recovery</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v19.3.1" date="2026-10-25">
+      <description>
+        <ul>
+          <li>Collapse project task tables in the daily summary</li>
+          <li>Open downloads directly from the update banner</li>
+          <li>Sync asks before loading remote data that is missing your previous uploads</li>
+          <li>Issue and calendar updates pause while offline and catch up on reconnect</li>
+          <li>Fixed local date formatting</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v19.3.0" date="2026-10-23">
+      <description>
+        <ul>
+          <li>Recently deleted: recover tasks you deleted</li>
+          <li>New "won't do" option for tasks</li>
+          <li>End dates for repeating tasks and earlier reminders</li>
+          <li>Plainspace task sharing and community plugin installation</li>
+          <li>Fixes for recurring tasks, sync conflicts, backups and task duplication</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v19.2.0" date="2026-10-11">
+      <description>
+        <ul>
+          <li>Task priorities</li>
+          <li>Search for projects and tags, and drag several tasks at once</li>
+          <li>Undo for unscheduling and TickTick CSV import</li>
+          <li>Fixed double-counted or lost tracking time and background Pomodoro tracking</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v19.1.0" date="2026-09-19">
+      <description>
+        <ul>
+          <li>Keyboard navigation, shortcuts and multi-select for tasks</li>
+          <li>Support for multiple Google Calendar accounts</li>
+          <li>Escape now unfocuses the focused task</li>
+          <li>Archived recurring tasks are restored for their next occurrence</li>
+          <li>Window size is restored correctly after maximizing</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v19.0.1" date="2026-09-12">
+      <description>
+        <ul>
+          <li>Notes now edit live in Markdown, without switching between edit and preview</li>
+          <li>Select multiple tasks for bulk actions, duplicate tasks, and copy tasks as Markdown checklists</li>
+          <li>Rename projects, tags and folders by double-click or from the context menu</li>
+          <li>Local recovery points and an on-device backup list protect against data loss</li>
+          <li>User Profiles were removed</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.21.2" date="2026-08-31">
+      <description>
+        <ul>
+          <li>Touch swipes no longer move or resize schedule events</li>
+          <li>Fixed overdue repeating-task cleanup when reminders are present</li>
+          <li>Improved legacy data migration and sync reliability</li>
+          <li>Updated Turkish translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.21.1" date="2026-08-29">
+      <description>
+        <ul>
+          <li>Full worklog export</li>
+          <li>Manage connected SuperSync devices</li>
+          <li>Richer previews for recurring tasks</li>
+          <li>Opt-in live tracking presence for SuperSync</li>
+          <li>Fixes for task and section ordering, schedule layout and narrow task rows</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.19.0" date="2026-08-07">
+      <description>
+        <ul>
+          <li>Search the global settings and open the shortcut guide with "?"</li>
+          <li>Interval recurrences such as "@every 2 weeks"</li>
+          <li>Create or complete tasks through URL actions</li>
+          <li>Crash-safe project note drafts and stronger encrypted-sync safeguards</li>
+          <li>Deleted calendar events no longer reappear</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.16.0" date="2026-07-25">
+      <description>
+        <ul>
+          <li>Recurring task settings are now part of the schedule dialog</li>
+          <li>Add-task short syntax is highlighted as you type</li>
+          <li>Existing tasks appear in tagged board columns</li>
+          <li>Archived tasks restore to Today, and recurring presets keep their notes</li>
+          <li>Improved sync recovery and WebDAV and Nextcloud compatibility</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.15.1" date="2026-07-17">
+      <description>
+        <ul>
+          <li>Single-day view in the Schedule tab</li>
+          <li>Task counts for custom sections</li>
+          <li>Sync fixes that prevent data loss when merging changes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.14.0" date="2026-07-10">
+      <description>
+        <ul>
+          <li>Import Todoist data from the Import/Export launcher</li>
+          <li>Create tasks by dropping links or EML files into the app</li>
+          <li>Redesigned add-task bar with better notes, toggles and accessibility</li>
+          <li>New completed-task sorting and nesting options</li>
+          <li>More reliable encrypted file sync with fewer false conflict dialogs</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.13.1" date="2026-07-02">
+      <description>
+        <ul>
+          <li>Global wallpapers with per-context overrides</li>
+          <li>Create tasks in Plainspace-backed projects</li>
+          <li>Clearer overdue tasks, time conflicts and Later Today start times</li>
+          <li>Improved reminders, Focus Mode, sync prompts and ISO 8601 dates</li>
+          <li>Fixes for scheduling, subtasks, Nextcloud setup and large-data restores</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.12.0" date="2026-06-20">
+      <description>
+        <ul>
+          <li>Focus Mode shows session completion and sends countdown notifications</li>
+          <li>Plainspace shared-project integration and Vikunja discovery through CalDAV</li>
+          <li>Azure DevOps and Trello providers are now plugins</li>
+          <li>Fixes for task ordering, Flowtime settings, Linux display issues and Nextcloud errors</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.11.0" date="2026-06-19">
+      <description>
+        <ul>
+          <li>Add notes from the add-task bar</li>
+          <li>New Plainspace theme</li>
+          <li>Project and tag menus in tree order</li>
+          <li>Focus Mode enabled in the Time Tracker onboarding preset</li>
+          <li>More reliable sync and backups and persistent fullscreen note edits</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.10.0" date="2026-06-12">
+      <description>
+        <ul>
+          <li>Redesigned Focus Mode and idle dialog</li>
+          <li>Search includes note content and can filter completed tasks</li>
+          <li>Fixed overlapping same-time tasks in the calendar and schedule</li>
+          <li>Security, sync, reminder, backup and performance fixes</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.9.1" date="2026-06-05">
+      <description>
+        <ul>
+          <li>Quick History and Worklog unified into one History view</li>
+          <li>Parent folder context for projects and tags</li>
+          <li>Fixes for custom weekday repeats, project icon colors and regional date formats</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.8.0" date="2026-05-30">
+      <description>
+        <ul>
+          <li>OneDrive sync</li>
+          <li>Start a break directly from break reminders</li>
+          <li>Better attachment URL handling</li>
+          <li>Fixes for recurring task edge cases and malformed schedule times</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.7.0" date="2026-05-23">
+      <description>
+        <ul>
+          <li>Tasks due today can be added to Today automatically</li>
+          <li>Ctrl+C copies the focused task title</li>
+          <li>Focus Mode can auto-start breaks</li>
+          <li>Shortcut for compact and full sidebar mode</li>
+          <li>Fixes for SuperSync reconnects, Nextcloud login names, backups and calendar imports</li>
+        </ul>
+      </description>
+    </release>
+    <release version="v18.6.0" date="2026-05-16">
+      <description>
+        <ul>
+          <li>Scheduling warnings for overlaps and tasks outside work hours</li>
+          <li>Repeat-after-completion tasks and configurable Flowtime breaks</li>
+          <li>Background image picker and iCal include and exclude filters</li>
+          <li>Improved SuperSync and WebDAV reliability</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.5.0" date="2026-05-09">
+      <description>
+        <ul>
+          <li>Focus mode rework with a new interaction model</li>
+          <li>Scheduler view: reference calendar and work-log events, plus week-view scaling</li>
+          <li>Calendar: estimated time included in iCal/ICS planner entries</li>
+          <li>Tasks: Ctrl+Enter and Escape shortcuts for quicker task interactions</li>
+          <li>Settings: precise start-of-day time format</li>
+          <li>New AI Assistant community plugin and updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.4.4" date="2026-05-02">
+      <description>
+        <ul>
+          <li>Sections: drag-drop now places tasks at the correct slot</li>
+          <li>Sections: controls hidden until hover on non-touch devices</li>
+          <li>Tasks: focus moves to the next task after moving one to another project</li>
+          <li>Tasks: long unbreakable words in titles now wrap correctly</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.4.3" date="2026-05-01">
+      <description>
+        <ul>
+          <li>CalDAV: import subtasks</li>
+          <li>Recurring tasks: Nth weekday of month (e.g. first Monday)</li>
+          <li>Task widget: per-instance settings with Mac drag and resize fixes</li>
+          <li>Move-to-project menu shows project icons; tag chips render colored dots</li>
+          <li>Planner: faster auto-scroll while dragging tasks</li>
+          <li>Focus mode and sync stability improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.3.0" date="2026-04-25">
+      <description>
+        <ul>
+          <li>GitHub provider: optional inclusion of pull requests in issues</li>
+          <li>Focus mode: enlarged timer and reorganized Pomodoro controls</li>
+          <li>Plugin API: new reInitData hook</li>
+          <li>Sync: smoother Dropbox auth on sandboxed Linux</li>
+          <li>Stability and translation improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.2.0" date="2026-04-17">
+      <description>
+        <ul>
+          <li>Boards: tag AND/OR match mode and new sort options</li>
+          <li>Focus mode: pomodoro session counter reset button</li>
+          <li>Android: WebView crash recovery and reliable alarm restoration after updates</li>
+          <li>Sync: copy-URL fallback for Dropbox auth and restored periodic timer for file-based providers</li>
+          <li>Detect legacy v16.x sync format and warn instead of diverging silently</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.1.0" date="2026-03-29">
+      <description>
+        <ul>
+          <li>New CalDAV Calendar plugin with time-blocking support</li>
+          <li>Google Calendar plugin: reschedule, delete, and auto time-blocking</li>
+          <li>Local REST API for desktop automation</li>
+          <li>Conditional plugin config fields (showIf)</li>
+          <li>Better input handling for hybrid touch devices</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18.0.0" date="2026-03-26">
+      <description>
+        <ul>
+          <li>Automations: rule-based triggers (auto-tag, auto-move, auto-start tracking)</li>
+          <li>Onboarding presets at first launch: Simple Todo, Time Tracker, or Productivity Suite</li>
+          <li>Deadlines: sort, group, and filter tasks by deadline</li>
+          <li>Zen theme: minimal, calmer UI with transparent backgrounds</li>
+          <li>Mobile parity: swipe gestures, Y-axis-locked drag-and-drop, background sync on Android</li>
+          <li>Clickable URLs in task titles</li>
+          <li>Bundled Google Calendar provider plugin</li>
+        </ul>
+      </description>
+    </release>
+    <release version="17.0.0" date="2026-01-23">
+      <description>
+        <ul>
+          <li>Sync engine reliability: fixed false "in sync" status and DELETE vs UPDATE conflict races</li>
+          <li>Mobile: swipe-to-close gesture for side navigation</li>
+          <li>Planner: limit initial days to 5 on mobile for faster startup</li>
+          <li>SuperSync: encryption-at-rest tooling and Docker monitoring</li>
+        </ul>
+      </description>
+    </release>
+    <release version="16.0.0" date="2025-10-17">
+      <description>
+        <ul>
+          <li>Schedule view: drag-and-drop scheduling rework with new right-panel</li>
+          <li>Schedule: better drop preview, touch support, and panel scaling</li>
+          <li>Schedule: panel auto-refresh every two minutes</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

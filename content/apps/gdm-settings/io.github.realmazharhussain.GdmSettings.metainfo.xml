@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022-2023 Mazhar Hussain -->
+<component type="desktop-application">
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-or-later</project_license>
+  <content_rating type="oars-1.1"/>
+
+  <id>io.github.realmazharhussain.GdmSettings</id>
+  <launchable type="desktop-id">io.github.realmazharhussain.GdmSettings.desktop</launchable>
+  <translation type="gettext">gdm-settings</translation>
+
+  <name>GDM Settings</name>
+  <summary>Customize your login screen</summary>
+
+  <description>
+     <!-- Translators: GDM is an acronym for GNOME Display Manager (which is also GNOME's Login Manager). -->
+     <p>
+        Change GDM Settings; Apply theme and background, change cursor theme, icon theme
+        and night light settings, among other things.
+     </p>
+  </description>
+
+  <custom>
+    <value key="GnomeSoftware::key-colors">[(70, 140, 255), (50, 100, 200)]</value>
+  </custom>
+
+  <branding>
+    <color type="primary" scheme_preference="dark">#3264c8</color>
+    <color type="primary" scheme_preference="light">#468cff</color>
+  </branding>
+
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <!-- Minimum display resolution the application can work with -->
+  <requires>
+    <display_length>360</display_length>
+  </requires>
+
+  <!-- Minimum display resolution for a good experience using the app -->
+  <recommends>
+    <display_length side="longest">420</display_length>
+  </recommends>
+
+  <provides>
+    <binary>gdm-settings</binary>
+  </provides>
+
+  <!-- developer_name tag deprecated with Appstream 1.0 -->
+  <developer_name>Mazhar Hussain</developer_name>
+  <developer id="realmazharhussain.github.io">
+      <name>Mazhar Hussain</name>
+  </developer>
+  <update_contact>realmazharhussain_at_gmail.com</update_contact>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main Window (Desktop Mode)</caption>
+      <image>https://raw.githubusercontent.com/gdm-settings/screenshots/v5.0/light/default.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Sidebar (Mobile Mode)</caption>
+      <image>https://raw.githubusercontent.com/gdm-settings/screenshots/v5.0/light/tall-sidebar.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Appearance Settings (Mobile Mode)</caption>
+      <image>https://raw.githubusercontent.com/gdm-settings/screenshots/v5.0/light/tall-content.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://gdm-settings.github.io</url>
+  <url type="bugtracker">https://github.com/gdm-settings/gdm-settings/issues</url>
+  <url type="help">https://github.com/gdm-settings/gdm-settings/wiki</url>
+  <url type="translate">https://hosted.weblate.org/engage/gdm-settings</url>
+  <url type="donation">https://gdm-settings.github.io/donate</url>
+  <url type="vcs-browser">https://github.com/gdm-settings/gdm-settings</url>
+
+  <!-- Note: AppStream docs recommend keeping notes of old versions -->
+  <releases>
+    <release version="5.0" type="stable" date="2024-11-27">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v5.0</url>
+      <description translatable="no" translate="no">
+        <p>Added accent color settings, and settings to enable/disable touchpad or
+           disable touchpad when external mouse is connected. Added an option to
+           show/hide date in the top bar. Added a warning on app startup.</p>
+        <p>Fixed a bug where display scaling was not being applied to login screen.
+           Fixed "Extract Shell Theme" functionality not working</p>
+      </description>
+    </release>
+
+    <release version="5~beta0" type="development" date="2024-11-06">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v5.beta0</url>
+      <description translatable="no" translate="no">
+        <p>Fixed a bug where display scaling was not being applied to login screen.
+           Added accent color settings, and settings to enable/disable touchpad or
+           disable touchpad when external mouse is connected. Added an option to
+           show/hide date in the top bar. Added a warning on app startup.</p>
+      </description>
+    </release>
+
+    <release version="4.4" type="stable" date="2024-05-09">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.4</url>
+      <description translatable="no" translate="no">
+        <p>Add a request for donations.</p>
+      </description>
+    </release>
+
+    <release version="4.3" type="stable" date="2024-02-25">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.3</url>
+      <description translatable="no" translate="no">
+        <p>Improved brand colors for this app on GNOME Software and added brand
+           colors for this app on other software centers.</p>
+      </description>
+    </release>
+
+    <release version="4.2" type="stable" date="2024-02-25">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.2</url>
+      <description translatable="no" translate="no">
+        <p>Fixed "About" window crashing, some icons being colored in the sidebar, and
+           "Apply current display settings" not working properly. Improved app store
+           page (a.k.a metainfo). Added a mneumonic to the "Apply" button (It can be
+           activated with Ctrl+A keyboard shortcut).</p>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/210">#210</issue>
+      </issues>
+    </release>
+
+    <release version="4.1" type="stable" date="2023-10-22">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.1</url>
+      <description translatable="no" translate="no">
+        <p>Fixed "Apply current display settings" feature not working</p>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/199">#199</issue>
+      </issues>
+    </release>
+
+    <release version="4.0" type="stable" date="2023-10-21">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.0</url>
+      <description translatable="no" translate="no">
+        <p>GDM Settings 4 brings</p>
+        <ul>
+          <li>New UI style</li>
+          <li>GNOME 45 Support</li>
+          <li>Background image adjustment option</li>
+          <li>Shell theme, background and top bar tweaks working in high contrast mode as well</li>
+          <li>Application Window dragable from anywhere, not just the headerbar</li>
+          <li>Untranslated release information</li>
+        </ul>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/184">#184</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/180">#180</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/171">#171</issue>
+      </issues>
+    </release>
+
+    <release version="4~beta1" type="development" date="2023-10-03">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.beta1</url>
+      <description translatable="no" translate="no">
+        <p>Workaround Flathub's annoying behavior of silently stripping out some app info</p>
+      </description>
+    </release>
+
+    <release version="4~beta0" type="development" date="2023-09-29">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v4.beta0</url>
+
+      <description translatable="no" translate="no">
+        <p>First beta release of the upcoming GDM Settings version 4</p>
+        <ul>
+          <li>New UI style</li>
+          <li>GNOME 45 Support</li>
+          <li>New option to change background image adjustment</li>
+          <li>Shell theme, background and top bar tweaks now work in high contrast mode as well</li>
+          <li>Window can be dragged and moved from anywhere, not just the headerbar</li>
+        </ul>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/184">#184</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/180">#180</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/171">#171</issue>
+      </issues>
+    </release>
+
+    <release version="3.3" type="stable" date="2023-08-13">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.3</url>
+
+      <description translatable="no" translate="no">
+        <p>Fixed:</p>
+        <ul>
+          <li>Changing background color doesn't work on GNOME 44</li>
+          <li>Broken background image on GNOME 44 widescreen/dual monitor setups</li>
+        </ul>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/175">#175</issue>
+      </issues>
+    </release>
+
+    <release version="3.2" type="stable" date="2023-06-22">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.2</url>
+
+      <description translatable="no" translate="no">
+        <p>Fixed: Changing background doesn't work on GNOME 44</p>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/158">#158</issue>
+      </issues>
+    </release>
+
+    <release version="3.1" type="stable" date="2023-04-13">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.1</url>
+    </release>
+
+    <release version="3.0" type="stable" date="2023-04-13">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.0</url>
+
+      <description translatable="no" translate="no">
+        <p><em>New Options</em></p>
+        <ul>
+          <li>Option to disable accessiblitly menu when not being used</li>
+          <li>Option to change cursor size</li>
+          <li>A one-time donation request</li>
+          <li>Donate option in hamburger menu</li>
+        </ul>
+        <p><em>Behavior Changes</em></p>
+        <ul>
+          <li>Proper names are shown for themes instead of name of their directory</li>
+          <li>Cursor only themes are not presented when choosing icon theme</li>
+        </ul>
+        <p>Fixed: Fails to run on PureOS</p>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/138">#138</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/145">#145</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/148">#148</issue>
+      </issues>
+    </release>
+
+    <release version="3~beta.0" type="development" date="2023-03-23">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.beta.0</url>
+
+      <description translatable="no" translate="no">
+        <p>Fixed: Fails to run on PureOS</p>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/148">#148</issue>
+      </issues>
+    </release>
+
+    <release version="3~alpha.0" urgency="medium" type="development" date="2023-02-24">
+      <url>https://github.com/gdm-settings/gdm-settings/releases/tag/v3.alpha.0</url>
+
+      <description translatable="no" translate="no">
+        <p><em>New Options</em></p>
+        <ul>
+          <li>Option to disable accessiblitly menu when not being used</li>
+          <li>Option to change cursor size</li>
+          <li>A one-time donation request</li>
+          <li>Donate option in hamburger menu</li>
+        </ul>
+        <p><em>Behavior Changes</em></p>
+        <ul>
+          <li>Proper names are shown for themes instead of name of their directory</li>
+          <li>Cursor only themes are not presented when choosing icon theme</li>
+        </ul>
+      </description>
+
+      <issues>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/138">#138</issue>
+        <issue url="https://github.com/gdm-settings/gdm-settings/issues/145">#145</issue>
+      </issues>
+
+      <artifacts>
+        <artifact type="source">
+          <filename>gdm-settings-3.alpha.0.zip</filename>
+          <location>https://github.com/gdm-settings/gdm-settings/archive/refs/tags/v3.alpha.0.zip</location>
+          <checksum type="sha256">9067641e7f69347430bc7371003736be159d7715a0547ccde488c9191547e7a4</checksum>
+          <size type="download">373222</size>
+        </artifact>
+        <artifact type="source">
+          <filename>gdm-settings-3.alpha.0.tar.gz</filename>
+          <location>https://github.com/gdm-settings/gdm-settings/archive/refs/tags/v3.alpha.0.tar.gz</location>
+          <checksum type="sha256">3f3ac754e271b289e68ad69e30e968c120f9d50c2cc535e608addbb1e057f52c</checksum>
+          <size type="download">303974</size>
+        </artifact>
+        <artifact type="binary" platform="x86_64-linux-gnu" bundle="flatpak">
+          <location>https://github.com/gdm-settings/gdm-settings/releases/download/v3.alpha.0/io.github.realmazharhussain.GdmSettings.flatpak</location>
+          <checksum type="blake2b">740ec8e9e37e9a576afa618a92e0f601827f6150a8e25e802d0e732e2c9942c32122fd34bfa6d35e506efd8e8c7d7a12d38f7ec9539cdd4c8f73e7f8031077b4</checksum>
+          <size type="download">157296</size>
+        </artifact>
+        <artifact type="binary" platform="x86_64-linux-gnu" bundle="flatpak">
+          <location>https://github.com/gdm-settings/gdm-settings/releases/download/v3.alpha.0/io.github.realmazharhussain.GdmSettings.Locale.flatpak</location>
+          <checksum type="blake2b">374e9a20ca1fa30ecbba8309065d698471b7fc409aadbfaeb77ff9bd2c7bd1e070d04dd61096be4dcef08db3648a531f541d5ab0841e11919b5323c329a731b9</checksum>
+          <size type="download">78144</size>
+        </artifact>
+      </artifacts>
+    </release>
+
+    <release version="2.1" date="2023-2-4"/>
+    <release version="2.0" date="2022-11-22"/>
+    <release version="2~beta.1" type="development" date="2022-11-12"/>
+    <release version="2~beta.0" type="development" date="2022-10-26"/>
+    <release version="1.1" date="2022-10-08"/>
+    <release version="1.0" date="2022-09-23"/>
+    <release version="1.0~beta.4" type="development" date="2022-09-10"/>
+    <release version="1.0~beta.3" type="development" date="2022-09-06"/>
+    <release version="1.0~beta.2" type="development" date="2022-09-02"/>
+    <release version="1.0~beta.1" type="development" date="2022-09-01"/>
+    <release version="0.6" date="2022-06-20"/>
+    <release version="0.5.3" date="2022-05-08"/>
+    <release version="0.5.2" date="2022-04-28"/>
+    <release version="0.5.1" date="2022-04-24"/>
+    <release version="0.5" date="2022-04-23"/>
+    <release version="0.4-alpha" type="development" date="2022-03-16"/>
+    <release version="0.3-alpha" type="development" date="2022-02-25"/>
+    <release version="0.2-alpha" type="development" date="2022-01-31"/>
+    <release version="0.1.1-alpha" type="development" date="2022-01-23"/>
+    <release version="0.1.0-alpha" type="development" date="2022-01-22"/>
+  </releases>
+  <!-- Note: AppStream docs recommend keeping notes of old versions -->
+</component>

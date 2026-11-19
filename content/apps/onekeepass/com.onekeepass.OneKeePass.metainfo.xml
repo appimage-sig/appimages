@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2026 OneKeePass -->
+<component type="desktop-application">
+  <id>com.onekeepass.OneKeePass</id>
+
+  <name>OneKeePass</name>
+  <summary>Offline password manager</summary>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+
+  <developer id="com.onekeepass">
+    <name>OneKeePass</name>
+  </developer>
+
+  <launchable type="desktop-id">com.onekeepass.OneKeePass.desktop</launchable>
+
+  <description>
+    <p>
+      OneKeePass keeps your passwords and other sensitive information in a single
+      encrypted KeePass-compatible database file (KDBX 4). The file stays yours: keep
+      it on your computer, on a USB drive, or on cloud storage you already use.
+    </p>
+    <p>
+      Everything happens on your own machine. There is no account to create, no server
+      to trust and no telemetry. Databases are encrypted with AES-256 or ChaCha20 and
+      unlocked with a master password, a key file, or both.
+    </p>
+    <p>Features:</p>
+    <ul>
+      <li>Entries organised by type, category, tag or the standard group tree</li>
+      <li>Custom entry types and any number of custom fields, grouped into sections</li>
+      <li>Built-in entry types for SSH keys, identities, passports and driver licences</li>
+      <li>Time-based one-time passwords (TOTP) with a live countdown</li>
+      <li>Password and diceware passphrase generator</li>
+      <li>File attachments, and custom icons for entries and groups</li>
+      <li>Open databases directly over SFTP or WebDAV, without a third-party sync tool</li>
+      <li>Import CSV exports from Bitwarden, 1Password, LastPass and others</li>
+      <li>Merge databases, clone entries, and work with several databases at once</li>
+    </ul>
+  </description>
+
+  <!--
+    Captured on Linux at 1024x700 with native window decoration and shadow, as
+    Flathub's quality guidelines ask. Exactly one screenshot carries type="default"
+    - it is the one shown first, and AppStream allows only one.
+
+    The URLs are fetched by Flathub at BUILD time, so they must be pinned to a ref
+    that exists and never moves. A tag that has not been pushed yet, or one that is
+    later moved, is a failed build.
+  -->
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/OneKeePass/desktop/v0.26.0/screenshots/fh-entry-form-light-mode.png</image>
+      <caption>Browsing a database with an entry's details and a live one-time password</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OneKeePass/desktop/v0.26.0/screenshots/fh-entry-form-dark-mode.png</image>
+      <caption>The same entry shown in dark mode</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OneKeePass/desktop/v0.26.0/screenshots/fh-password-generator.png</image>
+      <caption>Generating a password with adjustable length and character sets</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/OneKeePass/desktop/v0.26.0/screenshots/fh-application-settings.png</image>
+      <caption>Application settings, including the interface language</caption>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://www.onekeepass.com</url>
+  <url type="bugtracker">https://github.com/OneKeePass/desktop/issues</url>
+  <url type="vcs-browser">https://github.com/OneKeePass/desktop</url>
+
+  <keywords>
+    <keyword>password</keyword>
+    <keyword>KeePass</keyword>
+    <keyword>KDBX</keyword>
+    <keyword>TOTP</keyword>
+    <keyword>encryption</keyword>
+    <keyword>vault</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1"/>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <display_length compare="ge">1024</display_length>
+  </recommends>
+
+  <releases>
+    <release version="0.27.0" date="2026-10-05">
+      <url type="details">https://github.com/OneKeePass/desktop/releases/tag/v0.27.0</url>
+      <description>
+        <ul>
+          <li>Browser integration in the Flatpak build, with Firefox, Chrome and Brave installed on the system</li>
+          <li>After copying a field, the window can now be left as it is, minimised, or sent to the background (not available on Wayland)</li>
+          <li>Traditional Chinese translations for Taiwan and Hong Kong</li>
+          <li>The Flatpak now uses the GNOME 51 runtime</li>
+          <li>Fixed: the title bar buttons now work on GNOME with Wayland</li>
+          <li>Fixed: the key file field in the Open Database dialog has enough space above it</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.26.0" date="2026-09-16">
+      <url type="details">https://github.com/OneKeePass/desktop/releases/tag/v0.26.0</url>
+      <description>
+        <ul>
+          <li>The entry list shows a live one-time password with a countdown</li>
+          <li>Picking an entry from the search results scrolls it into view</li>
+          <li>The group, entry list and entry form panels can be resized by dragging the dividers</li>
+          <li>Notes are shown in full in read mode, with a Show more / Show less toggle for long ones</li>
+          <li>The window can be set to minimise after a field is copied to the clipboard</li>
+          <li>Fixed: passkey fields in entries saved by an earlier version are now protected</li>
+          <li>Fixed: a list's scrollbar no longer shows through a menu opened over it</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.25.2" date="2026-09-01">
+      <url type="details">https://github.com/OneKeePass/desktop/releases/tag/v0.25.2</url>
+      <description>
+        <p>In the Flatpak build, application data follows the XDG layout, and the
+          system keyring is no longer used: an open database's encryption key stays
+          within the running application.</p>
+      </description>
+    </release>
+    <release version="0.25.1" date="2026-08-31">
+      <url type="details">https://github.com/OneKeePass/desktop/releases/tag/v0.25.1</url>
+      <description>
+        <p>OneKeePass can now be built and installed as a Flatpak, entirely from
+          source, the user interface included.</p>
+        <p>In that build, checking for updates points to your package manager, and the
+          recent databases list shows plain file names for databases opened through the
+          desktop file chooser.</p>
+      </description>
+    </release>
+    <release version="0.25.0" date="2026-08-05">
+      <url type="details">https://github.com/OneKeePass/desktop/releases/tag/v0.25.0</url>
+      <description>
+        <p>
+          Locking a database now removes its decrypted content from memory, and
+          databases lock automatically when the computer sleeps.
+        </p>
+        <p>
+          CSV import recognises the export files of many password managers, the
+          password generator gained an exclude-similar-characters option and colour
+          coded output, and an optional auto-save-after-edit setting was added.
+        </p>
+      </description>
+    </release>
+  </releases>
+</component>

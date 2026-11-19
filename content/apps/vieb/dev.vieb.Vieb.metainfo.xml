@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>dev.vieb.Vieb</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Vieb</name>
+  <summary>Vim Inspired Electron Browser</summary>
+  <developer id="nl.jelmerro">
+    <name>Jelmer van Arnhem</name>
+  </developer>
+  <description>
+    <p>Vim bindings for the web by design.</p>
+    <p>Vieb is the Vim Inspired Electron Browser.</p>
+    <p>Features:</p>
+    <ul>
+      <li>Free, open source, fast and secure</li>
+      <li>Local first adblocking, auto-complete, AMP protection, custom redirects and more, all without web requests</li>
+      <li>Privacy with strict permission system, navigator overrides, firefox mode, custom WebRTC policy and more</li>
+      <li>Accessible with custom themes, full interface &amp; fontsize scaling, page zooming, spellcheck and mouse support</li>
+      <li>Security settings with permissions, cache usage, cookie management, (auto-)download settings and more</li>
+      <li>Window splitting with buffer, split, Vexplore and Ctrl-w bindings, for multi-window browsing</li>
+      <li>Map commands for completely custom keyboard sequences, keystrokes, commands and actions</li>
+      <li>Viebrc config file for all custom/Vim/Vieb commands to configure settings permanently</li>
+      <li>Set command for runtime setting configuration exactly like Vim</li>
+      <li>Vim-compatible options: showcmd, timeout, colorscheme, maxmapdepth, spelllang, splitright, smartcase etc.</li>
+      <li>Container tabs with colored grouping, auto-clearing, individual cookies and tab restore from containers</li>
+      <li>Ad-blocker with cosmetic filtering, optional updater, custom lists and uses easylist/easyprivacy by default</li>
+      <li>Tabs including audio indicator, a toggle for multi-line tabs, pinned tabs, muted tabs and suspended tabs</li>
+      <li>Offline help documentation always available upon pressing F1</li>
+      <li>And much, much more. For more details, visit https://vieb.dev/features</li>
+    </ul>
+  </description>
+  <url type="homepage">https://vieb.dev/</url>
+  <url type="bugtracker">https://github.com/Jelmerro/Vieb/issues</url>
+  <url type="faq">https://github.com/Jelmerro/Vieb/blob/master/FAQ.md</url>
+  <url type="donation">https://github.com/sponsors/Jelmerro</url>
+  <url type="vcs-browser">https://github.com/Jelmerro/Vieb</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://vieb.dev/img/1.png</image>
+      <caption>Vieb on the main startup screen and help page</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://vieb.dev/img/2.png</image>
+      <caption>Vieb in light theme in its explore mode</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://vieb.dev/img/5.png</image>
+      <caption>Vieb in light theme with a search for vim</caption>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="12.11.0" date="2026-11-03">
+      <description></description>
+    </release>
+    <release version="12.10.0" date="2026-07-19">
+      <description/>
+    </release>
+    <release version="12.9.0" date="2026-05-10">
+      <description/>
+    </release>
+    <release version="12.8.0" date="2026-04-09">
+      <description/>
+    </release>
+    <release version="12.7.0" date="2026-02-27">
+      <description/>
+    </release>
+    <release version="12.6.0" date="2025-11-02">
+      <description/>
+    </release>
+    <release version="12.5.0" date="2025-09-03">
+      <description/>
+    </release>
+    <release version="12.4.0" date="2025-07-31">
+      <description/>
+    </release>
+    <release version="12.3.0" date="2025-05-08">
+      <description/>
+    </release>
+    <release version="12.2.0" date="2025-01-20">
+      <description/>
+    </release>
+    <release version="12.1.0" date="2024-11-24">
+      <description/>
+    </release>
+    <release version="12.0.0" date="2024-05-15"/>
+    <release version="11.0.0" date="2023-12-07"/>
+    <release version="10.6.0" date="2023-11-17"/>
+    <release version="10.5.0" date="2023-11-10"/>
+    <release version="10.4.0" date="2023-10-12"/>
+    <release version="10.3.0" date="2023-08-28"/>
+    <release version="10.2.0" date="2023-08-09"/>
+    <release version="10.1.1" date="2023-07-11"/>
+    <release version="10.1.0" date="2023-06-23"/>
+    <release version="9.2.0" date="2022-09-29"/>
+    <release version="9.1.0" date="2022-09-08"/>
+    <release version="9.0.0" date="2022-08-14"/>
+    <release version="8.1.0" date="2022-06-29"/>
+    <release version="8.0.0" date="2022-06-08"/>
+    <release version="7.2.0" date="2022-04-01"/>
+  </releases>
+  <launchable type="desktop-id">dev.vieb.Vieb.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+</component>

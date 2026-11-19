@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.equicord.equibop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Equibop</name>
+  <icon type="stock">org.equicord.equibop</icon>
+  <summary>A snappy Discord desktop client</summary>
+  <description>
+    <p>Equibop is a custom Discord desktop client aiming to give you better performance and a range of useful features.</p>
+  </description>
+  <categories>
+    <category>Network</category>
+    <category>InstantMessaging</category>
+  </categories>
+  <developer_name>Equicord Contributors</developer_name>
+  <launchable type="desktop-id">org.equicord.equibop.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Equicord settings page and about window open</caption>
+      <image type="source">https://files.catbox.moe/4medht.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>A dialog showing screenshare options</caption>
+      <image type="source">https://files.catbox.moe/22q8fx.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>A screenshot of a Discord server</caption>
+      <image type="source">https://files.catbox.moe/a2rz3y.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="3.3.4" date="2026-11-14" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.3.4</url>
+      <description/>
+    </release>
+    <release version="3.3.3" date="2026-11-14" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.3.3</url>
+      <description>
+        <ul>
+          <li>Upgraded to Electron 45</li>
+          <li>arRPC has been replaced with a new built-in Rich Presence implementation. Game detection is faster and more accurate, the Registered Games tab is back, and Discord now tracks your game activity. The separate "Configure Rich Presence" window and tray entry are gone</li>
+          <li>Advanced RPC requests (AUTHORIZE, OAuth2, etc.) are now supported</li>
+          <li>Modernised screenshare, and the audio share now stops properly when you end the stream</li>
+          <li>Screenshare picker: aborting now actually cancels, and "Source" text no longer wraps</li>
+          <li>Popout windows have a titlebar again</li>
+          <li>The window no longer un-maximises when restored from minimised</li>
+          <li>KDE: the tray icon now works when Equibop is autostarted</li>
+          <li>Linux: the unread badge now uses Electron's built-in badge count</li>
+          <li>Fixed relaunching the AppImage</li>
+          <li>Updater: no longer runs Setup on portable installs</li>
+          <li>Fixed splash screen theming</li>
+          <li>Windows builds are unsigned again for now</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.2" date="2026-10-23" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.3.2</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Upgraded to Electron 44, which fixes the eMudhra CA certificate issue</li>
+          <li>Spellcheck settings now show proper language names and have a search bar</li>
+          <li>The custom user agent now applies to the whole session, not just the main window</li>
+          <li>Windows builds are now code-signed</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.3.1" date="2026-09-16" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.3.1</url>
+      <description>
+        <p>What's Changed</p>
+      </description>
+    </release>
+    <release version="3.3.0" date="2026-09-05" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.3.0</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>**Discord Titlebar** is now **Native Titlebar**. Same option inverted, your setting carries over, but Windows now defaults to Discord's titlebar</li>
+          <li>Window shadow and rounded corners are now toggleable</li>
+          <li>Zoom with the numpad</li>
+          <li>Windows: screenshare no longer captures other participants' voices</li>
+          <li>Fixed the updater and the audio source picker</li>
+          <li>Updated venmic to 7.2.1</li>
+          <li>Linux: `--enable-speech-dispatcher` was removed upstream, re-add it under Launch Arguments if you use TTS</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.2" date="2026-07-22" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.2.2</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>fix DTLS Connecting issues for users of tailscale or similar VPNs (Equibop) by @niscolas</li>
+          <li>fix: correctly handle enable/disable feature flags from launch args modal by @lbrooney</li>
+          <li>fix: app badge showing -1 by @SegoGithub</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.1" date="2026-05-29" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.2.1</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>fix transparency on mac by @sdhEmily</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.2.0" date="2026-04-22" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.2.0</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Update Assets.car with Equibop logo by @UniquePixels</li>
+          <li>fix updater on fedora (and other rpm based distributions without zypper installed) by @liujustin604</li>
+          <li>fix arrpc binary path for darwin by @lazuee</li>
+          <li>General fixes and tweaks by @imjustprism</li>
+          <li>documenting arguments that can be used by @luqenov</li>
+          <li>Modify launch arguments instructions in README by @luqenov</li>
+          <li>Screenshare fix from windows-spoofing by @Error-Cezar</li>
+          <li>Fix tray icon when leaving a call with notification badges off by @TCMine</li>
+          <li>Refactor platform detection to use getPlatform function by @Error-Cezar</li>
+          <li>fix tray icon performance by @apyrr</li>
+          <li>Add CLI arguments to query voice channel status (`is-in-call`, `get-voice-channel-name`, `get-call-duration`) by @StavWasPlayZ</li>
+          <li>Add CLI argument to toggle VAD, allow multiple toggles by @DarkView</li>
+          <li>Update readme for equibop arguments and links by @luqenov</li>
+          <li>fix: colors being washed out by @YashRajCodes</li>
+          <li>Add `desktopName` to package.json by @PerchunPak</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.9" date="2026-02-19" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.9</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>try and fix unread not resetting on equicord update</li>
+          <li>Refactor platform detection to use getPlatform function by @Error-Cezar</li>
+          <li>fix tray icon performance by @apyrr</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.8" date="2026-02-07" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.8</url>
+      <description/>
+    </release>
+    <release version="3.1.7" date="2026-01-24" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.7</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Modify launch arguments instructions in README by @sankoofa</li>
+          <li>Screenshare fix from windows-spoofing by @Error-Cezar</li>
+          <li>Fix tray icon when leaving a call with notification badges off by @TCMine</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.6" date="2026-01-07" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.6</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>documenting arguments that can be used by @sankoofa</li>
+          <li>Fix Big issue with arrpc not actually loading the database</li>
+          <li>Move custom arguments to the tray instead of settings page</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.5" date="2025-12-26" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.5</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>General fixes and tweaks by @imjustprism</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.4" date="2025-12-7" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.4</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Merge https://github.com/Equicord/Equibop/pull/94</li>
+          <li>Fix streamermode for arrpc</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.3" date="2025-11-18" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.3</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Fix tray for flatpak</li>
+          <li>Merge upstream</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.2" date="2025-11-15" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.2</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Fixed Libvesktop</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.1" date="2025-11-15" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.1</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Moved arrpc build to static/dist for consistency</li>
+          <li>Fixed macOS universal binary packaging</li>
+          <li>Fixed --start-minimized flag when splash is disabled</li>
+          <li>Fixed potential CLI argument parsing edge case</li>
+          <li>Updated dependencies (Electron 39.2.0, arrpc-bun 1.3.1)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.1.0" date="2025-11-01" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.1.0</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Improved arRPC stability and communication</li>
+          <li>Possibly fixed tray memory leak</li>
+          <li>Fixed incorrect external links</li>
+          <li>Updated build system and CI workflows</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.0.9" date="2025-10-29" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.9</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Upgraded to Electron v39</li>
+          <li>Fixed some macOS compatibility issues</li>
+          <li>Fixed ARM64 bun runtime detection and loading</li>
+          <li>Fixed memory leaks in event listeners (FluxDispatcher, AppEvents, child processes, file watchers)</li>
+          <li>Improved build process and packaging efficiency</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.0.8" date="2025-10-27" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.8</url>
+      <description/>
+    </release>
+    <release version="3.0.7" date="2025-10-27" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.7</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>fix updater on fedora (and other rpm based distributions without zypper installed) by @liujustin604</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.0.6" date="2025-10-26" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.6</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Update Assets.car with Equibop logo by @UniquePixels</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.0.5" date="2025-10-26" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.5</url>
+      <description/>
+    </release>
+    <release version="3.0.4" date="2025-10-25" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.4</url>
+      <description/>
+    </release>
+    <release version="3.0.3" date="2025-10-25" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.3</url>
+      <description/>
+    </release>
+    <release version="3.0.2" date="2025-10-25" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.2</url>
+      <description/>
+    </release>
+    <release version="3.0.1" date="2025-10-25" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.1</url>
+      <description/>
+    </release>
+    <release version="3.0.0" date="2025-10-24" type="stable">
+      <url>https://github.com/Equicord/Equibop/releases/tag/v3.0.0</url>
+      <description>
+        <p>Complete Rewrite</p>
+        <p>This is a complete rewrite from the ground up. The v2 codebase had significant architectural issues that made it unmaintainable, so we've rebuilt Equibop with a cleaner foundation.</p>
+        <p>Major Changes</p>
+        <ul>
+          <li>Migrated from pnpm to bun for better performance and DX</li>
+          <li>Complete code restructure for improved maintainability</li>
+        </ul>
+        <p>Known Limitations</p>
+        <ul>
+          <li>Some features from v2 are not yet re-implemented</li>
+          <li>Report issues at https://github.com/Equicord/Equibop/issues</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <url type="homepage">https://github.com/Equicord/Equibop</url>
+  <url type="bugtracker">https://github.com/Equicord/Equibop/issues</url>
+  <url type="vcs-browser">https://github.com/Equicord/Equibop</url>
+  <content_rating type="oars-1.1"/>
+</component>
