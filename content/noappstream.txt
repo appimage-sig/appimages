@@ -1,5 +1,0 @@
-Файлы без заполненного metadata:
-./content/apps/mendeley/index.md
-./content/apps/mochi/index.md
-----------------------------------------
-Итого файлов с пустым или отсутствующим полем: 2
