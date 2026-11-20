@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://linphone.org"
 repository = "https://gitlab.linphone.org/BC/public/linphone-desktop"
 translations = "https://weblate.linphone.org/projects/linphone/linphone-desktop-6-1/"

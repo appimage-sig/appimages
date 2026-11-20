@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]
 
 [extra]
-
 screenshots = "https://zen-browser.app/_astro/ComImage.DV0rTSHO_Z1aH5BP.webp"
 homepage = "https://zen-browser.app"
 repository = "https://github.com/zen-browser/desktop"

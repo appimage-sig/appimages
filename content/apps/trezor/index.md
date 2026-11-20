@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["Custom"]
 
 [extra]
-
 homepage = "https://trezor.io/"
 repository = "https://github.com/trezor/trezor-suite"
 donations = "https://trezor.io/support/a/trezor-beer-fund"

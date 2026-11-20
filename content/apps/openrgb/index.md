@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "x86", "armv7l"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://gitlab.com/CalcProgrammer1/OpenRGB/-/raw/master/Documentation/Images/OpenRGB_Screenshot.png"
 homepage = "https://openrgb.org"
 repository = "https://gitlab.com/CalcProgrammer1/OpenRGB"

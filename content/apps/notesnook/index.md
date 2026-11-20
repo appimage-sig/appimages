@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://notesnook.com"
 repository = "https://github.com/streetwriters/notesnook"
 donations = "https://opencollective.com/notesnook"

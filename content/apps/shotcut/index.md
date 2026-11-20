@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://www.shotcut.org/assets/img/screenshots/Shotcut-18.11.18.png"
 homepage = "https://www.shotcut.org"
 repository = "https://github.com/mltframework/shotcut"

@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://vencord.dev/assets/screenshots/vesktop-1-appstream.png"
 repository = "https://github.com/Vencord/Vesktop"
 donations = "https://github.com/sponsors/Vendicated"

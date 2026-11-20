@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/Zettlr/Zettlr/refs/heads/develop/resources/screenshots/zettlr_view.png"
 homepage = "https://www.zettlr.com"
 repository = "https://github.com/Zettlr/Zettlr"

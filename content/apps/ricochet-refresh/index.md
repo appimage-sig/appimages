@@ -12,7 +12,6 @@ architectures = ["x86_64", "x86"]
 license = ["BSD-3-Clause"]
 
 [extra]
-
 homepage = "https://www.ricochetrefresh.net"
 repository = "https://github.com/blueprint-freespeech/ricochet-refresh"
 bugtracker = "https://github.com/blueprint-freespeech/ricochet-refresh/issues"

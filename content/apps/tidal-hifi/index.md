@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/Mastermindzh/tidal-hifi/refs/heads/master/docs/images/preview.png"
 repository = "https://github.com/Mastermindzh/tidal-hifi"
 donations = "https://github.com/sponsors/Mastermindzh"

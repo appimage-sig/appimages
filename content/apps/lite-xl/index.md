@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 homepage = "https://lite-xl.com"
 repository = "https://github.com/lite-xl/lite-xl"
 bugtracker = "https://github.com/lite-xl/lite-xl/issues"

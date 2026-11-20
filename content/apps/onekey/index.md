@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 homepage = "https://www.onekey.so"
 repository = "https://github.com/OneKeyHQ/app-monorepo"
 bugtracker = "https://github.com/OneKeyHQ/app-monorepo/issues"

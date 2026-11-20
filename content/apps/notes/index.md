@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MPL-2.0"]
 
 [extra]
-
 homepage = "https://www.notes-foss.com/"
 repository = "https://github.com/nuttyartist/notes"
 donations = "https://github.com/sponsors/nuttyartist"

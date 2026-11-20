@@ -6,13 +6,12 @@ authors = ["DavidoTek"]
 
 [taxonomies]
 categories = ["Games"]
-tags = ["Wine version manager"]
+tags = ["Gaming tools", "Wine version manager"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/main/.github/images/pupgui2-dark.png"
 homepage = "https://davidotek.github.io/protonup-qt"
 repository = "https://github.com/DavidoTek/ProtonUp-Qt"

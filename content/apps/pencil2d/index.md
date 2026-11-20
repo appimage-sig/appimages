@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://www.pencil2d.org/images/pencil2d-linux.png"
 homepage = "http://pencil2d.org"
 repository = "https://github.com/pencil2d/pencil"

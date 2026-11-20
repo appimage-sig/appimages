@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://www.scribus.net"
 repository = "https://github.com/scribusproject/scribus"
 bugtracker = "http://bugs.scribus.net"

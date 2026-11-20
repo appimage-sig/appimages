@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 homepage = "https://localsend.org/"
 repository = "https://github.com/localsend/localsend"
 donations = "https://github.com/sponsors/Tienisto"

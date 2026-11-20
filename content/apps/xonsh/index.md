@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["BSD-2-Clause"]
 
 [extra]
-
 homepage = "https://xon.sh"
 repository = "https://github.com/xonsh/xonsh"
 donations = "https://github.com/sponsors/xonsh"

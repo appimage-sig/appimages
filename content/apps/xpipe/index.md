@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/xpipe-io/.github/main/img/hub_shadow.png"
 homepage = "https://xpipe.io/"
 repository = "https://github.com/xpipe-io/xpipe"

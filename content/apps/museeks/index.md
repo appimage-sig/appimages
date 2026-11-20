@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["MIT"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/martpie/museeks/refs/heads/master/screenshot.png"
 homepage = "https://museeks.io"
 repository = "https://github.com/martpie/museeks"

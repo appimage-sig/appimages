@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "http://theia-ide.org/"
 repository = "https://github.com/eclipse-theia/theia"
 bugtracker = "https://github.com/eclipse-theia/theia/issues"

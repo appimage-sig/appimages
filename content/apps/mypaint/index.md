@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "http://mypaint.app"
 repository = "https://github.com/mypaint/mypaint"
 donations = "https://opencollective.com/mypaint"

@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://xournalpp.github.io/img/Physics%20Problem.png"
 homepage = "https://xournalpp.github.io"
 repository = "https://github.com/xournalpp/xournalpp"

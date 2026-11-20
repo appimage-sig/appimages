@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/upscayl/upscayl.github.io/main/static/2.png"
 homepage = "https://upscayl.org"
 repository = "https://github.com/upscayl/upscayl"

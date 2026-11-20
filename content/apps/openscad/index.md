@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://www.openscad.org"
 repository = "https://github.com/openscad/openscad"
 donations = "https://github.com/sponsors/openscad"

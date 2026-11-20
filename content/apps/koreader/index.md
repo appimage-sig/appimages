@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "http://koreader.rocks"
 repository = "https://github.com/koreader/koreader"
 donations = "https://liberapay.com/KOReader"

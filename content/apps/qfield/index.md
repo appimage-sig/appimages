@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = ""
 homepage = "http://www.qfield.org"
 repository = "https://github.com/opengisch/QField"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>org.geeqie.Geeqie</id>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <content_rating type="oars-1.1" />
+  <project_license>GPL-3.0+</project_license>
+  <name>Geeqie</name>
+  <summary>A lightweight image viewer</summary>
+  <description>
+  <p>Geeqie is a lightweight image viewer and image manager for Linux and other Unix-like systems.</p>
+  <p>It supports fast navigation using thumbnails, multiple windows, and full-screen viewing. Images can be copied, moved, renamed, and deleted directly from the interface.</p>
+  <p>Geeqie provides tools for managing large image collections, including keyword tagging, powerful search features, and a duplicate image finder. Metadata such as EXIF information can be displayed as overlays on images.</p>
+  <p>Additional features include slideshow presentations and remote control via command-line scripts. Images are accessed directly from the filesystem without the need for import.</p>
+  </description>
+  <developer id="org.geeqie">
+    <name>Geeqie developers</name>
+  </developer>
+  <launchable type="desktop-id">org.geeqie.Geeqie.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Folders, files, image and GPS map panes</caption>
+      <image>https://raw.githubusercontent.com/BestImageViewer/geeqie-test-images/main/screenshots/Screenshot_2017-08-13_12-02-32_rescaled.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Image search window</caption>
+      <image>https://raw.githubusercontent.com/BestImageViewer/geeqie-test-images/main/screenshots/Screenshot_2017-08-13_12-29-44_rescaled.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="3.4" date="2026-11-01" />
+    <release version="3.3" date="2026-10-04" />
+    <release version="3.2" date="2026-09-20" />
+  </releases>
+  <categories>
+    <category>Graphics</category>
+    <category>Photography</category>
+    <category>Viewer</category>
+  </categories>
+  <keywords>
+    <keyword>image</keyword>
+    <keyword>photo</keyword>
+    <keyword>photography</keyword>
+    <keyword>viewer</keyword>
+    <keyword>manager</keyword>
+    <keyword>gallery</keyword>
+    <keyword>EXIF</keyword>
+  </keywords>
+  <provides>
+    <mime-type>image/jpeg</mime-type>
+    <mime-type>image/png</mime-type>
+    <mime-type>image/gif</mime-type>
+    <mime-type>image/tiff</mime-type>
+  </provides>
+  <url type="homepage">https://www.geeqie.org</url>
+  <url type="bugtracker">https://github.com/BestImageViewer/geeqie/issues</url>
+  <url type="vcs-browser">https://github.com/BestImageViewer/geeqie</url>
+  <update_contact>geeqie@freelists.org</update_contact>
+  <translation type="gettext">geeqie</translation>
+</component>

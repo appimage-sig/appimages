@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://vieb.dev/img/1.png"
 homepage = "https://vieb.dev"
 repository = "https://github.com/Jelmerro/Vieb"

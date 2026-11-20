@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "armv7l"]
 license = ["OSL-3.0"]
 
 [extra]
-
 homepage = "https://legcord.app"
 repository = "https://github.com/Legcord/Legcord"
 donations = "https://github.com/sponsors/smartfrigde"

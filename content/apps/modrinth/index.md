@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://modrinth.com"
 repository = "https://github.com/modrinth/code"
 translations = "https://crowdin.com/project/modrinth"

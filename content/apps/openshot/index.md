@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://www.openshot.org"
 repository = "https://github.com/OpenShot/openshot-qt"
 donations = "https://www.openshot.org/donate"

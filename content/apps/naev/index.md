@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://naev.org"
 repository = "https://codeberg.org/naev/naev"
 donations = "https://www.libreoffice.org/donate"

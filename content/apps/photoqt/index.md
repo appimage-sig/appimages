@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://photoqt.org/img/metainfo/metainfo1.png"
 homepage = "https://photoqt.org"
 repository = "https://gitlab.com/lspies/photoqt"

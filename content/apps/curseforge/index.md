@@ -5,8 +5,8 @@ date = "2026-11-08T07:48:33Z"
 authors = ["Overwolf"]
 
 [taxonomies]
-categories = ["Productivity"]
-tags = ["Gaming tool", "Mod marketplace" ]
+categories = ["Games"]
+tags = ["Gaming tools", "Mod marketplace" ]
 frameworks = ["Electron"]
 architectures = ["x86_64"]
 license = ["EULA"]

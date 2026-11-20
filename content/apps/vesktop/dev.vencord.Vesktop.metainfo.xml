@@ -29,6 +29,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.0" date="2026-11-19" type="stable">
+      <url>https://github.com/Vencord/Vesktop/releases/tag/untagged-861d13649c202021c577</url>
+      <description>
+        <p>What's Changed</p>
+        <ul>
+          <li>Added global shortcuts/keybinds</li>
+          <li>Fixed spellcheck</li>
+          <li>Now starts on friends page again instead of quests</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.9" date="2026-11-05" type="stable">
       <url>https://github.com/Vencord/Vesktop/releases/tag/untagged-f0334517c5f9a0a7d7f6</url>
       <description>

@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 homepage = "https://neovim.io"
 repository = "https://github.com/neovim/neovim"
 donations = "https://github.com/sponsors/neovim"

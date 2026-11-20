@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 homepage = "https://bitbox.swiss/app/"
 repository = "https://github.com/BitBoxSwiss/bitbox-wallet-app"
 bugtracker = "https://github.com/BitBoxSwiss/bitbox-wallet-app/issues"

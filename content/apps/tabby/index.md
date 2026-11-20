@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "armv7l"]
 license = ["MIT"]
 
 [extra]
-
 homepage = "https://tabby.sh/"
 repository = "https://github.com/Eugeny/tabby"
 donations = "https://github.com/sponsors/Eugeny"

@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 homepage = "https://mqttx.app"
 repository = "https://github.com/emqx/MQTTX"
 bugtracker = "https://github.com/emqx/MQTTX/issues"

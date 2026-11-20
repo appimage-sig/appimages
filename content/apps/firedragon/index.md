@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]
 
 [extra]
-
 screenshots = "https://gitlab.com/garuda-linux/firedragon/settings/-/raw/master/home.png"
 homepage = "https://firedragon.garudalinux.org"
 repository = "https://github.com/dr460nf1r3/firedragon-browser"

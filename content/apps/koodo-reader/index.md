@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://koodoreader.com"
 repository = "https://github.com/koodo-reader/koodo-reader"
 translations = "https://github.com/koodo-reader/koodo-reader?tab=readme-ov-file#translation"

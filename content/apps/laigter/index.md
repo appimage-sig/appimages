@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://azagaya.itch.io/laigter"
 repository = "https://github.com/azagaya/laigter"
 donations = "https://www.patreon.com/jazagaya"

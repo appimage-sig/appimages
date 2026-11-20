@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://www.libreoffice.org"
 repository = "https://github.com/LibreOffice/core"
 donations = "https://www.libreoffice.org/donate"

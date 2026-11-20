@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "riscv64"]
 license = ["BSD-3-Clause"]
 
 [extra]
-
 homepage = "https://featherwallet.org"
 repository = "https://github.com/feather-wallet/feather"
 bugtracker = "https://github.com/feather-wallet/feather/issues"

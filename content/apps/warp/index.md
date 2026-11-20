@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://www.warp.dev"
 repository = "https://github.com/warpdotdev/Warp"
 bugtracker = "https://github.com/warpdotdev/Warp/issues"

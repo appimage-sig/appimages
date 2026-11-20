@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["MPL-2.0"]
 
 [extra]
-
 homepage = "https://librewolf.net"
 repository = "https://codeberg.org/librewolf/source"
 translations = "https://translate.codeberg.org/engage/librewolf"

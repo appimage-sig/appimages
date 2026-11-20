@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["Apache-2.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/ferdium/ferdium-app/refs/heads/develop/branding/screenshots/service-store.png"
 homepage = "https://ferdium.org"
 repository = "https://github.com/ferdium/ferdium-app"

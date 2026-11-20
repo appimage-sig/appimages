@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "armv7l"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://www.duckstation.org"
 repository = "https://github.com/stenzek/duckstation"
 translations = "https://github.com/stenzek/duckstation/wiki/Translating-to-new-languages#linux"

@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://krita.org"
 repository = "https://invent.kde.org/graphics/krita"
 donations = "https://krita.org/en/support-us/donations"

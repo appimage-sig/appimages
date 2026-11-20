@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://b3log.org/siyuan"
 repository = "https://github.com/siyuan-note/siyuan"
 donations = "https://ld246.com/sponsor"

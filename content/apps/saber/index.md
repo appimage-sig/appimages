@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/saber-notes/saber/main/metadata/en-US/images/tenInchScreenshots/1_home.png"
 homepage = "https://saber.adil.hanney.org"
 repository = "https://github.com/saber-notes/saber"

@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://www.qownnotes.org"
 repository = "https://github.com/pbek/QOwnNotes"
 bugtracker = "https://github.com/pbek/QOwnNotes/issues"

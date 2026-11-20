@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://rssguard.readthedocs.io/en/stable/index.html"
 repository = "https://github.com/martinrotter/rssguard"
 donations = "https://github.com/sponsors/martinrotter"

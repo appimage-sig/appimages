@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/PCSX2/pcsx2/master/.github/workflows/scripts/linux/flatpak/screenshots/screenshot2.png"
 homepage = "https://pcsx2.net"
 repository = "https://github.com/PCSX2/pcsx2"

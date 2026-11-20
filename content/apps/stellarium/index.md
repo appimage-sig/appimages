@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://stellarium.org/"
 repository = "https://github.com/Stellarium/stellarium"
 donations = "https://opencollective.com/stellarium"

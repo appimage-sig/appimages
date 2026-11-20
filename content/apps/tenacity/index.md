@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://tenacityaudio.org"
 repository = "https://codeberg.org/tenacityteam/tenacity"
 translations = "https://hosted.weblate.org/projects/tenacity"

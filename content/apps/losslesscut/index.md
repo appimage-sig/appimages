@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://mifi.no/losslesscut"
 repository = "https://github.com/mifi/lossless-cut"
 donations = "https://mifi.no/thanks/"

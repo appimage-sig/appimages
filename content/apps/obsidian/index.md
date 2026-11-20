@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://obsidian.md"
 budgtracker = "https://forum.obsidian.md/c/bug-reports/7"
 translations = "https://github.com/obsidianmd/obsidian-translations"

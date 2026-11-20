@@ -6,7 +6,7 @@ authors = ["Heroic Games Launcher Authors"]
 
 [taxonomies]
 categories = ["Games"]
-tags = ["Game Launcher"]
+tags = ["Gaming tools", "Game Launcher"]
 frameworks = ["Electron"]
 architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]

@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://dokuwiki.librecad.org/lib/exe/fetch.php/librecad_screeshot_2.2.png"
 homepage = "https://www.librecad.org"
 repository = "https://github.com/LibreCAD/LibreCAD"

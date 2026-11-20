@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>io.github.unknownskl.greenlight</id>
+  <launchable type="desktop-id">io.github.unknownskl.greenlight.desktop</launchable>
+  <name>Greenlight</name>
+  <project_license>MIT</project_license>
+  <developer_name>UnknownSKL</developer_name>
+  <summary>Greenlight is an open-source client for xCloud and Xbox home streaming</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <url type="homepage">https://github.com/unknownskl/greenlight</url>
+  <url type="help">https://github.com/unknownskl/greenlight/issues</url>
+  <url type="bugtracker">https://github.com/unknownskl/greenlight/issues</url>
+  <description>
+    <p>Greenlight is an open-source client for xCloud and Xbox home streaming.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://raw.githubusercontent.com/unknownskl/greenlight/main-v2/images/main-nowindow.jpg</image>
+    </screenshot>
+    <screenshot>
+      <image type="source">https://raw.githubusercontent.com/unknownskl/greenlight/main-v2/images/stream-nowindow.jpg</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="2.4.2" date="2026-05-24">
+     <description>
+        <ul>
+          <li>Fix frontend error message when token was expired #1581</li>
+          <li>Added German language (credits to @crt0mega) #1567</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.4.1" date="2025-12-11">
+     <description>
+        <ul>
+          <li>Fix error on startup when user is unable to retrieve xCloud token</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.4.0" date="2025-12-10">
+     <description>
+        <ul>
+          <li>Implement localization support for EN/RU/UA (huge thanks to @chefranov) #1468</li>
+          <li>Replace failing XAL authentication mechanism with MSAL. #1506 #1473 #1446 #1126 #1109</li>
+          <li>Updated dependencies to optimise performance</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.3.3" date="2025-09-20">
+     <description>
+        <ul>
+          <li>Improve silent token authentication and fix region selector not being active during SilentFlow (credits to @chefranov) #1458 #1199 #1119</li>
+          <li>Fix a possible use case where the user tokens has been expired which caused a non-ending loop of the authentication.</li>
+          <li>Fix xCloud loop when loading games because it fails due to change in library size. #1464 #1465</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.3.2" date="2025-04-11">
+     <description>
+        <ul>
+          <li>Add a stream volume control slider to the Gamebar UI (credits to @dylanlanigansmith)</li>
+          <li>Change flags to enable VA-API (credits to @sunshineinabox)</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.3.1" date="2024-04-12">
+     <description>
+        <ul>
+          <li>Fix xCloud error after login when launching the application in a non xCloud supported country</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.3.0" date="2024-04-11">
+     <description>
+        <ul>
+          <li>Fixed 401 error when starting a new stream from console</li>
+          <li>Added ability to map buttons (credits to @kouta-kun)</li>
+          <li>Updated authentication mechanism to support persistent logins</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.2.1" date="2024-03-11">
+     <description>
+        <ul>
+          <li>Fixed login issue on fresh installations</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.2.0" date="2024-03-05">
+     <description>
+        <ul>
+          <li>Added a WebUI function to make Greenlight available on devices with the chromium browser.</li>
+          <li>Added toggles for muting audio and hiding the video</li>
+          <li>Other improvements</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.1.1" date="2024-01-29">
+     <description>
+        <ul>
+          <li>Fixed controller input not working on default settings #1118 #1117</li>
+          <li>Fixed keyboard mapping on certain keyboard layouts #878</li>
+          <li>Fixed N button mapping when using the new Gamepad driver in settings</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.1.0" date="2024-01-25">
+     <description>
+        <ul>
+          <li>Fix vibration detection #1076 #813 (credits to @LostVector and @opencv4nodejs)</li>
+          <li>Revamped the xCloud UI. New overview page with recent played titles and new added games.</li>
+          <li>Set default resolution to 1280*800 to fix several scaling issues on Steamdeck</li>
+          <li>Experimental support for second controller (Uses same user profile, so multiplayer in some games does not work correctly) #916</li>
+          <li>Fix webrtc plots in debug window (credits to @LostVector)</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.0.1" date="2023-12-20">
+     <description>
+        <ul>
+          <li>Align internal release version with version released on Github</li>
+        </ul>
+     </description>
+    </release>
+    <release version="2.0.0" date="2023-12-14">
+     <description>
+        <ul>
+          <li>First full release</li>
+        </ul>
+     </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

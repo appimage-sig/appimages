@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 repository = "https://github.com/jeffvli/feishin"
 donations = "https://ko-fi.com/jeffvli"
 translations = "https://hosted.weblate.org/projects/feishin"

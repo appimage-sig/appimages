@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://texstudio.org"
 repository = "https://github.com/texstudio-org/texstudio"
 screenshots = "https://raw.githubusercontent.com/texstudio-org/texstudio/master/utilities/screenshot1.png"

@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://www.mendeley.com"
 screenshots = "https://static.mendeley.com/md-stitch/releases/live/hero-banner.avif"
 install_x86_64="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.151.0-x86_64.AppImage"

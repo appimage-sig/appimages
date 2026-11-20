@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://www.onlyoffice.com"
 repository = "https://github.com/ONLYOFFICE/DesktopEditors"
 translations = "https://helpcenter.onlyoffice.com/guides/become-translator.aspx"

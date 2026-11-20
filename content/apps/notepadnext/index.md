@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/dail8859/NotepadNext/master/doc/screenshot_linux.png"
 repository = "https://github.com/dail8859/NotepadNext"
 donations = "https://github.com/sponsors/dail8859"

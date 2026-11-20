@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://www.leocad.org/towerbridge.png"
 homepage = "https://www.leocad.org"
 repository = "https://github.com/leozide/leocad"

@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 repository = "https://github.com/mgord9518/aisap"
 bugtracker = "https://github.com/mgord9518/aisap/issues"
 appstream_xml_url = ""

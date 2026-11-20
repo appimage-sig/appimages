@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://logseq.com"
 repository = "https://github.com/logseq/logseq"
 donations = "https://opencollective.com/logseq"

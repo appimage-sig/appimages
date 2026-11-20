@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["BSD-3-Clause"]
 
 [extra]
-
 homepage = "https://ooni.org/install/desktop"
 repository = "https://github.com/ooni/probe-desktop"
 bugtracker = "https://github.com/ooni/probe-desktop"

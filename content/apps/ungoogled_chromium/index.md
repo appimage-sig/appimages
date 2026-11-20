@@ -11,7 +11,6 @@ architectures = ["x86_64", "arm64"]
 license = ["BSD-3-Clause"]
 
 [extra]
-
 homepage = "https://ungoogled-software.github.io"
 repository = "https://github.com/ungoogled-software/ungoogled-chromium"
 bugtracker = "https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/issues"

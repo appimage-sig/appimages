@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://outerwildsmods.com/mod-manager"
 repository = "https://github.com/ow-mods/ow-mod-man"
 translations = "https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md"

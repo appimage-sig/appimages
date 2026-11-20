@@ -6,13 +6,12 @@ authors = ["Moonlight Game Streaming Project"]
 
 [taxonomies]
 categories = ["Games"]
-tags = ["Remote play"]
+tags = ["Gaming tools", "Remote play"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://moonlight-stream.org/appstream_resources/moonlight_screenshot_1.png"
 homepage = "https://moonlight-stream.org"
 repository = "https://github.com/moonlight-stream/moonlight-qt"

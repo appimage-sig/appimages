@@ -5,8 +5,8 @@ date = "2026-11-13T16:19:38Z"
 authors = ["AntiMicroX Authors"]
 
 [taxonomies]
-categories = ["Utilities"]
-tags = ["Gamepad", "Gaming controllers"]
+categories = ["Games"]
+tags = ["Gaming tools","Gamepad", "Gaming controllers"]
 frameworks = ["Qt6"]
 architectures = ["x86_64"]
 license = ["GPL-3.0"]

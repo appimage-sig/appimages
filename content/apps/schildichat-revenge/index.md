@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://schildi.chat/revenge/img/inbox_2.png"
 homepage = "https://schildi.chat/revenge/"
 repository = "https://github.com/SchildiChat/schildi-revenge/"

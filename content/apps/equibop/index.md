@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 repository = "https://github.com/Equicord/Equibop"
 bugtracker = "https://github.com/Equicord/Equibop/issues"
 appstream_xml_url = ""

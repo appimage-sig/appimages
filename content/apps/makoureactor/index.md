@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 repository = "https://github.com/myst6re/makoureactor"
 bugtracker = "https://github.com/myst6re/makoureactor/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/myst6re/makoureactor/refs/heads/master/deploy/linux/io.github.myst6re.makoureactor.metainfo.xml"

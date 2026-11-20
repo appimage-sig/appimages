@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 screenshots = "https://www.smplayer.info/images/screenshots/mainwindow.png"
 homepage = "https://smplayer.info"
 repository = "https://github.com/smplayer-dev/smplayer"

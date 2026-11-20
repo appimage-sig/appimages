@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 repository = "https://github.com/playwora/wora"
 donations = "https://github.com/hiaaryan"
 bugtracker = "https://github.com/playwora/wora/issues"

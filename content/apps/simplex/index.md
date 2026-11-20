@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://simplex.chat"
 repository = "https://github.com/simplex-chat/simplex-chat"
 donations = "https://github.com/sponsors/simplex-chat"

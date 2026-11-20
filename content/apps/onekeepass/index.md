@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/OneKeePass/desktop/refs/heads/main/screenshots/entrycategory-type-allentries.jpg"
 homepage = "https://onekeepass.github.io"
 repository = "https://github.com/OneKeePass/desktop"

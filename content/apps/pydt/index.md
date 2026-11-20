@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 screenshots = ""
 homepage = "https://www.playyourdamnturn.com"
 repository = "https://github.com/pydt/client"

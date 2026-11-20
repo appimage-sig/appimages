@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://wavebox.io"
 repository = "https://github.com/wavebox/waveboxapp"
 bugtracker = "https://github.com/wavebox/waveboxapp/issues"

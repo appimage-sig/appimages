@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://xemu.app"
 repository = "https://github.com/xemu-project/xemu"
 donations = "https://www.patreon.com/mborgerson"

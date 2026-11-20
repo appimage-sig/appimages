@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 repository = "https://github.com/keepassxreboot/keepassxc"
 donations = "https://keepassxc.org/donate"
 translations = "https://explore.transifex.com/keepassxc/keepassxc"

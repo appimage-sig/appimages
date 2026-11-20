@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["MIT"]
 
 [extra]
-
 scereenshots = "https://raw.githubusercontent.com/pulsar-edit/pulsar/master/resources/linux/linux-screenshot.png"
 homepage = "https://pulsar-edit.dev"
 repository = "https://github.com/pulsar-edit/pulsar"

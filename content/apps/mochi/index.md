@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://mochi.cards"
 install_x86_64="https://download.mochi.cards/releases/Mochi-26.11.2.AppImage"
 +++

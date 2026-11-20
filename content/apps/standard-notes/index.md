@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://standardnotes.com/"
 repository = "https://github.com/standardnotes/app"
 donations = "https://github.com/sponsors/standardnotes"

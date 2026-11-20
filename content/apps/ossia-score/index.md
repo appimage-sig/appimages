@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://github.com/ossia/score/raw/master/docs/score.png?raw=true"
 homepage = "https://ossia.io/score/about.html"
 repository = "https://github.com/ossia/score"

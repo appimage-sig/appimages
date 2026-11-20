@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://i.imgur.com/ydVhH00.png"
 homepage = "https://getsession.org"
 repository = "https://github.com/session-foundation/session-desktop"

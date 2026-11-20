@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://rustdesk.com"
 repository = "https://github.com/rustdesk/rustdesk"
 donations = "https://github.com/sponsors/rustdesk"

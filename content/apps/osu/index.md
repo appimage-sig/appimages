@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 homepage = "https://osu.ppy.sh"
 repository = "https://github.com/ppy/osu"
 donations = "https://github.com/sponsors/ppy"

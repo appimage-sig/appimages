@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://lmms.io"
 repository = "https://github.com/LMMS/lmms"
 donations = "https://lmms.io/get-involved/#donate"

@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "http://flarerpg.org"
 repository = "https://github.com/flareteam/flare-game"
 translations = "https://explore.transifex.com/flareorg"

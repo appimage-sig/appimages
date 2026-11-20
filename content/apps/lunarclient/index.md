@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://www.lunarclient.com"
 appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.lunarclient.LunarClient/refs/heads/master/com.lunarclient.LunarClient.appdata.xml"
 screenshots = "https://raw.githubusercontent.com/flathub/com.lunarclient.LunarClient/master/screenshots/launcher.png"

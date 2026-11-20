@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://starc.app/media/screenshot-main.png"
 homepage = "https://starc.app"
 repository = "https://github.com/story-apps/starc"

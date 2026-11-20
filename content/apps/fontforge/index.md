@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/fontforge/fontforge/master/desktop/ff-screenshot.png"
 homepage = "http://fontforge.org"
 repository = "https://github.com/fontforge/fontforge"

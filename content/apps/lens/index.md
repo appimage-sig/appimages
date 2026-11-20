@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://lenshq.io/products/lens-k8s-ide/"
 bugtracker = "https://github.com/lensapp/lens/issues"
 screenshots = "https://lenshq.io/images/products/k8s-ide-hero.webp"

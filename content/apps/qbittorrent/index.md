@@ -12,7 +12,6 @@ architectures = ["x86_64","arm64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 repository = "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
 bugtracker = "https://github.com/c0re100/qBittorrent-Enhanced-Edition/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/c0re100/qBittorrent-Enhanced-Edition/refs/heads/v5_2_x/dist/unix/org.qbittorrent.qBittorrent-nox.metainfo.xml"

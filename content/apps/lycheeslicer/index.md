@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://mango3d.io/resin-sla-msla-3d-printers"
 screenshots = "https://raw.githubusercontent.com/flathub/io.mango3d.LycheeSlicer/master/screenshots/screenshot2.png"
 appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.mango3d.LycheeSlicer/refs/heads/master/io.mango3d.LycheeSlicer.metainfo.xml"

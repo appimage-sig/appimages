@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "armv7l"]
 license = ["MIT"]
 
 [extra]
-
 repository = "https://github.com/SpacingBat3/WebCord"
 translations = "https://hosted.weblate.org/projects/webcord"
 donations = "https://github.com/sponsors/SpacingBat3"

@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64", "armv7l"]
 license = ["Apache-2.0"]
 
 [extra]
-
 homepage = "https://kopia.io"
 repository = "https://github.com/kopia/kopia"
 bugtracker = "https://github.com/kopia/kopia/issues"

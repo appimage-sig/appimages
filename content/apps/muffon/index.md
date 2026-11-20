@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["AGPL-3.0"]
 
 [extra]
-
 homepage = "https://muffon.netlify.app"
 repository = "https://github.com/staniel359/muffon"
 donations = "https://ko-fi.com/staniel359"

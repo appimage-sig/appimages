@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://ente.io"
 repository = "https://github.com/ente-io/ente"
 translations = "https://crowdin.com/project/ente-photos-web"

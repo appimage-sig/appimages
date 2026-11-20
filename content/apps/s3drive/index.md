@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://s3drive.app"
 bugtracker = "https://github.com/s3drive/app//issues" 
 

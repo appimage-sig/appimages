@@ -11,7 +11,6 @@ architectures = ["x86_64"]
 license = ["EULA"]
 
 [extra]
-
 homepage = "https://lunatask.app"
 screenshots = "https://lunatask.app/assets/images/hero-artboard-46ce7f8c3d5dddd4c137b3b9491d26ea.png"
 appstream_xml_url = ""

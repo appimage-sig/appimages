@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-2.0"]
 
 [extra]
-
 homepage = "https://owncloud.com/desktop-app"
 repository = "https://github.com/owncloud/client"
 translations = "https://explore.transifex.com/owncloud-org/owncloud/"

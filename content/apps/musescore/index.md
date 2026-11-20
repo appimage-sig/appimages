@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 homepage = "https://musescore.org/en"
 repository = "https://github.com/musescore/MuseScore"
 translations = "https://musescore.org/administrative-guidelines/translation-instructions"

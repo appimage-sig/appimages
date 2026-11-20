@@ -12,7 +12,6 @@ architectures = ["x86_64", "arm64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 screenshots = "https://raw.githubusercontent.com/sqlitebrowser/sqlitebrowser/master/images/sqlitebrowser.png"
 homepage = "https://sqlitebrowser.org"
 repository = "https://github.com/sqlitebrowser/sqlitebrowser"

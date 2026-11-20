@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["MIT"]
 
 [extra]
-
 homepage = "https://super-productivity.com/"
 repository = "https://github.com/johannesjo/super-productivity"
 donations = "https://github.com/sponsors/johannesjo"

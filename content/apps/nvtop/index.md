@@ -12,7 +12,6 @@ architectures = ["x86_64"]
 license = ["GPL-3.0"]
 
 [extra]
-
 repository = "https://github.com/Syllo/nvtop"
 bugtracker = "https://github.com/Syllo/nvtop/issues"
 appstream_xml_url = "https://raw.githubusercontent.com/Syllo/nvtop/refs/heads/master/desktop/nvtop.metainfo.xml.in"
