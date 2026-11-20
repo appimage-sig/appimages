@@ -16,6 +16,6 @@ homepage = "https://cemu.info"
 repository = "https://github.com/cemu-project/Cemu"
 bugtracker = "https://github.com/cemu-project/Cemu/issues"
 screenshots = ""
-metadata = "https://github.com/cemu-project/Cemu/blob/main/dist/linux/info.cemu.Cemu
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cemu/index.md"
 install_x86_64 = "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
 +++

@@ -19,5 +19,5 @@ screenshots = "https://raw.githubusercontent.com/stenzek/duckstation/md-images/m
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/duckstation/index.md"
 install_x86_64="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-x64-SSE2.AppImage"
 install_arm64="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-arm64.AppImage"
-install_armv7l="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-armhf.AppImage"
+"install_armv7l"="https://github.com/stenzek/duckstation/releases/download/latest/DuckStation-armhf.AppImage"
 +++

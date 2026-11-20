@@ -20,5 +20,5 @@ bugtracker = "https://github.com/koreader/koreader/issues"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/koreader/index.md"
 install_x86_64="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-x86_64.AppImage"
 install_arm64="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage"
-install_armv7l="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage"
+"install_armv7l"="https://github.com/koreader/koreader/releases/download/v2026.07.1/koreader-v2026.07.1-aarch64.AppImage"
 +++

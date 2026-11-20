@@ -15,7 +15,7 @@ homepage = "https://lmstudio.ai/"
 bugtracker = "https://github.com/lmstudio-ai/lmstudio-bug-tracker/issues"
 translations = "https://github.com/lmstudio-ai/localization"
 screenshots = "https://lmstudio.ai/marketing-static/_next/image?url=%2Fassets%2Fmarketing%2Fhome%2Fhero-new.webp&w=1200&q=75&dpl=dpl-mw6x9z2k"
-metadata = "https://github.com/flathub/ai.lmstudio.lm-studio/blob/master/ai.lmstudio.lm-studio
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/lmstudio/index.md"
 install_x86_64 = "https://bionic-installers.lmstudio.ai/linux/x64/1.2.0-2/Bionic-1.2.0-2-x64.AppImage"
 install_arm64 = "https://bionic-installers.lmstudio.ai/linux/arm64/1.2.0-2/Bionic-1.2.0-2-arm64.AppImage"
 +++

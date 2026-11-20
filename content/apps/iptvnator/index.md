@@ -20,5 +20,5 @@ screenshots = "https://raw.githubusercontent.com/4gray/iptvnator/refs/heads/mast
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/iptvnator/index.md"
 install_x86_64 = "https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-linux-x86_64.AppImage"
 install_arm64 = "https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-linux-arm64.AppImage"
-install_armv7l = "https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-linux-armv7l.AppImage"
+"install_armv7l" = "https://github.com/4gray/iptvnator/releases/download/v0.25.0/iptvnator-0.25.0-linux-armv7l.AppImage"
 +++

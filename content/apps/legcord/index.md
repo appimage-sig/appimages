@@ -20,5 +20,5 @@ bugtracker = "https://github.com/Legcord/Legcord/issues"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/legcord/index.md"
 install_x86_64="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-x86_64.AppImage"
 install_arm64="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage"
-install_armv7l="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage"
+"install_armv7l"="https://github.com/Legcord/Legcord/releases/download/v1.3.1/Legcord-1.3.1-linux-arm64.AppImage"
 +++

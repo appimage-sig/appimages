@@ -21,5 +21,5 @@ screenshots = "https://raw.githubusercontent.com/Eugeny/tabby/refs/heads/master/
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/tabby/index.md"
 install_x86_64="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage"
 install_arm64="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage"
-install_armv7l="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage"
+"install_armv7l"="https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage"
 +++

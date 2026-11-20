@@ -20,5 +20,5 @@ screenshots = "https://raw.githubusercontent.com/headlamp-k8s/headlamp/screensho
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/headlamp/index.md"
 install_x86_64 = "https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-x64.AppImage"
 install_arm64 = "https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-arm64.AppImage"
-install_armv7l = "https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-arm64.AppImage"
+"install_armv7l" = "https://github.com/kubernetes-sigs/headlamp/releases/download/v0.46.0/Headlamp-0.46.0-linux-arm64.AppImage"
 +++

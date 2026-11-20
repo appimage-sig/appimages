@@ -20,6 +20,6 @@ bugtracker = "https://gitlab.com/CalcProgrammer1/OpenRGB/-/work_items/"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/openrgb/index.md"
 install_x86_64 = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_x86_64_8e16de2.AppImage"
 install_arm64 = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_arm64_8e16de2.AppImage"
-install_x86 = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_i386_8e16de2.AppImage"
-install_armv7l = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_armhf_8e16de2.AppImage"
+"install_x86" = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_i386_8e16de2.AppImage"
+"install_armv7l" = "https://codeberg.org/OpenRGB/OpenRGB/releases/download/release_1.1/OpenRGB_1.1_armhf_8e16de2.AppImage"
 +++

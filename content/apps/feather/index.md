@@ -19,5 +19,5 @@ screenshots = "https://featherwallet.org/img/home_monero_light.png"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/feather/index.md"
 install_x86_64="https://github.com/feather-wallet/feather/releases/download/2.9.1/feather-2.9.1.AppImage"
 install_arm64="https://github.com/feather-wallet/feather/releases/download/2.9.1/feather-2.9.1-arm64.AppImage"
-install_riscv64="https://github.com/feather-wallet/feather/releases/download/2.9.1/feather-2.9.1-riscv64.AppImage"
+"install_riscv64"="https://github.com/feather-wallet/feather/releases/download/2.9.1/feather-2.9.1-riscv64.AppImage"
 +++

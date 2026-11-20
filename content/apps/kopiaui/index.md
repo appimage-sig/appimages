@@ -18,5 +18,5 @@ bugtracker = "https://github.com/kopia/kopia/issues"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/kopiaui/index.md"
 install_x86_64="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage"
 install_arm64="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-arm64.AppImage"
-install_armv7l="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-armv7l.AppImage"
+"install_armv7l"="https://github.com/kopia/kopia/releases/download/v0.23.1/KopiaUI-0.23.1-armv7l.AppImage"
 +++

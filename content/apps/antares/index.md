@@ -20,5 +20,5 @@ screenshots = "https://dashboard.snapcraft.io/site_media/appmedia/2022/09/Immagi
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/antares/index.md"
 install_x86_64 = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage"
 install_arm64 = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage"
-install_armv7l = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage"
+"install_armv7l" = "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage"
 +++

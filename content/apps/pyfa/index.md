@@ -15,6 +15,6 @@ screenshots = "https://user-images.githubusercontent.com/275209/66119992-864be08
 repository = "https://github.com/pyfa-org/Pyfa"
 translations = "https://crowdin.com/project/pyfa"
 bugtracker = "https://github.com/pyfa-org/Pyfa/issues"
-metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps//index.md"io.github.pyfa_org.Pyfa/refs/heads/master/io.github.pyfa_org.Pyfa
-install_x86_64="https://github.com/pyfa-org/Pyfa/releases/download/v2.70.0/pyfa-v2.70.0-linux.AppImage"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps//index.md"
+install_x86_64 ="https://github.com/pyfa-org/Pyfa/releases/download/v2.70.0/pyfa-v2.70.0-linux.AppImage"
 +++

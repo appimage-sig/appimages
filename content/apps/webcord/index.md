@@ -19,5 +19,5 @@ bugtracker = "https://github.com/SpacingBat3/WebCord/issues"
 metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/webcord/index.md"
 install_x86_64="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-x64.AppImage"
 install_arm64="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage"
-install_armv7l="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage"
+"install_armv7l"="https://github.com/SpacingBat3/WebCord/releases/download/v4.14.0/WebCord-4.14.0-arm64.AppImage"
 +++
