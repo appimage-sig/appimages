@@ -1,5 +1,5 @@
 +++
-title = ""
+title = "Geeqie"
 description = "Graphics file browser utility"
 date = "2026-11-15T18:12:26Z"
 authors = ["Geeqie developers"]
