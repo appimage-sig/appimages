@@ -48,7 +48,6 @@
           {% set_global first_url = "" %}
           {% set_global first_arch = "" %}
 
-          {# Предварительно находим первую доступную архитектуру и ссылку #}
           {% for arch in all_archs %}
             {% set key = "install_" ~ arch %}
             {% set url = page.extra[key] | default(value="") %}
@@ -80,8 +79,6 @@
         {{ page.content | safe }}
       </div>
 
-      {# 1-й ряд: Кнопки ресурсов под описанием приложения #}
-      {# 1-й ряд: Кнопки ресурсов под описанием приложения #}
       {% set has_bug = page.extra.bugtracker is defined and page.extra.bugtracker %}
       {% set has_trans = (page.extra.translations is defined and page.extra.translations) or (page.extra.translate is defined and page.extra.translate) %}
       {% set has_don = (page.extra.donations is defined and page.extra.donations) or (page.extra.donation is defined and page.extra.donation) %}
@@ -113,10 +110,8 @@
       </div>
       {% endif %}
 
-      {# 2-й ряд: Отдельный блок выбора архитектуры и скачивания #}
       {% if first_url %}
       <div class="app-install-widget" id="app-install-widget">
-        {# Переключатель доступных архитектур #}
         <div class="app-arch-selector" role="group" aria-label="Select architecture">
           {% for arch in all_archs %}
             {% set key = "install_" ~ arch %}
@@ -136,7 +131,6 @@
           {% endfor %}
         </div>
 
-        {# Основная кнопка скачивания #}
         <div class="app-install-download">
           <a href="{{ first_url }}" id="app-download-btn" class="c-button c-button--primary c-button--download">
             <ion-icon name="download-outline"></ion-icon>
