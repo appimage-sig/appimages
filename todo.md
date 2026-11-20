@@ -56,6 +56,7 @@
   - [ ] [Hydralauncher](https://github.com/hydralauncher/hydra/)
   - [ ] [Janus](https://github.com/gholmann16/janus)
   - [ ] [kadium](https://github.com/probablykasper/kadium/)
+  - [ ] [KiCAD](https://downloads.kicad.org/kicad/linux/explore/stable/download/kicad-10.0.8-x86_64.AppImage.tar)
   - [ ] [Ladymod](https://releases.r2.labymod.net/launcher/linux/x64/LabyMod%20Launcher-latest.AppImage)
   - [ ] [Ledger Wallet](https://download.live.ledger.com/latest/linux)
   - [ ] [Legend](https://github.com/MooDoApp/MooDoApp.github.io/)
