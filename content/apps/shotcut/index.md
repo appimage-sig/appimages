@@ -17,6 +17,6 @@ homepage = "https://www.shotcut.org"
 repository = "https://github.com/mltframework/shotcut"
 translations = "https://explore.transifex.com/ddennedy/shotcut"
 bugtracker = "https://github.com/mltframework/shotcut/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/mltframework/shotcut/refs/heads/master/packaging/linux/org.shotcut.Shotcut.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/shotcut/index.md"
 install_x86_64="https://github.com/mltframework/shotcut/releases/download/v26.9.27/shotcut-linux-x86_64-26.10.3.AppImage"
 +++

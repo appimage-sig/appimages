@@ -16,6 +16,6 @@ homepage = "http://www.bforartists.de"
 repository = "https://github.com/Bforartists/Bforartists"
 bugtracker = "https://github.com/Bforartists/Bforartists/issues"
 screenshots = "https://cdn.prod.website-files.com/650c5901cff33429a5e537f5/6a21fd0d758de7fd33f50319_workspace_main.webp"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/refs/heads/master/de.bforartists.Bforartists.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/Bforartists/index.md"
 install_x86_64 = "https://github.com/Bforartists/Bforartists/releases/download/v5.2.3/Bforartists-5.2.3-x86_64.AppImage"
 +++

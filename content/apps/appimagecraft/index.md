@@ -13,7 +13,7 @@ license = ["MIT"]
 [extra]
 repository = "https://github.com/TheAssassin/appimagecraft"
 bugtracker = "https://github.com/TheAssassin/appimagecraft/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/appimagecraft/index.md"
 install_x86_64 = "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-x86_64.AppImage"
 install_arm64= "https://github.com/TheAssassin/appimagecraft/releases/download/continuous/appimagecraft-aarch64.AppImage"
 +++

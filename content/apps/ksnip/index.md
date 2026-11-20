@@ -16,6 +16,6 @@ repository = "https://github.com/ksnip/ksnip"
 donations = "https://github.com/sponsors/DamirPorobic"
 translations = "https://hosted.weblate.org/engage/ksnip"
 bugtracker = "https://github.com/ksnip/ksnip/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/ksnip/ksnip/refs/heads/master/desktop/org.ksnip.ksnip.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/ksnip/index.md"
 install_x86_64="https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage"
 +++

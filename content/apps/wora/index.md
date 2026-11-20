@@ -16,6 +16,6 @@ repository = "https://github.com/playwora/wora"
 donations = "https://github.com/hiaaryan"
 bugtracker = "https://github.com/playwora/wora/issues"
 screenshots = "https://raw.githubusercontent.com/playwora/wora/refs/heads/main/renderer/public/github/Home%20Page.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/wora/index.md"
 install_x86_64="https://github.com/playwora/wora/releases/download/v0.4.0-beta1/Wora.v0.4.0-beta1.AppImage"
 +++

@@ -18,6 +18,6 @@ bugtracker = "https://github.com/rizinorg/cutter/issues"
 donations = "https://github.com/sponsors/rizinorg"
 translations = "https://crowdin.com/project/cutter"
 screenshots = "https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/rizinorg/cutter/refs/heads/dev/src/re.rizin.cutter.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cutter/index.md"
 install_x86_64 = "https://github.com/rizinorg/cutter/releases/download/v2.5.0/Cutter-v2.5.0-Linux-x86_64.AppImage"
 +++

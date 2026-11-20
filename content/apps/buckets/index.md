@@ -17,7 +17,7 @@ bugtracker = "https://github.com/buckets/application/issues"
 donations = "https://www.patreon.com/iffy"
 translations = "https://github.com/buckets/translations"
 screenshots = "https://www.budgetwithbuckets.com/images/main-screenshot-hires.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/buckets/index.md"
 install_x86_64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-amd64-0.80.0.AppImage"
 install_arm64 = "https://github.com/buckets/application/releases/download/v0.80.0/Buckets-linux-latest-arm64-0.80.0.AppImage"
 +++

@@ -18,6 +18,6 @@ repository = "https://github.com/nukeop/nuclear"
 donations = "https://github.com/sponsors/nukeop"
 translations = "https://crowdin.com/project/nuclear"
 bugtracker = "https://github.com/nukeop/nuclear/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/nuclear/index.md"
 install_x86_64="https://github.com/nukeop/nuclear/releases/download/player%401.55.0/Nuclear_1.55.0_amd64.AppImage"
 +++

@@ -16,6 +16,6 @@ homepage = "https://www.qownnotes.org"
 repository = "https://github.com/alephium/alephium-frontend"
 translations = "https://crowdin.com/project/alephium"
 bugtracker = "https://github.com/alephium/alephium-frontend/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/alephium/index.md"
 install_x86_64="https://github.com/alephium/alephium-frontend/releases/download/alephium-desktop-wallet%403.3.2/Alephium-3.3.2.AppImage"
 +++

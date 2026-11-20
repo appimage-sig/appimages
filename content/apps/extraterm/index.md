@@ -16,6 +16,6 @@ homepage = "https://extraterm.org"
 repository = "https://github.com/sedwards2009/extraterm"
 bugtracker = "https://github.com/sedwards2009/extraterm/issues"
 screenshots = "https://extraterm.org/minimap_450.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/extraterm/index.md"
 install_x86_64="https://github.com/sedwards2009/extraterm/releases/download/v0.82.0/ExtratermQt-0.82.0.glibc2.38-x86_64.AppImage"
 +++

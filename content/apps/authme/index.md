@@ -17,6 +17,6 @@ bugtracker = "https://github.com/Levminer/authme/issues"
 donations = "https://github.com/sponsors/Levminer"
 translations = "https://github.com/Levminer/authme/issues/258#issuecomment-1909792332"
 screenshots = "https://raw.githubusercontent.com/Levminer/authme/dev/screenshots/codes.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/authme/index.md"
 install_x86_64 = "https://github.com/Levminer/authme/releases/download/7.1.0/authme-7.1.0-linux-x64.appimage"
 +++

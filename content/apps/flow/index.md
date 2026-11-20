@@ -17,7 +17,7 @@ repository = "https://github.com/LinwoodDev/Flow"
 bugtracker = "https://github.com/LinwoodDev/Flow/issues"
 translations = "https://linwood.crowdin.com/butterfly"
 screenshots = ""
-appstream_xml_url = "https://raw.githubusercontent.com/LinwoodDev/Flow/refs/heads/develop/app/linux/debian/usr/share/metainfo/dev.linwood.flow.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/flow/index.md"
 install_x86_64 = "https://github.com/LinwoodDev/Flow/releases/download/v0.7.1/linwood-flow-linux-x86_64.AppImage"
 install_arm64 = "https://github.com/LinwoodDev/Flow/releases/download/v0.7.1/linwood-flow-linux-arm64.AppImage"
 +++

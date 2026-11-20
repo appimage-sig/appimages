@@ -16,7 +16,7 @@ homepage = "https://obsidian.md"
 budgtracker = "https://forum.obsidian.md/c/bug-reports/7"
 translations = "https://github.com/obsidianmd/obsidian-translations"
 screenshots = "https://obsidian.md/images/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/md.obsidian.Obsidian/refs/heads/master/md.obsidian.Obsidian.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/obsidian/index.md"
 install_x86_64="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1.AppImage"
 install_arm64="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.15.1/Obsidian-1.15.1-arm64.AppImage"
 +++

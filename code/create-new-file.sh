@@ -23,7 +23,7 @@ bugtracker = ""
 donations = ""
 translations = ""
 screenshots = ""
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/`$TITLE`/index.md"
 install_x86_64 = ""
 install_arm64 = ""
 +++

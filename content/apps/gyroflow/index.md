@@ -18,6 +18,6 @@ bugtracker = "https://github.com/gyroflow/gyroflow/issues"
 donations = "https://gyroflow.xyz/donate"
 translations = "https://crowdin.com/project/gyroflow"
 screenshots = "https://raw.githubusercontent.com/gyroflow/gyroflow/refs/heads/master/resources/screenshot.jpg"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gyroflow/index.md"
 install_x86_64 = "https://github.com/gyroflow/gyroflow/releases/download/v1.7.0/Gyroflow-linux64.AppImage"
 +++

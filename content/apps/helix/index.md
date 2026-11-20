@@ -17,6 +17,6 @@ repository = "https://github.com/helix-editor/helix"
 bugtracker = "https://github.com/helix-editor/helix/issues"
 donations = "https://opencollective.com/helix-editor"
 screenshots = "https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/helix-editor/helix/refs/heads/master/contrib/Helix.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/helix-editor/index.md"
 install_x86_64 = "https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-x86_64.AppImage"
 +++

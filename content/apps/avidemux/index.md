@@ -17,6 +17,6 @@ repository = "https://github.com/mean00/avidemux2"
 bugtracker = "https://sourceforge.net/p/avidemux/bugs"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "http://fixounet.free.fr/avidemux/index_files/screenshot1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/mean00/avidemux2/refs/heads/master/avidemux/qt4/xdg_data/org.avidemux.Avidemux.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/avidemux/index.md"
 install_x86_64 = "https://www.avidemux.org/nightly/appImage/Avidemux-x86_64_20261018.AppImage"
 +++

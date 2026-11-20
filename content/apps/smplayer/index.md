@@ -18,6 +18,6 @@ repository = "https://github.com/smplayer-dev/smplayer"
 donations = "https://www.smplayer.info/en/contribute"
 translations = "https://explore.transifex.com/rvm/smplayer"
 bugtracker = "https://github.com/smplayer-dev/smplayer/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/smplayer-dev/smplayer/refs/heads/master/smplayer.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/smplayer/index.md"
 install_x86_64="https://github.com/smplayer-dev/smplayer/releases/download/v26.8.29/SMPlayer-26.8.29-x86_64.AppImage"
 +++

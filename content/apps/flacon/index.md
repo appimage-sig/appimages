@@ -18,7 +18,7 @@ repository = "https://github.com/flacon/flacon"
 donations = "https://flacon.github.io/donate"
 translations = "https://explore.transifex.com/sokoloff/flacon/"
 bugtracker = "https://github.com/flacon/flacon/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flacon/flacon/refs/heads/master/misc/com.github.Flacon.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/flacon/index.md"
 install_x86_64="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-x86_64.AppImage"
 install_arm64="https://github.com/flacon/flacon/releases/download/v13.0.2/Flacon-13.0.2-aarch64.AppImage"
 +++

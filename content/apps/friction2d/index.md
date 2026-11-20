@@ -17,6 +17,6 @@ repository = "https://github.com/friction2d/friction"
 bugtracker = "https://github.com/friction2d/friction/issues"
 donations = "https://friction.graphics/donate.html"
 screenshots = "https://friction.graphics/assets/screenshots/100/friction-100-linux-screenshot.png"
-appstream_xml_url = "https://github.com/friction2d/friction/blob/main/src/app/appdata.xml.in"
+metadata = "https://github.com/friction2d/friction/blob/main/src/app/appdata.xml.in"
 install_x86_64 = "https://github.com/friction2d/friction/releases/download/v1.0.0/Friction-1.0.0-x86_64.AppImage"
 +++

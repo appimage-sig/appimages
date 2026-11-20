@@ -16,7 +16,7 @@ screenshots = "https://raw.githubusercontent.com/leon3s/wireguard-gui/refs/heads
 repository = "https://github.com/0xle0ne/wireguard-gui"
 donations = "https://github.com/sponsors/0xle0ne"
 bugtracker = "https://github.com/0xle0ne/wireguard-gui/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/wireguard-gui/index.md"
 install_x86_64="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.13-stable/wireguard-gui_0.1.13_amd64.AppImage"
 install_arm64="https://github.com/0xle0ne/wireguard-gui/releases/download/0.1.13-stable/wireguard-gui_0.1.13_aarch64.AppImage"
 +++

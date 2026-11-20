@@ -17,6 +17,6 @@ repository = "https://github.com/anyproto/anytype-ts"
 bugtracker = "https://github.com/anyproto/anytype-ts/issues"
 translations = "https://crowdin.com/project/anytype-desktop"
 screenshots = "https://github.com/user-attachments/assets/6b11140f-ea1b-48d6-b14a-d89c3a6d57ca"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.anytype.anytype/refs/heads/master/io.anytype.anytype.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/anytype/index.md"
 install_x86_64 = "https://github.com/anyproto/anytype-ts/releases/download/v0.57.8-alpha/Anytype-0.57.8-alpha.AppImage"
 +++

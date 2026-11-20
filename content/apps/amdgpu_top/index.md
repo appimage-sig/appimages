@@ -16,7 +16,7 @@ repository = "https://github.com/Umio-Yasuno/amdgpu_top"
 bugtracker = "https://github.com/Umio-Yasuno/amdgpu_top/issues"
 translations = "https://github.com/Umio-Yasuno/amdgpu_top?tab=readme-ov-file#translations"
 screenshots = "https://github.com/user-attachments/assets/e622e1da-09b9-4212-b71c-ad9d39bf3cd5"
-appstream_xml_url = "https://raw.githubusercontent.com/Umio-Yasuno/amdgpu_top/refs/heads/main/assets/io.github.umio_yasuno.amdgpu_top.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/amdgpu_top/index.md"
 install_x86_64 = "https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-x86_64.AppImage"
 install_arm64 = "https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.11.5/amdgpu_top-aarch64.AppImage"
 +++

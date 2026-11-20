@@ -18,6 +18,6 @@ repository = "https://github.com/DavidoTek/ProtonUp-Qt"
 donations = "https://ko-fi.com/davidotek"
 translations = "https://hosted.weblate.org/projects/protonup-qt"
 bugtracker = "https://github.com/DavidoTek/ProtonUp-Qt/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/DavidoTek/ProtonUp-Qt/refs/heads/main/share/metainfo/net.davidotek.pupgui2.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/protonup-qt/index.md"
 install_x86_64="https://github.com/Davido ek/ProtonUp-Qt/releases/download/v2.15.1/ProtonUp-Qt-2.15.1-x86_64.AppImage"
 +++

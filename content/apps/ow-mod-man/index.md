@@ -15,6 +15,7 @@ homepage = "https://outerwildsmods.com/mod-manager"
 repository = "https://github.com/ow-mods/ow-mod-man"
 translations = "https://github.com/ow-mods/ow-mod-man/blob/main/owmods_gui/TRANSLATIONS.md"
 bugtracker = "https://github.com/ow-mods/ow-mod-man/issues"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/ow-mod-man/index.md"
 install_x86_64 = "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_amd64.AppImage"
 install_arm64 = "https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.16.0/Outer.Wilds.Mod.Manager_0.16.0_aarch64.AppImage"
 +++

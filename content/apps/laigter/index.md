@@ -17,6 +17,6 @@ repository = "https://github.com/azagaya/laigter"
 donations = "https://www.patreon.com/jazagaya"
 translations = "https://github.com/azagaya/laigter/blob/master/CONTRIBUTING.md#contributing-with-translation"
 bugtracker = "https://github.com/azagaya/laigter/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/azagaya/laigter/refs/heads/master/dist/laigter.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/laigter/index.md"
 install_x86_64="https://github.com/azagaya/laigter/releases/download/UNKNOWN%402026-08-07_1786113264/Laigter-x86_64.AppImage"
 +++

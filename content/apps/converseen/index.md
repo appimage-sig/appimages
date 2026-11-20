@@ -17,7 +17,7 @@ repository = "https://github.com/Faster3ck/Converseen"
 bugtracker = "https://github.com/Faster3ck/Converseen/issues"
 donations = "https://ko-fi.com/faster3ck"
 screenshots = "https://converseen.fasterland.net/images/converseen_013_github.png"
-appstream_xml_url = "https://raw.githubusercontent.com/Faster3ck/Converseen/refs/heads/main/converseen.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/converseen/index.md"
 install_x86_64 = "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-x86_64.AppImage"
 install_arm64 = "https://github.com/Faster3ck/Converseen/releases/download/v0.15.2.9/Converseen-0.15.2.9-1-anylinux-aarch64.AppImage"
 +++

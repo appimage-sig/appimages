@@ -14,7 +14,7 @@ license = ["EULA"]
 [extra]
 homepage = "https://www.beeper.com/"
 screenshots = "https://i0.wp.com/www.beeper.com/wp-content/uploads/2026/10/beeper-app-screenshot-scaled.png?resize=1024%2C721&ssl=1"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/beeper/index.md"
 install_x86_64 = "https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop"
 install_arm64 = "https://api.beeper.com/desktop/download/linux/arm64/stable/com.automattic.beeper.desktop"
 +++

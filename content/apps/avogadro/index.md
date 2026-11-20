@@ -18,7 +18,7 @@ bugtracker = "https://github.com/openchemistry/avogadrolibs/issues"
 donations = "https://opencollective.com/open-chemistry"
 translations = "https://hosted.weblate.org/engage/avogadro"
 screenshots = "https://avogadro.cc/_images/home_screenshot_1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/OpenChemistry/avogadroapp/refs/heads/master/avogadro/metainfo/org.openchemistry.Avogadro2.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/avogadro/index.md"
 install_x86_64 = "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-x86_64.AppImage"
 install_arm64 = "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-aarch64.AppImage"
 +++

@@ -17,7 +17,7 @@ repository = "https://github.com/brndnmtthws/conky"
 bugtracker = "https://github.com/brndnmtthws/conky/issues"
 donations = "https://github.com/sponsors/brndnmtthws"
 screenshots = "https://raw.githubusercontent.com/Eboreg/klaatu-conky-conf/refs/heads/main/screenshot.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/conky/index.md"
 install_x86_64 = "https://github.com/brndnmtthws/conky/releases/download/v1.26.0/conky-ubuntu-26.04-x86_64-v1.26.0-release.AppImage"
 install_arm64 = "https://github.com/brndnmtthws/conky/releases/download/v1.26.0/conky-ubuntu-26.04-aarch64-v1.26.0-release.AppImage"
 +++

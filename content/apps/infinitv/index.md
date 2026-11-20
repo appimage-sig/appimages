@@ -17,7 +17,7 @@ repository = "https://github.com/infinitel8p/Extreme-InfiniTV"
 bugtracker = "https://github.com/infinitel8p/Extreme-InfiniTV/issues"
 donations = "https://github.com/sponsors/infinitel8p"
 screenshots = "https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/heads/main/docs/screenshots/Desktop/home.png"
-appstream_xml_url = "https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/heads/main/packaging/flatpak/io.github.infinitel8p.Extreme-InfiniTV.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/infinitv/index.md"
 install_x86_64 = "https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.9.0/Extreme.InfiniTV_1.9.0_amd64.AppImage"
 install_arm64 = "https://github.com/infinitel8p/Extreme-InfiniTV/releases/download/v1.9.0/Extreme.InfiniTV_1.9.0_aarch64.AppImage"
 +++

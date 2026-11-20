@@ -18,6 +18,6 @@ bugtracker = "https://github.com/gdm-settings/gdm-settings/issues"
 donations = "https://github.com/sponsors/gdm-settings"
 translations = "https://hosted.weblate.org/engage/gdm-settings"
 screenshots = "https://raw.githubusercontent.com/gdm-settings/screenshots/v5.0/light/default.png"
-appstream_xml_url = "https://raw.githubusercontent.com/gdm-settings/gdm-settings/refs/heads/main/data/gdm-settings.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gdm-settings/index.md"
 install_x86_64 = "https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage"
 +++

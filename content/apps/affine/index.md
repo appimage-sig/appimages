@@ -18,6 +18,6 @@ bugtracker = "https://github.com/toeverything/AFFiNE/issues"
 donations = "https://github.com/sponsors/toeverything"
 translations = "https://crowdin.com/project/affine"
 screenshots = "https://affine.pro/overview/Write.jpg"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/affine/index.md"
 install_x86_64 = "https://github.com/toeverything/AFFiNE/releases/download/v0.26.3/affine-0.26.3-stable-linux-x64.appimage"
 +++

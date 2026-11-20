@@ -18,7 +18,7 @@ repository = "https://github.com/LibreCAD/LibreCAD"
 donations = "https://github.com/sponsors/LibreCAD"
 translations = "https://translate.librecad.org"
 bugtracker = "https://github.com/LibreCAD/LibreCAD/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/LibreCAD/LibreCAD/refs/heads/master/desktop/org.librecad.librecad.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/librecad/index.md"
 install_x86_64="https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.6/LibreCAD-v2.2.1.6-x86_64.AppImage"
 install_arm64="https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.6/LibreCAD-v2.2.1.6-aarch64.AppImage"
 +++

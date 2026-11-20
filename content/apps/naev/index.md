@@ -16,5 +16,6 @@ repository = "https://codeberg.org/naev/naev"
 donations = "https://www.libreoffice.org/donate"
 translations = "https://hosted.weblate.org/projects/naev/naev"
 bugtracker = "https://codeberg.org/naev/naev/issues/"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/naev/index.md"
 install_x86_64="https://codeberg.org/naev/naev/releases/download/v0.13.4/naev-0.13.4-linux-x86-64.AppImage"
 +++

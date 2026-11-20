@@ -17,6 +17,6 @@ homepage = "https://photoqt.org"
 repository = "https://gitlab.com/lspies/photoqt"
 translations = "https://translate.photoqt.org"
 bugtracker = "https://gitlab.com/lspies/photoqt/-/work_items/"
-appstream_xml_url = "https://gitlab.com/lspies/photoqt/-/raw/master/org.photoqt.PhotoQt.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/photoqt/index.md"
 install_x86_64="https://photoqt.org/downloads/appimages/PhotoQt.AppImage"
 +++

@@ -18,6 +18,6 @@ bugtracker = "https://github.com/laurent22/joplin/issues"
 donations = "https://joplinapp.org/donate"
 translations = "https://joplinapp.org/help/dev/localisation/"
 screenshots = "https://joplinapp.org/images/home-top-img.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/net.cozic.joplin_desktop/refs/heads/master/net.cozic.joplin_desktop.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/joplin/index.md"
 install_x86_64 = "https://github.com/laurent22/joplin/releases/download/v3.7.22/Joplin-3.7.22.AppImage"
 +++

@@ -14,7 +14,8 @@ license = ["GPL-3.0"]
 [extra]
 screenshots = "https://raw.githubusercontent.com/kraxarn/spotify-qt/refs/heads/develop/.github/img/spotify-qt.png"
 repository = "https://github.com/kraxarn/spotify-qt"
-bugtracker = "https://github.com/kraxarn/spotify-qt/issues" 
+bugtracker = "https://github.com/kraxarn/spotify-qt/issues"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/spotify-qt/index.md"
 install_x86_64 = "https://github.com/kraxarn/spotify-qt/releases/download/v4.0.4/spotify-qt-v4.0.4-x86_64.AppImage"
 install_arm64 = "https://github.com/kraxarn/spotify-qt/releases/download/v4.0.4/spotify-qt-v4.0.4-aarch64.AppImage"
 +++

@@ -17,6 +17,6 @@ repository = "https://github.com/bitwarden/clients"
 bugtracker = "https://github.com/bitwarden/clients/issues"
 translations = "https://crowdin.com/project/bitwarden-desktop"
 screenshots = "https://raw.githubusercontent.com/bitwarden/brand/main/screenshots/apps-combo-logo.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.bitwarden.desktop/refs/heads/master/com.bitwarden.desktop.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/bitwarden/index.md"
 install_x86_64 = "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-2026.10.4-x86_64.AppImage"
 +++

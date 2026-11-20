@@ -16,7 +16,7 @@ homepage = "https://xemu.app"
 repository = "https://github.com/xemu-project/xemu"
 donations = "https://www.patreon.com/mborgerson"
 bugtracker = "https://github.com/xemu-project/xemu/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/xemu/index.md"
 install_x86_64="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-dbg-x86_64.AppImage"
 install_arm64="https://github.com/xemu-project/xemu/releases/download/v0.8.139/xemu-0.8.139-aarch64.AppImage"
 +++

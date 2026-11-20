@@ -17,6 +17,6 @@ repository = "https://github.com/martinrotter/rssguard"
 donations = "https://github.com/sponsors/martinrotter"
 translations = "https://crowdin.com/project/rssguard"
 bugtracker = "https://github.com/martinrotter/rssguard/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/martinrotter/rssguard/refs/heads/master/resources/desktop/rssguard.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rssguard/index.md"
 install_x86_64="https://github.com/martinrotter/rssguard/releases/download/5.3.0/rssguard-5.3.0-web-qt6-linux64.AppImage"
 +++

@@ -17,7 +17,7 @@ repository = "https://github.com/4ian/GDevelop"
 bugtracker = "https://github.com/4ian/GDevelop/issues"
 translations = "https://crowdin.com/project/gdevelop"
 screenshots = "https://raw.githubusercontent.com/4ian/GDevelop/refs/heads/master/newIDE/GDevelop%20screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.gdevelop.ide/refs/heads/master/io.gdevelop.ide.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gdevelop/index.md"
 install_x86_64 = "https://github.com/4ian/GDevelop/releases/download/v5.6.287/GDevelop-5-5.6.287.AppImage"
 install_arm64 = "https://github.com/4ian/GDevelop/releases/download/v5.6.287/GDevelop-5-5.6.287-arm64.AppImage"
 +++

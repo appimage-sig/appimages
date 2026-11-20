@@ -16,6 +16,6 @@ repository = "https://github.com/KDAB/hotspot"
 bugtracker = "https://github.com/KDAB/hotspot/issues"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://raw.githubusercontent.com/KDAB/hotspot/refs/heads/master/screenshots/summary.png"
-appstream_xml_url = "https://raw.githubusercontent.com/KDAB/hotspot/refs/heads/master/com.kdab.Hotspot.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/hotspot/index.md"
 install_x86_64 = "https://github.com/KDAB/hotspot/releases/download/continuous/hotspot-continuous.AppImage"
 +++

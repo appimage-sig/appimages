@@ -18,6 +18,6 @@ bugtracker = "https://github.com/flyinghead/flycast/issues"
 donations = "https://buymeacoffee.com/hhwtpernwq"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://raw.githubusercontent.com/flyinghead/flycast/refs/heads/master/shell/imgs/screenshot1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flyinghead/flycast/refs/heads/master/shell/linux/org.flycast.Flycast.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/flycast/index.md"
 install_x86_64 = "https://github.com/flyinghead/flycast/releases/download/v2.7/flycast-x86_64-2.7.AppImage"
 +++

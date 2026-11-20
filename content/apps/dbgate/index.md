@@ -17,7 +17,7 @@ repository = "https://github.com/dbgate/dbgate"
 bugtracker = "https://github.com/dbgate/dbgate/issues"
 donations = "https://github.com/sponsors/dbgate"
 screenshots = "https://raw.githubusercontent.com/dbgate/dbgate/master/img/screenshot1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/dbgate/dbgate/refs/heads/master/app/org.dbgate.DbGate.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/dbgate/index.md"
 install_x86_64 = "https://github.com/dbgate/dbgate/releases/download/v7.3.6/dbgate-7.3.6-linux_x86_64.AppImage"
 install_arm64 = "https://github.com/dbgate/dbgate/releases/download/v7.3.6/dbgate-7.3.6-linux_arm64.AppImage"
 +++

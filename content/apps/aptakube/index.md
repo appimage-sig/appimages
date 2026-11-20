@@ -16,6 +16,6 @@ homepage = "https://aptakube.com"
 repository = "https://github.com/aptakube/aptakube"
 bugtracker = "https://github.com/aptakube/aptakube/issues"
 screenshots = ""
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/aptakube/index.md"
 install_x86_64 = "https://github.com/aptakube/aptakube/releases/download/1.22.3/aptakube_1.22.3_amd64.AppImage"
 +++

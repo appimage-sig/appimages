@@ -17,6 +17,7 @@ repository = "https://github.com/modrinth/code"
 translations = "https://crowdin.com/project/modrinth"
 screenshots = "https://cdn-raw.modrinth.com/app-landing/app-screenshot.webp"
 bugtracker = "https://github.com/modrinth/code/issues"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/modrinth/index.md"
 install_x86_64 = "https://github.com/modrinth/code/releases/download/v0.23.3/Modrinth.App_0.23.3_amd64.AppImage"
 install_arm64 = "https://github.com/modrinth/code/releases/download/v0.23.3/Modrinth.App_0.23.3_aarch64.AppImage"
 +++

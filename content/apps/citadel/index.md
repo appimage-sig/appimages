@@ -18,6 +18,6 @@ bugtracker = "https://github.com/everydaythingssoftware/citadel/issues"
 donations = "https://github.com/sponsors/phildenhoff"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://citadel.page/screenshot-light-1200.webp"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/citadel/index.md"
 install_x86_64 = "https://github.com/everydaythingssoftware/citadel/releases/download/v0.7.2/Citadel_0.7.2_amd64.AppImage"
 +++

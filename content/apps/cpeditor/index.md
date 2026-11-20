@@ -18,6 +18,6 @@ bugtracker = "https://github.com/cpeditor/cpeditor/issues"
 donations = "https://github.com/cpeditor/cpeditor/blob/master/DONATE.md"
 translations = "https://github.com/cpeditor/cpeditor/blob/master/CONTRIBUTING.md#translations"
 screenshots = "https://raw.githubusercontent.com/cpeditor/cpeditor/refs/heads/master/assets/demo.gif"
-appstream_xml_url = "https://raw.githubusercontent.com/cpeditor/cpeditor/refs/heads/master/cmake/cpeditor.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cpeditor/index.md"
 install_x86_64 = "https://github.com/cpeditor/cpeditor/releases/download/7.1.2/cpeditor-7.1.2-linux-x86_64.AppImage"
 +++

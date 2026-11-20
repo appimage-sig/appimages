@@ -17,7 +17,7 @@ bugtracker = "https://github.com/Daniele-rolli/Beaver-Notes/issues"
 donations = "https://github.com/sponsors/Beaver-Notes"
 translations = "https://docs.beavernotes.com/Dev/translate/"
 screenshots = "https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/Home.png"
-appstream_xml_url = "https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/beaver-notes/index.md"
 install_x86_64 = "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0.AppImage"
 install_arm64 = "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.4.0/Beaver-Notes-4.4.0-arm64.AppImage"
 +++

@@ -18,6 +18,6 @@ bugtracker = "https://invent.kde.org/multimedia/kdenlive/-/work_items"
 donations = "https://kdenlive.org/fund"
 translations = "https://l10n.kde.org"
 screenshots = "https://cdn.kde.org/screenshots/kdenlive/k6.png"
-appstream_xml_url = "https://invent.kde.org/multimedia/kdenlive/-/raw/master/data/org.kde.kdenlive.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/kdenlive/index.md"
 install_x86_64 = "https://download.kde.org/stable/kdenlive/26.08/linux/kdenlive-26.08.3-x86_64.AppImage"
 +++

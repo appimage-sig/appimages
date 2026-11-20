@@ -17,6 +17,6 @@ homepage = "https://upscayl.org"
 repository = "https://github.com/upscayl/upscayl"
 donations = "https://www.buymeacoffee.com/fossisthefuture"
 bugtracker = "https://github.com/upscayl/upscayl/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/upscayl/upscayl/refs/heads/main/flatpak/org.upscayl.Upscayl.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/upscayl/index.md"
 install_x86_64="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage"
 +++

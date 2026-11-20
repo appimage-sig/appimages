@@ -18,7 +18,7 @@ repository = "https://github.com/Zettlr/Zettlr"
 donations = "https://github.com/sponsors/nathanlesage"
 translations = "https://github.com/Zettlr/Zettlr?tab=readme-ov-file#translating"
 bugtracker = "https://github.com/Zettlr/Zettlr/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.zettlr.Zettlr/refs/heads/master/com.zettlr.Zettlr.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/zettlr/index.md"
 install_x86_64="https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-x86_64.AppImage"
 install_arm64="https://github.com/Zettlr/Zettlr/releases/download/v4.10.0/Zettlr-4.10.0-arm64.AppImage"
 +++

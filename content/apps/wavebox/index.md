@@ -15,6 +15,6 @@ homepage = "https://wavebox.io"
 repository = "https://github.com/wavebox/waveboxapp"
 bugtracker = "https://github.com/wavebox/waveboxapp/issues"
 screenshots = "https://raw.githubusercontent.com/wavebox/waveboxapp/refs/heads/master/images/hero.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.wavebox.Wavebox/refs/heads/master/io.wavebox.Wavebox.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/wavebox/index.md"
 install_x86_64="https://download.wavebox.app/stable/linux/appimage/Wavebox_157.3.32-2_x86_64.AppImage"
 +++

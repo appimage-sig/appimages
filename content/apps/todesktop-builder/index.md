@@ -13,5 +13,6 @@ license = ["EULA"]
 [extra]
 screenshots = "https://www.todesktop.com/cdn-cgi/image/width=1920,f=auto,fit=cover/_astro/screenshot-blank.Cr7WWl0L.png"
 homepage = "https://www.todesktop.com/"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/todesktop-builder/index.md"
 install_x86_64="https://builder.todesktop.com/"
 +++

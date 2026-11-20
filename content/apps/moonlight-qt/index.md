@@ -16,6 +16,6 @@ screenshots = "https://moonlight-stream.org/appstream_resources/moonlight_screen
 homepage = "https://moonlight-stream.org"
 repository = "https://github.com/moonlight-stream/moonlight-qt"
 bugtracker = "https://github.com/moonlight-stream/moonlight-qt/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/moonlight-stream/moonlight-qt/refs/heads/master/app/deploy/linux/com.moonlight_stream.Moonlight.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/moonlight-qt/index.md"
 install_x86_64="https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.2.0/Moonlight-6.2.0-x86_64.AppImage"
 +++

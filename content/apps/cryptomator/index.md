@@ -18,7 +18,7 @@ bugtracker = "https://github.com/cryptomator/cryptomator/issues"
 donations = "https://cryptomator.org/donate/"
 translations = "https://translate.cryptomator.org"
 screenshots = "https://static.cryptomator.org/desktop/flathubScreenshots/MainWindowUnlocked_light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/cryptomator/cryptomator/refs/heads/develop/dist/linux/common/org.cryptomator.Cryptomator.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cryptomator/index.md"
 install_x86_64 = "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-x86_64.AppImage"
 install_arm64 = "https://github.com/cryptomator/cryptomator/releases/download/1.19.6/cryptomator-1.19.6-aarch64.AppImage"
 +++

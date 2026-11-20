@@ -18,7 +18,7 @@ bugtracker = "https://github.com/danirod/cartero/issues"
 donations = "https://ko-fi.com/danirod"
 translations = "https://hosted.weblate.org/projects/cartero/cartero"
 screenshots = "https://raw.githubusercontent.com/danirod/cartero/trunk/data/screenshots/cartero-payload.png"
-appstream_xml_url = "https://raw.githubusercontent.com/danirod/cartero/refs/heads/trunk/data/es.danirod.Cartero.metainfo.xml.in.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cartero/index.md"
 install_x86_64 = "https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-x86_64.AppImage"
 install_arm64 = "https://github.com/danirod/cartero/releases/download/v26.0/Cartero-26.0-aarch64.AppImage"
 +++

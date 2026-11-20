@@ -17,5 +17,6 @@ repository = "https://github.com/LibreOffice/core"
 donations = "https://www.libreoffice.org/donate"
 translations = "https://wiki.documentfoundation.org/Language"
 bugtracker = "https://bugs.documentfoundation.org"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/libreoffice/index.md"
 install_x86_64 = "https://appimages.libreitalia.org/portable/LibreOffice-25.8.4.2.standard-x86_64.AppImage"
 +++

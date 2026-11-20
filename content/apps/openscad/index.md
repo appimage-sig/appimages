@@ -17,6 +17,6 @@ repository = "https://github.com/openscad/openscad"
 donations = "https://github.com/sponsors/openscad"
 translations = "https://wiki.documentfoundation.org/Language"
 bugtracker = "https://github.com/openscad/openscad/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/openscad/openscad/refs/heads/master/openscad.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/openscad/index.md"
 install_x86_64="https://files.openscad.org/rc/OpenSCAD-2026.11-RC0-x86_64.AppImage"
 +++

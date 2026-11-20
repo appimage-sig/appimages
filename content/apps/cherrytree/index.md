@@ -18,6 +18,6 @@ bugtracker = "https://github.com/giuspen/cherrytree/issues"
 donations = "https://github.com/sponsors/giuspen"
 translations = "https://github.com/giuspen/cherrytree#localization"
 screenshots = "https://raw.githubusercontent.com/giuspen/cherrytree/refs/heads/master/docs/cherrytree-main_window_text.png"
-appstream_xml_url = "https://raw.githubusercontent.com/giuspen/cherrytree/refs/heads/master/data/_net.giuspen.cherrytree.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/cherrytree/index.md"
 install_x86_64 = "https://github.com/giuspen/cherrytree/releases/download/v1.7.3/CherryTree-1.7.3-x86_64.AppImage"
 +++

@@ -17,7 +17,7 @@ repository = "https://github.com/ransome1/sleek"
 donations = "https://github.com/sponsors/ransome1"
 translations = "https://github.com/ransome1/sleek/tree/main/src/locales"
 bugtracker = "https://github.com/ransome1/sleek/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/ransome1/sleek/refs/heads/main/flatpak/com.github.ransome1.sleek.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/sleek/index.md"
 install_x86_64="https://github.com/ransome1/sleek/releases/download/v2.1.1/sleek-2.1.1-linux-x86_64.AppImage"
 install_arm64="https://github.com/ransome1/sleek/releases/download/v2.1.1/sleek-2.1.1-linux-arm64.AppImage"
 +++

@@ -15,7 +15,7 @@ license = ["Apache-2.0"]
 homepage = "https://www.onekey.so"
 repository = "https://github.com/OneKeyHQ/app-monorepo"
 bugtracker = "https://github.com/OneKeyHQ/app-monorepo/issues"
-appstream_xml_url = "https://github.com/flathub/so.onekey.Wallet/blob/master/so.onekey.Wallet.metainfo.xml"
+metadata = "https://github.com/flathub/so.onekey.Wallet/blob/master/so.onekey.Wallet
 install_x86_64="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.7.0/OneKey-Wallet-6.7.0-linux-x86_64.AppImage"
 install_arm64="https://github.com/OneKeyHQ/app-monorepo/releases/download/v6.7.0/OneKey-Wallet-6.7.0-linux-arm64.AppImage"
 +++

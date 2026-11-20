@@ -18,7 +18,7 @@ donations = "https://github.com/sponsors/simplex-chat"
 translations = "https://hosted.weblate.org/engage/simplex-chat"
 bugtracker = "https://github.com/simplex-chat/simplex-chat/issues" 
 screenshots = "https://simplex.chat/blog/images/simplex-desktop-light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/simplex-chat/simplex-chat/refs/heads/stable/scripts/flatpak/chat.simplex.simplex.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/simplex/index.md"
 install_x86_64="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-x86_64.AppImage"
 install_arm64="https://github.com/simplex-chat/simplex-chat/releases/download/v7.0.3/simplex-desktop-aarch64.AppImage"
 

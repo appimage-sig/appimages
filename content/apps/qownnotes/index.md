@@ -18,6 +18,6 @@ bugtracker = "https://github.com/pbek/QOwnNotes/issues"
 donations = "https://github.com/sponsors/pbek"
 translations = "https://crowdin.com/project/qownnotes"
 screenshots = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/screenshots/screenshot.png"
-appstream_xml_url = "https://raw.githubusercontent.com/pbek/QOwnNotes/refs/heads/main/obs/qownnotes.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/qownnotes/index.md"
 install_x86_64 = "https://github.com/pbek/QOwnNotes/releases/download/v26.11.10/QOwnNotes-x86_64.AppImage"
 +++

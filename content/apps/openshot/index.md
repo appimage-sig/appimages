@@ -17,6 +17,6 @@ repository = "https://github.com/OpenShot/openshot-qt"
 donations = "https://www.openshot.org/donate"
 translations = "https://translations.launchpad.net/openshot/2.0/+translations"
 bugtracker = "https://github.com/OpenShot/openshot-qt/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/OpenShot/openshot-qt/refs/heads/develop/xdg/org.openshot.OpenShot.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/openshot/index.md"
 install_x86_64="https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.AppImage"
 +++

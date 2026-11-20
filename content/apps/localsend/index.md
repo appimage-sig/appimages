@@ -18,6 +18,6 @@ donations = "https://github.com/sponsors/Tienisto"
 translations = "https://github.com/localsend/localsend?tab=readme-ov-file#translation"
 screenshots = "https://raw.githubusercontent.com/flathub/org.localsend.localsend_app/refs/heads/master/Media/Receive.png"
 bugtracker = "https://github.com/localsend/localsend/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/org.localsend.localsend_app/refs/heads/master/org.localsend.localsend_app.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/localsend/index.md"
 install_x86_64="https://github.com/localsend/localsend/releases/download/v1.18.2/LocalSend-1.18.2-linux-x86-64.AppImage"
 +++

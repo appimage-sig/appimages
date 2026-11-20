@@ -18,6 +18,7 @@ bugtracker = "https://feedback.fluxer.com/"
 donations = "https://fluxer.com/donate"
 translations = "https://weblate.fluxer.tools/"
 screenshots = "https://fluxer.app/static/img/screenshots-desktop-2560w.d16e05c99b8b6b2b.avif"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/fluxer/index.md"
 install_x86_64 = "https://github.com/fluxerapp/fluxer/releases/download/fluxer-desktop-stable%402026.1119.170904/Fluxer-2026.1119.170904-linux-x86_64.AppImage"
 install_arm64 = "https://github.com/fluxerapp/fluxer/releases/download/fluxer-desktop-stable%402026.1119.170904/Fluxer-2026.1119.170904-linux-arm64.AppImage"
 +++

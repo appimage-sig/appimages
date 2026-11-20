@@ -17,7 +17,7 @@ donations = "https://keepassxc.org/donate"
 translations = "https://explore.transifex.com/keepassxc/keepassxc"
 bugtracker = "https://github.com/keepassxreboot/keepassxc/issues"
 screenshots = "https://keepassxc.org/assets/img/screenshots/database_view.png"
-appstream_xml_url = "https://raw.githubusercontent.com/keepassxreboot/keepassxc/refs/heads/develop/share/linux/org.keepassxc.KeePassXC.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/keepassxc/index.md"
 install_x86_64 = "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-x86_64.AppImage"
 install_arm64 = "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-1-aarch64.AppImage"
 +++

@@ -17,7 +17,7 @@ homepage = "https://vieb.dev"
 repository = "https://github.com/Jelmerro/Vieb"
 donations = "https://github.com/sponsors/Jelmerro"
 bugtracker = "https://github.com/Jelmerro/Vieb/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/dev.vieb.Vieb/refs/heads/master/dev.vieb.Vieb.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/vieb/index.md"
 install_x86_64="https://github.com/Jelmerro/Vieb/releases/download/12.11.0/Vieb-12.11.0.AppImage"
 install_arm64="https://github.com/Jelmerro/Vieb/releases/download/12.11.0/Vieb-12.11.0-arm64.AppImage"
 +++

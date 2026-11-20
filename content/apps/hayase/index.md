@@ -17,6 +17,6 @@ repository = "https://github.com/hayase-app/electron"
 bugtracker = "https://github.com/hayase-app/electron/issues"
 donations = "https://github.com/sponsors/ThaUnknown"
 screenshots = "https://hayase.watch/app.webp"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/hayase/index.md"
 install_x86_64 = "https://api.hayase.watch/files/linux-hayase-6.5.10-linux.AppImage"
 +++

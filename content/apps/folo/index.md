@@ -15,7 +15,7 @@ license = ["GPL-3.0"]
 homepage = "https://folo.is/"
 repository = "https://github.com/RSSNext/Folo"
 bugtracker = "https://github.com/RSSNext/Folo/issues"
-donations = "https://github.com/sponsors/pbek"
 translations = "https://github.com/RSSNext/Folo/blob/dev/wiki/contribute-i18n.md"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/folo/index.md"
 install_x86_64 = "https://github.com/RSSNext/Folo/releases/download/desktop%2Fv1.18.0/Folo-1.18.0-linux-x64.AppImage"
 +++

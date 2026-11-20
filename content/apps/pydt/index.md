@@ -17,6 +17,6 @@ homepage = "https://www.playyourdamnturn.com"
 repository = "https://github.com/pydt/client"
 donations = "https://www.patreon.com/pydt"
 bugtracker = "https://github.com/pydt/client/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/pydt/index.md"
 install_x86_64="https://github.com/pydt/client/releases/download/v2.2.3/playyourdamnturn-linux-2.2.3-x86_64.AppImage"
 +++

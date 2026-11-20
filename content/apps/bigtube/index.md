@@ -14,7 +14,7 @@ license = ["MIT"]
 repository = "https://github.com/eltonfabricio10/bigtube"
 bugtracker = "https://github.com/eltonfabricio10/bigtube/issues"
 donations = "https://github.com/sponsors/eltonfabricio10"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/bigtube/index.md"
 screenshots = "https://raw.githubusercontent.com/eltonfabricio10/bigtube/refs/heads/main/docs/screenshots/01-main.png"
 install_x86_64 = "https://github.com/eltonfabricio10/bigtube/releases/download/v2.4.32/BigTube-2.4.32-x86_64.AppImage"
 +++

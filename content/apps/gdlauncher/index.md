@@ -17,6 +17,6 @@ repository = "https://github.com/gorilla-devs/GDLauncher-Carbon"
 bugtracker = "https://github.com/gorilla-devs/GDLauncher-Carbon/issues"
 translations = "https://github.com/gorilla-devs/GDLauncher-Carbon/blob/develop/CONTRIBUTE_LANGS.md"
 screenshots = "https://cdn.gdl.gg/assets/website-home-app-screenshot.webp"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gdlauncher/index.md"
 install_x86_64 = "https://cdn-raw.gdl.gg/launcher/GDLauncher__2.0.40__linux__x64.AppImage"
 +++

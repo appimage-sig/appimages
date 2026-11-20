@@ -18,7 +18,7 @@ bugtracker = "https://github.com/FreeTubeApp/FreeTube/issues"
 donations = "https://github.com/FreeTubeApp/FreeTube#donate"
 translations = "https://hosted.weblate.org/engage/free-tube"
 screenshots = "https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub1.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.freetubeapp.FreeTube/refs/heads/master/io.freetubeapp.FreeTube.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/freetubeapp/index.md"
 install_x86_64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-amd64.AppImage"
 install_arm64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-arm64.AppImage"
 +++

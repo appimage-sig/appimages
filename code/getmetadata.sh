@@ -10,13 +10,13 @@ curl -sL https://raw.githubusercontent.com/antares-sql/antares/refs/heads/master
 curl -sL https://raw.githubusercontent.com/AntiMicroX/antimicrox/refs/heads/master/other/appdata/io.github.antimicrox.antimicrox.appdata.xml.in -o ./content/apps/antimicrox/io.github.antimicrox.antimicrox.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/io.anytype.anytype/refs/heads/master/io.anytype.anytype.metainfo.xml -o ./content/apps/anytype/io.anytype.anytype.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml -o ./content/apps/appflowy/io.appflowy.AppFlowy.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/cc.arduino.IDE2/refs/heads/master/cc.arduino.IDE2.appdata.xml -o ./content/apps/arduino/cc.arduino.IDE2.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/cc.arduino.IDE2/refs/heads/master/cc.arduino.IDE2.appdata.xml -o ./content/apps/arduino-ide/cc.arduino.IDE2.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in -o ./content/apps/audacity/org.audacityteam.Audacity.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/mean00/avidemux2/refs/heads/master/avidemux/qt4/xdg_data/org.avidemux.Avidemux.appdata.xml.in -o ./content/apps/avidemux/org.avidemux.Avidemux.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/OpenChemistry/avogadroapp/refs/heads/master/avogadro/metainfo/org.openchemistry.Avogadro2.metainfo.xml -o ./content/apps/avogadro/org.openchemistry.Avogadro2.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in -o ./content/apps/audacity/org.audacityteam.Audacity.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/com.bambulab.BambuStudio/refs/heads/master/com.bambulab.BambuStudio.metainfo.xml -o ./content/apps/bambulab/com.bambulab.BambuStudio.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml -o ./content/apps/beavernotes/com.beavernotes.beavernotes.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/io.beekeeperstudio.Studio/refs/heads/master/io.beekeeperstudio.Studio.metainfo.xml -o ./content/apps/beekeeperstudio/io.beekeeperstudio.Studio.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/com.bambulab.BambuStudio/refs/heads/master/com.bambulab.BambuStudio.metainfo.xml -o ./content/apps/bambustudio/com.bambulab.BambuStudio.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/Beaver-Notes/Beaver-Notes/refs/heads/development/flatpak/com.beavernotes.beavernotes.metainfo.xml -o ./content/apps/beaver-notes/com.beavernotes.beavernotes.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/io.beekeeperstudio.Studio/refs/heads/master/io.beekeeperstudio.Studio.metainfo.xml -o ./content/apps/beekeeper-studio/io.beekeeperstudio.Studio.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/refs/heads/master/de.bforartists.Bforartists.metainfo.xml -o ./content/apps/bforartists/de.bforartists.Bforartists.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/com.bitwarden.desktop/refs/heads/master/com.bitwarden.desktop.metainfo.xml -o ./content/apps/bitwarden/com.bitwarden.desktop.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/net.blockbench.Blockbench/refs/heads/master/net.blockbench.Blockbench.metainfo.xml -o ./content/apps/blockbench/net.blockbench.Blockbench.metainfo.xml &
@@ -41,8 +41,8 @@ curl -sL https://raw.githubusercontent.com/deltachat/deltachat-desktop/refs/head
 curl -sL https://raw.githubusercontent.com/diasurgical/DevilutionX/refs/heads/master/Packaging/nix/devilutionx.metainfo.xml -o ./content/apps/devilutionx/org.diasurgical.DevilutionX.metainfo.xml &
 curl -sL https://invent.kde.org/graphics/digikam/-/raw/master/core/app/main/org.kde.digikam.appdata.xml -o ./content/apps/digikam/org.kde.digikam.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flatpark/flatpark/refs/heads/main/registry/com.digimezzo.dopamine/com.digimezzo.dopamine.metainfo.xml -o ./content/apps/dopamine/com.digimezzo.dopamine.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/SpikeHD/Dorion/refs/heads/main/flatpak/com.spikehd.dorion.metainfo.xml -o /content/apps/dorion/com.spikehd.dorion.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/com.jgraph.drawio.desktop/refs/heads/master/com.jgraph.drawio.desktop.metainfo.xml -o /content/apps/drawio/com.jgraph.drawio.desktop.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/SpikeHD/Dorion/refs/heads/main/flatpak/com.spikehd.dorion.metainfo.xml -o ./content/apps/dorion/com.spikehd.dorion.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/com.jgraph.drawio.desktop/refs/heads/master/com.jgraph.drawio.desktop.metainfo.xml -o ./content/apps/drawio/com.jgraph.drawio.desktop.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/stenzek/duckstation/refs/heads/master/scripts/appimage/org.duckstation.DuckStation.metainfo.xml.in -o ./content/apps/duckstation/org.duckstation.DuckStation.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/mobile/apps/auth/linux/packaging/enteauth.appdata.xml -o ./content/apps/ente-auth/io.ente.auth.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/desktop/build/io.ente.photos.appdata.xml -o ./content/apps/ente-photos/io.ente.photos.metainfo.xml &
@@ -86,7 +86,7 @@ curl -sL https://raw.githubusercontent.com/infinitel8p/Extreme-InfiniTV/refs/hea
 curl -sL https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in?ref_type=heads -o ./content/apps/inkscape/org.inkscape.Inkscape.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/rest.insomnia.Insomnia/refs/heads/master/rest.insomnia.Insomnia.metainfo.xml -o ./content/apps/insomnia/rest.insomnia.Insomnia.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/4gray/iptvnator/refs/heads/master/apps/electron-backend/linux/com.fourgray.iptvnator.metainfo.xml -o ./content/apps/iptvnator/com.fourgray.iptvnator.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/org.jitsi.jitsi-meet/refs/heads/master/org.jitsi.jitsi-meet.metainfo.xml -o ./content/apps/jitsi/org.jitsi.jitsi-meet.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/org.jitsi.jitsi-meet/refs/heads/master/org.jitsi.jitsi-meet.metainfo.xml -o ./content/apps/jitsi-meet/org.jitsi.jitsi-meet.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/net.cozic.joplin_desktop/refs/heads/master/net.cozic.joplin_desktop.appdata.xml -o ./content/apps/joplin/net.cozic.joplin_desktop.metainfo.xml &
 curl -sL https://invent.kde.org/multimedia/kdenlive/-/raw/master/data/org.kde.kdenlive.appdata.xml -o ./content/apps/kdenlive/org.kde.kdenlive.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/keepassxreboot/keepassxc/refs/heads/develop/share/linux/org.keepassxc.KeePassXC.appdata.xml -o ./content/apps/keepassxc/org.keepassxc.KeePassXC.metainfo.xml &
@@ -122,6 +122,7 @@ curl -sL https://raw.githubusercontent.com/nuttyartist/notes/refs/heads/master/p
 curl -sL https://raw.githubusercontent.com/flathub/com.notesnook.Notesnook/refs/heads/master/com.notesnook.Notesnook.metainfo.xml -o ./content/apps/notesnook/com.notesnook.Notesnook.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/nukeop/nuclear/refs/heads/master/packages/player/src-tauri/resources/com.nuclearplayer.Nuclear.metainfo.xml -o ./content/apps/nuclear/com.nuclearplayer.Nuclear.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/Syllo/nvtop/refs/heads/master/desktop/nvtop.metainfo.xml.in -o ./content/apps/nvtop/io.github.syllo.nvtop.metainfo.xml &
+curl -sL https://raw.githubusercontent.com/flathub/md.obsidian.Obsidian/refs/heads/master/md.obsidian.Obsidian.metainfo.xml -o ./content/apps/obsidian/md.obsidian.Obsidian.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/OneKeePass/desktop/refs/heads/main/linux/com.onekeepass.OneKeePass.metainfo.xml -o ./content/apps/onekeepass/com.onekeepass.OneKeePass.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/so.onekey.Wallet/refs/heads/master/so.onekey.Wallet.metainfo.xml -o ./content/apps/onekey/so.onekey.Wallet.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/org.onlyoffice.desktopeditors/refs/heads/master/org.onlyoffice.desktopeditors.metainfo.xml -o ./content/apps/onlyoffice/org.onlyoffice.desktopeditors.metainfo.xml &
@@ -130,7 +131,6 @@ curl -sL https://raw.githubusercontent.com/openscad/openscad/refs/heads/master/o
 curl -sL https://raw.githubusercontent.com/OpenShot/openshot-qt/refs/heads/develop/xdg/org.openshot.OpenShot.appdata.xml -o ./content/apps/openshot/org.openshot.OpenShot.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/ossia/score/refs/heads/master/cmake/Deployment/Linux/ossia-score.appdata.xml -o ./content/apps/ossia-score/io.ossia.score.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/flathub/sh.ppy.osu/refs/heads/master/sh.ppy.osu.appdata.xml -o ./content/apps/osu/sh.ppy.osu.metainfo.xml &
-curl -sL https://raw.githubusercontent.com/flathub/md.obsidian.Obsidian/refs/heads/master/md.obsidian.Obsidian.metainfo.xml -o ./content/apps/obsidian/md.obsidian.Obsidian.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/GlitterWare/Passy/refs/heads/main/linux_assets/com.glitterware.passy.appdata.xml -o ./content/apps/passy/com.glitterware.passy.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/PCSX2/pcsx2/refs/heads/master/.github/workflows/scripts/linux/pcsx2-qt.metainfo.xml.in -o ./content/apps/pcsx2/pcsx2-qt.metainfo.xml &
 curl -sL https://raw.githubusercontent.com/pencil2d/pencil/refs/heads/master/app/data/org.pencil2d.Pencil2D.metainfo.xml -o ./content/apps/pencil2d/org.pencil2d.Pencil2D.metainfo.xml &

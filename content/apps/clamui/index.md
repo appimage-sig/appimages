@@ -18,6 +18,6 @@ bugtracker = "https://github.com/linx-systems/clamui/issues"
 donations = "https://github.com/sponsors/linx-systems"
 translations = "https://clamui.com/docs/contributing/translating/"
 screenshots = "https://clamui.com/screenshots/audit_view.png"
-appstream_xml_url = "https://raw.githubusercontent.com/linx-systems/clamui/refs/heads/master/data/io.github.linx_systems.ClamUI.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/clamui/index.md"
 install_x86_64 = "https://github.com/linx-systems/clamui/releases/download/v0.6.0/ClamUI-0.6.0-x86_64.AppImage"
 +++

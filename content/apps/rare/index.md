@@ -17,7 +17,7 @@ repository = "https://github.com/RareDevs/Rare"
 bugtracker = "https://github.com/RareDevs/Rare/issues"
 translations = "https://explore.transifex.com/rare-1/rare/"
 screenshots = "https://raw.githubusercontent.com/RareDevs/Rare/refs/heads/main/docs/assets/RareLibraryIcon.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.github.dummerle.rare/refs/heads/master/io.github.dummerle.rare.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rare/index.md"
 install_x86_64 = "https://github.com/RareDevs/Rare/releases/download/1.12.0.237/Rare-1.12.0.237-x86_64.AppImage"
 install_arm64 = "https://github.com/RareDevs/Rare/releases/download/1.12.0.237/Rare-1.12.0.237-arm64.AppImage"
 +++

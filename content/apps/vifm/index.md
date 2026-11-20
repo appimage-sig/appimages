@@ -16,6 +16,6 @@ homepage = "https://vifm.info"
 repository = "https://github.com/vifm/vifm"
 donations = "https://github.com/sponsors/vifm"
 bugtracker = "https://github.com/vifm/vifm/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/vifm/vifm/refs/heads/master/data/vifm.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/vifm/index.md"
 install_x86_64="https://github.com/vifm/vifm/releases/download/v0.14.5/vifm-v0.14.5-x86_64.AppImage"
 +++

@@ -14,7 +14,7 @@ license = ["AGPL-3.0"]
 homepage = "https://www.warp.dev"
 repository = "https://github.com/warpdotdev/Warp"
 bugtracker = "https://github.com/warpdotdev/Warp/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/warp/index.md"
 install_x86_64="https://releases.warp.dev/stable/v0.2026.11.11.08.17.stable_01/Warp-x86_64.AppImage"
 install_arm64="https://releases.warp.dev/stable/v0.2026.11.11.08.17.stable_01/Warp-aarch64.AppImage"
 +++

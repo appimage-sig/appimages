@@ -18,7 +18,7 @@ bugtracker = "https://github.com/jorio/gitfourchette/issues"
 donations = "https://ko-fi.com/jorio"
 translations = "https://gitfourchette.org/localization"
 screenshots = "https://gitfourchette.org/_static/appstream/packshot-shadow-light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/jorio/gitfourchette/refs/heads/master/pkg/flatpak/org.gitfourchette.gitfourchette.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gitfourchette/index.md"
 install_x86_64 = "https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-x86_64.AppImage"
 install_arm64 = "https://github.com/jorio/gitfourchette/releases/download/v1.12.1/GitFourchette-1.12.1-aarch64.AppImage"
 +++

@@ -18,7 +18,7 @@ bugtracker = ""
 donations = ""
 translations = ""
 screenshots = ""
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/handy/index.md"
 install_x86_64 = ""
 install_arm64 = ""
 +++

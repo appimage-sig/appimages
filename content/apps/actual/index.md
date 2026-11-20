@@ -18,7 +18,7 @@ bugtracker = "https://github.com/actualbudget/actual/issues"
 donations = "https://github.com/sponsors/actualbudget"
 translations = "https://hosted.weblate.org/projects/actualbudget"
 screenshots = "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-electron/screenshots/budget-gnome-light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/actualbudget/actual/refs/heads/master/packages/desktop-electron/extra-resources/linux/com.actualbudget.actual.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/actual/index.md"
 install_x86_64 = "https://github.com/actualbudget/actual/releases/download/v26.11.0/Actual-linux-x86_64.AppImage"
 install_arm64 = "https://github.com/actualbudget/actual/releases/download/v26.11.0/Actual-linux-arm64.AppImage"
 +++

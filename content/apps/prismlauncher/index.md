@@ -18,7 +18,7 @@ repository = "https://github.com/PrismLauncher/PrismLauncher"
 donations = "https://opencollective.com/prismlauncher"
 translations = "https://hosted.weblate.org/projects/prismlauncher/launcher/"
 bugtracker = "https://github.com/PrismLauncher/PrismLauncher/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/PrismLauncher/PrismLauncher/refs/heads/develop/program_info/org.prismlauncher.PrismLauncher.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/prismlauncher/index.md"
 install_x86_64="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.1.1/PrismLauncher-Linux-x86_64.AppImage"
 install_arm64="https://github.com/PrismLauncher/PrismLauncher/releases/download/11.1.1/PrismLauncher-Linux-aarch64.AppImage"
 +++

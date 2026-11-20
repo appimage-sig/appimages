@@ -18,7 +18,7 @@ bugtracker = "https://github.com/deltachat/deltachat-desktop/issues"
 donations = "https://delta.chat/en/donate"
 translations = "https://explore.transifex.com/delta-chat/delta-chat-app"
 screenshots = "https://raw.githubusercontent.com/deltachat/deltachat-desktop/refs/heads/main/README_ASSETS/desktop.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/chat.delta.desktop/refs/heads/master/chat.delta.desktop.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/deltachat/index.md"
 install_x86_64 = "https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-x86_64.AppImage"
 install_arm64 = "https://github.com/deltachat/deltachat-desktop/releases/download/v2.65.0/DeltaChat-2.65.0-arm64.AppImage"
 +++

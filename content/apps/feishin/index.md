@@ -17,7 +17,7 @@ donations = "https://ko-fi.com/jeffvli"
 translations = "https://hosted.weblate.org/projects/feishin"
 bugtracker = "https://github.com/jeffvli/feishin/issues"
 screenshots = "https://raw.githubusercontent.com/jeffvli/feishin/development/media/preview_full_screen_player.png"
-appstream_xml_url = "https://raw.githubusercontent.com/jeffvli/feishin/refs/heads/development/org.jeffvli.feishin.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/feishin/index.md"
 install_x86_64="https://github.com/jeffvli/feishin/releases/latest/download//Feishin-linux-x86_64.AppImage"
 install_arm64="https://github.com/jeffvli/feishin/releases/latest/download/Feishin-linux-arm64.AppImage"
 +++

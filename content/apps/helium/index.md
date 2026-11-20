@@ -17,6 +17,7 @@ bugtracker = "https://github.com/imputnet/helium/issues"
 screenshots = "https://helium.computer/brand/png/helium-interface-dynamic-tabs.png"
 translations = "https://github.com/imputnet/helium/tree/main/i18n"
 donations = "https://liberapay.com/imput"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/helium/index.md"
 install_x86_64 = "https://github.com/imputnet/helium-linux/releases/download/0.22.1.1/helium-0.22.1.1-x86_64.AppImage"
 install_arm64="https://github.com/imputnet/helium-linux/releases/download/0.22.1.1/helium-0.22.1.1-arm64.AppImage"
 +++

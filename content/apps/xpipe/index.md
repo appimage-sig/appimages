@@ -17,7 +17,7 @@ homepage = "https://xpipe.io/"
 repository = "https://github.com/xpipe-io/xpipe"
 translations = "https://github.com/xpipe-io/xpipe/tree/master/lang"
 bugtracker = "https://github.com/xpipe-io/xpipe/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/xpipe/index.md"
 install_x86_64="https://github.com/xpipe-io/xpipe/releases/latest/download/xpipe-portable-linux-x86_64.AppImage"
 install_arm64="https://github.com/xpipe-io/xpipe/releases/latest/download/xpipe-portable-linux-arm64.AppImage"
 +++

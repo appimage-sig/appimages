@@ -17,6 +17,6 @@ homepage = "https://www.mapeditor.org/"
 repository = "https://github.com/mapeditor/tiled/"
 donations = "https://github.com/bjorn"
 bugtracker = "https://github.com/mapeditor/tiled/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/mapeditor/tiled/refs/heads/master/org.mapeditor.Tiled.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/tiled/index.md"
 install_x86_64="https://github.com/mapeditor/tiled/releases/download/v1.12.2/Tiled-1.12.2_Linux_x86_64.AppImage"
 +++

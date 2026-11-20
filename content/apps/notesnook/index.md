@@ -16,7 +16,7 @@ homepage = "https://notesnook.com"
 repository = "https://github.com/streetwriters/notesnook"
 donations = "https://opencollective.com/notesnook"
 bugtracker = "https://github.com/streetwriters/notesnook/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/com.notesnook.Notesnook/refs/heads/master/com.notesnook.Notesnook.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/notesnook/index.md"
 install_x86_64="https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_linux_x86_64.AppImage"
 install_arm64="https://github.com/streetwriters/notesnook/releases/download/v3.4.13/notesnook_linux_arm64.AppImage"
 +++

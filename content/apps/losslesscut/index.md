@@ -18,6 +18,6 @@ donations = "https://mifi.no/thanks/"
 translations = "https://hosted.weblate.org/projects/losslesscut/losslesscut"
 bugtracker = "https://github.com/mifi/lossless-cut/issues"
 screenshots = "https://static.mifi.no/media/InHeghy_4DwVeujK/2000.jpg"
-appstream_xml_url = "https://raw.githubusercontent.com/mifi/lossless-cut/refs/heads/master/no.mifi.losslesscut.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/lossless-cut/index.md"
 install_x86_64="https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage"
 +++

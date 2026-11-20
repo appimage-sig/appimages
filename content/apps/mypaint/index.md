@@ -17,7 +17,7 @@ repository = "https://github.com/mypaint/mypaint"
 donations = "https://opencollective.com/mypaint"
 translations = "https://hosted.weblate.org/engage/mypaint/?utm_source=widget"
 bugtracker = "https://github.com/mypaint/mypaint/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/mypaint/index.md"
 screenshots = "https://cloud.githubusercontent.com/assets/1840562/8720135/b28edc2e-2b65-11e5-91ce-9d557bcd2c9e.png"
 install_x86_64="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage"
 +++

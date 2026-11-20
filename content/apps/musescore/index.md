@@ -16,7 +16,7 @@ homepage = "https://musescore.org/en"
 repository = "https://github.com/musescore/MuseScore"
 translations = "https://musescore.org/administrative-guidelines/translation-instructions"
 bugtracker = "https://github.com/musescore/MuseScore/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/musescore/MuseScore/refs/heads/main/buildscripts/packaging/Linux%2BBSD/org.musescore.MuseScore.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/musescore/index.md"
 install_x86_64="https://github.com/musescore/MuseScore/releases/download/v4.7.7/MuseScore-Studio-4.7.7.261109195-x86_64.AppImage"
 install_arm64="https://github.com/musescore/MuseScore/releases/download/v4.7.7/MuseScore-Studio-4.7.7.261109195-aarch64.AppImage"
 +++

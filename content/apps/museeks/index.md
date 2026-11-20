@@ -17,7 +17,7 @@ homepage = "https://museeks.io"
 repository = "https://github.com/martpie/museeks"
 bugtracker = "https://github.com/martpie/museeks/issues"
 translations = "https://github.com/martpie/museeks?tab=readme-ov-file#translations"
-appstream_xml_url = "https://raw.githubusercontent.com/martpie/museeks/refs/heads/master/src-tauri/release/flatpak.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/museeks/index.md"
 install_x86_64="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_amd64.AppImage"
 install_arm64="https://github.com/martpie/museeks/releases/download/0.23.4/Museeks_0.23.4_aarch64.AppImage"
 +++

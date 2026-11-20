@@ -16,6 +16,6 @@ repository = "https://github.com/RyanYuuki/AnymeX"
 bugtracker = "https://github.com/RyanYuuki/AnymeX/issues"
 donations = "https://ko-fi.com/ryanyuuki7"
 screenshots = "https://raw.githubusercontent.com/RyanYuuki/AnymeX/refs/heads/main/github_assets/desktop/preview_1.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/anymex/index.md"
 install_x86_64 = "https://github.com/RyanYuuki/AnymeX/releases/download/v3.2.0/AnymeX-Linux.AppImage"
 +++

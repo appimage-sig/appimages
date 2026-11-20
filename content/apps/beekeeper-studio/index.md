@@ -17,7 +17,7 @@ repository = "https://github.com/beekeeper-studio/beekeeper-studio"
 bugtracker = "https://github.com/beekeeper-studio/beekeeper-studio/issues"
 donations = "https://github.com/sponsors/beekeeper-studio"
 screenshots = "https://user-images.githubusercontent.com/279769/203650152-4a34af1f-8a38-47cf-a273-d34d1c84feeb.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.beekeeperstudio.Studio/refs/heads/master/io.beekeeperstudio.Studio.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/beekeeper-studio/index.md"
 install_x86_64="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.3.0/Beekeeper-Studio-6.3.0.AppImage"
 install_arm64="https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v6.3.0/Beekeeper-Studio-6.3.0-arm64.AppImage"
 +++

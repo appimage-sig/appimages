@@ -16,6 +16,6 @@ homepage = "http://theia-ide.org/"
 repository = "https://github.com/eclipse-theia/theia"
 bugtracker = "https://github.com/eclipse-theia/theia/issues"
 screenshots = "https://raw.githubusercontent.com/eclipse-theia/theia/master/doc/images/theia-screenshot.png"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/theia/index.md"
 install_x86_64="https://mirror.dkm.cz/eclipse/theia/ide/latest/linux/TheiaIDE.AppImage"
 +++

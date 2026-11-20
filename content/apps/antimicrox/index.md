@@ -17,6 +17,6 @@ repository = "https://github.com/AntiMicroX/antimicrox"
 bugtracker = "https://github.com/AntiMicroX/antimicrox/issues"
 translations = "https://hosted.weblate.org/engage/antimicrox"
 screenshots = "https://raw.githubusercontent.com/AntiMicroX/antimicrox/refs/heads/master/other/appdata/screenshots/app_light.png"
-appstream_xml_url = "https://raw.githubusercontent.com/AntiMicroX/antimicrox/refs/heads/master/other/appdata/io.github.antimicrox.antimicrox.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/antimicrox/index.md"
 install_x86_64 = "https://github.com/AntiMicroX/antimicrox/releases/download/3.6.2/AntiMicroX-debug-x86_64.AppImage"
 +++

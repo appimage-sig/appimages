@@ -16,6 +16,6 @@ homepage = "https://owncloud.com/desktop-app"
 repository = "https://github.com/owncloud/client"
 translations = "https://explore.transifex.com/owncloud-org/owncloud/"
 bugtracker = "https://github.com/owncloud/client/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/owncloud/index.md"
 install_x86_64="https://github.com/owncloud/client/releases/download/v7.1.1/ownCloud-7.1.1.19543-x86_64.AppImage"
 +++

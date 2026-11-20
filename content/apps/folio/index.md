@@ -16,6 +16,6 @@ repository = "https://github.com/toolstack/Folio"
 bugtracker = "https://github.com/toolstack/Folio/issues"
 translations = "https://localize.toolstack.com/projects/folio"
 screenshots = "https://raw.githubusercontent.com/toolstack/Folio/refs/heads/main/meta/folio-desktop.png"
-appstream_xml_url = "https://raw.githubusercontent.com/toolstack/Folio/refs/heads/main/data/app.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/folio/index.md"
 install_x86_64 = "https://github.com/toolstack/Folio/releases/download/26.01/Folio-26.01-x86_64.AppImage"
 +++

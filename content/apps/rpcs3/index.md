@@ -15,6 +15,6 @@ homepage = "https://rpcs3.net"
 repository = "https://github.com/RPCS3/rpcs3"
 donations = "https://www.patreon.com/Nekotekina"
 bugtracker = "https://github.com/RPCS3/rpcs3/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/RPCS3/rpcs3/refs/heads/master/rpcs3/rpcs3.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rpcs3/index.md"
 install_x86_64="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-8d6b42e78adae5cc4685b45ecf2f370273e91810/rpcs3-v0.0.43-20606-8d6b42e7_linux64.AppImage"
 +++

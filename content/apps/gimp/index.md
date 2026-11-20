@@ -18,7 +18,7 @@ bugtracker = "https://gitlab.gnome.org/GNOME/gimp/-/work_items/"
 donations = "https://www.gimp.org/donating"
 translations = "https://l10n.gnome.org/module/gimp/"
 screenshots = "https://www.gimp.org/screenshots/Screenshot-gimp-3.0-painting.jpg"
-appstream_xml_url = "https://gitlab.gnome.org/GNOME/gimp/-/raw/master/desktop/org.gimp.GIMP.appdata.xml.in.in.in?ref_type=heads"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gimp/index.md"
 install_x86_64 = "https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.8-x86_64.AppImage"
 install_arm64 = "https://download.gimp.org/gimp/v3.2/linux/GIMP-3.2.8-aarch64.AppImage"
 +++

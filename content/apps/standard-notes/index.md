@@ -16,7 +16,7 @@ homepage = "https://standardnotes.com/"
 repository = "https://github.com/standardnotes/app"
 donations = "https://github.com/sponsors/standardnotes"
 bugtracker = "https://github.com/standardnotes/forum/issues/"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/org.standardnotes.standardnotes/refs/heads/master/org.standardnotes.standardnotes.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/standard-notes/index.md"
 install_x86_64="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-linux-x86_64.AppImage"
 install_arm64="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.202.11/standard-notes-3.202.11-linux-arm64.AppImage"
 +++

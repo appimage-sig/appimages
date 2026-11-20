@@ -18,7 +18,7 @@ bugtracker = "https://github.com/RawTherapee/RawTherapee/issues"
 donations = "https://pixls.us/support"
 translations = "https://github.com/RawTherapee/RawTherapee/blob/dev/rtdata/languages/README"
 screenshots = ""
-appstream_xml_url = "https://raw.githubusercontent.com/RawTherapee/RawTherapee/refs/heads/dev/com.rawtherapee.RawTherapee.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rawtherapee/index.md"
 install_x86_64 = "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_x86_64_release.AppImage"
 install_arm64 = "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/RawTherapee_5.13_arm64_release.AppImage"
 +++

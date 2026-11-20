@@ -16,6 +16,6 @@ homepage = "https://archipelago.gg"
 repository = "https://github.com/ArchipelagoMW/Archipelago"
 bugtracker = "https://github.com/ArchipelagoMW/Archipelago/issues"
 screenshots = ""
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/archipelago/index.md"
 install_x86_64 = "https://github.com/ArchipelagoMW/Archipelago/releases/download/0.6.8/Archipelago_0.6.8_linux-x86_64.AppImage"
 +++

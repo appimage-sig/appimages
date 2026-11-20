@@ -17,6 +17,6 @@ repository = "https://github.com/libretro/RetroArch"
 donations = "https://github.com/sponsors/libretro"
 translations = "https://crowdin.com/project/retroarch"
 bugtracker = "https://github.com/libretro/RetroArch/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/ColinKinloch/RetroArch/refs/heads/master/com.libretro.RetroArch.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/retroarch/index.md"
 install_x86_64="https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch_Qt.7z"
 +++

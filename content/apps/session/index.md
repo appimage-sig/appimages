@@ -18,6 +18,6 @@ repository = "https://github.com/session-foundation/session-desktop"
 donations = "https://donorbox.org/optf-donation"
 translations = "https://crowdin.com/project/session-crossplatform-strings"
 bugtracker = "https://github.com/session-foundation/session-desktop/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/network.loki.Session/refs/heads/master/network.loki.Session.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/session/index.md"
 install_x86_64 = "https://github.com/session-foundation/session-desktop/releases/download/v1.18.4/session-desktop-linux-x86_64-1.18.4.AppImage"
 +++

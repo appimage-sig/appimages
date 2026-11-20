@@ -18,7 +18,7 @@ repository = "https://github.com/sqlitebrowser/sqlitebrowser"
 donations = "https://patreon.com/db4s"
 translations = "https://github.com/sqlitebrowser/sqlitebrowser/wiki/Translations"
 bugtracker = "https://github.com/sqlitebrowser/sqlitebrowser/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/sqlitebrowser/index.md"
 install_x86_64="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-d959b4d-x86.64.AppImage"
 install_arm64="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/continuous/DB.Browser.for.SQLCipher-dev-d959b4d-aarch64.AppImage"
 +++

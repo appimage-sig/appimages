@@ -17,7 +17,7 @@ repository = "https://github.com/ente-io/ente"
 translations = "https://crowdin.com/project/ente-photos-web"
 bugtracker = "https://github.com/ente-io/ente/issues"
 screenshots = "https://raw.githubusercontent.com/ente-io/ente/main/.github/assets/photos.png"
-appstream_xml_url = "https://raw.githubusercontent.com/ente-io/ente/refs/heads/main/desktop/build/io.ente.photos.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/ente-photos/index.md"
 install_x86_64="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-x86_64.AppImage"
 install_arm64="https://github.com/ente/photos-desktop/releases/download/v1.7.31/ente-1.7.31-arm64.AppImage"
 +++

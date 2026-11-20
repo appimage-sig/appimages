@@ -17,6 +17,6 @@ repository = "https://github.com/JannisX11/blockbench"
 bugtracker = "https://github.com/JannisX11/blockbench/issues"
 translations = "https://poeditor.com/join/project/EFP1ygSsn7"
 screenshots = "https://web.blockbench.net/content/front_page_app.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/net.blockbench.Blockbench/refs/heads/master/net.blockbench.Blockbench.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/blockbench/index.md"
 install_x86_64 = "https://github.com/JannisX11/blockbench/releases/download/v5.2.2/Blockbench_5.2.2.AppImage"
 +++

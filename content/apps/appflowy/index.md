@@ -18,6 +18,6 @@ bugtracker = "https://github.com/AppFlowy-IO/AppFlowy/issues"
 donations = "https://ko-fi.com/appflowy"
 translations = "https://fink.inlang.com/github.com/AppFlowy-IO/AppFlowy"
 screenshots = "https://raw.githubusercontent.com/AppFlowy-IO/appflowy/main/doc/imgs/welcome.png"
-appstream_xml_url = "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/refs/heads/main/frontend/scripts/flatpack-buildfiles/io.appflowy.AppFlowy.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/appflowy/index.md"
 install_x86_64 = "https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.15.1/AppFlowy-0.15.1-linux-x86_64.AppImage"
 +++

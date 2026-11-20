@@ -16,6 +16,6 @@ screenshots = "https://raw.githubusercontent.com/dail8859/NotepadNext/master/doc
 repository = "https://github.com/dail8859/NotepadNext"
 donations = "https://github.com/sponsors/dail8859"
 bugtracker = "https://github.com/dail8859/NotepadNext/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/dail8859/NotepadNext/refs/heads/master/deploy/linux/com.github.dail8859.NotepadNext.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/notepadnext/index.md"
 install_x86_64="https://github.com/dail8859/NotepadNext/releases/download/v0.15/NotepadNext-v0.15-x86_64.AppImage"
 +++

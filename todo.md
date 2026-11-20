@@ -48,7 +48,7 @@
   - [ ] [GitPulsar](https://gitlab.com/ilshat-apps/gitpulsar)
   - [ ] [GitWand](https://github.com/devlint/GitWand)
   - [x] [Goverlay](https://github.com/benjamimgois/goverlay/)
-  - [ ] [Greenlight](https://github.com/unknownskl/greenlight)
+  - [x] [Greenlight](https://github.com/unknownskl/greenlight)
   - [ ] [Handy](https://github.com/cjpais/Handy/)
   - [x] [Helium](https://github.com/imputnet/helium-linux/)
   - [ ] [Hology](https://id.hology.app/api/downloads/Hology-0.0.214.AppImage)

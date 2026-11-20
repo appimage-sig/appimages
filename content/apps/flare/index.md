@@ -16,6 +16,6 @@ repository = "https://github.com/flareteam/flare-game"
 translations = "https://explore.transifex.com/flareorg"
 screenshots = "https://raw.githubusercontent.com/flareteam/flare-game/refs/heads/master/distribution/screenshot1.jpg"
 bugtracker = "https://github.com/flareteam/flare-game/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/flareteam/flare-game/refs/heads/master/distribution/org.flarerpg.Flare.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/flare/index.md"
 install_x86_64="https://github.com/flareteam/flare-game/releases/download/v1.15/flare-linux64-v1.15.AppImage"
 +++

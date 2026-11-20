@@ -18,6 +18,6 @@ bugtracker = "https://inkscape.org/contribute/report-bugs"
 donations = "https://inkscape.org/support-us/donate"
 translations = "https://inkscape.org/contribute/translations"
 screenshots = "https://media.inkscape.org/media/resources/file/light-2.png"
-appstream_xml_url = "https://gitlab.com/inkscape/inkscape/-/raw/master/org.inkscape.Inkscape.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/inkscape/index.md"
 install_x86_64 = "https://inkscape.org/gallery/item/59506/Inkscape-1.4.4.AppImage"
 +++

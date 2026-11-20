@@ -17,7 +17,7 @@ homepage = "https://www.getrapidraw.com/"
 repository = "https://github.com/CyberTimon/RapidRAW"
 donations = "https://ko-fi.com/cybertimon"
 bugtracker = "https://github.com/CyberTimon/RapidRAW/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/CyberTimon/RapidRAW/refs/heads/main/data/io.github.CyberTimon.RapidRAW.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rapidrAW/index.md"
 install_x86_64="https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/03_RapidRAW_v1.6.9_ubuntu-22.04_amd64.AppImage"
 install_arm64="https://github.com/CyberTimon/RapidRAW/releases/download/v1.6.9/03_RapidRAW_v1.6.9_ubuntu-22.04-arm_aarch64.AppImage"
 +++

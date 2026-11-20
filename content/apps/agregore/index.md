@@ -16,6 +16,7 @@ homepage = "https://agregore.mauve.moe/"
 repository = "https://github.com/AgregoreWeb/agregore-browser"
 bugtracker = "https://github.com/AgregoreWeb/agregore-browser/issues"
 screenshots = "https://github.com/AgregoreWeb/agregore-browser/blob/master/agregore-demo-2.gif"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/agregore/index.md"
 install_x86_64 = "https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.24.0/agregore-browser-2.24.0-linux-x86_64.AppImage"
 install_arm64="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.24.0/agregore-browser-2.24.0-linux-arm64.AppImage"
 +++

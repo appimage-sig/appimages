@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 repository = "https://github.com/Equicord/Equibop"
 bugtracker = "https://github.com/Equicord/Equibop/issues"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/equibop/index.md"
 install_x86_64="https://github.com/Equicord/Equibop/releases/download/v3.3.4/Equibop-3.3.4.AppImage"
 install_arm64="https://github.com/Equicord/Equibop/releases/download/v3.3.4/Equibop-3.3.4-arm64.AppImage"
 +++

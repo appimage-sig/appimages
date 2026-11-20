@@ -17,7 +17,7 @@ repository = "https://github.com/rustdesk/rustdesk"
 donations = "https://github.com/sponsors/rustdesk"
 translations = "https://github.com/rustdesk/rustdesk/tree/master/src/lang"
 bugtracker = "https://github.com/rustdesk/rustdesk/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/rustdesk/rustdesk/refs/heads/master/flatpak/com.rustdesk.RustDesk.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/rustdesk/index.md"
 install_x86_64="https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-x86_64.AppImage"
 install_arm64="https://github.com/rustdesk/rustdesk/releases/download/1.5.3/rustdesk-1.5.3-aarch64.AppImage"
 +++

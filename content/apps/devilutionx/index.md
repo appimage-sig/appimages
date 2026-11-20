@@ -17,6 +17,6 @@ repository = "https://github.com/diasurgical/devilutionX"
 bugtracker = "https://github.com/diasurgical/devilutionX/issues"
 translations = "https://github.com/diasurgical/devilutionX/wiki/Translation-Guide"
 screenshots = "https://github.com/user-attachments/assets/db6e94b1-a98b-413d-a109-1fb77dda34bd"
-appstream_xml_url = "https://raw.githubusercontent.com/diasurgical/DevilutionX/refs/heads/master/Packaging/nix/devilutionx.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/devilutionx/index.md"
 install_x86_64 = "https://github.com/diasurgical/DevilutionX/releases/latest/download/devilutionx-linux-x86_64.AppImage"
 +++

@@ -19,7 +19,7 @@ cr=$(printf '\r')
 
 find "$SEARCH_DIR" -type f -name "index.md" | while IFS= read -r file; do
     # Ищем строку с ключом и разделителем '=' (исключая закомментированные строки)
-    line=$(grep -E '^[[:space:]]*appstream_xml_url[[:space:]]*=' "$file" | head -n 1)
+    line=$(grep -E '^[[:space:]]*metadata[[:space:]]*=' "$file" | head -n 1)
 
     if [ -z "$line" ]; then
         printf '%s\n' "$file" >>"$tmp_list"
@@ -39,11 +39,11 @@ find "$SEARCH_DIR" -type f -name "index.md" | while IFS= read -r file; do
 done
 
 if [ -s "$tmp_list" ]; then
-    echo "Файлы без заполненного appstream_xml_url:"
+    echo "Файлы без заполненного metadata:"
     cat "$tmp_list"
     missing_count=$(wc -l <"$tmp_list" | tr -d ' ')
 else
-    echo "Во всех проверенных файлах поле appstream_xml_url заполнено."
+    echo "Во всех проверенных файлах поле metadata заполнено."
 fi
 
 echo "----------------------------------------"

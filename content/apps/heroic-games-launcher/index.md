@@ -18,7 +18,7 @@ bugtracker = "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/issue
 donations = "https://patreon.com/heroicgameslauncher"
 translations = "https://hosted.weblate.org/projects/heroic-games-launcher"
 screenshots = "https://heroicgameslauncher.com/_next/static/images/01-home-350a8d44c674a888040a577e9656fecc.webp"
-appstream_xml_url = "https://raw.githubusercontent.com/Heroic-Games-Launcher/HeroicGamesLauncher/refs/heads/main/flatpak/templates/com.heroicgameslauncher.hgl.metainfo.xml.template"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/heroic-games-launcher/index.md"
 install_x86_64 = "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.4/Heroic-2.22.4-linux-x86_64.AppImage"
 install_arm64 = "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/releases/download/v2.22.4/Heroic-2.22.4-linux-arm64.AppImage"
 +++

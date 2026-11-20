@@ -14,7 +14,7 @@ license = ["GPL-3.0"]
 [extra]
 repository = "https://github.com/IsmaelMartinez/teams-for-linux/"
 bugtracker = "https://github.com/IsmaelMartinez/teams-for-linux/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/IsmaelMartinez/teams-for-linux/refs/heads/main/com.github.IsmaelMartinez.teams_for_linux.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps//index.md"
 install_x86_64="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.32.0/teams-for-linux-2.32.0-arm64.AppImage"
 install_arm64="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.32.0/teams-for-linux-2.32.0-arm64.AppImage"
 +++

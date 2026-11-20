@@ -18,6 +18,6 @@ repository = "https://github.com/PCSX2/pcsx2"
 donations = "https://github.com/sponsors/PCSX2"
 translations = "https://crowdin.com/project/pcsx2-emulator"
 bugtracker = "https://github.com/PCSX2/pcsx2/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/PCSX2/pcsx2/refs/heads/master/.github/workflows/scripts/linux/pcsx2-qt.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/pcsx2/index.md"
 install_x86_64="https://github.com/PCSX2/pcsx2/releases/download/v2.9.180/pcsx2-v2.9.180-linux-appimage-x64-Qt.AppImage"
 +++

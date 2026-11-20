@@ -9,7 +9,6 @@ content/apps/appflowy/io.appflowy.AppFlowy.metainfo.xml
 content/apps/audacity/org.audacityteam.Audacity.metainfo.xml
 content/apps/avidemux/org.avidemux.Avidemux.metainfo.xml
 content/apps/avogadro/org.openchemistry.Avogadro2.metainfo.xml
-content/apps/beavernotes/com.beavernotes.beavernotes.metainfo.xml
 content/apps/bforartists/de.bforartists.Bforartists.metainfo.xml
 content/apps/bitwarden/com.bitwarden.desktop.metainfo.xml
 content/apps/blockbench/net.blockbench.Blockbench.metainfo.xml
@@ -26,6 +25,7 @@ content/apps/converseen/net.fasterland.Converseen.metainfo.xml
 content/apps/cpeditor/io.github.cpeditor.cpeditor.metainfo.xml
 content/apps/cryptomator/org.cryptomator.Cryptomator.metainfo.xml
 content/apps/cura/com.ultimaker.Cura.metainfo.xml
+content/apps/lunarclient/com.lunarclient.LunarClient.metainfo.xml
 content/apps/cutter/re.rizin.cutter.metainfo.xml
 content/apps/darktable/org.darktable.darktable.metainfo.xml
 content/apps/dbgate/org.dbgate.DbGate.metainfo.xml
@@ -56,14 +56,17 @@ content/apps/gb-studio/dev.gbstudio.gb-studio.metainfo.xml
 content/apps/gdevelop/io.gdevelop.ide.metainfo.xml
 content/apps/gdm-settings/io.github.realmazharhussain.GdmSettings.metainfo.xml
 content/apps/gimp/org.gimp.GIMP.metainfo.xml
+content/apps/gitbutler/com.gitbutler.gitbutler.metainfo.xml
 content/apps/gitfourchette/org.gitfourchette.gitfourchette.metainfo.xml
 content/apps/glaxnimate/org.kde.glaxnimate.metainfo.xml
 content/apps/kopiaui/io.kopia.KopiaUI.metainfo.xml
 content/apps/goofcord/io.github.milkshiift.GoofCord.metainfo.xml
 content/apps/goverlay/io.github.benjamimgois.goverlay.metainfo.xml
 content/apps/headlamp/io.kinvolk.Headlamp.metainfo.xml
+content/apps/helio/fm.helio.Workstation.metainfo.xml
 content/apps/helix/com.helix_editor.Helix.metainfo.xml
 content/apps/hotspot/com.kdab.Hotspot.metainfo.xml
+content/apps/imhex/net.werwolv.ImHex.metainfo.xml
 content/apps/infinitv/io.github.infinitel8p.Extreme-InfiniTV.metainfo.xml
 content/apps/inkscape/org.inkscape.Inkscape.metainfo.xml
 content/apps/insomnia/rest.insomnia.Insomnia.metainfo.xml
@@ -82,10 +85,14 @@ content/apps/librecad/org.librecad.librecad.metainfo.xml
 content/apps/librewolf/io.gitlab.librewolf-community.metainfo.xml
 content/apps/lite-xl/com.lite_xl.LiteXL.metainfo.xml
 content/apps/lmms/io.lmms.LMMS.metainfo.xml
+content/apps/geeqie/org.geeqie.Geeqie.metainfo.xml.in
 content/apps/localsend/org.localsend.localsend_app.metainfo.xml
 content/apps/logseq/com.logseq.Logseq.metainfo.xml
 content/apps/losslesscut/no.mifi.losslesscut.metainfo.xml
+content/apps/lycheeslicer/io.mango3d.LycheeSlicer.metainfo.xml
+content/apps/dopamine/com.digimezzo.dopamine.metainfo.xml
 content/apps/makoureactor/io.github.myst6re.makoureactor.metainfo.xml
+content/apps/fluxer/app.fluxer.Fluxer.metainfo.xml
 content/apps/mqttx/com.emqx.MQTTX.metainfo.xml
 content/apps/museeks/io.museeks.app.metainfo.xml
 content/apps/musescore/org.musescore.MuseScore.metainfo.xml
@@ -98,6 +105,7 @@ content/apps/notes/io.github.nuttyartist.notes.metainfo.xml
 content/apps/notesnook/com.notesnook.Notesnook.metainfo.xml
 content/apps/nuclear/com.nuclearplayer.Nuclear.metainfo.xml
 content/apps/nvtop/io.github.syllo.nvtop.metainfo.xml
+content/apps/obsidian/md.obsidian.Obsidian.metainfo.xml
 content/apps/onekeepass/com.onekeepass.OneKeePass.metainfo.xml
 content/apps/onekey/so.onekey.Wallet.metainfo.xml
 content/apps/onlyoffice/org.onlyoffice.desktopeditors.metainfo.xml
@@ -159,3 +167,7 @@ content/apps/zen-browser/app.zen_browser.zen.metainfo.xml
 content/apps/zettlr/com.zettlr.Zettlr.metainfo.xml
 content/apps/ungoogled_chromium/io.github.ungoogled_software.ungoogled_chromium.metainfo.xml
 content/apps/heroic-games-launcher/com.heroicgameslauncher.hgl.metainfo.xml
+content/apps/helium/net.imput.helium.metainfo.xml
+content/apps/greenlight/io.github.unknownskl.greenlight.metainfo.xml
+content/apps/iptvnator/com.fourgray.iptvnator.metainfo.xml
+content/apps/beaver-notes/com.beavernotes.beavernotes.metainfo.xml

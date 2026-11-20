@@ -15,6 +15,6 @@ homepage = "https://xon.sh"
 repository = "https://github.com/xonsh/xonsh"
 donations = "https://github.com/sponsors/xonsh"
 bugtracker = "https://github.com/xonsh/xonsh/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/xonsh/xonsh/refs/heads/main/appimage/xonsh.appdata.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/xonsh/index.md"
 install_x86_64="https://github.com/xonsh/xonsh/releases/download/0.25.0/xonsh-x86_64.AppImage"
 +++

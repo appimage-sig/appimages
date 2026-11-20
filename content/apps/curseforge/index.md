@@ -14,6 +14,6 @@ license = ["EULA"]
 [extra]
 homepage = "https://www.curseforge.com"
 screenshots = "https://static-beta.curseforge.com/images/download-app/app-preview.webp"
-appstream_xml_url = ""
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/curseforge/index.md"
 install_x86_64 = "https://curseforge.overwolf.com/downloads/curseforge-latest-linux.AppImage"
 +++

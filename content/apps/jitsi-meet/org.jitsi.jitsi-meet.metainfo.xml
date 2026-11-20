@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id type="desktop">org.jitsi.jitsi-meet</id>
+    <launchable type="desktop-id">org.jitsi.jitsi-meet.desktop</launchable>
+    <name>Jitsi Meet</name>
+    <summary>Jitsi Meet - Secure, Simple and Scalable Video Conferences</summary>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>Apache-2.0</project_license>
+    <developer_name>Jitsi Team</developer_name>
+    <url type="homepage">https://jitsi.org</url>
+    <url type="vcs-browser">https://github.com/jitsi/jitsi-meet-electron</url>
+    <description>
+        <p>Jitsi Meet lets you stay in touch with all your teams, be they family, friends, or colleagues. Instant video conferences, efficiently adapting to your scale.</p>
+        <ul>
+            <li>Works with any Jitsi deployment.</li>
+            <li>Unlimited users: There are no artificial restrictions on the number of users or conference participants. Server power and bandwidth are the only limiting factors.</li>
+            <li>No account needed.</li>
+            <li>Lock-protected rooms: Control the access to your conferences with a password.</li>
+            <li>Encrypted by default.</li>
+            <li>Experimental End-to-End Encryption support for further enhanced security.</li>
+            <li>High quality: Audio and video are delivered with the clarity and richness of Opus, VP8, VP9, AV1.</li>
+            <li>Web browser ready: No downloads are required of your friends to join the conversation. Jitsi Meet works directly within their browsers as well. Simply share your conference URL with others to get started.</li>
+            <li>100% open source: Powered by awesome communities from all over the world. And your friends at 8x8.</li>
+            <li>Invite by pretty URLs: You can meet at the easy to remember https://MySite.com/OurConf of your choice instead of joining the hard to remember rooms with seemingly random sequences of numbers and letters in their names.</li>
+            <li>Support for jitsi-meet:// URLs, for linking directly to conversations.</li>
+        </ul>
+    </description>
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/5b4f9a951b2722df8b0de9fb8a4542b4c6257908/screenshot_linux.png</image>
+            <caption>Jitsi Meet launch window with input to join a meeting and recent meetings saved locally.</caption>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="2026.10.0" date="2026-10-21">
+            <description></description>
+        </release>
+        <release version="2026.8.0" date="2026-08-04">
+            <description/>
+        </release>
+        <release version="2026.7.0" date="2026-07-11">
+            <description/>
+        </release>
+        <release version="2026.6.0" date="2026-05-31">
+            <description/>
+        </release>
+        <release version="2026.5.0" date="2026-05-11">
+            <description/>
+        </release>
+        <release version="2026.4.0" date="2026-03-31">
+            <description/>
+        </release>
+        <release version="2026.1.1" date="2026-02-09">
+            <description/>
+        </release>
+        <release version="2025.10.0" date="2025-10-04">
+            <description/>
+        </release>
+        <release version="2025.9.1" date="2025-09-04">
+            <description/>
+        </release>
+        <release version="2025.8.1" date="2025-08-24">
+            <description/>
+        </release>
+        <release version="2025.4.0" date="2025-04-15">
+            <description/>
+        </release>
+        <release version="2025.2.0" date="2025-02-13">
+            <description/>
+        </release>
+        <release version="2025.1.1" date="2025-01-15">
+            <description/>
+        </release>
+        <release version="2025.1.0" date="2025-01-11">
+            <description/>
+        </release>
+        <release version="2024.10.0" date="2024-10-06">
+            <description/>
+        </release>
+        <release version="2024.6.0" date="2024-06-12">
+            <description/>
+        </release>
+        <release version="2024.5.0" date="2024-05-11"/>
+        <release version="2024.3.0" date="2024-03-09"/>
+        <release version="2024.1.0" date="2024-01-13"/>
+        <release version="2023.11.3" date="2023-11-24"/>
+        <release version="2023.11.2" date="2023-11-23"/>
+        <release version="2023.11.0" date="2023-11-11"/>
+        <release version="2023.10.0" date="2023-10-02"/>
+        <release version="2023.9.1" date="2023-09-16"/>
+        <release version="2023.9.0" date="2023-09-05"/>
+        <release version="2023.8.0" date="2023-08-26"/>
+        <release version="2023.7.2" date="2023-07-17"/>
+        <release version="2023.7.1" date="2023-07-14"/>
+        <release version="2023.7.0" date="2023-07-04"/>
+        <release version="2023.5.3" date="2023-05-26"/>
+        <release version="2023.5.2" date="2023-05-25"/>
+        <release version="2023.5.1" date="2023-05-22"/>
+        <release version="2023.5.0" date="2023-05-10"/>
+        <release version="2023.2.0" date="2023-02-03"/>
+        <release version="2023.1.2" date="2023-01-24"/>
+        <release version="2023.1.1" date="2023-01-20"/>
+        <release version="2023.1.0" date="2023-01-16"/>
+        <release version="2022.12.0" date="2022-12-11"/>
+        <release version="2022.11.0" date="2022-11-20"/>
+        <release version="2022.10.1" date="2022-10-19"/>
+        <release version="2022.9.1" date="2022-09-24"/>
+        <release version="2022.8.1" date="2022-08-12"/>
+        <release version="2022.7.1" date="2022-07-21"/>
+        <release version="2022.6.1" date="2022-06-27"/>
+        <release version="2022.4.1" date="2022-04-28"/>
+        <release version="2022.3.1" date="2022-03-09"/>
+        <release version="2022.2.1" date="2022-02-18"/>
+        <release version="2022.1.1" date="2022-01-05"/>
+        <release version="2021.12.2" date="2021-12-03"/>
+        <release version="2021.12.1" date="2021-12-01"/>
+        <release version="2021.11.2" date="2021-11-06"/>
+        <release version="2021.11.1" date="2021-11-04"/>
+        <release version="2.9.1" date="2021-10-19"/>
+        <release version="2.9.0" date="2021-09-21"/>
+        <release version="2.8.12" date="2021-09-14"/>
+        <release version="2.8.11" date="2021-08-28"/>
+        <release version="2.8.10" date="2021-08-11"/>
+        <release version="2.8.9" date="2021-07-26"/>
+        <release version="2.8.8" date="2021-07-01"/>
+        <release version="2.8.7" date="2021-06-26"/>
+        <release version="2.8.6" date="2021-05-07"/>
+        <release version="2.8.5" date="2021-04-14"/>
+        <release version="2.8.4" date="2021-03-30"/>
+        <release version="2.8.3" date="2021-03-24"/>
+        <release version="2.8.2" date="2021-03-24"/>
+        <release version="2.8.1" date="2021-03-24"/>
+        <release version="2.8.0" date="2021-03-24"/>
+        <release version="2.7.1" date="2021-03-12"/>
+        <release version="2.7.0" date="2021-03-10"/>
+        <release version="2.6.1" date="2021-03-05"/>
+        <release version="2.6.0" date="2021-03-04"/>
+        <release version="2.5.1" date="2021-02-23"/>
+        <release version="2.4.2" date="2020-10-29"/>
+        <release version="2.4.1" date="2020-10-02"/>
+        <release version="2.4.0" date="2020-09-25"/>
+    </releases>
+    <content_rating type="oars-1.1">
+        <content_attribute id="social-chat">moderate</content_attribute>
+        <content_attribute id="social-audio">moderate</content_attribute>
+    </content_rating>
+</component>

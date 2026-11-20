@@ -17,6 +17,6 @@ repository = "https://github.com/scribusproject/scribus"
 bugtracker = "http://bugs.scribus.net"
 translations = "https://explore.transifex.com/scribus/scribus"
 screenshots = "https://a.fsdn.com/con/app/proj/scribus/screenshots/Scribus_170_dark-theme-da248d2a.png/max/max/1"
-appstream_xml_url = "https://raw.githubusercontent.com/scribusproject/scribus/refs/heads/master/scribus.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/scribus/index.md"
 install_x86_64="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.4/scribus-1.7.4-linux-x86_64.AppImage/download"
 +++

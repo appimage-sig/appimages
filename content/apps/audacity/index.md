@@ -17,7 +17,7 @@ repository = "https://github.com/audacity/audacity"
 bugtracker = "https://github.com/audacity/audacity/issues"
 translations = "https://explore.transifex.com/audacity/audacity"
 screenshots = ""
-appstream_xml_url = "https://raw.githubusercontent.com/audacity/audacity/refs/heads/master/buildscripts/packaging/Linux%2BBSD/org.audacityteam.Audacity.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/audacity/index.md"
 install_x86_64 = "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage"
 +++
 

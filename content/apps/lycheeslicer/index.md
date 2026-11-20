@@ -13,6 +13,6 @@ license = ["EULA"]
 [extra]
 homepage = "https://mango3d.io/resin-sla-msla-3d-printers"
 screenshots = "https://raw.githubusercontent.com/flathub/io.mango3d.LycheeSlicer/master/screenshots/screenshot2.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/io.mango3d.LycheeSlicer/refs/heads/master/io.mango3d.LycheeSlicer.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/lycheeslicer/index.md"
 install_x86_64 = "https://mango-lychee.nyc3.cdn.digitaloceanspaces.com/LycheeSlicer-8.0.5-linux-x86_64.GLIBC-235.AppImage"
 +++

@@ -15,6 +15,6 @@ license = ["MIT"]
 homepage = "https://lite-xl.com"
 repository = "https://github.com/lite-xl/lite-xl"
 bugtracker = "https://github.com/lite-xl/lite-xl/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/lite-xl/lite-xl/refs/heads/master/resources/linux/com.lite_xl.LiteXL.metainfo.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/lite-xl/index.md"
 install_x86_64="https://github.com/lite-xl/lite-xl/releases/download/v2.1.8/LiteXL-v2.1.8-addons-x86_64.AppImage"
 +++

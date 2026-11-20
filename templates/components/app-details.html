@@ -77,7 +77,7 @@
   </dl>
 
   {# Сворачиваемая секция: Source information #}
-  {% set has_appstream = page.extra.appstream_xml_url is defined and page.extra.appstream_xml_url %}
+  {% set has_appstream = page.extra.metadata is defined and page.extra.metadata %}
   {% if has_appstream or page.date %}
   <details class="app-details__accordion" open>
     <summary class="app-details__summary">
@@ -86,11 +86,11 @@
     </summary>
     <dl class="app-details__list app-details__list--nested">
       {% if has_appstream %}
-        {% set meta_label = page.extra.appstream_xml_url | replace(from="https://www.", to="") | replace(from="http://www.", to="") | replace(from="https://", to="") | replace(from="http://", to="") %}
+        {% set meta_label = page.extra.metadata | replace(from="https://www.", to="") | replace(from="http://www.", to="") | replace(from="https://", to="") | replace(from="http://", to="") %}
         <div class="app-details__row">
           <dt class="app-details__label">Metadata source</dt>
           <dd class="app-details__value app-details__value--wrap">
-            <a href="{{ page.extra.appstream_xml_url }}" target="_blank" rel="noopener noreferrer">{{ meta_label }}</a>
+            <a href="{{ page.extra.metadata }}" target="_blank" rel="noopener noreferrer">{{ meta_label }}</a>
           </dd>
         </div>
       {% endif %}

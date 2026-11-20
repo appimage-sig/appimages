@@ -17,7 +17,7 @@ homepage = "https://xournalpp.github.io"
 repository = "https://github.com/xournalpp/xournalpp"
 translations = "https://crowdin.com/project/xournalpp"
 bugtracker = "https://github.com/xournalpp/xournalpp/issues"
-appstream_xml_url = "https://raw.githubusercontent.com/xournalpp/xournalpp/refs/heads/master/resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/xournalpp/index.md"
 install_x86_64="https://github.com/xournalpp/xournalpp/releases/download/v1.3.8/xournalpp-1.3.8-x86_64.AppImage"
 install_arm64="https://github.com/xournalpp/xournalpp/releases/download/v1.3.8/xournalpp-1.3.8-aarch64.AppImage"
 +++

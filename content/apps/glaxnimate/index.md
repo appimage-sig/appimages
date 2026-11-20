@@ -18,6 +18,6 @@ bugtracker = "https://bugs.kde.org/enter_bug.cgi?product=glaxnimate"
 donations = "https://www.kde.org/community/donations/?app=glaxnimate"
 translations = "https://l10n.kde.org"
 screenshots = "https://glaxnimate.org/images/screenshots/main_window/main_window.png"
-appstream_xml_url = "https://invent.kde.org/graphics/glaxnimate/-/raw/master/deploy/org.kde.glaxnimate.metainfo.xml?ref_type=heads"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/glaxnimate/index.md"
 install_x86_64 = "https://download.kde.org/stable/glaxnimate/0.6.0/linux/glaxnimate-0.6.0-x86_64.AppImage"
 +++

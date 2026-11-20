@@ -17,7 +17,7 @@ repository = "https://github.com/chrismaltby/gb-studio"
 bugtracker = "https://github.com/chrismaltby/gb-studio/issues"
 translations = "https://github.com/chrismaltby/gb-studio/blob/develop/src/lang/README.md"
 screenshots = "https://img.itch.zone/aW1hZ2UvNDA3NTgxLzE2NjA2NDc3LnBuZw==/original/4JNF5q.png"
-appstream_xml_url = "https://raw.githubusercontent.com/flathub/dev.gbstudio.gb-studio/refs/heads/master/dev.gbstudio.gb-studio.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/gb-studio/index.md"
 install_x86_64 = "https://github.com/chrismaltby/gb-studio/releases/latest/download/gb-studio-linux.AppImage"
 install_arm64 = "https://github.com/chrismaltby/gb-studio/releases/download/v4.3.2/gb-studio-linux-arm64.AppImage"
 +++

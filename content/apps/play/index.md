@@ -17,6 +17,6 @@ homepage = "https://purei.org"
 repository = "https://github.com/jpd002/Play-"
 donations = "https://github.com/sponsors/jpd002"
 bugtracker = "https://github.com/jpd002/Play-/issues/new"
-appstream_xml_url = "https://raw.githubusercontent.com/jpd002/Play-/refs/heads/master/installer_unix/org.purei.Play.metainfo.xml"
+metadata = "https://github.com/appimage-sig/appimages/blob/main/content/apps/play/index.md"
 install_x86_64="https://purei.org/downloads/play/stable/0.72/Play!-8de4a71f-x86_64.AppImage"
 +++
